@@ -83,3 +83,24 @@ Delivered after the `DA_TOKEN` refresh: 49 images + 2 logo SVGs to `media/wd/`, 
 6. **Build-side settle:** the published origin is a real lazy/autoplay site — `gate.sh` captures the build without `--settle`, so the hero rested on slide 1 vs live's slide 2. Both sides captured with `--settle` for the recorded numbers.
 
 Evidence: `stardust/replica/gates/<slug>-<w>/published.png`, `diff-published3.png` (home, press release), `diff-published5.png` (corporate), `gate-published*.txt`, `content-diff-published*.txt`.
+
+## Listing archetype (`/products/hdd/internal-hdd`) — conversion, 2026-09-18
+
+Prototype gate 0.85 % / 2.22 % (stardust/prototypes/listing-proposed.html). Blocks (names locked; EW1–EW10; `stardust/eds-schema/listing.json`):
+
+| block | tier | authoring shape | notes |
+|---|---|---|---|
+| `category-banner` | template-slotted | one row `picture \| h1 p p<a>`; variant `templated` | picture → background layer; mobile hides the bg (capture-state); `templated` swaps the h1 from `?filterBy…` ("Hard Drives for {use case}" / "{range}  Hard Drives") |
+| `category-shortcuts` | reconstructive | one row per card `picture \| p<strong><a>Title</a></strong> p` | card-as-link (EW6); 84px icon on the grey tile |
+| `use-case-chips` | reconstructive | one row `p \| ul>li>a` | nowrap chip row; label shrinks to its longest word at 360 (measured) |
+| `product-listing` | **API-fed** (dynamics row 14 → client-rendered/self) | config rows `key \| value` (`categories`, `condition`, `page-size`, `sort`, `filters`, `category-tree`, `deals`) + tile rows `picture \| name \| capacity \| price \| link [\| badge]` (the captured page 1 = content-bearing fallback) | `scripts/wd-commerce.js` search API; URL contract `?filterBy<Facet>=<value>&page=N&sort=code` (same as the storefront); facets, count, pagination, sort rendered from the payload; tiles link absolute to the storefront PDP; Compare = captured label (aria-disabled); mobile Shop/Filter buttons toggle the rail |
+| `split-band use-case` (variant) | reconstructive | rows `picture \| h3 p ul… p<em><a>Shop…</a></em> p<a>Learn More</a>` on section style `light` | 992px centred rows, 300px r16 photos, outlined CTA + blue link; **fixed a latent split-band bug**: a band opening with a heading (no eyebrow) left the heading outside `.band-body` |
+| `resource-cards` | reconstructive | one row per card, one cell `h3 p p<a>`; h2 head = default content (D1) | grey r16 cards 3-up |
+| `faq open-first` | reconstructive | rows `p question \| answer` ; h2 head = default content | the section is the grey box (5/12 head · 7/12 list); first item open (captured state); no motion observed → instant toggle; the 3 hidden per-use-case FAQ variants of the live page are NOT authored (capture-state duplicates; block-roundtrip "4 prototype sections vs 1 block" is this decision) |
+| `buy-direct` | reconstructive | one row per item `picture \| h3 p [p<a>]`; h2 + footnote = default content | grey strip, 4 items space-evenly |
+
+Decisions: breadcrumb reused (own block, same section as `product-listing`); `.section.light` (#f9f9f9) appended to styles.css; page assets rehosted (11 new media/wd entries: banner, 3 shortcut icons, 3 band photos, 4 SVG icons — pure vector, 2.4–8.6 KB); product tile images stay absolute (commerce assets); Sign-in/cart/PDP/compare stay on the storefront.
+
+Gates: `davids-model-lint` PASS 0 🔴 (5 🟡: breadcrumb block as before; `product-listing` mixed 2/5/6-cell rows = config + data table by design; `resource-cards` genuine widget; SVG batch verified). `block-roundtrip --ew`: static blocks ✓ closed, EW 87/87 editable, 0 dead; `product-listing` EW 73/73 editable but its round-trip cannot run in that harness (block imports `/scripts/wd-commerce.js`; the harness inlines JS — N-26) → verified on the dev-server harness instead: API live, 15 tiles, "30 Items", 9 facets, 2 pages, 0 console errors. Harness read vs cached live captures: **1440 1.34 % Δ-1 · 360 2.94 % Δ-1** (one hot band: 3rd band photo crop at 360).
+
+`localize-links` (whole tree) also rewrote `content/nav.html` (Products → Internal HDDs now relative) — nav must be re-delivered with the page (N-27).

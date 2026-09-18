@@ -27,12 +27,13 @@ export default function decorate(block) {
       body.className = 'band-body';
       const kids = [...textCell.children];
       const first = kids[0];
-      if (first && first.tagName === 'P' && !first.querySelector('a')) { const eyebrow = document.createElement('div'); eyebrow.className = 'eyebrow'; eyebrow.append(first); body.append(eyebrow); }
+      const hasEyebrow = !!(first && first.tagName === 'P' && !first.querySelector('a')); // eyebrow only when the band opens with a plain <p>
+      if (hasEyebrow) { const eyebrow = document.createElement('div'); eyebrow.className = 'eyebrow'; eyebrow.append(first); body.append(eyebrow); }
       const col = document.createElement('div');
       col.className = 'textcolumn';
       const actions = document.createElement('div');
       actions.className = 'actions';
-      kids.slice(first && !first.querySelector('a') ? 1 : 0).forEach((k) => {
+      kids.slice(hasEyebrow ? 1 : 0).forEach((k) => {
         if (/^H[1-6]$/.test(k.tagName)) { const t = document.createElement('div'); t.className = 'title'; t.append(k); body.append(t); }
         else if (k.tagName === 'P' && k.querySelector('a')) {
           const a = k.querySelector('a');

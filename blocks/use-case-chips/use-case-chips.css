@@ -1,0 +1,12 @@
+/* use-case-chips — values lifted from stardust/prototypes/listing.css (.clp-usecase) */
+main .use-case-chips-container { padding: 16px 0; border-bottom: 1px solid rgb(0 0 0 / 10%); }
+main .use-case-chips-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.use-case-chips .chips-row { display: flex; align-items: center; }
+.use-case-chips .chips-label { flex: 0 1 auto; min-width: 0; padding-right: 16px; color: var(--color-text-grey3); } /* shrinks to its longest word at 360 (live: 56px, 4 lines) */
+.use-case-chips .chips-label p { margin: 0; font-size: 16px; line-height: 24px; }
+.use-case-chips .chips-list ul { display: flex; margin: 0; padding: 0; list-style: none; }
+.use-case-chips .chips-list li { flex: 0 0 auto; }
+.use-case-chips a.chip:any-link { display: inline-block; padding: 8px 12px; margin-right: 16px; border: 1px solid var(--color-text-grey3); border-radius: var(--radius-button); font-size: 16px; line-height: 16px; color: var(--color-black); white-space: nowrap; }
+/* live: the chip row never wraps — the label shrinks to its longest word and the chips overflow the viewport at 360 (clipped) */
+.use-case-chips .chips-list { flex: 0 0 auto; }
+@media (width < 768px) { .use-case-chips .chips-row { overflow: hidden; } }

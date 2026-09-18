@@ -355,3 +355,6 @@ main .section.dark .default-content-wrapper p.button-wrapper { max-width: none; 
 a .prosemirror-editor a:any-link { color: inherit; text-decoration: none; }
 main :is(.section.dark, .on-media) .prosemirror-editor p > em > a:any-link { border-color: var(--color-white); color: var(--color-white); }
 main :is(.section.dark, .on-media) .prosemirror-editor p > strong > a:any-link { border-color: var(--color-white); background: var(--color-white); color: var(--color-black); }
+
+/* section style `light` — the commerce listing's #f9f9f9 bands ground (listing archetype) */
+main .section.light { background: #f9f9f9; }

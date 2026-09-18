@@ -1,0 +1,25 @@
+/* buy-direct — values lifted from stardust/prototypes/listing.css (.clp-buy) */
+main .buy-direct-container { padding: 24px 0; background: var(--color-surface); text-align: center; }
+main .buy-direct-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+main .buy-direct-container .default-content-wrapper h2 { margin: 0 0 16px; padding: 0 24px; font-size: 28px; line-height: 30.8px; font-weight: 700; }
+main .buy-direct-container .default-content-wrapper p { margin: 0; font-size: 16px; line-height: 24px; }
+main .buy-direct-container .buy-direct-wrapper { padding-top: 16px; }
+.buy-direct .buy-row { display: flex; flex-wrap: wrap; justify-content: space-evenly; }
+.buy-direct .buy-item { width: 100%; max-width: 175px; padding: 0 8px; margin-bottom: 32px; }
+.buy-direct .buy-item--first { padding: 0; }
+.buy-direct .buy-img { height: 84px; }
+.buy-direct .buy-img picture { display: block; line-height: 0; }
+.buy-direct .buy-img img { display: block; width: 76px; height: 76px; margin: 0 auto 8px; }
+.buy-direct .buy-title { padding-bottom: 8px; }
+.buy-direct .buy-title h3 { margin: 0 0 8px; font-size: 18px; line-height: 19.8px; font-weight: 500; }
+.buy-direct .buy-text p { margin: 0; font-size: 16px; line-height: 24px; }
+.buy-direct .buy-text p.buy-cta { height: 28px; }
+.buy-direct .buy-text p.buy-cta a:any-link { display: inline-block; margin-top: 8px; font-size: 16px; line-height: 16px; font-weight: 500; text-decoration: underline; color: var(--color-black); }
+
+@media (width >= 768px) {
+  main .buy-direct-container { padding: 32px 0; }
+  main .buy-direct-container .default-content-wrapper h2 { font-size: 34px; line-height: 37.4px; }
+  main .buy-direct-container .buy-direct-wrapper { padding-top: 24px; }
+  .buy-direct .buy-item, .buy-direct .buy-item--first { max-width: 250px; padding: 0 8px; }
+  .buy-direct .buy-title h3 { font-size: 20px; line-height: 22px; }
+}

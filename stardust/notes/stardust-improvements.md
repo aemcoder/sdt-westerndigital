@@ -170,3 +170,18 @@ the order they were discovered.
 
 - **What happened:** a scratch document used to probe the pipeline could be deleted from DA (204) but not removed from the preview origin (403 on `DELETE /preview/...` and `/live/...`), so it lingers at `/stardust-nbsp-test` on aem.page.
 - **Suggested change:** deploy's "scratch probe" advice should use a dedicated `stardust-scratch/` folder and tell the operator to unpublish via the da.live UI / sidekick, or avoid previewing scratch docs at all when the token cannot unpreview.
+
+## N-25 — diff visual-diff writes `qa/vdiff` at the PROJECT ROOT (write-boundary bug)
+
+- **What happened:** after the published-origin content/visual probes a `qa/vdiff/` folder appeared at the repo root (untracked). The master skill's write boundary reserves the root `qa/` for the EDS project; stardust run residue belongs under `stardust/.work/<skill>/`.
+- **Suggested change:** visual-diff's default output dir → `stardust/.work/diff/vdiff/` (or honour `--out`), and add `qa/vdiff` to the residue list the skills reap.
+
+## N-26 — deploy block-roundtrip: the harness inlines block JS and cannot resolve `import` — API-fed blocks are unverifiable there
+
+- **What happened:** `product-listing` (imports `/scripts/wd-commerce.js`, the cross-block client AGENTS.md mandates under `/scripts/`) and `category-banner` (imported the param parser) both reported "block JS failed to install"; the raw rows then false-diffed as 43 structural reds (facet options and pagination that the API renders at runtime). Inlining the 6-line parser fixed category-banner; the API client cannot be inlined per block without duplicating it.
+- **Suggested change:** run block JS as real ES modules in the round-trip harness (serve the repo root with a dev server and load the page, like the deploy harness does) and let a block declare `@runtime-data` sections (API-fed) that the round-trip skips instead of red-flagging; keep the static blocks' round-trip as is.
+
+## N-27 — deploy: `localize-links.mjs` is whole-tree by design — a new page re-touches already-delivered docs
+
+- **What happened:** localizing the listing page also rewrote `content/nav.html` (the Products menu link to the new page became relative), so the nav document needs re-delivery — easy to miss when the operator's mental model is "I only added one page".
+- **Suggested change:** the script should print the list of FILES it modified (not only link targets) and deploy's per-page brief should say "re-PUT every file localize-links touched".

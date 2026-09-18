@@ -1,0 +1,20 @@
+/* category-banner — values lifted from stardust/prototypes/listing.css (.clp-hero) */
+main .category-banner-container > div { max-width: none; padding: 0; }
+.category-banner { position: relative; color: var(--color-white); }
+.category-banner .banner-bg { position: absolute; inset: 0; overflow: hidden; }
+.category-banner .banner-bg :is(picture, img) { display: block; width: 100%; height: 100%; }
+.category-banner .banner-bg img { object-fit: cover; object-position: 50% 50%; }
+.category-banner .contain { position: relative; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.category-banner .banner-copy { padding: 24px 0; }
+.category-banner h1 { margin: 0 0 8px; font-size: 32px; line-height: 35.2px; font-weight: 700; color: var(--color-white); }
+.category-banner p { margin: 0; font-size: 16px; line-height: 24px; }
+.category-banner p.banner-cta { margin-top: 16px; height: 20px; line-height: 20px; }
+.category-banner p.banner-cta a:any-link { display: inline-flex; vertical-align: top; font-size: 16px; line-height: 16px; text-decoration: underline; color: var(--color-white); }
+
+/* capture-state: the live lazyload class never lands on mobile — no hero image below 768px */
+@media (width < 768px) { .category-banner .banner-bg { display: none; } .category-banner { color: var(--color-white); } }
+
+@media (width >= 768px) {
+  .category-banner h1 { font-size: 36px; line-height: 39.6px; }
+  .category-banner .banner-copy { width: 50%; padding: 64px 64px 64px 0; }
+}

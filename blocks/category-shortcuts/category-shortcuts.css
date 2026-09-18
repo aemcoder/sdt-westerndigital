@@ -1,0 +1,20 @@
+/* category-shortcuts — values lifted from stardust/prototypes/listing.css (.clp-cats) */
+main .category-shortcuts-container { background: #f9f9f9; padding: 24px 0; }
+main .category-shortcuts-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.category-shortcuts .shortcuts-row { display: flex; flex-wrap: wrap; }
+.category-shortcuts .shortcut-cell { width: 100%; margin-bottom: 16px; }
+.category-shortcuts .shortcut-cell:last-child { margin-bottom: 0; }
+.category-shortcuts .shortcut { display: flex; align-items: center; padding: 16px; background: var(--color-white); border-radius: var(--radius-card); color: var(--color-black); }
+.category-shortcuts .shortcut picture { display: block; flex: 0 0 auto; line-height: 0; }
+.category-shortcuts .shortcut img { display: block; box-sizing: border-box; width: 84px; height: 84px; padding: 12px; margin-right: 24px; background: var(--color-surface); border-radius: 12px; }
+.category-shortcuts .shortcut-text p { margin: 0; font-size: 16px; line-height: 24px; }
+.category-shortcuts .shortcut-text p:first-child { margin-bottom: 8px; font-size: 20px; line-height: 22px; font-weight: 700; }
+.category-shortcuts .shortcut-text strong { font-weight: 700; }
+
+@media (width >= 768px) {
+  main .category-shortcuts-container { padding: 32px 0; }
+  .category-shortcuts .shortcuts-row { margin: 0 -12px; }
+  .category-shortcuts .shortcut-cell { width: 33.3333%; padding: 0 12px; margin-bottom: 0; }
+  .category-shortcuts .shortcut { padding: 24px 32px; }
+  .category-shortcuts .shortcut-text p:first-child { font-size: 24px; line-height: 26.4px; }
+}

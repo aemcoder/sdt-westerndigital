@@ -1,0 +1,25 @@
+/* resource-cards — values lifted from stardust/prototypes/listing.css (.clp-res-head / .clp-resources) */
+main .resource-cards-container { padding-top: 48px; }
+main .resource-cards-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+main .resource-cards-container .default-content-wrapper { text-align: center; }
+main .resource-cards-container .default-content-wrapper h2 { margin-bottom: 16px; font-size: 32px; line-height: 35.2px; font-weight: 700; }
+main .resource-cards-container .resource-cards-wrapper { padding: 32px var(--gutter); }
+.resource-cards .res-row { display: flex; flex-wrap: wrap; margin-bottom: -16px; }
+.resource-cards .res-cell { width: 100%; margin-bottom: 16px; }
+.resource-cards .res-card { height: 100%; padding: 0 16px; background: var(--color-surface); border-radius: var(--radius-card); overflow: hidden; }
+.resource-cards .res-card h3 { margin: 0 0 16px; font-size: 24px; line-height: 26.4px; font-weight: 700; }
+.resource-cards .res-card p { margin: 0; font-size: 16px; line-height: 24px; }
+.resource-cards .res-card p.res-cta { height: 43px; }
+.resource-cards .res-card p.res-cta a:any-link { display: inline-flex; margin-top: 24px; font-size: 14px; line-height: 14px; text-decoration: underline; color: var(--color-black); }
+
+@media (width >= 768px) {
+  main .resource-cards-container { padding-top: 64px; }
+  main .resource-cards-container .default-content-wrapper h2 { font-size: 48px; line-height: 52.8px; }
+  main .resource-cards-container .resource-cards-wrapper { padding: 48px var(--gutter); }
+  .resource-cards .res-row { margin: 0 -12px -16px; }
+  .resource-cards .res-cell { width: 33.3333%; padding: 0 12px; }
+  .resource-cards .res-card { padding: 40px; }
+  .resource-cards .res-card h3 { font-size: 28px; line-height: 30.8px; }
+  .resource-cards .res-card p.res-cta { height: 44px; }
+  .resource-cards .res-card p.res-cta a:any-link { font-size: 16px; line-height: 16px; }
+}
