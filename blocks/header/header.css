@@ -1,14 +1,9 @@
 /* header — westerndigital.com chrome (values lifted from stardust/prototypes/canon.css) */
 header .header {
-  position: sticky;
-  top: 0;
-  z-index: 11;
+  position: relative;
   background: var(--color-white);
   width: 100%;
-}
-
-body.minHeader header .header { top: -40px; } /* scrolled state: promo bar off-screen, nav row pinned (measured live) */
-body.has-subnav header .header { top: auto; } /* program pages: header scrolls away; the sub-nav pins instead */
+} /* stickiness lives on the <header> host element (styles.css) — a sticky child cannot stick inside a 97px parent */
 
 header nav#nav { border-bottom: 1px solid var(--color-border-light); }
 header nav#nav .contain {

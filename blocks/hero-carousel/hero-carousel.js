@@ -7,8 +7,7 @@
  *   tab rows   — 2 cells, no picture: <p>tab title</p> | <p>tab description</p>
  * Template-slotted (node slotting, EW1): authored elements are MOVED into the slide/tab templates.
  * Live behaviour (stardust/replica/motion/home.json): progress items are role=button; click → is-active on
- * the item and the track moves; autoplay every 5 s with the fill width transitioning; slide 2 rests first
- * (the captured state). Clones are presentational (no text, stripInstrumentation — EW4).
+ * the item and the track moves; autoplay every 5 s with the fill width transitioning; starts on slide 1 like live. Clones are presentational (no text, stripInstrumentation — EW4).
  * @ew-exempt none — every authored text is moved.
  */
 function stripInstrumentation(el) {
@@ -101,7 +100,7 @@ export default function decorate(block) {
   block.replaceChildren(track, progress);
 
   // state machine
-  let active = Math.min(1, n - 1);
+  let active = 0; // live: slide 1 at load, autoplay reaches slide 2 by ~5 s (the gate capture state)
   const INTERVAL = 5000;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let started = 0;

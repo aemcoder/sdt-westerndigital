@@ -59,7 +59,10 @@ export default async function decorate(block) {
   nav.id = 'nav';
   nav.className = 'header-inner';
   const sections = [];
-  while (fragment.firstElementChild) sections.push(fragment.firstElementChild);
+  while (fragment.firstElementChild) sections.push(fragment.removeChild(fragment.firstElementChild));
+  sections.forEach((section) => {
+    section.querySelectorAll(':scope > .default-content-wrapper').forEach((w) => w.replaceWith(...w.childNodes));
+  });
   const [promo, brand, links, tools] = sections;
 
   // 1. promo bar — 40px, dark ground; the two authored <p>s move into text / links slots

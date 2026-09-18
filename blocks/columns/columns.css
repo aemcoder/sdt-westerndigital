@@ -15,7 +15,7 @@ main .columns-container.business .columns-wrapper + .default-content-wrapper p.b
 .columns.media-cards .columns-row { margin: 0; }
 .columns.media-cards .columns-col { padding: 0; margin-bottom: 16px; }
 .columns.media-cards .media-card .media picture, .columns.media-cards .media-card .media img { display: block; width: 100%; height: auto; object-fit: cover; border-radius: 20px; }
-.columns.media-cards .media-card .media p { margin: 0; line-height: 0; }
+.columns.media-cards .media-card .media :is(p, picture) { display: block; margin: 0; line-height: 0; }
 .columns.media-cards .media-card-text { padding: 16px 24px; }
 .columns.media-cards .media-card-text h3 { font-size: 32px; line-height: 35.2px; font-weight: 700; margin-bottom: 16px; }
 .columns.media-cards .media-card-text p { font-size: 16px; line-height: 24px; }
@@ -30,7 +30,7 @@ main .columns-container.press-release-body { padding: 24px 0; }
 .columns.press-release .textcolumn ul li { margin-bottom: 12px; }
 .columns.press-release .textcolumn ul li p, .columns.press-release .textcolumn ul li p:last-child { margin-bottom: 20px; }
 .columns.press-release .textcolumn a:any-link { color: var(--color-link-alt); text-decoration: underline; line-height: 16px; position: relative; }
-.columns.press-release .pr-aside { width: 100%; margin-top: 48px; }
+.columns.press-release .pr-aside { width: 100%; margin-top: 48px; padding-bottom: 16px; } /* live .mb-4 on the contacts column */
 .columns.press-release .pr-aside h2 { font-size: 20px; line-height: 22px; font-weight: 500; margin-bottom: 16px; }
 .columns.press-release .pr-aside p { margin-bottom: 0; }
 .columns.press-release .pr-aside p:has(a) a:any-link { color: var(--color-link); }

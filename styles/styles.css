@@ -108,9 +108,15 @@ body.appear {
 }
 
 header {
+  position: sticky; /* the live chrome is sticky at the top; the block inside can't stick within a 97px parent */
+  top: 0;
+  z-index: 11;
   height: var(--nav-height);
   background: var(--color-white);
 }
+
+body.minHeader header { top: -40px; } /* scrolled state (measured): promo bar off-screen, nav row pinned */
+body.has-subnav header { position: relative; top: auto; } /* program pages: header scrolls away, the sub-nav pins */
 
 header .header,
 footer .footer {

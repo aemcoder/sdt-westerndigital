@@ -23,7 +23,7 @@ footer .footer-col ul, footer .footer-col .fc-block { display: flow-root; } /* A
 footer .footer-col ul li { font-size: 16px; line-height: 19.2px; color: var(--color-text-muted); margin-bottom: 20px; }
 footer .footer-col ul li a:any-link { line-height: 16px; }
 footer .footer-col .fc-block > p { margin: 48px 0 32px; font-size: 16px; line-height: 24px; }
-footer .footer-social { display: flex; align-items: flex-start; margin: 32px 0 40px; height: 28px; }
+footer .footer ul.footer-social { display: flex; align-items: flex-start; margin: 32px 0 40px; height: 28px; } /* out-specifies the footer ul margin reset */
 footer .footer-social li { margin: 0 28px 0 0; color: var(--color-white); line-height: 0; }
 footer .footer-social li:last-child { margin-right: 0; }
 footer .footer-social a:any-link { display: block; width: 24px; height: 27px; color: var(--color-white); }

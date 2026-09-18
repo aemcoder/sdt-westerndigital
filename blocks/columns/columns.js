@@ -14,6 +14,14 @@ export default function decorate(block) {
     row.classList.add('columns-row');
     [...row.children].forEach((cell, i) => {
       cell.classList.add('columns-col');
+      // #104 — wrapTextNodes folds a media-led cell (<picture> followed by anything) into ONE <p>: expand it back
+      if (cell.children.length === 1 && cell.firstElementChild.tagName === 'P' && cell.firstElementChild.querySelector('picture, img') && cell.firstElementChild.children.length > 1) {
+        const wrapper = cell.firstElementChild;
+        const media = wrapper.querySelector('picture, img');
+        const mediaP = document.createElement('p'); mediaP.append(media.closest('picture') || media);
+        cell.append(mediaP, ...[...wrapper.childNodes].filter((n) => n.nodeType === 1 || n.textContent.trim()));
+        wrapper.remove();
+      }
       const pic = cell.querySelector('picture, img');
       if (block.classList.contains('media-cards')) {
         const card = document.createElement('div');

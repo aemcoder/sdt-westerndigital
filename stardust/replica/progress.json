@@ -1,44 +1,307 @@
 {
-  "_provenance": { "writtenBy": "stardust:replica (Phase 4 ledger)", "writtenAt": "2026-09-18T10:30:00Z", "againstInput": "https://www.westerndigital.com/", "regime": "prototype (standalone prototype vs live), published-origin numbers added at Phase 5" },
+  "_provenance": {
+    "writtenBy": "stardust:replica (Phase 4 ledger)",
+    "writtenAt": "2026-09-18T10:30:00Z",
+    "againstInput": "https://www.westerndigital.com/",
+    "regime": "prototype (standalone prototype vs live), published-origin numbers added at Phase 5"
+  },
   "contentRoot": ".mainContainWrap",
-  "liveHitBudget": { "note": "live captures cached per breakpoint (live.png, anchor-live.json, chrome-live.json); content/visual probes at iteration 1 and final only" },
+  "liveHitBudget": {
+    "note": "live captures cached per breakpoint (live.png, anchor-live.json, chrome-live.json); content/visual probes at iteration 1 and final only"
+  },
   "pages": [
     {
-      "pageType": "landing", "archetype": "home", "liveUrl": "https://www.westerndigital.com/", "prototype": "stardust/prototypes/home-proposed.html",
+      "pageType": "landing",
+      "archetype": "home",
+      "liveUrl": "https://www.westerndigital.com/",
+      "prototype": "stardust/prototypes/home-proposed.html",
       "breakpoints": {
-        "1440": { "iterations": 4, "iterationLog": ["iter1 10.66% Δ4 (hero autoplay slide + header scroll morph)", "iter2 1.09% Δ4 (darken-left scrim, slide 2 at rest, body.minHeader top:-40 measured)", "iter3 1.09% no-op font-stack re-verify (burned, byte-identical)", "final 0.94% Δ0 (footer BFC containment) → final2 0.60% Δ0 after motion/fluid changes"],
-                  "result": { "structuralRed": 0, "visualFlags": "0", "pixelPct": 0.60, "heightDelta": 0, "chromeHeaderPct": 0.27, "chromeFooterPct": 0.42, "pass": true },
-                  "justified": [ { "probe": "content", "flag": "🟡 MISSING BODY ×~70", "why": "live inline <style> blocks, hidden compare-tray strings (Select options / Add to Compare / OK) and Splide clone copies classified as body text; the build carries no inline CSS text" } ],
-                  "residuals": [ { "region": "bottom-right 65×65 at every 900px seam", "pct": 0.37, "cause": "capture-state: Genesys live-chat launcher (fixed iframe, dynamics row 20, embed not loaded)", "flaggedFor": "delivery" },
-                                 { "region": "hero 97–847", "pct": 0.11, "cause": "nondeterministic: Splide autoplay — live capture rests on slide 2 (progress bar tick timing); prototype rests on the same slide; a different capture may show another slide", "flaggedFor": "user" } ],
-                  "captureState": [ { "what": "Ethisphere footer badge lazyloaded (loaded in gate captures, alt-text in the crawl screenshot)", "where": "footer" } ] },
-        "360":  { "iterations": 2, "iterationLog": ["iter1 2.56% Δ4", "iter2 2.28% Δ4 (logo centring)", "final 1.47% Δ0 (footer region/legal parity)"],
-                  "result": { "structuralRed": 0, "visualFlags": "0", "pixelPct": 1.47, "heightDelta": 0, "chromeHeaderPct": 1.05, "chromeFooterPct": 1.29, "pass": true }, "justified": [], "residuals": [ { "region": "chat launcher", "pct": 0.3, "cause": "capture-state (see 1440)", "flaggedFor": "delivery" } ] },
-        "1920": { "boxCheck": "doc height 6396 = live 6396; category 785, business 978, about 621, footer y 5633 all equal after encoding the .contain steps (992/1140/1464) and % columns" }
+        "360": {
+          "iterations": 2,
+          "iterationLog": [
+            "iter1 2.56% Δ4",
+            "iter2 2.28% Δ4 (logo centring)",
+            "final 1.47% Δ0 (footer region/legal parity)"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "0",
+            "pixelPct": 1.47,
+            "heightDelta": 0,
+            "chromeHeaderPct": 1.05,
+            "chromeFooterPct": 1.29,
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [
+            {
+              "region": "chat launcher",
+              "pct": 0.3,
+              "cause": "capture-state (see 1440)",
+              "flaggedFor": "delivery"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 4,
+          "iterationLog": [
+            "iter1 10.66% Δ4 (hero autoplay slide + header scroll morph)",
+            "iter2 1.09% Δ4 (darken-left scrim, slide 2 at rest, body.minHeader top:-40 measured)",
+            "iter3 1.09% no-op font-stack re-verify (burned, byte-identical)",
+            "final 0.94% Δ0 (footer BFC containment) → final2 0.60% Δ0 after motion/fluid changes"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.6,
+            "heightDelta": 0,
+            "chromeHeaderPct": 0.27,
+            "chromeFooterPct": 0.42,
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content",
+              "flag": "🟡 MISSING BODY ×~70",
+              "why": "live inline <style> blocks, hidden compare-tray strings (Select options / Add to Compare / OK) and Splide clone copies classified as body text; the build carries no inline CSS text"
+            }
+          ],
+          "residuals": [
+            {
+              "region": "bottom-right 65×65 at every 900px seam",
+              "pct": 0.37,
+              "cause": "capture-state: Genesys live-chat launcher (fixed iframe, dynamics row 20, embed not loaded)",
+              "flaggedFor": "delivery"
+            },
+            {
+              "region": "hero 97–847",
+              "pct": 0.11,
+              "cause": "nondeterministic: Splide autoplay — live capture rests on slide 2 (progress bar tick timing); prototype rests on the same slide; a different capture may show another slide",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "Ethisphere footer badge lazyloaded (loaded in gate captures, alt-text in the crawl screenshot)",
+              "where": "footer"
+            }
+          ]
+        },
+        "1920": {
+          "boxCheck": "doc height 6396 = live 6396; category 785, business 978, about 621, footer y 5633 all equal after encoding the .contain steps (992/1140/1464) and % columns"
+        }
       },
-      "motion": { "observed": ["body.minHeader added at scrollY>0 → header sticky top:-40px (chrome-scroll-probe, motion-observe)", "hero progress items: click → is-active/is-prev/is-next class mutations + track transform; autoplay progress fill width transition 0.2s linear", "card rails: Splide --scroll draggable, no arrows"], "implemented": ["minHeader scroll state (canon.js)", "hero carousel state machine: click/keyboard on progress items, 5s autoplay with fill transition, reduced-motion pause (canon.js)", "rails as horizontally scrollable tracks (scrollbar hidden, snap)"], "dead": ["a.btn hover (no computed change measured)", "section.darken-bottom card hover (no change)"] }
+      "motion": {
+        "observed": [
+          "body.minHeader added at scrollY>0 → header sticky top:-40px (chrome-scroll-probe, motion-observe)",
+          "hero progress items: click → is-active/is-prev/is-next class mutations + track transform; autoplay progress fill width transition 0.2s linear",
+          "card rails: Splide --scroll draggable, no arrows"
+        ],
+        "implemented": [
+          "minHeader scroll state (canon.js)",
+          "hero carousel state machine: click/keyboard on progress items, 5s autoplay with fill transition, reduced-motion pause (canon.js)",
+          "rails as horizontally scrollable tracks (scrollbar hidden, snap)"
+        ],
+        "dead": [
+          "a.btn hover (no computed change measured)",
+          "section.darken-bottom card hover (no change)"
+        ]
+      }
     },
     {
-      "pageType": "article", "archetype": "press-release", "liveUrl": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure", "prototype": "stardust/prototypes/press-release-proposed.html",
+      "pageType": "article",
+      "archetype": "press-release",
+      "liveUrl": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+      "prototype": "stardust/prototypes/press-release-proposed.html",
       "breakpoints": {
-        "1440": { "iterations": 2, "iterationLog": ["iter1 8.25% Δ44 (li>p margin collapse)", "iter2 1.32% Δ4", "final 0.32% Δ0"], "result": { "structuralRed": 0, "visualFlags": "0", "pixelPct": 0.32, "heightDelta": 0, "chromeHeaderPct": 0.27, "chromeFooterPct": 0.41, "pass": true },
-                  "justified": [ { "probe": "content", "flag": "🟡 MISSING BODY ×6", "why": "inline <style> text, hidden ISO timestamp span, compare-tray strings" } ], "residuals": [ { "region": "chat launcher", "pct": 0.4, "cause": "capture-state", "flaggedFor": "delivery" } ] },
-        "360":  { "iterations": 2, "iterationLog": ["iter1 10.48% Δ-7 (crumb line-height 24 vs 14)", "iter2 2.17% Δ3", "final 1.15% Δ-1"], "result": { "structuralRed": 0, "visualFlags": "0", "pixelPct": 1.15, "heightDelta": -1, "chromeHeaderPct": 1.05, "chromeFooterPct": 1.64, "pass": true }, "justified": [], "residuals": [] }
+        "360": {
+          "iterations": 2,
+          "iterationLog": [
+            "iter1 10.48% Δ-7 (crumb line-height 24 vs 14)",
+            "iter2 2.17% Δ3",
+            "final 1.15% Δ-1"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "0",
+            "pixelPct": 1.15,
+            "heightDelta": -1,
+            "chromeHeaderPct": 1.05,
+            "chromeFooterPct": 1.64,
+            "pass": true
+          },
+          "justified": [],
+          "residuals": []
+        },
+        "1440": {
+          "iterations": 2,
+          "iterationLog": [
+            "iter1 8.25% Δ44 (li>p margin collapse)",
+            "iter2 1.32% Δ4",
+            "final 0.32% Δ0"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.32,
+            "heightDelta": 0,
+            "chromeHeaderPct": 0.27,
+            "chromeFooterPct": 0.41,
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content",
+              "flag": "🟡 MISSING BODY ×6",
+              "why": "inline <style> text, hidden ISO timestamp span, compare-tray strings"
+            }
+          ],
+          "residuals": [
+            {
+              "region": "chat launcher",
+              "pct": 0.4,
+              "cause": "capture-state",
+              "flaggedFor": "delivery"
+            }
+          ]
+        }
       },
-      "motion": { "observed": ["header top transition (minHeader)"], "implemented": ["minHeader scroll state"], "dead": [] }
+      "motion": {
+        "observed": [
+          "header top transition (minHeader)"
+        ],
+        "implemented": [
+          "minHeader scroll state"
+        ],
+        "dead": []
+      }
     },
     {
-      "pageType": "program", "archetype": "corporate-responsibility", "liveUrl": "https://www.westerndigital.com/company/corporate-responsibility", "prototype": "stardust/prototypes/corporate-responsibility-proposed.html",
+      "pageType": "program",
+      "archetype": "corporate-responsibility",
+      "liveUrl": "https://www.westerndigital.com/company/corporate-responsibility",
+      "prototype": "stardust/prototypes/corporate-responsibility-proposed.html",
       "breakpoints": {
-        "1440": { "iterations": 5, "overCap": "iter3 was a byte-identical no-op (font-stack local() mirror) and iter4/iter5 fixed content-fidelity defects found by the gate (truncated dump text → verbatim richtext incl. 16 &nbsp; entities; malformed tag from the byte-mirroring script). Recorded honestly as over the 3-iteration cap: the inputs (a 400-char dump truncation) were wrong upstream, not the method.",
-                  "iterationLog": ["iter1 21.35% Δ-21 (paragraph text invented beyond the dump truncation; header scroll morph)", "iter2 16.91% Δ27 (sub-nav sticky-stuck + header top:auto measured)", "iter3 16.91% no-op", "iter4 13.58% Δ7 (nbsp byte mirror, one malformed tag)", "iter5 1.09% Δ24 (tag fix)", "final 0.32% Δ-1 (footer)", "final2 0.29% Δ-1"],
-                  "result": { "structuralRed": 0, "visualFlags": "0", "pixelPct": 0.29, "heightDelta": -1, "chromeHeaderPct": 0.27, "chromeFooterPct": 1.39, "pass": true },
-                  "justified": [ { "probe": "content", "flag": "🟡 MISSING BODY ×21", "why": "inline <style> text + compare-tray strings" } ], "residuals": [ { "region": "chat launcher", "pct": 0.3, "cause": "capture-state", "flaggedFor": "delivery" } ] },
-        "360":  { "iterations": 2, "iterationLog": ["iter1 1.63% Δ3", "iter2 1.61% Δ3", "final 1.12% Δ-1"], "result": { "structuralRed": 0, "visualFlags": "0", "pixelPct": 1.12, "heightDelta": -1, "chromeHeaderPct": 1.05, "chromeFooterPct": 1.79, "pass": true }, "justified": [], "residuals": [] }
+        "360": {
+          "iterations": 2,
+          "iterationLog": [
+            "iter1 1.63% Δ3",
+            "iter2 1.61% Δ3",
+            "final 1.12% Δ-1"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "0",
+            "pixelPct": 1.12,
+            "heightDelta": -1,
+            "chromeHeaderPct": 1.05,
+            "chromeFooterPct": 1.79,
+            "pass": true
+          },
+          "justified": [],
+          "residuals": []
+        },
+        "1440": {
+          "iterations": 5,
+          "overCap": "iter3 was a byte-identical no-op (font-stack local() mirror) and iter4/iter5 fixed content-fidelity defects found by the gate (truncated dump text → verbatim richtext incl. 16 &nbsp; entities; malformed tag from the byte-mirroring script). Recorded honestly as over the 3-iteration cap: the inputs (a 400-char dump truncation) were wrong upstream, not the method.",
+          "iterationLog": [
+            "iter1 21.35% Δ-21 (paragraph text invented beyond the dump truncation; header scroll morph)",
+            "iter2 16.91% Δ27 (sub-nav sticky-stuck + header top:auto measured)",
+            "iter3 16.91% no-op",
+            "iter4 13.58% Δ7 (nbsp byte mirror, one malformed tag)",
+            "iter5 1.09% Δ24 (tag fix)",
+            "final 0.32% Δ-1 (footer)",
+            "final2 0.29% Δ-1"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.29,
+            "heightDelta": -1,
+            "chromeHeaderPct": 0.27,
+            "chromeFooterPct": 1.39,
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content",
+              "flag": "🟡 MISSING BODY ×21",
+              "why": "inline <style> text + compare-tray strings"
+            }
+          ],
+          "residuals": [
+            {
+              "region": "chat launcher",
+              "pct": 0.3,
+              "cause": "capture-state",
+              "flaggedFor": "delivery"
+            }
+          ]
+        }
       },
-      "motion": { "observed": ["#sticky-nav gains sticky-stuck at scrollY≥97 → position:fixed top:0 (header never pinned: top:auto)", "a.link-cta border-color transitions (no hover change measured)"], "implemented": ["sticky-stuck sub-nav state machine (canon.js) with the measured fixed-state layout (items flush left at x=80)"], "dead": ["a.link-cta hover", "a.btn hover"] }
+      "motion": {
+        "observed": [
+          "#sticky-nav gains sticky-stuck at scrollY≥97 → position:fixed top:0 (header never pinned: top:auto)",
+          "a.link-cta border-color transitions (no hover change measured)"
+        ],
+        "implemented": [
+          "sticky-stuck sub-nav state machine (canon.js) with the measured fixed-state layout (items flush left at x=80)"
+        ],
+        "dead": [
+          "a.link-cta hover",
+          "a.btn hover"
+        ]
+      }
     }
   ],
-  "fonts": { "policy": "same public source — Roboto 300/400/500/700 woff2 from static.westerndigital.com (Apache 2.0), self-hosted; @font-face mirrors the live local() preference" },
-  "instruments": { "projectOwned": ["stardust/scripts/replica/css-lift.mjs", "stardust/scripts/replica/section-dump.mjs", "stardust/scripts/replica/dump-outline.mjs", "stardust/scripts/replica/chrome-scroll-probe.mjs"], "shipped": "unmodified copies of replica/, diff/, deploy/, dynamics/ scripts" }
+  "fonts": {
+    "policy": "same public source — Roboto 300/400/500/700 woff2 from static.westerndigital.com (Apache 2.0), self-hosted; @font-face mirrors the live local() preference"
+  },
+  "instruments": {
+    "projectOwned": [
+      "stardust/scripts/replica/css-lift.mjs",
+      "stardust/scripts/replica/section-dump.mjs",
+      "stardust/scripts/replica/dump-outline.mjs",
+      "stardust/scripts/replica/chrome-scroll-probe.mjs"
+    ],
+    "shipped": "unmodified copies of replica/, diff/, deploy/, dynamics/ scripts"
+  },
+  "edsHarness": {
+    "regime": "pre-delivery EDS harness (aem up --html-folder content, live chrome fragments, section styles applied) vs cached live captures — advisory",
+    "measuredAt": "2026-09-18T09:20:46.082Z",
+    "home": {
+      "360": {
+        "pixelPct": 1.64,
+        "heightDelta": 0
+      },
+      "1440": {
+        "pixelPct": 0.83,
+        "heightDelta": 0
+      }
+    },
+    "press-release": {
+      "360": {
+        "pixelPct": 1.18,
+        "heightDelta": -1
+      },
+      "1440": {
+        "pixelPct": 0.35,
+        "heightDelta": 0
+      }
+    },
+    "corporate-responsibility": {
+      "360": {
+        "pixelPct": 1.81,
+        "heightDelta": -5
+      },
+      "1440": {
+        "pixelPct": 1.22,
+        "heightDelta": -5
+      }
+    }
+  },
+  "publishedOrigin": {
+    "status": "pending",
+    "blocker": "DA_TOKEN expired 2026-09-18T08:44Z — run stardust/.work/deploy/deliver.sh after refreshing the token, then gate.sh <slug> <live> https://main--sdt-westerndigital--aemcoder.aem.page/<path> 1440|360"
+  }
 }

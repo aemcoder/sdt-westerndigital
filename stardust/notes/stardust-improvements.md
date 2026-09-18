@@ -121,3 +121,23 @@ the order they were discovered.
 
 - **What happened:** ~70 of 77 home findings were `<style>` blocks (AEM per-section background CSS) and hidden compare-tray/quick-view strings classified as body text on the live side.
 - **Suggested change:** exclude `style`/`script`/`template` text from the inventory (D15 already forbids it in the build), and label hidden-DOM findings separately so the reviewer sees "hidden parity" vs "visible copy" at a glance.
+
+## N-15 — deploy: `build-harness.mjs` leaves `section-metadata` blocks in the DOM and drops their styles
+
+- **What happened:** on the harness every styled section carried a 48px phantom `section-metadata` wrapper (the runtime tried to load a `section-metadata` block and 404ed) and none of the `style` classes (`surface`, `dark`, …) were applied — section heights were +48 and grounds white. The pipeline does both transforms server-side.
+- **Suggested change:** have `build-harness.mjs` emulate the pipeline: strip the `section-metadata` block and add its `style` value as classes on the section div (other keys as `data-*`). A 20-line post-process; without it the harness pixel read is meaningless for styled sections.
+
+## N-16 — deploy: the chrome briefs should state that `loadFragment` decorates the fragment
+
+- **What happened:** the `/nav` and `/footer` documents arrive with each section's prose wrapped in `.default-content-wrapper`; a template-slotted header/footer that iterates `section.children` sees one DIV per section and slots nothing. Recorded in two blocks in one run.
+- **Suggested change:** Step 6 of the deploy skill: "unwrap `:scope > .default-content-wrapper` before reading a fragment section", plus a note that `while (frag.firstElementChild) arr.push(frag.firstElementChild)` never terminates (the child must be removed).
+
+## N-17 — deploy: sticky/fixed chrome must be applied to the `<header>` host, not the block
+
+- **What happened:** `header .header { position: sticky }` cannot stick — the host `<header>` is only `--nav-height` tall, so the sticky child has no scroll range; the scroll-state morph (`body.minHeader`) silently did nothing on the EDS page while the prototype (a body-level `header.header`) worked. Found only by the harness pixel read (seam repeats missing).
+- **Suggested change:** in Step 6 / the header brief: "position the `<header>` element itself (styles.css) for sticky chrome; the block paints the inside".
+
+## N-18 — deploy: `npm run lint` is unavailable in a run that relies on a `--no-save` Playwright
+
+- **What happened:** the boilerplate's `eslint` needs devDependencies (`@babel/core`) that a real `npm i` would install — but that `npm i` prunes the `--no-save` Playwright every gate depends on (extract SKILL.md § Setup already warns). So lint never runs in a stardust deploy run.
+- **Suggested change:** install Playwright as a real devDependency in the project (or into `stardust/.work/node_modules` with `NODE_PATH`), so `npm i` is safe and lint can run in the loop.

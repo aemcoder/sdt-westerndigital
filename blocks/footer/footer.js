@@ -38,7 +38,11 @@ export default async function decorate(block) {
 
   block.textContent = '';
   const sections = [];
-  while (fragment.firstElementChild) sections.push(fragment.firstElementChild);
+  while (fragment.firstElementChild) sections.push(fragment.removeChild(fragment.firstElementChild));
+  // the fragment loader decorates sections: unwrap `.default-content-wrapper` so the authored p/ul are direct children
+  sections.forEach((section) => {
+    section.querySelectorAll(':scope > .default-content-wrapper').forEach((w) => w.replaceWith(...w.childNodes));
+  });
   const top = sections[0];
   const legal = sections[sections.length - 1];
   const cols = sections.slice(1, -1);

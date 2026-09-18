@@ -46,3 +46,19 @@
 - Fixed-asset grep (`localhost`, `aem.page/img`) — empty. SVG assets pure-vector (0 `<image>`, 0 data URIs), 0.7–4 KB.
 - `node --check` on every block — clean. `eslint` not run: the boilerplate's devDependencies are not installed in this checkout (a real `npm i` would prune the `--no-save` Playwright the gates depend on); run `npm i && npm run lint` in CI.
 - Local QA harness (`aem up` + `qa-gate.mjs`) deferred to the published-origin gate: the deployed computed-style guard supersedes it and the harness needs the content on DA.
+
+## Harness pre-delivery read (aem dev server + `build-harnesses.sh`, live chrome fragments, section styles applied by index)
+Advisory numbers — the published-origin gate is the one that counts. EDS harness vs the cached live captures:
+
+| page | 1440 | 360 |
+|---|---|---|
+| home | 0.83 % · Δ0 | 1.64 % · Δ0 |
+| press release | 0.35 % · Δ0 | 1.18 % · Δ-1 |
+| corporate responsibility | 1.22 % · Δ-5 | 1.81 % · Δ-5 |
+
+Defects the harness caught before delivery (all fixed in code):
+- header/footer `while (fragment.firstElementChild) sections.push(…)` never removed the child → infinite push (`Invalid array length`); the fragment loader also wraps each section's prose in `.default-content-wrapper`, so both chrome blocks unwrap it before slotting.
+- `columns media-cards`: `wrapTextNodes` (#104) folds the media-led cell into one `<p>` — the block expands it back.
+- stickiness must live on the `<header>` host element (a sticky child cannot stick inside a 97px parent); `body.minHeader header { top:-40px }`, `body.has-subnav header { position: relative }`.
+- card scrim `::before` must sit above the media layer (`z-index`), rail heads span the viewport at 360 (`:not(:has(.cards.tiles))`), footer social margins needed higher specificity than the `footer .footer ul` reset, badge/logo images are block-level.
+- Harness-only artefacts (not defects): `section-metadata` blocks stay in the DOM on the harness (48px phantom wrapper each) — the pipeline removes them server-side; the harness script strips them and applies the style classes by section index.

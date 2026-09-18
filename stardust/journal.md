@@ -72,3 +72,26 @@ file of general stardust improvements.
 **Next:** Phase 5 — deploy the three archetypes to EDS (blocks, nav/footer docs, DA upload, published-origin gate).
 
 ---
+## 2026-09-18T11:50:00Z — Phase 5: EDS conversion done; DA delivery blocked on the expired token
+
+**Prompt:** (continuation) deploy the three gated archetypes to EDS.
+
+**Decisions:**
+- Block inventory locked (see `stardust/eds-conversion-log.md`): header, footer, hero-carousel, category-tabs, cards ×4 variants, columns ×2 variants, split-band, photo-hero, subnav, breadcrumb; corporate CTA band as default content with the `dark` section style.
+- Hidden commerce quick-view content and hero clone text deliberately not authored (decided-out / #100) — recorded as gate deviations, not accidents.
+- Images rehosted to DA `media/wd/<basename>` (49 + 2 logo SVGs) — upload script ready, blocked on the token.
+- Code pushed to `main`; Code Sync serves the blocks. Pre-delivery harness read: 0.35–1.81 % vs live at both breakpoints.
+
+**Artifacts touched:**
+- `styles/styles.css`, `styles/fonts.css`, `fonts/`, `favicon.ico`, `blocks/*` (10 blocks), `content/**` (5 docs) — created/updated
+- `stardust/runtime-contract.json`, `stardust/eds-conversion-log.md`, `stardust/eds-schema/*.json` — created
+- `stardust/.work/deploy/{gen-content.mjs,upload-media.sh,deliver.sh,build-harnesses.sh,media-map.json}` — run scripts
+- `stardust/replica/progress.json` (edsHarness + publishedOrigin.pending), `stardust/status.jsonl` (blocked line) — updated
+
+**Findings worth flagging:** N-15…N-18 in `stardust/notes/stardust-improvements.md` (harness section-metadata phantom, fragment wrappers, sticky host, lint vs `--no-save` Playwright).
+
+**Open questions:** none new — the DA token refresh is the one external dependency.
+
+**Next:** refresh `DA_TOKEN`, run `stardust/.work/deploy/deliver.sh`, then the published-origin gate per archetype and breakpoint; then user review before any rollout wave.
+
+---
