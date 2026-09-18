@@ -36,7 +36,7 @@ header .nav-tools { display: flex; align-items: center; gap: 16px; height: 50px;
 header .nav-tools a:any-link { display: flex; align-items: center; color: var(--color-black); }
 header .nav-tools svg { display: block; }
 header .nav-tool-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-header .nav-tool-sign { display: none; }
+header .nav-tools a.nav-tool-sign:any-link { display: none; } /* mobile hides Sign in (measured); must out-specify the a:any-link flex rule above */
 
 /* sections (mega menu) — mobile: full-screen panel */
 header .nav-sections { display: none; }
@@ -65,7 +65,7 @@ header .nav-col > ul > li > a:any-link { display: block; padding: 8px 0; font-si
   header .nav-hamburger { display: none; }
   header .nav-brand { position: static; transform: none; height: 56px; width: 139px; flex: 0 0 auto; }
   header .nav-tools { height: 56px; width: 139px; gap: 20px; justify-content: flex-end; }
-  header .nav-tool-sign { display: flex; }
+  header .nav-tools a.nav-tool-sign:any-link { display: flex; }
   header .nav-sections { display: block; flex: 1 1 auto; height: 56px; }
   header nav[aria-expanded="true"] .nav-sections { position: static; inset: auto; padding: 0; overflow: visible; }
   header .nav-sections > ul { display: flex; justify-content: center; align-items: center; height: 56px; margin: 0 -16px; }

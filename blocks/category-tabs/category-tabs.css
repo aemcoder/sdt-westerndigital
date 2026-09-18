@@ -14,7 +14,7 @@ main .category-tabs-container .default-content-wrapper h1 { font-size: 32px; lin
 .category-tabs .tile a:any-link { display: block; color: var(--color-black); }
 .category-tabs .tile picture { display: block; }
 .category-tabs .tile img { display: block; width: 100%; height: auto; margin: 0 auto 16px; max-height: 200px; }
-.category-tabs .tile p { font-size: 18px; line-height: 19.8px; font-weight: 700; margin: 0; }
+.category-tabs .tile p { display: block; font-size: 18px; line-height: 19.8px; font-weight: 700; margin: 0; } /* the pipeline buttonizes <p><a> → inline-flex p.button-wrapper, which would sit in a 24px line box (+4px per tile row) */
 .category-tabs .actions { text-align: center; }
 .category-tabs .actions p.button-wrapper { margin-top: 16px; }
 
