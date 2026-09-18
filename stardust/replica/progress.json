@@ -558,8 +558,8 @@
    "chat launcher + hero autoplay nondeterminism carried over from the prototype regime"
   ],
   "listing": {
-   "status": "pass (pixel); content-diff re-run pending after the product-listing fix is pushed",
-   "measuredAt": "2026-09-18T12:03:03Z",
+   "status": "pass",
+   "measuredAt": "2026-09-18T12:17:31Z",
    "delivered": {
     "media": "11 → 201",
     "page": "products/hdd/internal-hdd PUT 201, preview 200, live 200",
@@ -579,12 +579,18 @@
    },
    "apiCheck": {
     "base": "is-live, 15 tiles, '30 Items', 9 facets, 2 pages, 0 console errors",
-    "filterGaming": "is-live, 2 tiles, '2 Items', 7 facets, banner not templated (by design on this page), 0 console errors"
+    "filterGaming": "is-live, 2 tiles, '2 Items', 7 facets, banner not templated (by design on this page), 0 console errors",
+    "final": "is-live, 15 tiles, '30 Items', 9 facets, 2 pages, 0 console errors; Color option renders 'Purple (4)' → ?filterByColor_List=Purple|800080"
    },
    "contentDiff": {
-    "structuralRed": 14,
-    "fixable": "5 → product-listing.js edited (facet option VALUE = storefront query token e.g. Color 'Purple|800080'; pagination links always ?page=N) — push needed, then re-run",
-    "justified": "6 = the live page's 3 hidden per-use-case FAQ blocks (FAQ GAMING/SURVEILLANCE/NAS + 3 duplicate 'Frequently Asked Questions' h2) — capture-state duplicates, not authored (eds-conversion-log § Listing); 2 = 'Shop by Category'/'Shop by Deals' are href=# accordion triggers on live (cta) vs headings here (body) — widget trigger, not a link; 1 = live mobile duplicate pagination '2' → ?page=1"
+    "structuralRed": 10,
+    "fixed": "4 Color facet options (label = name before `|`, literal `|` `$` `,` `(` `)` `/` in filter URLs like the storefront) — commits cfd8c2c + 06f51ef",
+    "justified": [
+     "6 = the live page's 3 hidden per-use-case FAQ blocks (h2 'FAQ GAMING' / 'FAQ SURVEILLANCE' / 'FAQ NAS' + 3 duplicate 'Frequently Asked Questions') — capture-state duplicates, deliberately not authored",
+     "2 = 'Shop by Category' / 'Shop by Deals' are href=\"#\" accordion triggers on live (classified cta) vs rail headings here (body) — widget trigger, not a link",
+     "2 = the live page's hidden mobile duplicate pagination links ('1' → ?page=1 second copy, '2' → ?page=1)"
+    ],
+    "evidence": "stardust/replica/gates/listing-1440/content-diff-published3.txt"
    },
    "residuals": [
     "3rd band photo crop at 360 (0.5% of page)",

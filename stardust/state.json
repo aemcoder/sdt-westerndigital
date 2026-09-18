@@ -1480,7 +1480,7 @@
    "url": "https://www.westerndigital.com/products/hdd/internal-hdd",
    "title": "Internal Hard Drives: Internal HDD Storage | WD",
    "type": "listing",
-   "status": "approved",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1495,13 +1495,19 @@
      "at": "2026-09-18T11:36:50Z",
      "approvedBy": "hands-off",
      "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T12:17:57Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/hdd/internal-hdd",
+     "gate": "stardust/replica/progress.json#publishedOrigin.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-hdd-internal-hdd.json",
    "prototypePath": "stardust/prototypes/listing-proposed.html",
-   "migratedPath": null,
+   "migratedPath": "content/products/hdd/internal-hdd.html",
    "archetype": "listing",
    "fidelityTier": "archetype"
   },
