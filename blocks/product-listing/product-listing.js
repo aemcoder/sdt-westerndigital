@@ -80,10 +80,10 @@ function stateFromUrl() {
   const q = new URLSearchParams(window.location.search);
   return { filters: filtersFromSearch(window.location.search), page: Math.max(1, parseInt(q.get('page') || '1', 10)), sort: q.get('sort') || '' };
 }
-function urlFor({ filters, page, sort }) {
+function urlFor({ filters, page, sort }, alwaysPage = false) {
   const q = new URLSearchParams();
   filters.forEach(([f, v]) => q.append(`filterBy${f.charAt(0).toUpperCase()}${f.slice(1)}`, v));
-  if (page > 1) q.set('page', String(page));
+  if (page > 1 || alwaysPage) q.set('page', String(page));
   if (sort) q.set('sort', sort);
   const s = q.toString().replace(/%20/g, '+');
   return `${window.location.pathname}${s ? `?${s}` : ''}`;
@@ -178,8 +178,10 @@ export default function decorate(block) {
       const head = el('button', 'clp-filter-head', `<h3><span>${f.name}</span></h3>`); head.type = 'button'; head.setAttribute('aria-expanded', 'false');
       const ul = el('ul', 'clp-filter-options'); ul.hidden = true;
       f.values.forEach((v) => {
-        const li = el('li'); const a = el('a'); const active = state.filters.some(([c, val]) => c === f.code && val === v.name);
-        const nextFilters = active ? state.filters.filter(([c, val]) => !(c === f.code && val === v.name)) : [...state.filters, [f.code, v.name]];
+        // the filter VALUE is the storefront's query token (e.g. Color "Purple|800080"), read off the facet's own query string
+        const token = (() => { const q = v.query?.query?.value || ''; const i = q.indexOf(`:${f.code}:`); return i >= 0 ? decodeURIComponent(q.slice(i + f.code.length + 2).split(':')[0].replace(/\+/g, ' ')) : v.name; })();
+        const li = el('li'); const a = el('a'); const active = state.filters.some(([c, val]) => c === f.code && val === token);
+        const nextFilters = active ? state.filters.filter(([c, val]) => !(c === f.code && val === token)) : [...state.filters, [f.code, token]];
         a.href = urlFor({ ...state, filters: nextFilters, page: 1 }); a.textContent = `${v.name} (${v.count})`; if (active) a.classList.add('is-active');
         a.addEventListener('click', (e) => { e.preventDefault(); navigate({ filters: nextFilters, page: 1 }); });
         li.append(a); ul.append(li);
@@ -203,7 +205,7 @@ export default function decorate(block) {
     pagination.replaceChildren();
     if (!pg || pg.totalPages <= 1) return;
     const ul = el('ul'); const cur = pg.currentPage + 1;
-    const pageLink = (n, cls, html) => { const a = el('a', cls, html); a.href = urlFor({ ...state, page: n }); a.addEventListener('click', (e) => { e.preventDefault(); navigate({ page: n }); results.scrollIntoView({ block: 'start' }); }); return a; };
+    const pageLink = (n, cls, html) => { const a = el('a', cls, html); a.href = urlFor({ ...state, page: n }, true); a.addEventListener('click', (e) => { e.preventDefault(); navigate({ page: n }); results.scrollIntoView({ block: 'start' }); }); return a; };
     const prev = el('li', 'pg-prev'); prev.append(pageLink(Math.max(1, cur - 1), cur === 1 ? 'is-disabled' : '', `<span class="pg-chev pg-chev--prev">${ICON_CHEV}</span><span class="pg-lbl">PREV</span>`)); ul.append(prev);
     for (let n = 1; n <= pg.totalPages; n += 1) { const li = el('li'); li.append(pageLink(n, `pg-num${n === cur ? ' is-current' : ''}`, `<span>${n}</span>`)); if (n === cur) li.firstChild.setAttribute('aria-current', 'page'); ul.append(li); }
     const next = el('li', 'pg-next'); next.append(pageLink(Math.min(pg.totalPages, cur + 1), cur === pg.totalPages ? 'is-disabled' : '', `<span class="pg-lbl">NEXT</span><span class="pg-chev">${ICON_CHEV}</span>`)); ul.append(next);

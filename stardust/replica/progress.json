@@ -556,6 +556,41 @@
    "home 14 content-diff reds — all mapped to the two documented deviations above",
    "corporate Δ-5px: sub-5px drift inside the split bands (under the 8px bar)",
    "chat launcher + hero autoplay nondeterminism carried over from the prototype regime"
-  ]
+  ],
+  "listing": {
+   "status": "pass (pixel); content-diff re-run pending after the product-listing fix is pushed",
+   "measuredAt": "2026-09-18T12:03:03Z",
+   "delivered": {
+    "media": "11 → 201",
+    "page": "products/hdd/internal-hdd PUT 201, preview 200, live 200",
+    "nav": "re-PUT 200 (Products → Internal HDDs relative), preview 200, live 200",
+    ".plain.html": "h1=1, about:error=0"
+   },
+   "1440": {
+    "pixelPct": 1.35,
+    "heightDelta": -1,
+    "pass": true
+   },
+   "360": {
+    "pixelPct": 2.95,
+    "heightDelta": -1,
+    "pass": true,
+    "hotBand": "5500–6000 16.5% — 3rd use-case band photo crop at 360 (same asset, different cover crop)"
+   },
+   "apiCheck": {
+    "base": "is-live, 15 tiles, '30 Items', 9 facets, 2 pages, 0 console errors",
+    "filterGaming": "is-live, 2 tiles, '2 Items', 7 facets, banner not templated (by design on this page), 0 console errors"
+   },
+   "contentDiff": {
+    "structuralRed": 14,
+    "fixable": "5 → product-listing.js edited (facet option VALUE = storefront query token e.g. Color 'Purple|800080'; pagination links always ?page=N) — push needed, then re-run",
+    "justified": "6 = the live page's 3 hidden per-use-case FAQ blocks (FAQ GAMING/SURVEILLANCE/NAS + 3 duplicate 'Frequently Asked Questions' h2) — capture-state duplicates, not authored (eds-conversion-log § Listing); 2 = 'Shop by Category'/'Shop by Deals' are href=# accordion triggers on live (cta) vs headings here (body) — widget trigger, not a link; 1 = live mobile duplicate pagination '2' → ?page=1"
+   },
+   "residuals": [
+    "3rd band photo crop at 360 (0.5% of page)",
+    "API data drift vs capture: 30 items / current prices (live shows the same today)",
+    "chat launcher seams as on the other archetypes"
+   ]
+  }
  }
 }
