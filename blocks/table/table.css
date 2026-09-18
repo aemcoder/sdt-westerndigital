@@ -15,3 +15,5 @@ main .table-container .default-content-wrapper p { max-width: 900px; margin: 0 a
 .table th:nth-child(1), .table th:nth-child(2), .table th:nth-child(3) { width: 18.4%; }
 .table th:nth-child(4) { width: 20.6%; }
 @media (width >= 768px) { main .table-container { padding: 64px 0; } main .table-container .default-content-wrapper h2 { font-size: 36px; line-height: 39.6px; } }
+
+@media (width < 768px) { .table table { min-width: 740px; } .table th, .table td { width: 148px; padding: 24px 16px; } }

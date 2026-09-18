@@ -20,3 +20,7 @@ main .split-hero-container > div { max-width: none; padding: 0; }
   .split-hero p { font-size: 20px; line-height: 30px; }
   .split-hero .sh-media img { max-height: 500px; }
 }
+
+@media (width < 768px) { .split-hero .sh-media { padding: 24px 0; } .split-hero .sh-media img { max-width: 240px; max-height: 225px; } .split-hero .sh-row { padding: 0 var(--gutter) 24px; } }
+
+@media (width < 768px) { .split-hero { min-height: 485px; } .split-hero p.button-wrapper { margin-top: 16px; } }

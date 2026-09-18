@@ -37,3 +37,7 @@ main .login-wall-container > div { max-width: none; padding: 0; }
 .login-wall .actions p.button-wrapper { margin-top: 0; }
 
 .login-wall .actions p.button-wrapper { width: auto; }
+
+@media (width < 768px) { .login-wall .lw-logo img { width: 233px; height: 33px; } .login-wall .lw-wrap { padding: 0 var(--gutter); } .login-wall .lw-item { padding: 24px; } .login-wall .lw-strip-head h2 { font-size: 20px; line-height: 22px; } }
+
+@media (width < 768px) { .login-wall .lw-item { padding: 24px 24px 0; } .login-wall .lw-strip-head { padding-top: 24px; } }

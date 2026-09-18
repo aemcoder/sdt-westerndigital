@@ -36,7 +36,7 @@ main .photo-hero-container.contained-hero > div { max-width: var(--maxw); margin
 
 /* ---- Products-menu variants (measured 2026-09-18) ---- */
 /* band — /explore/whats-new: 300h, copy 5/12, h1 36/39.6 700, p 20/30, image anchored right */
-.photo-hero.band { height: auto; min-height: 300px; }
+.photo-hero.band { height: auto; min-height: 0; }
 .photo-hero.band .hero-bg picture, .photo-hero.band .hero-bg img { object-position: 100% 50%; }
 .photo-hero.band .headline h1 { font-size: 32px; line-height: 35.2px; font-weight: 700; margin-bottom: 8px; }
 .photo-hero.band .lede p { font-size: 18px; line-height: 27px; }
@@ -65,11 +65,13 @@ main .photo-hero-container.contained-hero > div { max-width: var(--maxw); margin
 .photo-hero.cta-pair .hero-copy { width: 100%; }
 .photo-hero.cta-pair .headline h1 { font-size: 34px; line-height: 37.4px; font-weight: 700; margin-bottom: 8px; }
 .photo-hero.cta-pair .lede p { max-width: 700px; font-size: 18px; line-height: 27px; }
+.photo-hero.band .hero-row, .photo-hero.cta-pair .hero-row { padding: 24px 0 16px; }
 .photo-hero .lede p.button-wrapper { margin-top: 24px; gap: 24px; }
 .photo-hero .lede a.button.primary { border-color: var(--color-white); background: var(--color-white); color: var(--color-black); }
 .photo-hero .lede a.button.secondary { border-color: var(--color-white); background: transparent; color: var(--color-white); }
 @media (width >= 768px) {
   .photo-hero.band { height: 300px; }
+  .photo-hero.band .hero-row { padding: 48px 0; }
   .photo-hero.band .headline h1 { font-size: 36px; line-height: 39.6px; }
   .photo-hero.band .lede p { font-size: 20px; line-height: 30px; }
   .photo-hero.centered .lede p { font-size: 20px; line-height: 30px; }
@@ -92,3 +94,13 @@ main .photo-hero-container.contained-hero > div { max-width: var(--maxw); margin
 .photo-hero .lede .actions p.button-wrapper { margin-top: 0; }
 
 .photo-hero.darken .hero-bg::after { content: ""; position: absolute; inset: 0; background: rgb(0 0 0 / 50%); }
+
+@media (width < 768px) {
+  .photo-hero.centered .hero-copy { padding: 24px 24px; }
+  .photo-hero.centered.h400 { min-height: 200px; }
+  .photo-hero.centered.w462 .eyebrow p { font-size: 24px; line-height: 26.4px; }
+  .photo-hero.centered.w739 { min-height: 500px; }
+  .photo-hero.centered.w739 .logo img { height: 47px; }
+}
+
+@media (width < 768px) { .photo-hero .lede .actions { gap: 16px; } }

@@ -3,8 +3,9 @@
 main .testimonial-carousel-container { padding: 80px 0 0; }
 main .testimonial-carousel-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
 .testimonial-carousel p, .testimonial-carousel h3 { margin: 0; }
-.testimonial-carousel .tc-slide { display: none; flex-wrap: wrap; }
-.testimonial-carousel .tc-slide.is-active { display: flex; }
+.testimonial-carousel .tc-track { display: grid; }
+.testimonial-carousel .tc-slide { display: flex; flex-wrap: wrap; grid-area: 1 / 1; visibility: hidden; } /* every slide sizes the track (live: Splide track = tallest slide) */
+.testimonial-carousel .tc-slide.is-active { visibility: visible; }
 .testimonial-carousel .tc-icon { width: 100%; margin: -16px 0 16px; }
 .testimonial-carousel .tc-icon img { display: block; width: 81px; height: 61px; }
 .testimonial-carousel .tc-body { width: 100%; }
@@ -21,7 +22,7 @@ main .testimonial-carousel-container:has(.testimonial-carousel.static) { padding
 .testimonial-carousel.static h3 { margin: 16px 0; font-size: 26px; line-height: 28.6px; font-weight: 400; font-style: italic; }
 @media (width >= 768px) {
   .testimonial-carousel .tc-slide { flex-wrap: nowrap; }
-  .testimonial-carousel .tc-slide.is-active { min-height: 360px; }
+  .testimonial-carousel .tc-slide { min-height: 360px; }
   .testimonial-carousel.static p:first-child { font-size: 20px; line-height: 30px; }
   .testimonial-carousel.static p:nth-child(2) { margin: 24px 0 16px; font-size: 28px; line-height: 30.8px; }
   .testimonial-carousel.static h3 { margin: 0 0 16px; font-size: 32px; line-height: 35.2px; }
@@ -29,4 +30,17 @@ main .testimonial-carousel-container:has(.testimonial-carousel.static) { padding
   .testimonial-carousel .tc-icon img { margin-left: auto; margin-right: 8px; }
   .testimonial-carousel .tc-body { width: 91.6667%; padding-left: 16px; }
   .testimonial-carousel .tc-quote p { font-size: 32px; line-height: 48px; }
+}
+
+@media (width < 768px) { main .testimonial-carousel-container { padding: 48px 0 0; } .testimonial-carousel .tc-icon { margin: 0 0 16px; } .testimonial-carousel .tc-attr { margin-top: 24px; } }
+
+@media (width < 768px) {
+  main .testimonial-carousel-container { padding: 40px 0 0; }
+  .testimonial-carousel .tc-slide { padding: 40px 0; }
+  .testimonial-carousel .tc-icon { margin: 0 0 16px; }
+  .testimonial-carousel .tc-quote p { font-size: 24px; line-height: 40px; }
+  .testimonial-carousel .tc-attr { margin-top: 32px; }
+  .testimonial-carousel .tc-dots { height: 40px; }
+  main .testimonial-carousel-container:has(.testimonial-carousel.static) { padding: 64px 0 0; }
+  .testimonial-carousel.static .tc-static { padding-bottom: 80px; }
 }

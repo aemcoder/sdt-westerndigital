@@ -17,3 +17,5 @@ main .faq-list-container .default-content-wrapper h2 { margin: 0; padding-bottom
   main .faq-list-container > div { padding: 0 48px; }
   main .faq-list-container .default-content-wrapper h2 { padding-bottom: 64px; font-size: 48px; line-height: 52.8px; }
 }
+
+@media (width < 768px) { main .faq-list-container { padding: 64px 0; } main .faq-list-container .default-content-wrapper h2 { padding-bottom: 64px; } }

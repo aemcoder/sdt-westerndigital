@@ -112,3 +112,5 @@ main .cards-container.portfolio-rail .default-content-wrapper h2 { font-size: 32
   .cards.dark-rail.cta-pair .card { width: 450px; }
   .cards.dark-rail.cta-pair .card-photo .title h3 { font-size: 28px; line-height: 30.8px; }
 }
+
+@media (width < 768px) { main .cards-container.portfolio-rail { padding: 48px 0; } main .cards-container.portfolio-rail .default-content-wrapper { padding-bottom: 48px; } .cards.workload-rail .card, .cards.dark-rail.cta-pair .card { width: 275px; } .cards.dark-rail.cta-pair .card { height: 500px; } }

@@ -27,3 +27,7 @@ main .tabs-container .default-content-wrapper h2 { margin: 0; padding-bottom: 48
   .tabs .tabs-media { width: 50%; margin-top: 0; }
   .tabs .tabs-media img { height: 350px; }
 }
+
+@media (width < 768px) { .tabs .tabs-media { order: -1; margin: 0 0 24px; } .tabs .tabs-tab { margin: 0 12px; font-size: 16px; } }
+
+@media (width < 768px) { .tabs .tabs-list { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; } .tabs .tabs-tab { flex: 0 0 auto; margin: 0 16px; white-space: nowrap; } .tabs .tabs-copy h3 { font-size: 32px; line-height: 35.2px; } .tabs .tabs-media img { height: 218px; } .tabs .tabs-panel { padding: 24px 0 32px; } }

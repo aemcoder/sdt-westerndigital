@@ -80,3 +80,16 @@ main .section.head-mb-0:is(.card-grid-container) .default-content-wrapper h2 { m
   main .section.pad-64-16:is(.card-grid-container) { padding: 40px 0; }
   main .section.pad-80-96:is(.card-grid-container, .product-rail-container) { padding: 40px 0 64px; }
 }
+
+@media (width < 768px) {
+  main .media-text-container { padding: 32px 0; }
+  main .media-text-container:has(.media-text.steps) { padding: 0 0 48px; }
+  .media-text .mt-media { margin: 0 0 16px; }
+  .media-text.steps .mt-media { margin: 32px 0 16px; }
+  .media-text.steps .mt-media img { max-width: 299px; margin: 0 auto; }
+  .media-text.offset-1 .mt-copy { padding: 16px 0; }
+  .media-text p.button-wrapper { margin-top: 32px; }
+  .media-text.intro .mt-copy + .mt-copy { margin-top: 16px; }
+}
+
+@media (width < 768px) { .media-text.steps .mt-copy { padding: 0; } main .media-text-container:has(.media-text.steps) { padding: 0 0 47px; } }

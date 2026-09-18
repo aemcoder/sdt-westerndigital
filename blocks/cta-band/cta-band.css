@@ -69,3 +69,16 @@ main .cta-band-container.surface { background: var(--color-surface); }
 .cta-band .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 24px; }
 .cta-band .actions p.button-wrapper { margin-top: 0; width: auto; }
 .cta-band.split .band-col-2 .actions { margin-top: 0; }
+
+@media (width < 768px) {
+  main .cta-band-container:has(.cta-band.contained) { padding: 0; margin-bottom: 40px; }
+  main .cta-band-container:has(.cta-band.contained) > div { padding: 0 var(--gutter); }
+  .cta-band.contained { min-height: 0; padding: 48px 16px; }
+  .cta-band.contained p { padding-bottom: 16px; }
+  .cta-band.split { padding: 40px 0; }
+  .cta-band.split .band-col-2 { margin-top: 16px; }
+  .cta-band.split.media-left { padding: 16px 0 0; }
+  .cta-band.split.media-left .band-col-2 { padding: 16px 0 24px; }
+  .cta-band.big { min-height: 350px; padding: 60px 0; }
+  .cta-band.big p:first-child { font-size: 32px; line-height: 35.2px; }
+}
