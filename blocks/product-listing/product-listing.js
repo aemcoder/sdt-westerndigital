@@ -12,7 +12,8 @@
  *     page-size      15
  *     sort           Most Popular                            (default sort label — see SORTS)
  *     filters        Brand, Capacity Range, Form Factor, …   (facet NAMES to list, in order — live typo "Inteface" kept)
- *     category-tree  <ul><li><a href>Hard Drives (HDD)</a><ul><li><a href>Internal HDD</a></li>…</ul></li></ul>
+ *     category-tree  <ul><li><a href>Hard Drives (HDD)</a><ul><li><a href>Internal HDD</a></li>…</ul></li></ul>   (or `none`)
+ *     tree-collapsed yes                                       (rail shows "Shop by Category +" with the tree hidden)
  *     deals          <p>Shop by Deals</p><ul><li><a href>Sale</a></li>…</ul>   (collapsed on the live page)
  *   tile rows — ≥4 cells: <picture> | <p>Name</p> | <p>Capacity range</p> | <p>Starting at $x</p> | <p><a href>PDP</a></p> [| <p>BADGE</p>]
  *     = the captured first page (content-bearing fallback, rendered until the API answers; kept if it fails).
@@ -28,7 +29,7 @@ const ICON_SHOP = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width
 const ICON_FILTER = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="3" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="8.5" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="14" width="16" height="3" rx="1" fill="#000"/></svg>';
 const ICON_SORT = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M14 4v11l3-3 .7.7L13.5 17l-4.2-4.3.7-.7 3 3V4z" fill="#000"/><rect x="2" y="4" width="8" height="1.2" fill="#000"/><rect x="2" y="7.5" width="6.5" height="1.2" fill="#000"/><rect x="2" y="11" width="5" height="1.2" fill="#000"/></svg>';
 
-const KEYS = ['categories', 'condition', 'page-size', 'sort', 'filters', 'category-tree', 'deals', 'featured', 'promo'];
+const KEYS = ['categories', 'condition', 'page-size', 'sort', 'filters', 'category-tree', 'tree-collapsed', 'deals', 'featured', 'promo'];
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html !== undefined) e.innerHTML = html; return e; };
 const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
 
@@ -124,9 +125,16 @@ export default function decorate(block) {
     const item = el('div', 'clp-nav-item');
     const catHead = el('h3', 'clp-rail-head', '<span>Shop by Category</span>'); item.append(catHead);
     const tree = cfg['category-tree'].querySelector('ul');
-    catHead.setAttribute('aria-expanded', tree ? 'true' : 'false'); // live: "−" when the tree is open, "+" on header-only rails // value "none" = the header alone (accessories, recertified, final-production)
+    // live: "−" when the tree is open; `tree-collapsed: yes` (accessories, recertified, final-production) keeps the authored tree hidden behind "+"
+    const collapsed = !tree || /^(yes|true)$/i.test(cfg['tree-collapsed']?.textContent.trim() || '');
+    catHead.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    if (tree) {
+      catHead.tabIndex = 0; catHead.setAttribute('role', 'button');
+      catHead.addEventListener('click', () => { const open = catHead.getAttribute('aria-expanded') === 'true'; catHead.setAttribute('aria-expanded', open ? 'false' : 'true'); tree.hidden = open; });
+    } // value "none" = the header alone (accessories, recertified, final-production)
     if (tree) {
       tree.classList.add('clp-cat-tree');
+      tree.hidden = collapsed;
       tree.querySelectorAll('a').forEach((a) => { try { if (new URL(a.href).pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '')) a.classList.add('is-current'); } catch { /* relative */ } });
       item.append(tree);
     }
@@ -235,7 +243,12 @@ export default function decorate(block) {
     const ul = el('ul'); const cur = pg.currentPage + 1;
     const pageLink = (n, cls, html) => { const a = el('a', cls, html); a.href = urlFor({ ...state, page: n }, true); a.addEventListener('click', (e) => { e.preventDefault(); navigate({ page: n }); results.scrollIntoView({ block: 'start' }); }); return a; };
     const prev = el('li', 'pg-prev'); prev.append(pageLink(Math.max(1, cur - 1), cur === 1 ? 'is-disabled' : '', `<span class="pg-chev pg-chev--prev">${ICON_CHEV}</span><span class="pg-lbl">PREV</span>`)); ul.append(prev);
-    for (let n = 1; n <= pg.totalPages; n += 1) { const li = el('li'); li.append(pageLink(n, `pg-num${n === cur ? ' is-current' : ''}`, `<span>${n}</span>`)); if (n === cur) li.firstChild.setAttribute('aria-current', 'page'); ul.append(li); }
+    for (let n = 1; n <= pg.totalPages; n += 1) {
+      const li = el('li');
+      if (n === cur) { const curEl = el('span', 'pg-num is-current', `<span>${n}</span>`); curEl.setAttribute('aria-current', 'page'); li.append(curEl); } // live: the active page is a plain number, not a link
+      else li.append(pageLink(n, 'pg-num', `<span>${n}</span>`));
+      ul.append(li);
+    }
     const next = el('li', 'pg-next'); next.append(pageLink(Math.min(pg.totalPages, cur + 1), cur === pg.totalPages ? 'is-disabled' : '', `<span class="pg-lbl">NEXT</span><span class="pg-chev">${ICON_CHEV}</span>`)); ul.append(next);
     pagination.append(ul);
   };
