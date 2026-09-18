@@ -1,0 +1,19 @@
+/* faq-list — /business/account-benefits §10: 739px centered column (643 inner), h2 48/52.8 500, items 20/22 700 with border-b #e1e1e1 */
+main .faq-list-container { padding: 64px 0; }
+main .faq-list-container > div { max-width: 739px; margin: 0 auto; padding: 0 var(--gutter); }
+main .faq-list-container .default-content-wrapper { text-align: center; }
+main .faq-list-container .default-content-wrapper h2 { margin: 0; padding-bottom: 48px; font-size: 32px; line-height: 35.2px; font-weight: 500; }
+.faq-list p { margin: 0; }
+.faq-list .fl-item { border-bottom: 1px solid #e1e1e1; padding: 0 0 24px; margin-bottom: 24px; }
+.faq-list .fl-item:last-child { margin-bottom: 0; }
+.faq-list .fl-q { position: relative; display: block; padding-right: 32px; font-size: 20px; line-height: 22px; font-weight: 700; cursor: pointer; }
+.faq-list .fl-icon { position: absolute; right: 0; top: 5px; }
+.faq-list .fl-item.is-open .fl-v { display: none; }
+.faq-list .fl-a { display: none; margin-top: 12px; font-size: 16px; line-height: 24px; }
+.faq-list .fl-item.is-open .fl-a { display: block; }
+.faq-list .fl-a a:any-link { text-decoration: underline; }
+@media (width >= 768px) {
+  main .faq-list-container { padding: 96px 0; }
+  main .faq-list-container > div { padding: 0 48px; }
+  main .faq-list-container .default-content-wrapper h2 { padding-bottom: 64px; font-size: 48px; line-height: 52.8px; }
+}

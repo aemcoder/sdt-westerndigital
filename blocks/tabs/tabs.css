@@ -1,0 +1,29 @@
+/* tabs — /solutions/data-center-storage-platform §6: #1b1b1d pad 96 0 16; h2 48/52.8 500 white pb 48; tabs 18/20.7, mar 0 32, active 3px white underline;
+   panel pad 48 0: copy 554 (pad 0 96): h3 36/39.6 500 + p 16/24 | image 476×350 r16 */
+main .tabs-container { padding: 64px 0 16px; }
+main .tabs-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+main .tabs-container:has(.tabs.dark) { background: #1b1b1d; color: var(--color-white); }
+main .tabs-container .default-content-wrapper { text-align: center; }
+main .tabs-container .default-content-wrapper h2 { margin: 0; padding-bottom: 48px; font-size: 32px; line-height: 35.2px; font-weight: 500; color: inherit; }
+.tabs h3, .tabs p { margin: 0; }
+.tabs .tabs-list { display: flex; flex-wrap: wrap; justify-content: center; }
+.tabs .tabs-tab { padding: 12px 0; margin: 0 16px; border: 0; border-bottom: 3px solid transparent; background: none; font-size: 18px; line-height: 20.7px; color: #c4c4c4; cursor: pointer; }
+.tabs .tabs-tab.is-active { color: var(--color-white); border-bottom-color: var(--color-white); }
+.tabs .tabs-tab[disabled] { cursor: default; }
+.tabs .tabs-panel[hidden] { display: none; }
+.tabs .tabs-panel { display: flex; flex-wrap: wrap; align-items: center; padding: 32px 0; box-sizing: border-box; }
+.tabs .tabs-copy { width: 100%; }
+.tabs .tabs-copy h3 { margin-bottom: 16px; font-size: 28px; line-height: 30.8px; font-weight: 500; }
+.tabs .tabs-copy p { font-size: 16px; line-height: 24px; }
+.tabs .tabs-media { width: 100%; margin-top: 24px; }
+.tabs .tabs-media picture, .tabs .tabs-media img { display: block; width: 100%; max-width: 476px; height: auto; margin: 0 auto; border-radius: var(--radius-card); object-fit: cover; }
+@media (width >= 768px) {
+  main .tabs-container { padding: 96px 0 16px; }
+  main .tabs-container .default-content-wrapper h2 { font-size: 48px; line-height: 52.8px; }
+  .tabs .tabs-tab { margin: 0 32px; }
+  .tabs .tabs-panel { min-height: 478px; padding: 48px 0 32px; }
+  .tabs .tabs-copy { width: 50%; padding: 0 96px; }
+  .tabs .tabs-copy h3 { font-size: 36px; line-height: 39.6px; }
+  .tabs .tabs-media { width: 50%; margin-top: 0; }
+  .tabs .tabs-media img { height: 350px; }
+}

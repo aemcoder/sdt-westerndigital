@@ -1,0 +1,165 @@
+{
+ "_provenance": {
+  "skill": "stardust:deploy (program-family wave of the Products menu)",
+  "wrote": "2026-09-18T13:09:37Z",
+  "regime": "sibling-tier direct block authoring from measured live outlines (no prototype); harness = aem up + stardust/.work/program/build-harnesses.sh vs live stitch (--settle both sides); published-origin gate pending push"
+ },
+ "siblings": {
+  "program": [
+   {
+    "slug": "explore-whats-new",
+    "liveUrl": "https://www.westerndigital.com/explore/whats-new",
+    "path": "explore/whats-new",
+    "doc": "content/explore/whats-new.html",
+    "fidelityTier": "sibling",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 0.52,
+      "heightDelta": 0
+     },
+     "360": {
+      "pixelPct": 10.62,
+      "heightDelta": -101
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "promo-strip \"Learn More\" opens a quick-view modal on live (href-less) → authored as a link to the page (decided-out modal, dynamics row 14)"
+    ]
+   },
+   {
+    "slug": "promo",
+    "liveUrl": "https://www.westerndigital.com/promo",
+    "path": "promo",
+    "doc": "content/promo.html",
+    "fidelityTier": "sibling",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 6.04,
+      "heightDelta": 24
+     },
+     "360": {
+      "pixelPct": 12.85,
+      "heightDelta": -111
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "live repeats a 16px a.block link wrapper at every nesting level of the program cards (AEM artefact) — one card link authored"
+    ]
+   },
+   {
+    "slug": "promo-best-sellers",
+    "liveUrl": "https://www.westerndigital.com/promo/best-sellers",
+    "path": "promo/best-sellers",
+    "doc": "content/promo/best-sellers.html",
+    "fidelityTier": "sibling",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 13.82,
+      "heightDelta": -99
+     },
+     "360": {
+      "pixelPct": 12.67,
+      "heightDelta": -22
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "product names/prices are the SKU-level capture; the API (base-product) only fills gaps; breadcrumb is show-for-b2c on live (B2C render authored)"
+    ]
+   },
+   {
+    "slug": "business-account-benefits",
+    "liveUrl": "https://www.westerndigital.com/business/account-benefits",
+    "path": "business/account-benefits",
+    "doc": "content/business/account-benefits.html",
+    "fidelityTier": "sibling",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 8.1,
+      "heightDelta": 20
+     },
+     "360": {
+      "pixelPct": 16.17,
+      "heightDelta": 87
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "B2C (logged-out) personalized tree only; 2 \"#anchor\" links kept as anchors; testimonial carousel: slide 1 at rest, dots switch, no autoplay (no motion capture)"
+    ]
+   },
+   {
+    "slug": "business-account-benefits-tiered-pricing",
+    "liveUrl": "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "path": "business/account-benefits/tiered-pricing",
+    "doc": "content/business/account-benefits/tiered-pricing.html",
+    "fidelityTier": "thin",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 0.63,
+      "heightDelta": 0
+     },
+     "360": {
+      "pixelPct": 11.5,
+      "heightDelta": -94
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "login wall only — members-only listing never observed (contentGap); \"Sign in\" is a JS flyout on live → link to https://www.westerndigital.com/store/login (200)"
+    ]
+   },
+   {
+    "slug": "solutions-data-center-storage-platform",
+    "liveUrl": "https://www.westerndigital.com/solutions/data-center-storage-platform",
+    "path": "solutions/data-center-storage-platform",
+    "doc": "content/solutions/data-center-storage-platform.html",
+    "fidelityTier": "sibling",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 7.0,
+      "heightDelta": 35
+     },
+     "360": {
+      "pixelPct": 33.2,
+      "heightDelta": -282
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "\"Talk to an Expert\" is a client-only form modal → interim: absolute link to the live page anchor (dynamics form row, interim tier); HPC/Cloud tab panels not in the captured DOM → tabs rendered disabled (contentGap)"
+    ]
+   },
+   {
+    "slug": "products-product-portfolio",
+    "liveUrl": "https://www.westerndigital.com/products/product-portfolio",
+    "path": "products/product-portfolio",
+    "doc": "content/products/product-portfolio.html",
+    "fidelityTier": "sibling",
+    "archetypeSource": "corporate-responsibility (program) + listing blocks",
+    "harness": {
+     "1440": {
+      "pixelPct": 8.89,
+      "heightDelta": -77
+     },
+     "360": {
+      "pixelPct": 21.85,
+      "heightDelta": -1097
+     }
+    },
+    "publishedOrigin": "pending",
+    "contentDeviations": [
+     "href-less \"View Products\" modal buttons (quick-view, decided-out) → static outline labels; 2 dark-rail cards have no bg image on live (replicated); 5 \"Learn More\" cards have no href on live (replicated); inline SVG icons rehosted as media/wd/*.svg"
+    ]
+   }
+  ]
+ }
+}

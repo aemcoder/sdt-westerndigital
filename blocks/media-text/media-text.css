@@ -1,0 +1,82 @@
+/* media-text — /business/account-benefits §3 (pad 96 0, copy 398 @offs-1, image 462×309 r16), §6 (steps), /products/product-portfolio §3 (intro) */
+main .media-text-container { padding: 48px 0; }
+main .media-text-container:has(.media-text.steps) { padding: 0 0 48px; }
+.media-text.steps .mt-copy { padding: 16px 0 0; }
+main .media-text-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.media-text .mt-row { display: flex; flex-wrap: wrap; align-items: center; }
+.media-text .mt-col { width: 100%; }
+.media-text h2, .media-text p, .media-text ol { margin: 0; }
+.media-text h2 { margin-bottom: 16px; font-size: 28px; line-height: 30.8px; font-weight: 500; }
+.media-text p { font-size: 16px; line-height: 24px; }
+.media-text p.mt-sub, .media-text h2 + p:has(+ p) { margin-bottom: 16px; }
+.media-text sup a:any-link { font-size: 12px; }
+.media-text p.button-wrapper { margin-top: 48px; }
+.media-text .mt-media picture, .media-text .mt-media img { display: block; width: 100%; height: auto; border-radius: var(--radius-card); }
+.media-text .mt-media p { margin: 0; line-height: 0; }
+.media-text .mt-media { order: -1; margin-bottom: 16px; }
+.media-text.steps .mt-media { margin: 32px 0 16px; }
+.media-text.steps ol li { font-size: 20px; line-height: 22px; }
+.media-text p.button-wrapper { margin-top: 32px; }
+.media-text.steps ol { list-style: none; counter-reset: step; margin-top: 32px; padding: 0; }
+.media-text.steps ol li { position: relative; counter-increment: step; min-height: 30px; margin-bottom: 16px; padding-left: 47px; font-size: 24px; line-height: 26.4px; }
+.media-text.steps ol li::before { content: counter(step); position: absolute; left: 0; top: 0; display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border: 2px solid var(--color-black); border-radius: 50%; font-size: 14px; line-height: 1; font-weight: 700; }
+.media-text.steps .mt-media img { border-radius: 0; }
+.media-text.intro h2 { max-width: 400px; margin-bottom: 16px; font-weight: 700; }
+.media-text.intro p { max-width: 900px; color: var(--color-text-grey3); }
+.media-text.subtitle p:nth-child(2) { font-size: 18px; line-height: 27px; font-weight: 500; }
+
+@media (width >= 768px) {
+  main .media-text-container { padding: 96px 0; }
+  .media-text.steps .mt-copy { padding: 48px 0; }
+  main .media-text-container:has(.media-text.steps) { padding: 40px 0 64px; }
+  main .media-text-container:has(.media-text.intro) { padding: 64px 0; }
+  .media-text .mt-col { width: 50%; }
+  .media-text .mt-media { order: 0; margin: 0; }
+  .media-text.steps .mt-media { margin: 0 0 0 7%; }
+  .media-text h2 { font-size: 34px; line-height: 37.4px; }
+  .media-text.steps ol li { font-size: 24px; line-height: 26.4px; }
+  .media-text p.button-wrapper { margin-top: 48px; }
+  .media-text.offset-1 .mt-copy { width: 41.6667%; margin-left: 8.3333%; padding-right: 64px; }
+  .media-text.offset-1 .mt-media { width: 41.6667%; margin-left: 8.3333%; }
+  .media-text.steps .mt-copy { width: 33.3333%; margin-left: 12.6%; padding: 48px 0; }
+  .media-text.steps .mt-media { width: 47%; margin-left: 7%; }
+  .media-text.steps h2 { margin-bottom: 4px; }
+  .media-text.intro .mt-copy { width: 41.6667%; padding: 0 32px 0 15px; }
+  .media-text.intro .mt-copy + .mt-copy { width: 58.3333%; padding: 0; }
+  .media-text.intro .mt-row { align-items: flex-start; }
+}
+
+main .media-text-container.surface { background: var(--color-surface); }
+
+/* ---- section modifiers (section-metadata style values) shared by the Products-menu blocks ---- */
+main .section.pad-96:is(.card-grid-container, .product-rail-container, .media-text-container, .tabs-container, .table-container, .cta-band-container, .testimonial-carousel-container) { padding: 64px 0; }
+main .section.pad-80-96:is(.card-grid-container, .product-rail-container) { padding: 64px 0; }
+main .section.pad-64-16:is(.card-grid-container) { padding: 64px 0; }
+main .section.pad-72-96:is(.card-grid-container) { padding: 64px 0; }
+main .section.h2-48:is(.card-grid-container, .product-rail-container, .media-text-container) .default-content-wrapper h2 { font-size: 36px; line-height: 39.6px; font-weight: 500; margin-bottom: 16px; }
+main .section.h2-36b:is(.card-grid-container, .product-rail-container, .media-text-container) .default-content-wrapper h2 { font-size: 32px; line-height: 35.2px; font-weight: 700; margin-bottom: 16px; }
+main .section.h2-34b:is(.card-grid-container, .product-rail-container) .default-content-wrapper h2 { font-size: 34px; line-height: 37.4px; font-weight: 700; margin-bottom: 16px; }
+main .section.head-pb-48:is(.card-grid-container, .product-rail-container) > .default-content-wrapper:first-child { padding-bottom: 48px; }
+main .section.head-pb-24:is(.card-grid-container, .product-rail-container) > .default-content-wrapper:first-child { padding-bottom: 24px; }
+main .section.lede-grey:is(.card-grid-container, .product-rail-container) .default-content-wrapper p:not(.button-wrapper) { max-width: 900px; margin: 0 auto; color: var(--color-text-grey3); }
+main .section.lede-pb-48:is(.card-grid-container, .product-rail-container) > .default-content-wrapper:first-child p:not(.button-wrapper):last-child { padding-bottom: 48px; }
+main .section.head-mb-0:is(.card-grid-container) .default-content-wrapper h2 { margin-bottom: 0; }
+@media (width >= 768px) {
+  main .section.pad-96:is(.card-grid-container, .product-rail-container, .media-text-container, .tabs-container, .table-container, .cta-band-container, .testimonial-carousel-container) { padding: 96px 0; }
+  main .section.pad-80-96:is(.card-grid-container, .product-rail-container) { padding: 80px 0 96px; }
+  main .section.pad-64-16:is(.card-grid-container) { padding: 64px 16px; }
+  main .section.pad-72-96:is(.card-grid-container) { padding: 72px 0 96px; }
+  main .section.h2-48:is(.card-grid-container, .product-rail-container, .media-text-container) .default-content-wrapper h2 { font-size: 48px; line-height: 52.8px; }
+  main .section.h2-36b:is(.card-grid-container, .product-rail-container, .media-text-container) .default-content-wrapper h2 { font-size: 36px; line-height: 39.6px; }
+}
+
+/* mobile values of the section modifiers (measured @360) */
+@media (width < 768px) {
+  main .section.h2-48:is(.card-grid-container, .product-rail-container, .media-text-container) .default-content-wrapper h2 { font-size: 32px; line-height: 35.2px; }
+  main .section.head-pb-48:is(.card-grid-container, .product-rail-container) > .default-content-wrapper:first-child { padding-bottom: 32px; }
+  main .section.head-pb-48:is(.card-grid-container, .product-rail-container) .default-content-wrapper h2 { margin-bottom: 16px; }
+  main .section.h2-mb-40:is(.card-grid-container) .default-content-wrapper h2 { margin-bottom: 16px; }
+  main .section.lede-pb-48:is(.card-grid-container, .product-rail-container) > .default-content-wrapper:first-child p:not(.button-wrapper):last-child { padding-bottom: 32px; }
+  main .section.pad-64-16:is(.card-grid-container) { padding: 40px 0; }
+  main .section.pad-80-96:is(.card-grid-container, .product-rail-container) { padding: 40px 0 64px; }
+}

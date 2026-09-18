@@ -1,0 +1,15 @@
+/* disclosures — /promo §8 (#f2f3f3, pad 32 80), /business/account-benefits §11 (#000, pad 40 0), /products/product-portfolio §13 (#1f1f1f, pad 48 0) */
+main .disclosures-container > div { max-width: none; padding: 0; }
+.disclosures { padding: 32px 0; background: var(--color-surface); font-size: 14px; line-height: 21px; }
+.disclosures .disc-body { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.disclosures p, .disclosures ol { margin: 0 0 8px; }
+.disclosures p:last-child, .disclosures ol:last-child { margin-bottom: 0; }
+.disclosures ol { padding-left: 16px; }
+.disclosures li { margin-bottom: 8px; }
+.disclosures a:any-link { color: var(--color-link); text-decoration: underline; }
+.disclosures.dark, .disclosures.dark-2 { background: var(--color-black); color: var(--color-white); padding: 40px 0; }
+.disclosures.dark-2 { background: #1f1f1f; padding: 48px 0; }
+.disclosures.dark a:any-link, .disclosures.dark-2 a:any-link { color: var(--color-white); }
+@media (width >= 768px) {
+  .disclosures.surface { padding: 32px 80px; }
+}

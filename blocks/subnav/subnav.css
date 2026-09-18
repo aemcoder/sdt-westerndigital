@@ -23,3 +23,16 @@ main .subnav-container > div { max-width: var(--maxw); margin: 0 auto; padding: 
   .subnav .item.active a::after { content: none; }
   .subnav .sticky-head.sticky-stuck .inner-wrap { width: 100%; justify-content: flex-start; } /* measured: fixed-state items start at x=80 */
 }
+
+/* business — /business/account-benefits: #2266ff active text + 4px underline, right-pinned blue CTA (149×42, pad 12 40) */
+.subnav.business .sticky-head { position: relative; }
+.subnav.business .item a:any-link { color: var(--color-black); }
+.subnav.business .subnav-cta { display: block; position: absolute; right: 32px; top: 7px; margin: 0; z-index: 11; }
+.subnav.business .subnav-cta a:any-link { display: inline-flex; padding: 12px 24px; border: 1px solid var(--color-white); border-radius: var(--radius-button); background: var(--color-link); color: var(--color-white); font-size: 16px; line-height: 16px; text-decoration: none; }
+@media (width >= 768px) {
+  .subnav.business .item { margin: 0 64px; }
+  .subnav.business .item.active a:any-link { color: var(--color-link); border-bottom-color: var(--color-link); }
+  .subnav.business .subnav-cta { display: block; position: absolute; right: 16px; top: 4px; margin: 0; }
+  .subnav.business .subnav-cta a.button:any-link, .subnav.business .subnav-cta a:any-link { display: inline-flex; padding: 12px 40px; border: 1px solid var(--color-white); border-radius: var(--radius-button); background: var(--color-link); color: var(--color-white); font-size: 16px; line-height: 16px; font-weight: 400; text-decoration: none; }
+  .subnav.business .sticky-head.sticky-stuck .subnav-cta { right: 16px; }
+}

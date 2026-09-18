@@ -1,6 +1,6 @@
 /**
  * subnav — program-template tab row under the header (Overview · People · Supply Chain …).
- * Authoring: one row, one cell: <ul><li><a href>Overview</a></li>…</ul>. The active item is the link whose
+ * Authoring: one row, one cell: <ul><li><a href>Overview</a></li>…</ul> [+ <p><a>Join Now</a></p> for the `business` variant's right CTA]. The active item is the link whose
  * href matches the current path. Measured live behaviour (chrome-scroll-probe, motion-observe): the header
  * never pins on these pages (body.has-subnav → header top:auto) and #sticky-nav gains `sticky-stuck`
  * (position:fixed top:0, items flush-left at x=80) once scrollY ≥ its natural offset. Mobile: a dropdown
@@ -26,6 +26,9 @@ export default function decorate(block) {
   if (!ul.querySelector('.item.active')) ul.querySelector('li')?.classList.add('active');
   inner.append(ul);
   head.append(inner);
+  // business variant: an authored <p><a>Join Now</a></p> after the list becomes the right-pinned CTA
+  const cta = block.querySelector(':scope p:has(a), :scope > div > div > p');
+  if (cta && cta.querySelector('a')) { cta.classList.add('subnav-cta'); head.append(cta); }
   block.replaceChildren(head);
   // mobile dropdown: the active item is shown; tapping it reveals the rest
   head.addEventListener('click', (e) => {

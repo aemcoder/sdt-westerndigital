@@ -1,0 +1,39 @@
+/* login-wall — /business/account-benefits/tiered-pricing: bg cover 50% 0% + rgba(0,0,0,.4); pad 80 0; card 739 white pad 48 centered;
+   logo 214×30 pb 24; h1 32/35.2 500; p 16/24 500 mt 16; buttons mt 16 (outline 115 + black 126); rule mt 24 #f2f3f3; h2 24/26.4 500 pt 32; 3 cols 214 pad 32 (icon 63×66, h3 20/22 500) */
+main .login-wall-container > div { max-width: none; padding: 0; }
+.login-wall { position: relative; display: flex; justify-content: center; align-items: center; min-height: 0; padding: 16px 0; overflow: hidden; }
+.login-wall .lw-bg { position: absolute; inset: 0; background: var(--color-black); }
+.login-wall .lw-bg picture, .login-wall .lw-bg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; }
+.login-wall .lw-bg::after { content: ""; position: absolute; inset: 0; background: rgb(0 0 0 / 40%); }
+.login-wall .lw-wrap { position: relative; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); display: flex; justify-content: center; }
+.login-wall .lw-card { position: relative; width: 100%; max-width: 739px; padding: 24px; background: var(--color-white); text-align: center; }
+.login-wall .lw-close { position: absolute; top: 16px; right: 16px; display: block; width: 21px; height: 21px; color: var(--color-black); }
+.login-wall .lw-close svg { display: block; }
+.login-wall h1, .login-wall h2, .login-wall h3, .login-wall p { margin: 0; }
+.login-wall .lw-logo { display: flex; justify-content: center; padding-bottom: 24px; }
+.login-wall .lw-logo img { display: block; width: 214px; height: 30px; object-fit: contain; }
+.login-wall h1 { font-size: 26px; line-height: 28.6px; font-weight: 500; }
+.login-wall .lw-copy > p { margin-top: 16px; font-size: 16px; line-height: 24px; font-weight: 500; }
+.login-wall .lw-copy p.button-wrapper { justify-content: center; width: 100%; gap: 16px; }
+.login-wall .lw-strip-head { margin-top: 24px; padding-top: 32px; border-top: 1px solid var(--color-surface); }
+.login-wall .lw-strip-head h2 { margin-bottom: 8px; font-size: 20px; line-height: 22px; font-weight: 500; }
+.login-wall .lw-strip-head p { font-size: 16px; line-height: 24px; }
+.login-wall .lw-strip { display: flex; flex-wrap: wrap; justify-content: center; }
+.login-wall .lw-item { width: 100%; max-width: 280px; padding: 24px; }
+.login-wall .lw-item img { display: block; width: auto; height: 66px; margin: 0 auto 16px; }
+.login-wall .lw-item h3 { margin-bottom: 8px; font-size: 18px; line-height: 19.8px; font-weight: 500; }
+.login-wall .lw-item p { font-size: 16px; line-height: 24px; }
+@media (width >= 768px) {
+  .login-wall { min-height: 600px; padding: 80px 0; }
+  .login-wall .lw-card { padding: 48px; }
+  .login-wall h1 { font-size: 32px; line-height: 35.2px; }
+  .login-wall .lw-item h3 { font-size: 20px; line-height: 22px; }
+  .login-wall .lw-strip-head h2 { font-size: 24px; line-height: 26.4px; }
+  .login-wall .lw-item { max-width: 214px; padding: 32px; }
+  .login-wall .lw-item { width: 33.3333%; }
+}
+
+.login-wall .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 16px; }
+.login-wall .actions p.button-wrapper { margin-top: 0; }
+
+.login-wall .actions p.button-wrapper { width: auto; }

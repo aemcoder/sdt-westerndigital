@@ -8,6 +8,8 @@
  *                       rows 2+:         <picture> | <p><a>Product name</a></p><p>Capacity: <strong>…</strong></p><p>Starting at <strong>$…</strong></p>
  *   cards resource-rail rows: <picture> (icon) | <p>eyebrow</p><h3>title</h3><p><a>Read More</a></p>
  *   cards tiles         rows: <picture> | <p><a>Label</a></p>  → square tiles, whole tile is the link
+ *   cards workload-rail rows: (empty) | <p>eyebrow</p><h3>title</h3><p>text</p><p><a>link</a></p> → 352×350 bordered cards, card-as-link, arrow (portfolio)
+ *   cards dark-rail cta-pair: 450×600 cards whose CTA cell holds <p><em><a>View Products</a></em></p><p><a>Learn More</a></p>
  * Rails are horizontally scrollable tracks (live: Splide --scroll, draggable, no arrows).
  * Authored nodes are MOVED (EW1); card-as-link unwraps the inner anchor (EW6). @ew-exempt none.
  */
@@ -15,7 +17,7 @@ function el(tag, className) { const e = document.createElement(tag); if (classNa
 
 export default function decorate(block) {
   const rows = [...block.children];
-  const variant = ['dark-rail', 'product-rail', 'resource-rail', 'tiles'].find((v) => block.classList.contains(v)) || 'dark-rail';
+  const variant = ['dark-rail', 'product-rail', 'resource-rail', 'tiles', 'workload-rail'].find((v) => block.classList.contains(v)) || 'dark-rail';
   const isRail = variant !== 'tiles';
   const list = el(isRail ? 'ul' : 'div', isRail ? 'rail__track' : 'tiles-row');
 
@@ -63,6 +65,23 @@ export default function decorate(block) {
       const ctas = texts.filter((t) => t.querySelector('a'));
       if (ctas.length) { const actions = el('div', 'actions text-links'); ctas.forEach((c) => actions.append(c)); body.append(actions); }
       card.append(body);
+    } else if (variant === 'workload-rail') {
+      // bordered solution cards: eyebrow p + h3 + p, whole card is the link (EW6), arrow glyph at the bottom
+      const link = textCell.querySelector('a');
+      const href = link?.getAttribute('href');
+      const a = el(href ? 'a' : 'div', 'card-link');
+      if (href) { a.href = href; a.setAttribute('aria-label', link.getAttribute('aria-label') || link.textContent.trim()); link.closest('p')?.remove(); }
+      const heading = texts.find((t) => /^H[1-6]$/.test(t.tagName));
+      const ps = texts.filter((t) => t.tagName === 'P' && t.isConnected);
+      const slot = (className, node) => { const w = el('div', className); w.append(node); body.append(w); };
+      if (ps[0] && heading && ps[0].compareDocumentPosition(heading) & Node.DOCUMENT_POSITION_FOLLOWING) slot('eyebrow', ps.shift());
+      if (heading) slot('title', heading);
+      ps.forEach((p) => body.append(p));
+      const arrow = el('div', 'card-arrow');
+      arrow.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      body.append(arrow);
+      a.append(body);
+      card.append(a);
     } else { // tiles
       const link = textCell.querySelector('a');
       const href = link?.getAttribute('href');

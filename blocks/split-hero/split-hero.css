@@ -1,0 +1,22 @@
+/* split-hero — /solutions/data-center-storage-platform §2: black 600h; copy 554 (h1 66/72.6 500 mb 8, p 20/30 max-w 600, white button mt 32) | img 554 (pad 24 0, max-h 500) */
+main .split-hero-container > div { max-width: none; padding: 0; }
+.split-hero { display: flex; align-items: center; min-height: 0; background: var(--color-black); color: var(--color-white); }
+.split-hero .sh-row { display: flex; flex-wrap: wrap; align-items: center; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter) 24px; }
+.split-hero .sh-copy { width: 100%; order: 2; }
+.split-hero .sh-media { width: 100%; order: 1; padding: 24px 0; }
+.split-hero h1, .split-hero p { margin: 0; color: var(--color-white); }
+.split-hero h1 { margin-bottom: 8px; font-size: 34px; line-height: 37.4px; font-weight: 500; }
+.split-hero p { max-width: 600px; font-size: 18px; line-height: 27px; }
+.split-hero p.button-wrapper { margin-top: 16px; }
+.split-hero a.button.primary { border-color: var(--color-white); background: var(--color-white); color: var(--color-black); }
+.split-hero .sh-media picture, .split-hero .sh-media img { display: block; width: 100%; max-height: 225px; height: auto; margin: 0 auto; object-fit: contain; }
+@media (width >= 768px) {
+  .split-hero { min-height: 600px; }
+  .split-hero .sh-row { padding: 32px var(--gutter); }
+  .split-hero p.button-wrapper { margin-top: 32px; }
+  .split-hero .sh-copy { width: 50%; order: 1; }
+  .split-hero .sh-media { width: 50%; order: 2; }
+  .split-hero h1 { font-size: 66px; line-height: 72.6px; }
+  .split-hero p { font-size: 20px; line-height: 30px; }
+  .split-hero .sh-media img { max-height: 500px; }
+}
