@@ -8,6 +8,48 @@
         "value": "roboto-fallback",
         "createdAt": "2026-09-18T08:49:57.985Z",
         "reason": "stardust:deploy contract — metric-matched local fallback face (roboto-fallback) required by the vanilla-EDS CLS pattern; not a brand font"
+      },
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-09-18T09:21:40.820Z",
+        "reason": "stardust:replica preserve mode — Roboto is the source site's only typeface (lifted, not chosen); design deltas are forbidden outside the inconsistency register"
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/home.css"
+        ],
+        "createdAt": "2026-09-18T09:21:40.834Z",
+        "reason": "stardust:replica — mirrors the live site's measured 0.2s linear width transition on the hero progress fill (motion-observe evidence)"
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "blocks/hero-carousel/hero-carousel.css"
+        ],
+        "createdAt": "2026-09-18T09:21:40.847Z",
+        "reason": "stardust:replica — mirrors the live site's measured 0.2s linear width transition on the hero progress fill (motion-observe evidence)"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/home.css"
+        ],
+        "createdAt": "2026-09-18T09:21:40.859Z",
+        "reason": "stardust:replica — the live tab button computes border-bottom 3px #2266ff with a 6px radius token; replicated as measured"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "blocks/category-tabs/category-tabs.css"
+        ],
+        "createdAt": "2026-09-18T09:21:40.871Z",
+        "reason": "stardust:replica — the live tab button computes border-bottom 3px #2266ff with a 6px radius token; replicated as measured"
       }
     ]
   }
