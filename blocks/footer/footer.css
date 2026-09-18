@@ -33,7 +33,7 @@ footer .footer-social a.social-x svg { width: 29px; height: 29px; }
 footer .footer-social-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 footer .footer-col .fc-block > p.footer-badge { margin: 0; line-height: 0; }
 footer .footer-badge a { display: block; }
-footer .footer-badge img { display: block; max-width: 100px; }
+footer .footer-badge img { display: block; max-width: 100px; height: auto; } /* the pipeline stamps the 1280×876 intrinsic size on the <img>; without height:auto the lazy badge renders 100×876 */
 
 footer .footer-legal { background: var(--color-black); height: 197px; }
 footer .footer-legal ul { padding-bottom: 20px; border-bottom: 1px solid var(--color-border-footer); }

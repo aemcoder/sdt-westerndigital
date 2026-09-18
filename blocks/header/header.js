@@ -118,14 +118,23 @@ export default async function decorate(block) {
         // the label is the li's own text node(s) — wrap in a button-like trigger without rebuilding text
         const label = document.createElement('span');
         label.className = 'nav-drop-label';
-        [...li.childNodes].filter((n) => n.nodeType === 3).forEach((n) => label.append(n));
+        // the label is the li's own text node(s); the publish pipeline wraps that text in a <p> when the li
+        // also holds a nested <ul> (published-origin regime, not seen in the harness) — move the nodes either way
+        [...li.childNodes].forEach((n) => {
+          if (n.nodeType === 3) label.append(n);
+          else if (n.nodeType === 1 && n.tagName === 'P') { label.append(...n.childNodes); n.remove(); }
+        });
         li.prepend(label);
         if (sub) {
           li.classList.add('nav-drop');
           li.setAttribute('aria-expanded', 'false');
           li.tabIndex = 0;
           sub.classList.add('nav-mega');
-          sub.querySelectorAll(':scope > li').forEach((col) => col.classList.add('nav-col'));
+          sub.querySelectorAll(':scope > li').forEach((col) => {
+            col.classList.add('nav-col');
+            // column title: authored <strong>; the pipeline delivers it as <p><strong> — unwrap the <p> (nodes move, EW1)
+            col.querySelectorAll(':scope > p').forEach((pEl) => pEl.replaceWith(...pEl.childNodes));
+          });
           const open = (state) => { closeAllDrops(ul, li); li.setAttribute('aria-expanded', state ? 'true' : 'false'); };
           label.addEventListener('click', () => open(li.getAttribute('aria-expanded') !== 'true'));
           li.addEventListener('mouseenter', () => { if (isDesktop.matches) open(true); });
