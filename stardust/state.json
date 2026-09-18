@@ -1390,36 +1390,78 @@
    "url": "https://www.westerndigital.com/products/accessories",
    "title": "Shop Accessories: cases, Adapters, and more | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:55:01.027Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/accessories",
+     "gate": "stardust/replica/progress.json#siblings.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-accessories.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/accessories.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner (h1+p, no link) mobile-bg + mobile picture",
+    "tree-collapsed",
+    "no-capacity tiles",
+    "red badges (3) + black badge (1)",
+    "filters 5"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   },
   {
    "slug": "products-data-center-storage",
    "url": "https://www.westerndigital.com/products/data-center-storage",
    "title": "Shop Data Center Storage: Hard Drives & Platforms to Optimize Your Data Center | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:52.987Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/data-center-storage",
+     "gate": "stardust/replica/progress.json#siblings.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-data-center-storage.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/data-center-storage.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner mobile-bg + mobile picture",
+    "6-child category tree",
+    "no-price tiles (3)",
+    "red badge (1)",
+    "filters 6"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   },
   {
    "slug": "products-data-center-storage-data-center-drives-data-security-ise-drives",
@@ -1444,36 +1486,75 @@
    "url": "https://www.westerndigital.com/products/hdd",
    "title": "Shop Hard Drives: Internal, External, and Portable HDDs | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:47.645Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/hdd",
+     "gate": "stardust/replica/progress.json#siblings.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-hdd.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/hdd.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner templated inset + mobile picture",
+    "11 filter states via ?filterBy… (h1 templated)",
+    "5 pages",
+    "promo box (5/15)"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   },
   {
    "slug": "products-hdd-external-hdd",
    "url": "https://www.westerndigital.com/products/hdd/external-hdd",
    "title": "Portable &amp; External Hard Drives | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:50.495Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/hdd/external-hdd",
+     "gate": "stardust/replica/progress.json#siblings.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-hdd-external-hdd.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/hdd/external-hdd.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner mobile-bg + mobile picture",
+    "tile promo box (13/15)",
+    "filters 8 (no Form Factor)"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   },
   {
    "slug": "products-hdd-internal-hdd",
@@ -1588,36 +1669,79 @@
    "url": "https://www.westerndigital.com/products/recertified",
    "title": "Recertified: Shop Recertified Digital Storage Drives | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:56.187Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/recertified",
+     "gate": "stardust/replica/progress.json#siblings.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-recertified.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/recertified.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner static",
+    "buy-direct benefits (\"Choose Recertified\")",
+    "tree-collapsed",
+    "featured rail",
+    "strike prices (13/15)",
+    "condition recertified",
+    "filters 6 (\"Capacity\")",
+    "no Buy Direct"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   },
   {
    "slug": "products-weekly-sale",
    "url": "https://www.westerndigital.com/products/weekly-sale",
    "title": "Weekly Storage Deals on HDDs, Gaming & Business Solutions | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:59.545Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/weekly-sale",
+     "gate": "stardust/replica/progress.json#siblings.listing"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-weekly-sale.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/weekly-sale.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner promo",
+    "split-band promo-tiles (3 cards + empty slot)",
+    "no listing"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   },
   {
    "slug": "promo",
@@ -2014,6 +2138,48 @@
    "currentStatePath": "stardust/current/pages/tools-surveillance-capacity-calculator.json",
    "prototypePath": null,
    "migratedPath": null
+  },
+  {
+   "slug": "products-final-production",
+   "url": "https://www.westerndigital.com/products/final-production",
+   "title": "Final Production: Shop Legacy Digital Storage Devices | WD",
+   "type": "listing",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T13:04:17Z",
+     "note": "crawled 2026-09-18 into stardust/.work/products-menu/crawl, copied to current/pages"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T13:04:17Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/final-production",
+     "gate": "stardust/replica/progress.json#siblings.listing"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-final-production.json",
+   "prototypePath": null,
+   "migratedPath": "content/products/final-production.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "category-banner static wide + mobile picture",
+    "tree-collapsed",
+    "featured rail",
+    "condition outlet, page-size 70, no pagination",
+    "red badges (6)",
+    "section style spaced",
+    "no Buy Direct"
+   ],
+   "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "content-count",
+    "published-pixel"
+   ]
   }
  ]
 }

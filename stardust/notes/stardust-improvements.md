@@ -185,3 +185,28 @@ the order they were discovered.
 
 - **What happened:** localizing the listing page also rewrote `content/nav.html` (the Products menu link to the new page became relative), so the nav document needs re-delivery — easy to miss when the operator's mental model is "I only added one page".
 - **Suggested change:** the script should print the list of FILES it modified (not only link targets) and deploy's per-page brief should say "re-PUT every file localize-links touched".
+
+## N-28 — diff content-inventory pairs CTAs by TEXT only — hidden duplicate anchors read as MISSING on the visible copy
+
+- **What happened:** every live promo box carries a visible modal trigger ("Learn More", href null) AND a hidden anchor to the same label; the storefront also hides a per-filter banner variant set and mobile pagination duplicates. `diffInventories` matches by normalised text, so the build's single visible link pairs with the first live copy and every hidden duplicate becomes a 🔴 MISSING CTA — 11 of 18 reds on one page were this class, and a matching visible href does not help (href is not compared).
+- **Suggested change:** exclude `display:none` / `[hidden]` / zero-rect nodes from the SOURCE inventory by default (`--include-hidden` to opt back in), and prefer href-equal pairs before text-only fallback. Same root cause as N-22's zero-width case: the classifier's inventory is DOM-wide, the gate's promise is "visible content".
+
+## N-29 — replica sibling-variance probe: default probes miss commerce templates; the class vocabulary must be harvested first
+
+- **What happened:** the probe with guessed selectors (`.product-tile`, `.refinement`) reported "deltas=0" for 7 siblings that in fact varied in hero shape, rail tree, tile badges/promo/strike price and section count — the selectors matched nothing, so nothing varied. A 30-line class-frequency survey of the sidecar (`productListItem`, `clp-filters-item`, `green-promo`…) produced the real probe set in one pass.
+- **Suggested change:** ship a `class-survey.mjs` step before the probe (top class names by frequency under the content root, filtered by intent keywords) and make the probe fail loud when a `--probe` selector matches 0 nodes on the archetype.
+
+## N-30 — deploy: section `margin-bottom` collapses with the next section's first-child margin — use padding for measured gaps
+
+- **What happened:** the live "Choose Recertified" strip has `margin-bottom:16px` inside a wrapper; authored as a section margin it collapsed with the breadcrumb's `margin-top:24px` and the listing sat 16px high. Padding on the section reproduces the live gap.
+- **Suggested change:** the block/section CSS checklist should say: measured inter-section gaps go on padding (or a wrapper), never on section margins, because EDS sections are siblings whose margins collapse.
+
+## N-31 — deploy: mobile hero assets are a separate authored image, not a crop
+
+- **What happened:** the archetype's live page painted no mobile banner, so the block hid the image below 768px; every sibling paints a DIFFERENT mobile asset (`*-mobile-banner.jpg`, 840px thumbs). The 360 gate opened at 28–41% in the first band until a second picture cell was added to the banner model.
+- **Suggested change:** the CSS-lift / section-dump should record background-image URLs per breakpoint and flag when they differ, so the block model gets a mobile media slot up front.
+
+## N-32 — zsh: functions defined in the interactive shell and run in `( … ) &` subshells lost PATH for `head/sed/awk` in this harness
+
+- **What happened:** two gate rounds printed `command not found: head` from inside backgrounded shell functions (the same pattern had worked minutes earlier); moving the loop body to an on-disk `#!/bin/bash` script fixed it. Cost: one wasted gate round (16 captures).
+- **Suggested change:** the gate docs should recommend on-disk bash scripts (`stardust/.work/deploy/*.sh`) for any multi-page parallel gate loop rather than shell functions in the agent's interactive shell.

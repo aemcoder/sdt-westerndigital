@@ -598,5 +598,372 @@
     "chat launcher seams as on the other archetypes"
    ]
   }
+ },
+ "siblings": {
+  "listing": [
+   {
+    "slug": "products-hdd-external-hdd",
+    "liveUrl": "https://www.westerndigital.com/products/hdd/external-hdd",
+    "path": "products/hdd/external-hdd",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner mobile-bg + mobile picture",
+     "tile promo box (13/15)",
+     "filters 8 (no Form Factor)"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.92,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.57,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 18,
+     "justified": [
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "each live promo box carries a visible modal trigger AND a hidden anchor to /company/programs/extended-warranty; we render one link per box (content-diff pairs by text, so the hidden duplicates read as missing)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-data-center-storage",
+    "liveUrl": "https://www.westerndigital.com/products/data-center-storage",
+    "path": "products/data-center-storage",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner mobile-bg + mobile picture",
+     "6-child category tree",
+     "no-price tiles (3)",
+     "red badge (1)",
+     "filters 6"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 1.39,
+      "heightDelta": -46,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 2.96,
+      "heightDelta": -34,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 5,
+     "justified": [
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "active pagination number rendered as a plain number on this read; live has it as a link — reverted in code (push pending)"
+     ]
+    },
+    "residuals": [
+     "live footer on this capture 717/2142px vs the gated canon 763/2176 (live-side drift; page body matches)",
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-accessories",
+    "liveUrl": "https://www.westerndigital.com/products/accessories",
+    "path": "products/accessories",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner (h1+p, no link) mobile-bg + mobile picture",
+     "tree-collapsed",
+     "no-capacity tiles",
+     "red badges (3) + black badge (1)",
+     "filters 5"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.85,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.96,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 5,
+     "justified": [
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "active pagination number rendered as a plain number on this read; live has it as a link — reverted in code (push pending)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-recertified",
+    "liveUrl": "https://www.westerndigital.com/products/recertified",
+    "path": "products/recertified",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner static",
+     "buy-direct benefits (\"Choose Recertified\")",
+     "tree-collapsed",
+     "featured rail",
+     "strike prices (13/15)",
+     "condition recertified",
+     "filters 6 (\"Capacity\")",
+     "no Buy Direct"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.88,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.92,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 7,
+     "justified": [
+      "live carries a hidden h1 AND a visible p.heading1 with the same title; we render one h1 (36/39.6 700) — the p pairs against the featured rail link",
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "active pagination number rendered as a plain number on this read; live has it as a link — reverted in code (push pending)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-final-production",
+    "liveUrl": "https://www.westerndigital.com/products/final-production",
+    "path": "products/final-production",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner static wide + mobile picture",
+     "tree-collapsed",
+     "featured rail",
+     "condition outlet, page-size 70, no pagination",
+     "red badges (6)",
+     "section style spaced",
+     "no Buy Direct"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.88,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 2.29,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 10,
+     "justified": [
+      "live carries a hidden h1 AND a visible p.heading1 with the same title; we render one h1 (36/39.6 700) — the p pairs against the featured rail link",
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "live hidden default category banner (\"Internal HDD\" copy + link) inside the dynamic-reference container"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-weekly-sale",
+    "liveUrl": "https://www.westerndigital.com/products/weekly-sale",
+    "path": "products/weekly-sale",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner promo",
+     "split-band promo-tiles (3 cards + empty slot)",
+     "no listing"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.4,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.16,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 2,
+     "justified": [
+      "hidden #extended-warranty modal content (\"Exclusively on the WD.com Store\")",
+      "each live promo box carries a visible modal trigger AND a hidden anchor to /company/programs/extended-warranty; we render one link per box (content-diff pairs by text, so the hidden duplicates read as missing)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-hdd",
+    "liveUrl": "https://www.westerndigital.com/products/hdd",
+    "path": "products/hdd",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner templated inset + mobile picture",
+     "11 filter states via ?filterBy… (h1 templated)",
+     "5 pages",
+     "promo box (5/15)"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.95,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.63,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 17,
+     "justified": [
+      "live hidden per-filter banner variants (h1 + CTA per use case / capacity) — replicated by the `templated` runtime, not as hidden DOM",
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "each live promo box carries a visible modal trigger AND a hidden anchor to /company/programs/extended-warranty; we render one link per box (content-diff pairs by text, so the hidden duplicates read as missing)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   }
+  ],
+  "listingNotes": {
+   "regime": "published-origin gate — live (cached stitch) vs aem.page, --settle both sides; content-count via content-diff --main .mainContainWrap",
+   "archetypeReread": {
+    "1440": {
+     "pixelPct": 1.33,
+     "heightDelta": -1,
+     "pass": true
+    },
+    "360": {
+     "pixelPct": 2.95,
+     "heightDelta": -1,
+     "pass": true
+    }
+   },
+   "filterStates": "/products/hdd?filterByUseCaseName=Gaming → \"Hard Drives for Gaming\" 8 tiles; ?filterByVvc-capacity=21+TB+-+50+TB → \"21 TB - 50 TB  Hard Drives\" 15/23; multi-value → both chips, 24 items; 0 console errors",
+   "pendingPush": "product-listing.js: current pagination page back to a link (live a.numb.active) — removes the \"1\" ROLE SWAP on accessories / data-center / recertified"
+  }
  }
 }

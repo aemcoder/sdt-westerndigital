@@ -245,8 +245,9 @@ export default function decorate(block) {
     const prev = el('li', 'pg-prev'); prev.append(pageLink(Math.max(1, cur - 1), cur === 1 ? 'is-disabled' : '', `<span class="pg-chev pg-chev--prev">${ICON_CHEV}</span><span class="pg-lbl">PREV</span>`)); ul.append(prev);
     for (let n = 1; n <= pg.totalPages; n += 1) {
       const li = el('li');
-      if (n === cur) { const curEl = el('span', 'pg-num is-current', `<span>${n}</span>`); curEl.setAttribute('aria-current', 'page'); li.append(curEl); } // live: the active page is a plain number, not a link
-      else li.append(pageLink(n, 'pg-num', `<span>${n}</span>`));
+      // live: every page number is a link, the active one carries `active` (measured: a.one.numb.active → ?page=1)
+      li.append(pageLink(n, `pg-num${n === cur ? ' is-current' : ''}`, `<span>${n}</span>`));
+      if (n === cur) li.firstChild.setAttribute('aria-current', 'page');
       ul.append(li);
     }
     const next = el('li', 'pg-next'); next.append(pageLink(Math.min(pg.totalPages, cur + 1), cur === pg.totalPages ? 'is-disabled' : '', `<span class="pg-lbl">NEXT</span><span class="pg-chev">${ICON_CHEV}</span>`)); ul.append(next);

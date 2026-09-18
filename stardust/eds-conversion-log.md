@@ -106,3 +106,49 @@ Gates: `davids-model-lint` PASS 0 🔴 (5 🟡: breadcrumb block as before; `pro
 `localize-links` (whole tree) also rewrote `content/nav.html` (Products → Internal HDDs now relative) — nav must be re-delivered with the page (N-27).
 
 **Published-origin gate (listing):** delivered (11 media 201; page PUT 201 → preview/live 200; nav re-PUT → 200/200). live vs `aem.page/products/hdd/internal-hdd`, settle both sides: **1440 1.35 % Δ-1 · 360 2.95 % Δ-1**; API grid live on the published origin (15 tiles, "30 Items", 9 facets, 2 pages, 0 console errors; `?filterByUseCaseName=Gaming` → 2 tiles, `?filterByColor_List=Purple|800080` → 4 tiles). content-diff final **10 🔴, all justified**: 6 = the live page's hidden per-use-case FAQ blocks (FAQ GAMING / SURVEILLANCE / NAS + 3 duplicate "Frequently Asked Questions" h2 — capture-state duplicates, not authored, decision above); 2 = "Shop by Category" / "Shop by Deals" are `href="#"` accordion triggers on live vs rail headings here; 2 = the live page's hidden mobile duplicate pagination links. Two rounds of block fixes (cfd8c2c, 06f51ef): facet VALUE = storefront query token, option label = name before `|`, filter URLs keep `| $ , ( ) /` literal, pagination links always `?page=N`.
+
+
+## Listing siblings (wave W1b — 7 pages, sibling tier)
+
+Delivered 2026-09-18 as variance-budgeted clones of the listing archetype: `products/hdd/external-hdd`, `products/data-center-storage`,
+`products/accessories`, `products/recertified`, `products/final-production`, `products/weekly-sale`, `products/hdd` (+ its 11 `?filterBy…`
+states served by the same document). Generator: `stardust/.work/deploy/gen-siblings.mjs` (per-page spec + `listing-specs.json` parsed from
+the rendered-DOM sidecars: tiles, rail tree, featured/deals links, filter names, breadcrumb); delivery `deliver-siblings.sh`; gates
+`gate-siblings.sh` / `cdiff-siblings.sh`. Links localised through a temp copy of the tree (`localize-siblings.sh`, N-27).
+
+**Variants added (blocks stay generic):**
+- `product-listing`: `featured` rail (expanded, current page blue), `category-tree: none` / `tree-collapsed: yes`, `promo` config row →
+  per-tile green box on API flag `attBelowAddToCartButtonPromo` (fallback tiles: 7th cell `promo`), badges from `badgesInfo`
+  (`bg-black` → `tile-badge--black`; 6th cell `<p><strong>` = black), strike prices from `discountPriceData` (fallback:
+  `Starting at <em>$old</em> <strong>$new</strong>`), comma multi-value `filterBy` params + storefront-form URL grouping, `+`/`−` rail
+  glyphs, 5px rail inset, `[hidden]` selected-chips fix, empty pagination hidden, section style `spaced`.
+- `category-banner`: `static` (title as p/strong or h1, no column padding, 350px max), `inset`, `wide`, `promo` (66/72.6 sale hero),
+  `mobile-bg`, optional third cell = mobile picture (every sibling paints a distinct 840px mobile asset — N-31).
+- `buy-direct benefits` ("Choose Recertified" strip, section padding instead of margin — N-30); `split-band promo-tiles` (weekly-sale 2×2).
+- `scripts/wd-commerce.js`: `filtersFromSearch` splits comma multi-values.
+
+**Published-origin gate** (live cached vs aem.page, `--settle` both sides; content-count via content-diff `--main .mainContainWrap`):
+
+| page | 1440 | 360 | content-diff | variants |
+|---|---|---|---|---|
+| products/hdd/external-hdd | 0.92 % Δ-1 | 1.57 % Δ-1 | 18 🔴 justified | category-banner mobile-bg + mobile picture, tile promo box (13/15), filters 8 (no Form Factor)… |
+| products/data-center-storage | 1.39 % Δ-46 | 2.96 % Δ-34 | 5 🔴 justified | category-banner mobile-bg + mobile picture, 6-child category tree, no-price tiles (3)… |
+| products/accessories | 0.85 % Δ-1 | 1.96 % Δ-1 | 5 🔴 justified | category-banner (h1+p, no link) mobile-bg + mobile picture, tree-collapsed, no-capacity tiles… |
+| products/recertified | 0.88 % Δ-1 | 1.92 % Δ-1 | 7 🔴 justified | category-banner static, buy-direct benefits ("Choose Recertified"), tree-collapsed… |
+| products/final-production | 0.88 % Δ0 | 2.29 % Δ-1 | 10 🔴 justified | category-banner static wide + mobile picture, tree-collapsed, featured rail… |
+| products/weekly-sale | 0.40 % Δ0 | 1.16 % Δ-1 | 2 🔴 justified | category-banner promo, split-band promo-tiles (3 cards + empty slot), no listing… |
+| products/hdd | 0.95 % Δ0 | 1.63 % Δ-1 | 17 🔴 justified | category-banner templated inset + mobile picture, 11 filter states via ?filterBy… (h1 templated), 5 pages… |
+| products/hdd/internal-hdd (archetype re-read after the rail changes) | 1.33 % Δ-1 | 2.95 % Δ-1 | unchanged | — |
+
+Data-center Δ-46/-34 is the live footer on that capture (717/2142 px vs the gated canon 763/2176) — live-side drift, the page body
+matches. Content-diff reds are all justified classes (progress.json `siblings.listing[].contentDiff.justified`): `href="#"` accordion
+heads, live hidden mobile pagination duplicates, hidden duplicate promo anchors (N-28), hidden per-filter banner variants on `/products/hdd`,
+the hidden default banner on final-production, the hidden warranty modal on weekly-sale, and the hidden-h1 + visible-p title pair on the
+static heroes. Pending push at the time of writing: the active pagination page rendered back as a link (live `a.numb.active`).
+
+**Filter states** (`/products/hdd`): `?filterByUseCaseName=Gaming` → h1 "Hard Drives for Gaming", 8 tiles; `?filterByVvc-capacity=21+TB+-+50+TB`
+→ "21 TB - 50 TB  Hard Drives", 15/23; multi-value → both chips, 24 items; 0 console errors on every published page.
+
+**Decisions:** promo "Learn More" links to `/company/programs/extended-warranty` (the live modal's target; modal decided-out); the
+"Compare" label stays inert; prices/counts come from the API at runtime (capture values only in the fallback rows); the storefront's
+hidden per-filter banner copy is not authored (runtime `templated` h1 instead).
