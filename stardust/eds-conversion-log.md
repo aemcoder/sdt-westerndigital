@@ -152,3 +152,14 @@ static heroes. Pending push at the time of writing: the active pagination page r
 **Decisions:** promo "Learn More" links to `/company/programs/extended-warranty` (the live modal's target; modal decided-out); the
 "Compare" label stays inert; prices/counts come from the API at runtime (capture values only in the fallback rows); the storefront's
 hidden per-filter banner copy is not authored (runtime `templated` h1 instead).
+
+## Header mega menu (user-flagged, 2026-09-18 afternoon)
+
+The prototype-regime chrome gate compares the header CLOSED, so the open mega menu had never been measured; the first EDS version was a narrow floating box. Re-measured on live (Playwright, `dispatchEvent('click')` on `button.dropDownItem` — hover is intercepted by the consent layer; each of the 4 menus probed):
+
+- Panel: absolute under the 56px row, full viewport width, white, 1px #e6e6e6 bottom rule; inner `.contain` (1140 at 1440); columns row `justify-content:center`, padding 48px 0.
+- Columns: 2/12 (185px, 145px list — "Certified Refurbished" wraps) or 5/12 (462px) with the links split across TWO lists (second list inset 8px). Title 18px/19.8 700, 36px box (padding-bottom 15 + 1px #e1e1e1 rule), margin-bottom 24. Items 16px/25.6 400, 16px apart. Text column ("Need help from an expert?"): title 27px line, copy 16/24, filled button (12px 24px) 24px below.
+- Band: #f2f2f2, padding 20px 0, centred flex: 554px lead text (`<strong>` lead) + 24px + buttons (outlined / filled, 16px/25.6 500, 12px 32px, 16px apart). Variants: `single` (Solutions — text flex:1, button wraps inside 274px), `text-only` (Support — 600px centred bold text).
+- Active item: 4px #0074f3 bar under the open label (live `.slidingDiv`; the slide transition was not captured → static bar).
+- Authoring model in `/nav`: `<li>Menu<ul>columns…</ul><p>band lead</p><p><em><a>outlined</a></em> <strong><a>filled</a></strong></p></li>`; a column with two `<ul>`s is wide; a column with `<p>`s instead of lists is a text column. The nav list was rebuilt from the VISIBLE live menu (hidden b2b/b2c items such as "See All Products with Tiered Pricing" are not authored).
+- Result (open-menu screenshot vs live, 1440×600 crop): Products 1.24 %, Solutions 0.55 %, Support 1.63 %, Company 1–2 % (its 11 % reading is the hero slide behind the panel). Column/title/list boxes equal to the pixel.

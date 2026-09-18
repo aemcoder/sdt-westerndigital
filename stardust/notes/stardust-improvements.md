@@ -222,3 +222,8 @@ the order they were discovered.
 
 - **What happened:** the 7 program-family pages (no prototype, authored from section-dump outlines) closed at 0.5–9.5 % at 1440 but 7.5–17 % at 360 after 4 published rounds; the listing pages, which had a prototyped archetype, closed at ≤3 % on both breakpoints. The mobile gap came from values approximated from the 1440 lift in the first pass even though 360 outlines existed.
 - **Suggested change:** when a "sibling" carries new modules, require the 360 section-dump to be read BEFORE the first CSS is written (a checklist item in the fan-out brief), and budget a mobile-only fix round explicitly. Consider a "mini-archetype" prototype for any page introducing ≥3 new modules.
+
+## N-35 — replica chrome gate: measure the header OPEN, not just closed
+
+- **What happened:** the chrome crop gate and every page gate capture the header with its menus closed, so a mega menu that was structurally wrong (narrow floating box vs the live full-width panel with a business band) passed every gate and was caught by the user. Interaction parity (`motion-observe`) recorded hover class mutations but no geometry.
+- **Suggested change:** `chrome-parity.mjs` should open each top-level menu (click/hover with the consent layer removed) and compare the open state's boxes + a crop; the header brief should list "open states" as required gate outputs alongside the scroll-state morph.
