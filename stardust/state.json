@@ -1480,18 +1480,30 @@
    "url": "https://www.westerndigital.com/products/hdd/internal-hdd",
    "title": "Internal Hard Drives: Internal HDD Storage | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "approved",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:50.496Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T11:36:50Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T11:36:50Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-hdd-internal-hdd.json",
-   "prototypePath": null,
-   "migratedPath": null
+   "prototypePath": "stardust/prototypes/listing-proposed.html",
+   "migratedPath": null,
+   "archetype": "listing",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-internal-drives-wd-blue-desktop-sata-hdd",

@@ -122,3 +122,35 @@ sidecars offline.
 `stardust/replica/{inconsistency-register.md,progress.json,motion/,gates/,lift/,dump/}` ·
 `stardust/prototypes/` · `stardust/dynamic-features.md` (+plan) · `stardust/eds-conversion-log.md` ·
 `stardust/notes/stardust-improvements.md` (general stardust improvement candidates, per the user's request).
+
+## 7. Wave W1b — the Products menu (user request, 2026-09-18)
+
+**Owner decision recorded:** the user asked to migrate every page linked under the header's first-level
+**Products** menu. This re-opens the commerce boundary for **product listing pages only**: the commerce
+search API (`api.westerndigital.com/wdwebservices/v2/us/products/search`) answers cross-origin from the
+`aem.live`/`aem.page` origins (verified in-browser), so PLP grids, facets, sort and pagination become a
+**client-rendered block fed by that API** — no backend on the new host. Price/inventory
+(`/store/cart/guest/products/priceAndInventory`) and `productreference.en-us.json` stay CORS-dead on the new
+origin; the search API and the per-product endpoint (`/products/<code>?fields=FULL`) carry price, images and
+capacity instead. PDPs, cart, account, compare and sign-in remain on the storefront (links absolute).
+
+### Inventory (26 menu links → 15 distinct pages + 11 filter states)
+
+| column | link | page | family | route |
+|---|---|---|---|---|
+| By Category | Product Portfolio | `/products/product-portfolio` | marketing landing (13 sections) | sibling of home/program modules + `product-rail` API-fed |
+| By Category | Internal HDDs | `/products/hdd/internal-hdd` | **listing archetype** | prototype + gate (this wave) |
+| By Category | External HDDs, Data Center Storage, Accessories | `/products/hdd/external-hdd`, `/products/data-center-storage`, `/products/accessories` | listing | siblings of the listing archetype (variance-budgeted) |
+| By Use | Storage Platforms | `/solutions/data-center-storage-platform` | program + form | program sibling, `form` scaffold |
+| By Use / By Capacity | 11 × `/products/hdd?filterBy…` | one page `/products/hdd` | listing | one sibling; the block reads `filterBy<Facet>=<value>` → `:<facet>:<value>`, the hero h1 templates "Hard Drives for {use case}" / "{range} Hard Drives" (measured on all 11 states, same CTA + image) |
+| Featured | What's New, Most Popular, Promotions | `/explore/whats-new`, `/promo/best-sellers`, `/promo` | program (product rails) | program siblings + `product-rail` API-fed |
+| Featured | Limited-Time Offers, Certified Refurbished, Final Production | `/products/weekly-sale`, `/products/recertified`, `/products/final-production` | listing (variants) | siblings; recertified/final-production use `customQuery=optionalCondition:*recertified*` / `*outlet*` |
+| Featured | See All Benefits, Tiered Pricing | `/business/account-benefits`, `/business/account-benefits/tiered-pricing` | program / thin (login-gated copy) | program sibling / thin |
+| Featured | Sign Up Now | `/store/business/registration` | storefront account | **stays on the storefront** (absolute link) |
+
+### Steps
+1. Listing archetype `/products/hdd/internal-hdd`: replica Phase 3–4 (prototype on the canon, gate 1440/360), then blocks: `category-banner`, `chips`, `product-listing` (API), `faq`, `resource-cards`, `buy-direct`, `split-band` reuse; deliver + published-origin gate.
+2. Listing siblings (7 pages incl. `/products/hdd`): variance probe → variant classes → content generated from the sidecars → deliver → content-count + pixel gate per page.
+3. Program siblings (6) + product portfolio: composition map (`stardust/.work/products-menu/composition-*.md`) → blocks reused, `product-rail` (API-fed, authored by product code) added → deliver → gates.
+4. Nav document: Products links relocalised to the new origin as pages go live; `Sign Up Now` stays absolute.
+5. Dynamics rows 12/14 updated: `product-catalog` → **client-rendered / self** for PLPs (search API), decided-out for PDP/cart/compare; `cart-hydration` unchanged.

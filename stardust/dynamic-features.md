@@ -64,3 +64,15 @@ One message to the owner; each item ships its interim tier now.
 | account / sign-in | authenticated commerce surface | "Sign-in stays on the storefront host." |
 | product catalog (PLP/PDP/compare/weekly-sale) | client-rendered from commerce APIs | "Catalog pages are not migrated in this phase; navigation links point to the storefront." |
 | Bazaarvoice reviews | product-page widget, catalog not migrated | "No reviews surface on migrated pages." |
+
+## Amendment 2026-09-18 — Products menu wave (user decision)
+
+The user asked to migrate every page under the header's **Products** menu. Rows 12/14 are re-dispositioned for
+**product listing pages only**:
+
+| row | was | now | evidence |
+|---|---|---|---|
+| 14 product-catalog (PLP grids, facets, sort, pagination) | decided-out | **client-rendered / self** — `product-listing` block fetches `api.westerndigital.com/wdwebservices/v2/us/products/search` (ACAO echoes the aem.page/aem.live origin; verified in-browser 2026-09-18). Query contract captured per page: `:relevance:category:<code>[:facet:value]`, `customQuery=*:* AND -optionalCondition_en_string_mv:*recertified*` (recertified: `+…*recertified*`, final-production: `*outlet*`, pageSize 70). `filterBy<Facet>=<value>` URL params map to `:<facet>:<value>`. | `stardust/.work/products-menu/api-calls.mjs` output, `scripts/wd-commerce.js` |
+| 14 product-catalog (PDP, compare, quick-view) | decided-out | unchanged — tiles link absolute to the storefront PDP (`/products/<family>/<code>?sku=`) | — |
+| 12 cart-hydration / price & inventory | decided-out | unchanged — `priceAndInventory` and `productreference.en-us.json` are CORS-dead on the new origin; tile prices come from the search payload (`priceData.formattedValue`, "Starting at") | in-browser fetch FAIL on aem.page |
+| 9 product-reference-data | static-snapshot | authored product rails (What's New, Best Sellers, Portfolio) → `product-rail` block: authored PDP link + code per tile, price/image refreshed from the search API when reachable, authored capture text as fallback | — |

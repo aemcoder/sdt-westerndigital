@@ -252,6 +252,161 @@
      "a.btn hover"
     ]
    }
+  },
+  {
+   "pageType": "listing",
+   "archetype": "listing",
+   "liveUrl": "https://www.westerndigital.com/products/hdd/internal-hdd",
+   "prototype": "stardust/prototypes/listing-proposed.html",
+   "sources": {
+    "outline": "stardust/.work/listing/outline-{1440,360}.txt",
+    "lift": "stardust/.work/listing/lift-{1440,360}.json",
+    "content": "stardust/.work/listing/content/section-0..8.html (verbatim sidecar HTML) → tiles.json, faq.json, facets.json",
+    "generator": "stardust/.work/listing/gen-proto.mjs → src/listing.html"
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 0.87% Δ-1 (first build)",
+      "iter2 5.51% Δ-28 — INSTRUMENT: stitch-shot FONT LOAD FAILED on the build side (fallback type) — not a measurement, discarded",
+      "iter3 0.85% Δ-1 (hidden captured DOM added: facet option lists, Shop-by-Deals children, 3 hidden FAQ variants, mobile pagination dupes → content-diff 0 red)"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 0.85,
+      "heightDelta": -1,
+      "chromeHeaderPct": 0.27,
+      "chromeFooterPct": 0.41,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 MISSING BODY ×~30",
+       "why": "live inline <style> text, hidden Vue strings ('Items' dupes, '(0)', 'Sort by :' mobile copy, '+ More/- Less' beyond the 3 lists that carry them) — build carries no inline CSS text"
+      },
+      {
+       "probe": "chrome-parity",
+       "flag": "header '|'/'Shop' Δx +7px; footer 'United States' lineHeight/radius, 2 legal links Δx ≤6px",
+       "why": "canon chrome deltas already accepted on the three gated archetypes (crop gate 0.27%/0.41% here); not page-level"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "bottom-right 65×65 at every 900px seam",
+       "pct": 0.3,
+       "cause": "capture-state: Genesys chat launcher (fixed iframe), dynamics row 20",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "tile grid",
+       "pct": 0.5,
+       "cause": "SVG icon approximations (compare box, dropdown chevrons, mobile toolbar icons) redrawn at the measured 16/20/23px boxes",
+       "flaggedFor": "none"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "live shows '30 Items' today vs 32 in the crawl sidecar; 15 tiles per page, 2 pages — recreated from the sidecar tiles (first 15), count authored as 30 to match the gate capture",
+       "where": "listing toolbar"
+      },
+      {
+       "what": "tile 10 (WD Gold outlet) carries the red FINAL PRODUCTION badge as captured",
+       "where": "grid"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 10.16% Δ-71 (hero bg painted, recommendation spacer shown, resource cards padded 16, buy items 20/22 titles)",
+      "iter2 2.22% Δ-1 (hero bg none <768 as captured, reco spacer hidden <768, res cards 0/16 padding + 43px cta, buy h3 18/19.8 + first item unpadded)"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 2.22,
+      "heightDelta": -1,
+      "chromeHeaderPct": 1.05,
+      "chromeFooterPct": 1.32,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "region": "use-case chips row",
+       "pct": 0.2,
+       "cause": "live overflows the viewport (nowrap flex, body overflow-x hidden) — replicated via the same flex model; sub-pixel shrink differences",
+       "flaggedFor": "none"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "the live hero paints NO background image below 768px (lazyload class never lands on mobile) so its white copy sits on white — replicated as captured (listing.css @media max-width:767px background-image:none). A visible mobile hero would be an inconsistency-register entry, not a replica fix.",
+       "where": "hero"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observed": [
+     "body.minHeader on scroll (header top 0.3s transition)",
+     "lazyload class swaps on band images + footer badge"
+    ],
+    "implemented": [
+     "canon.js minHeader (shared)"
+    ],
+    "dead": [
+     "FAQ accordion toggle (no class mutation fired — first item open, rest closed as captured; static)",
+     "filter accordions / sort dropdown / mobile Shop-Filter-Sort buttons (no mutation fired; static)",
+     "compare button (commerce modal, decided-out)"
+    ]
+   },
+   "newModules": [
+    {
+     "name": "category-banner",
+     "desc": "photo hero band 260px (bg cover) with h1 + p + underlined link, 50% column",
+     "from": "section-0"
+    },
+    {
+     "name": "category-shortcuts",
+     "desc": "3 white 16px-radius cards on #f9f9f9: 84px icon tile (#f2f3f3, 12px radius) + title/subtitle",
+     "from": "section-0"
+    },
+    {
+     "name": "use-case-chips",
+     "desc": "label + outlined 6px-radius chip links, nowrap row with bottom hairline",
+     "from": "section-1"
+    },
+    {
+     "name": "product-listing",
+     "desc": "breadcrumb + 202px sticky (top 56) filter rail (category tree, deals, 9 collapsed facet accordions with hidden option lists) + toolbar (count, sort select 250px 2px border) + 4-up tile grid (198px grey media box, name h2, Capacity strong, Starting at price, Compare) + pagination (PREV 1 2 NEXT); mobile: rail hidden, Shop/Filter/Sort buttons, 2-up grid",
+     "from": "section-2"
+    },
+    {
+     "name": "use-case-bands",
+     "desc": "3 alternating image(448×300, r16)/text rows on #f9f9f9, max-width 992, outlined CTA + blue text link; row 2 flipped + 64px padding",
+     "from": "section-3"
+    },
+    {
+     "name": "resource-cards",
+     "desc": "centered h2-hero head + 3 #f2f3f3 cards (40px padding, r16) with h3/p/underlined Read More",
+     "from": "section-4/5"
+    },
+    {
+     "name": "faq-accordion",
+     "desc": "#f6f6f6 r16 box, 5/7 columns: h2 + 16 accordion items (24px padding, plus/minus icon), first open",
+     "from": "section-6"
+    },
+    {
+     "name": "buy-direct",
+     "desc": "#f2f3f3 strip: h2 34px + 4 icon items (76px svg, h3 20/22, p, underlined link) space-evenly + footnote",
+     "from": "section-7"
+    }
+   ],
+   "canonBackports": []
   }
  ],
  "fonts": {
