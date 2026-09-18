@@ -1,20 +1,45 @@
-/* category-banner — values lifted from stardust/prototypes/listing.css (.clp-hero) */
+/* category-banner — values lifted from stardust/prototypes/listing.css (.clp-hero); sibling variants from
+   stardust/.work/products-menu/composition-listing.md (live-measured @1440/@360) */
 main .category-banner-container > div { max-width: none; padding: 0; }
-.category-banner { position: relative; color: var(--color-white); }
+.category-banner { position: relative; display: flex; align-items: center; min-height: 175px; color: var(--color-white); }
 .category-banner .banner-bg { position: absolute; inset: 0; overflow: hidden; }
 .category-banner .banner-bg :is(picture, img) { display: block; width: 100%; height: 100%; }
 .category-banner .banner-bg img { object-fit: cover; object-position: 50% 50%; }
-.category-banner .contain { position: relative; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.category-banner .contain { position: relative; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
 .category-banner .banner-copy { padding: 24px 0; }
-.category-banner h1 { margin: 0 0 8px; font-size: 32px; line-height: 35.2px; font-weight: 700; color: var(--color-white); }
+.category-banner h1, .category-banner p.banner-title { margin: 0 0 8px; font-size: 32px; line-height: 35.2px; font-weight: 700; color: var(--color-white); }
+.category-banner p.banner-title strong { font-weight: 700; }
 .category-banner p { margin: 0; font-size: 16px; line-height: 24px; }
 .category-banner p.banner-cta { margin-top: 16px; height: 20px; line-height: 20px; }
 .category-banner p.banner-cta a:any-link { display: inline-flex; vertical-align: top; font-size: 16px; line-height: 16px; text-decoration: underline; color: var(--color-white); }
 
-/* capture-state: the live lazyload class never lands on mobile — no hero image below 768px */
-@media (width < 768px) { .category-banner .banner-bg { display: none; } .category-banner { color: var(--color-white); } }
+/* `static` (recertified, final-production): live section is a plain min-h band, copy block not padded */
+.category-banner.static .banner-copy { padding: 0; }
+.category-banner.static:not(.wide) .banner-copy { max-width: 350px; }
+.category-banner.static.wide .banner-copy { padding: 24px 0; }
+
+/* `promo` (weekly-sale): centred sale hero */
+.category-banner.promo { min-height: 150px; text-align: center; }
+.category-banner.promo .banner-copy { padding: 24px 8px; }
+.category-banner.promo h1 { font-size: 34px; line-height: 37.4px; font-weight: 500; }
+.category-banner.promo p { font-size: 18px; line-height: 27px; }
+
+/* capture-state: the archetype's live lazyload class never lands on mobile — no hero image below 768px (variant `mobile-bg` keeps it) */
+@media (width < 768px) { .category-banner:not(.mobile-bg) .banner-bg { display: none; } .category-banner { color: var(--color-white); } .category-banner.has-mobile-bg .banner-bg > picture { display: none; } }
+.category-banner .banner-bg-mobile { position: absolute; inset: 0; }
+.category-banner .banner-bg-mobile :is(picture, img) { display: block; width: 100%; height: 100%; }
+.category-banner .banner-bg-mobile img { object-fit: cover; object-position: 50% 50%; }
+@media (width >= 768px) { .category-banner .banner-bg-mobile { display: none; } }
 
 @media (width >= 768px) {
-  .category-banner h1 { font-size: 36px; line-height: 39.6px; }
+  .category-banner { min-height: 250px; }
+  .category-banner h1, .category-banner p.banner-title { font-size: 36px; line-height: 39.6px; }
   .category-banner .banner-copy { width: 50%; padding: 64px 64px 64px 0; }
+  .category-banner.inset .banner-copy { padding: 64px; }
+  .category-banner.wide .banner-copy { width: 100%; }
+  .category-banner.static .banner-copy { padding: 0; }
+  .category-banner.static.wide .banner-copy { padding: 64px; }
+  .category-banner.promo .banner-copy { width: 462px; margin: 0 auto; padding: 80px; }
+  .category-banner.promo h1 { font-size: 66px; line-height: 72.6px; }
+  .category-banner.promo p { font-size: 20px; line-height: 30px; }
 }

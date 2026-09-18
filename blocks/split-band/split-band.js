@@ -6,6 +6,8 @@
  *   Alternation is structural: even rows image-left, odd rows image-right (live md:order-2) — index-based (#61).
  *   Row 1 is top-aligned, the rest vertically centred (measured live). A <p><a href="….pdf"> renders as the
  *   site's download link (icon + underline) — attribute-based, no class on the authored anchor (EW2).
+ * Variant `promo-tiles` (weekly-sale): 2-up grid of 546×300 grey cards, copy left / image right at every index (no
+ *   alternation), optional <p>★★★★★</p> opener kept as the eyebrow, outlined CTA. Same authoring rows.
  * Authored nodes are MOVED (EW1). @ew-exempt none.
  */
 const DOWNLOAD = '<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="currentColor" aria-hidden="true"><path d="M480-336 288-528l51-51 105 105v-286h72v286l105-105 51 51-192 192ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>';

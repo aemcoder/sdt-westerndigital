@@ -23,3 +23,22 @@ main .buy-direct-container .buy-direct-wrapper { padding-top: 16px; }
   .buy-direct .buy-item, .buy-direct .buy-item--first { max-width: 250px; padding: 0 8px; }
   .buy-direct .buy-title h3 { font-size: 20px; line-height: 22px; }
 }
+
+/* variant `benefits` — "Choose Recertified" strip (live @1440: #f2f3f3, pad 32 0, mb 16; 3 cols 385 (px 24); icon 96 mb 8;
+   p.heading6 20/22 500 titles; p 16/24; strip title p.heading6 20/22 500 with 24px below) */
+main .section:has(.buy-direct.benefits) { padding: 24px 0 40px; } /* live: pad 24/32 + a 16px wrapper margin that must not collapse with the next section's breadcrumb margin */
+main .section:has(.buy-direct.benefits) .default-content-wrapper p { margin: 0 0 16px; padding: 0 0 16px; font-size: 18px; line-height: 19.8px; font-weight: 500; }
+main .section:has(.buy-direct.benefits) .buy-direct-wrapper { padding-top: 0; }
+.buy-direct.benefits .buy-row { justify-content: flex-start; margin: 0 -24px -24px; }
+.buy-direct.benefits .buy-item, .buy-direct.benefits .buy-item--first { width: 100%; max-width: none; padding: 0 24px; margin-bottom: 24px; }
+.buy-direct.benefits .buy-img { height: 104px; }
+.buy-direct.benefits .buy-img img { width: 96px; height: 96px; margin: 0 auto 8px; }
+.buy-direct.benefits .buy-title { padding-bottom: 8px; }
+.buy-direct.benefits .buy-title p { margin: 0; font-size: 18px; line-height: 19.8px; font-weight: 500; }
+.buy-direct.benefits .buy-title p strong { font-weight: 500; }
+@media (width >= 768px) {
+  main .section:has(.buy-direct.benefits) { padding: 32px 0 48px; }
+  main .section:has(.buy-direct.benefits) .default-content-wrapper p { padding-bottom: 24px; font-size: 20px; line-height: 22px; }
+  .buy-direct.benefits .buy-item, .buy-direct.benefits .buy-item--first { width: 33.3333%; }
+  .buy-direct.benefits .buy-title p { font-size: 20px; line-height: 22px; }
+}

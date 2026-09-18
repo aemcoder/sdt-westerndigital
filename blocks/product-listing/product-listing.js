@@ -28,7 +28,7 @@ const ICON_SHOP = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width
 const ICON_FILTER = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="3" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="8.5" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="14" width="16" height="3" rx="1" fill="#000"/></svg>';
 const ICON_SORT = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M14 4v11l3-3 .7.7L13.5 17l-4.2-4.3.7-.7 3 3V4z" fill="#000"/><rect x="2" y="4" width="8" height="1.2" fill="#000"/><rect x="2" y="7.5" width="6.5" height="1.2" fill="#000"/><rect x="2" y="11" width="5" height="1.2" fill="#000"/></svg>';
 
-const KEYS = ['categories', 'condition', 'page-size', 'sort', 'filters', 'category-tree', 'deals'];
+const KEYS = ['categories', 'condition', 'page-size', 'sort', 'filters', 'category-tree', 'deals', 'featured', 'promo'];
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html !== undefined) e.innerHTML = html; return e; };
 const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
 
@@ -45,11 +45,14 @@ function readConfig(block) {
 
 /* ---- tile (fallback from authored cells, or from API data) ---- */
 function tileFromCells(cells) {
-  const [pic, name, cap, price, link, badge] = cells;
+  const [pic, name, cap, price, link, badge, promo] = cells;
   const a = link?.querySelector('a');
+  const badgeText = badge?.textContent.trim() || '';
   return {
     href: a?.getAttribute('href') || '#', nodes: { pic: pic.querySelector('picture, img'), name, cap, price, badge },
-    text: { name: name?.textContent.trim() || '', cap: cap?.textContent.trim() || '', price: price?.textContent.trim() || '', badge: badge?.textContent.trim() || '' },
+    badgeBlack: !!badge?.querySelector('strong'), // <p><strong>EXCLUSIVE</strong></p> = the storefront's black badge; plain text = red
+    promo: /^(yes|promo|true)$/i.test(promo?.textContent.trim() || ''),
+    text: { name: name?.textContent.trim() || '', cap: cap?.textContent.trim() || '', price: price?.textContent.trim() || '', badge: badgeText },
   };
 }
 
@@ -63,17 +66,28 @@ function renderTile(t) {
   else if (t.img) { const img = el('img'); img.src = t.img; img.alt = t.text.name; img.width = 126; img.height = 126; img.loading = 'lazy'; inner.append(img); }
   media.append(inner);
   const badgeText = t.text.badge || (t.stock === 'outlet' ? 'FINAL PRODUCTION' : '');
-  if (badgeText) media.append(el('div', 'tile-badge', badgeText));
+  if (badgeText) media.append(el('div', `tile-badge${t.badgeBlack ? ' tile-badge--black' : ''}`, badgeText));
   top.append(media);
   const h2 = el('h2', 'tile-name'); if (t.nodes?.name) h2.append(...t.nodes.name.childNodes); else h2.textContent = t.text.name; top.append(h2);
   const meta = el('div', 'tile-meta');
   if (t.text.cap) { const c = el('div', 'tile-cap'); c.append('Capacity: '); const s = el('strong'); if (t.nodes?.cap) s.append(...t.nodes.cap.childNodes); else s.textContent = t.text.cap; c.append(s); meta.append(c); }
-  if (t.text.price) { const p = el('p', 'tile-price'); if (t.nodes?.price) p.append(...t.nodes.price.childNodes); else p.textContent = t.text.price; meta.append(p); }
+  if (t.text.price) {
+    const p = el('p', 'tile-price');
+    if (t.nodes?.price) p.append(...t.nodes.price.childNodes);
+    else if (t.strike) p.append('Starting at ', el('em', '', t.strike), ' ', el('strong', '', t.text.price.replace(/^Starting at /, '')));
+    else p.textContent = t.text.price;
+    if (p.querySelector('em')) p.classList.add('tile-price--strike'); // authored as <p>Starting at <em>$old</em> <strong>$new</strong></p>
+    meta.append(p);
+  }
   link.append(top, meta);
   const compare = el('button', 'tile-compare', `${ICON_COMPARE}<span>Compare</span>`); compare.type = 'button'; compare.setAttribute('aria-disabled', 'true'); compare.title = 'Compare products on westerndigital.com';
-  tile.append(link, compare); cell.append(tile);
+  tile.append(link, compare);
+  // the storefront's "below the button" promotion box (extended warranty) — authored once per page (config row `promo`), shown on flagged tiles
+  if (t.promo && PROMO.template) { const box = el('div', 'tile-promo'); box.append(...[...PROMO.template.childNodes].map((n) => n.cloneNode(true))); tile.append(box); }
+  cell.append(tile);
   return cell;
 }
+const PROMO = { template: null };
 
 /* ---- URL state ---- */
 function stateFromUrl() {
@@ -82,7 +96,9 @@ function stateFromUrl() {
 }
 function urlFor({ filters, page, sort }, alwaysPage = false) {
   const q = new URLSearchParams();
-  filters.forEach(([f, v]) => q.append(`filterBy${f.charAt(0).toUpperCase()}${f.slice(1)}`, v));
+  const grouped = new Map();
+  filters.forEach(([f, v]) => { const k = `filterBy${f.charAt(0).toUpperCase()}${f.slice(1)}`; grouped.set(k, [...(grouped.get(k) || []), v]); });
+  grouped.forEach((vs, k) => q.set(k, vs.join(',')));
   if (page > 1 || alwaysPage) q.set('page', String(page));
   if (sort) q.set('sort', sort);
   // the storefront keeps these characters literal in its filter URLs (e.g. Color `Purple|800080`, Price `$50-$199.99`, `(NAS)`, `12Gb/s`)
@@ -97,6 +113,7 @@ export default function decorate(block) {
   const pageSize = parseInt(cfg['page-size']?.textContent.trim() || '15', 10);
   const defaultSortLabel = cfg.sort?.textContent.trim() || 'Most Popular';
   const facetNames = list(cfg.filters?.textContent);
+  if (cfg.promo) { const tpl = el('div', 'tile-promo-template'); tpl.hidden = true; tpl.append(...cfg.promo.childNodes); const more = tpl.querySelector('a'); if (more && !more.getAttribute('href')) more.removeAttribute('href'); PROMO.template = tpl; block.append(tpl); }
 
   /* rail */
   const body = el('div', 'clp-body');
@@ -105,8 +122,9 @@ export default function decorate(block) {
   const nav = el('div', 'clp-nav');
   if (cfg['category-tree']) {
     const item = el('div', 'clp-nav-item');
-    item.append(el('h3', 'clp-rail-head', '<span>Shop by Category</span>'));
+    const catHead = el('h3', 'clp-rail-head', '<span>Shop by Category</span>'); item.append(catHead);
     const tree = cfg['category-tree'].querySelector('ul');
+    catHead.setAttribute('aria-expanded', tree ? 'true' : 'false'); // live: "−" when the tree is open, "+" on header-only rails // value "none" = the header alone (accessories, recertified, final-production)
     if (tree) {
       tree.classList.add('clp-cat-tree');
       tree.querySelectorAll('a').forEach((a) => { try { if (new URL(a.href).pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '')) a.classList.add('is-current'); } catch { /* relative */ } });
@@ -122,6 +140,15 @@ export default function decorate(block) {
     if (ul) { ul.classList.add('clp-cat-tree', 'clp-deals'); ul.hidden = true; item.append(ul); }
     head.tabIndex = 0; head.setAttribute('role', 'button'); head.setAttribute('aria-expanded', 'false');
     head.addEventListener('click', () => { const open = head.getAttribute('aria-expanded') === 'true'; head.setAttribute('aria-expanded', open ? 'false' : 'true'); if (ul) ul.hidden = open; });
+    nav.append(item);
+  }
+  if (cfg.featured) {
+    // "Shop by Featured" (recertified / final-production): always expanded, the current page's link underlined blue
+    const item = el('div', 'clp-nav-item clp-nav-item--last');
+    const heading = cfg.featured.querySelector('p');
+    const head = el('h3', 'clp-rail-head'); const span = el('span'); if (heading) span.append(...heading.childNodes); else span.textContent = 'Shop by Featured'; head.append(span); head.setAttribute('aria-expanded', 'true'); item.append(head);
+    const ul = cfg.featured.querySelector('ul');
+    if (ul) { ul.classList.add('clp-featured'); ul.querySelectorAll('a').forEach((a) => { try { if (new URL(a.href).pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '')) a.classList.add('is-current'); } catch { /* relative */ } }); item.append(ul); }
     nav.append(item);
   }
   const filters = el('div', 'clp-filters');
@@ -220,7 +247,14 @@ export default function decorate(block) {
     try {
       const sort = state.sort || defaultSortCode;
       const data = await search({ sort, categories, filters: state.filters, condition, page: state.page - 1, pageSize, signal: controller.signal });
-      const items = (data.products || []).map((p) => { const t = tileData(p); return { href: t.href, img: t.img, stock: p.stock?.stockLevelStatus, text: { name: t.name, cap: t.capacity, price: t.price, badge: (p.badgesInfo && Object.values(p.badgesInfo)[0]) || (/\/outlet\//.test(p.pagePath || p.url || '') ? 'FINAL PRODUCTION' : '') } }; });
+      const items = (data.products || []).map((p) => {
+        const t = tileData(p);
+        const badge = p.badgesInfo?.tagTitle || (/\/outlet\//.test(p.pagePath || p.url || '') ? 'FINAL PRODUCTION' : '');
+        const was = p.priceData?.value; const now = p.discountPriceData?.value;
+        const strike = was && now && now < was ? p.priceData.formattedValue : '';
+        const price = strike ? `Starting at ${p.discountPriceData.formattedValue}` : t.price;
+        return { href: t.href, img: t.img, stock: p.stock?.stockLevelStatus, badgeBlack: /bg-black/.test(p.badgesInfo?.styleClass || ''), strike, promo: !!p.attBelowAddToCartButtonPromo, text: { name: t.name, cap: t.capacity, price, badge } };
+      });
       grid.replaceChildren(...items.map(renderTile));
       count.innerHTML = `${data.pagination?.totalResults ?? items.length} <span class="qty-label">Items</span>`;
       select.value = sort;

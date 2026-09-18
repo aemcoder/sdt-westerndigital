@@ -29,7 +29,9 @@ export function filtersFromSearch(search = window.location.search) {
   new URLSearchParams(search).forEach((v, k) => {
     if (!k.startsWith('filterBy') || !v) return;
     const code = k.slice('filterBy'.length);
-    out.push([code.charAt(0).toLowerCase() + code.slice(1), v]);
+    const facet = code.charAt(0).toLowerCase() + code.slice(1);
+    // the storefront joins several values of one facet with commas (`filterByVvc-capacity=21+TB+-+50+TB,51+TB+-+100+TB`)
+    v.split(',').map((x) => x.trim()).filter(Boolean).forEach((x) => out.push([facet, x]));
   });
   return out;
 }
