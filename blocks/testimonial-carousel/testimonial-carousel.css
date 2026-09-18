@@ -38,9 +38,9 @@ main .testimonial-carousel-container:has(.testimonial-carousel.static) { padding
   main .testimonial-carousel-container { padding: 40px 0 0; }
   .testimonial-carousel .tc-slide { padding: 40px 0; }
   .testimonial-carousel .tc-icon { margin: 0 0 16px; }
-  .testimonial-carousel .tc-quote p { font-size: 26px; line-height: 48px; }
+  .testimonial-carousel .tc-quote p { font-size: 24px; line-height: 40px; } /* round-3 value: at 328 px the live 26/48 copy over-runs the measured 829 px section */
   .testimonial-carousel .tc-attr { margin-top: 32px; }
-  .testimonial-carousel .tc-dots { height: 0; overflow: visible; transform: translateY(-28px); }
+  .testimonial-carousel .tc-dots { height: 40px; }
   main .testimonial-carousel-container:has(.testimonial-carousel.static) { padding: 64px 0 0; }
   .testimonial-carousel.static .tc-static { padding-bottom: 80px; }
 }
