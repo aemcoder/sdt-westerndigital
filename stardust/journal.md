@@ -115,3 +115,24 @@ file of general stardust improvements.
 **Next:** user review of the three delivered pages and the plan; then rollout waves W1–W5 per `stardust/replica/migration-plan.md`.
 
 ---
+## 2026-09-18T14:16:33Z — Wave W1b: the Products menu (15 pages) delivered
+
+**Prompt:** "continue the migration, migrate all the menu items under the Product first level".
+
+**Decisions:**
+- The 26 menu links resolve to 15 pages + 11 filter states of `/products/hdd`; `/store/business/registration` stays on the storefront.
+- **Commerce boundary re-opened for listings (user decision):** the storefront search API answers cross-origin from the new origins, so PLP grids/facets/sort/pagination are a client-rendered `product-listing` block (`scripts/wd-commerce.js`); price/inventory endpoints stay CORS-dead, prices come from the search payload; PDP/cart/compare stay absolute. Recorded in `dynamic-features.md § Amendment` and `migration-plan.md § 7`.
+- New **listing archetype** `/products/hdd/internal-hdd` went through the full replica flow (prototype 0.85 %/2.22 %, published 1.33 %/2.95 %); 7 listing siblings cloned with variant classes, published 0.40–1.39 % / 1.16–2.96 %; the HDD page templates its hero and re-filters from the 11 `filterBy…` states.
+- **Program family (7 pages) authored directly from measured outlines (sibling tier, no prototype — budget decision, recorded):** 1440 0.5–9.5 %, 360 7.5–16 % after 4 published rounds; 5 pages remain over the 10 % bar at 360 with residuals listed in `progress-program.json`. Tiered-pricing is a thin login-wall page (login-gated source). "Talk to an Expert" form and quick-view modals link to the live anchors (interim, decided-out rows).
+- Two workers ran in parallel with per-wave ledger shards (`progress-program.json`, `eds-conversion-log-program.md`, `media-map-program.json`, `stardust-improvements-program.md`) — N-33.
+- Nav/footer/home relocalised: all Products links now relative; republished.
+
+**Artifacts touched:** 18 new blocks (`category-banner`, `category-shortcuts`, `use-case-chips`, `product-listing`, `resource-cards`, `faq`, `buy-direct`, `product-rail`, `card-grid`, `cta-band`, `disclosures`, `media-text`, `faq-list`, `testimonial-carousel`, `tabs`, `table`, `split-hero`, `login-wall`) + variants on split-band/cards/photo-hero/subnav; `content/products/**`, `content/explore/whats-new.html`, `content/promo*.html`, `content/business/**`, `content/solutions/data-center-storage-platform.html`; `stardust/prototypes/listing*`; ledgers, state (15 pages → migrated), status, notes N-25…N-34 + N-P1…N-P7.
+
+**Findings worth flagging:** the prototyped family closed at ≤3 % on both breakpoints while the direct-authored family plateaued at 360 exactly as the replica docs predict (N-34); the live footer drifted during the run (717/2142 vs the gated 763/2176 on one capture); API drift vs capture (item counts, prices) is inherent to API-fed blocks.
+
+**Open questions:** whether to spend a mobile-only round on the 5 program pages over the bar; the commerce owner decisions (PDP/cart/account) remain.
+
+**Next:** user review of the Products-menu pages; then W1 (press-release siblings) / W3 per the plan, or the mobile follow-up round.
+
+---

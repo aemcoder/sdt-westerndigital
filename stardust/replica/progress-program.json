@@ -23,9 +23,52 @@
       "heightDelta": -101
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 (final; CSS batch 5 live at 5fa3e34)",
+     "1440": {
+      "pixelPct": 0.52,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 11.38,
+      "heightDelta": -5,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 3,
+      "justified": "3 = \"Learn More\" links present in the build DOM (2 warranty-strip links → extended-warranty page, 1 CTA-band button → /business/account-benefits; verified by DOM probe) — inventory pairing miss on generic link text"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 0.52,
+       "heightDelta": 0
+      },
+      "360": {
+       "pixelPct": 11.38,
+       "heightDelta": -5
+      }
+     },
+     "residuals": {
+      "360": "tile internals: SKU-level product images crop differently from the live tiles (same 344/264 grid); +11.4 % spread evenly over the three grids, Δ-5"
+     },
+     "status": "over-bar: 360"
+    },
     "contentDeviations": [
      "promo-strip \"Learn More\" opens a quick-view modal on live (href-less) → authored as a link to the page (decided-out modal, dynamics row 14)"
+    ],
+    "variants": [
+     "photo-hero band",
+     "product-rail grid-4",
+     "cta-band"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360:over-bar"
     ]
    },
    {
@@ -45,9 +88,55 @@
       "heightDelta": -111
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 (final; CSS batch 5 live at 5fa3e34)",
+     "1440": {
+      "pixelPct": 6.01,
+      "heightDelta": 24,
+      "pass": false
+     },
+     "360": {
+      "pixelPct": 8.59,
+      "heightDelta": -9,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 2,
+      "justified": "2 = the live program cards wrap their description in a nested link (AEM artefact repeated per nesting level); one card link authored"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 6.01,
+       "heightDelta": 24
+      },
+      "360": {
+       "pixelPct": 8.59,
+       "heightDelta": -9
+      }
+     },
+     "residuals": {
+      "1440": "Δ+24: live \"Offer Programs\" lede wraps to 2 lines (unseen width/br) and two empty 16 px live grid cells; pixel 6.0 % passes"
+     },
+     "status": "over-bar: 1440, 360"
+    },
     "contentDeviations": [
      "live repeats a 16px a.block link wrapper at every nesting level of the program cards (AEM artefact) — one card link authored"
+    ],
+    "variants": [
+     "photo-hero centered h400",
+     "card-grid icon-tiles",
+     "card-grid program",
+     "card-grid icon-columns padded",
+     "cta-band contained",
+     "disclosures surface"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440:over-bar",
+     "published-pixel-360:over-bar"
     ]
    },
    {
@@ -67,9 +156,55 @@
       "heightDelta": -22
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 (final; CSS batch 5 live at 5fa3e34)",
+     "1440": {
+      "pixelPct": 9.53,
+      "heightDelta": -39,
+      "pass": false
+     },
+     "360": {
+      "pixelPct": 10.88,
+      "heightDelta": -33,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 20,
+      "justified": "20 = hidden quick-view modal content (product blurbs with inline links, modal \"Shop Now\" buttons) — decided-out (dynamics 14)"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 8.43,
+       "heightDelta": -23
+      },
+      "360": {
+       "pixelPct": 12.0,
+       "heightDelta": -49
+      }
+     },
+     "residuals": {
+      "360": "10.9 %: product card image crops (SKU vs base-product renders) and testimonial head wrap; Δ-33 from the four-card resources stack"
+     },
+     "status": "over-bar: 1440, 360"
+    },
     "contentDeviations": [
      "product names/prices are the SKU-level capture; the API (base-product) only fills gaps; breadcrumb is show-for-b2c on live (B2C render authored)"
+    ],
+    "variants": [
+     "photo-hero centered w462 h1-48",
+     "testimonial-carousel static",
+     "product-rail showcase",
+     "product-rail showcase featured-left",
+     "card-grid media four-up grey r16 img-225 h3-24",
+     "cta-band gradient"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440:over-bar",
+     "published-pixel-360:over-bar"
     ]
    },
    {
@@ -89,9 +224,60 @@
       "heightDelta": 87
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 + pub5 re-measure of 360 after the testimonial revert (416a23a)",
+     "1440": {
+      "pixelPct": 7.04,
+      "heightDelta": -6,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 16.08,
+      "heightDelta": -98,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 4,
+      "justified": "4 = links inside the client-only \"More on…\" detail modals (Shipping FAQ, Reach out to us, Log in ×2) — modals not authored; the triggers link to the live anchors (interim)"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 7.04,
+       "heightDelta": -6
+      },
+      "360": {
+       "pixelPct": 16.08,
+       "heightDelta": -98
+      }
+     },
+     "residuals": {
+      "360": "16.1 % Δ-98 (back to the round-3 value): mobile stacks of the icon columns / media-text / testimonial run taller than the live 1-up sections; the round-4 testimonial sizing regression is reverted"
+     },
+     "status": "over-bar: 360"
+    },
     "contentDeviations": [
      "B2C (logged-out) personalized tree only; 2 \"#anchor\" links kept as anchors; testimonial carousel: slide 1 at rest, dots switch, no autoplay (no motion capture)"
+    ],
+    "variants": [
+     "subnav business",
+     "photo-hero centered w739 lede-18",
+     "media-text offset-1",
+     "card-grid icon-columns icon-134 h3-32",
+     "cta-band split media-left",
+     "media-text steps subtitle",
+     "card-grid icon-columns icon-140 h3-24 four-up",
+     "testimonial-carousel",
+     "cta-band split",
+     "faq-list",
+     "disclosures dark"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360:over-bar"
     ]
    },
    {
@@ -111,10 +297,50 @@
       "heightDelta": -94
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 (final; CSS batch 5 live at 5fa3e34)",
+     "1440": {
+      "pixelPct": 0.62,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 7.46,
+      "heightDelta": -17,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 0,
+      "justified": "0"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 0.62,
+       "heightDelta": 0
+      },
+      "360": {
+       "pixelPct": 7.46,
+       "heightDelta": -17
+      }
+     },
+     "residuals": {},
+     "status": "over-bar: 360"
+    },
     "contentDeviations": [
      "login wall only — members-only listing never observed (contentGap); \"Sign in\" is a JS flyout on live → link to https://www.westerndigital.com/store/login (200)"
-    ]
+    ],
+    "variants": [
+     "login-wall"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360:over-bar"
+    ],
+    "contentGap": "members-only tiered-pricing listing never rendered anonymously (login wall only)"
    },
    {
     "slug": "solutions-data-center-storage-platform",
@@ -133,10 +359,59 @@
       "heightDelta": -282
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 (final; CSS batch 5 live at 5fa3e34)",
+     "1440": {
+      "pixelPct": 4.72,
+      "heightDelta": -9,
+      "pass": false
+     },
+     "360": {
+      "pixelPct": 13.39,
+      "heightDelta": 26,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 8,
+      "justified": "8 = 2 eyebrow/body role heuristic (identical text, live adds text-transform:uppercase to already-uppercase copy) + 6 = the \"Talk to an Expert\" form modal (heading, privacy links, \"Thank you!\") — client-only form, interim link"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 8.47,
+       "heightDelta": 39
+      },
+      "360": {
+       "pixelPct": 15.08,
+       "heightDelta": -2
+      }
+     },
+     "residuals": {
+      "1440": "Δ-9 (1 px over the bar), 4.7 % pixels — CTA-band statement wraps one line differently",
+      "360": "13.4 %: key-advantage/partner card bodies at 360 run ~40 px taller each than the live p-6 cards; Δ+26"
+     },
+     "status": "over-bar: 1440, 360"
+    },
     "contentDeviations": [
      "\"Talk to an Expert\" is a client-only form modal → interim: absolute link to the live page anchor (dynamics form row, interim tier); HPC/Cloud tab panels not in the captured DOM → tabs rendered disabled (contentGap)"
-    ]
+    ],
+    "variants": [
+     "split-hero",
+     "card-grid icon-columns icon-150 h3-32 bold",
+     "card-grid media two-up white img-310",
+     "tabs dark",
+     "card-grid media three-up white img-234",
+     "card-grid product-feature",
+     "cta-band big"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440:over-bar",
+     "published-pixel-360:over-bar"
+    ],
+    "contentGap": "\"Talk to an Expert\" form modal (client-only) → interim link to the live anchor"
    },
    {
     "slug": "products-product-portfolio",
@@ -155,9 +430,62 @@
       "heightDelta": -1097
      }
     },
-    "publishedOrigin": "pending",
+    "publishedOrigin": {
+     "round": "pub4 (final; CSS batch 5 live at 5fa3e34)",
+     "1440": {
+      "pixelPct": 8.83,
+      "heightDelta": -77,
+      "pass": false
+     },
+     "360": {
+      "pixelPct": 14.65,
+      "heightDelta": 111,
+      "pass": false
+     },
+     "contentDiff": {
+      "structuralRed": 26,
+      "justified": "26 = 6 workload cards (live nests the same card link three times → one link authored), 1 sup \"1\" disclosure role, 19 = hidden quick-view modal content (decided-out)"
+     },
+     "pub3": {
+      "1440": {
+       "pixelPct": 8.87,
+       "heightDelta": -77
+      },
+      "360": {
+       "pixelPct": 15.63,
+       "heightDelta": 68
+      }
+     },
+     "residuals": {
+      "1440": "8.8 % Δ-77: hero photo treatment (live darken-50 + dark-theme blend is darker than the 50 % overlay) and the listing-owned faq block (+33 px)",
+      "360": "14.7 % Δ+111: hero button row + learn-card stack (253 px cards) approximate the live wrap; table scroll region"
+     },
+     "status": "over-bar: 1440, 360"
+    },
     "contentDeviations": [
      "href-less \"View Products\" modal buttons (quick-view, decided-out) → static outline labels; 2 dark-rail cards have no bg image on live (replicated); 5 \"Learn More\" cards have no href on live (replicated); inline SVG icons rehosted as media/wd/*.svg"
+    ],
+    "variants": [
+     "photo-hero cta-pair darken",
+     "media-text intro",
+     "cards workload-rail",
+     "cards dark-rail cta-pair",
+     "product-rail rail",
+     "table striped",
+     "card-grid capacity-tiles",
+     "card-grid icon-row",
+     "card-grid stats",
+     "faq open-first",
+     "card-grid compact bordered",
+     "disclosures dark-2"
+    ],
+    "gatesPassed": [
+     "davids-model-lint",
+     "ew-editability",
+     "harness-read",
+     "content-count",
+     "published-pixel-1440:over-bar",
+     "published-pixel-360:over-bar"
     ]
    }
   ]

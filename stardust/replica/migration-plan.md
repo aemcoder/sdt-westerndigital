@@ -154,3 +154,5 @@ capacity instead. PDPs, cart, account, compare and sign-in remain on the storefr
 3. Program siblings (6) + product portfolio: composition map (`stardust/.work/products-menu/composition-*.md`) → blocks reused, `product-rail` (API-fed, authored by product code) added → deliver → gates.
 4. Nav document: Products links relocalised to the new origin as pages go live; `Sign Up Now` stays absolute.
 5. Dynamics rows 12/14 updated: `product-catalog` → **client-rendered / self** for PLPs (search API), decided-out for PDP/cart/compare; `cart-hydration` unchanged.
+
+**Status 2026-09-18 (evening):** W1b delivered — 15 pages live on both origins (listing archetype + 7 listing siblings incl. the 11 filter states; 6 program-family siblings + 1 thin login-wall page). Listing family gated ≤1.4 % / ≤3 % (1440 / 360). Program family closes at 0.5–9.5 % (1440) but 7.5–17 % at 360 with documented residuals (`stardust/replica/progress-program.json`) — over the bar on 5 pages at 360; a mobile-only follow-up round is the recommended next step before further waves. Nav Products links relocalised and republished.

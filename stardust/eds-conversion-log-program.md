@@ -86,3 +86,22 @@ The published-origin gate decides.
 | product-portfolio | 215 | 150 | 0 | 0 | 65 |
 
 0 dead, 0 duplicated on all seven documents.
+
+## Published-origin gate (final, round 4 — live vs `main--sdt-westerndigital--aemcoder.aem.page`, settle both sides)
+
+| page | 1440 | 360 | content-diff | verdict |
+|---|---|---|---|---|
+| whats-new | 0.52 % Δ+0 ✓ | 11.38 % Δ-5 | 3 justified | over-bar: 360 |
+| promo | 6.01 % Δ+24 | 8.59 % Δ-9 | 2 justified | over-bar: 1440, 360 |
+| best-sellers | 9.53 % Δ-39 | 10.88 % Δ-33 | 20 justified | over-bar: 1440, 360 |
+| account-benefits | 7.04 % Δ-6 ✓ | 16.08 % Δ-98 (pub5, testimonial revert) | 4 justified | over-bar: 360 |
+| tiered-pricing | 0.62 % Δ+0 ✓ | 7.46 % Δ-17 | 0 justified | over-bar: 360 |
+| storage-platform | 4.72 % Δ-9 | 13.39 % Δ+26 | 8 justified | over-bar: 1440, 360 |
+| product-portfolio | 8.83 % Δ-77 | 14.65 % Δ+111 | 26 justified | over-bar: 1440, 360 |
+
+Bar: ≤ 10 % and |Δh| ≤ 8 px per breakpoint. Passing both criteria: whats-new 1440, account-benefits 1440, tiered-pricing 1440. Under 10 % but over the Δ bar: promo 360 (Δ-9), best-sellers 1440 (Δ-39), tiered-pricing 360 (Δ-17), storage 1440 (Δ-9), portfolio 1440 (Δ-77), promo 1440 (Δ+24). Over the bar
+after the four rounds (residual causes in `progress-program.json § publishedOrigin.residuals`): every page at 360 except promo — mobile card internals
+and SKU-level product image crops; promo 1440 Δ+24 (live lede wrap + two empty 16 px live cells); storage 1440 Δ-9 (1 px); portfolio 1440 Δ-77
+(hero photo treatment + the listing-owned `faq` block); account-benefits 360 regressed in round 4 (testimonial track sizing) and was reverted to the round-3 values in 416a23a — re-measured 16.1 % Δ-98. Content-diff structural reds are all mapped to decided-out client-only surfaces (quick-view
+modals, expert form, detail modals), live nested-link artefacts, or inventory heuristics (see per-page justification in progress-program.json).
+Round 1 was discarded (parallel stitches captured half-decorated pages seconds after Code Sync); rounds 2–4 were sequential.

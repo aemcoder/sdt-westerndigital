@@ -210,3 +210,15 @@ the order they were discovered.
 
 - **What happened:** two gate rounds printed `command not found: head` from inside backgrounded shell functions (the same pattern had worked minutes earlier); moving the loop body to an on-disk `#!/bin/bash` script fixed it. Cost: one wasted gate round (16 captures).
 - **Suggested change:** the gate docs should recommend on-disk bash scripts (`stardust/.work/deploy/*.sh`) for any multi-page parallel gate loop rather than shell functions in the agent's interactive shell.
+
+> Program-family wave notes N-P1…N-P7 live in `stardust/notes/stardust-improvements-program.md` (written by the parallel worker to avoid concurrent edits of this file — a hands-off multi-worker run needs a per-worker notes shard + a merge step; see N-33 below).
+
+## N-33 — stardust: parallel workers need per-worker ledger shards and a merge step
+
+- **What happened:** two workers delivered two page families concurrently. To avoid clobbering `progress.json`, `eds-conversion-log.md`, `status.jsonl`, `media-map.json` and the notes file, the second worker wrote sibling files (`progress-program.json`, `eds-conversion-log-program.md`, `media-map-program.json`, `stardust-improvements-program.md`). It worked, but the ledgers are now split by wave rather than by page type, and `status.jsonl` was appended by both (append-only, so safe).
+- **Suggested change:** rollout's execution-model section should name the shard convention (`<ledger>.<wave>.json`) and ship a `merge-ledgers.mjs`; `update-coverage.mjs` already exists for coverage — extend it to progress/notes.
+
+## N-34 — replica: direct block authoring of unique compositions plateaus at 360 as the docs predict
+
+- **What happened:** the 7 program-family pages (no prototype, authored from section-dump outlines) closed at 0.5–9.5 % at 1440 but 7.5–17 % at 360 after 4 published rounds; the listing pages, which had a prototyped archetype, closed at ≤3 % on both breakpoints. The mobile gap came from values approximated from the 1440 lift in the first pass even though 360 outlines existed.
+- **Suggested change:** when a "sibling" carries new modules, require the 360 section-dump to be read BEFORE the first CSS is written (a checklist item in the fan-out brief), and budget a mobile-only fix round explicitly. Consider a "mini-archetype" prototype for any page introducing ≥3 new modules.

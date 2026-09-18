@@ -104,18 +104,40 @@
    "url": "https://www.westerndigital.com/business/account-benefits",
    "title": "Pricing and Benefits of a Business Account | WD",
    "type": "program",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:13.958Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/business/account-benefits",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "sibling"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/business-account-benefits.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/business/account-benefits.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "corporate-responsibility",
+   "variants": [
+    "subnav business",
+    "photo-hero centered w739 lede-18",
+    "media-text offset-1",
+    "card-grid icon-columns icon-134 h3-32",
+    "cta-band split media-left",
+    "media-text steps subtitle",
+    "card-grid icon-columns icon-140 h3-24 four-up",
+    "testimonial-carousel",
+    "cta-band split",
+    "faq-list",
+    "disclosures dark"
+   ]
   },
   {
    "slug": "business-line-of-credit",
@@ -1246,18 +1268,32 @@
    "url": "https://www.westerndigital.com/explore/whats-new",
    "title": "What’s New at Western Digital | WD",
    "type": "program",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:26.218Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/explore/whats-new",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "sibling"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/explore-whats-new.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/explore/whats-new.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "corporate-responsibility",
+   "variants": [
+    "photo-hero band",
+    "product-rail grid-4",
+    "cta-band"
+   ]
   },
   {
    "slug": "legal",
@@ -1651,18 +1687,41 @@
    "url": "https://www.westerndigital.com/products/product-portfolio",
    "title": "Discover a Full Line of Hard Drive Memory Storage Products | WD",
    "type": "listing",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:53.479Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/products/product-portfolio",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "sibling"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-product-portfolio.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/products/product-portfolio.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "listing",
+   "variants": [
+    "photo-hero cta-pair darken",
+    "media-text intro",
+    "cards workload-rail",
+    "cards dark-rail cta-pair",
+    "product-rail rail",
+    "table striped",
+    "card-grid capacity-tiles",
+    "card-grid icon-row",
+    "card-grid stats",
+    "faq open-first",
+    "card-grid compact bordered",
+    "disclosures dark-2"
+   ]
   },
   {
    "slug": "products-recertified",
@@ -1748,36 +1807,70 @@
    "url": "https://www.westerndigital.com/promo",
    "title": "Hard Drive Promotions & Special Programs | WD",
    "type": "program",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:55:21.179Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/promo",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "sibling"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/promo.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/promo.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "corporate-responsibility",
+   "variants": [
+    "photo-hero centered h400",
+    "card-grid icon-tiles",
+    "card-grid program",
+    "card-grid icon-columns padded",
+    "cta-band contained",
+    "disclosures surface"
+   ]
   },
   {
    "slug": "promo-best-sellers",
    "url": "https://www.westerndigital.com/promo/best-sellers",
    "title": "Best Selling Western Digital Hard Drives (2026) – Top WD Internal & External Picks | WD",
    "type": "program",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:55:20.907Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/promo/best-sellers",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "sibling"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/promo-best-sellers.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/promo/best-sellers.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "corporate-responsibility",
+   "variants": [
+    "photo-hero centered w462 h1-48",
+    "testimonial-carousel static",
+    "product-rail showcase",
+    "product-rail showcase featured-left",
+    "card-grid media four-up grey r16 img-225 h3-24",
+    "cta-band gradient"
+   ]
   },
   {
    "slug": "resources",
@@ -1874,18 +1967,36 @@
    "url": "https://www.westerndigital.com/solutions/data-center-storage-platform",
    "title": "Enterprise Storage Platforms for Data Centers | WD",
    "type": "form",
-   "status": "extracted",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
      "at": "2026-09-18T06:54:38.604Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/solutions/data-center-storage-platform",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "sibling"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/solutions-data-center-storage-platform.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/solutions/data-center-storage-platform.html",
+   "fidelityTier": "sibling",
+   "archetypeSource": "corporate-responsibility",
+   "variants": [
+    "split-hero",
+    "card-grid icon-columns icon-150 h3-32 bold",
+    "card-grid media two-up white img-310",
+    "tabs dark",
+    "card-grid media three-up white img-234",
+    "card-grid product-feature",
+    "cta-band big"
+   ]
   },
   {
    "slug": "solutions-data-center-storage-platform-use-case-ai",
@@ -2180,6 +2291,38 @@
     "content-count",
     "published-pixel"
    ]
+  },
+  {
+   "slug": "business-account-benefits-tiered-pricing",
+   "url": "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+   "title": "",
+   "type": "program",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:00:00Z",
+     "note": "crawled into stardust/.work/products-menu/crawl"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:02:59Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/business/account-benefits/tiered-pricing",
+     "gate": "stardust/replica/progress-program.json",
+     "tier": "thin"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": null,
+   "prototypePath": null,
+   "migratedPath": "content/business/account-benefits/tiered-pricing.html",
+   "fidelityTier": "thin",
+   "archetypeSource": "corporate-responsibility",
+   "variants": [
+    "login-wall"
+   ],
+   "contentGap": "members-only tiered-pricing listing never rendered anonymously (login wall only)"
   }
  ]
 }
