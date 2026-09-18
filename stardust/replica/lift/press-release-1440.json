@@ -1,0 +1,468 @@
+{
+ "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+ "width": 1440,
+ "docHeight": 2458,
+ "fontFaces": [
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Light\"), local(\"Roboto-Light\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-300.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-300.woff\") format(\"wo",
+   "weight": "300",
+   "style": "normal",
+   "display": "fallback",
+   "sheet": null
+  },
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Regular\"), local(\"Roboto-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-regular.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-regular.woff\"",
+   "weight": "",
+   "style": "normal",
+   "display": "block",
+   "sheet": null
+  },
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Medium\"), local(\"Roboto-Medium\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-500.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-500.woff\") format(\"",
+   "weight": "500",
+   "style": "normal",
+   "display": "fallback",
+   "sheet": null
+  },
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Bold\"), local(\"Roboto-Bold\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-700.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-700.woff\") format(\"woff",
+   "weight": "700",
+   "style": "normal",
+   "display": "fallback",
+   "sheet": null
+  },
+  {
+   "family": "\"Glyphicons Halflings\"",
+   "src": "url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/glyphicons/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/glyphicons/glyphicons-halflings-regular.woff2\") format(\"woff2\")",
+   "weight": "400",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  },
+  {
+   "family": "SimplonMono",
+   "src": "local(\"SimplonMono Regular\"), local(\"SimplonMono-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/SimplonMono/SimplonMono-Regular.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/SimplonMono/SimplonMono-Reg",
+   "weight": "",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  },
+  {
+   "family": "icomoon",
+   "src": "url(\"https://www.westerndigital.com/content/dam/store/en-us/portal-assets/icons/icon-fonts/icomoon/icomoon.ttf\") format(\"truetype\"), url(\"https://www.westerndigital.com/content/dam/store/en-us/portal-assets/icons/icon-fonts/icomoon/icomoon.woff\") format(\"woff\")",
+   "weight": "normal",
+   "style": "normal",
+   "display": "block",
+   "sheet": null
+  },
+  {
+   "family": "\"FK Grotesk Neue\"",
+   "src": "local(\"FK Grotesk Neue Regular\"), local(\"FKGroteskNeue-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue/FKGroteskNeue-Bold.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue/FK",
+   "weight": "500",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  },
+  {
+   "family": "\"FK Grotesk Neue Regular\"",
+   "src": "local(\"FK Grotesk Neue Regular\"), local(\"FKGroteskNeue-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue/FKGroteskNeue-Regular.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue",
+   "weight": "500",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  }
+ ],
+ "fontsLoaded": [
+  "Roboto 300 normal",
+  "Roboto normal normal",
+  "Roboto 500 normal",
+  "Roboto 700 normal"
+ ],
+ "textRendering": {
+  "textRendering": "auto",
+  "webkitFontSmoothing": "auto",
+  "fontSynthesis": "weight style small-caps",
+  "fontKerning": "auto",
+  "fontFamily": "Roboto, sans-serif",
+  "fontSize": "16px",
+  "lineHeight": "24px",
+  "color": "rgb(0, 0, 0)",
+  "background": "rgb(255, 255, 255)"
+ },
+ "palette": {
+  "background": [
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 3
+   },
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 2
+   },
+   {
+    "value": "rgb(241, 241, 241)",
+    "count": 1
+   },
+   {
+    "value": "rgb(43, 43, 43)",
+    "count": 1
+   },
+   {
+    "value": "rgb(17, 17, 17)",
+    "count": 1
+   }
+  ],
+  "text": [
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 29
+   },
+   {
+    "value": "rgb(146, 154, 157)",
+    "count": 29
+   },
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 22
+   },
+   {
+    "value": "rgb(0, 116, 243)",
+    "count": 3
+   },
+   {
+    "value": "rgb(33, 117, 155)",
+    "count": 1
+   },
+   {
+    "value": "rgb(34, 102, 255)",
+    "count": 1
+   }
+  ],
+  "border": []
+ },
+ "radii": [
+  {
+   "value": "6px",
+   "count": 3
+  }
+ ],
+ "shadows": [],
+ "families": [
+  {
+   "value": "Roboto, sans-serif",
+   "count": 407
+  }
+ ],
+ "typeRamp": {
+  "h1": [
+   {
+    "value": "Roboto | 48px | 500 | 52.8px | normal | none | rgb(255, 255, 255)",
+    "count": 1
+   }
+  ],
+  "h2": [
+   {
+    "value": "Roboto | 24px | 500 | 26.4px | normal | none | rgb(0, 0, 0)",
+    "count": 1
+   }
+  ],
+  "h3": [],
+  "h4": [],
+  "h5": [],
+  "h6": [],
+  "p": [
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 16
+   },
+   {
+    "value": "Roboto | 20px | 400 | 30px | normal | none | rgb(255, 255, 255)",
+    "count": 4
+   },
+   {
+    "value": "Roboto | 14px | 400 | 21px | normal | none | rgb(255, 255, 255)",
+    "count": 3
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(255, 255, 255)",
+    "count": 2
+   },
+   {
+    "value": "Roboto | 16px | 500 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 1
+   }
+  ],
+  "li": [
+   {
+    "value": "Roboto | 16px | 400 | 19.2px | normal | none | rgb(146, 154, 157)",
+    "count": 29
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 11
+   },
+   {
+    "value": "Roboto | 14px | 400 | 21px | normal | none | rgb(255, 255, 255)",
+    "count": 6
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(255, 255, 255)",
+    "count": 1
+   }
+  ],
+  "a": [
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(146, 154, 157)",
+    "count": 29
+   },
+   {
+    "value": "Roboto | 14px | 400 | 14px | normal | none | rgb(255, 255, 255)",
+    "count": 9
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(255, 255, 255)",
+    "count": 6
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(0, 116, 243)",
+    "count": 3
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(33, 117, 155)",
+    "count": 1
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(0, 0, 0)",
+    "count": 1
+   }
+  ],
+  "button": [
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(0, 0, 0)",
+    "count": 4
+   },
+   {
+    "value": "Roboto | 16px | 400 | 18.4px | normal | none | rgb(0, 0, 0)",
+    "count": 3
+   }
+  ],
+  "small": [],
+  "label": [],
+  "span": [
+   {
+    "value": "Roboto | 24px | 500 | 26.4px | normal | capitalize | rgb(0, 0, 0)",
+    "count": 2
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 1
+   }
+  ]
+ },
+ "buttons": [
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "20px 0px",
+   "font": "Roboto 16px/16px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 56,
+   "cls": "dropDownItem text-xs lg:text-sm inline-block pt-5 pb-5 cursor-pointer leading-no",
+   "count": 4
+  },
+  {
+   "bg": "rgb(241, 241, 241)",
+   "color": "rgb(33, 117, 155)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "12px",
+   "font": "Roboto 16px/16px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 40,
+   "cls": "skipBTN",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 29,
+   "cls": "text-xs lg:text-sm whitespace-no-wrap cursor-pointer openLoginFlyout btn",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 23,
+   "cls": "mini-cart-trigger relative cursor-pointer inline-flex pointer-events-none",
+   "count": 1
+  },
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 18,
+   "cls": "btn-search btn-search-SummaryView btn flex itmes-center bg-white",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "0px",
+   "font": "Roboto 16px/16px 700",
+   "ls": "normal",
+   "tt": "none",
+   "h": 19,
+   "cls": "btn  ml-1 mt-1 text-bold hover:underline ",
+   "count": 1
+  }
+ ],
+ "containers": [
+  {
+   "value": "1108 | max-width:none | padding:0px/0px | .",
+   "count": 5
+  },
+  {
+   "value": "1140 | max-width:1140px | padding:16px/16px | .relative",
+   "count": 3
+  },
+  {
+   "value": "1012 | max-width:none | padding:0px/0px | .",
+   "count": 3
+  },
+  {
+   "value": "1108 | max-width:none | padding:0px/0px | .responsive-columns-flexbox",
+   "count": 3
+  },
+  {
+   "value": "1108 | max-width:none | padding:0px/0px | .row",
+   "count": 2
+  },
+  {
+   "value": "1012 | max-width:none | padding:0px/0px | .text",
+   "count": 2
+  },
+  {
+   "value": "1140 | max-width:1140px | padding:16px/16px | .",
+   "count": 2
+  },
+  {
+   "value": "1108 | max-width:none | padding:0px/0px | .cols-12",
+   "count": 2
+  },
+  {
+   "value": "1108 | max-width:none | padding:0px/0px | .text",
+   "count": 2
+  },
+  {
+   "value": "1140 | max-width:1140px | padding:16px/16px | .container",
+   "count": 1
+  }
+ ],
+ "header": {
+  "y": 0,
+  "h": 97,
+  "position": "sticky",
+  "bg": "rgb(255, 255, 255)",
+  "tag": "header",
+  "cls": "header relative w-full"
+ },
+ "footer": {
+  "y": 1695,
+  "h": 763,
+  "position": "static",
+  "bg": "rgba(0, 0, 0, 0)",
+  "tag": "footer",
+  "cls": "wd-footer"
+ },
+ "contentRoot": {
+  "sel": null,
+  "tag": "body",
+  "cls": "page en-us company 2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure b2c disabledOutine ",
+  "id": ""
+ },
+ "sections": [
+  {
+   "y": 0,
+   "h": 97,
+   "tag": "header",
+   "cls": "header relative w-full",
+   "id": "",
+   "bg": "rgb(255, 255, 255)",
+   "pad": "0px/0px",
+   "heading": null,
+   "imgs": 2
+  },
+  {
+   "y": 97,
+   "h": 1598,
+   "tag": "section",
+   "cls": "mainContainWrap",
+   "id": "",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px/0px",
+   "heading": "h1: As AI Data Surges, WD Outlines a New Path to Economically Sc",
+   "imgs": 0
+  },
+  {
+   "y": 1695,
+   "h": 763,
+   "tag": "footer",
+   "cls": "wd-footer",
+   "id": "",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px/0px",
+   "heading": null,
+   "imgs": 1
+  },
+  {
+   "y": 815,
+   "h": 65,
+   "tag": "iframe",
+   "cls": "",
+   "id": "wd-chat-frame",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px/0px",
+   "heading": null,
+   "imgs": 0
+  }
+ ],
+ "photoLayers": [
+  {
+   "cls": "aem-section-bgimage section-734705361827 section-bg absolute pin-t pin-b pin-l p",
+   "y": 97,
+   "w": 1108,
+   "h": 300,
+   "image": "url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/company/press-release/press-release-hero-banner.jpg.wdthumb.3000.3000.webp\")",
+   "size": "contain",
+   "pos": "0% 50%"
+  }
+ ],
+ "liftedAt": "2026-09-18T06:57:29.852Z"
+}

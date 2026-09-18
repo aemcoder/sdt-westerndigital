@@ -1,0 +1,564 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica (extract Phase 3, aggregated from project css-lift probes + captured page JSON)",
+    "writtenAt": "2026-09-18T06:59:50.361Z",
+    "readArtifacts": [
+      "stardust/replica/lift/*.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/index.html"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.22.1",
+    "notes": [
+      "crawl.mjs does not emit a brand surface; this file aggregates computed-style lifts of the 3 archetype pages at 1440 and 360 (home, press release, corporate responsibility) — cross-page for the 3 archetypes, not all 106 pages.",
+      "Only Roboto is actually loaded (300/400/500/700); FK Grotesk Neue, SimplonMono, Glyphicons and icomoon are declared in stylesheets but no rendered element on the probed pages computes to them.",
+      "Shadows: none observed on the probed pages (flat, border-and-ground system)."
+    ]
+  },
+  "site": {
+    "name": "Western Digital (WD)",
+    "tagline": "Western Digital, leaders in digital storage solutions compatible with Mac and PC. FREE shipping, friendly support, and 30-day return policy on storage products.",
+    "originUrl": "https://www.westerndigital.com/"
+  },
+  "origins": [
+    {
+      "origin": "https://www.westerndigital.com",
+      "role": "primary",
+      "pagesCaptured": 106,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "header img.desktop-brand-logo (src /content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg)",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": null,
+    "intrinsicHeight": null,
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "variants": {
+      "mobile": "stardust/current/assets/logo-mobile.svg"
+    }
+  },
+  "favicon": {
+    "localPath": "stardust/current/assets/favicon.ico",
+    "url": "https://www.westerndigital.com/content/dam/store/en-us/portal-assets/logos/wd-icon.ico"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 52,
+      "sourceSelectors": [
+        "body",
+        ".mainContainWrap",
+        ".card"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#000000",
+      "occurrences": 204,
+      "sourceSelectors": [
+        "body",
+        "h1",
+        "h2",
+        "p"
+      ],
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#000000",
+      "occurrences": 33,
+      "sourceSelectors": [
+        ".btn.bg-black",
+        "footer.wd-footer",
+        ".section-bg.dark"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "note": "WD is a monochrome brand: the primary action colour IS black (filled black buttons, black footer, black card grounds)."
+    },
+    {
+      "role": "surface",
+      "value": "#f2f3f3",
+      "occurrences": 14,
+      "sourceSelectors": [
+        ".bg-grey-light section grounds (Legacy rail, Popular Products, Case Studies)"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "text-muted",
+      "value": "#929a9d",
+      "occurrences": 116,
+      "sourceSelectors": [
+        "footer a",
+        ".card .meta"
+      ],
+      "usedAs": [
+        "text"
+      ]
+    },
+    {
+      "role": "text-secondary",
+      "value": "#6b6b6b",
+      "occurrences": 16,
+      "sourceSelectors": [
+        ".eyebrow",
+        ".text-grey"
+      ],
+      "usedAs": [
+        "text"
+      ]
+    },
+    {
+      "role": "link",
+      "value": "#2266ff",
+      "occurrences": 3,
+      "sourceSelectors": [
+        "a (inline body links, active tab underline)"
+      ],
+      "usedAs": [
+        "text",
+        "border"
+      ]
+    },
+    {
+      "role": "accent-nav-grey",
+      "value": "#737779",
+      "occurrences": 4,
+      "sourceSelectors": [
+        ".text-grey-5 nav items"
+      ],
+      "usedAs": [
+        "text"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Roboto",
+      "stack": "Roboto, sans-serif",
+      "weights": [
+        500,
+        700
+      ],
+      "sizes": [
+        "48px",
+        "36px",
+        "28px",
+        "24px",
+        "20px"
+      ],
+      "lineHeights": [
+        1.1,
+        1.1,
+        1.1,
+        1.1,
+        1.1
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ],
+      "note": "h1 and h2 share 48px/700; h3 24–28px/500 (cards) or 36px/700 (band titles); press-release h1 60px/500 white on grey hero"
+    },
+    "bodyFamily": {
+      "name": "Roboto",
+      "stack": "Roboto, sans-serif",
+      "weights": [
+        300,
+        400,
+        500,
+        700
+      ],
+      "sizes": [
+        "16px",
+        "20px",
+        "14px"
+      ],
+      "lineHeights": [
+        1.5,
+        1.1,
+        1.5
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "body",
+        "p",
+        "li",
+        "a"
+      ]
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.33,
+        1.29,
+        1.17,
+        1.2,
+        1.25
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": "swap (local() first, then woff2/woff)",
+    "textRendering": {
+      "textRendering": "auto",
+      "webkitFontSmoothing": "auto",
+      "fontSynthesis": "weight style small-caps",
+      "fontKerning": "auto",
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)"
+    },
+    "files": [
+      {
+        "url": "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-300.woff2",
+        "family": "Roboto",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/roboto-v18-latin-300.woff2",
+        "sourceCssRule": "@font-face { font-family: Roboto; src: local(...), url(roboto-v18-latin-*.woff2) format(\"woff2\"), url(*.woff) }",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-regular.woff2",
+        "family": "Roboto",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/roboto-v18-latin-regular.woff2",
+        "sourceCssRule": "@font-face { font-family: Roboto; src: local(...), url(roboto-v18-latin-*.woff2) format(\"woff2\"), url(*.woff) }",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-500.woff2",
+        "family": "Roboto",
+        "weight": 500,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/roboto-v18-latin-500.woff2",
+        "sourceCssRule": "@font-face { font-family: Roboto; src: local(...), url(roboto-v18-latin-*.woff2) format(\"woff2\"), url(*.woff) }",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-700.woff2",
+        "family": "Roboto",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/roboto-v18-latin-700.woff2",
+        "sourceCssRule": "@font-face { font-family: Roboto; src: local(...), url(roboto-v18-latin-*.woff2) format(\"woff2\"), url(*.woff) }",
+        "licensingFlag": "open"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "scale": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      40,
+      48,
+      64,
+      80
+    ],
+    "sectionPadding": "64px–80px (varies per AEM section)",
+    "containerMaxWidth": "1140px (16px side padding → 1108px content)",
+    "gridGap": "24px–32px"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "6px",
+      "secondary": "16px",
+      "pill": "999px",
+      "primarySources": [
+        "home",
+        "press-release",
+        "corporate-responsibility"
+      ],
+      "occurrences": {
+        "6px": 72,
+        "16px": 48,
+        "999px": 8,
+        "20px": 4
+      }
+    },
+    "shadows": [],
+    "gradients": [],
+    "patterns": [
+      {
+        "name": "hero-carousel-fullbleed",
+        "evidence": "home: 3 rotating full-bleed 750px photo slides with left-aligned white copy + outline CTA"
+      },
+      {
+        "name": "category-tabs-tiles",
+        "evidence": "home: Shop by Category / Solutions / Industries tabs over 5 square photo tiles"
+      },
+      {
+        "name": "card-rail-dark",
+        "evidence": "home \"A Legacy in Technology and Innovation\": 400×600 photo cards, eyebrow + h3 + outline CTA, horizontal rail"
+      },
+      {
+        "name": "product-card-rail",
+        "evidence": "home Popular Products: white product cards on grey ground with capacity/price meta"
+      },
+      {
+        "name": "resource-cards",
+        "evidence": "home Case Studies & Resources: icon + eyebrow + h3 + Read More"
+      },
+      {
+        "name": "split-image-text-band",
+        "evidence": "corporate-responsibility: 7 alternating 50/50 photo + eyebrow/h3/body/CTA bands"
+      },
+      {
+        "name": "dark-cta-band",
+        "evidence": "corporate-responsibility \"Reports and Resources\", home footer approach"
+      },
+      {
+        "name": "press-release-article",
+        "evidence": "grey photo hero with eyebrow + h1, 2-col body + Press Contacts aside, boilerplate + legal paragraphs"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "4 link columns + support block + social + award badge + legal row on black"
+      },
+      {
+        "name": "utility-bar",
+        "evidence": "grey 40px promo/utility bar above the nav on every page"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#000000",
+        "color": "#ffffff",
+        "border": "1px solid #000000",
+        "borderRadius": "6px",
+        "padding": "12px 32px",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "fontWeight": 500,
+        "shadow": null,
+        "hoverDelta": "inverts (white bg, black text)"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#000000",
+        "border": "1px solid #000000",
+        "borderRadius": "6px",
+        "padding": "12px 32px",
+        "fontWeight": 500
+      },
+      "onDark": {
+        "background": "transparent",
+        "color": "#ffffff",
+        "border": "1px solid #ffffff",
+        "borderRadius": "6px",
+        "padding": "12px 32px",
+        "fontWeight": 500
+      },
+      "onDarkFilled": {
+        "background": "#ffffff",
+        "color": "#000000",
+        "border": "1px solid #ffffff",
+        "borderRadius": "6px",
+        "padding": "12px 32px",
+        "fontWeight": 500
+      },
+      "textLink": {
+        "background": "transparent",
+        "color": "#000000",
+        "textDecoration": "underline",
+        "fontWeight": 700,
+        "fontSize": "16px"
+      }
+    },
+    "dualCTAPattern": null,
+    "cards": {
+      "background": "#ffffff",
+      "borderRadius": "16px",
+      "padding": "24px",
+      "shadow": null,
+      "border": "none"
+    },
+    "inputs": {
+      "borderRadius": "6px",
+      "padding": "12px",
+      "border": "1px solid #929a9d",
+      "focusRing": null
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 106,
+      "headingSequence": [
+        "Products",
+        "Solutions",
+        "Support",
+        "Company"
+      ],
+      "ctaLabels": [
+        "Shop",
+        "WD for Business"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "header.header",
+      "examplePages": [
+        "index",
+        "company-corporate-responsibility",
+        "company-newsroom"
+      ],
+      "notes": "sticky; 40px utility bar (promo text + Shop | WD for Business) + 57px nav row (logo, 4 mega-menu triggers, account/cart/search icons). Mega-menu markup lives inside header."
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 106,
+      "headingSequence": [
+        "Shopping",
+        "Programs",
+        "Company",
+        "Support"
+      ],
+      "ctaLabels": [],
+      "exampleSlug": "index",
+      "exampleSelector": "footer.wd-footer",
+      "examplePages": [
+        "index",
+        "company-corporate-responsibility",
+        "company-newsroom"
+      ],
+      "notes": "black ground; logo + Country/Region row, 4 link columns, Online Store Support block, 5 social icons, Ethisphere badge, legal links row, copyright"
+    },
+    {
+      "name": "section-subnav",
+      "kind": "nav-secondary",
+      "occurrences": 20,
+      "headingSequence": [
+        "Overview",
+        "People",
+        "Supply Chain",
+        "Ethics",
+        "Philanthropy",
+        "Privacy"
+      ],
+      "ctaLabels": [],
+      "exampleSlug": "company-corporate-responsibility",
+      "exampleSelector": ".subnav",
+      "examplePages": [
+        "company-corporate-responsibility",
+        "company-innovation",
+        "careers"
+      ],
+      "notes": "tab row under the header on program pages"
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 40,
+      "headingSequence": [
+        "Home",
+        "Company",
+        "Corporate Responsibility"
+      ],
+      "ctaLabels": [],
+      "exampleSlug": "company-corporate-responsibility",
+      "exampleSelector": ".breadcrumb",
+      "examplePages": [
+        "company-corporate-responsibility"
+      ]
+    },
+    {
+      "name": "consent-banner",
+      "kind": "other",
+      "occurrences": 106,
+      "headingSequence": [
+        "Use of Tracking Technologies"
+      ],
+      "ctaLabels": [
+        "Manage Preferences",
+        "Accept",
+        "Reject All"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "#onetrust-banner-sdk / .consent",
+      "examplePages": [
+        "index"
+      ],
+      "notes": "fixed-bottom consent card; dropped at migration (re-added by CMP at deploy) — dynamics row T"
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Built for Scale",
+    "heroSubcopy": "The enduring role of HDDs in the AI era.",
+    "primaryCTALabel": "Explore the IDC Research",
+    "firstParagraph": "Products By Category Product Portfolio Internal HDDs External HDDs Data Center Storage Accessories By Use Storage Platforms Gaming HDDs Surveillance (CCTV) HDDs RAID HDDs Backups Network Attached Storage (NAS) By Capacity Over 50TB 21 - 50TB 11 - 20TB 5 - 10TB 1 - 4TB Less than 1TB Featured What's New Most Popular Promotions Limited-Time Offers Certified Refurbished Final Production Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "heroImage": "https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/hp-drive-behind-ai-hdd-discs.png.wdthumb.3000.3000.webp",
+    "heroMedium": "carousel (3 slides, autoplay)",
+    "ctaSamples": [
+      "Learn More",
+      "See All Products",
+      "Read More",
+      "Get the Full Story",
+      "Learn Why",
+      "Learn more about our Benefits",
+      "Visit Resource Center"
+    ],
+    "navItems": [
+      "Products",
+      "Solutions",
+      "Support",
+      "Company"
+    ],
+    "footerHeadings": [
+      "Shopping",
+      "Programs",
+      "Company",
+      "Support"
+    ]
+  },
+  "voiceTable": {
+    "register": "corporate-technical",
+    "notes": "Title Case headings, short declarative CTAs, capacity/price meta in bold"
+  },
+  "crossPromo": {
+    "utilityBar": "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More"
+  },
+  "register": "brand"
+}

@@ -1,0 +1,620 @@
+{
+ "url": "https://www.westerndigital.com/",
+ "width": 360,
+ "docHeight": 8182,
+ "fontFaces": [
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Light\"), local(\"Roboto-Light\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-300.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-300.woff\") format(\"wo",
+   "weight": "300",
+   "style": "normal",
+   "display": "fallback",
+   "sheet": null
+  },
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Regular\"), local(\"Roboto-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-regular.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-regular.woff\"",
+   "weight": "",
+   "style": "normal",
+   "display": "block",
+   "sheet": null
+  },
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Medium\"), local(\"Roboto-Medium\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-500.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-500.woff\") format(\"",
+   "weight": "500",
+   "style": "normal",
+   "display": "fallback",
+   "sheet": null
+  },
+  {
+   "family": "Roboto",
+   "src": "local(\"Roboto Bold\"), local(\"Roboto-Bold\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-700.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-700.woff\") format(\"woff",
+   "weight": "700",
+   "style": "normal",
+   "display": "fallback",
+   "sheet": null
+  },
+  {
+   "family": "\"Glyphicons Halflings\"",
+   "src": "url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/glyphicons/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/glyphicons/glyphicons-halflings-regular.woff2\") format(\"woff2\")",
+   "weight": "400",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  },
+  {
+   "family": "SimplonMono",
+   "src": "local(\"SimplonMono Regular\"), local(\"SimplonMono-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/SimplonMono/SimplonMono-Regular.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/SimplonMono/SimplonMono-Reg",
+   "weight": "",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  },
+  {
+   "family": "icomoon",
+   "src": "url(\"https://www.westerndigital.com/content/dam/store/en-us/portal-assets/icons/icon-fonts/icomoon/icomoon.ttf\") format(\"truetype\"), url(\"https://www.westerndigital.com/content/dam/store/en-us/portal-assets/icons/icon-fonts/icomoon/icomoon.woff\") format(\"woff\")",
+   "weight": "normal",
+   "style": "normal",
+   "display": "block",
+   "sheet": null
+  },
+  {
+   "family": "\"FK Grotesk Neue\"",
+   "src": "local(\"FK Grotesk Neue Regular\"), local(\"FKGroteskNeue-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue/FKGroteskNeue-Bold.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue/FK",
+   "weight": "500",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  },
+  {
+   "family": "\"FK Grotesk Neue Regular\"",
+   "src": "local(\"FK Grotesk Neue Regular\"), local(\"FKGroteskNeue-Regular\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue/FKGroteskNeue-Regular.woff2\") format(\"woff2\"), url(\"https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/FK-Grotesk-Neue",
+   "weight": "500",
+   "style": "normal",
+   "display": "",
+   "sheet": null
+  }
+ ],
+ "fontsLoaded": [
+  "Roboto 300 normal",
+  "Roboto normal normal",
+  "Roboto 500 normal",
+  "Roboto 700 normal"
+ ],
+ "textRendering": {
+  "textRendering": "auto",
+  "webkitFontSmoothing": "auto",
+  "fontSynthesis": "weight style small-caps",
+  "fontKerning": "auto",
+  "fontFamily": "Roboto, sans-serif",
+  "fontSize": "16px",
+  "lineHeight": "24px",
+  "color": "rgb(0, 0, 0)",
+  "background": "rgb(255, 255, 255)"
+ },
+ "palette": {
+  "background": [
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 23
+   },
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 11
+   },
+   {
+    "value": "rgb(242, 243, 243)",
+    "count": 7
+   },
+   {
+    "value": "rgb(43, 43, 43)",
+    "count": 1
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.9)",
+    "count": 1
+   },
+   {
+    "value": "rgb(34, 102, 255)",
+    "count": 1
+   },
+   {
+    "value": "rgb(245, 249, 249)",
+    "count": 1
+   },
+   {
+    "value": "rgb(17, 17, 17)",
+    "count": 1
+   }
+  ],
+  "text": [
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 65
+   },
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 55
+   },
+   {
+    "value": "rgb(146, 154, 157)",
+    "count": 29
+   },
+   {
+    "value": "rgb(107, 107, 107)",
+    "count": 8
+   },
+   {
+    "value": "rgb(115, 119, 121)",
+    "count": 2
+   },
+   {
+    "value": "rgb(34, 102, 255)",
+    "count": 1
+   }
+  ],
+  "border": [
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 15
+   },
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 2
+   }
+  ]
+ },
+ "radii": [
+  {
+   "value": "6px",
+   "count": 28
+  },
+  {
+   "value": "16px",
+   "count": 24
+  },
+  {
+   "value": "999px",
+   "count": 4
+  },
+  {
+   "value": "20px",
+   "count": 2
+  }
+ ],
+ "shadows": [
+  {
+   "value": "rgba(0, 0, 0, 0.29) 0px 1px 4px 0px",
+   "count": 1
+  }
+ ],
+ "families": [
+  {
+   "value": "Roboto, sans-serif",
+   "count": 1034
+  }
+ ],
+ "typeRamp": {
+  "h1": [
+   {
+    "value": "Roboto | 32px | 700 | 35.2px | normal | none | rgb(0, 0, 0)",
+    "count": 1
+   }
+  ],
+  "h2": [
+   {
+    "value": "Roboto | 32px | 700 | 35.2px | normal | none | rgb(0, 0, 0)",
+    "count": 5
+   }
+  ],
+  "h3": [
+   {
+    "value": "Roboto | 24px | 500 | 26.4px | normal | none | rgb(255, 255, 255)",
+    "count": 7
+   },
+   {
+    "value": "Roboto | 20px | 500 | 22px | normal | none | rgb(0, 0, 0)",
+    "count": 6
+   },
+   {
+    "value": "Roboto | 32px | 700 | 35.2px | normal | none | rgb(0, 0, 0)",
+    "count": 2
+   }
+  ],
+  "h4": [],
+  "h5": [],
+  "h6": [],
+  "p": [
+   {
+    "value": "Roboto | 34px | 700 | 37.4px | normal | none | rgb(255, 255, 255)",
+    "count": 8
+   },
+   {
+    "value": "Roboto | 18px | 400 | 19.8px | normal | none | rgb(255, 255, 255)",
+    "count": 8
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | uppercase | rgb(255, 255, 255)",
+    "count": 7
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 7
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | uppercase | rgb(0, 0, 0)",
+    "count": 6
+   },
+   {
+    "value": "Roboto | 18px | 700 | 19.8px | normal | none | rgb(0, 0, 0)",
+    "count": 5
+   }
+  ],
+  "li": [
+   {
+    "value": "Roboto | 16px | 400 | 19.2px | normal | none | rgb(146, 154, 157)",
+    "count": 29
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 19
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(255, 255, 255)",
+    "count": 8
+   },
+   {
+    "value": "Roboto | 14px | 400 | 21px | normal | none | rgb(255, 255, 255)",
+    "count": 6
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(255, 255, 255)",
+    "count": 1
+   }
+  ],
+  "a": [
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(146, 154, 157)",
+    "count": 29
+   },
+   {
+    "value": "Roboto | 16px | 400 | 16px | normal | none | rgb(0, 0, 0)",
+    "count": 16
+   },
+   {
+    "value": "Roboto | 14px | 500 | 14px | normal | none | rgb(0, 0, 0)",
+    "count": 9
+   },
+   {
+    "value": "Roboto | 14px | 500 | 14px | normal | none | rgb(255, 255, 255)",
+    "count": 8
+   },
+   {
+    "value": "Roboto | 14px | 400 | 14px | normal | none | rgb(255, 255, 255)",
+    "count": 7
+   },
+   {
+    "value": "Roboto | 16px | 700 | 16px | normal | none | rgb(0, 0, 0)",
+    "count": 6
+   }
+  ],
+  "button": [
+   {
+    "value": "Roboto | 16px | 400 | 18.4px | normal | none | rgb(0, 0, 0)",
+    "count": 3
+   },
+   {
+    "value": "Roboto | 16px | 400 | 18.4px | normal | none | rgb(115, 119, 121)",
+    "count": 2
+   },
+   {
+    "value": "Roboto | 16px | 400 | 18.4px | normal | none | rgb(34, 102, 255)",
+    "count": 1
+   }
+  ],
+  "small": [],
+  "label": [],
+  "span": [
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(255, 255, 255)",
+    "count": 5
+   },
+   {
+    "value": "Roboto | 16px | 400 | 19.2px | normal | none | rgb(107, 107, 107)",
+    "count": 4
+   },
+   {
+    "value": "Roboto | 16px | 700 | 19.2px | normal | none | rgb(0, 0, 0)",
+    "count": 4
+   },
+   {
+    "value": "Roboto | 16px | 400 | 24px | normal | none | rgb(107, 107, 107)",
+    "count": 4
+   },
+   {
+    "value": "Roboto | 16px | 700 | 24px | normal | none | rgb(0, 0, 0)",
+    "count": 4
+   },
+   {
+    "value": "Roboto | 18px | 700 | 27px | normal | none | rgb(0, 0, 0)",
+    "count": 1
+   }
+  ]
+ },
+ "buttons": [
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "border": "1px solid rgb(255, 255, 255)",
+   "radius": "6px",
+   "padding": "8px 16px",
+   "font": "Roboto 14px/14px 500",
+   "ls": "normal",
+   "tt": "none",
+   "h": 32,
+   "cls": "btn  mr-2 py-2 md:py-3 px-4 md:px-8 mt-4 md:mt-8 text-black bg-white border-whit",
+   "count": 8
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "1px solid rgb(255, 255, 255)",
+   "radius": "6px",
+   "padding": "8px 16px",
+   "font": "Roboto 14px/14px 500",
+   "ls": "normal",
+   "tt": "none",
+   "h": 32,
+   "cls": "btn  py-2 md:py-3 px-4 md:px-8 mt-4 md:mt-8 text-white border-white font-medium ",
+   "count": 7
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "0px",
+   "font": "Roboto 16px/16px 700",
+   "ls": "normal",
+   "tt": "none",
+   "h": 19,
+   "cls": "btn  underline text-bold ",
+   "count": 6
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "0px",
+   "font": "Roboto 16px/24px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 2,
+   "cls": "wd-progress-item",
+   "count": 3
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(115, 119, 121)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "12px 0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 42,
+   "cls": " text-grey-5  w-auto btn pointer text-sm sm:text-base uppercase text-center py-3",
+   "count": 2
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "0px 20px 0px 16px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 50,
+   "cls": "hamburger-menu hamburger-menu-bar pr-5 z-50 print-none printHidden",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 23,
+   "cls": "mini-cart-trigger relative cursor-pointer inline-flex pointer-events-none",
+   "count": 1
+  },
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 18,
+   "cls": "btn-search btn-search-SummaryView btn flex itmes-center bg-white",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "0px",
+   "padding": "0px",
+   "font": "Roboto 16px/24px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 2,
+   "cls": "wd-progress-item is-active",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(34, 102, 255)",
+   "border": "0px solid rgb(34, 102, 255)",
+   "radius": "0px",
+   "padding": "12px 0px",
+   "font": "Roboto 16px/18.4px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 45,
+   "cls": "pointer-events-none border-b-3 border-blue text-blue sm:bg-transparent w-auto bt",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "1px solid rgb(0, 0, 0)",
+   "radius": "6px",
+   "padding": "8px 16px",
+   "font": "Roboto 14px/14px 500",
+   "ls": "normal",
+   "tt": "none",
+   "h": 32,
+   "cls": "btn  btn-sm hover:bg-black hover:text-white py-2 md:py-3 px-4 md:px-8 mt-4 md:mt",
+   "count": 1
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "0px solid rgb(246, 246, 246)",
+   "radius": "6px",
+   "padding": "0px",
+   "font": "Roboto 16px/16px 400",
+   "ls": "normal",
+   "tt": "none",
+   "h": 16,
+   "cls": "btn  underline block mt-4 ",
+   "count": 1
+  }
+ ],
+ "containers": [],
+ "header": {
+  "y": 0,
+  "h": 91,
+  "position": "sticky",
+  "bg": "rgb(255, 255, 255)",
+  "tag": "header",
+  "cls": "header relative w-full"
+ },
+ "footer": {
+  "y": 6006,
+  "h": 2176,
+  "position": "static",
+  "bg": "rgba(0, 0, 0, 0)",
+  "tag": "footer",
+  "cls": "wd-footer"
+ },
+ "contentRoot": {
+  "sel": null,
+  "tag": "body",
+  "cls": "page en-us b2c disabledOutine has-header-container ios-device",
+  "id": ""
+ },
+ "sections": [
+  {
+   "y": 0,
+   "h": 91,
+   "tag": "header",
+   "cls": "header relative w-full",
+   "id": "",
+   "bg": "rgb(255, 255, 255)",
+   "pad": "0px/0px",
+   "heading": null,
+   "imgs": 2
+  },
+  {
+   "y": 91,
+   "h": 5915,
+   "tag": "section",
+   "cls": "mainContainWrap",
+   "id": "",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px/0px",
+   "heading": "h1: WD Hard Drive Storage Solutions for Data Centers, NAS, Enter",
+   "imgs": 36
+  },
+  {
+   "y": 6006,
+   "h": 2176,
+   "tag": "footer",
+   "cls": "wd-footer",
+   "id": "",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px/0px",
+   "heading": null,
+   "imgs": 1
+  },
+  {
+   "y": 815,
+   "h": 65,
+   "tag": "iframe",
+   "cls": "",
+   "id": "wd-chat-frame",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px/0px",
+   "heading": null,
+   "imgs": 0
+  }
+ ],
+ "photoLayers": [
+  {
+   "cls": "aem-section-bgimage section-224871497784 section-bg absolute pin-t pin-b pin-l p",
+   "y": 91,
+   "w": 360,
+   "h": 225,
+   "image": "url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/data-storage-at-scale-tiered-homepage-hero.jpg.wdthumb.840.840.webp\")",
+   "size": "cover",
+   "pos": "50% 0%"
+  },
+  {
+   "cls": "aem-section-bgimage section-434142294002 section-bg absolute pin-t pin-b pin-l p",
+   "y": 91,
+   "w": 360,
+   "h": 225,
+   "image": "url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/hp-drive-behind-ai-hdd-discs.png.wdthumb.840.840.webp\")",
+   "size": "cover",
+   "pos": "50% 0%"
+  },
+  {
+   "cls": "aem-section-bgimage section-1188142716449 section-bg absolute pin-t pin-b pin-l ",
+   "y": 91,
+   "w": 360,
+   "h": 225,
+   "image": "url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/the-next-AI-economics-challenge.png.wdthumb.840.840.webp\")",
+   "size": "cover",
+   "pos": "50% 50%"
+  },
+  {
+   "cls": "aem-section-bgimage section-167190128230 section-bg absolute pin-t pin-b pin-l p",
+   "y": 91,
+   "w": 360,
+   "h": 225,
+   "image": "url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/dont-confuse-flashy-with-foundational-hero_1920x750-2x-optimized.jpg.wdthumb.840.840.webp\")",
+   "size": "cover",
+   "pos": "50% 50%"
+  },
+  {
+   "cls": "aem-section-bgimage section-224871497784 section-bg absolute pin-t pin-b pin-l p",
+   "y": 91,
+   "w": 360,
+   "h": 225,
+   "image": "url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/data-storage-at-scale-tiered-homepage-hero.jpg.wdthumb.840.840.webp\")",
+   "size": "cover",
+   "pos": "50% 0%"
+  }
+ ],
+ "liftedAt": "2026-09-18T06:57:46.107Z"
+}

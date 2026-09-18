@@ -1,0 +1,77 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica (extract --prep Phase 4, descriptive sidecar)",
+    "writtenAt": "2026-09-18T07:05:00Z",
+    "againstInput": "https://www.westerndigital.com/",
+    "readArtifacts": ["stardust/current/_brand-extraction.json", "stardust/replica/lift/*.json", "stardust/state.json"],
+    "synthesizedInputs": []
+  },
+  "name": "Western Digital (westerndigital.com) — current state",
+  "extensions": {
+    "componentStyle": {
+      "buttons": {
+        "primary": { "background": "#000000", "color": "#ffffff", "border": "1px solid #000000", "borderRadius": "6px", "padding": "12px 32px", "font": "Roboto 16px/16px 500", "hover": "background #ffffff, color #000000" },
+        "secondary": { "background": "transparent", "color": "#000000", "border": "1px solid #000000", "borderRadius": "6px", "padding": "12px 32px", "font": "Roboto 16px/16px 500" },
+        "onDark": { "background": "transparent", "color": "#ffffff", "border": "1px solid #ffffff", "borderRadius": "6px", "padding": "12px 32px", "font": "Roboto 16px/16px 500" },
+        "onDarkFilled": { "background": "#ffffff", "color": "#000000", "border": "1px solid #ffffff", "borderRadius": "6px", "padding": "12px 32px", "font": "Roboto 16px/16px 500" },
+        "textLink": { "color": "#000000", "font": "Roboto 16px 700", "textDecoration": "underline" }
+      },
+      "cards": { "background": "#ffffff", "borderRadius": "16px", "padding": "24px", "shadow": null },
+      "cardsDark": { "background": "#111111", "color": "#ffffff", "borderRadius": "16px", "size": "400x600" },
+      "inputs": { "borderRadius": "6px", "padding": "12px", "border": "1px solid #929a9d" }
+    },
+    "motifs": {
+      "borderRadius": { "primary": "6px", "secondary": "16px", "pill": "999px" },
+      "shadows": [],
+      "gradients": [],
+      "patterns": ["hero-carousel-fullbleed", "category-tabs-tiles", "card-rail-dark", "product-card-rail", "resource-cards", "split-image-text-band", "dark-cta-band", "press-release-article", "footer-mega", "utility-bar", "section-subnav", "breadcrumb"]
+    },
+    "voice": {
+      "heroHeadline": "Built for Scale",
+      "heroSubcopy": "The enduring role of HDDs in the AI era.",
+      "ctaSamples": ["Learn More", "See All Products", "Read More", "Get the Full Story", "Learn Why", "Learn more about our Benefits", "Visit Resource Center", "Explore the IDC Research"],
+      "navItems": ["Products", "Solutions", "Support", "Company"],
+      "footerHeadings": ["Shopping", "Programs", "Company", "Support"],
+      "register": "brand"
+    },
+    "layout": {
+      "containerMaxWidth": "1140px",
+      "containerPadding": "16px",
+      "contentWidth": "1108px",
+      "header": { "utilityBar": "40px", "nav": "57px", "total": "97px", "position": "sticky", "mobileTotal": "91px" },
+      "footer": { "height1440": "763px", "height360": "2176px" },
+      "hero": { "home": "750px full-bleed carousel", "program": "400px full-bleed photo", "article": "300px contained photo (1108px)" },
+      "textRendering": { "textRendering": "auto", "webkitFontSmoothing": "auto", "fontKerning": "auto" }
+    },
+    "fonts": {
+      "families": [{ "name": "Roboto", "weights": [300, 400, 500, 700], "license": "Apache-2.0 (open)", "source": "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/fonts/roboto/roboto-v18-latin-*.woff2", "localPath": "stardust/current/assets/fonts/" }],
+      "declaredButUnused": ["FK Grotesk Neue", "SimplonMono", "Glyphicons Halflings", "icomoon"]
+    },
+    "metadata": {
+      "siteName": "WD",
+      "titleSuffix": " | WD",
+      "themeColor": null,
+      "defaultLocale": "en-US",
+      "organization": { "@type": "Organization", "name": "Western Digital Corporation", "url": "https://www.westerndigital.com/" },
+      "keyFacts": []
+    },
+    "modules": [
+      { "id": "site-header", "status": "candidate", "slots": [{ "name": "promo-text", "type": "text" }, { "name": "promo-link", "type": "link" }, { "name": "logo", "type": "image" }, { "name": "nav-items", "type": "list" }, { "name": "tools", "type": "list" }], "instances": [{ "slug": "*", "selector": "header.header" }], "signals": ["headings", "ctas"], "confidence": "high" },
+      { "id": "site-footer", "status": "candidate", "slots": [{ "name": "logo", "type": "image" }, { "name": "region", "type": "text" }, { "name": "columns", "type": "list" }, { "name": "support", "type": "text" }, { "name": "social", "type": "list" }, { "name": "badge", "type": "image" }, { "name": "legal", "type": "list" }], "instances": [{ "slug": "*", "selector": "footer.wd-footer" }], "signals": ["headings", "ctas"], "confidence": "high" },
+      { "id": "hero-carousel", "status": "candidate", "slots": [{ "name": "slides[]", "type": "group", "sub": ["image", "headline", "lede", "cta"] }], "instances": [{ "slug": "index", "selector": ".aem-section-bgimage (3 slides)" }], "confidence": "high" },
+      { "id": "photo-hero", "status": "candidate", "slots": [{ "name": "image", "type": "image" }, { "name": "eyebrow", "type": "text", "required": false }, { "name": "headline", "type": "text" }, { "name": "lede", "type": "text", "required": false }], "instances": [{ "slug": "company-corporate-responsibility", "selector": ".aem-section-bgimage 1440x400" }, { "slug": "company-newsroom-press-releases-*", "selector": "press-release-hero-banner 1108x300" }, { "slug": "careers", "selector": "" }, { "slug": "solutions-*", "selector": "" }], "confidence": "high" },
+      { "id": "section-subnav", "status": "candidate", "slots": [{ "name": "tabs[]", "type": "link" }], "instances": [{ "slug": "company-corporate-responsibility" }, { "slug": "company-innovation" }, { "slug": "careers" }, { "slug": "company-programs-data-recovery" }], "confidence": "high" },
+      { "id": "breadcrumb", "status": "candidate", "slots": [{ "name": "trail[]", "type": "link" }], "instances": [{ "slug": "company-*" }, { "slug": "solutions-*" }], "confidence": "high" },
+      { "id": "category-tabs-tiles", "status": "candidate", "slots": [{ "name": "tabs[]", "type": "text" }, { "name": "tiles[]", "type": "group", "sub": ["image", "label", "href"] }, { "name": "cta", "type": "link" }], "instances": [{ "slug": "index" }], "confidence": "medium" },
+      { "id": "card-rail-dark", "status": "candidate", "slots": [{ "name": "heading", "type": "text" }, { "name": "cards[]", "type": "group", "sub": ["image", "eyebrow", "title", "cta"] }], "instances": [{ "slug": "index", "selector": "A Legacy in Technology and Innovation" }], "confidence": "medium" },
+      { "id": "product-card-rail", "status": "candidate", "slots": [{ "name": "heading", "type": "text" }, { "name": "feature", "type": "group" }, { "name": "cards[]", "type": "group", "sub": ["image", "title", "capacity", "price", "href"] }], "instances": [{ "slug": "index", "selector": "Popular Products" }, { "slug": "solutions-data-center", "selector": "Featured Hard Drives" }], "confidence": "medium" },
+      { "id": "resource-cards", "status": "candidate", "slots": [{ "name": "heading", "type": "text" }, { "name": "cards[]", "type": "group", "sub": ["icon", "eyebrow", "title", "cta"] }], "instances": [{ "slug": "index", "selector": "Case Studies & Resources" }, { "slug": "explore-documents" }], "confidence": "medium" },
+      { "id": "split-image-text", "status": "candidate", "slots": [{ "name": "image", "type": "image" }, { "name": "eyebrow", "type": "text" }, { "name": "title", "type": "text" }, { "name": "body", "type": "richtext" }, { "name": "cta", "type": "link" }], "instances": [{ "slug": "company-corporate-responsibility", "selector": "7 alternating bands" }, { "slug": "index", "selector": "Designed to Support Businesses of Every Size (2-up variant)" }, { "slug": "company-innovation" }, { "slug": "careers-*" }], "confidence": "high" },
+      { "id": "dark-cta-band", "status": "candidate", "slots": [{ "name": "title", "type": "text" }, { "name": "body", "type": "text" }, { "name": "cta", "type": "link" }], "instances": [{ "slug": "company-corporate-responsibility", "selector": "Reports and Resources" }, { "slug": "careers" }], "confidence": "medium" },
+      { "id": "tile-row", "status": "candidate", "slots": [{ "name": "heading", "type": "text" }, { "name": "tiles[]", "type": "group", "sub": ["image", "label", "href"] }], "instances": [{ "slug": "index", "selector": "About WD" }], "confidence": "medium" },
+      { "id": "press-release-body", "status": "candidate", "slots": [{ "name": "dateline", "type": "text" }, { "name": "body", "type": "richtext" }, { "name": "boilerplate", "type": "richtext" }, { "name": "contacts", "type": "group" }], "instances": [{ "slug": "company-newsroom-press-releases-*", "selector": "2-col article" }], "confidence": "high" }
+    ],
+    "iaPriorities": [],
+    "systemComponents": ["site-header", "site-footer", "section-subnav", "breadcrumb", "consent-banner"]
+  }
+}

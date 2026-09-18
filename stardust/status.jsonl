@@ -1,0 +1,3 @@
+{"ts":"2026-09-18T06:52:23Z","skill":"stardust:replica","phase":"1-extract","event":"start","detail":"extract --prep --dynamics, roster 106 pages (hands-off caps 100/20)"}
+{"ts":"2026-09-18T07:05:11Z","skill":"stardust:replica","phase":"1-extract","event":"end","detail":"106/107 live (1 guessed PDP 404); types landing 1 · article 23 · program 47 · listing 13 · static 14 · form 4 · unique 4; PRODUCT/DESIGN authored; brand-review rendered","artifact":"stardust/current/"}
+{"ts":"2026-09-18T07:05:11Z","skill":"stardust:replica","phase":"2-preserve-direction","event":"start"}
