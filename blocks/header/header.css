@@ -99,13 +99,14 @@ header .nav-panel a.button:any-link { font-weight: 500; line-height: 25.6px; }
   header .nav-panel .nav-mega { display: flex; justify-content: center; margin: 0; padding: 48px 0; } /* out-specifies the .nav-sections ul reset */
   header .nav-col { width: 16.6667%; min-width: 0; padding: 0 16px; }
   header .nav-col.wide { width: 41.6667%; }
-  header .nav-col > strong { display: block; margin: 0 0 24px; padding-bottom: 8px; font-size: 18px; line-height: 27px; font-weight: 700; border-bottom: 1px solid #e1e1e1; }
+  header .nav-col > strong { display: block; margin: 0 0 24px; padding-bottom: 15px; font-size: 18px; line-height: 19.8px; font-weight: 700; border-bottom: 1px solid #e1e1e1; } /* live: 36px box, text top-aligned */
   header .nav-col:not(.wide) ul { padding-right: 8px; } /* live: the 153px column holds a 145px list — "Certified Refurbished" wraps */
   header .nav-col-lists { display: flex; }
   header .nav-col-lists ul { width: 215px; flex: 0 0 215px; }
+  header .nav-col-lists ul + ul { padding-left: 8px; } /* live: second list's links start 8px in */
   header .nav-col li { margin: 0; line-height: 17.6px; }
   header .nav-col li > a:any-link { display: inline-block; padding: 0; margin-bottom: 16px; font-size: 16px; line-height: 25.6px; }
-  header .nav-col.text-col > strong { margin: 0 0 16px; padding: 0; border: 0; }
+  header .nav-col.text-col > strong { margin: 0 0 16px; padding: 0; border: 0; line-height: 27px; }
   header .nav-col.text-col p { margin: 0; font-size: 16px; line-height: 24px; }
   header .nav-col.text-col p.button-wrapper { margin-top: 24px; }
   header .nav-col.text-col a.button:any-link { padding: 12px 24px; }
@@ -116,5 +117,6 @@ header .nav-panel a.button:any-link { font-weight: 500; line-height: 25.6px; }
   header .nav-band .nav-band-actions { display: flex; align-items: center; }
   header .nav-band .nav-band-actions .button-wrapper { display: flex; gap: 16px; margin: 0; }
   header .nav-band.single .nav-band-text { width: auto; flex: 1 1 auto; }
+  header .nav-band.single a.button:any-link { max-width: 274px; white-space: normal; text-align: center; } /* live: the Solutions button wraps to two lines inside 274px */
   header .nav-band.text-only .nav-band-text { width: auto; flex: 0 1 600px; max-width: 600px; margin: 0; text-align: center; }
 }
