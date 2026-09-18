@@ -141,3 +141,32 @@ the order they were discovered.
 
 - **What happened:** the boilerplate's `eslint` needs devDependencies (`@babel/core`) that a real `npm i` would install — but that `npm i` prunes the `--no-save` Playwright every gate depends on (extract SKILL.md § Setup already warns). So lint never runs in a stardust deploy run.
 - **Suggested change:** install Playwright as a real devDependency in the project (or into `stardust/.work/node_modules` with `NODE_PATH`), so `npm i` is safe and lint can run in the loop.
+## N-19 — replica gate.sh: the build side is captured without `--settle`, which is wrong for the published-origin regime
+
+- **What happened:** the first published-origin round read 10.5 % on the home page: the live capture (settled) rested on hero slide 2 and had the lazy footer badge loaded; the build capture (no settle, 1.2 s wait) showed slide 1 and the unloaded badge. Re-capturing the build with `--settle` was the difference between 10.5 % and 0.86 %.
+- **Suggested change:** `gate.sh` should settle the build side whenever the build URL is not a localhost prototype (or take `GATE_BUILD_SETTLE=1`); the published-origin section of `source-fidelity-gate.md` should say so — the published page is a real lazy/autoplay site, not a static prototype.
+
+## N-20 — replica gate.sh: the identity marker advice ("brand name") fails on client-rendered chrome
+
+- **What happened:** `--marker "Western Digital"` aborted the corporate round (exit 4): the brand string lives only in the nav fragment (client-rendered) and the `<title>` says "WD". The default slug marker would have passed.
+- **Suggested change:** check the marker against `.plain.html` (or the served HTML + the nav fragment) for published origins, and advise the slug default first — the brand-name advice is for stale-server collisions on localhost.
+
+## N-21 — deploy: the local harness never applies the publish pipeline's markup normalisation — the published-origin gap was entirely pipeline transforms
+
+- **What happened:** `aem up --html-folder` served the authored HTML verbatim, so the harness read (0.35–1.81 %) missed four transforms the DA → pipeline path applies: (a) an `<li>` whose text is followed by a nested `<ul>` gets its text wrapped in `<p>`; (b) `<strong>` column titles arrive as `<p><strong>`; (c) `<p><a>` becomes a buttonized `p.button-wrapper` (inline-flex); (d) trailing `&nbsp;` before a closing tag and `&nbsp;`/`<br>`-only paragraphs are stripped (a U+200B after the nbsp survives and keeps the nbsp — and the live line wrap). Cost: one full published round plus five fixes.
+- **Suggested change:** `build-harnesses.sh` / deploy § Harness should round-trip the content through the real pipeline before the harness read — preview a scratch document per page and fetch its `.plain.html` — or ship a `pipeline-normalize.mjs` that applies (a)–(d) locally. deploy's block briefs should list (a)–(c) as "markup you will receive", and the content-preservation rules should name (d) with the carrier technique.
+
+## N-22 — diff content-inventory: `norm()` does not strip zero-width characters
+
+- **What happened:** a heading carrying a trailing U+200B (pipeline carrier, N-21 d) was reported as `MISSING HEADING` + `EXTRA` — a false structural red.
+- **Suggested change:** strip `​‌‍﻿` in `norm()` (they are invisible and never load-bearing for pairing).
+
+## N-23 — deploy foundation: `height:auto` is only reset on `main img`; pipeline-stamped intrinsic sizes distort lazy chrome images
+
+- **What happened:** the pipeline stamps `width="1280" height="876"` on every `<img>`; the boilerplate resets `height:auto` only under `main`, so the lazy footer badge rendered 100×876 (its `max-width` applied, its `height` attribute did not) and pushed the page 808 px — on every archetype.
+- **Suggested change:** the deploy foundation checklist should add `header img, footer img { height: auto; }` (or reset `img` globally), and the chrome briefs should say lazy images outside `main` need it.
+
+## N-24 — deploy: `admin.hlx.page` DELETE (unpreview/unpublish) returns 403 with the DA IMS token that POST accepts
+
+- **What happened:** a scratch document used to probe the pipeline could be deleted from DA (204) but not removed from the preview origin (403 on `DELETE /preview/...` and `/live/...`), so it lingers at `/stardust-nbsp-test` on aem.page.
+- **Suggested change:** deploy's "scratch probe" advice should use a dedicated `stardust-scratch/` folder and tell the operator to unpublish via the da.live UI / sidekick, or avoid previewing scratch docs at all when the token cannot unpreview.

@@ -95,3 +95,23 @@ file of general stardust improvements.
 **Next:** refresh `DA_TOKEN`, run `stardust/.work/deploy/deliver.sh`, then the published-origin gate per archetype and breakpoint; then user review before any rollout wave.
 
 ---
+## 2026-09-18T10:10:44Z — Phase 5: delivered to da.live; published-origin gate passes on all three archetypes
+
+**Prompt:** "DA_TOKEN refreshed".
+
+**Decisions:**
+- `deliver.sh` ran clean (51 media 201, 5 docs, preview + live 200, `.plain.html` verified). Both origins serve the three pages.
+- First published round failed loud (10.5 %/11.5 % home, −808 px everywhere, corporate identity abort). Root causes were all publish-pipeline transforms the harness never applied — see `eds-conversion-log.md § Published-origin gate` (p-wrapped nav labels, intrinsic badge size on a lazy image, buttonized tile labels, stripped trailing nbsp) plus a build-side settle gap in `gate.sh`.
+- Trailing `&nbsp;` is carried through the pipeline with a U+200B after it (5 carriers on corporate, none in headings). This keeps live line wraps without changing visible bytes; recorded as a content-encoding decision, not a register entry.
+- Final published numbers (settle both sides): home 0.86 %/1.67 % Δ0/0 · press release 0.34 %/1.18 % Δ0/−1 · corporate 1.27 %/1.87 % Δ−5/−5; content-diff 0 red on press release and corporate, 14 on home all mapped to the two documented deviations (textless hero clones, decided-out commerce quick-view links).
+- The three archetypes are now `migrated` in `state.json`.
+
+**Artifacts touched:** `blocks/header/{header.js,header.css}`, `blocks/footer/footer.css`, `blocks/category-tabs/category-tabs.css`, `content/company/corporate-responsibility.html`, `stardust/replica/progress.json#publishedOrigin`, `stardust/state.json`, `stardust/status.jsonl`, `stardust/eds-conversion-log.md`, `stardust/notes/stardust-improvements.md` (N-19…N-24), gate evidence under `stardust/replica/gates/*/published.png`.
+
+**Findings worth flagging:** the harness understates exactly as the gate doc warns — N-21 proposes a pipeline round-trip before the harness read. A scratch probe page lingers on the preview origin (`/stardust-nbsp-test`, N-24) because the token cannot unpreview.
+
+**Open questions:** owner decisions in `stardust/dynamic-features.md § Decision batch` (commerce boundary, forms, tags/CMP, locales).
+
+**Next:** user review of the three delivered pages and the plan; then rollout waves W1–W5 per `stardust/replica/migration-plan.md`.
+
+---

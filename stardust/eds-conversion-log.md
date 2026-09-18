@@ -62,3 +62,24 @@ Defects the harness caught before delivery (all fixed in code):
 - stickiness must live on the `<header>` host element (a sticky child cannot stick inside a 97px parent); `body.minHeader header { top:-40px }`, `body.has-subnav header { position: relative }`.
 - card scrim `::before` must sit above the media layer (`z-index`), rail heads span the viewport at 360 (`:not(:has(.cards.tiles))`), footer social margins needed higher specificity than the `footer .footer ul` reset, badge/logo images are block-level.
 - Harness-only artefacts (not defects): `section-metadata` blocks stay in the DOM on the harness (48px phantom wrapper each) — the pipeline removes them server-side; the harness script strips them and applies the style classes by section index.
+
+## Published-origin gate (live vs `main--sdt-westerndigital--aemcoder.aem.page`, the only number that counts)
+
+Delivered after the `DA_TOKEN` refresh: 49 images + 2 logo SVGs to `media/wd/`, 5 documents (nav, footer, 3 pages) PUT → preview → live; `.plain.html` verified per page.
+
+| archetype | 1440 | 360 | content-diff |
+|---|---|---|---|
+| home | 0.86 % Δ0 | 1.67 % Δ0 | 14 🔴, all mapped: 3 second copies of hero CTAs (textless clones, § Decisions) + 11 inline links inside decided-out commerce quick-view copy |
+| press release | 0.34 % Δ0 | 1.18 % Δ-1 | 0 🔴 |
+| corporate responsibility | 1.27 % Δ-5 | 1.87 % Δ-5 | 0 🔴 |
+
+**The harness understated, as the gate doc warns.** The first published run read 10.5 %/11.5 % (home), 4.9 %/3.9 % (press release) with a constant −808 px height delta, and the corporate round aborted on the identity marker (`Western Digital` is not in the raw HTML — the `<title>` says `WD`). Every cause was a publish-pipeline transformation the `aem up --html-folder` harness never applied:
+
+1. **`<li>` text wrapped in `<p>`** when the item carries a nested `<ul>` → nav labels sat 20 px low (`header.js` moved only text nodes). Column titles arrive as `<p><strong>`. Fixed by moving the `<p>` children into the label / unwrapping (nodes move, EW1).
+2. **Intrinsic `width`/`height` stamped on every `<img>`** → the lazy Ethisphere badge rendered 100×876 until load: `footer.css` had `max-width:100px` without `height:auto` (the boilerplate only resets `main img`). Fixed.
+3. **`<p><a>` buttonized** → category tile labels became `inline-flex` in a 24 px line box (+4 px per tile row, −13 px at 360). Fixed with `display:block` on the tile `<p>`.
+4. **Trailing `&nbsp;` before a closing tag and `&nbsp;`-only paragraphs are stripped** — the source's `Report.&nbsp;` wrapped one line earlier on live (24 px cascade → 16.7 % on corporate). A zero-width space (U+200B) after the nbsp survives the pipeline and restores the wrap; 5 carriers on corporate, none in headings (content-inventory does not strip U+200B and flagged the heading as missing). Empty spacer paragraphs are dropped by the pipeline; none were needed on the three pages.
+5. **Mobile Sign-in icon** showed at 360: the `a:any-link` flex rule out-specified the hide. Fixed.
+6. **Build-side settle:** the published origin is a real lazy/autoplay site — `gate.sh` captures the build without `--settle`, so the hero rested on slide 1 vs live's slide 2. Both sides captured with `--settle` for the recorded numbers.
+
+Evidence: `stardust/replica/gates/<slug>-<w>/published.png`, `diff-published3.png` (home, press release), `diff-published5.png` (corporate), `gate-published*.txt`, `content-diff-published*.txt`.

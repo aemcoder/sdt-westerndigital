@@ -1,1983 +1,2001 @@
 {
-  "_provenance": {
-    "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T08:45:52.866Z",
-    "stardustVersion": "0.22.1"
-  },
-  "site": {
-    "originUrl": "https://www.westerndigital.com/",
-    "deployUrl": "https://main--sdt-westerndigital--aemcoder.aem.live/",
-    "extractedAt": "2026-09-18T06:57:43.567Z",
-    "pageCap": 106,
-    "totalDiscovered": 508,
-    "crawled": 106,
-    "sitemap": "https://www.westerndigital.com/sitemap.xml (gzip body)",
-    "rosterFile": "stardust/.work/extract/roster.txt"
-  },
-  "direction": {
-    "resolvedAt": "2026-09-18T07:05:00Z",
-    "phrase": "same-design replica (preserve mode)",
-    "directionFile": "stardust/direction.md",
-    "iaFidelity": "verbatim",
-    "mode": "preserve"
-  },
-  "handsOff": true,
-  "pages": [
-    {
-      "slug": "index",
-      "url": "https://www.westerndigital.com/",
-      "title": "High-Capacity HDDs for PCs, NAS, Gaming, Data Centers, and AI Data Cycles | WD",
-      "type": "landing",
-      "status": "approved",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:32.292Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:05:00Z"
-        },
-        {
-          "status": "prototyped",
-          "at": "2026-09-18T08:45:52.866Z"
-        },
-        {
-          "status": "approved",
-          "at": "2026-09-18T08:45:52.866Z",
-          "approvedBy": "hands-off",
-          "gate": "stardust/replica/progress.json"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": "stardust/prototypes/home-proposed.html",
-      "migratedPath": null,
-      "archetype": "home",
-      "fidelityTier": "archetype"
-    },
-    {
-      "slug": "brand-g-drive",
-      "url": "https://www.westerndigital.com/brand/g-drive",
-      "title": "G-DRIVE | Professional Storage Solutions for Creators | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:20.195Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/brand-g-drive.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "brand-wd-black",
-      "url": "https://www.westerndigital.com/brand/wd-black",
-      "title": "WD_BLACK High-Speed Gaming HDDs and SSDs for PS5, Xbox, Desktop & Laptops | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:20.388Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/brand-wd-black.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "business-account-benefits",
-      "url": "https://www.westerndigital.com/business/account-benefits",
-      "title": "Pricing and Benefits of a Business Account | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:13.958Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/business-account-benefits.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "business-line-of-credit",
-      "url": "https://www.westerndigital.com/business/line-of-credit",
-      "title": "Business Line of Credit | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:17.970Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/business-line-of-credit.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "business-pro-rewards",
-      "url": "https://www.westerndigital.com/business/pro-rewards",
-      "title": "Earn Rewards for Business Purchases | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:13.744Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/business-pro-rewards.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "careers",
-      "url": "https://www.westerndigital.com/careers",
-      "title": "Explore Western Digital Career Opportunities | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:54.407Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/careers.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "careers-meet-western-digital",
-      "url": "https://www.westerndigital.com/careers/meet-western-digital",
-      "title": "Meet Western Digital | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:59.152Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/careers-meet-western-digital.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "careers-students-and-grads",
-      "url": "https://www.westerndigital.com/careers/students-and-grads",
-      "title": "Students & Grads | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:01.499Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/careers-students-and-grads.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "careers-total-rewards",
-      "url": "https://www.westerndigital.com/careers/total-rewards",
-      "title": "Total Rewards | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:59.374Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/careers-total-rewards.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company",
-      "url": "https://www.westerndigital.com/company",
-      "title": "Who We Are: Leadership, Values, and Innovation | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:32.992Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-campaign-we-make-it-possible",
-      "url": "https://www.westerndigital.com/company/campaign/we-make-it-possible",
-      "title": "We Make It Possible: Meet the People Behind WD | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:17.580Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-campaign-we-make-it-possible.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-contact-us",
-      "url": "https://www.westerndigital.com/company/contact-us",
-      "title": "Contact | WD",
-      "type": "form",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:54.595Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-contact-us.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-corporate-responsibility",
-      "url": "https://www.westerndigital.com/company/corporate-responsibility",
-      "title": "Corporate Responsibility | WD",
-      "type": "program",
-      "status": "approved",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:39.234Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:05:00Z"
-        },
-        {
-          "status": "prototyped",
-          "at": "2026-09-18T08:45:52.866Z"
-        },
-        {
-          "status": "approved",
-          "at": "2026-09-18T08:45:52.866Z",
-          "approvedBy": "hands-off",
-          "gate": "stardust/replica/progress.json"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-corporate-responsibility.json",
-      "prototypePath": "stardust/prototypes/corporate-responsibility-proposed.html",
-      "migratedPath": null,
-      "archetype": "corporate-responsibility",
-      "fidelityTier": "archetype"
-    },
-    {
-      "slug": "company-corporate-responsibility-environment",
-      "url": "https://www.westerndigital.com/company/corporate-responsibility/environment",
-      "title": "WD Sustainability Initiatives | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:39.920Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-corporate-responsibility-environment.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-corporate-responsibility-people",
-      "url": "https://www.westerndigital.com/company/corporate-responsibility/people",
-      "title": "Empowering Our People & Culture | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:38.594Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-corporate-responsibility-people.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-corporate-responsibility-supply-chain",
-      "url": "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
-      "title": "Responsible Supply Chain Practices | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:45.178Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-corporate-responsibility-supply-chain.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-distributors",
-      "url": "https://www.westerndigital.com/company/distributors",
-      "title": "Distributors | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:08.625Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-distributors.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-distributors-find-a-store",
-      "url": "https://www.westerndigital.com/company/distributors/find-a-store",
-      "title": "Distributors | WD",
-      "type": "form",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:08.995Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-distributors-find-a-store.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-innovation",
-      "url": "https://www.westerndigital.com/company/innovation",
-      "title": "Data Storage Innovation for AI, Open Source, and HDD Technologies | Western Digital | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:44.804Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-innovation.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-innovation-hdd-innovation",
-      "url": "https://www.westerndigital.com/company/innovation/hdd-innovation",
-      "title": "Redefining Data Storage with Advanced HDD Innovation | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:49.028Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-innovation-hdd-innovation.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-innovation-publications",
-      "url": "https://www.westerndigital.com/company/innovation/publications",
-      "title": "Research Publications | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:54.772Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-innovation-publications.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-innovation-zoned-storage",
-      "url": "https://www.westerndigital.com/company/innovation/zoned-storage",
-      "title": "Zoned Storage | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:46.202Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-innovation-zoned-storage.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-leadership-charters",
-      "url": "https://www.westerndigital.com/company/leadership/charters",
-      "title": "Leadership | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:51.430Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-leadership-charters.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-leadership-corporate-governance-qa",
-      "url": "https://www.westerndigital.com/company/leadership/corporate-governance-qa",
-      "title": "Leadership | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:52.338Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-leadership-corporate-governance-qa.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom",
-      "url": "https://www.westerndigital.com/company/newsroom",
-      "title": "Western Digital Newsroom: Press Releases, Leadership & ESG Updates | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:31.775Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-brand-assets",
-      "url": "https://www.westerndigital.com/company/newsroom/brand-assets",
-      "title": "WD Brand Assets | Logos & B-Roll for Press and Media | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:38.409Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-brand-assets.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-events",
-      "url": "https://www.westerndigital.com/company/newsroom/events",
-      "title": "WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:32.576Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-events.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-events-flash-memory-summit-2023",
-      "url": "https://www.westerndigital.com/company/newsroom/events/flash-memory-summit-2023",
-      "title": "Flash Memory Summit Conference & Expo | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:54.607Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-events-flash-memory-summit-2023.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-events-tech-ad-europe",
-      "url": "https://www.westerndigital.com/company/newsroom/events/tech-ad-europe",
-      "title": "Tech.AD Europe | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:52.547Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-events-tech-ad-europe.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-events-the-evolution-of-the-modern-it-department",
-      "url": "https://www.westerndigital.com/company/newsroom/events/the-evolution-of-the-modern-it-department",
-      "title": "The Evolution of the Modern IT Department | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:52.795Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-events-the-evolution-of-the-modern-it-department.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city",
-      "title": "Western Digital to Host Innovation Day 2026 in New York City | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:48.803Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era",
-      "title": "Western Digital Accelerates Storage Innovation for AI Era | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:46.138Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand",
-      "title": "WD Unifies its Professional Content Creator Storage Portfolio Under the G-DRIVE® Brand | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:46.301Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
-      "title": "Ethisphere Names WD as One of The 2026 World's Most Ethical Companies for The Eighth Time | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:44.059Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-04-13-q3fy26-earnings-date-announcement",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-13-Q3FY26-earnings-date-announcement",
-      "title": "WD to Announce Third Quarter Fiscal Year 2026 Financial Results on April 30, 2026 | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:43.477Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-04-13-q3fy26-earnings-date-announcement.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure",
-      "title": "WD Raises the Bar on Sustainable Infrastructure as AI Storage Demand Accelerates | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:40.666Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results",
-      "title": "WD Reports Fiscal Third Quarter 2026 Financial Results | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:40.304Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-05-06-wd-announces-equity-for-equity-exchange",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-06-wd-announces-equity-for-equity-exchange",
-      "title": "WD Announces Equity-for-Equity Exchange | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:38.359Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-06-wd-announces-equity-for-equity-exchange.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
-      "title": "WD Named to 2026 S&P Dow Jones Best in Class Index North America, Recognizing Leadership in Sustainable AI Infrastructure | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:35.600Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography",
-      "title": "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:31.947Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai",
-      "title": "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:29.707Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-05-28-wd-appoints-manuvir-das-to-board-of-directors",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-28-wd-appoints-manuvir-das-to-board-of-directors",
-      "title": "WD Appoints Manuvir Das to Board of Directors | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:31.454Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-28-wd-appoints-manuvir-das-to-board-of-directors.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-06-01-wd-at-computex-2026",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-06-01-wd-at-computex-2026",
-      "title": "WD at Computex 2026: AI Doesn't Just Run on Compute - It Runs on Data | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:29.912Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-06-01-wd-at-computex-2026.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results",
-      "title": "WD to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on August 5, 2026 | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:25.911Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure",
-      "title": "WD Malaysia Recognized for Advancing Sustainable AI Infrastructure | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:23.179Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
-      "title": "WD Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:22.924Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab",
-      "title": "WD and Tohoku University Launch AI Data Infrastructure Lab to Accelerate the Future of AI Storage | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:20.340Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-08-24-wd-to-participate-in-upcoming-investor-conference",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-24-wd-to-participate-in-upcoming-investor-conference",
-      "title": "WD to Participate in Upcoming Investor Conference | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:20.930Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-08-24-wd-to-participate-in-upcoming-investor-conference.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds",
-      "title": "WD New Research Reveals the Reshaping of AI Infrastructure Economics as Data Persists and Compounds | WD",
-      "type": "article",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:15.841Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
-      "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
-      "title": "As AI Data Surges, WD Outlines a New Path to Economically Scalable Storage Infrastructure | WD",
-      "type": "article",
-      "status": "approved",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:14.390Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:05:00Z"
-        },
-        {
-          "status": "prototyped",
-          "at": "2026-09-18T08:45:52.866Z"
-        },
-        {
-          "status": "approved",
-          "at": "2026-09-18T08:45:52.866Z",
-          "approvedBy": "hands-off",
-          "gate": "stardust/replica/progress.json"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure.json",
-      "prototypePath": "stardust/prototypes/press-release-proposed.html",
-      "migratedPath": null,
-      "archetype": "press-release",
-      "fidelityTier": "archetype"
-    },
-    {
-      "slug": "company-office-locations",
-      "url": "https://www.westerndigital.com/company/office-locations",
-      "title": "Office Locations | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:57.112Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-office-locations.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-partners",
-      "url": "https://www.westerndigital.com/company/partners",
-      "title": "WD Partners & Technology Alliances | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:59.430Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-partners.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-partners-dataon",
-      "url": "https://www.westerndigital.com/company/partners/dataon",
-      "title": "DataON | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:02.850Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-partners-dataon.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-partners-technology-alliance-veeam",
-      "url": "https://www.westerndigital.com/company/partners/technology-alliance/veeam",
-      "title": "Veeam | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:03.390Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-partners-technology-alliance-veeam.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-programs-data-recovery",
-      "url": "https://www.westerndigital.com/company/programs/data-recovery",
-      "title": "HDD Data Recovery Plans | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:02.719Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-programs-data-recovery.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-programs-easy-recycle",
-      "url": "https://www.westerndigital.com/company/programs/easy-recycle",
-      "title": "Easy Recycle | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:05.980Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-programs-easy-recycle.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-programs-extended-warranty",
-      "url": "https://www.westerndigital.com/company/programs/extended-warranty",
-      "title": "Western Digital Extended Warranty | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:09.618Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-programs-extended-warranty.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "company-western-digital-capital",
-      "url": "https://www.westerndigital.com/company/western-digital-capital",
-      "title": "Western Digital Capital | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:13.901Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/company-western-digital-capital.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "explore-ai-factory",
-      "url": "https://www.westerndigital.com/explore/ai-factory",
-      "title": "Adding Value to the AI Factory | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:24.909Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/explore-ai-factory.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "explore-documents",
-      "url": "https://www.westerndigital.com/explore/documents",
-      "title": "Documents | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:25.962Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/explore-documents.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "explore-documents-case-for-hdd-storage",
-      "url": "https://www.westerndigital.com/explore/documents/case-for-hdd-storage",
-      "title": "Download the Long-Term Case for HDD Storage White Paper | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:27.871Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/explore-documents-case-for-hdd-storage.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "explore-hybrid-cloud-storage-solutions",
-      "url": "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
-      "title": "Hybrid Cloud Storage Solutions | Build a Resilient, Scalable Infrastructure | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:31.886Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/explore-hybrid-cloud-storage-solutions.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "explore-medical-data-storage",
-      "url": "https://www.westerndigital.com/explore/medical-data-storage",
-      "title": "Medical Data Storage & Healthcare Storage Solutions | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:33.154Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/explore-medical-data-storage.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "explore-whats-new",
-      "url": "https://www.westerndigital.com/explore/whats-new",
-      "title": "What’s New at Western Digital | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:26.218Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/explore-whats-new.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "legal",
-      "url": "https://www.westerndigital.com/legal",
-      "title": "Acceptable Use Policy | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:01.708Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/legal.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "legal-privacy-statement",
-      "url": "https://www.westerndigital.com/legal/privacy-statement",
-      "title": "Privacy Statement | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:06.127Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/legal-privacy-statement.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "legal-terms-of-use-easy-recycle",
-      "url": "https://www.westerndigital.com/legal/terms-of-use/easy-recycle",
-      "title": "Easy Recycle Program Terms | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:08.137Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/legal-terms-of-use-easy-recycle.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "legal-trademarks",
-      "url": "https://www.westerndigital.com/legal/trademarks",
-      "title": "Trademarks | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:08.137Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/legal-trademarks.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "legal-warranty",
-      "url": "https://www.westerndigital.com/legal/warranty",
-      "title": "Warranty | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:07.266Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/legal-warranty.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "privacy-center-control",
-      "url": "https://www.westerndigital.com/privacy-center/control",
-      "title": "Control | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:18.591Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/privacy-center-control.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "privacy-center-trust",
-      "url": "https://www.westerndigital.com/privacy-center/trust",
-      "title": "Trust | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:11.931Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/privacy-center-trust.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-accessories",
-      "url": "https://www.westerndigital.com/products/accessories",
-      "title": "Shop Accessories: cases, Adapters, and more | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:01.027Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-accessories.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-data-center-storage",
-      "url": "https://www.westerndigital.com/products/data-center-storage",
-      "title": "Shop Data Center Storage: Hard Drives & Platforms to Optimize Your Data Center | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:52.987Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-data-center-storage.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-data-center-storage-data-center-drives-data-security-ise-drives",
-      "url": "https://www.westerndigital.com/products/data-center-storage/data-center-drives/data-security-ise-drives",
-      "title": "Instant Secure Erase (ISE) Drives | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:03.741Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-data-center-storage-data-center-drives-data-security-ise-drives.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-hdd",
-      "url": "https://www.westerndigital.com/products/hdd",
-      "title": "Shop Hard Drives: Internal, External, and Portable HDDs | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:47.645Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-hdd.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-hdd-external-hdd",
-      "url": "https://www.westerndigital.com/products/hdd/external-hdd",
-      "title": "Portable &amp; External Hard Drives | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:50.495Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-hdd-external-hdd.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-hdd-internal-hdd",
-      "url": "https://www.westerndigital.com/products/hdd/internal-hdd",
-      "title": "Internal Hard Drives: Internal HDD Storage | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:50.496Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-hdd-internal-hdd.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-internal-drives-wd-blue-desktop-sata-hdd",
-      "url": "https://www.westerndigital.com/products/internal-drives/wd-blue-desktop-sata-hdd",
-      "title": "1TB WD Blue PC Desktop Hard Drive | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:13.168Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-internal-drives-wd-blue-desktop-sata-hdd.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-internal-drives-wd-red-plus-sata-3-5-hdd",
-      "url": "https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd",
-      "title": "2TB WD Red Plus Internal NAS HDD 3.5\" | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:03.372Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-internal-drives-wd-red-plus-sata-3-5-hdd.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-product-compare",
-      "url": "https://www.westerndigital.com/products/product-compare",
-      "title": "Compare HDD Products | WD",
-      "type": "unique",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:57.617Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-product-compare.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-product-portfolio",
-      "url": "https://www.westerndigital.com/products/product-portfolio",
-      "title": "Discover a Full Line of Hard Drive Memory Storage Products | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:53.479Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-product-portfolio.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-recertified",
-      "url": "https://www.westerndigital.com/products/recertified",
-      "title": "Recertified: Shop Recertified Digital Storage Drives | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:56.187Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-recertified.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "products-weekly-sale",
-      "url": "https://www.westerndigital.com/products/weekly-sale",
-      "title": "Weekly Storage Deals on HDDs, Gaming & Business Solutions | WD",
-      "type": "listing",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:59.545Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-weekly-sale.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "promo",
-      "url": "https://www.westerndigital.com/promo",
-      "title": "Hard Drive Promotions & Special Programs | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:21.179Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/promo.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "promo-best-sellers",
-      "url": "https://www.westerndigital.com/promo/best-sellers",
-      "title": "Best Selling Western Digital Hard Drives (2026) – Top WD Internal & External Picks | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:20.907Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/promo-best-sellers.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "resources",
-      "url": "https://www.westerndigital.com/resources",
-      "title": "Resources | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:26.158Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/resources.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "resources-white-paper",
-      "url": "https://www.westerndigital.com/resources/white-paper",
-      "title": "White Papers | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:26.496Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/resources-white-paper.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions",
-      "url": "https://www.westerndigital.com/solutions",
-      "title": "Discover How Hard Drives Can Transform Your Data Storage | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:32.609Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-creative-professionals",
-      "url": "https://www.westerndigital.com/solutions/creative-professionals",
-      "title": "Storage for Creatives: Video, Photo & Audio Storage Solutions | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:47.446Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-creative-professionals.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-data-center",
-      "url": "https://www.westerndigital.com/solutions/data-center",
-      "title": "Enterprise Data Center Storage Solutions | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:34.429Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-data-center.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-data-center-storage-platform",
-      "url": "https://www.westerndigital.com/solutions/data-center-storage-platform",
-      "title": "Enterprise Storage Platforms for Data Centers | WD",
-      "type": "form",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:38.604Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-data-center-storage-platform.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-data-center-storage-platform-use-case-ai",
-      "url": "https://www.westerndigital.com/solutions/data-center-storage-platform/use-case-ai",
-      "title": null,
-      "type": "form",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:38.200Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-data-center-storage-platform-use-case-ai.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-gaming",
-      "url": "https://www.westerndigital.com/solutions/gaming",
-      "title": "Gaming Storage Solutions & Systems for PC & Console | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:41.398Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-gaming.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-hdd-vs-ssd",
-      "url": "https://www.westerndigital.com/solutions/hdd-vs-ssd",
-      "title": "HDD vs SSD: Choosing the Right Drive for Your Data | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:44.588Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-hdd-vs-ssd.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-network-attached-storage",
-      "url": "https://www.westerndigital.com/solutions/network-attached-storage",
-      "title": "What is NAS? Network Attached Storage Guide & Devices | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:40.914Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-network-attached-storage.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "solutions-surveillance",
-      "url": "https://www.westerndigital.com/solutions/surveillance",
-      "title": "Video Surveillance Storage & CCTV HDD Solutions | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:54:44.824Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/solutions-surveillance.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "store-business",
-      "url": "https://www.westerndigital.com/store/business",
-      "title": "Page Not Found | WD",
-      "type": "unique",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:26.767Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/store-business.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support",
-      "url": "https://www.westerndigital.com/support",
-      "title": "Western Digital Support | HDD Help, Downloads & Warranty Services | WD",
-      "type": "program",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:08.831Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support-international-phone-numbers",
-      "url": "https://www.westerndigital.com/support/international-phone-numbers",
-      "title": "Contact Customer Support | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:14.820Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-international-phone-numbers.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support-product-security",
-      "url": "https://www.westerndigital.com/support/product-security",
-      "title": "Product Security | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:14.342Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-product-security.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support-returns-replacements",
-      "url": "https://www.westerndigital.com/support/returns-replacements",
-      "title": "Warranty Replacements, Order Cancellations, and Returns | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:09.304Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-returns-replacements.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support-store-warranty-policy",
-      "url": "https://www.westerndigital.com/support/store/warranty-policy",
-      "title": "Warranty | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:14.819Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-store-warranty-policy.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support-support-faq",
-      "url": "https://www.westerndigital.com/support/support-faq",
-      "title": "Support FAQ | WD",
-      "type": "static",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:08.983Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-support-faq.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "tools-raid-capacity-calculator",
-      "url": "https://www.westerndigital.com/tools/raid-capacity-calculator",
-      "title": "RAID Calculator - Usable Storage Capacity by RAID Level | WD",
-      "type": "unique",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:20.699Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/tools-raid-capacity-calculator.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "tools-surveillance-capacity-calculator",
-      "url": "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
-      "title": "Surveillance Hard Drive Storage Calculator | WD",
-      "type": "unique",
-      "status": "extracted",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:55:20.002Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/tools-surveillance-capacity-calculator.json",
-      "prototypePath": null,
-      "migratedPath": null
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-09-18T08:45:52.866Z",
+  "stardustVersion": "0.22.1"
+ },
+ "site": {
+  "originUrl": "https://www.westerndigital.com/",
+  "deployUrl": "https://main--sdt-westerndigital--aemcoder.aem.live/",
+  "extractedAt": "2026-09-18T06:57:43.567Z",
+  "pageCap": 106,
+  "totalDiscovered": 508,
+  "crawled": 106,
+  "sitemap": "https://www.westerndigital.com/sitemap.xml (gzip body)",
+  "rosterFile": "stardust/.work/extract/roster.txt"
+ },
+ "direction": {
+  "resolvedAt": "2026-09-18T07:05:00Z",
+  "phrase": "same-design replica (preserve mode)",
+  "directionFile": "stardust/direction.md",
+  "iaFidelity": "verbatim",
+  "mode": "preserve"
+ },
+ "handsOff": true,
+ "pages": [
+  {
+   "slug": "index",
+   "url": "https://www.westerndigital.com/",
+   "title": "High-Capacity HDDs for PCs, NAS, Gaming, Data Centers, and AI Data Cycles | WD",
+   "type": "landing",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:32.292Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:05:00Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T08:45:52.866Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T08:45:52.866Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T10:09:55Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/",
+     "gate": "stardust/replica/progress.json#publishedOrigin"
     }
-  ]
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/index.json",
+   "prototypePath": "stardust/prototypes/home-proposed.html",
+   "migratedPath": "content/index.html",
+   "archetype": "home",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "brand-g-drive",
+   "url": "https://www.westerndigital.com/brand/g-drive",
+   "title": "G-DRIVE | Professional Storage Solutions for Creators | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:20.195Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/brand-g-drive.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "brand-wd-black",
+   "url": "https://www.westerndigital.com/brand/wd-black",
+   "title": "WD_BLACK High-Speed Gaming HDDs and SSDs for PS5, Xbox, Desktop & Laptops | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:20.388Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/brand-wd-black.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "business-account-benefits",
+   "url": "https://www.westerndigital.com/business/account-benefits",
+   "title": "Pricing and Benefits of a Business Account | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:13.958Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/business-account-benefits.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "business-line-of-credit",
+   "url": "https://www.westerndigital.com/business/line-of-credit",
+   "title": "Business Line of Credit | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:17.970Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/business-line-of-credit.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "business-pro-rewards",
+   "url": "https://www.westerndigital.com/business/pro-rewards",
+   "title": "Earn Rewards for Business Purchases | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:13.744Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/business-pro-rewards.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "careers",
+   "url": "https://www.westerndigital.com/careers",
+   "title": "Explore Western Digital Career Opportunities | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:54.407Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/careers.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "careers-meet-western-digital",
+   "url": "https://www.westerndigital.com/careers/meet-western-digital",
+   "title": "Meet Western Digital | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:59.152Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/careers-meet-western-digital.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "careers-students-and-grads",
+   "url": "https://www.westerndigital.com/careers/students-and-grads",
+   "title": "Students & Grads | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:01.499Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/careers-students-and-grads.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "careers-total-rewards",
+   "url": "https://www.westerndigital.com/careers/total-rewards",
+   "title": "Total Rewards | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:59.374Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/careers-total-rewards.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company",
+   "url": "https://www.westerndigital.com/company",
+   "title": "Who We Are: Leadership, Values, and Innovation | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:32.992Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-campaign-we-make-it-possible",
+   "url": "https://www.westerndigital.com/company/campaign/we-make-it-possible",
+   "title": "We Make It Possible: Meet the People Behind WD | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:17.580Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-campaign-we-make-it-possible.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-contact-us",
+   "url": "https://www.westerndigital.com/company/contact-us",
+   "title": "Contact | WD",
+   "type": "form",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:54.595Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-contact-us.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-corporate-responsibility",
+   "url": "https://www.westerndigital.com/company/corporate-responsibility",
+   "title": "Corporate Responsibility | WD",
+   "type": "program",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:39.234Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:05:00Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T08:45:52.866Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T08:45:52.866Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T10:09:55Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/company/corporate-responsibility",
+     "gate": "stardust/replica/progress.json#publishedOrigin"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-corporate-responsibility.json",
+   "prototypePath": "stardust/prototypes/corporate-responsibility-proposed.html",
+   "migratedPath": "content/company/corporate-responsibility.html",
+   "archetype": "corporate-responsibility",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "company-corporate-responsibility-environment",
+   "url": "https://www.westerndigital.com/company/corporate-responsibility/environment",
+   "title": "WD Sustainability Initiatives | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:39.920Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-corporate-responsibility-environment.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-corporate-responsibility-people",
+   "url": "https://www.westerndigital.com/company/corporate-responsibility/people",
+   "title": "Empowering Our People & Culture | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:38.594Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-corporate-responsibility-people.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-corporate-responsibility-supply-chain",
+   "url": "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
+   "title": "Responsible Supply Chain Practices | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:45.178Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-corporate-responsibility-supply-chain.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-distributors",
+   "url": "https://www.westerndigital.com/company/distributors",
+   "title": "Distributors | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:08.625Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-distributors.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-distributors-find-a-store",
+   "url": "https://www.westerndigital.com/company/distributors/find-a-store",
+   "title": "Distributors | WD",
+   "type": "form",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:08.995Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-distributors-find-a-store.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-innovation",
+   "url": "https://www.westerndigital.com/company/innovation",
+   "title": "Data Storage Innovation for AI, Open Source, and HDD Technologies | Western Digital | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:44.804Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-innovation.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-innovation-hdd-innovation",
+   "url": "https://www.westerndigital.com/company/innovation/hdd-innovation",
+   "title": "Redefining Data Storage with Advanced HDD Innovation | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:49.028Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-innovation-hdd-innovation.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-innovation-publications",
+   "url": "https://www.westerndigital.com/company/innovation/publications",
+   "title": "Research Publications | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:54.772Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-innovation-publications.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-innovation-zoned-storage",
+   "url": "https://www.westerndigital.com/company/innovation/zoned-storage",
+   "title": "Zoned Storage | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:46.202Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-innovation-zoned-storage.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-leadership-charters",
+   "url": "https://www.westerndigital.com/company/leadership/charters",
+   "title": "Leadership | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:51.430Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-leadership-charters.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-leadership-corporate-governance-qa",
+   "url": "https://www.westerndigital.com/company/leadership/corporate-governance-qa",
+   "title": "Leadership | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:52.338Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-leadership-corporate-governance-qa.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom",
+   "url": "https://www.westerndigital.com/company/newsroom",
+   "title": "Western Digital Newsroom: Press Releases, Leadership & ESG Updates | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:31.775Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-brand-assets",
+   "url": "https://www.westerndigital.com/company/newsroom/brand-assets",
+   "title": "WD Brand Assets | Logos & B-Roll for Press and Media | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:38.409Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-brand-assets.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-events",
+   "url": "https://www.westerndigital.com/company/newsroom/events",
+   "title": "WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:32.576Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-events.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-events-flash-memory-summit-2023",
+   "url": "https://www.westerndigital.com/company/newsroom/events/flash-memory-summit-2023",
+   "title": "Flash Memory Summit Conference & Expo | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:54.607Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-events-flash-memory-summit-2023.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-events-tech-ad-europe",
+   "url": "https://www.westerndigital.com/company/newsroom/events/tech-ad-europe",
+   "title": "Tech.AD Europe | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:52.547Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-events-tech-ad-europe.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-events-the-evolution-of-the-modern-it-department",
+   "url": "https://www.westerndigital.com/company/newsroom/events/the-evolution-of-the-modern-it-department",
+   "title": "The Evolution of the Modern IT Department | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:52.795Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-events-the-evolution-of-the-modern-it-department.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city",
+   "title": "Western Digital to Host Innovation Day 2026 in New York City | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:48.803Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era",
+   "title": "Western Digital Accelerates Storage Innovation for AI Era | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:46.138Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand",
+   "title": "WD Unifies its Professional Content Creator Storage Portfolio Under the G-DRIVE® Brand | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:46.301Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+   "title": "Ethisphere Names WD as One of The 2026 World's Most Ethical Companies for The Eighth Time | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:44.059Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-04-13-q3fy26-earnings-date-announcement",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-13-Q3FY26-earnings-date-announcement",
+   "title": "WD to Announce Third Quarter Fiscal Year 2026 Financial Results on April 30, 2026 | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:43.477Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-04-13-q3fy26-earnings-date-announcement.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure",
+   "title": "WD Raises the Bar on Sustainable Infrastructure as AI Storage Demand Accelerates | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:40.666Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results",
+   "title": "WD Reports Fiscal Third Quarter 2026 Financial Results | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:40.304Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-05-06-wd-announces-equity-for-equity-exchange",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-06-wd-announces-equity-for-equity-exchange",
+   "title": "WD Announces Equity-for-Equity Exchange | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:38.359Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-06-wd-announces-equity-for-equity-exchange.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+   "title": "WD Named to 2026 S&P Dow Jones Best in Class Index North America, Recognizing Leadership in Sustainable AI Infrastructure | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:35.600Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography",
+   "title": "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:31.947Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai",
+   "title": "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:29.707Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-05-28-wd-appoints-manuvir-das-to-board-of-directors",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-28-wd-appoints-manuvir-das-to-board-of-directors",
+   "title": "WD Appoints Manuvir Das to Board of Directors | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:31.454Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-05-28-wd-appoints-manuvir-das-to-board-of-directors.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-06-01-wd-at-computex-2026",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-06-01-wd-at-computex-2026",
+   "title": "WD at Computex 2026: AI Doesn't Just Run on Compute - It Runs on Data | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:29.912Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-06-01-wd-at-computex-2026.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results",
+   "title": "WD to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on August 5, 2026 | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:25.911Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure",
+   "title": "WD Malaysia Recognized for Advancing Sustainable AI Infrastructure | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:23.179Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+   "title": "WD Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:22.924Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab",
+   "title": "WD and Tohoku University Launch AI Data Infrastructure Lab to Accelerate the Future of AI Storage | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:20.340Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-08-24-wd-to-participate-in-upcoming-investor-conference",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-24-wd-to-participate-in-upcoming-investor-conference",
+   "title": "WD to Participate in Upcoming Investor Conference | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:20.930Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-08-24-wd-to-participate-in-upcoming-investor-conference.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds",
+   "title": "WD New Research Reveals the Reshaping of AI Infrastructure Economics as Data Persists and Compounds | WD",
+   "type": "article",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:15.841Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+   "title": "As AI Data Surges, WD Outlines a New Path to Economically Scalable Storage Infrastructure | WD",
+   "type": "article",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:14.390Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:05:00Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T08:45:52.866Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T08:45:52.866Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T10:09:55Z",
+     "publishedOrigin": "https://main--sdt-westerndigital--aemcoder.aem.live/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+     "gate": "stardust/replica/progress.json#publishedOrigin"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure.json",
+   "prototypePath": "stardust/prototypes/press-release-proposed.html",
+   "migratedPath": "content/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure.html",
+   "archetype": "press-release",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "company-office-locations",
+   "url": "https://www.westerndigital.com/company/office-locations",
+   "title": "Office Locations | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:57.112Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-office-locations.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-partners",
+   "url": "https://www.westerndigital.com/company/partners",
+   "title": "WD Partners & Technology Alliances | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:59.430Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-partners.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-partners-dataon",
+   "url": "https://www.westerndigital.com/company/partners/dataon",
+   "title": "DataON | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:02.850Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-partners-dataon.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-partners-technology-alliance-veeam",
+   "url": "https://www.westerndigital.com/company/partners/technology-alliance/veeam",
+   "title": "Veeam | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:03.390Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-partners-technology-alliance-veeam.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-programs-data-recovery",
+   "url": "https://www.westerndigital.com/company/programs/data-recovery",
+   "title": "HDD Data Recovery Plans | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:02.719Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-programs-data-recovery.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-programs-easy-recycle",
+   "url": "https://www.westerndigital.com/company/programs/easy-recycle",
+   "title": "Easy Recycle | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:05.980Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-programs-easy-recycle.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-programs-extended-warranty",
+   "url": "https://www.westerndigital.com/company/programs/extended-warranty",
+   "title": "Western Digital Extended Warranty | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:09.618Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-programs-extended-warranty.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "company-western-digital-capital",
+   "url": "https://www.westerndigital.com/company/western-digital-capital",
+   "title": "Western Digital Capital | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:13.901Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/company-western-digital-capital.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "explore-ai-factory",
+   "url": "https://www.westerndigital.com/explore/ai-factory",
+   "title": "Adding Value to the AI Factory | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:24.909Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/explore-ai-factory.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "explore-documents",
+   "url": "https://www.westerndigital.com/explore/documents",
+   "title": "Documents | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:25.962Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/explore-documents.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "explore-documents-case-for-hdd-storage",
+   "url": "https://www.westerndigital.com/explore/documents/case-for-hdd-storage",
+   "title": "Download the Long-Term Case for HDD Storage White Paper | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:27.871Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/explore-documents-case-for-hdd-storage.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "explore-hybrid-cloud-storage-solutions",
+   "url": "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+   "title": "Hybrid Cloud Storage Solutions | Build a Resilient, Scalable Infrastructure | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:31.886Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/explore-hybrid-cloud-storage-solutions.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "explore-medical-data-storage",
+   "url": "https://www.westerndigital.com/explore/medical-data-storage",
+   "title": "Medical Data Storage & Healthcare Storage Solutions | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:33.154Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/explore-medical-data-storage.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "explore-whats-new",
+   "url": "https://www.westerndigital.com/explore/whats-new",
+   "title": "What’s New at Western Digital | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:26.218Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/explore-whats-new.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "legal",
+   "url": "https://www.westerndigital.com/legal",
+   "title": "Acceptable Use Policy | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:01.708Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/legal.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "legal-privacy-statement",
+   "url": "https://www.westerndigital.com/legal/privacy-statement",
+   "title": "Privacy Statement | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:06.127Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/legal-privacy-statement.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "legal-terms-of-use-easy-recycle",
+   "url": "https://www.westerndigital.com/legal/terms-of-use/easy-recycle",
+   "title": "Easy Recycle Program Terms | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:08.137Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/legal-terms-of-use-easy-recycle.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "legal-trademarks",
+   "url": "https://www.westerndigital.com/legal/trademarks",
+   "title": "Trademarks | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:08.137Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/legal-trademarks.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "legal-warranty",
+   "url": "https://www.westerndigital.com/legal/warranty",
+   "title": "Warranty | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:07.266Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/legal-warranty.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "privacy-center-control",
+   "url": "https://www.westerndigital.com/privacy-center/control",
+   "title": "Control | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:18.591Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/privacy-center-control.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "privacy-center-trust",
+   "url": "https://www.westerndigital.com/privacy-center/trust",
+   "title": "Trust | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:11.931Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/privacy-center-trust.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-accessories",
+   "url": "https://www.westerndigital.com/products/accessories",
+   "title": "Shop Accessories: cases, Adapters, and more | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:01.027Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-accessories.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-data-center-storage",
+   "url": "https://www.westerndigital.com/products/data-center-storage",
+   "title": "Shop Data Center Storage: Hard Drives & Platforms to Optimize Your Data Center | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:52.987Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-data-center-storage.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-data-center-storage-data-center-drives-data-security-ise-drives",
+   "url": "https://www.westerndigital.com/products/data-center-storage/data-center-drives/data-security-ise-drives",
+   "title": "Instant Secure Erase (ISE) Drives | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:03.741Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-data-center-storage-data-center-drives-data-security-ise-drives.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-hdd",
+   "url": "https://www.westerndigital.com/products/hdd",
+   "title": "Shop Hard Drives: Internal, External, and Portable HDDs | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:47.645Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-hdd.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-hdd-external-hdd",
+   "url": "https://www.westerndigital.com/products/hdd/external-hdd",
+   "title": "Portable &amp; External Hard Drives | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:50.495Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-hdd-external-hdd.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-hdd-internal-hdd",
+   "url": "https://www.westerndigital.com/products/hdd/internal-hdd",
+   "title": "Internal Hard Drives: Internal HDD Storage | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:50.496Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-hdd-internal-hdd.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-internal-drives-wd-blue-desktop-sata-hdd",
+   "url": "https://www.westerndigital.com/products/internal-drives/wd-blue-desktop-sata-hdd",
+   "title": "1TB WD Blue PC Desktop Hard Drive | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:13.168Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-internal-drives-wd-blue-desktop-sata-hdd.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+   "url": "https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd",
+   "title": "2TB WD Red Plus Internal NAS HDD 3.5\" | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:03.372Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-internal-drives-wd-red-plus-sata-3-5-hdd.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-product-compare",
+   "url": "https://www.westerndigital.com/products/product-compare",
+   "title": "Compare HDD Products | WD",
+   "type": "unique",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:57.617Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-product-compare.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-product-portfolio",
+   "url": "https://www.westerndigital.com/products/product-portfolio",
+   "title": "Discover a Full Line of Hard Drive Memory Storage Products | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:53.479Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-product-portfolio.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-recertified",
+   "url": "https://www.westerndigital.com/products/recertified",
+   "title": "Recertified: Shop Recertified Digital Storage Drives | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:56.187Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-recertified.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "products-weekly-sale",
+   "url": "https://www.westerndigital.com/products/weekly-sale",
+   "title": "Weekly Storage Deals on HDDs, Gaming & Business Solutions | WD",
+   "type": "listing",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:59.545Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-weekly-sale.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "promo",
+   "url": "https://www.westerndigital.com/promo",
+   "title": "Hard Drive Promotions & Special Programs | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:21.179Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/promo.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "promo-best-sellers",
+   "url": "https://www.westerndigital.com/promo/best-sellers",
+   "title": "Best Selling Western Digital Hard Drives (2026) – Top WD Internal & External Picks | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:20.907Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/promo-best-sellers.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "resources",
+   "url": "https://www.westerndigital.com/resources",
+   "title": "Resources | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:26.158Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/resources.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "resources-white-paper",
+   "url": "https://www.westerndigital.com/resources/white-paper",
+   "title": "White Papers | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:26.496Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/resources-white-paper.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions",
+   "url": "https://www.westerndigital.com/solutions",
+   "title": "Discover How Hard Drives Can Transform Your Data Storage | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:32.609Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-creative-professionals",
+   "url": "https://www.westerndigital.com/solutions/creative-professionals",
+   "title": "Storage for Creatives: Video, Photo & Audio Storage Solutions | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:47.446Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-creative-professionals.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-data-center",
+   "url": "https://www.westerndigital.com/solutions/data-center",
+   "title": "Enterprise Data Center Storage Solutions | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:34.429Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-data-center.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-data-center-storage-platform",
+   "url": "https://www.westerndigital.com/solutions/data-center-storage-platform",
+   "title": "Enterprise Storage Platforms for Data Centers | WD",
+   "type": "form",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:38.604Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-data-center-storage-platform.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-data-center-storage-platform-use-case-ai",
+   "url": "https://www.westerndigital.com/solutions/data-center-storage-platform/use-case-ai",
+   "title": null,
+   "type": "form",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:38.200Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-data-center-storage-platform-use-case-ai.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-gaming",
+   "url": "https://www.westerndigital.com/solutions/gaming",
+   "title": "Gaming Storage Solutions & Systems for PC & Console | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:41.398Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-gaming.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-hdd-vs-ssd",
+   "url": "https://www.westerndigital.com/solutions/hdd-vs-ssd",
+   "title": "HDD vs SSD: Choosing the Right Drive for Your Data | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:44.588Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-hdd-vs-ssd.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-network-attached-storage",
+   "url": "https://www.westerndigital.com/solutions/network-attached-storage",
+   "title": "What is NAS? Network Attached Storage Guide & Devices | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:40.914Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-network-attached-storage.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "solutions-surveillance",
+   "url": "https://www.westerndigital.com/solutions/surveillance",
+   "title": "Video Surveillance Storage & CCTV HDD Solutions | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:54:44.824Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/solutions-surveillance.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "store-business",
+   "url": "https://www.westerndigital.com/store/business",
+   "title": "Page Not Found | WD",
+   "type": "unique",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:26.767Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/store-business.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support",
+   "url": "https://www.westerndigital.com/support",
+   "title": "Western Digital Support | HDD Help, Downloads & Warranty Services | WD",
+   "type": "program",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:08.831Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support-international-phone-numbers",
+   "url": "https://www.westerndigital.com/support/international-phone-numbers",
+   "title": "Contact Customer Support | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:14.820Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-international-phone-numbers.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support-product-security",
+   "url": "https://www.westerndigital.com/support/product-security",
+   "title": "Product Security | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:14.342Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-product-security.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support-returns-replacements",
+   "url": "https://www.westerndigital.com/support/returns-replacements",
+   "title": "Warranty Replacements, Order Cancellations, and Returns | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:09.304Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-returns-replacements.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support-store-warranty-policy",
+   "url": "https://www.westerndigital.com/support/store/warranty-policy",
+   "title": "Warranty | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:14.819Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-store-warranty-policy.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support-support-faq",
+   "url": "https://www.westerndigital.com/support/support-faq",
+   "title": "Support FAQ | WD",
+   "type": "static",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:08.983Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-support-faq.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "tools-raid-capacity-calculator",
+   "url": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "title": "RAID Calculator - Usable Storage Capacity by RAID Level | WD",
+   "type": "unique",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:20.699Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/tools-raid-capacity-calculator.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "tools-surveillance-capacity-calculator",
+   "url": "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
+   "title": "Surveillance Hard Drive Storage Calculator | WD",
+   "type": "unique",
+   "status": "extracted",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:55:20.002Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/tools-surveillance-capacity-calculator.json",
+   "prototypePath": null,
+   "migratedPath": null
+  }
+ ]
 }
