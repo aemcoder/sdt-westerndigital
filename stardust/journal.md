@@ -44,3 +44,31 @@ file of general stardust improvements.
 **Next:** Phase 3 — author the three prototypes (shared canon + per-archetype CSS) from the dumps/lifts, then the source-fidelity gate at 1440 and 360.
 
 ---
+## 2026-09-18T10:40:00Z — Phase 3–4: three archetypes recreated and gated at 1440 and 360
+
+**Prompt:** (continuation of the same run) recreate the archetypes, run the source-fidelity gate, then deploy.
+
+**Decisions:**
+- Content root `.mainContainWrap` on both sides; prototypes built from `src/` + shared chrome partials by `stardust/.work/proto/build.mjs` (cumulative canon: `canon.css` + `canon.js` + per-archetype CSS).
+- Hero at rest on slide 2 with the live `.darken-left` scrim: the live capture's autoplay state; Splide clones mirrored (8 `li`) so content-diff pairs every CTA.
+- Chrome scroll state cloned from measurement: `body.minHeader` (scrollY>0 → header `top:-40px`) on pages without a sub-nav; program pages never pin the header and their sub-nav gains `sticky-stuck` (fixed, items flush-left at x=80).
+- Fluid container model encoded: `.contain` 100% / 992 / 1140 / 1464 steps; the 1920 box check matched live exactly (doc 6396).
+- AEM richtext bytes are load-bearing: 16 `&nbsp;` entities incl. a trailing one changed a wrap; mirrored verbatim. Footer margins mirror AEM's floated-grid BFCs (`display: flow-root` wrappers).
+- Motion: only measured behaviors implemented (minHeader, sticky-stuck, hero progress-item state machine + 5s autoplay, draggable rails); measured-dead hovers left out.
+- Corporate 1440 ran 5 iterations (documented over-cap): one no-op re-verify and two rounds fixing content-fidelity defects the gate exposed (400-char dump truncation).
+
+**Artifacts touched:**
+- `stardust/prototypes/{canon.css,canon.js,home.css,press-release.css,corporate-responsibility.css,partials/,src/,*-proposed.html}` — created
+- `stardust/replica/{progress.json,gates/*,motion/*.json,lift/,dump/,outline/}` — created
+- `stardust/scripts/replica/{css-lift,section-dump,dump-outline,chrome-scroll-probe}.mjs` — project instruments
+- `stardust/eds-schema/*.json` — created; `stardust/state.json` (3 pages approved, hands-off) — updated
+
+**Findings worth flagging:**
+- Live header is `position: sticky; top: auto` on program pages (inert stickiness) — a probe of computed `top`, not `position`, is what reveals chrome behavior.
+- The capture-time `inert` attribute on the header (consent focus trap) and the baked-in banner confirm the crawler's consent dismissal did not take effect.
+
+**Open questions:** none blocking; owner decisions listed in `stardust/dynamic-features.md § Decision batch`.
+
+**Next:** Phase 5 — deploy the three archetypes to EDS (blocks, nav/footer docs, DA upload, published-origin gate).
+
+---

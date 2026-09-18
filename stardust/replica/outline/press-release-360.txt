@@ -1,0 +1,54 @@
+# https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure @360 docH=5002 part=main
+div.aem-Grid.aem-Grid--12.aem-Grid--default--12 «mainContainWrap» [0 91 360 2735]
+  section.bg-color.relative.section.py-0 «section aem-GridColumn aem-GridColumn--default--12» [0 91 360 397] {pos=relative}
+    div.relative.container.contain.mx-auto [0 91 360 397] {pos=relative pad=0px 16px}
+      section.bg-color.relative.section.py-6 «section» [16 91 328 397] {bg=rgb(0, 0, 0) pos=relative pad=24px}
+        div.aem-section-bgimage.section-734705361827.section-bg.absolute [16 91 328 397] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/press-release/press-release-hero-banner.jpg.wdthumb.840.840.webp") / contain 0% 50% pos=absolute}
+        div.relative [40 115 280 349] {pos=relative}
+          div.text-white.preheading «bread-crumbs» [40 115 280 14] {mar=0px 0px 12px}
+            a.text-xs.sm:text-base.font-light «component-breadcrumb» [40 114 93 16] href=/company/newsroom/press-releases f[Roboto 14px/14px 300 rgb(255, 255, 255)] "Press Releases"
+          div.textcolumn «text» [40 141 280 227]
+            h1.h2-hero [40 141 280 211] {mar=0px 0px 16px} f[Roboto 32px/35.2px 500 rgb(255, 255, 255)] "As AI Data Surges, WD Outlines a New Path to Economically Scalable Storage Infrastructure"
+          p «text>textcolumn» [40 368 280 96] f[Roboto 16px/24px 400 rgb(255, 255, 255)] "At AI Infrastructure Summit, WD will highlight how AI-driven data growth is reshaping infrastructure requirements at scale"
+  section.bg-color.relative.section.md:py-8 «section aem-GridColumn aem-GridColumn--default--12» [0 488 360 2338] {pos=relative pad=24px 0px}
+    div.relative.container.contain.mx-auto [0 512 360 2274] {pos=relative pad=0px 16px}
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 512 328 2274]
+        div.md:cols-9.md:pl-0.md:pr-32.free-text [16 512 328 2140]
+          div.press-release-header.heading5 «announcement>press-release-template capitalize» [16 512 328 44] {mar=0px 0px 16px}
+            span.press-release-location [16 511 204 24] f[Roboto 20px/22px 500 capitalize rgb(0, 0, 0)] "SANTA CLARA, Calif. -"
+            span.press-release-formateddate [16 511 302 46] f[Roboto 20px/22px 500 capitalize rgb(0, 0, 0)] "September 15, 2026"
+          div.textcolumn «text» [16 572 328 2080]
+            p [16 572 328 192] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "As AI moves from experimentation to deployment, organizations are confronting a new infrastructure reality: while compute cycles are temporary, the data AI creates continues to accumulate. As that data compounds, the ability to store, manage and access it economically is becoming a critical consideration for long-term AI success."
+            p [16 784 328 168] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "At AI Infrastructure Summit, September 15-17 in Santa Clara, Calif., Tim Rausch, SVP of HDD Development at WD, will discuss how AI is reshaping infrastructure requirements and why economically scalable capacity is emerging as a foundational element of the AI era." inner(a)
+            p [16 972 328 96] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "The session builds on findings from the recently released IDC white paper, sponsored by WD, Built for Scale: The Enduring Role of HDDs in the AI Era, which found that:" inner(a)
+            ul [16 1088 328 208] {pad=0px 0px 0px 16px mar=20px 0px}
+              li [32 1088 312 72] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1088 312 72] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "61% of surveyed organizations experienced data growth of 25% or more over the past year due to AI"
+              li [32 1180 312 48] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1180 312 48] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "74% expect data volumes to grow 25% or more over the next three years"
+              li [32 1248 312 48] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1248 312 48] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "85.4% reported growth in data lake volumes over the past 12 months"
+            p [16 1316 328 240] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "During the keynote, Rausch will share WD’s vision for helping customers manage AI’s growing data footprint while balancing capacity, performance, power efficiency and economics at scale. He will also discuss innovations designed to support the next generation of AI infrastructure as organizations seek to retain more data, derive more value from it and scale AI with confidence."
+            ul [16 1576 328 204] {pad=0px 0px 0px 16px mar=20px 0px}
+              li [32 1576 312 24] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1576 312 24] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WHAT: Reinventing Storage for AI at Scale" inner(b)
+              li [32 1620 312 48] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1620 312 48] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WHO: Tim Rausch, SVP, HDD Development, WD" inner(b)
+              li [32 1688 312 24] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1688 312 24] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WHEN: Sept. 16, 2026 | 3:50pm" inner(b)
+              li [32 1732 312 48] {disp=list-item mar=0px 0px 12px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                p [32 1732 312 48] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WHERE: AI Infrastructure Summit | Santa Clara, Calif. | Main Stage" inner(b)
+            p [16 1800 328 168] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "In addition to the keynote, WD will showcase its enterprise storage portfolio in booth # 605. The demos will highlight how WD is helping hyperscalers, CSPs, neo clouds and data center customers achieve the capacity, efficiency, and economics required for AI infrastructure at scale."
+            p [16 1988 328 96] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Source: IDC White Paper, Sponsored by Western Digital Corporation, Built for Scale: The Enduring Role of HDDs in the AI Era, Doc. #US54789026, September 2026." inner(b i)
+            p [16 2104 328 312] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WD, also known as Western Digital, builds the storage infrastructure that powers certainty in the AI-driven data economy. At the forefront of innovation, WD partners with the world's leading hyperscal"
+              b [16 2106 72 19]
+              a [16 2394 96 19] {pos=relative} href=http://www.wd.com/ f[Roboto 16px/16px 400 underline rgb(0, 116, 243)] "www.wd.com"
+            p [16 2436 328 216] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "© Western Digital Corporation or its affiliates. All rights reserved. WD, the WD Design, and Western Digital are registered trademarks or trademarks of Western Digital Corporation or its affiliates in the U.S. and/or other countries. World’s Most Ethical Companies and “Ethisphere” names and marks are registered trademarks of Ethisphere LLC. All other marks are the property of their respective owne"
+        div.md:cols-3.self-start.md:px-0.mt-12 [16 2700 328 86] {pos=sticky mar=48px 0px 0px}
+          section.bg-color.relative.section.py-0 «reference>cq-dd-paragraph>main-par parsys>section» [16 2700 328 86] {pos=relative}
+            div.relative [16 2700 328 86] {pos=relative}
+              h2.heading5 «title>div» [16 2700 328 22] {mar=0px 0px 16px} f[Roboto 20px/22px 500 rgb(0, 0, 0)] "Press Contacts"
+              div.mb-4.textcolumn «text» [16 2738 328 48] {mar=0px 0px 16px}
+                p.mb-0.font-medium [16 2738 328 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "Corporate Media Inquiries"
+                p [16 2762 328 24] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WD.Mediainquiries@wdc.com" inner(a.mt-2)
+# fixed/sticky: [{"t":"header","c":"header relative w-full","pos":"sticky","r":[0,0,360,91],"z":"11"},{"t":"div","c":"md:cols-3 self-start md:px-0 mt-12 md:mt-0 sticky self-start pin-t-150 aside-scr","pos":"sticky","r":[16,2700,328,86],"z":"auto"},{"t":"iframe","c":"","pos":"fixed","r":[275,815,65,65],"z":"99999999"}]

@@ -1,0 +1,18 @@
+# https://www.westerndigital.com/ @360 docH=8182 part=header
+header.header.relative.w-full [0 0 360 91] {bg=rgb(255, 255, 255) pos=sticky}
+  div.cmp-container#sdi-c0f04b46c1 «xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>sdi container responsivegrid aem-GridColumn aem-GridColumn--default--12» [0 0 360 91]
+    div.headerContainer.border-grey-light.border-b «header-container>container wd-header-2-5 header-main» [0 0 360 91] {border=0px/1px solid rgb(230, 230, 230)}
+      section.relative.section.header-2-5.header-promo-bar [0 0 360 40] {bg=rgb(43, 43, 43) pos=relative}
+        div.container.contain.relative.mx-auto [0 0 360 40] {pos=relative pad=0px 16px}
+          section.splide.promo-carousel-2-5.show-for-b2c.splide--fade#splide05 «row grid-12 xs:grid-12 sm:grid-12 md:grid-12 lg:grid-12 xl:grid-12 flex-wrap md:flex>cols-12 md:cols-10>div>promo-carousel» [16 0 328 40] {pos=relative}
+            div.splide__track.splide__track--fade.splide__track--ltr.splide__track--draggable#splide05-track «splide__slider» [16 0 328 40] {pos=relative ovf=hidden}
+              ul.splide__list#splide05-list [16 0 328 40]
+                li.px-1.md:px-0.md:py-3.leading-none#splide05-slide01 [16 0 328 40] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:center ai:center gap:normal ta=center} f[Roboto 16px/16px 400 rgb(255, 255, 255)]
+                  div.aem-Grid.aem-Grid--12.aem-Grid--default--12 [16 -1 328 42] {ta=center}
+                    div.text.aem-GridColumn.aem-GridColumn--default--12 [16 -1 328 42] {ta=center}
+                      div.textcolumn [16 -1 328 42] {ta=center}
+                        p.text-xs [16 -1 328 42] {ta=center} f[Roboto 14px/21px 400 rgb(255, 255, 255)] "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More" inner(a.underline)
+      section.bg-color.relative.section.py-0 [0 40 360 50] {pos=relative}
+        div.relative.container.contain.mx-auto [0 40 360 50] {pos=relative pad=0px 16px}
+          div.row.grid-12.xs:grid-12.sm:grid-12 [16 40 328 50] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+            div.cols-12.md:cols-3.lg:cols-1.flex [16 40 328 50] {disp=flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal}

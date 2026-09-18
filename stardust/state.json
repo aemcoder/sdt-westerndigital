@@ -1,7 +1,7 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:replica (extract --prep --dynamics phase)",
-    "writtenAt": "2026-09-18T06:57:43.567Z",
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-09-18T08:45:52.866Z",
     "stardustVersion": "0.22.1"
   },
   "site": {
@@ -14,7 +14,13 @@
     "sitemap": "https://www.westerndigital.com/sitemap.xml (gzip body)",
     "rosterFile": "stardust/.work/extract/roster.txt"
   },
-  "direction": null,
+  "direction": {
+    "resolvedAt": "2026-09-18T07:05:00Z",
+    "phrase": "same-design replica (preserve mode)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "preserve"
+  },
   "handsOff": true,
   "pages": [
     {
@@ -22,18 +28,34 @@
       "url": "https://www.westerndigital.com/",
       "title": "High-Capacity HDDs for PCs, NAS, Gaming, Data Centers, and AI Data Cycles | WD",
       "type": "landing",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-18T06:52:32.292Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T07:05:00Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T08:45:52.866Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T08:45:52.866Z",
+          "approvedBy": "hands-off",
+          "gate": "stardust/replica/progress.json"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/home-proposed.html",
+      "migratedPath": null,
+      "archetype": "home",
+      "fidelityTier": "archetype"
     },
     {
       "slug": "brand-g-drive",
@@ -256,18 +278,34 @@
       "url": "https://www.westerndigital.com/company/corporate-responsibility",
       "title": "Corporate Responsibility | WD",
       "type": "program",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-18T06:52:39.234Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T07:05:00Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T08:45:52.866Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T08:45:52.866Z",
+          "approvedBy": "hands-off",
+          "gate": "stardust/replica/progress.json"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/company-corporate-responsibility.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/corporate-responsibility-proposed.html",
+      "migratedPath": null,
+      "archetype": "corporate-responsibility",
+      "fidelityTier": "archetype"
     },
     {
       "slug": "company-corporate-responsibility-environment",
@@ -922,18 +960,34 @@
       "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
       "title": "As AI Data Surges, WD Outlines a New Path to Economically Scalable Storage Infrastructure | WD",
       "type": "article",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-18T06:53:14.390Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T07:05:00Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T08:45:52.866Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T08:45:52.866Z",
+          "approvedBy": "hands-off",
+          "gate": "stardust/replica/progress.json"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/press-release-proposed.html",
+      "migratedPath": null,
+      "archetype": "press-release",
+      "fidelityTier": "archetype"
     },
     {
       "slug": "company-office-locations",

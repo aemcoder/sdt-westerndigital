@@ -1,3 +1,8 @@
 {"ts":"2026-09-18T06:52:23Z","skill":"stardust:replica","phase":"1-extract","event":"start","detail":"extract --prep --dynamics, roster 106 pages (hands-off caps 100/20)"}
 {"ts":"2026-09-18T07:05:11Z","skill":"stardust:replica","phase":"1-extract","event":"end","detail":"106/107 live (1 guessed PDP 404); types landing 1 · article 23 · program 47 · listing 13 · static 14 · form 4 · unique 4; PRODUCT/DESIGN authored; brand-review rendered","artifact":"stardust/current/"}
 {"ts":"2026-09-18T07:05:11Z","skill":"stardust:replica","phase":"2-preserve-direction","event":"start"}
+{"ts":"2026-09-18T07:15:00Z","skill":"stardust:replica","phase":"2-preserve-direction","event":"end","detail":"verbatim promotion; register empty; dynamics 23 rows","artifact":"stardust/direction.md"}
+{"ts":"2026-09-18T07:20:00Z","skill":"stardust:replica","phase":"3-recreate","event":"start","detail":"3 archetypes: home, press-release, corporate-responsibility"}
+{"ts":"2026-09-18T09:20:00Z","skill":"stardust:replica","phase":"3-recreate","event":"end","artifact":"stardust/prototypes/"}
+{"ts":"2026-09-18T09:20:00Z","skill":"stardust:replica","phase":"4-source-fidelity-gate","event":"start"}
+{"ts":"2026-09-18T08:45:52.866Z","skill":"stardust:replica","phase":"4-source-fidelity-gate","event":"end","detail":"1440: 0.60/0.32/0.29% Δ0/0/-1 · 360: 1.47/1.15/1.12% Δ0/-1/-1 · 0 structural red · chrome crops ≤1.8% · 1920 box check equal","artifact":"stardust/replica/progress.json"}

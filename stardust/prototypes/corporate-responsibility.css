@@ -1,0 +1,57 @@
+/* corporate-responsibility archetype (program template) — values lifted from stardust/replica/dump/corporate-responsibility-1440.json */
+.cr-hero { height: 400px; background-position: 100% 50%; }
+.cr-hero-media { display: none; }
+.cr-hero-row { display: flex; flex-wrap: wrap; padding: 48px 0; }
+.cr-hero-copy { width: 50%; padding-right: 8px; }
+.cr-hero-copy h1 { font-size: 36px; line-height: 39.6px; font-weight: 500; margin-bottom: 16px; word-break: break-word; }
+.cr-hero-copy p { font-size: 18px; line-height: 27px; }
+
+.cr-bands { padding-bottom: 64px; }
+.band { display: flex; flex-wrap: wrap; min-height: 500px; }
+.band > section { width: 50%; }
+.band-media { background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; }
+.band-media.pos-right { background-position: 100% 50%; }
+.band-reverse .band-media { order: 2; }
+.band-reverse .band-text { order: 1; }
+.band-text { display: flex; align-items: center; padding: 48px; }
+.band-top .band-text { align-items: flex-start; }
+.band-body { width: 100%; }
+.band .eyebrow { padding-bottom: 8px; }
+.band .eyebrow p { font-size: 16px; line-height: 24px; font-weight: 500; }
+.band h3 { font-size: 32px; line-height: 35.2px; font-weight: 500; margin-bottom: 8px; }
+.band p { font-size: 16px; line-height: 24px; }
+.band .textcolumn p { margin-bottom: 20px; }
+.band .textcolumn p:last-child { margin-bottom: 0; }
+.band .textcolumn ul { list-style: disc; padding-left: 40px; }
+.band .button-wrap .btn { margin-top: 24px; }
+.band .download-link { display: inline-flex; align-items: center; margin-top: 24px; font-size: 16px; line-height: 16px; text-decoration: underline; color: var(--color-black); }
+.band .download-link svg { display: block; width: 24px; height: 24px; margin-right: -4px; fill: currentColor; }
+.band .download-link span { margin-left: 8px; }
+
+.cr-cta { padding: 48px 0; color: var(--color-white); }
+.cr-cta-copy { max-width: 900px; margin: 0 auto; }
+.cr-cta-copy h3 { font-size: 28px; line-height: 30.8px; font-weight: 500; margin-bottom: 8px; }
+.cr-cta-copy p { font-size: 18px; line-height: 27px; font-weight: 400; margin-bottom: 4px; }
+.cr-cta .button-wrap .btn { margin-top: 32px; }
+
+@media (max-width: 767px) {
+  .cr-hero { height: auto; background-image: none !important; }
+  .cr-hero-media { display: block; height: 225px; background: url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/corp-sus-banner.jpg.wdthumb.840.840.webp") 100% 50% / cover no-repeat; }
+  .cr-hero-row { padding: 32px 0; }
+  .cr-hero-copy { width: 100%; }
+  .cr-hero-copy h1 { font-size: 32px; line-height: 35.2px; }
+  .cr-bands { padding-bottom: 48px; }
+  .band { min-height: 0; }
+  .band > section { width: 100%; }
+  .band-media { height: 300px; order: 0 !important; }
+  .band-reverse .band-text { order: 1; }
+  .band.band-philanthropy .band-media { height: 325px; }
+  .band-text { padding: 24px; }
+  .band h3 { font-size: 26px; line-height: 28.6px; }
+  .band .button-wrap .btn { margin-top: 16px; }
+  .band .download-link { font-size: 14px; line-height: 14px; }
+  .band .download-link svg { width: 17px; }
+  .cr-cta { padding: 32px 0; }
+  .cr-cta-copy h3 { font-size: 24px; line-height: 26.4px; }
+  .cr-cta .button-wrap .btn { margin-top: 16px; }
+}

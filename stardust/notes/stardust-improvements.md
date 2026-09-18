@@ -93,3 +93,31 @@ the order they were discovered.
   which worked (config.json showed the da.live content source).
 - **Suggested change:** note in the skill that the file is only the bootstrap signal and may be deleted
   after the config entry exists, so future agents don't "fix" it away.
+
+## N-10 — artifact-map/gitignore: rendered-DOM sidecars balloon the repo
+
+- **What happened:** `crawl.mjs` saves `pages/<slug>.html` (settled DOM) next to every JSON; on an
+  AEM-classic + SFCC site each is ~1.2 MB, so 106 pages = ~127 MB of text that
+  `reference/stardust.gitignore` does not exclude. The first phase commit would have added 1.3 M lines.
+- **Suggested change:** add `current/pages/*.html` to the gitignore template (they are regenerable
+  captures like screenshots) or have the crawler write them gzipped.
+
+## N-11 — replica: section-dump truncates text at 400 chars, and a truncated string is indistinguishable from a full one
+
+- **What happened:** the authoring map (my `section-dump.mjs`, but the same holds for `pages/<slug>.json` body fields) cut a 600-char paragraph at 400 chars; the prototype shipped an invented ending and the pixel gate caught it as a one-line wrap difference two rounds later.
+- **Suggested change:** any capture field that truncates must carry an explicit `…[truncated N]` marker, and the recreation procedure should say: long text is copied from the rendered-DOM sidecar (`pages/<slug>.html`) raw innerHTML, never from a JSON/dump summary — including `&nbsp;` entities (recreation-procedure § Granularity parity already says the bytes are load-bearing).
+
+## N-12 — replica: a live capture of an autoplaying hero is nondeterministic; the doc should name the policy explicitly
+
+- **What happened:** stitch-shot's live capture rested on slide 2 (autoplay advanced during the 3 s wait + settle); the dump/crawl showed slide 1. The prototype now rests on slide 2 to match. A future capture may show slide 3.
+- **Suggested change:** stitch-shot could record `t0State` (active slide index per carousel) in a sidecar so the gate can assert the prototype matches THAT capture, or offer `--freeze-carousels` that forces index 0 before capture on both sides.
+
+## N-13 — chrome-parity: scroll-state chrome needs a measured timeline before the first pixel round
+
+- **What happened:** the live header's scroll behavior differs per template (home/PR: `body.minHeader` → sticky `top:-40px`; program: header `top:auto` never pins, sub-nav `sticky-stuck` fixed). motion-observe's `headerTimeline` samples at 1200px steps and reports `height`/`transform` — both unchanged here — so it missed the morph; a small probe of computed `top` and the sub-nav position at fine steps (0/50/100/150/…) found it in one hit.
+- **Suggested change:** add computed `top`, body class list and any `position:fixed/sticky` element under `main` to `headerTimeline`, with dense sampling in 0–200px.
+
+## N-14 — content-inventory: inline `<style>` text and hidden commerce strings dominate the 🟡 list
+
+- **What happened:** ~70 of 77 home findings were `<style>` blocks (AEM per-section background CSS) and hidden compare-tray/quick-view strings classified as body text on the live side.
+- **Suggested change:** exclude `style`/`script`/`template` text from the inventory (D15 already forbids it in the build), and label hidden-DOM findings separately so the reviewer sees "hidden parity" vs "visible copy" at a glance.

@@ -1,0 +1,682 @@
+{
+ "source": "http://localhost:8791/corporate-responsibility-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "promo-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "WD Named to 2026 S&P Dow Jones Best in Class Index North America."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "|"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Shop",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "WD for Business",
+     "href": "/business"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "nav-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Solutions"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Support"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Company"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "mainContainWrap",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Overview",
+     "href": "/company/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "People",
+     "href": "/company/corporate-responsibility/people"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Supply Chain",
+     "href": "/company/corporate-responsibility/supply-chain"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Ethics",
+     "href": "/company/corporate-responsibility/ethics"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Philanthropy",
+     "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Privacy",
+     "href": "/privacy-center"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Corporate Responsibility at WD"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "We wholeheartedly commit to positive corporate citizenship in all aspects of our business. We are WD and we care."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Home",
+     "href": "/en-us"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Company",
+     "href": "/company"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Corporate Responsibility"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "SUSTAINABILITY COMMITMENT"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Strengthening Our Goals for a More Sustainable Future"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "WD is a leader in sustainable, scalable data storage for the AI infrastructure. Our sustainability commitments have a major impact on operations, product development, and supply chain management, as well as on our global environmental footprint. Continuing our focus on emissions, we remain committed to running our operations on 100% carbon-free energy by FY2030 and achieving net zero emissions in our operations (Scopes 1 and 2) by FY2032. We are also committing to diverting 95% of our operational waste from landfills and to reducing water withdrawals by 20% (vs FY2022), both by FY2030. Check out our progress on page 18 of the FY2025 Annual Sustainability Report."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "We continue to drive sustainability in our indirect supply chain (Scope 3). We have set goals for a 20% direct materials emissions reduction by FY2030 (vs FY2024) and 50% emissions reduction during the use phase of HDDs (per petabyte) by FY2030. For our enterprise HDDs, we have committed to using 43% recycled content in products and 72% recycled content in packaging by 2030."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "We thank you for your continued support as we work to build a better future."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn More",
+     "href": "/company/sustainability"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "INNOVATION FOR THE FUTURE"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Fiscal Year 2025 Annual Sustainability Report"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "WD is committed to protecting and supporting our people, our environment, and our communities. That commitment is reflected in our FY2025 report where we share our data-driven strategy and detail our significant achievements over the past fiscal year across environmental stewardship, stakeholder empowerment, and responsible business practices."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Notable highlights include:"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "We spearheaded the Advanced Recovery and Rare Earth Material Capture program."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "We engaged 100% of targeted suppliers on priority sustainability issues including decarbonization, human rights, and responsible minerals."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "We implemented an artificial intelligence policy to help our teams build skills to leverage AI tools and streamline workflows, boosting productivity."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Read the FY2025 Annual Sustainability Report to learn more",
+     "href": "https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/collateral/cert/western-digital-FY2025-sustainability-report.pdf"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "ENVIRONMENT"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Environmental sustainability is critical to our long-term success, both as a company and as a species."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "We actively monitor and minimize our environmental impacts so we can protect the world in which we all live."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Learn More",
+     "href": "/company/sustainability"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "PEOPLE"
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "People are the lifeblood of our company."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "From human rights to health and safety to supply chain management, we listen to the people around us and strive to improve lives and livelihoods."
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Learn More",
+     "href": "/company/corporate-responsibility/people"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "SUPPLY CHAIN"
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "As a global leader in manufacturing, our supply chain is both significant and substantial."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "We work closely with our suppliers to help them follow the same high standards we have for our own operations."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Learn More",
+     "href": "/company/corporate-responsibility/supply-chain"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "ETHICS"
+    },
+    {
+     "role": "heading",
+     "order": 38,
+     "text": "Doing business the right way is deeply ingrained in our culture."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "We foster an environment of ethical behavior through policies and practices that has led to public recognition for our strong commitment to integrity."
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Learn More",
+     "href": "/company/corporate-responsibility/ethics"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "PHILANTHROPY"
+    },
+    {
+     "role": "heading",
+     "order": 42,
+     "text": "Our philanthropic programs aim to make a significant impact."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "At WD, we care! Giving back and responding to the needs of our communities is a priority of the company and we believe that more can be achieved when we do it together!"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Learn More",
+     "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "PRIVACY"
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "Maintaining the integrity of our privacy and security practices is essential to our commitment to users."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "We provide products and services that store and transfer data with the understanding that protecting data is critical to our users."
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Learn More",
+     "href": "/privacy-center"
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Reports and Resources"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "View our Corporate Responsibility documents, including our annual sustainability reports, to learn more about our environmental, social, and governance policies, initiatives, and certifications."
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Visit Resource Center",
+     "href": "/company/corporate-responsibility/resource-center"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 32,
+   "repeats": [
+    {
+     "unitSelector": "DIV.contain",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 6,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.band",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer-main",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Country/Region:"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "United States",
+     "href": "/region-selector"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "My Account",
+     "href": "/store/my-account"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Sign Up for Email",
+     "href": "/company/programs/communications-registration"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Discounts & Promotions",
+     "href": "/promo"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Product Portfolio",
+     "href": "/products/product-portfolio"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Warranty Policy",
+     "href": "/support/store/warranty-policy"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Return Policy",
+     "href": "/support/store/return-policy"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Distributors & Resellers",
+     "href": "/company/distributors"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Shopping FAQ",
+     "href": "/support/store/shopping-faq"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Programs"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Business Account Benefits",
+     "href": "/business/account-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Data Recovery",
+     "href": "/company/programs/data-recovery"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Recycle Program",
+     "href": "/company/programs/easy-recycle"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "WD Credit",
+     "href": "/business/line-of-credit"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Pro Rewards",
+     "href": "/business/pro-rewards"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Partner Programs",
+     "href": "/company/partners"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Philanthropic Programs",
+     "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Western Digital Capital",
+     "href": "/company/western-digital-capital"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "About Us",
+     "href": "/company"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "News & Events",
+     "href": "/company/newsroom"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Leadership",
+     "href": "/company/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Corporate Responsibility",
+     "href": "/company/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Privacy Center",
+     "href": "/privacy-center"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Blog",
+     "href": "https://blog.westerndigital.com/"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Careers",
+     "href": "/careers"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Investors",
+     "href": "https://investor.wdc.com/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Office Locations",
+     "href": "/company/office-locations"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Contact Us",
+     "href": "/company/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Support"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Get Help",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Resource Library",
+     "href": "/support/store/resource-library"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Product Security",
+     "href": "/support/product-security"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.footer-col",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 8,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer-legal",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Privacy",
+     "href": "/legal/privacy-statement"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Legal",
+     "href": "/legal"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Trademarks",
+     "href": "/legal/trademarks"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Terms of Sale",
+     "href": "/legal/terms-and-conditions-of-sale-consumer"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Product Compliance",
+     "href": "/company/sustainability/product-compliance"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Cookie Preferences",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "© 2026 Western Digital Corporation or its affiliates. All rights reserved."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}
