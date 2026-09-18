@@ -104,3 +104,5 @@ main .photo-hero-container.contained-hero > div { max-width: var(--maxw); margin
 }
 
 @media (width < 768px) { .photo-hero .lede .actions { gap: 16px; } }
+
+@media (width < 768px) { .photo-hero.cta-pair .lede .actions { flex-wrap: nowrap; gap: 8px; } .photo-hero.cta-pair .lede .actions a.button:any-link { padding: 16px 12px; font-size: 14px; line-height: 14px; white-space: normal; } }

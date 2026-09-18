@@ -264,3 +264,14 @@ main .section.lede-600:is(.card-grid-container) .default-content-wrapper p:not(.
 @media (width < 768px) { .card-grid.media.img-225 .cg-media img { height: 225px; aspect-ratio: auto; } }
 
 .card-grid.compact .cg-body { padding: 16px; }
+
+@media (width >= 768px) {
+  .card-grid.media .cg-grid, .card-grid.product-feature .cg-grid { margin-bottom: 0; }
+  .card-grid.compact .cg-cell { width: 253px; }
+}
+@media (width < 768px) {
+  .card-grid.media .cg-body { padding: 24px; }
+  .card-grid.media .cg-body p.cg-cta { margin-top: 24px; line-height: 14px; }
+  .card-grid.compact .cg-cell { max-width: 253px; }
+  .card-grid.compact .cg-body { padding: 16px; }
+}
