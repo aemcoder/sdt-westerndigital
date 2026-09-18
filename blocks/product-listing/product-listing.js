@@ -85,7 +85,8 @@ function urlFor({ filters, page, sort }, alwaysPage = false) {
   filters.forEach(([f, v]) => q.append(`filterBy${f.charAt(0).toUpperCase()}${f.slice(1)}`, v));
   if (page > 1 || alwaysPage) q.set('page', String(page));
   if (sort) q.set('sort', sort);
-  const s = q.toString().replace(/%20/g, '+');
+  // the storefront keeps these characters literal in its filter URLs (e.g. Color `Purple|800080`, Price `$50-$199.99`, `(NAS)`, `12Gb/s`)
+  const s = q.toString().replace(/%20/g, '+').replace(/%7C/gi, '|').replace(/%24/g, '$').replace(/%2C/gi, ',').replace(/%28/g, '(').replace(/%29/g, ')').replace(/%2F/gi, '/');
   return `${window.location.pathname}${s ? `?${s}` : ''}`;
 }
 
@@ -182,7 +183,7 @@ export default function decorate(block) {
         const token = (() => { const q = v.query?.query?.value || ''; const i = q.indexOf(`:${f.code}:`); return i >= 0 ? decodeURIComponent(q.slice(i + f.code.length + 2).split(':')[0].replace(/\+/g, ' ')) : v.name; })();
         const li = el('li'); const a = el('a'); const active = state.filters.some(([c, val]) => c === f.code && val === token);
         const nextFilters = active ? state.filters.filter(([c, val]) => !(c === f.code && val === token)) : [...state.filters, [f.code, token]];
-        a.href = urlFor({ ...state, filters: nextFilters, page: 1 }); a.textContent = `${v.name} (${v.count})`; if (active) a.classList.add('is-active');
+        a.href = urlFor({ ...state, filters: nextFilters, page: 1 }); a.textContent = `${v.name.split('|')[0]} (${v.count})`; // Color values arrive as `Name|hex`; the live rail shows the name if (active) a.classList.add('is-active');
         a.addEventListener('click', (e) => { e.preventDefault(); navigate({ filters: nextFilters, page: 1 }); });
         li.append(a); ul.append(li);
       });
