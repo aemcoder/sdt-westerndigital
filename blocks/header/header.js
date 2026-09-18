@@ -7,7 +7,9 @@ import { loadFragment } from '../fragment/fragment.js';
  * /nav sections (fixed contract):
  *   1. promo bar: <p>promo sentence <a>Learn More</a></p> <p><a>Shop</a> | <a>WD for Business</a></p>
  *   2. brand: <p><a href="/"><picture>logo</picture></a></p>
- *   3. nav: <ul><li>Products<ul><li><strong>Column title</strong><ul><li><a>link</a></li>…</ul></li>…</ul></li>…</ul>
+ *   3. nav: <ul><li>Products<ul><li><strong>Column title</strong><ul>links</ul>[<ul>second list → wide 5/12 column</ul>]</li>
+ *            <li><strong>Text column title</strong><p>copy</p><p><strong|em><a>button</a></strong|em></p></li>…</ul>
+ *            <p>band copy (<strong>lead</strong>)</p><p><em><a>outlined</a></em> <strong><a>filled</a></strong></p></li>…</ul>
  *   4. tools: <ul><li><a href="…">Sign in</a></li><li><a>Cart</a></li><li><a>Search</a></li></ul>
  *
  * Measured live behaviour (stardust/replica/motion/home.json, chrome-scroll-probe): body.minHeader once
@@ -120,21 +122,78 @@ export default async function decorate(block) {
         label.className = 'nav-drop-label';
         // the label is the li's own text node(s); the publish pipeline wraps that text in a <p> when the li
         // also holds a nested <ul> (published-origin regime, not seen in the harness) — move the nodes either way
-        [...li.childNodes].forEach((n) => {
+        for (const n of [...li.childNodes]) {
+          if (n.nodeType === 1 && n.tagName === 'UL') break; // everything after the columns list is the band
           if (n.nodeType === 3) label.append(n);
           else if (n.nodeType === 1 && n.tagName === 'P') { label.append(...n.childNodes); n.remove(); }
-        });
+        }
         li.prepend(label);
         if (sub) {
           li.classList.add('nav-drop');
           li.setAttribute('aria-expanded', 'false');
           li.tabIndex = 0;
+          // panel = full-width flyout (measured live: absolute under the 56px row, white, 1px #e6e6e6 bottom rule):
+          // .contain > ul.nav-mega (columns row) + optional .nav-band from the li's trailing <p>s
+          const panel = document.createElement('div');
+          panel.className = 'nav-panel';
+          const wrap = document.createElement('div');
+          wrap.className = 'contain';
           sub.classList.add('nav-mega');
           sub.querySelectorAll(':scope > li').forEach((col) => {
             col.classList.add('nav-col');
-            // column title: authored <strong>; the pipeline delivers it as <p><strong> — unwrap the <p> (nodes move, EW1)
-            col.querySelectorAll(':scope > p').forEach((pEl) => pEl.replaceWith(...pEl.childNodes));
+            col.querySelectorAll(':scope > p').forEach((pEl) => { if (pEl.querySelector('strong') && pEl.textContent.trim() === pEl.querySelector('strong').textContent.trim() && !pEl.querySelector('a')) pEl.replaceWith(...pEl.childNodes); });
+            const lists = [...col.querySelectorAll(':scope > ul')];
+            if (lists.length > 1) {
+              // live: 5/12 column with the links split across two lists
+              col.classList.add('wide');
+              const group = document.createElement('div');
+              group.className = 'nav-col-lists';
+              lists[0].before(group);
+              lists.forEach((l) => group.append(l));
+            } else if (!lists.length) {
+              // live: text column ("Need help from an expert?") — title, copy, one button
+              col.classList.add('wide', 'text-col');
+            }
+            col.querySelectorAll(':scope > p > :is(em, strong) > a').forEach((a) => {
+              a.classList.add('button', a.parentElement.tagName === 'STRONG' ? 'primary' : 'secondary');
+              a.parentElement.replaceWith(a);
+              a.parentElement.classList.add('button-wrapper');
+            });
           });
+          wrap.append(sub);
+          panel.append(wrap);
+          const bandPs = [...li.children].filter((c) => c.tagName === 'P');
+          if (bandPs.length) {
+            const band = document.createElement('div');
+            band.className = 'nav-band';
+            const bw = document.createElement('div');
+            bw.className = 'contain';
+            const text = document.createElement('div');
+            text.className = 'nav-band-text';
+            text.append(bandPs[0]);
+            bw.append(text);
+            const actionPs = bandPs.slice(1).filter((pEl) => pEl.querySelector('a'));
+            if (actionPs.length) {
+              const actions = document.createElement('div');
+              actions.className = 'nav-band-actions';
+              actionPs.forEach((pEl) => {
+                pEl.querySelectorAll(':scope > :is(em, strong) > a').forEach((a) => {
+                  a.classList.add('button', a.parentElement.tagName === 'STRONG' ? 'primary' : 'secondary');
+                  a.parentElement.replaceWith(a);
+                });
+                pEl.classList.add('button-wrapper');
+                actions.append(pEl);
+              });
+              bw.append(actions);
+              band.classList.add(actions.querySelectorAll('a').length === 1 ? 'single' : 'pair');
+            } else {
+              band.classList.add('text-only');
+              bandPs.slice(1).forEach((pEl) => text.append(pEl));
+            }
+            band.append(bw);
+            panel.append(band);
+          }
+          li.append(panel);
           const open = (state) => { closeAllDrops(ul, li); li.setAttribute('aria-expanded', state ? 'true' : 'false'); };
           label.addEventListener('click', () => open(li.getAttribute('aria-expanded') !== 'true'));
           li.addEventListener('mouseenter', () => { if (isDesktop.matches) open(true); });
