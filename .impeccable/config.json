@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "roboto-fallback",
+        "createdAt": "2026-09-18T08:49:57.985Z",
+        "reason": "stardust:deploy contract — metric-matched local fallback face (roboto-fallback) required by the vanilla-EDS CLS pattern; not a brand font"
+      }
+    ]
+  }
+}

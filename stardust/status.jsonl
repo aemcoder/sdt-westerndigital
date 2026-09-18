@@ -6,3 +6,4 @@
 {"ts":"2026-09-18T09:20:00Z","skill":"stardust:replica","phase":"3-recreate","event":"end","artifact":"stardust/prototypes/"}
 {"ts":"2026-09-18T09:20:00Z","skill":"stardust:replica","phase":"4-source-fidelity-gate","event":"start"}
 {"ts":"2026-09-18T08:45:52.866Z","skill":"stardust:replica","phase":"4-source-fidelity-gate","event":"end","detail":"1440: 0.60/0.32/0.29% Δ0/0/-1 · 360: 1.47/1.15/1.12% Δ0/-1/-1 · 0 structural red · chrome crops ≤1.8% · 1920 box check equal","artifact":"stardust/replica/progress.json"}
+{"ts":"2026-09-18T08:52:57Z","skill":"stardust:deploy","phase":"5-deliver","event":"blocked","detail":"DA_TOKEN expired 2026-09-18T08:44Z (401 on admin.da.live) — media upload + page PUT/preview/publish wait for a refreshed token; code/blocks/content/local gates continue"}

@@ -1,20 +1,55 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
-}
+/* footer — westerndigital.com chrome (values lifted from stardust/prototypes/canon.css) */
+footer .footer { color: var(--color-white); }
+footer .footer .contain { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+footer .footer p, footer .footer ul { margin: 0; }
+footer .footer ul { list-style: none; padding: 0; }
+footer .footer a:any-link { color: inherit; }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
-}
+footer .footer-main { background: var(--color-footer); padding: 32px 0; }
+footer .footer-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--color-border-footer); }
+footer .footer-logo { width: 100%; display: flex; align-items: center; padding-bottom: 28px; border-bottom: 1px solid var(--color-border-footer); margin-bottom: 28px; }
+footer .footer-logo p { line-height: 0; }
+footer .footer-logo a { display: block; line-height: 0; }
+footer .footer-logo img { display: block; width: 77px; height: 20px; }
+footer .footer-region { width: 100%; display: flex; align-items: center; margin: 0 0 28px; min-height: 24px; }
+footer .footer-region p { font-size: 14px; line-height: 21px; }
+footer .footer-region a:any-link { font-size: 16px; line-height: 19.2px; font-weight: 700; margin: 1px 0 0 4px; }
 
-footer .footer p {
-  margin: 0;
-}
+footer .footer-cols { display: flex; flex-wrap: wrap; padding: 32px 0 0; }
+footer .footer-col { width: 100%; padding-right: 16px; margin-bottom: 32px; }
+footer .footer-col:last-child { margin-bottom: 0; }
+footer .footer-col-inner > p:first-child { font-size: 20px; line-height: 30px; font-weight: 400; margin-bottom: 20px; }
+footer .footer-col ul, footer .footer-col .fc-block { display: flow-root; } /* AEM floated-grid BFCs: sibling margins never collapse (measured) */
+footer .footer-col ul li { font-size: 16px; line-height: 19.2px; color: var(--color-text-muted); margin-bottom: 20px; }
+footer .footer-col ul li a:any-link { line-height: 16px; }
+footer .footer-col .fc-block > p { margin: 48px 0 32px; font-size: 16px; line-height: 24px; }
+footer .footer-social { display: flex; align-items: flex-start; margin: 32px 0 40px; height: 28px; }
+footer .footer-social li { margin: 0 28px 0 0; color: var(--color-white); line-height: 0; }
+footer .footer-social li:last-child { margin-right: 0; }
+footer .footer-social a:any-link { display: block; width: 24px; height: 27px; color: var(--color-white); }
+footer .footer-social a svg { display: block; width: 24px; height: 24px; }
+footer .footer-social a.social-x { width: 29px; height: 32px; margin-top: -4px; }
+footer .footer-social a.social-x svg { width: 29px; height: 29px; }
+footer .footer-social-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+footer .footer-col .fc-block > p.footer-badge { margin: 0; line-height: 0; }
+footer .footer-badge a { display: block; }
+footer .footer-badge img { display: block; max-width: 100px; }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer .footer-legal { background: var(--color-black); height: 197px; }
+footer .footer-legal ul { padding-bottom: 20px; border-bottom: 1px solid var(--color-border-footer); }
+footer .footer-legal ul li { display: inline-block; vertical-align: top; margin-top: 24px; padding-right: 16px; font-size: 14px; line-height: 21px; }
+footer .footer-legal ul li:last-child { padding-right: 0; }
+footer .footer-legal ul li a:any-link { line-height: 14px; }
+footer .footer-legal p { font-size: 14px; line-height: 21px; margin: 20px 0 24px; }
+
+@media (width >= 768px) {
+  footer .footer-main { padding: 32px 0 0; }
+  footer .footer-top { flex-wrap: nowrap; }
+  footer .footer-logo { width: auto; padding-bottom: 16px; border-bottom: 0; margin-bottom: 0; }
+  footer .footer-region { width: auto; justify-content: flex-end; align-items: flex-start; align-self: flex-start; margin: -5px 0 0; min-height: 0; }
+  footer .footer-cols { padding: 48px 0; }
+  footer .footer-col { width: 25%; margin-bottom: 0; }
+  footer .footer-col:first-child .footer-col-inner { padding-left: 20px; }
+  footer .footer-legal { height: 110px; }
+  footer .footer-legal ul { padding-bottom: 0; border-bottom: 0; }
 }

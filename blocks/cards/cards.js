@@ -1,17 +1,87 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
+/**
+ * cards — the site's card rails and tile rows (one block, variant classes; David's Model D9).
+ * Schema: stardust/eds-schema/home.json § mainContainWrap (7 dark cards, 5 product cards, 6 resource cards, 5 tiles).
+ *
+ * Variants (section head is DEFAULT CONTENT before the block — D1):
+ *   cards dark-rail     rows: <picture> | <p>eyebrow</p><h3>title</h3><p><em><a>CTA</a></em></p>  → 400×600 photo cards with a bottom scrim
+ *   cards product-rail  row 1 (feature): <picture> | <p>title</p><p>lede</p><p><a>Learn More</a></p>
+ *                       rows 2+:         <picture> | <p><a>Product name</a></p><p>Capacity: <strong>…</strong></p><p>Starting at <strong>$…</strong></p>
+ *   cards resource-rail rows: <picture> (icon) | <p>eyebrow</p><h3>title</h3><p><a>Read More</a></p>
+ *   cards tiles         rows: <picture> | <p><a>Label</a></p>  → square tiles, whole tile is the link
+ * Rails are horizontally scrollable tracks (live: Splide --scroll, draggable, no arrows).
+ * Authored nodes are MOVED (EW1); card-as-link unwraps the inner anchor (EW6). @ew-exempt none.
+ */
+function el(tag, className) { const e = document.createElement(tag); if (className) e.className = className; return e; }
 
 export default function decorate(block) {
-  /* change to ul, li */
-  const ul = document.createElement('ul');
-  [...block.children].forEach((row) => {
-    const li = document.createElement('li');
-    while (row.firstElementChild) li.append(row.firstElementChild);
-    [...li.children].forEach((div) => {
-      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
-      else div.className = 'cards-card-body';
-    });
-    ul.append(li);
+  const rows = [...block.children];
+  const variant = ['dark-rail', 'product-rail', 'resource-rail', 'tiles'].find((v) => block.classList.contains(v)) || 'dark-rail';
+  const isRail = variant !== 'tiles';
+  const list = el(isRail ? 'ul' : 'div', isRail ? 'rail__track' : 'tiles-row');
+
+  rows.forEach((row, i) => {
+    const [mediaCell, textCell] = row.children;
+    const pic = mediaCell?.querySelector('picture, img');
+    const img = pic?.tagName === 'IMG' ? pic : pic?.querySelector('img');
+    const item = el(isRail ? 'li' : 'div', isRail ? '' : 'tile');
+    const card = el('div', 'card');
+    const body = el('div', 'card-body');
+    const texts = textCell ? [...textCell.children] : [];
+
+    if (variant === 'dark-rail' || (variant === 'product-rail' && i === 0)) {
+      card.classList.add(variant === 'dark-rail' ? 'card-photo' : 'card-feature');
+      if (pic) { const bg = el('div', 'card-media'); bg.append(pic); card.append(bg); }
+      if (variant === 'dark-rail') card.classList.add('darken-bottom');
+      const heading = texts.find((t) => /^H[1-6]$/.test(t.tagName));
+      const ps = texts.filter((t) => t.tagName === 'P' && !t.querySelector('a'));
+      const ctas = texts.filter((t) => t.querySelector('a'));
+      const slot = (className, node) => { const w = el('div', className); w.append(node); body.append(w); };
+      if (variant === 'dark-rail') {
+        if (ps[0]) slot('eyebrow', ps[0]);
+        if (heading) slot('title', heading);
+      } else {
+        if (ps[0]) slot('title', ps[0]);
+        ps.slice(1).forEach((p) => body.append(p));
+      }
+      if (ctas.length) { const actions = el('div', `actions${variant === 'dark-rail' ? ' on-media' : ''}`); ctas.forEach((c) => actions.append(c)); body.append(actions); }
+      card.append(body);
+    } else if (variant === 'product-rail') {
+      card.classList.add('card-product');
+      const link = textCell.querySelector('a');
+      const href = link?.getAttribute('href');
+      const wrap = href ? el('a', 'pc-url-wrap') : el('div', 'pc-url-wrap');
+      if (href) { wrap.href = href; link.replaceWith(...link.childNodes); }
+      if (pic) { const m = el('div', 'pc-media'); m.append(pic); wrap.append(m); }
+      texts.forEach((t, k) => { const w = el('div', k === 0 ? 'pc-title' : (k === 1 ? 'pc-capacity' : 'pc-price')); w.append(t); wrap.append(w); });
+      card.append(wrap);
+    } else if (variant === 'resource-rail') {
+      card.classList.add('card-resource');
+      if (pic) { const icon = el('div', 'icon-media'); icon.append(pic); body.append(icon); }
+      const col = el('div', 'textcolumn');
+      texts.filter((t) => !t.querySelector('a')).forEach((t) => col.append(t));
+      body.append(col);
+      const ctas = texts.filter((t) => t.querySelector('a'));
+      if (ctas.length) { const actions = el('div', 'actions text-links'); ctas.forEach((c) => actions.append(c)); body.append(actions); }
+      card.append(body);
+    } else { // tiles
+      const link = textCell.querySelector('a');
+      const href = link?.getAttribute('href');
+      const a = el('a', 'tile-link');
+      if (href) { a.href = href; a.setAttribute('aria-label', link.getAttribute('aria-label') || link.textContent.trim()); link.replaceWith(...link.childNodes); }
+      if (pic) a.append(pic);
+      texts.forEach((t) => a.append(t));
+      card.append(a);
+    }
+    if (img) img.loading = 'lazy';
+    item.append(card);
+    list.append(item);
   });
-  ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
-  block.replaceChildren(ul);
+
+  if (isRail) {
+    const rail = el('div', 'rail');
+    rail.append(list);
+    block.replaceChildren(rail);
+  } else {
+    block.replaceChildren(list);
+  }
 }

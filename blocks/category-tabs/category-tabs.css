@@ -1,0 +1,31 @@
+/* category-tabs — values lifted from stardust/prototypes/home.css (.category) */
+main .category-tabs-container { padding: 48px 0; text-align: center; }
+main .category-tabs-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+main .category-tabs-container .default-content-wrapper { padding-bottom: 32px; }
+main .category-tabs-container .default-content-wrapper h1 { font-size: 32px; line-height: 35.2px; font-weight: 700; margin-bottom: 16px; }
+.category-tabs .tabs { display: flex; flex-wrap: wrap; justify-content: center; }
+.category-tabs .tab button { display: inline-block; padding: 12px 0; margin: 0 16px; border: 0; background: none; font-size: 16px; line-height: 18.4px; font-weight: 400; color: var(--color-nav-grey); border-radius: var(--radius-button); cursor: pointer; }
+.category-tabs .tab button p { margin: 0; }
+.category-tabs .tab.active button { color: var(--color-link); border-bottom: 3px solid var(--color-link); border-radius: 0; }
+.category-tabs .tab-panel { padding-bottom: 16px; }
+.category-tabs .tab-panel-inner { padding: 24px 0; text-align: left; }
+.category-tabs .tiles { display: flex; flex-wrap: wrap; justify-content: center; margin: 0 -8px -16px; }
+.category-tabs .tile { width: 50%; padding: 0 8px; margin-bottom: 16px; text-align: center; }
+.category-tabs .tile a:any-link { display: block; color: var(--color-black); }
+.category-tabs .tile picture { display: block; }
+.category-tabs .tile img { display: block; width: 100%; height: auto; margin: 0 auto 16px; max-height: 200px; }
+.category-tabs .tile p { font-size: 18px; line-height: 19.8px; font-weight: 700; margin: 0; }
+.category-tabs .actions { text-align: center; }
+.category-tabs .actions p.button-wrapper { margin-top: 16px; }
+
+@media (width >= 768px) {
+  main .category-tabs-container { padding: 64px 0; }
+  main .category-tabs-container .default-content-wrapper { padding-bottom: 48px; }
+  main .category-tabs-container .default-content-wrapper h1 { font-size: 48px; line-height: 52.8px; }
+  .category-tabs .tab button { margin: 0 32px; font-size: 18px; line-height: 20.7px; }
+  .category-tabs .tab-panel { padding-bottom: 32px; }
+  .category-tabs .tab-panel-inner { padding: 48px 0; }
+  .category-tabs .tile { width: 16.6667%; }
+  .category-tabs .tile p { font-size: 20px; line-height: 22px; }
+  .category-tabs .actions p.button-wrapper { margin-top: 32px; }
+}

@@ -1,0 +1,25 @@
+/* subnav — values lifted from stardust/prototypes/canon.css (.subnav) */
+main .subnav-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.subnav { position: relative; height: 50px; }
+.subnav ul { list-style: none; margin: 0; padding: 0; }
+.subnav .sticky-head { display: flex; justify-content: flex-start; height: 50px; background: var(--color-white); border-bottom: 1px solid var(--color-border-subnav); overflow: hidden; }
+.subnav .sticky-head.open { height: auto; overflow: visible; position: relative; z-index: 10; }
+.subnav .inner-wrap { display: flex; flex-direction: column; align-items: stretch; width: 100%; padding: 0; }
+.subnav .inner-wrap ul { display: contents; }
+.subnav .item { padding: 0 16px; margin: 0; border-bottom: 1px solid var(--color-border-subnav); white-space: nowrap; order: 1; }
+.subnav .item.active { order: 0; }
+.subnav .item a:any-link { display: flex; align-items: center; padding: 16px 0; font-size: 16px; line-height: 16px; font-weight: 400; color: var(--color-black); }
+.subnav .item.active a::after { content: ""; width: 8px; height: 8px; margin-left: 20px; border-right: 2px solid var(--color-black); border-bottom: 2px solid var(--color-black); transform: translateY(-3px) rotate(45deg); }
+.subnav .sticky-head.sticky-stuck { position: fixed; top: 0; left: 0; right: 0; height: 49px; z-index: 10; }
+.subnav .sticky-head.sticky-stuck.open { height: auto; }
+
+@media (width >= 768px) {
+  .subnav .sticky-head { justify-content: center; }
+  .subnav .inner-wrap { flex-direction: row; align-items: center; width: auto; padding: 0 16px; max-width: 1464px; }
+  .subnav .item { padding: 0 16px; margin: 0 48px; border: 0; order: 0; }
+  .subnav .item.active { order: 0; }
+  .subnav .item a:any-link { display: block; }
+  .subnav .item.active a:any-link { color: var(--color-link-alt); padding-bottom: 12px; border-bottom: 4px solid var(--color-border-subnav); }
+  .subnav .item.active a::after { content: none; }
+  .subnav .sticky-head.sticky-stuck .inner-wrap { width: 100%; justify-content: flex-start; } /* measured: fixed-state items start at x=80 */
+}

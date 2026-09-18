@@ -1,0 +1,35 @@
+/* photo-hero — values lifted from corporate-responsibility.css (.cr-hero) and press-release.css (.pr-hero) */
+main .photo-hero-container > div { max-width: none; padding: 0; }
+.photo-hero { position: relative; display: block; background: var(--color-black); color: var(--color-white); }
+.photo-hero p, .photo-hero h1 { margin: 0; }
+.photo-hero .hero-bg { position: relative; height: 225px; overflow: hidden; }
+.photo-hero .hero-bg picture, .photo-hero .hero-bg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 100% 50%; }
+.photo-hero .contain { position: relative; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.photo-hero .hero-row { display: flex; flex-wrap: wrap; padding: 32px 0; }
+.photo-hero .hero-copy { width: 100%; padding-right: 8px; }
+.photo-hero .headline h1 { font-size: 32px; line-height: 35.2px; font-weight: 500; margin-bottom: 16px; word-break: break-word; color: var(--color-white); }
+.photo-hero .lede p { font-size: 18px; line-height: 27px; }
+
+/* contained (press release): black box inside the container, image contained at the left */
+main .photo-hero-container.contained-hero > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.photo-hero.contained { display: flex; align-items: center; padding: 24px; }
+.photo-hero.contained .hero-bg { position: absolute; inset: 0; height: auto; }
+.photo-hero.contained .hero-bg picture, .photo-hero.contained .hero-bg img { object-fit: contain; object-position: 0% 50%; }
+.photo-hero.contained .contain { max-width: none; padding: 0; }
+.photo-hero.contained .hero-row { padding: 0; }
+.photo-hero.contained .hero-copy { padding: 0; }
+.photo-hero.contained .crumb { margin-bottom: 12px; line-height: 14px; height: 14px; }
+.photo-hero.contained .crumb a:any-link { font-size: 14px; line-height: 14px; font-weight: 300; color: var(--color-white); }
+.photo-hero.contained .headline h1 { font-size: 32px; line-height: 35.2px; }
+.photo-hero.contained .lede p { font-size: 16px; line-height: 24px; }
+
+@media (width >= 768px) {
+  .photo-hero { display: flex; align-items: center; height: 400px; }
+  .photo-hero .hero-bg { position: absolute; inset: 0; height: auto; }
+  .photo-hero .hero-row { padding: 48px 0; }
+  .photo-hero .hero-copy { width: 50%; }
+  .photo-hero .headline h1 { font-size: 36px; line-height: 39.6px; }
+  .photo-hero.contained { height: auto; min-height: 300px; padding: 48px; }
+  .photo-hero.contained .hero-copy { width: 100%; }
+  .photo-hero.contained .headline h1 { font-size: 48px; line-height: 52.8px; }
+}

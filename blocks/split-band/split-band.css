@@ -1,0 +1,41 @@
+/* split-band — values lifted from stardust/prototypes/corporate-responsibility.css */
+main .split-band-container { padding-bottom: 48px; }
+main .split-band-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.split-band p, .split-band h3, .split-band ul { margin: 0; }
+.split-band .band { display: flex; flex-wrap: wrap; }
+.split-band .band > div { width: 100%; }
+.split-band .band-media { position: relative; height: 300px; overflow: hidden; }
+.split-band .band:nth-child(7) .band-media { height: 325px; } /* measured live quirk on the philanthropy band at 360 */
+.split-band .band-media p { margin: 0; line-height: 0; }
+.split-band .band-media picture, .split-band .band-media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.split-band .band-media picture { position: absolute; inset: 0; }
+.split-band .band:nth-child(3) .band-media img { object-position: 100% 50%; }
+.split-band .band-text { display: flex; align-items: center; padding: 24px; }
+.split-band .band-top .band-text { align-items: flex-start; }
+.split-band .band-body { width: 100%; }
+.split-band .eyebrow { padding-bottom: 8px; }
+.split-band .eyebrow p { font-size: 16px; line-height: 24px; font-weight: 500; }
+.split-band .title h3 { font-size: 26px; line-height: 28.6px; font-weight: 500; margin-bottom: 8px; }
+.split-band .band p { font-size: 16px; line-height: 24px; }
+.split-band .textcolumn p { margin-bottom: 20px; }
+.split-band .textcolumn p:last-child { margin-bottom: 0; }
+.split-band .textcolumn ul { list-style: disc; padding-left: 40px; }
+.split-band .actions p.button-wrapper { margin-top: 16px; }
+.split-band .actions p.download-wrap { margin-top: 24px; }
+.split-band .actions p.download-wrap a:any-link { display: inline-flex; align-items: center; font-size: 14px; line-height: 14px; text-decoration: underline; color: var(--color-black); }
+.split-band .actions p.download-wrap a svg { display: block; width: 17px; height: 24px; margin-right: 4px; fill: currentcolor; }
+
+@media (width >= 768px) {
+  main .split-band-container { padding-bottom: 64px; }
+  .split-band .band { min-height: 500px; }
+  .split-band .band > div { width: 50%; }
+  .split-band .band-media, .split-band .band:nth-child(7) .band-media { height: auto; }
+  .split-band .band-reverse .band-media { order: 2; }
+  .split-band .band-reverse .band-text { order: 1; }
+  .split-band .band-text { padding: 48px; }
+  .split-band .title h3 { font-size: 32px; line-height: 35.2px; }
+  .split-band .actions p.button-wrapper { margin-top: 24px; }
+  .split-band .actions p.button-wrapper a.button { padding-left: 40px; padding-right: 40px; }
+  .split-band .actions p.download-wrap a:any-link { font-size: 16px; line-height: 16px; }
+  .split-band .actions p.download-wrap a svg { width: 24px; margin-right: 4px; }
+}
