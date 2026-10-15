@@ -1,17 +1,18 @@
 /**
  * product-listing — the commerce category listing: left rail (category tree, deals, facets), toolbar
  * ("N Items", sort), 4-up product tile grid, pagination. Document-first: the authored tile rows are the
- * captured first page and render at once. With a `query` row the block is DATA-FED (dynamics row 14):
- * it calls the storefront's public product-search API (CORS-open) with the source page's own query, and
+ * captured first page and render at once. With a `categories` / `condition` row the block is DATA-FED
+ * (dynamics row 14): it calls the storefront's public product-search API (CORS-open) with the source page's own query, and
  * facets / sort / pagination run exactly as on the source (toggle queries come from the API response,
- * URL state `?filterBy<Code>=v1,v2&page=N`). Without `query` (or when the API fails) it stays the static
+ * URL state `?filterBy<Code>=v1,v2&page=N`). Without them (or when the API fails) it stays the static
  * snapshot. Tiles link to the storefront PDP (absolute); "Compare" is the captured label only.
  * Schema: stardust/eds-schema/listing.json § product-listing.
  *
  * Authoring (rows):
  *   config rows — 2 cells, key | value:
- *     query          :relevance:category:cat_internal&customQuery=*:*+AND+-optionalCondition_en_string_mv:*recertified*
- *                    (the source CLP component's customQuery, verbatim; optional — absent = static snapshot)
+ *     categories     cat_internal, cat_hard_drives            (storefront category codes the listing is scoped to; optional)
+ *     condition      default | recertified | outlet           (default = new products, recertified excluded)
+ *                    → the source CLP customQuery `:relevance:category:<c>…&customQuery=*:*+AND+[-]optionalCondition_en_string_mv:*<x>*`
  *     facets         brandName, vvc-capacity, device_List, …  (facet codes in rail order; optional — else matched on `filters` names)
  *     filter-limit   10                                       (values shown before "+ More")
  *     page-size      15
@@ -30,7 +31,7 @@ const ICON_SHOP = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width
 const ICON_FILTER = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="3" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="8.5" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="14" width="16" height="3" rx="1" fill="#000"/></svg>';
 const ICON_SORT = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M14 4v11l3-3 .7.7L13.5 17l-4.2-4.3.7-.7 3 3V4z" fill="#000"/><rect x="2" y="4" width="8" height="1.2" fill="#000"/><rect x="2" y="7.5" width="6.5" height="1.2" fill="#000"/><rect x="2" y="11" width="5" height="1.2" fill="#000"/></svg>';
 
-const KEYS = ['page-size', 'sort', 'filters', 'category-tree', 'tree-collapsed', 'deals', 'featured', 'promo', 'query', 'facets', 'filter-limit'];
+const KEYS = ['page-size', 'sort', 'filters', 'category-tree', 'tree-collapsed', 'deals', 'featured', 'promo', 'categories', 'condition', 'facets', 'filter-limit'];
 
 /* storefront contract (source: clp-vue StoreCategoryBanner + the CLP dialog config on every en-us listing) */
 const API = 'https://api.westerndigital.com/wdwebservices/v2/us/products/search';
@@ -189,8 +190,11 @@ export default function decorate(block) {
   });
   block.classList.add('is-snapshot');
 
-  const query = cfg.query?.textContent.trim();
-  if (query) {
+  const cats = list(cfg.categories?.textContent);
+  const condition = cfg.condition?.textContent.trim().toLowerCase();
+  if (cats.length || condition) {
+    const cond = !condition || condition === 'default' ? '-optionalCondition_en_string_mv:*recertified*' : `optionalCondition_en_string_mv:*${condition}*`;
+    const query = `${cats.length ? `:relevance${cats.map((c) => `:category:${c}`).join('')}` : ''}&customQuery=*:*+AND+${cond}`;
     wire(block, {
       query,
       pageSize: parseInt(cfg['page-size']?.textContent, 10) || 15,
