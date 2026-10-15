@@ -1,0 +1,506 @@
+{
+  "_provenance": {
+    "script": "snapshot-forms.mjs + stardust/.work/forms/probe6.mjs (per-form split)",
+    "source": "https://www.westerndigital.com/company/contact-us?selectedValue=general-inquiries",
+    "sourceFormId": "webform-contact-us-website-new",
+    "capturedAt": "2026-10-15T16:16:46Z",
+    "settleMs": 4000,
+    "method": "controls probed after settle at 1440; validation copy read from the live page after an empty submit"
+  },
+  "id": "general-inquiries",
+  "title": "Website Inquiries",
+  "intro": [
+    "<p><strong>Need help with a product, order, or warranty?</strong><br>The General Inquiries form is not able to assist with:</p>",
+    "<ul><li>Technical or warranty issues</li><li>Online store or order-related questions</li><li>Pre-sales questions or pricing requests</li></ul>",
+    "<p>For faster assistance, please visit our <a href=\"/support#supportLink\"><strong>Support</strong></a> page and scroll to the <strong>“Still Need Help?”</strong> section to select your preferred contact method. Our dedicated Support team will be able to help you directly.</p>"
+  ],
+  "requiredNote": "* Required Fields",
+  "sections": [
+    {
+      "title": "",
+      "fields": [
+        {
+          "name": "emailTemplate-firstName",
+          "type": "text",
+          "label": "First Name",
+          "placeholder": "*First Name",
+          "required": true,
+          "maxlength": 100,
+          "width": "half",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "emailTemplate-lastName",
+          "type": "text",
+          "label": "Last Name",
+          "placeholder": "*Last Name",
+          "required": true,
+          "maxlength": 100,
+          "width": "half",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "emailTemplate-email",
+          "type": "email",
+          "label": "Email Address",
+          "placeholder": "*Email Address",
+          "required": true,
+          "maxlength": 100,
+          "width": "half",
+          "message": "Enter a valid email address."
+        },
+        {
+          "name": "emailTemplate-state",
+          "type": "text",
+          "label": "State",
+          "placeholder": "State",
+          "required": false,
+          "maxlength": 100,
+          "width": "half"
+        },
+        {
+          "name": "emailTemplate-country",
+          "type": "select",
+          "label": "Country/Area",
+          "required": false,
+          "width": "full",
+          "prompt": {
+            "value": "",
+            "label": "*Select Country/Area"
+          },
+          "options": [
+            {
+              "value": "Albania",
+              "label": "Albania"
+            },
+            {
+              "value": "Algeria",
+              "label": "Algeria"
+            },
+            {
+              "value": "Antigua and Barbuda",
+              "label": "Antigua and Barbuda"
+            },
+            {
+              "value": "Argentina",
+              "label": "Argentina"
+            },
+            {
+              "value": "Australia",
+              "label": "Australia"
+            },
+            {
+              "value": "Austria",
+              "label": "Austria"
+            },
+            {
+              "value": "Bahrain",
+              "label": "Bahrain"
+            },
+            {
+              "value": "Belarus",
+              "label": "Belarus"
+            },
+            {
+              "value": "Belgium",
+              "label": "Belgium"
+            },
+            {
+              "value": "Bolivia, Plurinational State of",
+              "label": "Bolivia, Plurinational State of"
+            },
+            {
+              "value": "Bosnia Herzegovina",
+              "label": "Bosnia Herzegovina"
+            },
+            {
+              "value": "Botswana",
+              "label": "Botswana"
+            },
+            {
+              "value": "Brazil",
+              "label": "Brazil"
+            },
+            {
+              "value": "Bulgaria",
+              "label": "Bulgaria"
+            },
+            {
+              "value": "Canada",
+              "label": "Canada"
+            },
+            {
+              "value": "Chile",
+              "label": "Chile"
+            },
+            {
+              "value": "China",
+              "label": "China"
+            },
+            {
+              "value": "Colombia",
+              "label": "Colombia"
+            },
+            {
+              "value": "Costa Rica",
+              "label": "Costa Rica"
+            },
+            {
+              "value": "Croatia",
+              "label": "Croatia"
+            },
+            {
+              "value": "Cyprus",
+              "label": "Cyprus"
+            },
+            {
+              "value": "Czech Republic",
+              "label": "Czech Republic"
+            },
+            {
+              "value": "Denmark",
+              "label": "Denmark"
+            },
+            {
+              "value": "Dominican Republic",
+              "label": "Dominican Republic"
+            },
+            {
+              "value": "Ecuador",
+              "label": "Ecuador"
+            },
+            {
+              "value": "Egypt",
+              "label": "Egypt"
+            },
+            {
+              "value": "El Salvador",
+              "label": "El Salvador"
+            },
+            {
+              "value": "Estonia",
+              "label": "Estonia"
+            },
+            {
+              "value": "Finland",
+              "label": "Finland"
+            },
+            {
+              "value": "France",
+              "label": "France"
+            },
+            {
+              "value": "Germany",
+              "label": "Germany"
+            },
+            {
+              "value": "Ghana",
+              "label": "Ghana"
+            },
+            {
+              "value": "Greece",
+              "label": "Greece"
+            },
+            {
+              "value": "Guatemala",
+              "label": "Guatemala"
+            },
+            {
+              "value": "Honduras",
+              "label": "Honduras"
+            },
+            {
+              "value": "Hong Kong",
+              "label": "Hong Kong"
+            },
+            {
+              "value": "Hungary",
+              "label": "Hungary"
+            },
+            {
+              "value": "Iceland",
+              "label": "Iceland"
+            },
+            {
+              "value": "India",
+              "label": "India"
+            },
+            {
+              "value": "Indonesia",
+              "label": "Indonesia"
+            },
+            {
+              "value": "Ireland",
+              "label": "Ireland"
+            },
+            {
+              "value": "Israel",
+              "label": "Israel"
+            },
+            {
+              "value": "Italy",
+              "label": "Italy"
+            },
+            {
+              "value": "Japan",
+              "label": "Japan"
+            },
+            {
+              "value": "Jordan",
+              "label": "Jordan"
+            },
+            {
+              "value": "Kenya",
+              "label": "Kenya"
+            },
+            {
+              "value": "Korea",
+              "label": "Korea"
+            },
+            {
+              "value": "Kuwait",
+              "label": "Kuwait"
+            },
+            {
+              "value": "Latvia",
+              "label": "Latvia"
+            },
+            {
+              "value": "Lebanon",
+              "label": "Lebanon"
+            },
+            {
+              "value": "Lithuania",
+              "label": "Lithuania"
+            },
+            {
+              "value": "Luxembourg",
+              "label": "Luxembourg"
+            },
+            {
+              "value": "Macedonia, the former Yugoslav Republic of",
+              "label": "Macedonia, the former Yugoslav Republic of"
+            },
+            {
+              "value": "Malaysia",
+              "label": "Malaysia"
+            },
+            {
+              "value": "Malta",
+              "label": "Malta"
+            },
+            {
+              "value": "Mexico",
+              "label": "Mexico"
+            },
+            {
+              "value": "Morocco",
+              "label": "Morocco"
+            },
+            {
+              "value": "Mozambique",
+              "label": "Mozambique"
+            },
+            {
+              "value": "Namibia",
+              "label": "Namibia"
+            },
+            {
+              "value": "Netherlands",
+              "label": "Netherlands"
+            },
+            {
+              "value": "New Zealand",
+              "label": "New Zealand"
+            },
+            {
+              "value": "Nicaragua",
+              "label": "Nicaragua"
+            },
+            {
+              "value": "Nigeria",
+              "label": "Nigeria"
+            },
+            {
+              "value": "Norway",
+              "label": "Norway"
+            },
+            {
+              "value": "Oman",
+              "label": "Oman"
+            },
+            {
+              "value": "Panama",
+              "label": "Panama"
+            },
+            {
+              "value": "Paraguay",
+              "label": "Paraguay"
+            },
+            {
+              "value": "Peru",
+              "label": "Peru"
+            },
+            {
+              "value": "Philippines",
+              "label": "Philippines"
+            },
+            {
+              "value": "Poland",
+              "label": "Poland"
+            },
+            {
+              "value": "Portugal",
+              "label": "Portugal"
+            },
+            {
+              "value": "Puerto Rico",
+              "label": "Puerto Rico"
+            },
+            {
+              "value": "Qatar",
+              "label": "Qatar"
+            },
+            {
+              "value": "Romania",
+              "label": "Romania"
+            },
+            {
+              "value": "Russian Federation",
+              "label": "Russian Federation"
+            },
+            {
+              "value": "Saudi Arabia",
+              "label": "Saudi Arabia"
+            },
+            {
+              "value": "Serbia",
+              "label": "Serbia"
+            },
+            {
+              "value": "Singapore",
+              "label": "Singapore"
+            },
+            {
+              "value": "Slovakia",
+              "label": "Slovakia"
+            },
+            {
+              "value": "Slovenia",
+              "label": "Slovenia"
+            },
+            {
+              "value": "South Africa",
+              "label": "South Africa"
+            },
+            {
+              "value": "Spain",
+              "label": "Spain"
+            },
+            {
+              "value": "Sweden",
+              "label": "Sweden"
+            },
+            {
+              "value": "Switzerland",
+              "label": "Switzerland"
+            },
+            {
+              "value": "Taiwan",
+              "label": "Taiwan"
+            },
+            {
+              "value": "Thailand",
+              "label": "Thailand"
+            },
+            {
+              "value": "Tunisia",
+              "label": "Tunisia"
+            },
+            {
+              "value": "Turkey",
+              "label": "Turkey"
+            },
+            {
+              "value": "Uganda",
+              "label": "Uganda"
+            },
+            {
+              "value": "Ukraine",
+              "label": "Ukraine"
+            },
+            {
+              "value": "United Arab Emirates",
+              "label": "United Arab Emirates"
+            },
+            {
+              "value": "United Kingdom",
+              "label": "United Kingdom"
+            },
+            {
+              "value": "United States",
+              "label": "United States"
+            },
+            {
+              "value": "Uruguay",
+              "label": "Uruguay"
+            },
+            {
+              "value": "Venezuela, Bolivarian Republic of",
+              "label": "Venezuela, Bolivarian Republic of"
+            },
+            {
+              "value": "Viet Nam",
+              "label": "Viet Nam"
+            },
+            {
+              "value": "Yemen",
+              "label": "Yemen"
+            },
+            {
+              "value": "Zambia",
+              "label": "Zambia"
+            },
+            {
+              "value": "Zimbabwe",
+              "label": "Zimbabwe"
+            }
+          ],
+          "note": "The live label carries \"*\" but the live validator accepts the placeholder (select class \"validate empty\" whose placeholder option has text as its value), so an empty country is submitted on the source. Reproduced as optional."
+        },
+        {
+          "name": "emailTemplate-message",
+          "type": "textarea",
+          "label": "Message",
+          "placeholder": "*Message",
+          "required": true,
+          "maxlength": 500,
+          "width": "full",
+          "message": "Field cannot be empty."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "<p>By clicking on \"Submit\", I represent that I understand and agree that the information submitted in this form will be transmitted to and stored by WD in the USA and other countries outside of the European Economic Area and that WD will process and store the information, including any updates to my information, in accordance with the WD <a href=\"/legal/privacy-statement\"><strong>Privacy Statement</strong></a>.</p>"
+  ],
+  "submitLabel": "Submit",
+  "hidden": {
+    "formName": "contact-us-website-new"
+  },
+  "success": {
+    "title": "Thank you!",
+    "text": "We are reviewing your request and will contact you shortly."
+  },
+  "error": "Oops! Something went wrong. Please try again later.",
+  "sourceIntake": {
+    "endpoint": "/bin/wd/formemail",
+    "kind": "AEM form-to-email servlet on the production host",
+    "emailTo": "GeneralWebInquiries@wdc.com",
+    "emailSubject": "Western Digital - Contact Us General Inquiries Alert",
+    "onSuccess": "form hidden, inline success panel shown",
+    "antiBot": "reCAPTCHA v3 token — replaced by a honeypot field"
+  },
+  "piiSignals": [],
+  "piiReview": "No regulated fields (name, email, state, country, free-text message)."
+}

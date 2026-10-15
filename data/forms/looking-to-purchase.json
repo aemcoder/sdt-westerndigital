@@ -1,0 +1,767 @@
+{
+  "_provenance": {
+    "script": "snapshot-forms.mjs + stardust/.work/forms/probe6.mjs (per-form split)",
+    "source": "https://www.westerndigital.com/company/contact-us?selectedValue=looking-to-purchase",
+    "sourceFormId": "webform-looking-to-purchase-form",
+    "capturedAt": "2026-10-15T16:16:46Z",
+    "settleMs": 4000,
+    "method": "controls probed after settle at 1440; validation copy read from the live page after an empty submit",
+    "alsoOn": [
+      "https://www.westerndigital.com/solutions/data-center-storage-platform (modal #talk-to-an-expert, identical controls)"
+    ]
+  },
+  "id": "looking-to-purchase",
+  "title": "Let us help you find a solutions to fit your needs.",
+  "intro": [],
+  "requiredNote": "* Required Fields",
+  "sections": [
+    {
+      "title": "",
+      "fields": [
+        {
+          "name": "fs_1_productCategoryContactUs",
+          "type": "select",
+          "label": "Product Category",
+          "required": true,
+          "width": "full",
+          "prompt": {
+            "value": "-1",
+            "label": "*Product Category"
+          },
+          "options": [
+            {
+              "value": "Hard Drives (HDDs)",
+              "label": "Hard Drives (HDDs)"
+            },
+            {
+              "value": "Data Center Storage",
+              "label": "Data Center Storage"
+            },
+            {
+              "value": "Network Attached Storage (NAS)",
+              "label": "Network Attached Storage (NAS)"
+            },
+            {
+              "value": "Accessories",
+              "label": "Accessories"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ],
+          "message": "Field cannot be empty.",
+          "other": {
+            "value": "Other",
+            "placeholder": "*Enter Product Category",
+            "label": "Enter Product Category",
+            "required": true,
+            "maxlength": 100,
+            "message": "Field cannot be empty."
+          }
+        },
+        {
+          "name": "firstName",
+          "type": "text",
+          "label": "First Name",
+          "placeholder": "*First Name",
+          "required": true,
+          "maxlength": 30,
+          "width": "half",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "lastName",
+          "type": "text",
+          "label": "Last Name",
+          "placeholder": "*Last Name",
+          "required": true,
+          "maxlength": 30,
+          "width": "half",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "phone",
+          "type": "tel",
+          "label": "Contact Number (numbers only)",
+          "placeholder": "*Contact Number (numbers only)",
+          "required": true,
+          "maxlength": 32,
+          "width": "half",
+          "pattern": "[0-9]+",
+          "message": "Enter a valid number"
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "label": "Email Address",
+          "placeholder": "*Email Address",
+          "required": true,
+          "maxlength": 128,
+          "width": "half",
+          "message": "Enter a valid email address"
+        },
+        {
+          "name": "cusJobTitle",
+          "type": "text",
+          "label": "Title",
+          "placeholder": "*Title",
+          "required": true,
+          "maxlength": 80,
+          "width": "half",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "ext_regBusinessName",
+          "type": "text",
+          "label": "Company Name",
+          "placeholder": "*Company Name",
+          "required": true,
+          "maxlength": 150,
+          "width": "half",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "ext_prefIndustry",
+          "type": "select",
+          "label": "Industry",
+          "required": false,
+          "width": "half",
+          "prompt": {
+            "value": "",
+            "label": "Industry"
+          },
+          "options": [
+            {
+              "value": "Business Services",
+              "label": "Business Services"
+            },
+            {
+              "value": "Defense / Military",
+              "label": "Defense / Military"
+            },
+            {
+              "value": "Education",
+              "label": "Education"
+            },
+            {
+              "value": "Energy & Utilities",
+              "label": "Energy & Utilities"
+            },
+            {
+              "value": "Government",
+              "label": "Government"
+            },
+            {
+              "value": "Healthcare, Pharmaceuticals, Biotech",
+              "label": "Healthcare, Pharmaceuticals, Biotech"
+            },
+            {
+              "value": "Legal Services",
+              "label": "Legal Services"
+            },
+            {
+              "value": "Manufacturing",
+              "label": "Manufacturing"
+            },
+            {
+              "value": "Media & Entertainment",
+              "label": "Media & Entertainment"
+            },
+            {
+              "value": "Real Estate & Construction",
+              "label": "Real Estate & Construction"
+            },
+            {
+              "value": "Software & Internet",
+              "label": "Software & Internet"
+            },
+            {
+              "value": "Telecommunications",
+              "label": "Telecommunications"
+            },
+            {
+              "value": "Transportation",
+              "label": "Transportation"
+            },
+            {
+              "value": "Travel, Recreation & Leisure",
+              "label": "Travel, Recreation & Leisure"
+            },
+            {
+              "value": "Wholesale & Distributors",
+              "label": "Wholesale & Distributors"
+            },
+            {
+              "value": "Cloud",
+              "label": "Cloud"
+            },
+            {
+              "value": "Datacenter",
+              "label": "Datacenter"
+            },
+            {
+              "value": "Digital Security (Software)",
+              "label": "Digital Security (Software)"
+            },
+            {
+              "value": "Physical Security",
+              "label": "Physical Security"
+            },
+            {
+              "value": "Retail/Point-of-Sale",
+              "label": "Retail/Point-of-Sale"
+            },
+            {
+              "value": "Video Production",
+              "label": "Video Production"
+            },
+            {
+              "value": "Video Surveillance",
+              "label": "Video Surveillance"
+            },
+            {
+              "value": "Workstations/HPC",
+              "label": "Workstations/HPC"
+            },
+            {
+              "value": "Gaming",
+              "label": "Gaming"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ],
+          "other": {
+            "value": "Other",
+            "placeholder": "",
+            "label": "Industry (other)",
+            "required": false,
+            "maxlength": 100
+          }
+        },
+        {
+          "name": "ext_regNumOfEmp",
+          "type": "select",
+          "label": "Number Of Employees",
+          "required": false,
+          "width": "half",
+          "prompt": {
+            "value": "na",
+            "label": "Number Of Employees"
+          },
+          "options": [
+            {
+              "value": "oneToFive",
+              "label": "1 - 5"
+            },
+            {
+              "value": "sixToTwenty",
+              "label": "6 - 20"
+            },
+            {
+              "value": "twentyOneToFifty",
+              "label": "21 - 50"
+            },
+            {
+              "value": "fiftyOneToTwoFifty",
+              "label": "51 - 250"
+            },
+            {
+              "value": "twoFiftyOneToThousand",
+              "label": "251 - 1000"
+            },
+            {
+              "value": "thousandOneToFiveThousand",
+              "label": "1001 - 5000"
+            },
+            {
+              "value": "fiveThousandOneToTenThousand",
+              "label": "5001 - 10,000"
+            },
+            {
+              "value": "moreThanTenThousand",
+              "label": "10,000+"
+            }
+          ]
+        },
+        {
+          "name": "country",
+          "type": "select",
+          "label": "Country/Region",
+          "required": true,
+          "width": "half",
+          "default": "United States",
+          "prompt": {
+            "value": "-1",
+            "label": "*Select Country/Region"
+          },
+          "options": [
+            {
+              "value": "Albania",
+              "label": "Albania"
+            },
+            {
+              "value": "Algeria",
+              "label": "Algeria"
+            },
+            {
+              "value": "Antigua and Barbuda",
+              "label": "Antigua and Barbuda"
+            },
+            {
+              "value": "Argentina",
+              "label": "Argentina"
+            },
+            {
+              "value": "Australia",
+              "label": "Australia"
+            },
+            {
+              "value": "Austria",
+              "label": "Austria"
+            },
+            {
+              "value": "Bahrain",
+              "label": "Bahrain"
+            },
+            {
+              "value": "Belarus",
+              "label": "Belarus"
+            },
+            {
+              "value": "Belgium",
+              "label": "Belgium"
+            },
+            {
+              "value": "Bolivia, Plurinational State of",
+              "label": "Bolivia, Plurinational State of"
+            },
+            {
+              "value": "Bosnia Herzegovina",
+              "label": "Bosnia Herzegovina"
+            },
+            {
+              "value": "Botswana",
+              "label": "Botswana"
+            },
+            {
+              "value": "Brazil",
+              "label": "Brazil"
+            },
+            {
+              "value": "Bulgaria",
+              "label": "Bulgaria"
+            },
+            {
+              "value": "Canada",
+              "label": "Canada"
+            },
+            {
+              "value": "Chile",
+              "label": "Chile"
+            },
+            {
+              "value": "China",
+              "label": "China"
+            },
+            {
+              "value": "Colombia",
+              "label": "Colombia"
+            },
+            {
+              "value": "Costa Rica",
+              "label": "Costa Rica"
+            },
+            {
+              "value": "Croatia",
+              "label": "Croatia"
+            },
+            {
+              "value": "Cyprus",
+              "label": "Cyprus"
+            },
+            {
+              "value": "Czech Republic",
+              "label": "Czech Republic"
+            },
+            {
+              "value": "Denmark",
+              "label": "Denmark"
+            },
+            {
+              "value": "Dominican Republic",
+              "label": "Dominican Republic"
+            },
+            {
+              "value": "Ecuador",
+              "label": "Ecuador"
+            },
+            {
+              "value": "Egypt",
+              "label": "Egypt"
+            },
+            {
+              "value": "El Salvador",
+              "label": "El Salvador"
+            },
+            {
+              "value": "Estonia",
+              "label": "Estonia"
+            },
+            {
+              "value": "Finland",
+              "label": "Finland"
+            },
+            {
+              "value": "France",
+              "label": "France"
+            },
+            {
+              "value": "Germany",
+              "label": "Germany"
+            },
+            {
+              "value": "Ghana",
+              "label": "Ghana"
+            },
+            {
+              "value": "Greece",
+              "label": "Greece"
+            },
+            {
+              "value": "Guatemala",
+              "label": "Guatemala"
+            },
+            {
+              "value": "Honduras",
+              "label": "Honduras"
+            },
+            {
+              "value": "Hong Kong",
+              "label": "Hong Kong"
+            },
+            {
+              "value": "Hungary",
+              "label": "Hungary"
+            },
+            {
+              "value": "Iceland",
+              "label": "Iceland"
+            },
+            {
+              "value": "India",
+              "label": "India"
+            },
+            {
+              "value": "Indonesia",
+              "label": "Indonesia"
+            },
+            {
+              "value": "Ireland",
+              "label": "Ireland"
+            },
+            {
+              "value": "Israel",
+              "label": "Israel"
+            },
+            {
+              "value": "Italy",
+              "label": "Italy"
+            },
+            {
+              "value": "Japan",
+              "label": "Japan"
+            },
+            {
+              "value": "Jordan",
+              "label": "Jordan"
+            },
+            {
+              "value": "Kenya",
+              "label": "Kenya"
+            },
+            {
+              "value": "Korea",
+              "label": "Korea"
+            },
+            {
+              "value": "Kuwait",
+              "label": "Kuwait"
+            },
+            {
+              "value": "Latvia",
+              "label": "Latvia"
+            },
+            {
+              "value": "Lebanon",
+              "label": "Lebanon"
+            },
+            {
+              "value": "Lithuania",
+              "label": "Lithuania"
+            },
+            {
+              "value": "Luxembourg",
+              "label": "Luxembourg"
+            },
+            {
+              "value": "Macedonia, the former Yugoslav Republic of",
+              "label": "Macedonia, the former Yugoslav Republic of"
+            },
+            {
+              "value": "Malaysia",
+              "label": "Malaysia"
+            },
+            {
+              "value": "Malta",
+              "label": "Malta"
+            },
+            {
+              "value": "Mexico",
+              "label": "Mexico"
+            },
+            {
+              "value": "Morocco",
+              "label": "Morocco"
+            },
+            {
+              "value": "Mozambique",
+              "label": "Mozambique"
+            },
+            {
+              "value": "Namibia",
+              "label": "Namibia"
+            },
+            {
+              "value": "Netherlands",
+              "label": "Netherlands"
+            },
+            {
+              "value": "New Zealand",
+              "label": "New Zealand"
+            },
+            {
+              "value": "Nicaragua",
+              "label": "Nicaragua"
+            },
+            {
+              "value": "Nigeria",
+              "label": "Nigeria"
+            },
+            {
+              "value": "Norway",
+              "label": "Norway"
+            },
+            {
+              "value": "Oman",
+              "label": "Oman"
+            },
+            {
+              "value": "Panama",
+              "label": "Panama"
+            },
+            {
+              "value": "Paraguay",
+              "label": "Paraguay"
+            },
+            {
+              "value": "Peru",
+              "label": "Peru"
+            },
+            {
+              "value": "Philippines",
+              "label": "Philippines"
+            },
+            {
+              "value": "Poland",
+              "label": "Poland"
+            },
+            {
+              "value": "Portugal",
+              "label": "Portugal"
+            },
+            {
+              "value": "Puerto Rico",
+              "label": "Puerto Rico"
+            },
+            {
+              "value": "Qatar",
+              "label": "Qatar"
+            },
+            {
+              "value": "Romania",
+              "label": "Romania"
+            },
+            {
+              "value": "Russian Federation",
+              "label": "Russian Federation"
+            },
+            {
+              "value": "Saudi Arabia",
+              "label": "Saudi Arabia"
+            },
+            {
+              "value": "Serbia",
+              "label": "Serbia"
+            },
+            {
+              "value": "Singapore",
+              "label": "Singapore"
+            },
+            {
+              "value": "Slovakia",
+              "label": "Slovakia"
+            },
+            {
+              "value": "Slovenia",
+              "label": "Slovenia"
+            },
+            {
+              "value": "South Africa",
+              "label": "South Africa"
+            },
+            {
+              "value": "Spain",
+              "label": "Spain"
+            },
+            {
+              "value": "Sweden",
+              "label": "Sweden"
+            },
+            {
+              "value": "Switzerland",
+              "label": "Switzerland"
+            },
+            {
+              "value": "Taiwan",
+              "label": "Taiwan"
+            },
+            {
+              "value": "Thailand",
+              "label": "Thailand"
+            },
+            {
+              "value": "Tunisia",
+              "label": "Tunisia"
+            },
+            {
+              "value": "Turkey",
+              "label": "Turkey"
+            },
+            {
+              "value": "Uganda",
+              "label": "Uganda"
+            },
+            {
+              "value": "Ukraine",
+              "label": "Ukraine"
+            },
+            {
+              "value": "United Arab Emirates",
+              "label": "United Arab Emirates"
+            },
+            {
+              "value": "United Kingdom",
+              "label": "United Kingdom"
+            },
+            {
+              "value": "United States",
+              "label": "United States"
+            },
+            {
+              "value": "Uruguay",
+              "label": "Uruguay"
+            },
+            {
+              "value": "Venezuela, Bolivarian Republic of",
+              "label": "Venezuela, Bolivarian Republic of"
+            },
+            {
+              "value": "Viet Nam",
+              "label": "Viet Nam"
+            },
+            {
+              "value": "Yemen",
+              "label": "Yemen"
+            },
+            {
+              "value": "Zambia",
+              "label": "Zambia"
+            },
+            {
+              "value": "Zimbabwe",
+              "label": "Zimbabwe"
+            }
+          ],
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "state",
+          "type": "text",
+          "label": "State (enter full name, e.g., “California”)",
+          "placeholder": "State (enter full name, e.g., “California”)",
+          "required": true,
+          "minlength": 3,
+          "maxlength": 100,
+          "width": "half",
+          "message": "Enter full name, e.g., “California”"
+        },
+        {
+          "name": "fs_7_personNotes",
+          "type": "textarea",
+          "label": "Request details",
+          "placeholder": "*Enter your request details here. If applicable, please include product SKU(s), quantity needed, target price, and use case.",
+          "required": true,
+          "maxlength": 480,
+          "width": "full",
+          "message": "Field cannot be empty."
+        },
+        {
+          "name": "marketingOptin",
+          "type": "checkbox",
+          "labelHtml": "By checking the box, you acknowledge WD's <a href=\"/legal/privacy-statement\"><strong>Privacy Statement</strong></a> and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time.",
+          "label": "Marketing consent",
+          "required": false,
+          "value": "true",
+          "width": "full"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "<p>By clicking on \"Submit\", I represent that I understand and agree that the information submitted in this form will be transmitted to and stored by WD in the USA and other countries outside of the European Economic Area and that WD will process and store the information, including any updates to my information, in accordance with the WD <a href=\"/legal/privacy-statement\"><strong>Privacy Statement</strong></a>.</p>"
+  ],
+  "submitLabel": "Submit",
+  "hidden": {
+    "formName": "ContactUsLookingToPurchaseMktoB2B",
+    "leadSource": "One Store Website",
+    "leadSourceCampaign": "Contact Us – Looking to Purchase Mkto B2B",
+    "sendConfirmation": "false",
+    "sfEmailLang": "en_US"
+  },
+  "success": {
+    "title": "Thank you!",
+    "text": "We are reviewing your request and will contact you shortly."
+  },
+  "error": "Oops! Something went wrong. Please try again later.",
+  "sourceIntake": {
+    "endpoint": "/bin/wd/sf/lead/sub",
+    "kind": "Salesforce lead (Marketo B2B) servlet on the production host",
+    "onSuccess": "redirect to /company/contact-us/looking-to-purchase/thank-you (\"Thank You!\" / \"We are reviewing your request and will contact you shortly.\")",
+    "antiBot": "reCAPTCHA v3 token (grecaptcha.execute) appended as g-recaptcha-response — replaced by a honeypot field",
+    "routingHidden": [
+      "currentPagePath",
+      "queryString",
+      "redirectOnSuccess",
+      "showServerResponse",
+      "showErrorFromServerResponse",
+      "pageReferrer",
+      "serverResponseMessage",
+      "serverResponseErrorMessage"
+    ]
+  },
+  "piiSignals": [],
+  "piiReview": "snapshot-forms flagged \"ext_regBusinessName\" (regex /ssn/ matches \"busine-ss-N-ame\"): false positive. No SSN, date of birth, account number, minors or upload fields — not regulated-pii."
+}

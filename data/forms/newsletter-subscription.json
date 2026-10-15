@@ -1,0 +1,65 @@
+{
+  "_provenance": {
+    "script": "snapshot-forms.mjs + stardust/.work/forms/probe6.mjs (per-form split)",
+    "source": "https://www.westerndigital.com/company/programs/communications-registration",
+    "sourceFormId": "webform-footer-form",
+    "capturedAt": "2026-10-15T16:16:46Z",
+    "settleMs": 4000,
+    "method": "controls probed after settle at 1440; validation copy read from the live page after an empty submit"
+  },
+  "id": "newsletter-subscription",
+  "title": "",
+  "intro": [
+    "<p>Don't miss out on special offers and promotions.</p>"
+  ],
+  "labels": "above",
+  "sections": [
+    {
+      "title": "",
+      "fields": [
+        {
+          "name": "email",
+          "type": "email",
+          "label": "Email",
+          "required": true,
+          "width": "full",
+          "message": "Enter a valid email address.",
+          "helpHtml": "By entering your email address, you agree to receive communication from Western Digital that includes news, offers and updates and acknowledge Western Digital's <a href=\"/legal/privacy-statement\">Privacy Statement</a>. You can withdraw your consent at any time."
+        },
+        {
+          "name": "mobilePhone",
+          "type": "tel",
+          "label": "Mobile Number (optional)",
+          "required": false,
+          "minlength": 7,
+          "maxlength": 20,
+          "width": "full",
+          "helpHtml": "By entering your mobile phone number, you agree to receive communication via text message from Western Digital that includes news, offers and updates and acknowledge Western Digital's <a href=\"/legal/privacy-statement\">Privacy Statement</a>. You can withdraw your consent at any time and data rates may apply."
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "submitLabel": "Sign Up",
+  "submitStyle": "block",
+  "hidden": {
+    "formName": "Newsletter Subscription",
+    "leadSource": "One Store Website",
+    "leadSourceCampaign": "AEM Newsletter Subscription",
+    "sendConfirmation": "false"
+  },
+  "success": {
+    "title": "",
+    "text": "Your form has been submitted successfully!"
+  },
+  "alreadySubscribed": "You have already subscribed!",
+  "error": "Oops! Something went wrong. Please try again later.",
+  "sourceIntake": {
+    "endpoint": "/bin/wd/acs/formsubmit",
+    "kind": "Adobe Campaign (ACS) subscription servlet on the production host; double opt-in codes USER_DOI_*",
+    "onSuccess": "form hidden, inline success panel",
+    "antiBot": "reCAPTCHA v3 — replaced by a honeypot field"
+  },
+  "piiSignals": [],
+  "piiReview": "Email + optional mobile number for marketing consent. Not regulated-pii."
+}

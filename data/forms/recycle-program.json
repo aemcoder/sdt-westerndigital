@@ -1,0 +1,375 @@
+{
+  "_provenance": {
+    "script": "snapshot-forms.mjs + stardust/.work/forms/probe6.mjs (per-form split)",
+    "source": "https://www.westerndigital.com/company/programs/easy-recycle",
+    "sourceFormId": "webform-grack-form",
+    "capturedAt": "2026-10-15T16:16:46Z",
+    "settleMs": 4000,
+    "method": "controls probed after settle at 1440; validation copy read from the live page after an empty submit",
+    "reach": "modal #recycle-form opened by the \"Recycle Now\" buttons"
+  },
+  "id": "recycle-program",
+  "title": "Recycle your Devices Today",
+  "intro": [
+    "<p>Please fill in the form below - all fields are required.</p>"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "fields": [
+        {
+          "name": "firstName",
+          "type": "text",
+          "label": "First Name",
+          "placeholder": "First Name",
+          "required": true,
+          "maxlength": 30,
+          "width": "half",
+          "message": "Enter First Name"
+        },
+        {
+          "name": "lastName",
+          "type": "text",
+          "label": "Last Name",
+          "placeholder": "Last Name",
+          "required": true,
+          "maxlength": 30,
+          "width": "half",
+          "message": "Enter Last Name"
+        },
+        {
+          "name": "address1",
+          "type": "text",
+          "label": "Address (Max. length 35 characters)",
+          "placeholder": "Address (Max. length 35 characters)",
+          "required": true,
+          "maxlength": 35,
+          "width": "full",
+          "message": "Enter Address"
+        },
+        {
+          "name": "city",
+          "type": "text",
+          "label": "City",
+          "placeholder": "City",
+          "required": true,
+          "maxlength": 75,
+          "width": "third",
+          "message": "Enter City"
+        },
+        {
+          "name": "state",
+          "type": "select",
+          "label": "State",
+          "required": true,
+          "width": "third",
+          "prompt": {
+            "value": "-1",
+            "label": "State"
+          },
+          "options": [
+            {
+              "value": "AL",
+              "label": "Alabama"
+            },
+            {
+              "value": "AZ",
+              "label": "Arizona"
+            },
+            {
+              "value": "AR",
+              "label": "Arkansas"
+            },
+            {
+              "value": "CA",
+              "label": "California"
+            },
+            {
+              "value": "CO",
+              "label": "Colorado"
+            },
+            {
+              "value": "CT",
+              "label": "Connecticut"
+            },
+            {
+              "value": "DE",
+              "label": "Delaware"
+            },
+            {
+              "value": "DC",
+              "label": "District of Columbia"
+            },
+            {
+              "value": "FL",
+              "label": "Florida"
+            },
+            {
+              "value": "GA",
+              "label": "Georgia"
+            },
+            {
+              "value": "ID",
+              "label": "Idaho"
+            },
+            {
+              "value": "IL",
+              "label": "Illinois"
+            },
+            {
+              "value": "IN",
+              "label": "Indiana"
+            },
+            {
+              "value": "IA",
+              "label": "Iowa"
+            },
+            {
+              "value": "KS",
+              "label": "Kansas"
+            },
+            {
+              "value": "KY",
+              "label": "Kentucky"
+            },
+            {
+              "value": "LA",
+              "label": "Louisiana"
+            },
+            {
+              "value": "ME",
+              "label": "Maine"
+            },
+            {
+              "value": "MD",
+              "label": "Maryland"
+            },
+            {
+              "value": "MA",
+              "label": "Massachusetts"
+            },
+            {
+              "value": "MI",
+              "label": "Michigan"
+            },
+            {
+              "value": "MN",
+              "label": "Minnesota"
+            },
+            {
+              "value": "MS",
+              "label": "Mississippi"
+            },
+            {
+              "value": "MO",
+              "label": "Missouri"
+            },
+            {
+              "value": "MT",
+              "label": "Montana"
+            },
+            {
+              "value": "NE",
+              "label": "Nebraska"
+            },
+            {
+              "value": "NV",
+              "label": "Nevada"
+            },
+            {
+              "value": "NH",
+              "label": "New Hampshire"
+            },
+            {
+              "value": "NJ",
+              "label": "New Jersey"
+            },
+            {
+              "value": "NM",
+              "label": "New Mexico"
+            },
+            {
+              "value": "NY",
+              "label": "New York"
+            },
+            {
+              "value": "NC",
+              "label": "North Carolina"
+            },
+            {
+              "value": "ND",
+              "label": "North Dakota"
+            },
+            {
+              "value": "OH",
+              "label": "Ohio"
+            },
+            {
+              "value": "OK",
+              "label": "Oklahoma"
+            },
+            {
+              "value": "OR",
+              "label": "Oregon"
+            },
+            {
+              "value": "PA",
+              "label": "Pennsylvania"
+            },
+            {
+              "value": "RI",
+              "label": "Rhode Island"
+            },
+            {
+              "value": "SC",
+              "label": "South Carolina"
+            },
+            {
+              "value": "SD",
+              "label": "South Dakota"
+            },
+            {
+              "value": "TN",
+              "label": "Tennessee"
+            },
+            {
+              "value": "TX",
+              "label": "Texas"
+            },
+            {
+              "value": "UT",
+              "label": "Utah"
+            },
+            {
+              "value": "VT",
+              "label": "Vermont"
+            },
+            {
+              "value": "VA",
+              "label": "Virginia"
+            },
+            {
+              "value": "WA",
+              "label": "Washington"
+            },
+            {
+              "value": "WV",
+              "label": "West Virginia"
+            },
+            {
+              "value": "WI",
+              "label": "Wisconsin"
+            },
+            {
+              "value": "WY",
+              "label": "Wyoming"
+            }
+          ],
+          "message": "Select State",
+          "note": "Options injected client-side from us-states.xlsx with Alaska and Hawaii excluded (hidden field excludedLabels)."
+        },
+        {
+          "name": "zipCode",
+          "type": "text",
+          "label": "Zip Code",
+          "placeholder": "Zip Code",
+          "required": true,
+          "maxlength": 75,
+          "pattern": "[0-9]+",
+          "width": "third",
+          "message": "Enter Zip Code (Only Numbers)"
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "label": "Email Address",
+          "placeholder": "Email Address",
+          "required": true,
+          "maxlength": 128,
+          "width": "half",
+          "message": "Enter a valid email address"
+        },
+        {
+          "name": "phone",
+          "type": "tel",
+          "label": "Primary Phone",
+          "placeholder": "Primary Phone",
+          "required": true,
+          "minlength": 10,
+          "maxlength": 15,
+          "pattern": "[0-9]{10,15}",
+          "width": "half",
+          "message": "Enter Primary Phone (Only numbers of length from 10 to 15 characters)"
+        },
+        {
+          "name": "ext_recycleProgramDeviceTotal",
+          "type": "select",
+          "label": "Number of Devices to Recycle",
+          "required": true,
+          "width": "full",
+          "prompt": {
+            "value": "-1",
+            "label": "Select Number of Devices to Recycle"
+          },
+          "options": [
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            },
+            {
+              "value": "3",
+              "label": "3"
+            },
+            {
+              "value": "4",
+              "label": "4"
+            },
+            {
+              "value": "5",
+              "label": "5"
+            }
+          ],
+          "message": "Select Number of Devices"
+        },
+        {
+          "name": "marketingOptin",
+          "type": "checkbox",
+          "label": "Marketing consent",
+          "value": "true",
+          "required": false,
+          "width": "full",
+          "labelHtml": "By checking the box, you acknowledge WD's <a href=\"/legal/privacy-statement\" target=\"_blank\">Privacy Statement</a> and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "<p>By clicking the \"Submit\" button, you agree to WD's <a href=\"/legal/privacy-statement\">Privacy Statement</a> and the <a href=\"/legal/terms-of-use/easy-recycle\">Easy Recycle Program Terms</a>.</p>"
+  ],
+  "submitLabel": "Submit",
+  "hidden": {
+    "formName": "Recycle Program",
+    "fs_1_numberOfDevices": "{ext_recycleProgramDeviceTotal}",
+    "country": "US",
+    "sendConfirmation": "false",
+    "leadSource": "One Store Website",
+    "leadSourceCampaign": "One Store Recycle Program"
+  },
+  "success": {
+    "title": "What's next...",
+    "text": "You will be receiving an email with instructions on how to pack and prepare your drive(s) for shipment along with a link to your shipping label.",
+    "footer": "Thank you for recycling and helping make a cleaner world."
+  },
+  "error": "Oops! Something went wrong. Please try again later.",
+  "sourceIntake": {
+    "endpoint": "/bin/wd/recycle",
+    "kind": "recycle-program servlet on the production host (issues a prepaid UPS label + discount code by email via the USMe partner)",
+    "antiBot": "reCAPTCHA v3 — replaced by a honeypot field"
+  },
+  "piiSignals": [],
+  "piiReview": "Postal address + phone + email for a shipping label: personal data but not in the regulated set (no SSN/DOB/account/minor/upload). Not wired: page not part of this copy set."
+}
