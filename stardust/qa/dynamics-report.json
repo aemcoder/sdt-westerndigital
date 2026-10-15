@@ -1,0 +1,178 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-15T17:14:47.042Z",
+  "origin": "https://spike-a--sdt-westerndigital--aemcoder.aem.page",
+  "parity": "stardust/.work/parity/rows-14-15-23-replay.json"
+ },
+ "results": [
+  {
+   "feature": "product listing pages: grid, facets, sort, pagination, filterBy URL state (product-listing, data-fed)",
+   "id": "product-catalog",
+   "class": "CR/X",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "4 results (source 4) · first: wd purple pro video analytics hard drive · matches the source",
+   "thirdParty": "www.westerndigital.com:200×3 api.westerndigital.com:200×1",
+   "ms": 3087,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: grid, facets, sort, pagination, filterBy URL state (product-listing, data-fed)",
+   "id": "product-catalog",
+   "class": "CR/X",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "6 results (source 6) · first: wd red pro nas hard drive · matches the source",
+   "thirdParty": "www.westerndigital.com:200×5 api.westerndigital.com:200×1",
+   "ms": 2383,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: grid, facets, sort, pagination, filterBy URL state (product-listing, data-fed)",
+   "id": "product-catalog",
+   "class": "CR/X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .product-listing.is-live .pg-num.is-current[data-page=\"2\"] (min 1)",
+   "thirdParty": "www.westerndigital.com:200×16 api.westerndigital.com:200×1",
+   "ms": 2888,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: grid, facets, sort, pagination, filterBy URL state (product-listing, data-fed)",
+   "id": "product-catalog",
+   "class": "CR/X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "38 × .product-listing.is-live .clp-filter-options .clp-check (min 10)",
+   "thirdParty": "www.westerndigital.com:200×1 api.westerndigital.com:200×1",
+   "ms": 2279,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: grid, facets, sort, pagination, filterBy URL state (product-listing, data-fed)",
+   "id": "product-catalog",
+   "class": "CR/X",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 7 page(s)",
+   "thirdParty": "",
+   "ms": 14439,
+   "environmentLimit": null
+  },
+  {
+   "feature": "intake forms: contact-us topics (6 forms), Talk to an Expert modal, newsletter (form block, definition-driven)",
+   "id": "forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "11 × .form-topic-select option (min 11)",
+   "thirdParty": "",
+   "ms": 1849,
+   "environmentLimit": "the preview submission replay was refused in the delegated run and has not been re-run without the user's go-ahead; form-flow checks below FAIL 'filled posted' by design until an endpoint is configured (local capture sends no request)"
+  },
+  {
+   "feature": "intake forms: contact-us topics (6 forms), Talk to an Expert modal, newsletter (form block, definition-driven)",
+   "id": "forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × a[href='#talk-to-an-expert'] (min 2)",
+   "thirdParty": "",
+   "ms": 2962,
+   "environmentLimit": "the preview submission replay was refused in the delegated run and has not been re-run without the user's go-ahead; form-flow checks below FAIL 'filled posted' by design until an endpoint is configured (local capture sends no request)"
+  },
+  {
+   "feature": "intake forms: contact-us topics (6 forms), Talk to an Expert modal, newsletter (form block, definition-driven)",
+   "id": "forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × form [name='email'] (min 1)",
+   "thirdParty": "",
+   "ms": 2409,
+   "environmentLimit": "the preview submission replay was refused in the delegated run and has not been re-run without the user's go-ahead; form-flow checks below FAIL 'filled posted' by design until an endpoint is configured (local capture sends no request)"
+  },
+  {
+   "feature": "intake forms: contact-us topics (6 forms), Talk to an Expert modal, newsletter (form block, definition-driven)",
+   "id": "forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 3 page(s)",
+   "thirdParty": "",
+   "ms": 5289,
+   "environmentLimit": "the preview submission replay was refused in the delegated run and has not been re-run without the user's go-ahead; form-flow checks below FAIL 'filled posted' by design until an endpoint is configured (local capture sends no request)"
+  },
+  {
+   "feature": "RAID / surveillance capacity calculators",
+   "id": "calculators",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × .calculator.raid form select[name=\"raid-type\"] option (min 9)",
+   "thirdParty": "",
+   "ms": 2365,
+   "environmentLimit": null
+  },
+  {
+   "feature": "RAID / surveillance capacity calculators",
+   "id": "calculators",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .calculator.raid output[data-result] (min 4)",
+   "thirdParty": "",
+   "ms": 1765,
+   "environmentLimit": null
+  },
+  {
+   "feature": "RAID / surveillance capacity calculators",
+   "id": "calculators",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .calculator.surveillance form input[name=\"codec\"] (min 4)",
+   "thirdParty": "",
+   "ms": 1791,
+   "environmentLimit": null
+  },
+  {
+   "feature": "RAID / surveillance capacity calculators",
+   "id": "calculators",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "13 × .calculator.surveillance select[name=\"resolution\"] option (min 13)",
+   "thirdParty": "",
+   "ms": 1777,
+   "environmentLimit": null
+  },
+  {
+   "feature": "RAID / surveillance capacity calculators",
+   "id": "calculators",
+   "class": "CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 3536,
+   "environmentLimit": null
+  }
+ ]
+}

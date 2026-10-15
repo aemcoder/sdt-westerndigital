@@ -136,3 +136,23 @@ file of general stardust improvements.
 **Next:** user review of the Products-menu pages; then W1 (press-release siblings) / W3 per the plan, or the mobile follow-up round.
 
 ---
+
+---
+## 2026-10-15T17:45:00Z — dynamics Phases 1–5 on register rows 14, 15, 23 (branch `spike-a`)
+
+**Prompt:** "run the stardust `dynamics` skill, Phases 1–5, on rows #14 product-catalog, #15 forms, #23 calculators only" (hands-off; code on `spike-a`, new content only under `/spike-a/…`).
+
+**Decisions:**
+- **Detect** re-run on the rows' 8 source pages (evidence `stardust/dynamics/detect-2026-10-15/`); the archetype `_dynamics.json` was left as is.
+- **Row 14 → data-fed · self · done.** The storefront search API (`api.westerndigital.com/wdwebservices/v2/us/products/search`) echoes any Origin in ACAO, so `product-listing` feeds it directly: facets with counts, +More/−Less, chips, Clear All, sort, paging and the live `?filterBy<Facet>=…` / `?page=N` URL state. The block reads the `categories` / `condition` / `filters` rows **already in every published PLP document** — no content change; nav, home and use-case-chip deep links now land on the filtered state. Document-first: authored tiles render first and remain the fallback; authored tile text wins for the products it carries (the search API's catalog price can differ from the live per-SKU hydration, which stays decided-out, row 12). The campaign tile (slot 3) comes from a host-bound feed (no ACAO) → code-bus snapshot `data/products/clp-campaigns.json` (interim). 13/13 URL states equal the source's count and order.
+- **Row 15 → scaffolded-awaiting-owner.** Definition-driven `form` block + 9 definitions (`data/forms/`), endpoint config `scripts/site-config.js` (empty), local capture with a "no backend connected" notice (DA has no sheet intake). Authored `/spike-a/company/contact-us`, `/spike-a/solutions/data-center-storage-platform` (Talk to an Expert wired to the modal form), `/spike-a/company/programs/communications-registration`. Find-a-store split out as 15b (filter over a host-bound feed, pending); `use-case-ai` is not a form.
+- **Row 23 → client-only · self · done.** `calculator` block (raid / surveillance), inputs as content, logic lifted from the source script; `/spike-a/tools/*` authored; 25/25 known inputs = source on the preview.
+- Rows 14/15/23 implemented by the coordinator (14) and two delegated workers (15, 23) in one working tree; each committed only its own paths.
+
+**Artifacts touched:** `blocks/product-listing/*`, `blocks/form/*`, `blocks/calculator/*`, `scripts/site-config.js`, `data/forms/*.json`, `data/products/clp-campaigns.json`, `stardust/dynamic-features.md` (rows 14, 15, 23, decision batch 1–2, register, amendment), `stardust/dynamic-features-plan.md`, `stardust/dynamics/parity.json` (+3 features), `stardust/qa/dynamics-report.{md,json}`, DA `/spike-a/**` (5 docs + media, preview only).
+
+**Findings worth flagging:** the closed check set has no known-input→output type, so calculator parity rides on a driver (`verifiedBy`); `form-flow` cannot pass under local capture (it requires a POST) — the checks are recorded and fail by design until an endpoint exists; `snapshot-forms` flags `/ssn/` inside "businessName"; a sibling workspace's `aem up` silently took port 3000 mid-run (verify the served code's cwd before trusting a local probe).
+
+**Open questions:** the form submission replay on the preview was refused in the delegated run and not re-run — awaiting the user's go-ahead. Owner: intake endpoint (15); production CORS for the search API and same-origin routing of the campaign feed (14).
+
+**Next:** user go-ahead for the preview form-flow replay; build 15b find-a-store from a `data/wtb/` snapshot; table `dark` variant + cta-band heading width on the RAID page; promote `/spike-a/tools/*` and the form pages when the owner approves.

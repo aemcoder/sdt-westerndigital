@@ -1,0 +1,720 @@
+{
+ "origin": "https://spike-a--sdt-westerndigital--aemcoder.aem.page",
+ "rows": [
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid-default",
+   "inputs": {},
+   "source": {
+    "total": "64 TB",
+    "available": "56 TB",
+    "redundancy": "8 TB",
+    "detail": "8 x 8TB in RAID 5  = 56TB Usable (56,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "64 TB",
+    "available": "56 TB",
+    "redundancy": "8 TB",
+    "detail": "8 x 8TB in RAID 5  = 56TB Usable (56,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid0-2x1",
+   "inputs": {
+    "raid-type": "raid0",
+    "quantity": "2",
+    "capacity": "1"
+   },
+   "source": {
+    "total": "2 TB",
+    "available": "2 TB",
+    "redundancy": "0 TB",
+    "detail": "2 x 1TB in RAID 0  = 2TB Usable (2,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "2 TB",
+    "available": "2 TB",
+    "redundancy": "0 TB",
+    "detail": "2 x 1TB in RAID 0  = 2TB Usable (2,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid1-4x12",
+   "inputs": {
+    "raid-type": "raid1",
+    "quantity": "4",
+    "capacity": "12"
+   },
+   "source": {
+    "total": "48 TB",
+    "available": "12 TB",
+    "redundancy": "36 TB",
+    "detail": "4 x 12TB in RAID 1  = 12TB Usable (12,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "48 TB",
+    "available": "12 TB",
+    "redundancy": "36 TB",
+    "detail": "4 x 12TB in RAID 1  = 12TB Usable (12,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid5-3x2",
+   "inputs": {
+    "raid-type": "raid5",
+    "quantity": "3",
+    "capacity": "2"
+   },
+   "source": {
+    "total": "6 TB",
+    "available": "4 TB",
+    "redundancy": "2 TB",
+    "detail": "3 x 2TB in RAID 5  = 4TB Usable (4,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "6 TB",
+    "available": "4 TB",
+    "redundancy": "2 TB",
+    "detail": "3 x 2TB in RAID 5  = 4TB Usable (4,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid5-4x8",
+   "inputs": {
+    "raid-type": "raid5",
+    "quantity": "4",
+    "capacity": "8"
+   },
+   "source": {
+    "total": "32 TB",
+    "available": "24 TB",
+    "redundancy": "8 TB",
+    "detail": "4 x 8TB in RAID 5  = 24TB Usable (24,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "32 TB",
+    "available": "24 TB",
+    "redundancy": "8 TB",
+    "detail": "4 x 8TB in RAID 5  = 24TB Usable (24,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid6-4x8",
+   "inputs": {
+    "raid-type": "raid6",
+    "quantity": "4",
+    "capacity": "8"
+   },
+   "source": {
+    "total": "32 TB",
+    "available": "16 TB",
+    "redundancy": "16 TB",
+    "detail": "4 x 8TB in RAID 6  = 16TB Usable (16,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "32 TB",
+    "available": "16 TB",
+    "redundancy": "16 TB",
+    "detail": "4 x 8TB in RAID 6  = 16TB Usable (16,000GB)",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid10-6x20",
+   "inputs": {
+    "raid-type": "raid10",
+    "quantity": "6",
+    "capacity": "20"
+   },
+   "source": {
+    "total": "120 TB",
+    "available": "60 TB",
+    "redundancy": "60 TB",
+    "detail": "6 x 20TB in RAID 10*  = 60TB Usable (60,000GB)",
+    "invalid": [],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "migrated": {
+    "total": "120 TB",
+    "available": "60 TB",
+    "redundancy": "60 TB",
+    "detail": "6 x 20TB in RAID 10*  = 60TB Usable (60,000GB)",
+    "invalid": [],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid50-6x26",
+   "inputs": {
+    "raid-type": "raid50",
+    "quantity": "6",
+    "capacity": "26"
+   },
+   "source": {
+    "total": "156 TB",
+    "available": "104 TB",
+    "redundancy": "52 TB",
+    "detail": "6 x 26TB in RAID 50*  = 104TB Usable (104,000GB)",
+    "invalid": [],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "migrated": {
+    "total": "156 TB",
+    "available": "104 TB",
+    "redundancy": "52 TB",
+    "detail": "6 x 26TB in RAID 50*  = 104TB Usable (104,000GB)",
+    "invalid": [],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid60-8x24",
+   "inputs": {
+    "raid-type": "raid60",
+    "quantity": "8",
+    "capacity": "24"
+   },
+   "source": {
+    "total": "192 TB",
+    "available": "96 TB",
+    "redundancy": "96 TB",
+    "detail": "8 x 24TB in RAID 60*  = 96TB Usable (96,000GB)",
+    "invalid": [],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "migrated": {
+    "total": "192 TB",
+    "available": "96 TB",
+    "redundancy": "96 TB",
+    "detail": "8 x 24TB in RAID 60*  = 96TB Usable (96,000GB)",
+    "invalid": [],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "jbod-24x26",
+   "inputs": {
+    "raid-type": "jbod",
+    "quantity": "24",
+    "capacity": "26"
+   },
+   "source": {
+    "total": "624 TB",
+    "available": "624 TB",
+    "redundancy": "0 TB",
+    "detail": "24 x 26TB in JBOD/JBOF*  = 624TB Usable (624,000GB)",
+    "invalid": [],
+    "notes": [
+     "jbod,spanning"
+    ]
+   },
+   "migrated": {
+    "total": "624 TB",
+    "available": "624 TB",
+    "redundancy": "0 TB",
+    "detail": "24 x 26TB in JBOD/JBOF*  = 624TB Usable (624,000GB)",
+    "invalid": [],
+    "notes": [
+     "jbod,spanning"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "spanning-3x4",
+   "inputs": {
+    "raid-type": "spanning",
+    "quantity": "3",
+    "capacity": "4"
+   },
+   "source": {
+    "total": "12 TB",
+    "available": "12 TB",
+    "redundancy": "0 TB",
+    "detail": "3 x 4TB in Spanning*  = 12TB Usable (12,000GB)",
+    "invalid": [],
+    "notes": [
+     "jbod,spanning"
+    ]
+   },
+   "migrated": {
+    "total": "12 TB",
+    "available": "12 TB",
+    "redundancy": "0 TB",
+    "detail": "3 x 4TB in Spanning*  = 12TB Usable (12,000GB)",
+    "invalid": [],
+    "notes": [
+     "jbod,spanning"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid6-3-below-min",
+   "inputs": {
+    "raid-type": "raid6",
+    "quantity": "3",
+    "capacity": "8"
+   },
+   "source": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Value must be greater than or equal to 4."
+     }
+    ],
+    "notes": []
+   },
+   "migrated": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Value must be greater than or equal to 4."
+     }
+    ],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid10-5-odd",
+   "inputs": {
+    "raid-type": "raid10",
+    "quantity": "5",
+    "capacity": "8"
+   },
+   "source": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Drive count must be an even number for this RAID type."
+     }
+    ],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "migrated": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Drive count must be an even number for this RAID type."
+     }
+    ],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid60-6-below-min",
+   "inputs": {
+    "raid-type": "raid60",
+    "quantity": "6",
+    "capacity": "8"
+   },
+   "source": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Value must be greater than or equal to 8."
+     }
+    ],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "migrated": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Value must be greater than or equal to 8."
+     }
+    ],
+    "notes": [
+     "raid10,raid50,raid60"
+    ]
+   },
+   "pass": true
+  },
+  {
+   "tool": "raid-capacity-calculator",
+   "id": "raid0-25-above-max",
+   "inputs": {
+    "raid-type": "raid0",
+    "quantity": "25",
+    "capacity": "8"
+   },
+   "source": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Value must be less than or equal to 24."
+     }
+    ],
+    "notes": []
+   },
+   "migrated": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": [
+     {
+      "name": "quantity",
+      "message": "Value must be less than or equal to 24."
+     }
+    ],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-default",
+   "inputs": {},
+   "source": {
+    "total": "77396.705",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "77396.705",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-h264-2mp-hh",
+   "inputs": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "fps": "30",
+    "codec": "h264",
+    "resolution": "2073600",
+    "quality": "high",
+    "activity": "high"
+   },
+   "source": {
+    "total": "26.325",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "26.325",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-h265-4mp-mm",
+   "inputs": {
+    "number_of_cameras": "16",
+    "days_to_store": "14",
+    "hours_per_day": "12",
+    "fps": "15",
+    "codec": "h265",
+    "resolution": "4085760",
+    "quality": "medium",
+    "activity": "medium"
+   },
+   "source": {
+    "total": "2.326",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "2.326",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-h265plus-4k-ll",
+   "inputs": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "fps": "30",
+    "codec": "h265plus",
+    "resolution": "8294400",
+    "quality": "low",
+    "activity": "low"
+   },
+   "source": {
+    "total": "23.228",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "23.228",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-h265plus-8k-hl",
+   "inputs": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "fps": "30",
+    "codec": "h265plus",
+    "resolution": "33177600",
+    "quality": "high",
+    "activity": "low"
+   },
+   "source": {
+    "total": "212.628",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "212.628",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-mjpeg-1mp-med",
+   "inputs": {
+    "number_of_cameras": "4",
+    "days_to_store": "7",
+    "hours_per_day": "8",
+    "fps": "10",
+    "codec": "mpeg",
+    "resolution": "921600",
+    "quality": "medium",
+    "activity": "high"
+   },
+   "source": {
+    "total": "0.595",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "0.595",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-h264-12mp-lm",
+   "inputs": {
+    "number_of_cameras": "64",
+    "days_to_store": "365",
+    "hours_per_day": "24",
+    "fps": "240",
+    "codec": "h264",
+    "resolution": "12288000",
+    "quality": "low",
+    "activity": "medium"
+   },
+   "source": {
+    "total": "92234.825",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "92234.825",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-h265plus-cif-ll",
+   "inputs": {
+    "number_of_cameras": "1",
+    "days_to_store": "1",
+    "hours_per_day": "1",
+    "fps": "1",
+    "codec": "h265plus",
+    "resolution": "84480",
+    "quality": "low",
+    "activity": "low"
+   },
+   "source": {
+    "total": "0.000",
+    "invalid": [],
+    "notes": []
+   },
+   "migrated": {
+    "total": "0.000",
+    "invalid": [],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-cams-65-invalid",
+   "inputs": {
+    "number_of_cameras": "65",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "fps": "30",
+    "codec": "h264",
+    "resolution": "2073600"
+   },
+   "source": {
+    "total": "---",
+    "invalid": [
+     {
+      "name": "number_of_cameras",
+      "message": "Input number between 1 and 64"
+     }
+    ],
+    "notes": []
+   },
+   "migrated": {
+    "total": "---",
+    "invalid": [
+     {
+      "name": "number_of_cameras",
+      "message": "Input number between 1 and 64"
+     }
+    ],
+    "notes": []
+   },
+   "pass": true
+  },
+  {
+   "tool": "surveillance-capacity-calculator",
+   "id": "surv-hours-0-invalid",
+   "inputs": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "0",
+    "fps": "30",
+    "codec": "h264",
+    "resolution": "2073600"
+   },
+   "source": {
+    "total": "---",
+    "invalid": [
+     {
+      "name": "hours_per_day",
+      "message": "Input number between 1 and 24"
+     }
+    ],
+    "notes": []
+   },
+   "migrated": {
+    "total": "---",
+    "invalid": [
+     {
+      "name": "hours_per_day",
+      "message": "Input number between 1 and 24"
+     }
+    ],
+    "notes": []
+   },
+   "pass": true
+  }
+ ],
+ "pageErrors": {
+  "raid-capacity-calculator": [],
+  "surveillance-capacity-calculator": []
+ }
+}

@@ -16,7 +16,12 @@ the three archetypes never waits on any row below.
   at rollout, phase "search".)
 - **event** (`/company/newsroom/events/**`, 16 pages): `template=event`, `event-date`, same index.
 - **explore/documents** (10 pages): `template=resource`, `resource-type` (Case Study / White Paper).
-- **products**: none on the migrated origin — the catalog is commerce-rendered (decided-out, see § Register).
+- **products** (row 14, PLPs only — not an index listing): the 7 `product-listing` pages are fed by the storefront's product
+  search API, not by `query-index.json`. Contract = the block's authored rows, already present in every published PLP document:
+  `categories` (storefront category codes, e.g. `cat_internal, cat_hard_drives`), `condition` (`default` | `recertified` | `outlet`),
+  `page-size`, `sort` (default label), `filters` (facet group names, rail order = the API's facet names), plus the captured
+  first-page tile rows (document-first: authored tile text wins for the products it carries). URL state is the live one:
+  `?filterBy<FacetCode>=a,b` and `?page=N`. PDPs, compare and quick-view stay on the storefront (decided-out, § Register).
 
 ## Features
 
@@ -35,8 +40,8 @@ the three archetypes never waits on any row below.
 | 11 | utility-promo-bar | header promo-carousel ("WD Named to 2026 S&P…") | CR | 106/106 | static-snapshot | self | interim: single captured slide authored in `/nav` section 1 | read-settings | none — authors edit the nav doc | promo-carousel |
 | 12 | cart-hydration | `/store/cart/getCart`, `priceAndInventory`, cart icon count, prices on product cards | X/A | 105/106 | decided-out | needs-backend | decided-out | decided-out | **owner: commerce on the new host?** — interim: cart icon links to `https://www.westerndigital.com/store/cart`; captured prices authored as static text | session-bound; dead on target |
 | 13 | account-links | sign-in / My Account / registration | X | 106/106 | decided-out | needs-backend | decided-out | decided-out | owner (same as 12) — links stay absolute to the source host | `/store/my-account`, `/store/business/registration` |
-| 14 | product-catalog | PLP filters, product grids, PDPs, compare, weekly sale (client-rendered from commerce APIs) | CR/X | 13 listing pages + all PDPs | decided-out | needs-backend | decided-out | decided-out | **owner decision**: catalog stays on the SFCC host (links absolute) until a commerce integration is scoped | PLP grids empty in server HTML |
-| 15 | forms | contact-us, partner/channel registration, recycle form, newsletter sign-up, board contact | F | 4 form pages + footer "Sign Up for Email" | rebuild-native | needs-backend | scaffolded-awaiting-owner (UI rebuilt, submission blocked with a visible "no backend connected" notice) | forms | **owner: form intake endpoint (DA sheet / Marketo / existing AEM servlet)** | `forms 1+0` per probed page (search only); form pages typed `form` in state.json |
+| 14 | product-catalog | PLP grids + facets (counts, +More/−Less, chips, Clear All), sort, pagination, `filterBy…`/`page` URL state; campaign tile (slot 3). PDP, compare, quick-view stay on the storefront | CR/X | 7 `product-listing` PLPs (+ nav/home/use-case-chip deep links into `filterBy…` states) | data-fed (PLP) · decided-out (PDP/compare/quick-view) | self | done (PLP; campaign tile = code-bus snapshot 2026-10-15, interim) · decided-out (PDP/compare) | off-origin-data (feed the existing API; Tier 2 snapshot for the campaign feed) | none required to ship; named for production: **keep `api.westerndigital.com` CORS open to the new host** (today it echoes any origin) and **route the campaign feed same-origin** (no ACAO today) | `GET api.westerndigital.com/wdwebservices/v2/us/products/search` → 200 with ACAO = request origin (preview + localhost probed 2026-10-15); `/graphql/execute.json/wd/clpcampaignendpoint` → 200, no ACAO (host-bound); `priceAndInventory` ACAO pinned to `aem.westerndigital.com` (row 12) |
+| 15 | forms | contact-us topic chooser (6 AEM webforms: looking-to-purchase, careers, investor relations, website, loyalty, general), DCSP "Talk to an Expert" modal (looking-to-purchase), newsletter sign-up (footer "Sign Up for Email" → communications-registration), easy-recycle modal (definition only) | F | 3 pages authored under `/spike-a/` + every page linking `#talk-to-an-expert` / the newsletter page | rebuild-native | needs-backend | scaffolded-awaiting-owner (definition-driven `form` block; empty submit refused with live wording; filled submit captured locally with a visible "no backend connected" notice; endpoint wiring ready in `scripts/site-config.js`) | forms | **owner: form intake endpoint** — forms service / Marketo / the existing AEM webform servlets on the production host (`/bin/wd/sf/lead/sub`, `/bin/wd/formemail`, `/bin/wd/acs/formsubmit`, `/bin/wd/recycle`) | 9 definitions in `data/forms/*.json` (controls read after settle; no `regulated-pii`; `ext_regBusinessName` matched `/ssn/` — false positive); no `action` on any source form (handler-injected) |
 | 16 | consent-cmp | Relyance consent banner (`consent.app.relyance.ai`) + Cookie Preferences footer link | T | 106/106 | embed-passthrough | needs-business-decision | interim: NOT loaded; "Cookie Preferences" footer link kept as authored text | consent-gated-tags | **owner: CMP + property id on the new host** | consent.app.relyance.ai |
 | 17 | tag-manager | Adobe Launch (`assets.adobedtm.com`), `utag_data` / `dataLayer` settings objects | T/A | 106/106 | embed-passthrough | needs-business-decision | interim: not loaded (`scripts/delayed.js` hook reserved) | consent-gated-tags | **owner: Launch property for the new host** | assets.adobedtm.com |
 | 18 | rum | Akamai mPulse, New Relic | T | 106/106 | embed-passthrough | needs-business-decision | interim: not loaded; EDS RUM ships by default | consent-gated-tags | owner: keep vendor RUM? | go-mpulse.net, newrelic.com |
@@ -44,14 +49,14 @@ the three archetypes never waits on any row below.
 | 20 | live-chat | Genesys PureCloud chat launcher (fixed 65×65 iframe bottom-right) | T | 106/106 | embed-passthrough | needs-business-decision | interim: not loaded (pixel gate masks the 65×65 launcher region) | consent-gated-tags | **owner: deployment id for the new host** | apps.usw2.pure.cloud, api.usw2.pure.cloud |
 | 21 | reviews | Bazaarvoice reviews (product pages) | T | product pages | embed-passthrough | needs-business-decision | decided-out with 14 (catalog stays on commerce host) | consent-gated-tags | owner | apps.bazaarvoice.com |
 | 22 | locales | 60+ hreflang alternates (`/en-us`, `/de-de`, …) | I18N | site-wide | rebuild-native | needs-business-decision | interim: en-us tree only; hreflang emitted for en-us + x-default | locale-tree | **owner: locale scope of the migration** | hreflang set |
-| 23 | calculators | RAID / surveillance capacity calculators | CR | 2 pages | client-only | self | pending (rollout, dedicated `calculator` block; never flattened) | client-only | none | /tools/* |
+| 23 | calculators | RAID / surveillance capacity calculators | CR | 2 pages | client-only | self | done (`calculator` block, variants `raid` / `surveillance`; pages authored under `/spike-a/tools/*`, preview only — promotion to `/tools/*` is a content step) | client-compute | none | `capacity-form` without action, inline compute, no network (detect 2026-10-15); 25/25 known inputs → source outputs |
 
 ## Decision batch
 
 One message to the owner; each item ships its interim tier now.
 
-1. **Commerce (rows 12, 13, 14, 21):** does the catalog/store move? Interim: all product, cart, account and PDP links stay absolute to `www.westerndigital.com`; captured prices are static text.
-2. **Forms (15):** intake endpoint for contact / partner / recycle / newsletter forms. Interim: UI rebuilt, submit disabled with notice.
+1. **Commerce (rows 12, 13, 14, 21):** does the catalog/store move? Interim: PDP, cart, account and compare links stay absolute to `www.westerndigital.com`; PLP grids, facets, sort and paging are fed live by the storefront search API (row 14, done); tile prices are the authored captured text where the document carries the product, the search API's catalog price otherwise (live per-SKU price hydration is row 12). For production: keep `api.westerndigital.com` CORS open to the new host; route `clpcampaignendpoint` same-origin (the campaign tile runs on a snapshot until then).
+2. **Forms (15):** intake endpoint for the contact-us topics, Talk to an Expert, newsletter and recycle forms (`scripts/site-config.js` → `forms.endpoint` or per form id / page path; receives POST JSON `{ data, page, timestamp }`). Interim: UI rebuilt from the live definitions; submissions are captured in the browser with an explicit "no backend connected" notice — nothing reaches WD.
 3. **Tags and consent (16–20):** CMP vendor + Launch property + RUM/pixel/chat ids for the new host. Interim: none loaded.
 4. **Locales (22):** en-us only, or the locale tree? Interim: en-us.
 5. **Search corpus (2):** migrated pages only (interim) vs. products too (needs commerce).
@@ -62,7 +67,7 @@ One message to the owner; each item ships its interim tier now.
 |---|---|---|
 | cart / price / inventory hydration | session-bound commerce APIs, dead off-origin | "Cart and pricing remain on the Salesforce Commerce storefront; migrated pages link to it." |
 | account / sign-in | authenticated commerce surface | "Sign-in stays on the storefront host." |
-| product catalog (PLP/PDP/compare/weekly-sale) | client-rendered from commerce APIs | "Catalog pages are not migrated in this phase; navigation links point to the storefront." |
+| product detail / compare / quick-view (PLPs are row 14, data-fed) | session- and cart-bound commerce surfaces | "Product detail, compare and quick-view stay on the storefront; listing tiles link to it." |
 | Bazaarvoice reviews | product-page widget, catalog not migrated | "No reviews surface on migrated pages." |
 
 ## Amendment 2026-09-18 — Products menu wave (user decision)
@@ -76,3 +81,21 @@ sort and pagination are inert. Row 14 is re-opened for **product listing pages o
 | 14 product-catalog (PLP grids, facets, sort, pagination) | decided-out | **pending** — in scope by user decision; not triaged yet (disposition and reproducibility open) |
 | 14 product-catalog (PDP, compare, quick-view) | decided-out | unchanged — tiles link absolute to the storefront PDP (`/products/<family>/<code>?sku=`) |
 | 12 cart-hydration / price & inventory | decided-out | unchanged — tile prices are the captured values |
+
+## Amendment 2026-10-15 — dynamics Phases 1–5 on rows 14, 15, 23 (branch `spike-a`)
+
+Hands-off run; every other row untouched. Detect re-run on the rows' source pages (`/products/hdd/internal-hdd`, `/products/hdd`,
+`/company/contact-us`, `/company/distributors/find-a-store`, `/solutions/data-center-storage-platform` (+ `/use-case-ai`),
+`/tools/raid-capacity-calculator`, `/tools/surveillance-capacity-calculator`). Code on `spike-a`
+(https://spike-a--sdt-westerndigital--aemcoder.aem.page); new content only under `/spike-a/…` (preview only). Parity:
+`stardust/dynamics/parity.json` (features `product-catalog`, `forms`, `calculators`) → `stardust/qa/dynamics-report.md` 14/14.
+
+| row | was | now |
+|---|---|---|
+| 14 product-catalog (PLP grids, facets, sort, pagination) | pending (not triaged) | **data-fed · self · done** — `product-listing` reads the storefront search API (CORS echoes any origin) from the `categories` / `condition` / `filters` rows already in every published PLP document: no content change, the existing pages light up on the code branch. 13/13 URL states = source count + order. Campaign tile = code-bus snapshot of a host-bound feed (interim). |
+| 14 product-catalog (PDP, compare, quick-view) | decided-out | unchanged |
+| 15 forms | scaffolded-awaiting-owner (submission blocked) | scaffolded-awaiting-owner (UI rebuilt; local capture with notice) — owner decision unchanged: intake endpoint. Preview submission replay **not run** (refused in the delegated run; awaiting the user's go-ahead); flows proven on the local dev server. |
+| 15b find-a-store (split out of 15) | counted as a form page | **data-fed + client-only · self · pending** — a where-to-buy FILTER (region / country / brand / reseller type) over `GET /graphql/execute.json/wd/wtbendpoint` (744 KB, 1,524 items, no ACAO = host-bound). Not built this run: snapshot into `data/wtb/` with `_provenance` + a client-side filter block. |
+| 15 — `/solutions/data-center-storage-platform/use-case-ai` | typed `form` | not a form: a headless tab-panel fragment of the DCSP page (0 controls); nothing to migrate under row 15 |
+| 23 calculators | pending | **client-only · self · done** — `calculator` block (raid / surveillance), 25/25 known inputs = source; pages under `/spike-a/tools/*` |
+

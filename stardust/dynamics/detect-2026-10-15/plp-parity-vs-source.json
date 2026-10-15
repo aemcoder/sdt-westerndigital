@@ -1,0 +1,291 @@
+[
+ {
+  "state": "/products/hdd/internal-hdd",
+  "srcCount": 32,
+  "migCount": 32,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "WD Blue PC Mobile Hard Drive"
+  ],
+  "top3mig": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd",
+  "srcCount": 66,
+  "migCount": 66,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "My Passport Ultra"
+  ],
+  "top3mig": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd/external-hdd",
+  "srcCount": 32,
+  "migCount": 32,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "My Passport Ultra",
+   "My Passport, Works with USB-C™",
+   "My Passport"
+  ],
+  "top3mig": [
+   "My Passport Ultra",
+   "My Passport, Works with USB-C™",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/accessories",
+  "srcCount": 21,
+  "migCount": 21,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "My Passport Hard Case",
+   "WD_BLACK Limited-Edition Beanie",
+   "WD Travel Sling Backpack"
+  ],
+  "top3mig": [
+   "My Passport Hard Case",
+   "WD_BLACK Limited-Edition Beanie",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/data-center-storage",
+  "srcCount": 22,
+  "migCount": 22,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "WD Gold Enterprise Class Hard Drive",
+   "WD Gold Enterprise Class SATA HDD",
+   "Ultrastar DC HC690 Data Center Hard Drive"
+  ],
+  "top3mig": [
+   "WD Gold Enterprise Class Hard Drive",
+   "WD Gold Enterprise Class SATA HDD",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [
+   "Ultrastar DC HC555 Data Center Hard Drive"
+  ],
+  "onlyMig": [
+   "Limited Time Offer",
+   "Ultrastar HC555 Data Center Hard Drive"
+  ]
+ },
+ {
+  "state": "/products/recertified",
+  "srcCount": 21,
+  "migCount": 21,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "WD_BLACK Performance Mobile Hard Drive - Recertified",
+   "WD Blue PC Mobile Hard Drive - Recertified",
+   "WD Blue PC Desktop Hard Drive - Recertified"
+  ],
+  "top3mig": [
+   "WD_BLACK Performance Mobile Hard Drive - Recertified",
+   "WD Blue PC Mobile Hard Drive - Recertified",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/final-production",
+  "srcCount": 7,
+  "migCount": 7,
+  "srcTiles": 7,
+  "migTiles": 8,
+  "order": "differs",
+  "top3src": [
+   "WD Gold Enterprise Class SATA HDD",
+   "90W Power Adapter Kit",
+   "ev Series Bay Adapter"
+  ],
+  "top3mig": [
+   "WD Gold Enterprise Class SATA HDD",
+   "90W Power Adapter Kit",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)",
+  "srcCount": 6,
+  "migCount": 6,
+  "srcTiles": 6,
+  "migTiles": 7,
+  "order": "differs",
+  "top3src": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "My Cloud Home"
+  ],
+  "top3mig": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd?filterByUseCaseName=Smart+Video+Surveillance",
+  "srcCount": 4,
+  "migCount": 4,
+  "srcTiles": 4,
+  "migTiles": 5,
+  "order": "differs",
+  "top3src": [
+   "WD Purple Pro Video Analytics Hard Drive",
+   "WD Purple Surveillance Hard Drive",
+   "WD Purple Surveillance Hard Drive"
+  ],
+  "top3mig": [
+   "WD Purple Pro Video Analytics Hard Drive",
+   "WD Purple Surveillance Hard Drive",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd?filterByVvc-capacity=21+TB+-+50+TB",
+  "srcCount": 23,
+  "migCount": 23,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Purple Pro Video Analytics Hard Drive",
+   "WD Gold Enterprise Class Hard Drive"
+  ],
+  "top3mig": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Purple Pro Video Analytics Hard Drive",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd/internal-hdd?filterByBrandName=Western+Digital",
+  "srcCount": 30,
+  "migCount": 30,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "WD Blue PC Mobile Hard Drive"
+  ],
+  "top3mig": [
+   "WD Red Pro NAS Hard Drive",
+   "WD Red Plus Internal NAS HDD 3.5\"",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd/internal-hdd?page=2",
+  "srcCount": 32,
+  "migCount": 32,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "Ultrastar DC HC570 Data Center Hard Drive",
+   "Ultrastar DC HC560 Data Center Hard Drive",
+   "Ultrastar DC HC550 Data Center Hard Drive"
+  ],
+  "top3mig": [
+   "Ultrastar DC HC570 Data Center Hard Drive",
+   "Ultrastar DC HC560 Data Center Hard Drive",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ },
+ {
+  "state": "/products/hdd/external-hdd?filterByConnector_List=USB-A,USB-C",
+  "srcCount": 18,
+  "migCount": 18,
+  "srcTiles": 15,
+  "migTiles": 16,
+  "order": "differs",
+  "top3src": [
+   "My Passport Ultra",
+   "My Passport Ultra for Mac",
+   "WD_BLACK P10 Game Drive"
+  ],
+  "top3mig": [
+   "My Passport Ultra",
+   "My Passport Ultra for Mac",
+   "Limited Time Offer"
+  ],
+  "onlySrc": [],
+  "onlyMig": [
+   "Limited Time Offer"
+  ]
+ }
+]

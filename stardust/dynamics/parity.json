@@ -1,13 +1,14 @@
 {
   "_provenance": {
     "writtenBy": "stardust:dynamics",
-    "writtenAt": "2026-09-21T12:45:48Z",
-    "againstInput": "replica pilot chain ending at deploy \u2014 Phases 4\u20135 standalone",
+    "writtenAt": "2026-10-15T17:40:00Z",
+    "againstInput": "replica pilot chain ending at deploy — Phases 4–5 standalone",
     "readArtifacts": [
       "stardust/dynamic-features.md",
       "stardust/.work/deploy/delivered-check.json",
       "stardust/replica/motion/*.json"
-    ]
+    ],
+    "amendedBy": "stardust:dynamics Phases 1–5 on register rows 14, 15, 23 (branch spike-a); other features unchanged"
   },
   "method": "self rows rebuilt natively in block/header JS from motion-observe evidence; static snapshot for commerce/data rows; tags host-gated (not loaded on preview); replays run against the preview origin at 1440 (360 for the drawer).",
   "features": [
@@ -44,7 +45,7 @@
       "disposition": "rebuild-native",
       "reproducibility": "self",
       "status": "done",
-      "verifiedBy": "header block: button.navbar-hamburger aria-expanded toggles at 360 (drawer + drill proven on the harness, foundation.log; chrome cells drawer/drawer-drilled gated in replica progress.json); desktop nav drops open on hover (not a click observable) \u2014 gated as chrome-states cells menu:Products/Solutions/Support/Company 0.00 %",
+      "verifiedBy": "header block: button.navbar-hamburger aria-expanded toggles at 360 (drawer + drill proven on the harness, foundation.log; chrome cells drawer/drawer-drilled gated in replica progress.json); desktop nav drops open on hover (not a click observable) — gated as chrome-states cells menu:Products/Solutions/Support/Company 0.00 %",
       "checks": [
         {
           "type": "click-control",
@@ -59,7 +60,7 @@
           "min": 4
         }
       ],
-      "environmentLimit": "click-control runs at the desktop width, where the hamburger is zero-box \u2192 SKIP by the instrument; the 360 drawer is covered by the replica chrome matrix (progress.json#chrome.variants[default].states.drawer = gated 1.04 %)"
+      "environmentLimit": "click-control runs at the desktop width, where the hamburger is zero-box → SKIP by the instrument; the 360 drawer is covered by the replica chrome matrix (progress.json#chrome.variants[default].states.drawer = gated 1.04 %)"
     },
     {
       "id": "solutions-faq",
@@ -219,7 +220,7 @@
       "status": "interim",
       "verifiedBy": "no captured page renders a player (reach-only rows); nothing to embed",
       "checks": [],
-      "owner": "none needed \u2014 no captured page renders a player; a video-plays check is added when a page with a player enters scope"
+      "owner": "none needed — no captured page renders a player; a video-plays check is added when a page with a player enters scope"
     },
     {
       "id": "4,27,28",
@@ -231,6 +232,219 @@
       "status": "decided-out",
       "verifiedBy": "register rows; links bounce to www.westerndigital.com",
       "checks": []
+    },
+    {
+      "id": "product-catalog",
+      "feature": "product listing pages: grid, facets, sort, pagination, filterBy URL state (product-listing, data-fed)",
+      "class": "CR/X",
+      "pages": 7,
+      "disposition": "data-fed",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "search-query",
+          "path": "/products/hdd",
+          "param": "filterByUseCaseName",
+          "term": "Smart Video Surveillance",
+          "resultSelector": ".product-listing.is-live .tile-cell:not(.tile-cell--campaign)",
+          "titleSelector": ".tile-name",
+          "expectCount": 4,
+          "expectTitles": [
+            "WD Purple Pro Video Analytics Hard Drive",
+            "WD Purple Surveillance Hard Drive"
+          ],
+          "expectIncludes": "/products/internal-drives/wd-purple-pro-sata-hdd"
+        },
+        {
+          "type": "search-query",
+          "path": "/products/hdd",
+          "param": "filterByUseCaseName",
+          "term": "Network Attached Storage (NAS)",
+          "resultSelector": ".product-listing.is-live .tile-cell:not(.tile-cell--campaign)",
+          "titleSelector": ".tile-name",
+          "expectCount": 6,
+          "expectTitles": [
+            "WD Red Pro NAS Hard Drive",
+            "WD Red Plus Internal NAS HDD 3.5\"",
+            "My Cloud Home"
+          ]
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd?page=2",
+          "selector": ".product-listing.is-live .pg-num.is-current[data-page=\"2\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/recertified",
+          "selector": ".product-listing.is-live .clp-filter-options .clp-check",
+          "min": 10
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/products/hdd/internal-hdd",
+            "/products/hdd",
+            "/products/hdd/external-hdd",
+            "/products/accessories",
+            "/products/data-center-storage",
+            "/products/recertified",
+            "/products/final-production"
+          ]
+        }
+      ],
+      "row": 14,
+      "verifiedBy": "2026-10-15 spike-a preview vs source, same URL state: 13/13 states item count = source (internal-hdd 32, hdd 66, external-hdd 32, accessories 21, data-center-storage 22, recertified 21, final-production 7, NAS 6, SVS 4, 21-50 TB 23, brand WD 30, page=2 32, USB-A,USB-C 18); first-page products and order = source in every state (one renamed product: authored 'Ultrastar HC555' vs live 'Ultrastar DC HC555' — document-first); campaign tile at slot 3 on both. 360: filter overlay opens/closes, Use Case=Data Center 32→19 items + URL, sort name-asc; 0 page errors. probes stardust/.work/plp/{parity-live,probe-plp,probe-360}.mjs",
+      "owner": "none to ship. For production: keep api.westerndigital.com CORS open to the new host (it echoes any Origin today); route /graphql/execute.json/wd/clpcampaignendpoint same-origin (no ACAO today) to retire the campaign snapshot. Live per-SKU price hydration stays decided-out (row 12).",
+      "snapshot": "data/products/clp-campaigns.json — 2026-10-15T16:16:31Z (campaign tile only)"
+    },
+    {
+      "id": "forms",
+      "row": 15,
+      "feature": "intake forms: contact-us topics (6 forms), Talk to an Expert modal, newsletter (form block, definition-driven)",
+      "class": "F",
+      "pages": 3,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "local (aem up, this repo) 2026-10-15: empty submit refused with the live wording on all 8 authored forms (looking-to-purchase 9 messages = live set; email forms 4 each; newsletter 1), 0 POST; filled submit → 'Captured locally — no backend connected' notice + 1 localStorage capture each; with an injected endpoint all 8 POST application/json {data,page,timestamp} and show the live success copy; blocked endpoint → live error copy. Preview: pages 200, served form.js / site-config.js = repo; render + page-error checks replayed below. Submission flows NOT replayed on the preview (see environmentLimit).",
+      "owner": "form intake endpoint — forms service, Marketo, or the existing AEM webform servlets on the production host (/bin/wd/sf/lead/sub, /bin/wd/formemail, /bin/wd/acs/formsubmit, /bin/wd/recycle); set scripts/site-config.js forms.endpoint / forms.endpoints",
+      "environmentLimit": "the preview submission replay was refused in the delegated run and has not been re-run without the user's go-ahead; form-flow checks below FAIL 'filled posted' by design until an endpoint is configured (local capture sends no request)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/spike-a/company/contact-us",
+          "selector": ".form-topic-select option",
+          "min": 11
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-a/solutions/data-center-storage-platform",
+          "selector": "a[href='#talk-to-an-expert']",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-a/company/programs/communications-registration",
+          "selector": "form [name='email']",
+          "min": 1
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/spike-a/company/contact-us",
+            "/spike-a/solutions/data-center-storage-platform",
+            "/spike-a/company/programs/communications-registration"
+          ]
+        },
+        {
+          "type": "form-flow",
+          "path": "/spike-a/company/contact-us?selectedValue=looking-to-purchase",
+          "form": "#form-looking-to-purchase",
+          "submit": "button[type=submit]",
+          "fill": {
+            "fs_1_productCategoryContactUs": "Data Center Storage",
+            "firstName": "Test",
+            "lastName": "Probe",
+            "phone": "5551234567",
+            "email": "probe@example.com",
+            "cusJobTitle": "QA",
+            "ext_regBusinessName": "Stardust QA",
+            "country": "United States",
+            "state": "California",
+            "fs_7_personNotes": "Verification probe"
+          },
+          "successIncludes": "captured locally"
+        },
+        {
+          "type": "form-flow",
+          "path": "/spike-a/company/contact-us?selectedValue=careers",
+          "form": "#form-contact-us-career",
+          "submit": "button[type=submit]",
+          "fill": {
+            "emailTemplate-firstName": "Test",
+            "emailTemplate-lastName": "Probe",
+            "emailTemplate-email": "probe@example.com",
+            "emailTemplate-message": "Verification probe"
+          },
+          "successIncludes": "captured locally"
+        },
+        {
+          "type": "form-flow",
+          "path": "/spike-a/solutions/data-center-storage-platform#talk-to-an-expert",
+          "form": "#form-looking-to-purchase",
+          "submit": "button[type=submit]",
+          "fill": {
+            "fs_1_productCategoryContactUs": "Data Center Storage",
+            "firstName": "Test",
+            "lastName": "Probe",
+            "phone": "5551234567",
+            "email": "probe@example.com",
+            "cusJobTitle": "QA",
+            "ext_regBusinessName": "Stardust QA",
+            "country": "United States",
+            "state": "California",
+            "fs_7_personNotes": "Verification probe"
+          },
+          "successIncludes": "captured locally"
+        },
+        {
+          "type": "form-flow",
+          "path": "/spike-a/company/programs/communications-registration",
+          "form": "#form-newsletter-subscription",
+          "submit": "button[type=submit]",
+          "fill": {
+            "email": "probe@example.com"
+          },
+          "successIncludes": "captured locally"
+        }
+      ]
+    },
+    {
+      "id": "calculators",
+      "feature": "RAID / surveillance capacity calculators",
+      "class": "CR",
+      "pages": 2,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/spike-a/tools/raid-capacity-calculator",
+          "selector": ".calculator.raid form select[name=\"raid-type\"] option",
+          "min": 9
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-a/tools/raid-capacity-calculator",
+          "selector": ".calculator.raid output[data-result]",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-a/tools/surveillance-capacity-calculator",
+          "selector": ".calculator.surveillance form input[name=\"codec\"]",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-a/tools/surveillance-capacity-calculator",
+          "selector": ".calculator.surveillance select[name=\"resolution\"] option",
+          "min": 13
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/spike-a/tools/raid-capacity-calculator",
+            "/spike-a/tools/surveillance-capacity-calculator"
+          ]
+        }
+      ],
+      "row": 23,
+      "verifiedBy": "known input → output, source vs spike-a preview: 25/25 equal (RAID 5 8×8 TB → 64/56/8 TB; RAID 6 4×8 → 32/16/16; RAID 10 6×20 → 120/60/60; RAID 60 8×24 → 192/96/96; JBOD 24×26 → 624/624/0; RAID 6 ×3 → 'Value must be greater than or equal to 4.'; RAID 10 ×5 → even-count message; surveillance H.264 high/high 2MP 8 cams 30 d 24 h 30 fps → 26.325 TB; H.265 med/med 4MP 16 cams 14 d 12 h 15 fps → 2.326; MJPEG med 1MP 4 cams 7 d 8 h 10 fps → 0.595; 65 cams → 'Input number between 1 and 64'); 0 page errors. Driver stardust/.work/calculators/drive-migrated.mjs (re-run by the coordinator, 25/25). The closed check set has no input→output type, so the replayable checks below assert the controls; the flow evidence is the driver."
     }
   ]
 }
