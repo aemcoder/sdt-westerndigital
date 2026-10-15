@@ -272,7 +272,9 @@
     "requiredSelection"
    ],
    "required": true,
-   "error": "Field cannot be empty."
+   "error": "Field cannot be empty.",
+   "default": "United States",
+   "defaultNote": "live preselects the visitor region (en-us \u2192 United States)"
   },
   {
    "name": "state",

@@ -46,7 +46,7 @@ function renderField(field, idPrefix) {
   if (field.type === 'select') {
     control = el('select');
     const ph = el('option'); ph.value = field.placeholderValue ?? ''; ph.textContent = field.label; control.append(ph);
-    (field.options || []).forEach((o) => { const op = el('option'); op.value = o; op.textContent = o; control.append(op); });
+    (field.options || []).forEach((o) => { const op = el('option'); op.value = o; op.textContent = o; if (o === field.default) { op.selected = true; op.defaultSelected = true; } control.append(op); });
   } else if (field.type === 'textarea') {
     control = el('textarea'); control.rows = 6; control.placeholder = field.label;
   } else if (field.type === 'checkbox') {
@@ -72,6 +72,7 @@ function renderField(field, idPrefix) {
 }
 
 function setError(entry, bad) {
+  if (!entry.err) return;
   entry.err.hidden = !bad; entry.wrap.classList.toggle('is-invalid', bad);
   entry.control.setAttribute('aria-invalid', bad ? 'true' : 'false');
 }
