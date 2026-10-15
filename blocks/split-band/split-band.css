@@ -1,0 +1,106 @@
+/* split-band — values lifted from stardust/prototypes/corporate-responsibility.css */
+main .split-band-container { padding-bottom: 48px; }
+main .split-band-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.split-band p, .split-band h3, .split-band ul { margin: 0; }
+.split-band .band { display: flex; flex-wrap: wrap; }
+.split-band .band > div { width: 100%; }
+.split-band .band-media { position: relative; height: 300px; overflow: hidden; }
+.split-band .band:nth-child(7) .band-media { height: 325px; } /* measured live quirk on the philanthropy band at 360 */
+.split-band .band-media :is(p, picture) { position: absolute; inset: 0; margin: 0; line-height: 0; }
+.split-band .band-media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.split-band .band:nth-child(3) .band-media img { object-position: 100% 50%; }
+.split-band .band-text { display: flex; align-items: center; padding: 24px; }
+.split-band .band-top .band-text { align-items: flex-start; }
+.split-band .band-body { width: 100%; }
+.split-band .eyebrow { padding-bottom: 8px; }
+.split-band .eyebrow p { font-size: 16px; line-height: 24px; font-weight: 500; }
+.split-band .title h3 { font-size: 26px; line-height: 28.6px; font-weight: 500; margin-bottom: 8px; }
+.split-band .band p { font-size: 16px; line-height: 24px; }
+.split-band .textcolumn p { margin-bottom: 20px; }
+.split-band .textcolumn p:last-child { margin-bottom: 0; }
+.split-band .textcolumn ul { list-style: disc; padding-left: 40px; }
+.split-band .actions p.button-wrapper { margin-top: 16px; }
+.split-band .actions p.download-wrap { margin-top: 24px; }
+.split-band .actions p.download-wrap a:any-link { display: inline-flex; align-items: center; font-size: 14px; line-height: 14px; text-decoration: underline; color: var(--color-black); }
+.split-band .actions p.download-wrap a svg { display: block; width: 17px; height: 24px; margin-right: 4px; fill: currentcolor; }
+
+@media (width >= 768px) {
+  main .split-band-container { padding-bottom: 64px; }
+  .split-band .band { min-height: 500px; }
+  .split-band .band > div { width: 50%; }
+  .split-band .band-media, .split-band .band:nth-child(7) .band-media { height: auto; }
+  .split-band .band-reverse .band-media { order: 2; }
+  .split-band .band-reverse .band-text { order: 1; }
+  .split-band .band-text { padding: 48px; }
+  .split-band .title h3 { font-size: 32px; line-height: 35.2px; }
+  .split-band .actions p.button-wrapper { margin-top: 24px; }
+  .split-band .actions p.button-wrapper a.button { padding-left: 40px; padding-right: 40px; }
+  .split-band .actions p.download-wrap a:any-link { font-size: 16px; line-height: 16px; }
+  .split-band .actions p.download-wrap a svg { width: 24px; margin-right: 4px; }
+}
+
+/* variant `use-case` — commerce listing bands (values from stardust/prototypes/listing.css .clp-bands): no min-height,
+   992px centred rows, 300px r16 photos, h3 24/28 700, grey copy, outlined CTA + blue text link, every band centred */
+main .split-band-container.light { background: #f9f9f9; padding: 64px 0; }
+.split-band.use-case .band { max-width: 992px; margin: 0 auto -24px; align-items: center; }
+.split-band.use-case .band-top .band-text { align-items: center; }
+.split-band.use-case .band-reverse { padding: 48px 0; }
+.split-band.use-case .band-media { height: auto; margin-bottom: 16px; }
+.split-band.use-case .band-media :is(p, picture) { position: static; }
+.split-band.use-case .band-media img { height: 300px; border-radius: var(--radius-card); }
+.split-band.use-case .band-text { padding: 0; margin-bottom: 16px; }
+.split-band.use-case .title h3 { margin-bottom: 8px; font-size: 24px; line-height: 26.4px; font-weight: 700; }
+.split-band.use-case .textcolumn { padding-bottom: 16px; color: var(--color-text-grey3); }
+.split-band.use-case .textcolumn ul { padding-left: 24px; margin-bottom: 0; }
+.split-band.use-case .textcolumn li { font-size: 16px; line-height: 24px; }
+.split-band.use-case .actions { display: flex; flex-wrap: wrap; align-items: center; }
+.split-band.use-case .actions p.button-wrapper { margin: 0 16px 0 0; }
+.split-band.use-case .actions p.button-wrapper a.button { padding: 8px 16px; font-size: 16px; line-height: 16px; font-weight: 500; }
+.split-band.use-case .actions p:not(.button-wrapper) { margin: 0; }
+.split-band.use-case .actions p:not(.button-wrapper) a:any-link { display: inline-block; padding: 8px 0; border-radius: var(--radius-button); font-size: 16px; line-height: 16px; color: var(--color-link); }
+
+@media (width >= 768px) {
+  main .split-band-container.light { padding: 96px 0; }
+  .split-band.use-case .band { min-height: 0; margin: 0 58px -24px; }
+  .split-band.use-case .band-reverse { padding: 64px 0; }
+  .split-band.use-case .band-media, .split-band.use-case .band-text { width: 50%; padding: 0 24px; }
+  .split-band.use-case .band-text { padding: 0 40px; }
+  .split-band.use-case .title h3 { font-size: 28px; line-height: 30.8px; }
+  .split-band.use-case .actions p.button-wrapper a.button { padding: 8px 16px; }
+}
+@media (width >= 1464px) { .split-band.use-case .band { margin-left: auto; margin-right: auto; } }
+
+/* variant `promo-tiles` — weekly-sale 2×2 promo cards (live @1440: row mar 16 -8 0; cells 562 (px 8, mb 16); card 546×300 #f2f3f3;
+   copy col 273 pad 24 (first card 24 0 24 24), ★ p 28/30.8 500, h3 24/26.4 500, p 16/24, outlined btn pad 12 40 mt 24;
+   image col 273 centred, img max-h 300 (first card img pad 24). @360: image on top 225 tall, copy below) */
+main .split-band-container:has(.split-band.promo-tiles) { padding-bottom: 144px; } /* live: section pb 16 + the empty 4th slot row below the grid (measured: 760px section @1440, 1487px @360) */
+.split-band.promo-tiles { display: flex; flex-wrap: wrap; margin: 16px -8px 0; }
+.split-band.promo-tiles .band { width: 100%; min-height: 0; margin: 0 0 16px; padding: 0 8px; align-items: stretch; }
+.split-band.promo-tiles .band > div { width: 100%; }
+.split-band.promo-tiles .band-inner, .split-band.promo-tiles .band { background: none; }
+.split-band.promo-tiles .band-media { order: 1; height: 225px; background: var(--color-surface); display: flex; align-items: center; justify-content: center; }
+.split-band.promo-tiles .band-media :is(p, picture) { position: static; display: flex; align-items: center; justify-content: center; height: 100%; }
+.split-band.promo-tiles .band-media img { width: auto; max-width: 100%; height: auto; max-height: 225px; object-fit: contain; }
+.split-band.promo-tiles .band:first-child .band-media img { padding: 24px; }
+.split-band.promo-tiles .band-text, .split-band.promo-tiles .band-top .band-text { order: 2; align-items: center; padding: 24px; background: var(--color-surface); }
+.split-band.promo-tiles .eyebrow { padding: 0; }
+.split-band.promo-tiles .eyebrow p { font-size: 24px; line-height: 26.4px; font-weight: 500; }
+.split-band.promo-tiles sup { line-height: 0; }
+.split-band.promo-tiles .title h3 { margin-bottom: 8px; font-size: 20px; line-height: 22px; font-weight: 500; }
+.split-band.promo-tiles .textcolumn p { margin: 0; }
+.split-band.promo-tiles .actions p.button-wrapper { margin-top: 16px; }
+.split-band.promo-tiles .actions p.button-wrapper a.button { padding: 8px 16px; font-size: 14px; line-height: 14px; font-weight: 500; border-color: var(--color-black); background: transparent; color: var(--color-black); }
+@media (width >= 768px) {
+  main .split-band-container:has(.split-band.promo-tiles) { padding-bottom: 80px; }
+  .split-band.promo-tiles .band { width: 50%; }
+  .split-band.promo-tiles .band > div { width: 50%; }
+  .split-band.promo-tiles .band-media { order: 2; height: 300px; }
+  .split-band.promo-tiles .band-media img { max-height: 300px; }
+  .split-band.promo-tiles .band-text, .split-band.promo-tiles .band-top .band-text { order: 1; }
+  .split-band.promo-tiles .band:first-child .band-text { padding: 24px 0 24px 24px; }
+  .split-band.promo-tiles .title h3 { font-size: 24px; line-height: 26.4px; }
+  .split-band.promo-tiles .eyebrow p { font-size: 28px; line-height: 30.8px; }
+  .split-band.promo-tiles .actions p.button-wrapper a.button { line-height: 16px; }
+  .split-band.promo-tiles .actions p.button-wrapper { margin-top: 24px; }
+  .split-band.promo-tiles .actions p.button-wrapper a.button { padding: 12px 40px; font-size: 16px; }
+}

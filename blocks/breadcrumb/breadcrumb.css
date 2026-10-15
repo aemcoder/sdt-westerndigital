@@ -1,0 +1,7 @@
+/* breadcrumb — values lifted from stardust/prototypes/canon.css (.breadcrumb) */
+main .breadcrumb-container > div { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.breadcrumb ul { display: flex; flex-wrap: wrap; align-items: center; margin: 24px 0; padding: 0; list-style: none; }
+.breadcrumb li { display: flex; flex-wrap: wrap; align-items: center; }
+.breadcrumb li a:any-link { font-size: 16px; line-height: 16px; color: var(--color-text-grey3); }
+.breadcrumb li svg { display: block; width: 21px; height: 21px; }
+.breadcrumb li.current { font-size: 16px; line-height: 24px; font-weight: 700; color: var(--color-black); }

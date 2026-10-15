@@ -1,0 +1,591 @@
+{
+  "url": "https://www.westerndigital.com/company/corporate-responsibility",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 3600,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 4800,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 4154,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2654,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 800,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 500,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 300,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 200,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 150,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 120,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 90,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 60,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 30,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "header relative w-full",
+      "position": "sticky",
+      "height": "97px",
+      "transform": "none",
+      "transition": "0.3s ease-in-out",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".link-cta",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 116, 243)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 116, 243)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "a.btn",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "div.relative > div.subnav > div.press-release-template > div.relative.subnav2-0 > div.sticky-head.flex.justify-start",
+        "y": 400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.relative.subnav2-0 > div.sticky-head.flex.justify-start > div.flex.inner-wrap.flex-col > div.px-4.md:mx-6.lg:mx-12 > a.link-cta.block.py-4",
+        "y": 90,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "sticky-stuck"
+        ],
+        "el": "div.relative > div.subnav > div.press-release-template > div.relative.subnav2-0 > div.sticky-head.flex.justify-start",
+        "y": 400
+      },
+      {
+        "added": [
+          "lazyloading"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.image.aem-GridColumn.aem-GridColumn--default--12 > a > picture > img.cq-dd-image.max-w-100px.hide-for-support",
+        "y": 4400
+      },
+      {
+        "added": [
+          "lazyloaded"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.image.aem-GridColumn.aem-GridColumn--default--12 > a > picture > img.cq-dd-image.max-w-100px.hide-for-support",
+        "y": 4400
+      }
+    ]
+  }
+}

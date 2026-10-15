@@ -1,0 +1,6 @@
+/* Roboto — the site's own webfont files (Apache-2.0), self-hosted; loaded by loadFonts() after first paint.
+   local() sources first mirror the live @font-face stack. */
+@font-face { font-family: roboto; src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/roboto-v18-latin-300.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: roboto; src: local('Roboto Regular'), local('Roboto-Regular'), url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: roboto; src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto-v18-latin-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: roboto; src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto-v18-latin-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }

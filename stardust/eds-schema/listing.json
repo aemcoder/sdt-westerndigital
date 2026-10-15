@@ -1,0 +1,1831 @@
+{
+ "source": "http://localhost:8791/listing-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "promo-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "WD Named to 2026 S&P Dow Jones Best in Class Index North America."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "|"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Shop",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "WD for Business",
+     "href": "/business"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "nav-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Solutions"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Support"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Company"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "mainContainWrap",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Internal HDD‎"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Internal HDDs designed for everyday computing, high-performance gaming, NAS, and enterprise-class data storage."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn About Internal HDDs",
+     "href": "/solutions/hard-drives/internal-hdd"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Shop by Use Case:"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Data Center",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Data+Center"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Surveillance",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Smart+Video+Surveillance"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "NAS",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Gaming",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Gaming"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Home",
+     "href": "/en-us"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "All Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Hard Drives (HDD)",
+     "href": "/products/hdd"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Internal HDD"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Shop by Category",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Hard Drives (HDD)",
+     "href": "/products/hdd"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Internal HDD",
+     "href": "/products/hdd/internal-hdd"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Portable & External HDD",
+     "href": "/products/hdd/external-hdd"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Shop by Deals",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Sale",
+     "href": "/products/weekly-sale"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Final Production",
+     "href": "/products/final-production"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Recertified",
+     "href": "/products/recertified"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Filter by"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Clear All"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Filter by"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Brand"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Western Digital (28)",
+     "href": "/products/hdd/internal-hdd?filterByBrandName=Western+Digital"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "WD_BLACK (2)",
+     "href": "/products/hdd/internal-hdd?filterByBrandName=WD_BLACK"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Capacity Range"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "0 GB - 960 GB (3)",
+     "href": "/products/hdd/internal-hdd?filterByVvc-capacity=0+GB+-+960+GB"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "01 TB - 04 TB (12)",
+     "href": "/products/hdd/internal-hdd?filterByVvc-capacity=01+TB+-+04+TB"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "05 TB - 10 TB (11)",
+     "href": "/products/hdd/internal-hdd?filterByVvc-capacity=05+TB+-+10+TB"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "11 TB - 20 TB (13)",
+     "href": "/products/hdd/internal-hdd?filterByVvc-capacity=11+TB+-+20+TB"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "21 TB - 50 TB (12)",
+     "href": "/products/hdd/internal-hdd?filterByVvc-capacity=21+TB+-+50+TB"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "+ More"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "- Less"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Form Factor"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "3.5 in (1)",
+     "href": "/products/hdd/internal-hdd?filterByVvc-form_factor=3.5+in"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Use Case"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Data Center (18)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Data+Center"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Smart Video Surveillance (4)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Smart+Video+Surveillance"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Gaming (2)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Gaming"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Network Attached Storage (NAS) (2)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Audio (1)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Audio"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Filming (1)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Filming"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Photography (1)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Photography"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Video Editing (1)",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Video+Editing"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "+ More"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "- Less"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Color"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Purple (4)",
+     "href": "/products/hdd/internal-hdd?filterByColor_List=Purple|800080"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Red (3)",
+     "href": "/products/hdd/internal-hdd?filterByColor_List=Red|FF0000"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Blue (2)",
+     "href": "/products/hdd/internal-hdd?filterByColor_List=Blue|0000FF"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Gold (1)",
+     "href": "/products/hdd/internal-hdd?filterByColor_List=Gold|D5B9A6"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Connector Type"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "SATA (29)",
+     "href": "/products/hdd/internal-hdd?filterByConnector_List=SATA"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Services"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "Data Recovery (4)",
+     "href": "/products/hdd/internal-hdd?filterByService=Data+Recovery"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Price"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "$50-$199.99 (8)",
+     "href": "/products/hdd/internal-hdd?filterByPriceRange=$50-$199.99"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "$200-$499.99 (7)",
+     "href": "/products/hdd/internal-hdd?filterByPriceRange=$200-$499.99"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "$500-$999.99 (6)",
+     "href": "/products/hdd/internal-hdd?filterByPriceRange=$500-$999.99"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "$1,000-$100,000 (4)",
+     "href": "/products/hdd/internal-hdd?filterByPriceRange=$1,000-$100,000"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Inteface"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "SATA (30)",
+     "href": "/products/hdd/internal-hdd?filterByInterface_List=SATA"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "SAS (15)",
+     "href": "/products/hdd/internal-hdd?filterByInterface_List=SAS"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "SAS 12Gb/s (1)",
+     "href": "/products/hdd/internal-hdd?filterByInterface_List=SAS+12Gb/s"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "SATA 6Gb/s (1)",
+     "href": "/products/hdd/internal-hdd?filterByInterface_List=SATA+6Gb/s"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "+ More"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "- Less"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "30"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Items"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Shop"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Filter"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "(0)"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Sort"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Sort by :"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Most Popular"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Compare"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Compare"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "PREV",
+     "href": "/products/hdd/internal-hdd?page=1"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "1",
+     "href": "/products/hdd/internal-hdd?page=1"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "2",
+     "href": "/products/hdd/internal-hdd?page=2"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "1",
+     "href": "/products/hdd/internal-hdd?page=1"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "2",
+     "href": "/products/hdd/internal-hdd?page=1"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "NEXT",
+     "href": "/products/hdd/internal-hdd?page=1"
+    },
+    {
+     "role": "heading",
+     "order": 97,
+     "text": "Hard Drives for NAS"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Keep your data accessible 24/7 with drives engineered for always-on NAS environments. Built for multi-bay systems with vibration protection."
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "CMR technology"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "NASware™ firmware"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "Up to 26TB capacity"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Shop NAS Drives",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "Learn More",
+     "href": "/solutions/network-attached-storage"
+    },
+    {
+     "role": "heading",
+     "order": 104,
+     "text": "Hard Drives for Gaming"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "Level up your gaming setup with high-performance HDDs designed for speed, reliability, and massive game libraries."
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Up to 10TB of storage"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "7200 RPM performance"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Designed for PC, PlayStation®, and Xbox™"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Shop Gaming Drives",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Gaming"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "Learn More",
+     "href": "/solutions/network-attached-storage"
+    },
+    {
+     "role": "heading",
+     "order": 111,
+     "text": "Hard Drives for Surveillance"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Purpose-built for always-on surveillance systems, supporting continuous recording and advanced video analytics."
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "AllFrame™ technology"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "24/7 workload rating"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Up to 26TB capacity"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Shop Surveillance Drives",
+     "href": "/products/hdd/internal-hdd?filterByUseCaseName=Smart+Video+Surveillance"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Learn More",
+     "href": "/solutions/surveillance"
+    },
+    {
+     "role": "heading",
+     "order": 118,
+     "text": "Helpful Resources"
+    },
+    {
+     "role": "heading",
+     "order": 119,
+     "text": "HDD vs. SSD: Which storage type is right for you?"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "Compare performance, capacity, and cost to determine which storage technology best fits your needs."
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Read More",
+     "href": "/solutions/hdd-vs-ssd"
+    },
+    {
+     "role": "heading",
+     "order": 122,
+     "text": "How to choose the right internal hard drive"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Understand capacity, performance, and workload considerations when selecting an internal HDD."
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Read More",
+     "href": "/solutions/hard-drives"
+    },
+    {
+     "role": "heading",
+     "order": 125,
+     "text": "Home and small business backup solutions"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "Explore reliable backup approaches that protect critical data and reduce downtime risks."
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "Read More",
+     "href": "/solutions/home-backup-solutions"
+    },
+    {
+     "role": "heading",
+     "order": 128,
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "What is an internal hard drive?"
+    },
+    {
+     "role": "body",
+     "order": 130,
+     "text": "An internal hard drive (HDD) is a storage device installed inside a desktop computer or server that holds your operating system, applications, and files. It stores data magnetically on spinning platters and connects to the motherboard, usually via SATA. Internal HDDs offer large capacities at a low cost per gigabyte, making them ideal for bulk storage, backups, and media libraries."
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "What is a SATA hard drive and is it compatible with my PC?"
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "SATA (Serial ATA) is the standard interface that connects internal hard drives to a computer's motherboard, transferring data at up to 6Gb/s. Nearly all desktop PCs have SATA ports, so a 3.5-inch SATA HDD is compatible with virtually any desktop. Just confirm you have an open SATA data port, a free power connector, and a 3.5-inch drive bay."
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "What is the difference between an internal HDD and an SSD?"
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "An internal HDD stores data on spinning magnetic platters, while an SSD uses flash memory with no moving parts. SSDs are much faster for booting, loading apps, and transferring files; HDDs are slower but deliver far more capacity per dollar. Many users pair an SSD for the operating system with a high-capacity HDD for storage and backups."
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "What does an internal hard drive do in a computer?"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "An internal hard drive provides the main long-term storage in a computer. It holds the operating system, installed programs, documents, photos, videos, and games, keeping that data saved even when the power is off. When you open a file or launch an app, the drive reads that data and delivers it to the system."
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "What size internal hard drive do I need?"
+    },
+    {
+     "role": "body",
+     "order": 138,
+     "text": "The right capacity depends on what you store. For everyday documents and web use, 1-2TB is usually plenty; for large photo and video libraries, gaming, or backups, 4-8TB or more is a better fit. Choosing more capacity than you need today leaves room to grow and helps you avoid running out of space later."
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "What is a NAS hard drive and can I use an internal HDD for NAS?"
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": "A NAS hard drive is an internal HDD built for the always-on, multi-drive environment of a network-attached storage system, with firmware and vibration tolerance tuned for 24/7 RAID operation. A standard desktop HDD can technically be installed, but it isn't rated for continuous use. For NAS, choose a purpose-built drive such as WD Red Plus or WD Red Pro."
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "What is taking up space on my hard drive?"
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "Storage is typically used by the operating system, installed applications, system and temporary files, and personal data like photos, videos, and downloads. On Windows, you can review usage under Settings > System > Storage, and on macOS under Apple menu > System Settings > General > Storage. Removing unused apps, large media, and temporary files frees the most space."
+    },
+    {
+     "role": "body",
+     "order": 143,
+     "text": "What's the difference between SMR and CMR hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "CMR (Conventional Magnetic Recording) writes data tracks side by side, delivering consistent write performance that suits NAS, RAID, and write-heavy workloads. SMR (Shingled Magnetic Recording) overlaps tracks to pack in more capacity, which can slow sustained writes. CMR is recommended for RAID and NAS, while SMR fits archival or light, read-mostly use."
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "What's the difference between enterprise hard drives and desktop hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "Desktop drives such as WD Blue are built for everyday single-user computing during normal working hours. Enterprise drives such as WD Gold and Ultrastar are engineered for 24/7 operation, higher workload ratings, longer warranties, and added reliability features like vibration resistance and error recovery. Enterprise drives cost more but are designed for servers, data centers, and continuous heavy use."
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "What hard drive do I need for my NVR or DVR system?"
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "Surveillance NVR and DVR systems record continuously, so they need a drive rated for 24/7 write-intensive workloads rather than a standard desktop HDD. WD Purple and Purple Pro drives are purpose-built for surveillance, supporting always-on recording from multiple camera streams. Match the capacity to your number of cameras, recording resolution, and how long you need to retain footage."
+    },
+    {
+     "role": "body",
+     "order": 149,
+     "text": "What hard drive is recommended for RAID?"
+    },
+    {
+     "role": "body",
+     "order": 150,
+     "text": "RAID arrays need CMR drives rated for 24/7 operation with error-recovery and vibration-tolerance features. For NAS RAID, WD Red Plus or WD Red Pro are recommended; for enterprise or data-center RAID, WD Gold or Ultrastar drives are a better fit. Avoid standard SMR desktop drives in RAID, as they can slow or complicate array rebuilds."
+    },
+    {
+     "role": "body",
+     "order": 151,
+     "text": "What is a SAS internal hard drive and when do I need one?"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "SAS (Serial Attached SCSI) is an enterprise interface offering faster transfer speeds, dual data ports for redundancy, and support for large numbers of drives compared with SATA. It's used in servers, workstations, and data-center storage where reliability and scalability are priorities. Most home and desktop users don't need SAS; SATA is sufficient for typical PCs."
+    },
+    {
+     "role": "body",
+     "order": 153,
+     "text": "Why and when do you partition an internal hard drive?"
+    },
+    {
+     "role": "body",
+     "order": 154,
+     "text": "Partitioning divides one physical drive into separate logical volumes that the system treats as distinct drives. People partition to separate the operating system from data, run more than one operating system, or organize backups and files. It's optional for a single-purpose drive but useful when you want to keep system and personal data isolated."
+    },
+    {
+     "role": "body",
+     "order": 155,
+     "text": "What is the standard method of sanitizing an HDD before reuse or disposal?"
+    },
+    {
+     "role": "body",
+     "order": 156,
+     "text": "The recognized standard for media sanitization is NIST Special Publication 800-88, which defines Clear, Purge, and Destroy methods. For a working HDD, a full overwrite or an ATA Secure Erase command removes data so it can't be recovered. For end-of-life drives that held sensitive data, physical destruction is the most thorough option."
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "What is the difference between WD Red and WD Red Pro?"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "WD Red is an entry-level NAS drive that uses SMR, spins at 5400 RPM class, and is best suited to light-duty or single-drive use. WD Red Pro is an enterprise-class CMR drive that spins at 7200 RPM, with a 550TB/year workload rating, up to a 2.5-million-hour MTBF, a 5-year warranty, and vibration sensors, making it the choice for large, multi-bay, 24/7 business NAS setups."
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "My surveillance system runs RAID — which hard drive should I buy?"
+    },
+    {
+     "role": "body",
+     "order": 160,
+     "text": "For a surveillance system in RAID, you want a drive that handles both continuous video writes and multi-bay array operation. WD Purple Pro is built for this, supporting 24/7 multi-stream recording plus the workload and reliability needed for RAID-based NVR setups and AI-enabled surveillance. Match total capacity to your camera count, resolution, and retention period."
+    },
+    {
+     "role": "heading",
+     "order": 161,
+     "text": "FAQ GAMING"
+    },
+    {
+     "role": "heading",
+     "order": 162,
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "role": "body",
+     "order": 163,
+     "text": "What is a hard drive and what does it do?"
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "A hard drive (HDD) is a storage device that saves your data, files, photos, applications, and the operating system, on spinning magnetic platters. It keeps that data even when the power is off, and reads or writes it whenever your computer or server needs it. HDDs offer large capacities at a low cost per gigabyte."
+    },
+    {
+     "role": "body",
+     "order": 165,
+     "text": "What is the difference between an HDD and an SSD?"
+    },
+    {
+     "role": "body",
+     "order": 166,
+     "text": "An HDD stores data on spinning magnetic platters, while an SSD uses flash memory with no moving parts. SSDs are much faster for booting and loading files, while HDDs deliver far more capacity per dollar. Many systems combine an SSD for speed with an HDD for high-capacity storage and backups."
+    },
+    {
+     "role": "body",
+     "order": 167,
+     "text": "What types of storage does Western Digital offer?"
+    },
+    {
+     "role": "body",
+     "order": 168,
+     "text": "Western Digital offers a full range of hard drives: internal desktop drives (WD Blue, WD Black), NAS drives (WD Red Plus, Red Pro), surveillance drives (WD Purple), and enterprise drives (WD Gold, Ultrastar), plus external and portable HDDs and data-center storage platforms."
+    },
+    {
+     "role": "body",
+     "order": 169,
+     "text": "What is an external hard drive and how is it different from an internal drive?"
+    },
+    {
+     "role": "body",
+     "order": 170,
+     "text": "An external hard drive sits outside your computer and connects over USB, adding storage without opening the machine, ideal for backups and portability. An internal hard drive installs inside a desktop computer or server and connects to the motherboard, usually via SATA, serving as the system's main built-in storage. The mechanism is similar; the difference is the enclosure and connection."
+    },
+    {
+     "role": "body",
+     "order": 171,
+     "text": "Which is better for long-term storage: SSD or HDD?"
+    },
+    {
+     "role": "body",
+     "order": 172,
+     "text": "For long-term, offline archival storage, HDDs are generally preferred. They cost less per terabyte at high capacities and reliably retain data over years when stored properly. SSDs are faster but pricier per terabyte and can slowly lose charge if left unpowered for very long periods, so HDDs remain the workhorse for bulk archives."
+    },
+    {
+     "role": "body",
+     "order": 173,
+     "text": "What is a SAS hard drive and when does a business need one?"
+    },
+    {
+     "role": "body",
+     "order": 174,
+     "text": "A SAS (Serial Attached SCSI) hard drive uses an enterprise interface with dual ports for redundancy, faster speeds, and support for many drives. A business needs SAS when running servers, large RAID arrays, or data-center storage where reliability, failover, and scalability matter. For desktops and small NAS, the simpler SATA interface is usually sufficient."
+    },
+    {
+     "role": "body",
+     "order": 175,
+     "text": "What's the difference between SMR and CMR hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 176,
+     "text": "CMR (Conventional Magnetic Recording) writes data tracks side by side for consistent write performance, making it the choice for NAS, RAID, and write-heavy workloads. SMR (Shingled Magnetic Recording) overlaps tracks to add capacity, but can slow under sustained writes. CMR suits active and RAID use; SMR fits archival or light, read-mostly storage."
+    },
+    {
+     "role": "body",
+     "order": 177,
+     "text": "What's the difference between desktop, NAS, surveillance, and enterprise hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 178,
+     "text": "Each is tuned for its workload. Desktop drives (WD Blue) handle everyday single-user computing; NAS drives (WD Red Plus/Pro) are built for 24/7 multi-drive RAID; surveillance drives (WD Purple/Purple Pro) handle continuous video recording from many cameras; and enterprise drives (WD Gold, Ultrastar) are designed for heavy, always-on data-center workloads with the highest reliability."
+    },
+    {
+     "role": "body",
+     "order": 179,
+     "text": "What are hard drives used for in business, enterprise, and data center environments?"
+    },
+    {
+     "role": "body",
+     "order": 180,
+     "text": "In these environments, hard drives provide cost-effective, high-capacity storage for backups, file servers, virtualization, surveillance, archives, and large-scale cloud and AI data. Their low cost per terabyte makes them ideal for storing data at scale. Enterprise drives and storage platforms deliver the 24/7 reliability and density these continuous workloads require."
+    },
+    {
+     "role": "body",
+     "order": 181,
+     "text": "Which Western Digital product line should I buy for my use case (NAS, surveillance, data center, workstation)?"
+    },
+    {
+     "role": "body",
+     "order": 182,
+     "text": "Match the line to the workload: for NAS, choose WD Red Plus or Red Pro; for surveillance, WD Purple or Purple Pro; for data center and enterprise, WD Gold or Ultrastar; and for a high-performance workstation, WD Black, or WD Blue for general desktop use. This ensures the drive is rated for your reliability and workload needs."
+    },
+    {
+     "role": "body",
+     "order": 183,
+     "text": "Does Western Digital offer bulk pricing for IT, MSP, and reseller buyers?"
+    },
+    {
+     "role": "body",
+     "order": 184,
+     "text": "Yes. Western Digital's WD for Business program offers tiered pricing, volume purchasing, and added benefits for IT teams, MSPs, and resellers. You can access bulk pricing by signing in to or creating a Western Digital for Business account on the WD Store."
+    },
+    {
+     "role": "heading",
+     "order": 185,
+     "text": "FAQ SURVEILLANCE"
+    },
+    {
+     "role": "heading",
+     "order": 186,
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "role": "body",
+     "order": 187,
+     "text": "What is a hard drive and what does it do?"
+    },
+    {
+     "role": "body",
+     "order": 188,
+     "text": "A hard drive (HDD) is a storage device that saves your data, files, photos, applications, and the operating system, on spinning magnetic platters. It keeps that data even when the power is off, and reads or writes it whenever your computer or server needs it. HDDs offer large capacities at a low cost per gigabyte."
+    },
+    {
+     "role": "body",
+     "order": 189,
+     "text": "What is the difference between an HDD and an SSD?"
+    },
+    {
+     "role": "body",
+     "order": 190,
+     "text": "An HDD stores data on spinning magnetic platters, while an SSD uses flash memory with no moving parts. SSDs are much faster for booting and loading files, while HDDs deliver far more capacity per dollar. Many systems combine an SSD for speed with an HDD for high-capacity storage and backups."
+    },
+    {
+     "role": "body",
+     "order": 191,
+     "text": "What types of storage does Western Digital offer?"
+    },
+    {
+     "role": "body",
+     "order": 192,
+     "text": "Western Digital offers a full range of hard drives: internal desktop drives (WD Blue, WD Black), NAS drives (WD Red Plus, Red Pro), surveillance drives (WD Purple), and enterprise drives (WD Gold, Ultrastar), plus external and portable HDDs and data-center storage platforms."
+    },
+    {
+     "role": "body",
+     "order": 193,
+     "text": "What is an external hard drive and how is it different from an internal drive?"
+    },
+    {
+     "role": "body",
+     "order": 194,
+     "text": "An external hard drive sits outside your computer and connects over USB, adding storage without opening the machine, ideal for backups and portability. An internal hard drive installs inside a desktop computer or server and connects to the motherboard, usually via SATA, serving as the system's main built-in storage. The mechanism is similar; the difference is the enclosure and connection."
+    },
+    {
+     "role": "body",
+     "order": 195,
+     "text": "Which is better for long-term storage: SSD or HDD?"
+    },
+    {
+     "role": "body",
+     "order": 196,
+     "text": "For long-term, offline archival storage, HDDs are generally preferred. They cost less per terabyte at high capacities and reliably retain data over years when stored properly. SSDs are faster but pricier per terabyte and can slowly lose charge if left unpowered for very long periods, so HDDs remain the workhorse for bulk archives."
+    },
+    {
+     "role": "body",
+     "order": 197,
+     "text": "What is a SAS hard drive and when does a business need one?"
+    },
+    {
+     "role": "body",
+     "order": 198,
+     "text": "A SAS (Serial Attached SCSI) hard drive uses an enterprise interface with dual ports for redundancy, faster speeds, and support for many drives. A business needs SAS when running servers, large RAID arrays, or data-center storage where reliability, failover, and scalability matter. For desktops and small NAS, the simpler SATA interface is usually sufficient."
+    },
+    {
+     "role": "body",
+     "order": 199,
+     "text": "What's the difference between SMR and CMR hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 200,
+     "text": "CMR (Conventional Magnetic Recording) writes data tracks side by side for consistent write performance, making it the choice for NAS, RAID, and write-heavy workloads. SMR (Shingled Magnetic Recording) overlaps tracks to add capacity, but can slow under sustained writes. CMR suits active and RAID use; SMR fits archival or light, read-mostly storage."
+    },
+    {
+     "role": "body",
+     "order": 201,
+     "text": "What's the difference between desktop, NAS, surveillance, and enterprise hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 202,
+     "text": "Each is tuned for its workload. Desktop drives (WD Blue) handle everyday single-user computing; NAS drives (WD Red Plus/Pro) are built for 24/7 multi-drive RAID; surveillance drives (WD Purple/Purple Pro) handle continuous video recording from many cameras; and enterprise drives (WD Gold, Ultrastar) are designed for heavy, always-on data-center workloads with the highest reliability."
+    },
+    {
+     "role": "body",
+     "order": 203,
+     "text": "What are hard drives used for in business, enterprise, and data center environments?"
+    },
+    {
+     "role": "body",
+     "order": 204,
+     "text": "In these environments, hard drives provide cost-effective, high-capacity storage for backups, file servers, virtualization, surveillance, archives, and large-scale cloud and AI data. Their low cost per terabyte makes them ideal for storing data at scale. Enterprise drives and storage platforms deliver the 24/7 reliability and density these continuous workloads require."
+    },
+    {
+     "role": "body",
+     "order": 205,
+     "text": "Which Western Digital product line should I buy for my use case (NAS, surveillance, data center, workstation)?"
+    },
+    {
+     "role": "body",
+     "order": 206,
+     "text": "Match the line to the workload: for NAS, choose WD Red Plus or Red Pro; for surveillance, WD Purple or Purple Pro; for data center and enterprise, WD Gold or Ultrastar; and for a high-performance workstation, WD Black, or WD Blue for general desktop use. This ensures the drive is rated for your reliability and workload needs."
+    },
+    {
+     "role": "body",
+     "order": 207,
+     "text": "Does Western Digital offer bulk pricing for IT, MSP, and reseller buyers?"
+    },
+    {
+     "role": "body",
+     "order": 208,
+     "text": "Yes. Western Digital's WD for Business program offers tiered pricing, volume purchasing, and added benefits for IT teams, MSPs, and resellers. You can access bulk pricing by signing in to or creating a Western Digital for Business account on the WD Store."
+    },
+    {
+     "role": "heading",
+     "order": 209,
+     "text": "FAQ NAS"
+    },
+    {
+     "role": "heading",
+     "order": 210,
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "role": "body",
+     "order": 211,
+     "text": "What is a hard drive and what does it do?"
+    },
+    {
+     "role": "body",
+     "order": 212,
+     "text": "A hard drive (HDD) is a storage device that saves your data, files, photos, applications, and the operating system, on spinning magnetic platters. It keeps that data even when the power is off, and reads or writes it whenever your computer or server needs it. HDDs offer large capacities at a low cost per gigabyte."
+    },
+    {
+     "role": "body",
+     "order": 213,
+     "text": "What is the difference between an HDD and an SSD?"
+    },
+    {
+     "role": "body",
+     "order": 214,
+     "text": "An HDD stores data on spinning magnetic platters, while an SSD uses flash memory with no moving parts. SSDs are much faster for booting and loading files, while HDDs deliver far more capacity per dollar. Many systems combine an SSD for speed with an HDD for high-capacity storage and backups."
+    },
+    {
+     "role": "body",
+     "order": 215,
+     "text": "What types of storage does Western Digital offer?"
+    },
+    {
+     "role": "body",
+     "order": 216,
+     "text": "Western Digital offers a full range of hard drives: internal desktop drives (WD Blue, WD Black), NAS drives (WD Red Plus, Red Pro), surveillance drives (WD Purple), and enterprise drives (WD Gold, Ultrastar), plus external and portable HDDs and data-center storage platforms."
+    },
+    {
+     "role": "body",
+     "order": 217,
+     "text": "What is an external hard drive and how is it different from an internal drive?"
+    },
+    {
+     "role": "body",
+     "order": 218,
+     "text": "An external hard drive sits outside your computer and connects over USB, adding storage without opening the machine, ideal for backups and portability. An internal hard drive installs inside a desktop computer or server and connects to the motherboard, usually via SATA, serving as the system's main built-in storage. The mechanism is similar; the difference is the enclosure and connection."
+    },
+    {
+     "role": "body",
+     "order": 219,
+     "text": "Which is better for long-term storage: SSD or HDD?"
+    },
+    {
+     "role": "body",
+     "order": 220,
+     "text": "For long-term, offline archival storage, HDDs are generally preferred. They cost less per terabyte at high capacities and reliably retain data over years when stored properly. SSDs are faster but pricier per terabyte and can slowly lose charge if left unpowered for very long periods, so HDDs remain the workhorse for bulk archives."
+    },
+    {
+     "role": "body",
+     "order": 221,
+     "text": "What is a SAS hard drive and when does a business need one?"
+    },
+    {
+     "role": "body",
+     "order": 222,
+     "text": "A SAS (Serial Attached SCSI) hard drive uses an enterprise interface with dual ports for redundancy, faster speeds, and support for many drives. A business needs SAS when running servers, large RAID arrays, or data-center storage where reliability, failover, and scalability matter. For desktops and small NAS, the simpler SATA interface is usually sufficient."
+    },
+    {
+     "role": "body",
+     "order": 223,
+     "text": "What's the difference between SMR and CMR hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 224,
+     "text": "CMR (Conventional Magnetic Recording) writes data tracks side by side for consistent write performance, making it the choice for NAS, RAID, and write-heavy workloads. SMR (Shingled Magnetic Recording) overlaps tracks to add capacity, but can slow under sustained writes. CMR suits active and RAID use; SMR fits archival or light, read-mostly storage."
+    },
+    {
+     "role": "body",
+     "order": 225,
+     "text": "What's the difference between desktop, NAS, surveillance, and enterprise hard drives?"
+    },
+    {
+     "role": "body",
+     "order": 226,
+     "text": "Each is tuned for its workload. Desktop drives (WD Blue) handle everyday single-user computing; NAS drives (WD Red Plus/Pro) are built for 24/7 multi-drive RAID; surveillance drives (WD Purple/Purple Pro) handle continuous video recording from many cameras; and enterprise drives (WD Gold, Ultrastar) are designed for heavy, always-on data-center workloads with the highest reliability."
+    },
+    {
+     "role": "body",
+     "order": 227,
+     "text": "What are hard drives used for in business, enterprise, and data center environments?"
+    },
+    {
+     "role": "body",
+     "order": 228,
+     "text": "In these environments, hard drives provide cost-effective, high-capacity storage for backups, file servers, virtualization, surveillance, archives, and large-scale cloud and AI data. Their low cost per terabyte makes them ideal for storing data at scale. Enterprise drives and storage platforms deliver the 24/7 reliability and density these continuous workloads require."
+    },
+    {
+     "role": "body",
+     "order": 229,
+     "text": "Which Western Digital product line should I buy for my use case (NAS, surveillance, data center, workstation)?"
+    },
+    {
+     "role": "body",
+     "order": 230,
+     "text": "Match the line to the workload: for NAS, choose WD Red Plus or Red Pro; for surveillance, WD Purple or Purple Pro; for data center and enterprise, WD Gold or Ultrastar; and for a high-performance workstation, WD Black, or WD Blue for general desktop use. This ensures the drive is rated for your reliability and workload needs."
+    },
+    {
+     "role": "body",
+     "order": 231,
+     "text": "Does Western Digital offer bulk pricing for IT, MSP, and reseller buyers?"
+    },
+    {
+     "role": "body",
+     "order": 232,
+     "text": "Yes. Western Digital's WD for Business program offers tiered pricing, volume purchasing, and added benefits for IT teams, MSPs, and resellers. You can access bulk pricing by signing in to or creating a Western Digital for Business account on the WD Store."
+    },
+    {
+     "role": "heading",
+     "order": 233,
+     "text": "Buy Direct from WD"
+    },
+    {
+     "role": "heading",
+     "order": 234,
+     "text": "Authentic Products"
+    },
+    {
+     "role": "body",
+     "order": 235,
+     "text": "Manufacturer Guaranteed"
+    },
+    {
+     "role": "cta",
+     "order": 236,
+     "text": "Shop Now",
+     "href": "/products"
+    },
+    {
+     "role": "heading",
+     "order": 237,
+     "text": "Simple Returns"
+    },
+    {
+     "role": "body",
+     "order": 238,
+     "text": "With our 30-day money back guarantee"
+    },
+    {
+     "role": "heading",
+     "order": 239,
+     "text": "Data Recovery"
+    },
+    {
+     "role": "body",
+     "order": 240,
+     "text": "Added layer of protection*"
+    },
+    {
+     "role": "cta",
+     "order": 241,
+     "text": "Learn More",
+     "href": "/company/programs/data-recovery"
+    },
+    {
+     "role": "heading",
+     "order": 242,
+     "text": "Easy Recycle"
+    },
+    {
+     "role": "body",
+     "order": 243,
+     "text": "Safe, eco-friendly, free*"
+    },
+    {
+     "role": "cta",
+     "order": 244,
+     "text": "Learn More",
+     "href": "/company/programs/easy-recycle"
+    },
+    {
+     "role": "body",
+     "order": 245,
+     "text": "*Limitations apply. See terms and conditions for details"
+    }
+   ],
+   "imgCount": 25,
+   "editableTexts": 145,
+   "repeats": [
+    {
+     "unitSelector": "DIV.clp-cat-cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.clp-chip-wrap",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.clp-nav-item",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.clp-filter",
+     "count": 9,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.clp-mob-btn",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.tile-cell",
+     "count": 15,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.clp-band",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 1,
+      "textRuns": 7
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.clp-res-cell",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.clp-faq-variant",
+     "count": 3,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 24
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.faq-item",
+     "count": 16,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.clp-buy-item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer-main",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Country/Region:"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "United States",
+     "href": "/region-selector"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "My Account",
+     "href": "/store/my-account"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Sign Up for Email",
+     "href": "/company/programs/communications-registration"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Discounts & Promotions",
+     "href": "/promo"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Product Portfolio",
+     "href": "/products/product-portfolio"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Warranty Policy",
+     "href": "/support/store/warranty-policy"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Return Policy",
+     "href": "/support/store/return-policy"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Distributors & Resellers",
+     "href": "/company/distributors"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Shopping FAQ",
+     "href": "/support/store/shopping-faq"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Programs"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Business Account Benefits",
+     "href": "/business/account-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Data Recovery",
+     "href": "/company/programs/data-recovery"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Recycle Program",
+     "href": "/company/programs/easy-recycle"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "WD Credit",
+     "href": "/business/line-of-credit"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Pro Rewards",
+     "href": "/business/pro-rewards"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Partner Programs",
+     "href": "/company/partners"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Philanthropic Programs",
+     "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Western Digital Capital",
+     "href": "/company/western-digital-capital"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "About Us",
+     "href": "/company"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "News & Events",
+     "href": "/company/newsroom"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Leadership",
+     "href": "/company/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Corporate Responsibility",
+     "href": "/company/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Privacy Center",
+     "href": "/privacy-center"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Blog",
+     "href": "https://blog.westerndigital.com/"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Careers",
+     "href": "/careers"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Investors",
+     "href": "https://investor.wdc.com/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Office Locations",
+     "href": "/company/office-locations"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Contact Us",
+     "href": "/company/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Support"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Get Help",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Resource Library",
+     "href": "/support/store/resource-library"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Product Security",
+     "href": "/support/product-security"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.footer-col",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 8,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer-legal",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Privacy",
+     "href": "/legal/privacy-statement"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Legal",
+     "href": "/legal"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Trademarks",
+     "href": "/legal/trademarks"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Terms of Sale",
+     "href": "/legal/terms-and-conditions-of-sale-consumer"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Product Compliance",
+     "href": "/company/sustainability/product-compliance"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Cookie Preferences",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "© 2026 Western Digital Corporation or its affiliates. All rights reserved."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

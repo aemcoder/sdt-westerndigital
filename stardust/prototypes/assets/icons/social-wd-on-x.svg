@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.714" height="28.714" viewBox="0 0 28.714 28.714">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_5897" data-name="Path 5897" d="M0,0H28.714V28.714H0Z" transform="translate(566 200)" fill="currentColor"></path>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-566 -200)" clip-path="url(#clip-path)">
+    <g id="new-twitter-x-icon_1_" data-name="new-twitter-x-icon (1)" transform="translate(568.746 202.357)">
+      <path id="Path_1" data-name="Path 1" d="M18.244,2.25h3.308l-7.227,8.26,8.5,11.24H16.17l-5.214-6.817L4.99,21.75H1.68l7.73-8.835L1.254,2.25H8.08l4.713,6.231ZM17.083,19.77h1.833L7.084,4.126H5.117Z" fill="currentColor"></path>
+    </g>
+  </g>
+</svg>

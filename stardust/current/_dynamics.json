@@ -1,0 +1,1803 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-09-18T06:58:44.984Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.westerndigital.com/",
+   "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+   "https://www.westerndigital.com/company/corporate-responsibility"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.westerndigital.com/",
+   "status": 200,
+   "host": "www.westerndigital.com",
+   "title": "High-Capacity HDDs for PCs, NAS, Gaming, Data Centers, and AI Data Cycles | WD",
+   "forms": [
+    {
+     "name": "searchForm",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "modal",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "modal",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Your Cart (0 Items)",
+     "textLen": 114,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 470,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "d",
+     "heading": "",
+     "textLen": 470,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 41,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+     "title": null,
+     "w": 65,
+     "h": 65
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 4
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [
+     "x-default",
+     "en",
+     "en-US",
+     "en-CA",
+     "en-IE",
+     "en-SE",
+     "en-BE",
+     "en-AT",
+     "en-PT",
+     "en-HU",
+     "en-DK",
+     "en-RO",
+     "en-FI",
+     "en-HR",
+     "en-SK",
+     "en-BG",
+     "en-BY",
+     "en-SI",
+     "en-NO",
+     "en-GB",
+     "en-AE",
+     "en-KZ",
+     "en-KW",
+     "en-ZA",
+     "en-UA",
+     "en-IL",
+     "en-MY",
+     "en-PH",
+     "en-VN",
+     "en-EE",
+     "en-LV",
+     "en-LT",
+     "en-AU",
+     "en-NZ",
+     "en-SG",
+     "en-IN",
+     "en-BD",
+     "de",
+     "de-AT",
+     "fr",
+     "fr-CA",
+     "cs",
+     "es-ES",
+     "el",
+     "it",
+     "nl",
+     "pl",
+     "ja",
+     "es",
+     "es-MX",
+     "es-AR",
+     "es-PE",
+     "es-CL",
+     "es-CO",
+     "es-EC",
+     "pt",
+     "zh",
+     "zh-TW",
+     "ko",
+     "th",
+     "id",
+     "ru",
+     "ar",
+     "ar-AE",
+     "ar-EG",
+     "ar-QA",
+     "ar-DZ",
+     "tr"
+    ],
+    "switcher": [
+     "https://www.facebook.com/WD"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0"
+    ],
+    "utag_data": [
+     "analyticsTrackingID",
+     "eventName",
+     "pageLocale",
+     "pageType",
+     "pageSection",
+     "pageName",
+     "siteID",
+     "sitePlatform",
+     "currencyISO",
+     "thumbnailURL",
+     "pageBrand",
+     "utagdnb_industry",
+     "localDayOfWeek",
+     "localHour"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "YT"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 12,
+   "inlineFetch": true,
+   "mainText": 5173,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.westerndigital.com": 51,
+    "static.westerndigital.com": 6,
+    "s.go-mpulse.net": 2,
+    "assets.adobedtm.com": 6,
+    "apps.bazaarvoice.com": 1,
+    "connect.facebook.net": 2,
+    "consent.app.relyance.ai": 8,
+    "c.go-mpulse.net": 2,
+    "apps.usw2.pure.cloud": 31,
+    "api-cdn.usw2.pure.cloud": 4,
+    "js-agent.newrelic.com": 1,
+    "www.youtube.com": 2,
+    "bam.nr-data.net": 4,
+    "api.usw2.pure.cloud": 2
+   },
+   "thirdPartyHosts": [
+    "s.go-mpulse.net",
+    "assets.adobedtm.com",
+    "apps.bazaarvoice.com",
+    "connect.facebook.net",
+    "consent.app.relyance.ai",
+    "c.go-mpulse.net",
+    "apps.usw2.pure.cloud",
+    "api-cdn.usw2.pure.cloud",
+    "js-agent.newrelic.com",
+    "www.youtube.com",
+    "bam.nr-data.net",
+    "api.usw2.pure.cloud"
+   ],
+   "scripts": [
+    "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/clientlibs/vue-global.min.js",
+    "https://www.westerndigital.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.westerndigital.com/etc.clientlibs/wd/designs/clientlibs/store-vue.lc-80ea22c28068f447c1e66ce43f102c10-lc.min.js",
+    "https://s.go-mpulse.net/boomerang/2XD7R-GYVC3-Z7FT2-PXSHS-8SKH3",
+    "https://assets.adobedtm.com/launch-ENd8448c7dd95d4b6baacdd65a3250aef4.min.js",
+    "https://apps.bazaarvoice.com/deployments/western_digital/main_site/production/en_US/bv.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://assets.adobedtm.com/eb9bec9c8d91/7c2a87201408/0236b205d146/RCd4dc0a45f4d44b63a6b3ba53a9118e4e-source.min.js",
+    "https://assets.adobedtm.com/eb9bec9c8d91/7c2a87201408/0236b205d146/RCbc49625fe48b4f6d851c6202f3b089e3-source.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://consent.app.relyance.ai/relyance-agent.js",
+    "https://connect.facebook.net/signals/config/353731461716730?v=2.9.403&r=stable&domain=www.westerndigital.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2",
+    "https://www.westerndigital.com/chatbot/assets/index-BM7HFku8.js",
+    "https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js",
+    "https://apps.usw2.pure.cloud/cxbus/cxbus.min.js",
+    "https://apps.usw2.pure.cloud/messenger/thirdpartyplugins.min.js",
+    "https://apps.usw2.pure.cloud/journey/messenger-plugins/offersHelper.min.js",
+    "https://apps.usw2.pure.cloud/journey/messenger-plugins/journey.min.js",
+    "https://apps.usw2.pure.cloud/cobrowse-next/sharer.min.js",
+    "https://js-agent.newrelic.com/nr-spa-1.318.0.min.js",
+    "https://apps.usw2.pure.cloud/genesys-bootstrap/plugins/storagehub.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messagingMiddleware.min.js",
+    "https://apps.usw2.pure.cloud/messenger/engage.min.js",
+    "https://apps.usw2.pure.cloud/messenger/broadcast.min.js",
+    "https://apps.usw2.pure.cloud/messenger/defaultVendors.min.js",
+    "https://apps.usw2.pure.cloud/messenger/muiVendor.min.js",
+    "https://apps.usw2.pure.cloud/messenger/main.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messengerrenderer.min.js",
+    "https://www.youtube.com/iframe_api",
+    "https://www.youtube.com/s/player/4fd832e7/www-widgetapi.vflset/www-widgetapi.js",
+    "https://apps.usw2.pure.cloud/messenger/i18n/vendors/date-en.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messagingservice.min.js",
+    "https://apps.usw2.pure.cloud/messenger/genesyscloud-messaging-transport.mod.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/favorites/getUser",
+     "query": [
+      "fields"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.westerndigital.com/store/favorites/getUser"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/bin/wd/cache/commerce/custompromotions.en-us.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/bin/wd/cache/commerce/custompromotions.en-us.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/cart/getCart",
+     "query": [
+      "fields"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/store/cart/getCart"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/chatbot/locales/en-us/translation.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/cart/guest/products/priceAndInventory",
+     "query": [
+      "fields",
+      "productsQuery"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/store/cart/guest/products/priceAndInventory"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET c.go-mpulse.net/api/config.json",
+    "GET consent.app.relyance.ai/api/location",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-lo",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+    "POST bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+    "GET apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+    "GET api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/ab44a"
+   ],
+   "postBodies": [
+    {
+     "url": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=159&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=dbb9cf28",
+     "body": "{\"ja\":{\"nrAgentProvider\":\"index-cannula-cli\",\"webdriverDetected\":false}}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=365&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=d",
+     "body": "bel.6;e,'load,2i,5;5,'pageUrl,'https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html;5,'net-etype,'4g;6,'net-dlink,10.;5,'nrAgentProvider,'index-cannula-cli;8,'webdriverDetected"
+    },
+    {
+     "url": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=366&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid",
+     "body": "{\"xhr\":[{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/1/NRJS-09ace4b72d173c8eb24\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":72},\"rxSize\":{\"t\":199},\"duration\":{\"t\":203},\"cbTime\":{\"t\":1},\"time\":{\"t\":159}}}]}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=366&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=d",
+     "body": "bel.7;1,2,,2i,,,'initialPageLoad,'https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html,'https://www.westerndigital.com/,1,,,!!!!'d9f46b7c-164e-4421-b1d7-a043ad23403b,'1,!!;5,'nrAgentProvider,'index-cannula-cli;8,'webdriverDetected;b,!!!!,,,,,,1,n,,!2,,,1s,,"
+    }
+   ],
+   "textAtLoad": 4049,
+   "mainEmptyAtLoad": false
+  },
+  "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure": {
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+   "status": 200,
+   "host": "www.westerndigital.com",
+   "title": "As AI Data Surges, WD Outlines a New Path to Economically Scalable Storage Infrastructure | WD",
+   "forms": [
+    {
+     "name": "searchForm",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "modal",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "modal",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Your Cart (0 Items)",
+     "textLen": 114,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 29,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 29,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 25,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+     "title": null,
+     "w": 65,
+     "h": 65
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [
+     "x-default",
+     "en",
+     "en-US",
+     "en-CA",
+     "en-IE",
+     "en-SE",
+     "en-BE",
+     "en-AT",
+     "en-PT",
+     "en-HU",
+     "en-DK",
+     "en-RO",
+     "en-FI",
+     "en-HR",
+     "en-SK",
+     "en-BG",
+     "en-BY",
+     "en-SI",
+     "en-NO",
+     "en-GB",
+     "en-AE",
+     "en-KZ",
+     "en-KW",
+     "en-ZA",
+     "en-UA",
+     "en-IL",
+     "en-MY",
+     "en-PH",
+     "en-VN",
+     "en-EE",
+     "en-LV",
+     "en-LT",
+     "en-AU",
+     "en-NZ",
+     "en-SG",
+     "en-IN",
+     "en-BD",
+     "de",
+     "de-AT",
+     "fr",
+     "fr-CA",
+     "cs",
+     "es-ES",
+     "el",
+     "it",
+     "nl",
+     "pl",
+     "es",
+     "es-MX",
+     "es-AR",
+     "es-PE",
+     "es-CL",
+     "es-CO",
+     "es-EC",
+     "pt",
+     "ko",
+     "th",
+     "id",
+     "ru",
+     "ar",
+     "ar-AE",
+     "ar-EG",
+     "ar-QA",
+     "ar-DZ",
+     "tr"
+    ],
+    "switcher": [
+     "https://www.facebook.com/WD"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0"
+    ],
+    "utag_data": [
+     "analyticsTrackingID",
+     "eventName",
+     "pageLocale",
+     "pageType",
+     "pageSection",
+     "pageName",
+     "siteID",
+     "sitePlatform",
+     "currencyISO",
+     "thumbnailURL",
+     "pageBrand",
+     "productReferrer",
+     "utagdnb_industry",
+     "localDayOfWeek",
+     "localHour"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "YT"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 11,
+   "inlineFetch": true,
+   "mainText": 4798,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.westerndigital.com": 20,
+    "static.westerndigital.com": 7,
+    "s.go-mpulse.net": 2,
+    "assets.adobedtm.com": 6,
+    "consent.app.relyance.ai": 8,
+    "c.go-mpulse.net": 2,
+    "connect.facebook.net": 2,
+    "apps.usw2.pure.cloud": 30,
+    "api-cdn.usw2.pure.cloud": 3,
+    "www.youtube.com": 2,
+    "js-agent.newrelic.com": 1,
+    "api.usw2.pure.cloud": 2,
+    "bam.nr-data.net": 5
+   },
+   "thirdPartyHosts": [
+    "s.go-mpulse.net",
+    "assets.adobedtm.com",
+    "consent.app.relyance.ai",
+    "c.go-mpulse.net",
+    "connect.facebook.net",
+    "apps.usw2.pure.cloud",
+    "api-cdn.usw2.pure.cloud",
+    "www.youtube.com",
+    "js-agent.newrelic.com",
+    "api.usw2.pure.cloud",
+    "bam.nr-data.net"
+   ],
+   "scripts": [
+    "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/clientlibs/vue-global.min.js",
+    "https://www.westerndigital.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.westerndigital.com/etc.clientlibs/wd/designs/clientlibs/store-vue/company-page-vue.lc-db93dd5de337d865619df211e46b53cc-lc.min.js",
+    "https://s.go-mpulse.net/boomerang/2XD7R-GYVC3-Z7FT2-PXSHS-8SKH3",
+    "https://assets.adobedtm.com/launch-ENd8448c7dd95d4b6baacdd65a3250aef4.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/eb9bec9c8d91/7c2a87201408/0236b205d146/RCd4dc0a45f4d44b63a6b3ba53a9118e4e-source.min.js",
+    "https://assets.adobedtm.com/eb9bec9c8d91/7c2a87201408/0236b205d146/RCbc49625fe48b4f6d851c6202f3b089e3-source.min.js",
+    "https://consent.app.relyance.ai/relyance-agent.js",
+    "https://www.westerndigital.com/chatbot/assets/index-BM7HFku8.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js",
+    "https://connect.facebook.net/signals/config/353731461716730?v=2.9.403&r=stable&domain=www.westerndigital.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2",
+    "https://apps.usw2.pure.cloud/journey/messenger-plugins/journey.min.js",
+    "https://apps.usw2.pure.cloud/journey/messenger-plugins/offersHelper.min.js",
+    "https://apps.usw2.pure.cloud/cobrowse-next/sharer.min.js",
+    "https://www.youtube.com/iframe_api",
+    "https://apps.usw2.pure.cloud/cxbus/cxbus.min.js",
+    "https://www.youtube.com/s/player/4fd832e7/www-widgetapi.vflset/www-widgetapi.js",
+    "https://apps.usw2.pure.cloud/messenger/messagingMiddleware.min.js",
+    "https://apps.usw2.pure.cloud/messenger/muiVendor.min.js",
+    "https://apps.usw2.pure.cloud/messenger/defaultVendors.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messengerrenderer.min.js",
+    "https://apps.usw2.pure.cloud/messenger/broadcast.min.js",
+    "https://apps.usw2.pure.cloud/messenger/engage.min.js",
+    "https://apps.usw2.pure.cloud/messenger/main.min.js",
+    "https://apps.usw2.pure.cloud/genesys-bootstrap/plugins/storagehub.min.js",
+    "https://apps.usw2.pure.cloud/messenger/thirdpartyplugins.min.js",
+    "https://js-agent.newrelic.com/nr-spa-1.318.0.min.js",
+    "https://apps.usw2.pure.cloud/messenger/i18n/vendors/date-en.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messagingservice.min.js",
+    "https://apps.usw2.pure.cloud/messenger/genesyscloud-messaging-transport.mod.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/favorites/getUser",
+     "query": [
+      "fields"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.westerndigital.com/store/favorites/getUser"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/cart/getCart",
+     "query": [
+      "fields"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/store/cart/getCart"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/chatbot/locales/en-us/translation.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET c.go-mpulse.net/api/config.json",
+    "GET consent.app.relyance.ai/api/location",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-lo",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+    "GET apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+    "POST bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/ins/1/NRJS-09ace4b72d173c8eb24",
+    "GET api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/0a979"
+   ],
+   "postBodies": [
+    {
+     "url": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=553&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=48fc6efc",
+     "body": "{\"ja\":{\"nrAgentProvider\":\"index-cannula-cli\",\"webdriverDetected\":false}}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=1087&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=",
+     "body": "bel.6;e,'load,dm,5;5,'pageUrl,'https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html;5,'net-etype,'4g;6,'net-dlink,10.;5,'nrAgentProvider,'index-cannula-cli;8,'webdriverDetected"
+    },
+    {
+     "url": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=1087&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&pti",
+     "body": "{\"xhr\":[{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/1/NRJS-09ace4b72d173c8eb24\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":72},\"rxSize\":{\"t\":199},\"duration\":{\"t\":530},\"cbTime\":{\"t\":1},\"time\":{\"t\":553}}}]}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=1088&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=",
+     "body": "bel.7;1,2,,dm,,,'initialPageLoad,'https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html,'https://www.westerndigital.com/,1,,,!!!!'a85b009c-d792-48af-841c-8e619c07ad41,'1,!!;5,'nrAgentProvider,'index-cannula-cli;8,'webdriverDetected;b,!!!!,,,,,,1,7p,,!1l,,,4b,,1"
+    },
+    {
+     "url": "https://bam.nr-data.net/ins/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=1088&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=48f",
+     "body": "{\"ins\":[{\"nrAgentProvider\":\"index-cannula-cli\",\"timestamp\":1789714738088,\"pageUrl\":\"https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html\",\"currentUrl\":\"https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html\",\"deploymentId\":\"234ef048-ac0d-4aa4-977c-3c114c0fb0e9\",\"eventType\":\"PageAction\",\"timeSinceLoad\":0.86,\"actionName\":\"DesktopMode\",\"referrerUrl\":\"https://www.westerndigital.com/\""
+    }
+   ],
+   "textAtLoad": 4125,
+   "mainEmptyAtLoad": false
+  },
+  "/company/corporate-responsibility": {
+   "url": "https://www.westerndigital.com/company/corporate-responsibility",
+   "status": 200,
+   "host": "www.westerndigital.com",
+   "title": "Corporate Responsibility | WD",
+   "forms": [
+    {
+     "name": "searchForm",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Visit Resource Center",
+     "href": "https://www.westerndigital.com/company/corporate-responsibility/resource-center",
+     "marker": "wd-modal-btn",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "modal",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 115,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "modal",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 98,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Your Cart (0 Items)",
+     "textLen": 114,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 29,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 29,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 25,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+     "title": null,
+     "w": 65,
+     "h": 65
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [
+     "x-default",
+     "en",
+     "en-US",
+     "en-CA",
+     "en-IE",
+     "en-SE",
+     "en-BE",
+     "en-AT",
+     "en-PT",
+     "en-HU",
+     "en-DK",
+     "en-RO",
+     "en-FI",
+     "en-HR",
+     "en-SK",
+     "en-BG",
+     "en-BY",
+     "en-SI",
+     "en-NO",
+     "en-GB",
+     "en-AE",
+     "en-KZ",
+     "en-KW",
+     "en-ZA",
+     "en-UA",
+     "en-IL",
+     "en-MY",
+     "en-PH",
+     "en-VN",
+     "en-EE",
+     "en-LV",
+     "en-LT",
+     "en-AU",
+     "en-NZ",
+     "en-SG",
+     "en-IN",
+     "en-BD",
+     "de",
+     "de-AT",
+     "fr",
+     "fr-CA",
+     "cs",
+     "es-ES",
+     "el",
+     "it",
+     "nl",
+     "pl",
+     "ja",
+     "es",
+     "es-MX",
+     "es-AR",
+     "es-PE",
+     "es-CL",
+     "es-CO",
+     "es-EC",
+     "pt",
+     "zh",
+     "zh-TW",
+     "ko",
+     "th",
+     "id",
+     "ru",
+     "ar",
+     "ar-AE",
+     "ar-EG",
+     "ar-QA",
+     "ar-DZ",
+     "tr"
+    ],
+    "switcher": [
+     "https://www.westerndigital.com/en-us",
+     "https://www.facebook.com/WD"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0"
+    ],
+    "utag_data": [
+     "analyticsTrackingID",
+     "eventName",
+     "pageLocale",
+     "pageType",
+     "pageSection",
+     "pageName",
+     "siteID",
+     "sitePlatform",
+     "currencyISO",
+     "thumbnailURL",
+     "pageBrand",
+     "utagdnb_industry",
+     "localDayOfWeek",
+     "localHour"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "YT"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 11,
+   "inlineFetch": true,
+   "mainText": 5525,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.westerndigital.com": 28,
+    "static.westerndigital.com": 6,
+    "s.go-mpulse.net": 2,
+    "assets.adobedtm.com": 6,
+    "consent.app.relyance.ai": 8,
+    "connect.facebook.net": 2,
+    "c.go-mpulse.net": 2,
+    "apps.usw2.pure.cloud": 30,
+    "api-cdn.usw2.pure.cloud": 3,
+    "js-agent.newrelic.com": 1,
+    "www.youtube.com": 2,
+    "bam.nr-data.net": 4,
+    "api.usw2.pure.cloud": 2
+   },
+   "thirdPartyHosts": [
+    "s.go-mpulse.net",
+    "assets.adobedtm.com",
+    "consent.app.relyance.ai",
+    "connect.facebook.net",
+    "c.go-mpulse.net",
+    "apps.usw2.pure.cloud",
+    "api-cdn.usw2.pure.cloud",
+    "js-agent.newrelic.com",
+    "www.youtube.com",
+    "bam.nr-data.net",
+    "api.usw2.pure.cloud"
+   ],
+   "scripts": [
+    "https://static.westerndigital.com/etc.clientlibs/wd-static/designs/clientlibs/vue-global.min.js",
+    "https://www.westerndigital.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.westerndigital.com/etc.clientlibs/wd/designs/clientlibs/store-vue/company-page-vue.lc-db93dd5de337d865619df211e46b53cc-lc.min.js",
+    "https://s.go-mpulse.net/boomerang/2XD7R-GYVC3-Z7FT2-PXSHS-8SKH3",
+    "https://assets.adobedtm.com/launch-ENd8448c7dd95d4b6baacdd65a3250aef4.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://assets.adobedtm.com/eb9bec9c8d91/7c2a87201408/0236b205d146/RCd4dc0a45f4d44b63a6b3ba53a9118e4e-source.min.js",
+    "https://assets.adobedtm.com/eb9bec9c8d91/7c2a87201408/0236b205d146/RCbc49625fe48b4f6d851c6202f3b089e3-source.min.js",
+    "https://consent.app.relyance.ai/relyance-agent.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.westerndigital.com/chatbot/assets/index-BM7HFku8.js",
+    "https://connect.facebook.net/signals/config/353731461716730?v=2.9.403&r=stable&domain=www.westerndigital.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2",
+    "https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js",
+    "https://apps.usw2.pure.cloud/cxbus/cxbus.min.js",
+    "https://apps.usw2.pure.cloud/messenger/thirdpartyplugins.min.js",
+    "https://apps.usw2.pure.cloud/journey/messenger-plugins/offersHelper.min.js",
+    "https://apps.usw2.pure.cloud/journey/messenger-plugins/journey.min.js",
+    "https://apps.usw2.pure.cloud/cobrowse-next/sharer.min.js",
+    "https://js-agent.newrelic.com/nr-spa-1.318.0.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messagingMiddleware.min.js",
+    "https://apps.usw2.pure.cloud/messenger/defaultVendors.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messengerrenderer.min.js",
+    "https://apps.usw2.pure.cloud/messenger/muiVendor.min.js",
+    "https://apps.usw2.pure.cloud/messenger/engage.min.js",
+    "https://apps.usw2.pure.cloud/messenger/broadcast.min.js",
+    "https://apps.usw2.pure.cloud/messenger/main.min.js",
+    "https://apps.usw2.pure.cloud/genesys-bootstrap/plugins/storagehub.min.js",
+    "https://www.youtube.com/iframe_api",
+    "https://www.youtube.com/s/player/4fd832e7/www-widgetapi.vflset/www-widgetapi.js",
+    "https://apps.usw2.pure.cloud/messenger/i18n/vendors/date-en.min.js",
+    "https://apps.usw2.pure.cloud/messenger/messagingservice.min.js",
+    "https://apps.usw2.pure.cloud/messenger/genesyscloud-messaging-transport.mod.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/favorites/getUser",
+     "query": [
+      "fields"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.westerndigital.com/store/favorites/getUser"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/store/cart/getCart",
+     "query": [
+      "fields"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/store/cart/getCart"
+    },
+    {
+     "method": "GET",
+     "host": "www.westerndigital.com",
+     "path": "/chatbot/locales/en-us/translation.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET consent.app.relyance.ai/api/location",
+    "GET c.go-mpulse.net/api/config.json",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-lo",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+    "GET consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+    "POST bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+    "POST bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+    "GET apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+    "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+    "GET api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/64352"
+   ],
+   "postBodies": [
+    {
+     "url": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=185&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=253d946e",
+     "body": "{\"ja\":{\"nrAgentProvider\":\"index-cannula-cli\",\"webdriverDetected\":false}}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=412&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=2",
+     "body": "bel.6;e,'load,36,5;5,'pageUrl,'https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html;5,'net-etype,'4g;6,'net-dlink,10.;5,'nrAgentProvider,'index-cannula-cli;8,'webdriverDetected"
+    },
+    {
+     "url": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=413&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid",
+     "body": "{\"xhr\":[{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/1/NRJS-09ace4b72d173c8eb24\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":72},\"rxSize\":{\"t\":199},\"duration\":{\"t\":224},\"cbTime\":{\"t\":0},\"time\":{\"t\":185}}}]}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=413&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=2",
+     "body": "bel.7;1,2,,36,,,'initialPageLoad,'https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html,'https://www.westerndigital.com/,1,,,!!!!'4532670e-11c6-4b9f-aa02-2737855751b8,'1,!!;5,'nrAgentProvider,'index-cannula-cli;8,'webdriverDetected;b,!!!!1,,,,,,,u,,!3,,,28,,"
+    }
+   ],
+   "textAtLoad": 4852,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-consent-app-relyance-ai",
+   "class": "A",
+   "feature": "unknown third-party host consent.app.relyance.ai",
+   "hint": "inspect",
+   "evidence": [
+    "consent.app.relyance.ai"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-api-cdn-usw2-pure-cloud",
+   "class": "A",
+   "feature": "unknown third-party host api-cdn.usw2.pure.cloud",
+   "hint": "inspect",
+   "evidence": [
+    "api-cdn.usw2.pure.cloud"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-api-usw2-pure-cloud",
+   "class": "A",
+   "feature": "unknown third-party host api.usw2.pure.cloud",
+   "hint": "inspect",
+   "evidence": [
+    "api.usw2.pure.cloud"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-store-cart-getcart",
+   "class": "A",
+   "feature": "first-party API GET /store/cart/getCart",
+   "api": {
+    "method": "GET",
+    "path": "/store/cart/getCart"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /store/cart/getCart?fields → 200"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ],
+   "reach": {
+    "pages": 105,
+    "of": 106
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-utag-data",
+   "class": "A",
+   "feature": "CMS / app settings object utag_data",
+   "hint": "settings",
+   "evidence": [
+    "analyticsTrackingID",
+    "sitePlatform",
+    "thumbnailURL"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-store-cart-guest-products-priceandinve",
+   "class": "A",
+   "feature": "first-party API GET /store/cart/guest/products/priceAndInventory",
+   "api": {
+    "method": "GET",
+    "path": "/store/cart/guest/products/priceAndInventory"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /store/cart/guest/products/priceAndInventory?fields,productsQuery → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 19,
+    "of": 106
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-dam-store-en-us-assets-s",
+   "class": "D",
+   "feature": "first-party data file GET /content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ],
+   "reach": {
+    "pages": 105,
+    "of": 106
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-bin-wd-cache-commerce-productref",
+   "class": "D",
+   "feature": "first-party data file GET /bin/wd/cache/commerce/productreference.en-us.json",
+   "api": {
+    "method": "GET",
+    "path": "/bin/wd/cache/commerce/productreference.en-us.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /bin/wd/cache/commerce/productreference.en-us.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ],
+   "reach": {
+    "pages": 105,
+    "of": 106
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-chatbot-locales-en-us-translatio",
+   "class": "D",
+   "feature": "first-party data file GET /chatbot/locales/en-us/translation.json",
+   "api": {
+    "method": "GET",
+    "path": "/chatbot/locales/en-us/translation.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /chatbot/locales/en-us/translation.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ],
+   "reach": {
+    "pages": 102,
+    "of": 106
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-bin-wd-cache-commerce-customprom",
+   "class": "D",
+   "feature": "first-party data file GET /bin/wd/cache/commerce/custompromotions.en-us.json",
+   "api": {
+    "method": "GET",
+    "path": "/bin/wd/cache/commerce/custompromotions.en-us.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /bin/wd/cache/commerce/custompromotions.en-us.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 20,
+    "of": 106
+   }
+  },
+  {
+   "id": "i18n-locale-variants-x-default-en-en-us-en-ca-en-ie-en-se-en",
+   "class": "I18N",
+   "feature": "locale variants x-default,en,en-US,en-CA,en-IE,en-SE,en-BE,en-AT,en-PT,en-HU,en-DK,en-RO,en-FI,en-HR,en-SK,en-BG,en-BY,en-SI,en-NO,en-GB,en-AE,en-KZ,en-KW,en-ZA,en-UA,en-IL,en-MY,en-PH,en-VN,en-EE,en-LV,en-LT,en-AU,en-NZ,en-SG,en-IN,en-BD,de,de-AT,fr,fr-CA,cs,es-ES,el,it,nl,pl,ja,es,es-MX,es-AR,es-PE,es-CL,es-CO,es-EC,pt,zh,zh-TW,ko,th,id,ru,ar,ar-AE,ar-EG,ar-QA,ar-DZ,tr",
+   "hint": "locale",
+   "evidence": [
+    "https://www.facebook.com/WD",
+    "https://www.westerndigital.com/en-us"
+   ],
+   "pages": [
+    "/",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-x-default-en-en-us-en-ca-en-ie-en-se-en",
+   "class": "I18N",
+   "feature": "locale variants x-default,en,en-US,en-CA,en-IE,en-SE,en-BE,en-AT,en-PT,en-HU,en-DK,en-RO,en-FI,en-HR,en-SK,en-BG,en-BY,en-SI,en-NO,en-GB,en-AE,en-KZ,en-KW,en-ZA,en-UA,en-IL,en-MY,en-PH,en-VN,en-EE,en-LV,en-LT,en-AU,en-NZ,en-SG,en-IN,en-BD,de,de-AT,fr,fr-CA,cs,es-ES,el,it,nl,pl,es,es-MX,es-AR,es-PE,es-CL,es-CO,es-EC,pt,ko,th,id,ru,ar,ar-AE,ar-EG,ar-QA,ar-DZ,tr",
+   "hint": "locale",
+   "evidence": [
+    "https://www.facebook.com/WD"
+   ],
+   "pages": [
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-wd-modal-btn-chrome-only-target-outside-dom-",
+   "class": "M",
+   "feature": "modal trigger wd-modal-btn (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "https://www.westerndigital.com/company/corporate-responsibility/resource-center"
+   ],
+   "pages": [
+    "/company/corporate-responsibility"
+   ],
+   "reach": {
+    "pages": 224,
+    "of": 106
+   }
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "text:q"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ],
+   "reach": {
+    "pages": 105,
+    "of": 106
+   }
+  },
+  {
+   "id": "t-rum-akamai-mpulse",
+   "class": "T",
+   "feature": "RUM: Akamai mPulse",
+   "role": "RUM: Akamai mPulse",
+   "hint": "tags",
+   "evidence": [
+    "s.go-mpulse.net",
+    "c.go-mpulse.net"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "t-chat-live-chat-widget",
+   "class": "T",
+   "feature": "chat: live chat widget",
+   "role": "chat: live chat widget",
+   "hint": "tags",
+   "evidence": [
+    "apps.usw2.pure.cloud"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "t-rum-new-relic",
+   "class": "T",
+   "feature": "RUM: New Relic",
+   "role": "RUM: New Relic",
+   "hint": "tags",
+   "evidence": [
+    "js-agent.newrelic.com",
+    "bam.nr-data.net"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "t-social-proof-reviews-widget",
+   "class": "T",
+   "feature": "social proof: reviews widget",
+   "role": "social proof: reviews widget",
+   "hint": "tags",
+   "evidence": [
+    "apps.bazaarvoice.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "role": "video: YouTube",
+   "hint": "media",
+   "evidence": [
+    "www.youtube.com"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing"
+   ],
+   "pages": [
+    "/",
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+    "/company/corporate-responsibility"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-4",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 4)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 106,
+  "of": 106,
+  "endpoints": {
+   "GET www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json": 105,
+   "GET www.westerndigital.com/store/favorites/getUser": 105,
+   "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/{uuid}/domains.json": 102,
+   "GET www.westerndigital.com/chatbot/locales/en-us/translation.json": 102,
+   "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/{uuid}/config.json": 102,
+   "GET www.westerndigital.com/bin/wd/cache/commerce/custompromotions.en-us.json": 20,
+   "GET www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json": 105,
+   "GET consent.app.relyance.ai/api/location": 105,
+   "GET consent.app.relyance.ai/api/config/v1/app-{uuid}/behaviors": 105,
+   "GET consent.app.relyance.ai/api/config/v1/app-{uuid}/banner": 105,
+   "GET consent.app.relyance.ai/api/config/v1/app-{uuid}/locale": 105,
+   "GET consent.app.relyance.ai/api/config/v1/app-{uuid}/tracking-technologies-localised": 105,
+   "GET consent.app.relyance.ai/api/config/v1/app-{uuid}/request-url-by-purpose": 105,
+   "GET consent.app.relyance.ai/api/config/v1/app-{uuid}/processing-activities": 105,
+   "GET www.westerndigital.com/store/cart/getCart": 105,
+   "POST bam.nr-data.net/{n}/NRJS-09ace4b72d173c8eb24": 102,
+   "GET c.go-mpulse.net/api/config.json": 105,
+   "GET www.westerndigital.com/store/cart/guest/products/priceAndInventory": 19,
+   "POST bam.nr-data.net/jserrors/{n}/NRJS-09ace4b72d173c8eb24": 102,
+   "POST bam.nr-data.net/events/{n}/NRJS-09ace4b72d173c8eb24": 102,
+   "GET apps.usw2.pure.cloud/messenger/i18n/en-us.json": 102,
+   "GET api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/{uuid}/en-us.json": 102,
+   "GET api.usw2.pure.cloud/api/v2/journey/deployments/{uuid}/customers/{uuid}/ping": 102,
+   "POST westerndigital.tt.omtrdc.net/rest/v1/delivery": 65,
+   "POST www.google.com/ccm/collect": 65,
+   "POST www.google.com/rmkt/collect/{n}/": 65,
+   "GET pixel-config.reddit.com/pixels/t2_148cxi7e/config": 65,
+   "GET tags.srv.stackadapt.com/sa.jpeg": 65,
+   "POST alb.reddit.com/rp": 65,
+   "GET tags.srv.stackadapt.com/saq_pxl": 65,
+   "POST insight.adsrvr.org/track/realtimeconversion": 64,
+   "GET www.googleadservices.com/pagead/conversion/{n}/": 3,
+   "POST www.google.com/ccm/form-data/{n}": 25,
+   "GET paapi8935.d41.co/api": 61,
+   "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/{n}/": 3,
+   "GET www.google.com/pagead/1p-conversion/{n}/": 3,
+   "GET www.google.ch/pagead/1p-conversion/{n}/": 3,
+   "GET www.westerndigital.com/content/dam/g-tech/en-us/portal-assets/data-excel/country.xlsx.exceltojson.json": 14,
+   "POST ad.doubleclick.net/ccm/s/collect": 8,
+   "GET dpm.demdex.net/id": 6,
+   "GET www.westerndigital.com/graphql/execute.json/wd/wtbendpoint": 1,
+   "POST consent.app.relyance.ai/api/user-consent/v1/consent": 3,
+   "GET www.westerndigital.com/tools/wdsearchquery": 1,
+   "GET www.westerndigital.com/locales/en-us/translation.json": 1,
+   "GET www.westerndigital.com/content/experience-fragments/store/nav/header/header-xf/master": 1,
+   "GET www.westerndigital.com/content/experience-fragments/store/nav/footer/footer-xf/master": 1,
+   "GET search.westerndigital.com/wdcapps/tools/api/globalsearchquery": 4,
+   "GET www.westerndigital.com/content/experience-fragments/store/common/search-overlay/master.html": 1,
+   "GET www.westerndigital.com/content/experience-fragments/store/common/search-overlay/master": 1,
+   "GET www.westerndigital.com/content/experience-fragments/store/nav/search/search-overlay/master.html": 1,
+   "GET www.westerndigital.com/content/experience-fragments/store/nav/search/search-overlay/master": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s45011884179304": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s45170963195955": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s49565922584448": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s42298332404476": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s45266620954280": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s49588810454792": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s46896394358159": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s43569298149059": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s48790788292401": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s46388461568143": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s48790261459638": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s41593585912945": 1,
+   "GET www.westerndigital.com/stockpricefeed": 1,
+   "GET www.westerndigital.com/content/dam/store/en-us/portal-assets/excels/us-states.xlsx.exceltojson.json": 1,
+   "GET www.westerndigital.com/graphql/execute.json/wd/clpcampaignendpoint;group1=all;group2=undefined;group3=undefined;group4=undefined;group5=undefined;group6=undefined;group7=undefined;group8=undefined;group9=undefined;group10=undefined;group11=undefined;brand1=all;channel=B2C;locale=/content/dam/store/cf/en-us": 6,
+   "GET api.westerndigital.com/wdwebservices/v2/us/products/search": 6,
+   "GET www.westerndigital.com/content/dam/store/en-us/assets/sys/pct/usecase-icons-mapping.xlsx.exceltojson.json": 3,
+   "GET api.westerndigital.com/wdwebservices/v2/us/products/wd-blue-desktop-sata-hdd/relations": 1,
+   "GET support-en.wd.com/cgi-bin/westerndigital.cfg/php/custom/chat_inlay_json.php": 2,
+   "GET support-en.wd.com/cgi-bin/westerndigital.cfg/php/custom/chat_hours_availability.php": 2,
+   "GET wd-en.widget.custhelp.com/ci/oit/getConfigs": 2,
+   "HEAD wd-en.widget.custhelp.com/s/oit/latest/inlays/oracle/chat-embedded/resources/audio/chatReceive.mp3": 2,
+   "GET wd-en.widget.custhelp.com/ci/api/v1/customFields": 2,
+   "GET www.westerndigital.com/bin/sandisk/listtags.studio:document-type.json": 1,
+   "GET www.westerndigital.com/bin/sandisk/listresources": 1,
+   "GET api.westerndigital.com/wdwebservices/v2/us/products/wd-red-plus-sata-3-5-hdd/relations": 1,
+   "POST westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s49196341785557": 1
+  },
+  "searchFormPages": 105,
+  "formPages": 6,
+  "triggerPages": {
+   "wd-modal-btn": 224,
+   "wd-modal-liveChat-btn": 4
+  }
+ }
+}

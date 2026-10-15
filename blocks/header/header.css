@@ -1,0 +1,122 @@
+/* header — westerndigital.com chrome (values lifted from stardust/prototypes/canon.css) */
+header .header {
+  position: relative;
+  background: var(--color-white);
+  width: 100%;
+} /* stickiness lives on the <header> host element (styles.css) — a sticky child cannot stick inside a 97px parent */
+
+header nav#nav { border-bottom: 1px solid var(--color-border-light); }
+header nav#nav .contain {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* promo bar */
+header .nav-promo { background: var(--color-promo); color: var(--color-white); height: 40px; }
+header .nav-promo .contain { display: flex; height: 40px; align-items: center; justify-content: center; }
+header .nav-promo p { margin: 0; font-size: 14px; line-height: 21px; }
+header .nav-promo a:any-link { color: inherit; text-decoration: underline; line-height: 14px; }
+header .nav-promo-text { width: 100%; text-align: center; }
+header .nav-promo-links { display: none; }
+
+/* nav row: 50px mobile / 56px desktop */
+header .nav-row > .contain { position: relative; display: flex; align-items: center; justify-content: space-between; height: 50px; }
+header .nav-hamburger { flex: 0 0 auto; }
+header .nav-hamburger button { display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 20px; height: 50px; margin: 0; padding: 0; border: 0; background: none; cursor: pointer; }
+header .nav-hamburger-icon { display: flex; flex-direction: column; gap: 5px; }
+header .nav-hamburger-icon span { display: block; height: 2px; width: 20px; background: var(--color-black); }
+header .nav-hamburger-icon span:last-child { width: 12px; }
+header .nav-brand { position: absolute; left: 50%; top: 0; transform: translateX(-50%); display: flex; align-items: center; height: 50px; }
+header .nav-brand a { display: block; }
+header .nav-brand img { display: block; width: 83px; height: 48px; }
+header .nav-brand picture { display: block; }
+header .nav-tools { display: flex; align-items: center; gap: 16px; height: 50px; flex: 0 0 auto; }
+header .nav-tools a:any-link { display: flex; align-items: center; color: var(--color-black); }
+header .nav-tools svg { display: block; }
+header .nav-tool-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+header .nav-tools a.nav-tool-sign:any-link { display: none; } /* mobile hides Sign in (measured); must out-specify the a:any-link flex rule above */
+
+/* sections (mega menu) — mobile: full-screen panel */
+header .nav-sections { display: none; }
+header nav[aria-expanded="true"] .nav-sections {
+  display: block;
+  position: fixed;
+  inset: 91px 0 0 0;
+  background: var(--color-white);
+  overflow-y: auto;
+  padding: 0 16px;
+  z-index: 12;
+}
+header .nav-sections ul { list-style: none; margin: 0; padding: 0; }
+header .nav-sections > ul > li { border-bottom: 1px solid var(--color-border-light); }
+header .nav-drop-label { display: block; padding: 20px 0; font-size: 16px; line-height: 16px; font-weight: 400; color: var(--color-black); cursor: pointer; }
+header .nav-panel { display: none; padding-bottom: 16px; }
+header .nav-sections > ul > li[aria-expanded="true"] > .nav-panel { display: block; }
+header .nav-panel .contain { padding: 0; }
+header .nav-mega { margin: 0; padding: 0; list-style: none; }
+header .nav-col > strong { display: block; margin: 16px 0 8px; font-size: 16px; font-weight: 700; }
+header .nav-col ul { list-style: none; margin: 0; padding: 0; }
+header .nav-col li > a:any-link { display: block; padding: 8px 0; font-size: 14px; line-height: 20px; color: var(--color-black); }
+header .nav-col p { margin: 8px 0; font-size: 14px; line-height: 20px; }
+header .nav-band { margin-top: 16px; padding: 16px; background: #f2f2f2; }
+header .nav-band p { margin: 0 0 12px; font-size: 14px; line-height: 20px; }
+header .nav-band .button-wrapper { display: flex; flex-wrap: wrap; gap: 12px; margin: 0; }
+header .nav-panel a.button:any-link { font-weight: 500; line-height: 25.6px; }
+
+@media (width >= 768px) {
+  header .nav-promo .contain { justify-content: space-between; }
+  header .nav-promo-text { flex: 0 0 auto; width: 923px; text-align: left; }
+  header .nav-promo-links { display: flex; justify-content: flex-end; align-items: center; width: 185px; }
+  header .nav-row > .contain { height: 56px; }
+  header .nav-hamburger { display: none; }
+  header .nav-brand { position: static; transform: none; height: 56px; width: 139px; flex: 0 0 auto; }
+  header .nav-tools { height: 56px; width: 139px; gap: 20px; justify-content: flex-end; }
+  header .nav-tools a.nav-tool-sign:any-link { display: flex; }
+  header .nav-sections { display: block; flex: 1 1 auto; height: 56px; }
+  header nav[aria-expanded="true"] .nav-sections { position: static; inset: auto; padding: 0; overflow: visible; }
+  header .nav-sections > ul { display: flex; justify-content: center; align-items: center; height: 56px; margin: 0 -16px; }
+  header .nav-row { position: relative; }
+  header .nav-row > .contain { position: static; }
+  header .nav-sections > ul > li { position: static; margin: 0 16px; border: 0; }
+  header .nav-drop-label { position: relative; }
+  header .nav-sections > ul > li[aria-expanded="true"] > .nav-drop-label::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: var(--color-link-alt); } /* live .slidingDiv: 4px #0074f3 under the open item */
+  header .nav-panel,
+  header .nav-sections > ul > li[aria-expanded="true"] > .nav-panel {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    background: var(--color-white);
+    border-bottom: 1px solid var(--color-border-light);
+    z-index: 12;
+  }
+  header .nav-sections > ul > li[aria-expanded="true"] > .nav-panel { display: block; }
+  header .nav-panel > .contain { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+  header .nav-panel .nav-mega { display: flex; justify-content: center; margin: 0; padding: 48px 0; } /* out-specifies the .nav-sections ul reset */
+  header .nav-col { width: 16.6667%; min-width: 0; padding: 0 16px; }
+  header .nav-col.wide { width: 41.6667%; }
+  header .nav-col > strong { display: block; margin: 0 0 24px; padding-bottom: 15px; font-size: 18px; line-height: 19.8px; font-weight: 700; border-bottom: 1px solid #e1e1e1; } /* live: 36px box, text top-aligned */
+  header .nav-col:not(.wide) ul { padding-right: 8px; } /* live: the 153px column holds a 145px list — "Certified Refurbished" wraps */
+  header .nav-col-lists { display: flex; }
+  header .nav-col-lists ul { width: 215px; flex: 0 0 215px; }
+  header .nav-col-lists ul + ul { padding-left: 8px; } /* live: second list's links start 8px in */
+  header .nav-col li { margin: 0; line-height: 17.6px; }
+  header .nav-col li > a:any-link { display: inline-block; padding: 0; margin-bottom: 16px; font-size: 16px; line-height: 25.6px; }
+  header .nav-col.text-col > strong { margin: 0 0 16px; padding: 0; border: 0; line-height: 27px; }
+  header .nav-col.text-col p { margin: 0; font-size: 16px; line-height: 24px; }
+  header .nav-col.text-col p.button-wrapper { margin-top: 24px; }
+  header .nav-col.text-col a.button:any-link { padding: 12px 24px; }
+  header .nav-band { margin: 0; padding: 20px 0; background: #f2f2f2; }
+  header .nav-band > .contain { display: flex; justify-content: center; align-items: center; }
+  header .nav-band p { margin: 0; font-size: 16px; line-height: 24px; }
+  header .nav-band .nav-band-text { width: 554px; flex: 0 0 554px; margin-right: 24px; }
+  header .nav-band .nav-band-actions { display: flex; align-items: center; }
+  header .nav-band .nav-band-actions .button-wrapper { display: flex; gap: 16px; margin: 0; }
+  header .nav-band.single .nav-band-text { width: auto; flex: 1 1 auto; }
+  header .nav-band.single a.button:any-link { max-width: 274px; white-space: normal; text-align: center; } /* live: the Solutions button wraps to two lines inside 274px */
+  header .nav-band.text-only .nav-band-text { width: auto; flex: 0 1 600px; max-width: 600px; margin: 0; text-align: center; }
+}

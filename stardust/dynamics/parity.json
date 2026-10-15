@@ -1,0 +1,236 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-09-21T12:45:48Z",
+    "againstInput": "replica pilot chain ending at deploy \u2014 Phases 4\u20135 standalone",
+    "readArtifacts": [
+      "stardust/dynamic-features.md",
+      "stardust/.work/deploy/delivered-check.json",
+      "stardust/replica/motion/*.json"
+    ]
+  },
+  "method": "self rows rebuilt natively in block/header JS from motion-observe evidence; static snapshot for commerce/data rows; tags host-gated (not loaded on preview); replays run against the preview origin at 1440 (360 for the drawer).",
+  "features": [
+    {
+      "id": "15",
+      "feature": "home category tablist (Shop by Category / Solutions / Industries)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "3 [role=tab] rendered on /; probe stardust/.work/deploy/probes/tabs-click.mjs: click on tab 2 flips aria-selected true/false on all 3 tabs and hides panel 1 within 800 ms, 0 page errors",
+      "checks": [
+        {
+          "type": "click-control",
+          "path": "/",
+          "trigger": "[role=tab][aria-selected=\"false\"]",
+          "observe": "aria-selected"
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "[role=tab]",
+          "min": 3
+        }
+      ],
+      "environmentLimit": "dynamics-check click-control samples within 600 ms; the tab switch completes at ~800 ms on the preview origin, so the instrument reports no change while the probe shows the flip"
+    },
+    {
+      "id": "14",
+      "feature": "chrome interactions: mobile drawer + nav drop (sign-in flyout / search expand observed on live)",
+      "class": "M",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "header block: button.navbar-hamburger aria-expanded toggles at 360 (drawer + drill proven on the harness, foundation.log; chrome cells drawer/drawer-drilled gated in replica progress.json); desktop nav drops open on hover (not a click observable) \u2014 gated as chrome-states cells menu:Products/Solutions/Support/Company 0.00 %",
+      "checks": [
+        {
+          "type": "click-control",
+          "path": "/",
+          "trigger": "button.navbar-hamburger",
+          "observe": "aria-expanded"
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header li.navbar-item.nav-drop",
+          "min": 4
+        }
+      ],
+      "environmentLimit": "click-control runs at the desktop width, where the hamburger is zero-box \u2192 SKIP by the instrument; the 360 drawer is covered by the replica chrome matrix (progress.json#chrome.variants[default].states.drawer = gated 1.04 %)"
+    },
+    {
+      "id": "solutions-faq",
+      "feature": "solutions FAQ accordion (10 items, open/close fired on live)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "accordion block: button.toggle aria-expanded; harness drive 10/10 (solutions.log)",
+      "checks": [
+        {
+          "type": "click-control",
+          "path": "/solutions",
+          "trigger": ".accordion button.toggle",
+          "observe": "aria-expanded"
+        },
+        {
+          "type": "dom-count",
+          "path": "/solutions",
+          "selector": ".accordion button.toggle",
+          "min": 10
+        }
+      ]
+    },
+    {
+      "id": "products-facets",
+      "feature": "products facet accordion (inert filters, static snapshot #17)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "filters block: a.accordion / button.accordion aria-expanded toggles (products.log motion verify)",
+      "checks": [
+        {
+          "type": "click-control",
+          "path": "/products",
+          "trigger": ".filters button.accordion",
+          "observe": "aria-expanded"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "feature": "header site search",
+      "class": "S",
+      "pages": 4,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "header form action = https://www.westerndigital.com/search (source host results service) until the query index is registered (D13)",
+      "owner": "results page scope / query-index registration at rollout",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header form[action='https://www.westerndigital.com/search']",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "feature": "products PLP grid (captured page 1, 15 cards)",
+      "class": "S",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "product-listing block renders 15 authored product rows; filters/sort inert",
+      "owner": "catalog datasource / same-origin routing",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products",
+          "selector": ".product-listing a[href*='/products/']",
+          "min": 15
+        }
+      ]
+    },
+    {
+      "id": "pageerrors",
+      "feature": "no page errors on the four delivered pages",
+      "class": "M",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "delivered-check.json pageErrors [] on / /products /solutions /company",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/products",
+            "/solutions",
+            "/company"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1,18-25",
+      "feature": "tags & consent (Adobe Launch, GTM, mPulse, New Relic, pixels, reviews, Relyance CMP)",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "host-gated: nothing loads on preview/local",
+      "owner": "property ids for the new host",
+      "checks": []
+    },
+    {
+      "id": "2,3,11,21",
+      "feature": "Genesys chat",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "not shipped in the pilot",
+      "owner": "chat deployment id",
+      "checks": []
+    },
+    {
+      "id": "13",
+      "feature": "locale trees (~70 locales)",
+      "class": "I18N",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "root locale only; no hreflang",
+      "owner": "scope of the locale trees",
+      "checks": []
+    },
+    {
+      "id": "7,8,9,10,12",
+      "feature": "campaign / region / product-reference / country / promotions data files",
+      "class": "D",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "captured state ships as content (dead on target)",
+      "checks": []
+    },
+    {
+      "id": "26",
+      "feature": "YouTube video",
+      "class": "V",
+      "pages": 0,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "no captured page renders a player (reach-only rows); nothing to embed",
+      "checks": [],
+      "owner": "none needed \u2014 no captured page renders a player; a video-plays check is added when a page with a player enters scope"
+    },
+    {
+      "id": "4,27,28",
+      "feature": "commerce cart API, sign-in / account links, commerce signals",
+      "class": "X",
+      "pages": 4,
+      "disposition": "decided-out",
+      "reproducibility": "needs-backend",
+      "status": "decided-out",
+      "verifiedBy": "register rows; links bounce to www.westerndigital.com",
+      "checks": []
+    }
+  ]
+}
