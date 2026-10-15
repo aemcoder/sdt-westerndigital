@@ -175,11 +175,23 @@ function buildTool(def, rows) {
     if (bad) { bad[0].reportValidity(); return; }
     const values = Object.fromEntries(def.fields.map((f) => [f.name, f.type === 'radio' ? form.querySelector(`[name="${f.name}"]:checked`)?.value || '' : form.elements[f.name].value]));
     const res = LOGIC[def.logic](values, def, form);
-    Object.entries(res).forEach(([k, v]) => { if (out[k]) out[k].textContent = v; });
+    Object.entries(res).forEach(([k, v]) => { if (out[k]) { out[k].textContent = v; out[k].dataset.value = v; } });
     tool.dataset.calculated = String(Number(tool.dataset.calculated || 0) + 1);
   });
   form.addEventListener('reset', () => setTimeout(() => { clear(); applyRules(form, def); showNote(); numbers().forEach(([c]) => c.setCustomValidity('')); }));
   applyRules(form, def); showNote();
+  // shareable / replayable state: field values in the URL prefill the form and calculate once (parity check hook);
+  // without parameters the tool opens exactly as live (defaults + the authored initial result)
+  const sp = new URLSearchParams(window.location.search);
+  if (def.fields.some((f) => sp.has(f.name))) {
+    def.fields.forEach((f) => {
+      if (!sp.has(f.name)) return;
+      if (f.type === 'radio') form.querySelectorAll(`[name="${f.name}"]`).forEach((r) => { r.checked = r.value === sp.get(f.name); });
+      else form.elements[f.name].value = sp.get(f.name);
+    });
+    clear(); applyRules(form, def); showNote();
+    requestAnimationFrame(() => form.requestSubmit(submit));
+  }
   return tool;
 }
 
