@@ -1,0 +1,330 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 15)",
+  "writtenAt": "2026-10-15T16:15:57Z",
+  "source": "https://www.westerndigital.com/company/programs/easy-recycle",
+  "sourceForm": "webform-grack-form",
+  "method": "live DOM after settle (snapshot-forms + per-topic dump); recipient routing (emailTo) deliberately not copied — it belongs to the intake endpoint"
+ },
+ "id": "recycle",
+ "intake": "recycle",
+ "fields": [
+  {
+   "name": "firstName",
+   "type": "text",
+   "placeholder": "First Name",
+   "label": "First Name",
+   "required": true,
+   "maxlength": 30,
+   "error": "Enter First Name",
+   "width": "half"
+  },
+  {
+   "name": "lastName",
+   "type": "text",
+   "placeholder": "Last Name",
+   "label": "Last Name",
+   "required": true,
+   "maxlength": 30,
+   "error": "Enter Last Name",
+   "width": "half"
+  },
+  {
+   "name": "address1",
+   "type": "text",
+   "placeholder": "Address (Max. length 35 characters)",
+   "label": "Address (Max. length 35 characters)",
+   "required": true,
+   "maxlength": 35,
+   "error": "Enter Address"
+  },
+  {
+   "name": "city",
+   "type": "text",
+   "placeholder": "City",
+   "label": "City",
+   "required": true,
+   "maxlength": 75,
+   "error": "Enter City",
+   "width": "half"
+  },
+  {
+   "name": "state",
+   "type": "select",
+   "placeholder": "State",
+   "options": [
+    [
+     "AL",
+     "Alabama"
+    ],
+    [
+     "AZ",
+     "Arizona"
+    ],
+    [
+     "AR",
+     "Arkansas"
+    ],
+    [
+     "CA",
+     "California"
+    ],
+    [
+     "CO",
+     "Colorado"
+    ],
+    [
+     "CT",
+     "Connecticut"
+    ],
+    [
+     "DE",
+     "Delaware"
+    ],
+    [
+     "DC",
+     "District of Columbia"
+    ],
+    [
+     "FL",
+     "Florida"
+    ],
+    [
+     "GA",
+     "Georgia"
+    ],
+    [
+     "ID",
+     "Idaho"
+    ],
+    [
+     "IL",
+     "Illinois"
+    ],
+    [
+     "IN",
+     "Indiana"
+    ],
+    [
+     "IA",
+     "Iowa"
+    ],
+    [
+     "KS",
+     "Kansas"
+    ],
+    [
+     "KY",
+     "Kentucky"
+    ],
+    [
+     "LA",
+     "Louisiana"
+    ],
+    [
+     "ME",
+     "Maine"
+    ],
+    [
+     "MD",
+     "Maryland"
+    ],
+    [
+     "MA",
+     "Massachusetts"
+    ],
+    [
+     "MI",
+     "Michigan"
+    ],
+    [
+     "MN",
+     "Minnesota"
+    ],
+    [
+     "MS",
+     "Mississippi"
+    ],
+    [
+     "MO",
+     "Missouri"
+    ],
+    [
+     "MT",
+     "Montana"
+    ],
+    [
+     "NE",
+     "Nebraska"
+    ],
+    [
+     "NV",
+     "Nevada"
+    ],
+    [
+     "NH",
+     "New Hampshire"
+    ],
+    [
+     "NJ",
+     "New Jersey"
+    ],
+    [
+     "NM",
+     "New Mexico"
+    ],
+    [
+     "NY",
+     "New York"
+    ],
+    [
+     "NC",
+     "North Carolina"
+    ],
+    [
+     "ND",
+     "North Dakota"
+    ],
+    [
+     "OH",
+     "Ohio"
+    ],
+    [
+     "OK",
+     "Oklahoma"
+    ],
+    [
+     "OR",
+     "Oregon"
+    ],
+    [
+     "PA",
+     "Pennsylvania"
+    ],
+    [
+     "RI",
+     "Rhode Island"
+    ],
+    [
+     "SC",
+     "South Carolina"
+    ],
+    [
+     "SD",
+     "South Dakota"
+    ],
+    [
+     "TN",
+     "Tennessee"
+    ],
+    [
+     "TX",
+     "Texas"
+    ],
+    [
+     "UT",
+     "Utah"
+    ],
+    [
+     "VT",
+     "Vermont"
+    ],
+    [
+     "VA",
+     "Virginia"
+    ],
+    [
+     "WA",
+     "Washington"
+    ],
+    [
+     "WV",
+     "West Virginia"
+    ],
+    [
+     "WI",
+     "Wisconsin"
+    ],
+    [
+     "WY",
+     "Wyoming"
+    ]
+   ],
+   "label": "State",
+   "required": true,
+   "error": "Select State",
+   "width": "half"
+  },
+  {
+   "name": "zipCode",
+   "type": "text",
+   "placeholder": "Zip Code",
+   "label": "Zip Code",
+   "required": true,
+   "maxlength": 75,
+   "pattern": "[0-9]+",
+   "error": "Enter Zip Code (Only Numbers)",
+   "width": "half"
+  },
+  {
+   "name": "email",
+   "type": "email",
+   "placeholder": "Email Address",
+   "label": "Email Address",
+   "required": true,
+   "maxlength": 128,
+   "error": "Enter a valid email address",
+   "width": "half"
+  },
+  {
+   "name": "phone",
+   "type": "tel",
+   "placeholder": "Primary Phone",
+   "label": "Primary Phone",
+   "required": true,
+   "maxlength": 15,
+   "minlength": 10,
+   "pattern": "[0-9]+",
+   "error": "Enter Primary Phone (Only numbers of length from 10 to 15 characters)",
+   "width": "half"
+  },
+  {
+   "name": "ext_recycleProgramDeviceTotal",
+   "type": "select",
+   "placeholder": "Select Number of Devices to Recycle",
+   "options": [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ],
+    [
+     "4",
+     "4"
+    ],
+    [
+     "5",
+     "5"
+    ]
+   ],
+   "label": "Select Number of Devices to Recycle",
+   "required": true,
+   "error": "Select Number of Devices",
+   "width": "half"
+  },
+  {
+   "name": "marketingOptin",
+   "type": "checkbox",
+   "label": "By checking the box, you acknowledge WD's Privacy Statement and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time.",
+   "value": "true",
+   "labelHtml": "By checking the box, you acknowledge WD's <a href=\"https://www.westerndigital.com/legal/privacy-statement\"><strong>Privacy Statement</strong></a> and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time."
+  }
+ ]
+}

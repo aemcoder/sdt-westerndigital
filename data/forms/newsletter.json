@@ -1,0 +1,32 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 15)",
+  "writtenAt": "2026-10-15T16:15:57Z",
+  "source": "https://www.westerndigital.com/company/programs/communications-registration",
+  "sourceForm": "webform-footer-form",
+  "method": "live DOM after settle (snapshot-forms + per-topic dump); recipient routing (emailTo) deliberately not copied — it belongs to the intake endpoint"
+ },
+ "id": "newsletter",
+ "intake": "newsletter",
+ "labelMode": "above",
+ "fields": [
+  {
+   "name": "email",
+   "type": "email",
+   "placeholder": "",
+   "label": "Email",
+   "required": true,
+   "error": "Enter a valid email address.",
+   "help": "By entering your email address, you agree to receive communication from Western Digital that includes news, offers and updates and acknowledge Western Digital's <a href=\"https://www.westerndigital.com/legal/privacy-statement\">Privacy Statement</a>. You can withdraw your consent at any time."
+  },
+  {
+   "name": "mobilePhone",
+   "type": "tel",
+   "placeholder": "",
+   "label": "Mobile Number (optional)",
+   "maxlength": 20,
+   "minlength": 7,
+   "help": "By entering your mobile phone number, you agree to receive communication via text message from Western Digital that includes news, offers and updates and acknowledge Western Digital's <a href=\"https://www.westerndigital.com/legal/privacy-statement\">Privacy Statement</a>. You can withdraw your consent at any time and data rates may apply."
+  }
+ ]
+}

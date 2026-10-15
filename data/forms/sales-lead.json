@@ -1,0 +1,700 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 15)",
+  "writtenAt": "2026-10-15T16:15:57Z",
+  "source": "https://www.westerndigital.com/company/contact-us",
+  "sourceForm": "webform-looking-to-purchase-form",
+  "method": "live DOM after settle (snapshot-forms + per-topic dump); recipient routing (emailTo) deliberately not copied — it belongs to the intake endpoint"
+ },
+ "id": "sales-lead",
+ "intake": "sales-lead",
+ "fields": [
+  {
+   "name": "fs_1_productCategoryContactUs",
+   "type": "select",
+   "placeholder": "*Product Category",
+   "options": [
+    [
+     "Hard Drives (HDDs)",
+     "Hard Drives (HDDs)"
+    ],
+    [
+     "Data Center Storage",
+     "Data Center Storage"
+    ],
+    [
+     "Network Attached Storage (NAS)",
+     "Network Attached Storage (NAS)"
+    ],
+    [
+     "Accessories",
+     "Accessories"
+    ],
+    [
+     "Other",
+     "Other"
+    ]
+   ],
+   "label": "Product Category",
+   "required": true,
+   "error": "Field cannot be empty.",
+   "other": {
+    "when": "Other",
+    "name": "fs_1_productCategoryContactUsOther",
+    "placeholder": "*Enter Product Category",
+    "maxlength": 100
+   }
+  },
+  {
+   "name": "firstName",
+   "type": "text",
+   "placeholder": "*First Name",
+   "label": "First Name",
+   "required": true,
+   "maxlength": 30,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "lastName",
+   "type": "text",
+   "placeholder": "*Last Name",
+   "label": "Last Name",
+   "required": true,
+   "maxlength": 30,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "phone",
+   "type": "tel",
+   "placeholder": "*Contact Number (numbers only)",
+   "label": "Contact Number (numbers only)",
+   "required": true,
+   "maxlength": 32,
+   "pattern": "[0-9]+",
+   "error": "Enter a valid number",
+   "width": "half"
+  },
+  {
+   "name": "email",
+   "type": "email",
+   "placeholder": "*Email Address",
+   "label": "Email Address",
+   "required": true,
+   "maxlength": 128,
+   "error": "Enter a valid email address",
+   "width": "half"
+  },
+  {
+   "name": "cusJobTitle",
+   "type": "text",
+   "placeholder": "*Title",
+   "label": "Title",
+   "required": true,
+   "maxlength": 80,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "ext_regBusinessName",
+   "type": "text",
+   "placeholder": "*Company Name",
+   "label": "Company Name",
+   "required": true,
+   "maxlength": 150,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "ext_prefIndustry",
+   "type": "select",
+   "placeholder": "Industry",
+   "options": [
+    [
+     "Business Services",
+     "Business Services"
+    ],
+    [
+     "Defense / Military",
+     "Defense / Military"
+    ],
+    [
+     "Education",
+     "Education"
+    ],
+    [
+     "Energy & Utilities",
+     "Energy & Utilities"
+    ],
+    [
+     "Government",
+     "Government"
+    ],
+    [
+     "Healthcare, Pharmaceuticals, Biotech",
+     "Healthcare, Pharmaceuticals, Biotech"
+    ],
+    [
+     "Legal Services",
+     "Legal Services"
+    ],
+    [
+     "Manufacturing",
+     "Manufacturing"
+    ],
+    [
+     "Media & Entertainment",
+     "Media & Entertainment"
+    ],
+    [
+     "Real Estate & Construction",
+     "Real Estate & Construction"
+    ],
+    [
+     "Software & Internet",
+     "Software & Internet"
+    ],
+    [
+     "Telecommunications",
+     "Telecommunications"
+    ],
+    [
+     "Transportation",
+     "Transportation"
+    ],
+    [
+     "Travel, Recreation & Leisure",
+     "Travel, Recreation & Leisure"
+    ],
+    [
+     "Wholesale & Distributors",
+     "Wholesale & Distributors"
+    ],
+    [
+     "Cloud",
+     "Cloud"
+    ],
+    [
+     "Datacenter",
+     "Datacenter"
+    ],
+    [
+     "Digital Security (Software)",
+     "Digital Security (Software)"
+    ],
+    [
+     "Physical Security",
+     "Physical Security"
+    ],
+    [
+     "Retail/Point-of-Sale",
+     "Retail/Point-of-Sale"
+    ],
+    [
+     "Video Production",
+     "Video Production"
+    ],
+    [
+     "Video Surveillance",
+     "Video Surveillance"
+    ],
+    [
+     "Workstations/HPC",
+     "Workstations/HPC"
+    ],
+    [
+     "Gaming",
+     "Gaming"
+    ],
+    [
+     "Other",
+     "Other"
+    ]
+   ],
+   "label": "Industry",
+   "width": "half",
+   "other": {
+    "when": "Other",
+    "name": "ext_prefIndustryOther",
+    "placeholder": "Please specify",
+    "maxlength": 100
+   }
+  },
+  {
+   "name": "ext_regNumOfEmp",
+   "type": "select",
+   "placeholder": "Number Of Employees",
+   "options": [
+    [
+     "oneToFive",
+     "1 - 5"
+    ],
+    [
+     "sixToTwenty",
+     "6 - 20"
+    ],
+    [
+     "twentyOneToFifty",
+     "21 - 50"
+    ],
+    [
+     "fiftyOneToTwoFifty",
+     "51 - 250"
+    ],
+    [
+     "twoFiftyOneToThousand",
+     "251 - 1000"
+    ],
+    [
+     "thousandOneToFiveThousand",
+     "1001 - 5000"
+    ],
+    [
+     "fiveThousandOneToTenThousand",
+     "5001 - 10,000"
+    ],
+    [
+     "moreThanTenThousand",
+     "10,000+"
+    ]
+   ],
+   "label": "Number Of Employees",
+   "width": "half"
+  },
+  {
+   "name": "country",
+   "type": "select",
+   "placeholder": "*Select Country/Region",
+   "options": [
+    [
+     "Albania",
+     "Albania"
+    ],
+    [
+     "Algeria",
+     "Algeria"
+    ],
+    [
+     "Antigua and Barbuda",
+     "Antigua and Barbuda"
+    ],
+    [
+     "Argentina",
+     "Argentina"
+    ],
+    [
+     "Australia",
+     "Australia"
+    ],
+    [
+     "Austria",
+     "Austria"
+    ],
+    [
+     "Bahrain",
+     "Bahrain"
+    ],
+    [
+     "Belarus",
+     "Belarus"
+    ],
+    [
+     "Belgium",
+     "Belgium"
+    ],
+    [
+     "Bolivia, Plurinational State of",
+     "Bolivia, Plurinational State of"
+    ],
+    [
+     "Bosnia Herzegovina",
+     "Bosnia Herzegovina"
+    ],
+    [
+     "Botswana",
+     "Botswana"
+    ],
+    [
+     "Brazil",
+     "Brazil"
+    ],
+    [
+     "Bulgaria",
+     "Bulgaria"
+    ],
+    [
+     "Canada",
+     "Canada"
+    ],
+    [
+     "Chile",
+     "Chile"
+    ],
+    [
+     "China",
+     "China"
+    ],
+    [
+     "Colombia",
+     "Colombia"
+    ],
+    [
+     "Costa Rica",
+     "Costa Rica"
+    ],
+    [
+     "Croatia",
+     "Croatia"
+    ],
+    [
+     "Cyprus",
+     "Cyprus"
+    ],
+    [
+     "Czech Republic",
+     "Czech Republic"
+    ],
+    [
+     "Denmark",
+     "Denmark"
+    ],
+    [
+     "Dominican Republic",
+     "Dominican Republic"
+    ],
+    [
+     "Ecuador",
+     "Ecuador"
+    ],
+    [
+     "Egypt",
+     "Egypt"
+    ],
+    [
+     "El Salvador",
+     "El Salvador"
+    ],
+    [
+     "Estonia",
+     "Estonia"
+    ],
+    [
+     "Finland",
+     "Finland"
+    ],
+    [
+     "France",
+     "France"
+    ],
+    [
+     "Germany",
+     "Germany"
+    ],
+    [
+     "Ghana",
+     "Ghana"
+    ],
+    [
+     "Greece",
+     "Greece"
+    ],
+    [
+     "Guatemala",
+     "Guatemala"
+    ],
+    [
+     "Honduras",
+     "Honduras"
+    ],
+    [
+     "Hong Kong",
+     "Hong Kong"
+    ],
+    [
+     "Hungary",
+     "Hungary"
+    ],
+    [
+     "Iceland",
+     "Iceland"
+    ],
+    [
+     "India",
+     "India"
+    ],
+    [
+     "Indonesia",
+     "Indonesia"
+    ],
+    [
+     "Ireland",
+     "Ireland"
+    ],
+    [
+     "Israel",
+     "Israel"
+    ],
+    [
+     "Italy",
+     "Italy"
+    ],
+    [
+     "Japan",
+     "Japan"
+    ],
+    [
+     "Jordan",
+     "Jordan"
+    ],
+    [
+     "Kenya",
+     "Kenya"
+    ],
+    [
+     "Korea",
+     "Korea"
+    ],
+    [
+     "Kuwait",
+     "Kuwait"
+    ],
+    [
+     "Latvia",
+     "Latvia"
+    ],
+    [
+     "Lebanon",
+     "Lebanon"
+    ],
+    [
+     "Lithuania",
+     "Lithuania"
+    ],
+    [
+     "Luxembourg",
+     "Luxembourg"
+    ],
+    [
+     "Macedonia, the former Yugoslav Republic of",
+     "Macedonia, the former Yugoslav Republic of"
+    ],
+    [
+     "Malaysia",
+     "Malaysia"
+    ],
+    [
+     "Malta",
+     "Malta"
+    ],
+    [
+     "Mexico",
+     "Mexico"
+    ],
+    [
+     "Morocco",
+     "Morocco"
+    ],
+    [
+     "Mozambique",
+     "Mozambique"
+    ],
+    [
+     "Namibia",
+     "Namibia"
+    ],
+    [
+     "Netherlands",
+     "Netherlands"
+    ],
+    [
+     "New Zealand",
+     "New Zealand"
+    ],
+    [
+     "Nicaragua",
+     "Nicaragua"
+    ],
+    [
+     "Nigeria",
+     "Nigeria"
+    ],
+    [
+     "Norway",
+     "Norway"
+    ],
+    [
+     "Oman",
+     "Oman"
+    ],
+    [
+     "Panama",
+     "Panama"
+    ],
+    [
+     "Paraguay",
+     "Paraguay"
+    ],
+    [
+     "Peru",
+     "Peru"
+    ],
+    [
+     "Philippines",
+     "Philippines"
+    ],
+    [
+     "Poland",
+     "Poland"
+    ],
+    [
+     "Portugal",
+     "Portugal"
+    ],
+    [
+     "Puerto Rico",
+     "Puerto Rico"
+    ],
+    [
+     "Qatar",
+     "Qatar"
+    ],
+    [
+     "Romania",
+     "Romania"
+    ],
+    [
+     "Russian Federation",
+     "Russian Federation"
+    ],
+    [
+     "Saudi Arabia",
+     "Saudi Arabia"
+    ],
+    [
+     "Serbia",
+     "Serbia"
+    ],
+    [
+     "Singapore",
+     "Singapore"
+    ],
+    [
+     "Slovakia",
+     "Slovakia"
+    ],
+    [
+     "Slovenia",
+     "Slovenia"
+    ],
+    [
+     "South Africa",
+     "South Africa"
+    ],
+    [
+     "Spain",
+     "Spain"
+    ],
+    [
+     "Sweden",
+     "Sweden"
+    ],
+    [
+     "Switzerland",
+     "Switzerland"
+    ],
+    [
+     "Taiwan",
+     "Taiwan"
+    ],
+    [
+     "Thailand",
+     "Thailand"
+    ],
+    [
+     "Tunisia",
+     "Tunisia"
+    ],
+    [
+     "Turkey",
+     "Turkey"
+    ],
+    [
+     "Uganda",
+     "Uganda"
+    ],
+    [
+     "Ukraine",
+     "Ukraine"
+    ],
+    [
+     "United Arab Emirates",
+     "United Arab Emirates"
+    ],
+    [
+     "United Kingdom",
+     "United Kingdom"
+    ],
+    [
+     "United States",
+     "United States"
+    ],
+    [
+     "Uruguay",
+     "Uruguay"
+    ],
+    [
+     "Venezuela, Bolivarian Republic of",
+     "Venezuela, Bolivarian Republic of"
+    ],
+    [
+     "Viet Nam",
+     "Viet Nam"
+    ],
+    [
+     "Yemen",
+     "Yemen"
+    ],
+    [
+     "Zambia",
+     "Zambia"
+    ],
+    [
+     "Zimbabwe",
+     "Zimbabwe"
+    ]
+   ],
+   "label": "Country/Region",
+   "required": true,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "state",
+   "type": "text",
+   "placeholder": "State (enter full name, e.g., “California”)",
+   "label": "State (enter full name, e.g., “California”)",
+   "required": true,
+   "maxlength": 100,
+   "minlength": 3,
+   "error": "Enter full name, e.g., “California”",
+   "width": "half"
+  },
+  {
+   "name": "fs_7_personNotes",
+   "type": "textarea",
+   "placeholder": "*Enter your request details here. If applicable, please include product SKU(s), quantity needed, target price, and use case.",
+   "label": "Enter your request details here. If applicable, please include product SKU(s), quantity needed, target price, and use case.",
+   "required": true,
+   "maxlength": 480,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "marketingOptin",
+   "type": "checkbox",
+   "label": "By checking the box, you acknowledge WD's Privacy Statement and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time.",
+   "value": "true",
+   "labelHtml": "By checking the box, you acknowledge WD's <a href=\"https://www.westerndigital.com/legal/privacy-statement\"><strong>Privacy Statement</strong></a> and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time."
+  }
+ ]
+}

@@ -1,0 +1,457 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 15)",
+  "writtenAt": "2026-10-15T16:15:57Z",
+  "source": "https://www.westerndigital.com/company/contact-us",
+  "sourceForm": "webform-contact-us-loyalty-program-inquiries",
+  "method": "live DOM after settle (snapshot-forms + per-topic dump); recipient routing (emailTo) deliberately not copied — it belongs to the intake endpoint"
+ },
+ "id": "contact-loyalty",
+ "intake": "contact-email",
+ "fields": [
+  {
+   "name": "firstName",
+   "type": "text",
+   "placeholder": "*First Name",
+   "label": "First Name",
+   "required": true,
+   "maxlength": 100,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "lastName",
+   "type": "text",
+   "placeholder": "*Last Name",
+   "label": "Last Name",
+   "required": true,
+   "maxlength": 100,
+   "error": "Field cannot be empty.",
+   "width": "half"
+  },
+  {
+   "name": "email",
+   "type": "email",
+   "placeholder": "*Email Address",
+   "label": "Email Address",
+   "required": true,
+   "maxlength": 100,
+   "error": "Enter a valid email address."
+  },
+  {
+   "name": "country",
+   "type": "select",
+   "placeholder": "*Select Country/Area",
+   "options": [
+    [
+     "Albania",
+     "Albania"
+    ],
+    [
+     "Algeria",
+     "Algeria"
+    ],
+    [
+     "Antigua and Barbuda",
+     "Antigua and Barbuda"
+    ],
+    [
+     "Argentina",
+     "Argentina"
+    ],
+    [
+     "Australia",
+     "Australia"
+    ],
+    [
+     "Austria",
+     "Austria"
+    ],
+    [
+     "Bahrain",
+     "Bahrain"
+    ],
+    [
+     "Belarus",
+     "Belarus"
+    ],
+    [
+     "Belgium",
+     "Belgium"
+    ],
+    [
+     "Bolivia, Plurinational State of",
+     "Bolivia, Plurinational State of"
+    ],
+    [
+     "Bosnia Herzegovina",
+     "Bosnia Herzegovina"
+    ],
+    [
+     "Botswana",
+     "Botswana"
+    ],
+    [
+     "Brazil",
+     "Brazil"
+    ],
+    [
+     "Bulgaria",
+     "Bulgaria"
+    ],
+    [
+     "Canada",
+     "Canada"
+    ],
+    [
+     "Chile",
+     "Chile"
+    ],
+    [
+     "China",
+     "China"
+    ],
+    [
+     "Colombia",
+     "Colombia"
+    ],
+    [
+     "Costa Rica",
+     "Costa Rica"
+    ],
+    [
+     "Croatia",
+     "Croatia"
+    ],
+    [
+     "Cyprus",
+     "Cyprus"
+    ],
+    [
+     "Czech Republic",
+     "Czech Republic"
+    ],
+    [
+     "Denmark",
+     "Denmark"
+    ],
+    [
+     "Dominican Republic",
+     "Dominican Republic"
+    ],
+    [
+     "Ecuador",
+     "Ecuador"
+    ],
+    [
+     "Egypt",
+     "Egypt"
+    ],
+    [
+     "El Salvador",
+     "El Salvador"
+    ],
+    [
+     "Estonia",
+     "Estonia"
+    ],
+    [
+     "Finland",
+     "Finland"
+    ],
+    [
+     "France",
+     "France"
+    ],
+    [
+     "Germany",
+     "Germany"
+    ],
+    [
+     "Ghana",
+     "Ghana"
+    ],
+    [
+     "Greece",
+     "Greece"
+    ],
+    [
+     "Guatemala",
+     "Guatemala"
+    ],
+    [
+     "Honduras",
+     "Honduras"
+    ],
+    [
+     "Hong Kong",
+     "Hong Kong"
+    ],
+    [
+     "Hungary",
+     "Hungary"
+    ],
+    [
+     "Iceland",
+     "Iceland"
+    ],
+    [
+     "India",
+     "India"
+    ],
+    [
+     "Indonesia",
+     "Indonesia"
+    ],
+    [
+     "Ireland",
+     "Ireland"
+    ],
+    [
+     "Israel",
+     "Israel"
+    ],
+    [
+     "Italy",
+     "Italy"
+    ],
+    [
+     "Japan",
+     "Japan"
+    ],
+    [
+     "Jordan",
+     "Jordan"
+    ],
+    [
+     "Kenya",
+     "Kenya"
+    ],
+    [
+     "Korea",
+     "Korea"
+    ],
+    [
+     "Kuwait",
+     "Kuwait"
+    ],
+    [
+     "Latvia",
+     "Latvia"
+    ],
+    [
+     "Lebanon",
+     "Lebanon"
+    ],
+    [
+     "Lithuania",
+     "Lithuania"
+    ],
+    [
+     "Luxembourg",
+     "Luxembourg"
+    ],
+    [
+     "Macedonia, the former Yugoslav Republic of",
+     "Macedonia, the former Yugoslav Republic of"
+    ],
+    [
+     "Malaysia",
+     "Malaysia"
+    ],
+    [
+     "Malta",
+     "Malta"
+    ],
+    [
+     "Mexico",
+     "Mexico"
+    ],
+    [
+     "Morocco",
+     "Morocco"
+    ],
+    [
+     "Mozambique",
+     "Mozambique"
+    ],
+    [
+     "Namibia",
+     "Namibia"
+    ],
+    [
+     "Netherlands",
+     "Netherlands"
+    ],
+    [
+     "New Zealand",
+     "New Zealand"
+    ],
+    [
+     "Nicaragua",
+     "Nicaragua"
+    ],
+    [
+     "Nigeria",
+     "Nigeria"
+    ],
+    [
+     "Norway",
+     "Norway"
+    ],
+    [
+     "Oman",
+     "Oman"
+    ],
+    [
+     "Panama",
+     "Panama"
+    ],
+    [
+     "Paraguay",
+     "Paraguay"
+    ],
+    [
+     "Peru",
+     "Peru"
+    ],
+    [
+     "Philippines",
+     "Philippines"
+    ],
+    [
+     "Poland",
+     "Poland"
+    ],
+    [
+     "Portugal",
+     "Portugal"
+    ],
+    [
+     "Puerto Rico",
+     "Puerto Rico"
+    ],
+    [
+     "Qatar",
+     "Qatar"
+    ],
+    [
+     "Romania",
+     "Romania"
+    ],
+    [
+     "Russian Federation",
+     "Russian Federation"
+    ],
+    [
+     "Saudi Arabia",
+     "Saudi Arabia"
+    ],
+    [
+     "Serbia",
+     "Serbia"
+    ],
+    [
+     "Singapore",
+     "Singapore"
+    ],
+    [
+     "Slovakia",
+     "Slovakia"
+    ],
+    [
+     "Slovenia",
+     "Slovenia"
+    ],
+    [
+     "South Africa",
+     "South Africa"
+    ],
+    [
+     "Spain",
+     "Spain"
+    ],
+    [
+     "Sweden",
+     "Sweden"
+    ],
+    [
+     "Switzerland",
+     "Switzerland"
+    ],
+    [
+     "Taiwan",
+     "Taiwan"
+    ],
+    [
+     "Thailand",
+     "Thailand"
+    ],
+    [
+     "Tunisia",
+     "Tunisia"
+    ],
+    [
+     "Turkey",
+     "Turkey"
+    ],
+    [
+     "Uganda",
+     "Uganda"
+    ],
+    [
+     "Ukraine",
+     "Ukraine"
+    ],
+    [
+     "United Arab Emirates",
+     "United Arab Emirates"
+    ],
+    [
+     "United Kingdom",
+     "United Kingdom"
+    ],
+    [
+     "United States",
+     "United States"
+    ],
+    [
+     "Uruguay",
+     "Uruguay"
+    ],
+    [
+     "Venezuela, Bolivarian Republic of",
+     "Venezuela, Bolivarian Republic of"
+    ],
+    [
+     "Viet Nam",
+     "Viet Nam"
+    ],
+    [
+     "Yemen",
+     "Yemen"
+    ],
+    [
+     "Zambia",
+     "Zambia"
+    ],
+    [
+     "Zimbabwe",
+     "Zimbabwe"
+    ]
+   ],
+   "label": "Country/Area",
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "commentMessage",
+   "type": "textarea",
+   "placeholder": "*Message",
+   "label": "Message",
+   "required": true,
+   "maxlength": 500,
+   "error": "Field cannot be empty."
+  }
+ ]
+}
