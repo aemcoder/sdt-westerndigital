@@ -56,8 +56,9 @@ main .columns-container.press-release-body { padding: 24px 0; }
 /* contact-cards — /company/contact-us "Press Contacts / Office Locations / Product Support": 64px line icon,
    24/28 700 title, 16/24 copy, blue "View More" text link; three centered columns from 768 */
 .columns.contact-cards { max-width: 1140px; margin: 0 auto; padding: 48px 16px 80px; }
-.columns.contact-cards > div { gap: 48px; }
-.columns.contact-cards > div > div { text-align: center; }
+.columns.contact-cards .columns-row { gap: 48px 32px; }
+.columns.contact-cards .columns-col { text-align: center; }
+@media (width >= 768px) { .columns.contact-cards .columns-row { flex-wrap: nowrap; } .columns.contact-cards .columns-row > .columns-col { flex: 1 1 0; width: auto; } }
 .columns.contact-cards .icon { display: block; width: 64px; height: 64px; margin: 0 auto 16px; }
 .columns.contact-cards .icon img, .columns.contact-cards .icon svg { width: 64px; height: 64px; }
 .columns.contact-cards h3 { margin: 0 0 16px; font-size: 24px; line-height: 28px; font-weight: 700; }
