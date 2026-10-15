@@ -1,0 +1,8 @@
+{
+ "api": "https://api.westerndigital.com/wdwebservices/v2/us/products/search?fields=FULL&pageSize=15&query=:relevance:category:cat_internal:category:cat_hard_drives&customQuery=*:*+AND+-optionalCondition_en_string_mv:*recertified*&sort=relevance&currentPage=0",
+ "from": "https://spike-c--sdt-westerndigital--aemcoder.aem.page/spike-c/products/hdd/internal-hdd",
+ "status": 200,
+ "acao": null,
+ "bytes": 153340,
+ "callable": true
+}

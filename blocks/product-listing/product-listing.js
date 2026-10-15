@@ -174,6 +174,8 @@ export default function decorate(block) {
 
   /* fallback: the authored captured tiles, rendered at once (content-bearing without the API) */
   const fallback = tiles.map(tileFromCells);
+  // row 12 (price & inventory) is decided-out: API tiles reuse the captured price of the same PDP, never a live one
+  const capturedPrices = new Map(fallback.filter((t) => t.text.price && t.nodes.price).map((t) => [pdpKey(t.href), t.nodes.price.cloneNode(true)]));
   fallback.forEach((t) => grid.append(renderTile(t)));
   if (fallback.length) count.innerHTML = `${fallback.length} <span class="qty-label">Items</span>`;
   block.replaceChildren(body);
@@ -201,6 +203,7 @@ export default function decorate(block) {
       limit: parseInt(cfg['filter-limit']?.textContent, 10) || 10,
       facetCodes: list(cfg.facets?.textContent),
       facetNames,
+      capturedPrices,
       ui: { select, count, grid, pagination, facetHost, selected, results },
     });
   }
@@ -210,22 +213,25 @@ export default function decorate(block) {
 const tail = (q) => (q.includes('&') ? q.slice(q.indexOf('&')) : '');
 const head = (q) => (q.includes('&') ? q.slice(0, q.indexOf('&')) : q);
 const cap1 = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const pdpKey = (href) => { try { return new URL(href, STOREFRONT).pathname.replace(/\/$/, '').toLowerCase(); } catch { return href; } };
 const valueLabel = (code, v) => `${code === 'color_List' ? v.name.split('|')[0] : v.name} (${v.count})`;
 
-function tileFromProduct(p) {
+function tileFromProduct(p, capturedPrices) {
   const caps = (p.categories || []).filter((c) => /^vvc-capacity-/.test(c.code)).sort((a, b) => a.sequence - b.sequence);
   const cap = caps.length ? `${caps[0].name}${caps.length > 1 ? `-${caps[caps.length - 1].name}` : ''}`.replace(/\s+/g, '') : '';
-  const price = p.priceData?.formattedValue; const deal = p.discountPriceData;
-  const strike = price && deal && deal.value < p.priceData.value ? price : '';
   const img = p.mediaLinks?.multiMedia?.productImages?.[0];
   const sku = p.listOfSkuId?.[0];
   const path = (p.pagePath || '').replace(/^\/content\/store\/en-us/, '');
+  const href = `${STOREFRONT}${path}${sku ? `?sku=${encodeURIComponent(sku)}` : ''}`;
+  // price: the storefront resolves "Starting at" from session-bound price & inventory (row 12, decided-out) —
+  // the catalog list price disagreed on 67/245 tiles, so only a captured price for the same PDP is shown
+  const captured = capturedPrices.get(pdpKey(href));
   return {
-    href: `${STOREFRONT}${path}${sku ? `?sku=${encodeURIComponent(sku)}` : ''}`,
+    href,
     img: img ? `${STOREFRONT}${img}.wdthumb.319.319.webp` : '',
-    strike,
+    nodes: captured ? { price: captured.cloneNode(true) } : undefined,
     badgeBlack: /bg-black/.test(p.badgesInfo?.styleClass || ''),
-    text: { name: p.name || '', cap, price: price ? `Starting at ${strike ? deal.formattedValue : price}` : '', badge: p.badgesInfo?.tagTitle || '' },
+    text: { name: p.name || '', cap, price: captured?.textContent.trim() || '', badge: p.badgesInfo?.tagTitle || '' },
   };
 }
 
@@ -347,12 +353,12 @@ function wire(block, opts) {
       state.facets = (opts.facetCodes.length ? opts.facetCodes.map((c) => byCode.get(c)) : opts.facetNames.map((n) => byName.get(n))).filter(Boolean);
       state.selected = state.facets.flatMap((f) => f.values.filter((v) => v.selected));
       const products = data.products || [];
-      ui.grid.replaceChildren(...(products.length ? products.map((p) => renderTile(tileFromProduct(p))) : [el('div', 'clp-empty', 'No Records Found.')]));
+      ui.grid.replaceChildren(...(products.length ? products.map((p) => renderTile(tileFromProduct(p, opts.capturedPrices))) : [el('div', 'clp-empty', 'No Records Found.')]));
       ui.count.innerHTML = `${data.pagination?.totalResults || 0} <span class="qty-label">Items</span>`;
       renderFacets(); renderPager(data.pagination?.totalPages || 0); pushUrl();
       block.classList.remove('is-snapshot'); block.classList.add('is-live');
       block.dataset.source = 'api.westerndigital.com product search';
-      if (scroll) ui.results.scrollIntoView({ block: 'start' });
+      if (scroll) window.scrollTo({ top: block.getBoundingClientRect().top + window.scrollY - (document.querySelector('header')?.offsetHeight || 0) });
     } catch (e) {
       // degrade to the authored snapshot (static first): tiles, count and inert facets stay as authored
       block.dataset.sourceError = String(e.message || e);

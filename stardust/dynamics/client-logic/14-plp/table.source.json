@@ -1,0 +1,263 @@
+{
+ "_provenance": {
+  "writtenBy": "spike-c plp-vectors (client-logic vectors table format)",
+  "writtenAt": "2026-10-15T16:05:24.975Z",
+  "origin": "https://www.westerndigital.com",
+  "label": "source"
+ },
+ "rows": [
+  {
+   "i": 0,
+   "input": {
+    "path": "/products/hdd/internal-hdd"
+   },
+   "output": {
+    "count": "32",
+    "names": "WD Red Pro NAS Hard Drive | WD Red Plus Internal NAS HDD 3.5\" | WD Blue PC Mobile Hard Drive | WD Blue PC Desktop Hard Drive | WD Purple Pro Video Analytics Hard Drive | WD Purple Surveillance Hard Drive | WD_BLACK 3.5-Inch Gaming Hard Drive | WD_BLACK Performance Mobile Hard Drive | WD Gold Enterprise Class Hard Drive | WD Gold Enterprise Class SATA HDD | Ultrastar DC HC690 Data Center Hard Drive | Ultrastar DC HC590 Data Center Hard Drive | Ultrastar DC HC680 Data Center Hard Drive | Ultrastar DC HC670 Data Center Hard Drive | Ultrastar DC HC580 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 1,
+   "input": {
+    "path": "/products/hdd/internal-hdd",
+    "qs": "?page=2"
+   },
+   "output": {
+    "count": "32",
+    "names": "Ultrastar DC HC570 Data Center Hard Drive | Ultrastar DC HC560 Data Center Hard Drive | Ultrastar DC HC550 Data Center Hard Drive | Ultrastar DC HC330 Data Center Hard Drive | Ultrastar DC HC320 Data Center Hard Drive | Ultrastar DC HC310 Data Center Hard Drive | Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive | WD Red NAS Hard Drive - Recertified | Ultrastar DC HC5090 Data Center Hard Drive | Ultrastar DC HC350 Data Center Hard Drive | WD Purple Surveillance Hard Drive | Ultrastar DC HC530 Data Center Hard Drive | Ultrastar DC HC520 Data Center Hard Drive | Ultrastar DC HC650 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 2,
+   "input": {
+    "path": "/products/hdd/internal-hdd",
+    "qs": "?filterByBrandName=WD_BLACK"
+   },
+   "output": {
+    "count": "2",
+    "names": "WD_BLACK 3.5-Inch Gaming Hard Drive | WD_BLACK Performance Mobile Hard Drive",
+    "facets": "Brand | Capacity Range | Use Case | Connector Type | Services | Price | Inteface",
+    "pager": ""
+   }
+  },
+  {
+   "i": 3,
+   "input": {
+    "path": "/products/hdd/internal-hdd",
+    "qs": "?filterByUseCaseName=Data+Center"
+   },
+   "output": {
+    "count": "19",
+    "names": "WD Gold Enterprise Class Hard Drive | Ultrastar DC HC690 Data Center Hard Drive | Ultrastar DC HC590 Data Center Hard Drive | Ultrastar DC HC680 Data Center Hard Drive | Ultrastar DC HC670 Data Center Hard Drive | Ultrastar DC HC580 Data Center Hard Drive | Ultrastar DC HC570 Data Center Hard Drive | Ultrastar DC HC560 Data Center Hard Drive | Ultrastar DC HC550 Data Center Hard Drive | Ultrastar DC HC330 Data Center Hard Drive | Ultrastar DC HC320 Data Center Hard Drive | Ultrastar DC HC310 Data Center Hard Drive | Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive | Ultrastar DC HC5090 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Price | Inteface",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 4,
+   "input": {
+    "path": "/products/hdd/internal-hdd",
+    "qs": "?filterByBrandName=Western+Digital&page=2"
+   },
+   "output": {
+    "count": "30",
+    "names": "Ultrastar DC HC550 Data Center Hard Drive | Ultrastar DC HC330 Data Center Hard Drive | Ultrastar DC HC320 Data Center Hard Drive | Ultrastar DC HC310 Data Center Hard Drive | Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive | WD Red NAS Hard Drive - Recertified | Ultrastar DC HC5090 Data Center Hard Drive | Ultrastar DC HC350 Data Center Hard Drive | WD Purple Surveillance Hard Drive | Ultrastar DC HC530 Data Center Hard Drive | Ultrastar DC HC520 Data Center Hard Drive | Ultrastar DC HC650 Data Center Hard Drive | WD Red Pro NAS Hard Drive | WD Purple Pro Smart Video Hard Drive",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 5,
+   "input": {
+    "path": "/products/hdd/internal-hdd",
+    "sort": "name-asc"
+   },
+   "output": {
+    "count": "32",
+    "names": "Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC310 Data Center Hard Drive | Ultrastar DC HC320 Data Center Hard Drive | Ultrastar DC HC330 Data Center Hard Drive | Ultrastar DC HC350 Data Center Hard Drive | Ultrastar DC HC5090 Data Center Hard Drive | Ultrastar DC HC520 Data Center Hard Drive | Ultrastar DC HC530 Data Center Hard Drive | Ultrastar DC HC550 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive | Ultrastar DC HC560 Data Center Hard Drive | Ultrastar DC HC570 Data Center Hard Drive | Ultrastar DC HC580 Data Center Hard Drive | Ultrastar DC HC590 Data Center Hard Drive | Ultrastar DC HC650 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 6,
+   "input": {
+    "path": "/products/hdd/internal-hdd",
+    "sort": "launchDate"
+   },
+   "output": {
+    "count": "32",
+    "names": "WD Blue PC Desktop Hard Drive | WD Purple Pro Video Analytics Hard Drive | WD Red Pro NAS Hard Drive | WD Gold Enterprise Class Hard Drive | Ultrastar DC HC690 Data Center Hard Drive | Ultrastar DC HC590 Data Center Hard Drive | Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive | WD_BLACK 3.5-Inch Gaming Hard Drive | WD Purple Pro Smart Video Hard Drive | WD Gold Enterprise Class SATA HDD | Ultrastar DC HC580 Data Center Hard Drive | Ultrastar DC HC680 Data Center Hard Drive | WD Purple Surveillance Hard Drive | Ultrastar DC HC570 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 7,
+   "input": {
+    "path": "/products/hdd"
+   },
+   "output": {
+    "count": "66",
+    "names": "WD Red Pro NAS Hard Drive | WD Red Plus Internal NAS HDD 3.5\" | My Passport Ultra | WD Blue PC Mobile Hard Drive | WD Blue PC Desktop Hard Drive | My Passport, Works with USB-C\u2122 | My Passport | My Passport for Mac | WD Purple Pro Video Analytics Hard Drive | WD Purple Surveillance Hard Drive | My Passport Ultra for Mac | WD_BLACK 3.5-Inch Gaming Hard Drive | WD_BLACK Performance Mobile Hard Drive | WD_BLACK P10 Game Drive | WD Gold Enterprise Class Hard Drive",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 4 5 NEXT"
+   }
+  },
+  {
+   "i": 8,
+   "input": {
+    "path": "/products/hdd",
+    "qs": "?page=3"
+   },
+   "output": {
+    "count": "66",
+    "names": "Ultrastar DC HC580 Data Center Hard Drive | Ultrastar DC HC570 Data Center Hard Drive | Ultrastar DC HC560 Data Center Hard Drive | Ultrastar DC HC550 Data Center Hard Drive | Ultrastar DC HC330 Data Center Hard Drive | Ultrastar DC HC320 Data Center Hard Drive | Ultrastar DC HC310 Data Center Hard Drive | Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive | WD_BLACK P10 Game Drive, Works with PlayStation\u00ae | G-DRIVE PROJECT | G-DRIVE | G-RAID PROJECT 2 | G-RAID SHUTTLE 8 | G-RAID SHUTTLE 4",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 4 5 NEXT"
+   }
+  },
+  {
+   "i": 9,
+   "input": {
+    "path": "/products/hdd",
+    "qs": "?filterByVvc-capacity=01+TB+-+04+TB"
+   },
+   "output": {
+    "count": "31",
+    "names": "WD Red Pro NAS Hard Drive | WD Red Plus Internal NAS HDD 3.5\" | My Passport Ultra | WD Blue PC Mobile Hard Drive | WD Blue PC Desktop Hard Drive | My Passport, Works with USB-C\u2122 | My Passport | My Passport for Mac | WD Purple Surveillance Hard Drive | My Passport Ultra for Mac | WD_BLACK 3.5-Inch Gaming Hard Drive | WD_BLACK Performance Mobile Hard Drive | WD_BLACK P10 Game Drive | WD Gold Enterprise Class Hard Drive | WD My Passport Ultra, 20th Anniversary Edition",
+    "facets": "Brand | Capacity Range | Form Factor | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 10,
+   "input": {
+    "path": "/products/hdd/external-hdd"
+   },
+   "output": {
+    "count": "32",
+    "names": "My Passport Ultra | My Passport, Works with USB-C\u2122 | My Passport | My Passport for Mac | My Passport Ultra for Mac | WD_BLACK P10 Game Drive | WD My Passport Ultra, 20th Anniversary Edition | WD Elements Portable | WD Elements Desktop HDD Storage | WD Elements SE | My Book | My Book Duo | WD_BLACK D10 Game Drive | WD_BLACK D10 Game Drive for Xbox | WD_BLACK P10 Game Drive for Xbox",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 11,
+   "input": {
+    "path": "/products/hdd/external-hdd",
+    "qs": "?page=2"
+   },
+   "output": {
+    "count": "32",
+    "names": "WD Drive for Chromebook | WD_BLACK P10 Game Drive, Works with PlayStation\u00ae | G-DRIVE PROJECT | G-DRIVE | G-RAID PROJECT 2 | G-RAID SHUTTLE 8 | G-RAID SHUTTLE 4 | G-DRIVE ArmorATD | WD Elements Portable (USB-C) | My Passport (native USB-C) | My Cloud Home | My Cloud Pro Series PR2100 | My Cloud Expert Series EX2 Ultra | My Cloud Expert Series EX4100 | easystore Portable Storage",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Services | Price | Inteface",
+    "pager": "PREV 1 2 3 NEXT"
+   }
+  },
+  {
+   "i": 12,
+   "input": {
+    "path": "/products/accessories"
+   },
+   "output": {
+    "count": "21",
+    "names": "My Passport Hard Case | WD_BLACK Limited-Edition Beanie | WD Travel Sling Backpack | G-RAID MIRROR Drive Tray | G-RAID Power Adapter Kit 19V 90W | G-RAID Shuttle/G-RAID 2 Drive Tray | G-RAID SHUTTLE 4 Pelican iM2500 Storm Carry-On Case | G-RAID SHUTTLE 8 Pelican iM2500 Storm Carry-On Case | Portable Hard Drive Case | 90W Power Adapter Kit | ev Series Bay Adapter | G-SPEED Shuttle XL Protective Case | My Passport Neoprene Case | Western Digital Store Camera Cover | WD_BLACK T-Shirt with Color RGB Bar",
+    "facets": "Brand | Use Case | Color | Connector Type | Price",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 13,
+   "input": {
+    "path": "/products/accessories",
+    "qs": "?page=2"
+   },
+   "output": {
+    "count": "21",
+    "names": "WD_BLACK Hoodie | My Passport Neoprene Case Black | Data Recovery Plan | Western Digital Portable Hard Shell Case | Limited Edition Western Digital Mousepad | Limited Edition WD_BLACK Mousepad",
+    "facets": "Brand | Use Case | Color | Connector Type | Price",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 14,
+   "input": {
+    "path": "/products/data-center-storage"
+   },
+   "output": {
+    "count": "22",
+    "names": "WD Gold Enterprise Class Hard Drive | WD Gold Enterprise Class SATA HDD | Ultrastar DC HC690 Data Center Hard Drive | Ultrastar DC HC590 Data Center Hard Drive | Ultrastar DC HC680 Data Center Hard Drive | Ultrastar DC HC670 Data Center Hard Drive | Ultrastar DC HC580 Data Center Hard Drive | Ultrastar DC HC570 Data Center Hard Drive | Ultrastar DC HC560 Data Center Hard Drive | Ultrastar DC HC550 Data Center Hard Drive | Ultrastar DC HC330 Data Center Hard Drive | Ultrastar DC HC320 Data Center Hard Drive | Ultrastar DC HC310 Data Center Hard Drive | Ultrastar DC HA340 Data Center Hard Drive | Ultrastar DC HC555 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Price",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 15,
+   "input": {
+    "path": "/products/data-center-storage",
+    "qs": "?page=2"
+   },
+   "output": {
+    "count": "22",
+    "names": "Ultrastar DC HC5090 Data Center Hard Drive | Ultrastar DC HC350 Data Center Hard Drive | Ultrastar DC HC530 Data Center Hard Drive | Ultrastar DC HC520 Data Center Hard Drive | Ultrastar Data60 Hybrid Storage Platform | Ultrastar Data102 Hybrid Storage Platform | Ultrastar DC HC650 Data Center Hard Drive",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Price",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 16,
+   "input": {
+    "path": "/products/recertified"
+   },
+   "output": {
+    "count": "21",
+    "names": "WD_BLACK Performance Mobile Hard Drive - Recertified | WD Blue PC Mobile Hard Drive - Recertified | WD Blue PC Desktop Hard Drive - Recertified | WD Red Plus Internal NAS HDD 3.5\" - Recertified | WD Gold Enterprise Class SATA HDD - Recertified | WD Red Pro NAS Hard Drive - Recertified | Ultrastar DC HC580 Data Center HDD - Recertified | Ultrastar DC HC530 Data Center HDD - Recertified | Ultrastar DC HC520 Data Center HDD - Recertified | Ultrastar DC HC330 Data Center HDD - Recertified | WD Purple Surveillance Hard Drive - Recertified | My Passport for Mac (Recertified) | My Passport (Recertified) | WD Elements Portable 2018 (Recertified) | WD Elements Portable (Recertified)",
+    "facets": "Brand | Capacity | Use Case | Color | Connector Type | Price",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 17,
+   "input": {
+    "path": "/products/recertified",
+    "qs": "?page=2"
+   },
+   "output": {
+    "count": "21",
+    "names": "WD Elements SE (Recertified) | WD_BLACK P10 Game Drive (Recertified) | My Passport Ultra (Recertified) | My Book (Recertified) | WD Elements Desktop Hard Drive (Recertified) | WD_BLACK\u2122 Performance Desktop Hard Drive (Recertified)",
+    "facets": "Brand | Capacity | Use Case | Color | Connector Type | Price",
+    "pager": "PREV 1 2 NEXT"
+   }
+  },
+  {
+   "i": 18,
+   "input": {
+    "path": "/products/final-production"
+   },
+   "output": {
+    "count": "7",
+    "names": "WD Gold Enterprise Class SATA HDD | 90W Power Adapter Kit | ev Series Bay Adapter | G-SPEED Shuttle XL Protective Case | WD Purple Surveillance Hard Drive | WD Red Pro NAS Hard Drive | WD Purple Pro Smart Video Hard Drive",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Price",
+    "pager": ""
+   }
+  },
+  {
+   "i": 19,
+   "input": {
+    "path": "/products/final-production",
+    "sort": "name-desc"
+   },
+   "output": {
+    "count": "7",
+    "names": "ev Series Bay Adapter | WD Red Pro NAS Hard Drive | WD Purple Surveillance Hard Drive | WD Purple Pro Smart Video Hard Drive | WD Gold Enterprise Class SATA HDD | G-SPEED Shuttle XL Protective Case | 90W Power Adapter Kit",
+    "facets": "Brand | Capacity Range | Use Case | Color | Connector Type | Price",
+    "pager": ""
+   }
+  }
+ ]
+}
