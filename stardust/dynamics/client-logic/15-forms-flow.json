@@ -1,0 +1,148 @@
+{
+ "source": {
+  "origin": "https://www.westerndigital.com/company/contact-us",
+  "topics": {
+   "Looking to Purchase (For Business)": {
+    "emptySubmitErrors": 9,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid number",
+     "Enter a valid email address",
+     "Enter full name, e.g., \u201cCalifornia\u201d"
+    ]
+   },
+   "Careers": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ]
+   },
+   "Investor Relations": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ]
+   },
+   "Website Inquiries": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ]
+   },
+   "Pro Rewards": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ]
+   },
+   "General Inquiries": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ]
+   }
+  },
+  "nonGetRequests": [
+   "POST https://684dd32e.akstat.io/"
+  ],
+  "pageErrors": []
+ },
+ "target": {
+  "origin": "https://spike-c--sdt-westerndigital--aemcoder.aem.page/spike-c/company/contact-us",
+  "topics": {
+   "Looking to Purchase (For Business)": {
+    "emptySubmitErrors": 9,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid number",
+     "Enter a valid email address",
+     "Enter full name, e.g., \u201cCalifornia\u201d"
+    ],
+    "invalidEmail": true,
+    "afterValid": {
+     "errors": 0,
+     "status": "This preview is not connected to a form backend yet. Your request was saved in this browser only and has not been sent to Western Digital.",
+     "statusClass": "form-status is-local"
+    },
+    "captured": 1
+   },
+   "Careers": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ],
+    "invalidEmail": true,
+    "afterValid": {
+     "errors": 0,
+     "status": "This preview is not connected to a form backend yet. Your request was saved in this browser only and has not been sent to Western Digital.",
+     "statusClass": "form-status is-local"
+    },
+    "captured": 2
+   },
+   "Investor Relations": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ],
+    "invalidEmail": true,
+    "afterValid": {
+     "errors": 0,
+     "status": "This preview is not connected to a form backend yet. Your request was saved in this browser only and has not been sent to Western Digital.",
+     "statusClass": "form-status is-local"
+    },
+    "captured": 3
+   },
+   "Website Inquiries": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ],
+    "invalidEmail": true,
+    "afterValid": {
+     "errors": 0,
+     "status": "This preview is not connected to a form backend yet. Your request was saved in this browser only and has not been sent to Western Digital.",
+     "statusClass": "form-status is-local"
+    },
+    "captured": 4
+   },
+   "Pro Rewards": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ],
+    "invalidEmail": true,
+    "afterValid": {
+     "errors": 0,
+     "status": "This preview is not connected to a form backend yet. Your request was saved in this browser only and has not been sent to Western Digital.",
+     "statusClass": "form-status is-local"
+    },
+    "captured": 5
+   },
+   "General Inquiries": {
+    "emptySubmitErrors": 4,
+    "messages": [
+     "Field cannot be empty.",
+     "Enter a valid email address."
+    ],
+    "invalidEmail": true,
+    "afterValid": {
+     "errors": 0,
+     "status": "This preview is not connected to a form backend yet. Your request was saved in this browser only and has not been sent to Western Digital.",
+     "statusClass": "form-status is-local"
+    },
+    "captured": 6
+   }
+  },
+  "nonGetRequests": [],
+  "pageErrors": []
+ }
+}

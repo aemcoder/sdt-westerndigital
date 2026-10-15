@@ -1,0 +1,144 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics",
+  "writtenAt": "2026-10-15T16:53:46+00:00",
+  "againstInput": "spike-c: register rows 14, 15, 23 only (subset of parity.json)"
+ },
+ "method": "self rows rebuilt natively in block/header JS from motion-observe evidence; static snapshot for commerce/data rows; tags host-gated (not loaded on preview); replays run against the preview origin at 1440 (360 for the drawer).",
+ "features": [
+  {
+   "id": "row-14-product-catalog",
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "class": "CR/A",
+   "pages": 7,
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "product-listing block calls the storefront search API (api.westerndigital.com/wdwebservices/v2/us/products/search, CORS-open to the target: client-logic cors 200) with the source CLP query; flow vectors source vs target 20/20 exact (count, product names+order, facet heads, pager) over default/page/filterBy\u2026/sort states on 7 PLPs; 1440 + 360 flow (facet \u2192 30 items + ?filterByBrandName, sort, unfilter, page 2) 0 page errors",
+   "owner": "none for the listing. Prices stay row 12 (decided-out): API tiles show the captured price of the same PDP or none \u2014 catalog list price disagreed with the storefront's in-stock 'Starting at' on 67/245 tiles; the campaign tile ('Limited Time Offer', AEM graphql clpcampaignendpoint, www host) is not reproduced",
+   "snapshot": "live API; captured tiles are the document-first fallback (2026-09-18)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/spike-c/products/hdd/internal-hdd",
+     "selector": ".product-listing.is-live .clp-grid .tile-cell",
+     "min": 15
+    },
+    {
+     "type": "dom-count",
+     "path": "/spike-c/products/hdd/internal-hdd?filterByBrandName=WD_BLACK",
+     "selector": ".product-listing.is-live .clp-filter-value input[value=\"WD_BLACK\"]:checked",
+     "min": 1
+    },
+    {
+     "type": "dom-count",
+     "path": "/spike-c/products/hdd/internal-hdd?page=2",
+     "selector": ".product-listing.is-live .clp-pagination a.pg-num[aria-current=\"page\"]",
+     "min": 1
+    },
+    {
+     "type": "dom-count",
+     "path": "/spike-c/products/final-production",
+     "selector": ".product-listing.is-live .clp-grid .tile-cell",
+     "min": 5
+    },
+    {
+     "type": "fetch-json",
+     "url": "https://api.westerndigital.com/wdwebservices/v2/us/products/search?fields=FULL&pageSize=15&query=:relevance:category:cat_internal:category:cat_hard_drives&customQuery=*:*+AND+-optionalCondition_en_string_mv:*recertified*&sort=relevance&currentPage=0",
+     "expectKeys": [
+      "facets",
+      "pagination",
+      "products"
+     ]
+    },
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/spike-c/products/hdd/internal-hdd",
+      "/spike-c/products/hdd",
+      "/spike-c/products/accessories",
+      "/spike-c/products/recertified"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "row-15-forms",
+   "feature": "contact-us topic forms (6) + Talk to an Expert (data-center-storage-platform)",
+   "class": "F",
+   "pages": 2,
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-backend",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "form block from /data/forms definitions recorded on the live forms; empty submit refused with the live copy on all 6 topics \u2014 error counts source 9/4/4/4/4/4 = target 9/4/4/4/4/4 ('Field cannot be empty.', 'Enter a valid email address.', 'Enter a valid number', 'Enter full name, e.g., \u201cCalifornia\u201d'); invalid email flagged on blur; filled submit \u2192 local capture + 'not connected to a form backend' notice, 0 first-party POSTs, 0 page errors (stardust/dynamics/client-logic/15-forms-flow.json)",
+   "owner": "form intake endpoint per form: source posts to production AEM servlets /bin/wd/sf/lead/sub (Salesforce/Marketo lead, Looking to Purchase) and /bin/wd/formemail (inbox relay: jobs@, investor@, pro.rewards@, GeneralWebInquiries@) behind reCAPTCHA \u2014 name an endpoint in scripts/site-config.js (forms.endpoint / forms.endpoints[name])",
+   "environmentLimit": "the form-flow check below FAILS by design until an endpoint is configured: interim submissions never leave the browser",
+   "checks": [
+    {
+     "type": "form-flow",
+     "path": "/spike-c/solutions/data-center-storage-platform",
+     "form": "#talk-to-an-expert form",
+     "submit": "button[type=submit]",
+     "fill": {
+      "fs_1_productCategoryContactUs": "Hard Drives (HDDs)",
+      "firstName": "QA",
+      "lastName": "Test",
+      "phone": "4085551234",
+      "email": "qa.test@example.com",
+      "cusJobTitle": "QA",
+      "ext_regBusinessName": "Example Inc",
+      "state": "California",
+      "fs_7_personNotes": "Parity check \u2014 please ignore"
+     },
+     "statusSelector": "#talk-to-an-expert .form-error:not([hidden]), #talk-to-an-expert .form-status",
+     "successIncludes": "Thank you"
+    },
+    {
+     "type": "dom-count",
+     "path": "/spike-c/company/contact-us",
+     "selector": "#form-topic option",
+     "min": 11
+    },
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/spike-c/company/contact-us",
+      "/spike-c/solutions/data-center-storage-platform"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "row-23-calculators",
+   "feature": "RAID capacity + CCTV/NVR surveillance storage calculators",
+   "class": "CR/F",
+   "pages": 2,
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "client-logic capture: locus client (0 requests on interaction); compute() re-implemented from raid-capacity-calculator.js (USABLE_CAPACITY, MIN_DRIVES, NESTED_RAID_TYPES) and surveillance-capacity-calculator.js (getCompressionRatio table, colorDepth 30/16 at 8294399, toFixed(3)); vectors source vs target RAID 25/25 exact, surveillance 23/23 exact incl. validation states",
+   "environmentLimit": "on the source the Genesys chat iframe (wd-chat-frame) steals keyboard focus under automation; vectors set inputs programmatically on both origins",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/spike-c/tools/raid-capacity-calculator",
+     "selector": ".calculator--raid #capacity-form #raid-type option",
+     "min": 9
+    },
+    {
+     "type": "dom-count",
+     "path": "/spike-c/tools/surveillance-capacity-calculator",
+     "selector": ".calculator--surveillance #capacity-form input[name=codec]",
+     "min": 4
+    },
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/spike-c/tools/raid-capacity-calculator",
+      "/spike-c/tools/surveillance-capacity-calculator"
+     ]
+    }
+   ]
+  }
+ ]
+}

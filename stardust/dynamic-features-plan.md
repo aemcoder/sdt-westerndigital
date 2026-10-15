@@ -33,3 +33,13 @@ origin at 1440 and 360, a `parity.json` row, a journal entry and a commit.
 
 `stardust/dynamics/parity.json` written at rollout with one replayable check per row of status ≠ decided-out;
 `dynamics-check.mjs --origin https://main--sdt-westerndigital--aemcoder.aem.live` → `stardust/qa/dynamics-report.md`.
+
+## Phase S — spike-c (2026-10-15): rows 14, 15, 23
+
+| deliverable | rows | authoring contract | verification | owner decision |
+|---|---|---|---|---|
+| `product-listing` data-fed mode: API grid, live facets (source order, More/Less at 10), chips + Clear All (mobile), 6 sorts, source pagination window, URL state `?filterBy<Code>=v1,v2&page=N`, mobile drawer close + operable sort | 14 | config rows `categories` (cat codes), `condition` (default · recertified · outlet), `facets` (codes in rail order), `filter-limit`; tile rows stay the document-first snapshot | flow vectors source = target 20/20 (`client-logic/14-plp`), 1440 + 360 flows, parity `row-14-product-catalog` 6/6 | none (prices = row 12) |
+| `calculator` block (RAID, surveillance) + `/spike-c/tools/*` pages (breadcrumb, cta-band, table, faq, disclosures reused) | 23 | rows `type`, `intro`, `benefits`, `group`/`break`, `number`/`select`/`choice` fields, `actions`, `note`, `explain`, `results`/`result`/`detail`, `aside` | vectors 25/25 + 23/23 exact (`client-logic/23-*`), parity `row-23-calculators` 3/3 | none |
+| `form` block (definitions in `data/forms/*.json`), `scripts/site-config.js`, `/spike-c/company/contact-us`, `/spike-c/solutions/data-center-storage-platform` (Talk to an Expert inline, `#talk-to-an-expert`) | 15 | `source` / `topics` + `topic` rows (form definition or authored panel, optional lead cell), `anchor` | empty-submit parity 6/6 topics, local capture, 0 POSTs; parity `row-15-forms` 2/3 (form-flow waits for the endpoint) | intake endpoint per form |
+
+Not in this phase: the modal presentation of Talk to an Expert (row 6), easy-recycle form (its page is not migrated — same block, definition still to record), PDP/compare (§ Register), live prices (row 12).

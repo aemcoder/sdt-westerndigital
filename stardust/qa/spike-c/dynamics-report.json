@@ -1,0 +1,154 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-15T16:54:29.058Z",
+  "origin": "https://spike-c--sdt-westerndigital--aemcoder.aem.page",
+  "parity": "stardust/dynamics/parity.spike-c.json"
+ },
+ "results": [
+  {
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "id": "row-14-product-catalog",
+   "class": "CR/A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "15 × .product-listing.is-live .clp-grid .tile-cell (min 15)",
+   "thirdParty": "api.westerndigital.com:200×1 www.westerndigital.com:200×10",
+   "ms": 3892,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "id": "row-14-product-catalog",
+   "class": "CR/A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .product-listing.is-live .clp-filter-value input[value=\"WD_BLACK\"]:checked (min 1)",
+   "thirdParty": "api.westerndigital.com:200×1",
+   "ms": 2429,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "id": "row-14-product-catalog",
+   "class": "CR/A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .product-listing.is-live .clp-pagination a.pg-num[aria-current=\"page\"] (min 1)",
+   "thirdParty": "api.westerndigital.com:200×1 www.westerndigital.com:200×11",
+   "ms": 2302,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "id": "row-14-product-catalog",
+   "class": "CR/A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "7 × .product-listing.is-live .clp-grid .tile-cell (min 5)",
+   "thirdParty": "api.westerndigital.com:200×1 www.westerndigital.com:200×6",
+   "ms": 2307,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "id": "row-14-product-catalog",
+   "class": "CR/A",
+   "status": "done",
+   "type": "fetch-json",
+   "pass": true,
+   "detail": "200 · 8 rows · keys type,breadcrumbs,currentQuery,facets,freeTextSearch,pagination,products,sorts",
+   "thirdParty": "",
+   "ms": 3479,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product listing pages: facets, sort, pagination (7 PLPs)",
+   "id": "row-14-product-catalog",
+   "class": "CR/A",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 4 page(s)",
+   "thirdParty": "",
+   "ms": 8197,
+   "environmentLimit": null
+  },
+  {
+   "feature": "contact-us topic forms (6) + Talk to an Expert (data-center-storage-platform)",
+   "id": "row-15-forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "form-flow",
+   "pass": false,
+   "detail": "empty refused: true (\"Field cannot be empty.\") · filled posted: false · success copy: false",
+   "thirdParty": "",
+   "ms": 5621,
+   "environmentLimit": "the form-flow check below FAILS by design until an endpoint is configured: interim submissions never leave the browser"
+  },
+  {
+   "feature": "contact-us topic forms (6) + Talk to an Expert (data-center-storage-platform)",
+   "id": "row-15-forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "11 × #form-topic option (min 11)",
+   "thirdParty": "",
+   "ms": 2134,
+   "environmentLimit": "the form-flow check below FAILS by design until an endpoint is configured: interim submissions never leave the browser"
+  },
+  {
+   "feature": "contact-us topic forms (6) + Talk to an Expert (data-center-storage-platform)",
+   "id": "row-15-forms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 3549,
+   "environmentLimit": "the form-flow check below FAILS by design until an endpoint is configured: interim submissions never leave the browser"
+  },
+  {
+   "feature": "RAID capacity + CCTV/NVR surveillance storage calculators",
+   "id": "row-23-calculators",
+   "class": "CR/F",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × .calculator--raid #capacity-form #raid-type option (min 9)",
+   "thirdParty": "",
+   "ms": 2416,
+   "environmentLimit": "on the source the Genesys chat iframe (wd-chat-frame) steals keyboard focus under automation; vectors set inputs programmatically on both origins"
+  },
+  {
+   "feature": "RAID capacity + CCTV/NVR surveillance storage calculators",
+   "id": "row-23-calculators",
+   "class": "CR/F",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .calculator--surveillance #capacity-form input[name=codec] (min 4)",
+   "thirdParty": "",
+   "ms": 1810,
+   "environmentLimit": "on the source the Genesys chat iframe (wd-chat-frame) steals keyboard focus under automation; vectors set inputs programmatically on both origins"
+  },
+  {
+   "feature": "RAID capacity + CCTV/NVR surveillance storage calculators",
+   "id": "row-23-calculators",
+   "class": "CR/F",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 3549,
+   "environmentLimit": "on the source the Genesys chat iframe (wd-chat-frame) steals keyboard focus under automation; vectors set inputs programmatically on both origins"
+  }
+ ]
+}

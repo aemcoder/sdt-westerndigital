@@ -136,3 +136,20 @@ file of general stardust improvements.
 **Next:** user review of the Products-menu pages; then W1 (press-release siblings) / W3 per the plan, or the mobile follow-up round.
 
 ---
+
+## 2026-10-15T16:55:35Z — dynamics Phases 1–5 on rows 14, 15, 23 (branch spike-c)
+
+**Prompt:** "run the stardust dynamics skill, Phases 1–5, on register rows #14 product-catalog, #15 forms, #23 calculators only" (hands-off; code on `spike-c`; content as `/spike-c/…` copies).
+
+**Decisions:**
+- Detect on 7 source pages (PLP archetype, contact-us, both tools, data-center-storage-platform, easy-recycle, find-a-store) → `stardust/current/spike-c/`; target probe: 11/11 first-party paths dead on spike-c.
+- **Row 14 → data-fed · self · done.** The PLP grid comes from `api.westerndigital.com/wdwebservices/v2/us/products/search`, CORS-open to the target; the block replays the source CLP state machine (API-supplied toggle queries, 6 sorts, pagination window, `filterBy…` URL state). The colon-bearing query could not be authored verbatim (EDS turns `:x:` into icons) → the colon-free `categories` / `condition` contract already present in the DA docs was adopted. Catalog list prices disagreed with the storefront's in-stock "Starting at" on 67/245 tiles → prices stay row 12 (captured price of the same PDP, else none).
+- **Row 23 → client-only · self · done.** `client-logic capture` locus client; logic re-implemented from the two first-party scripts; vectors exact both tools (the source's chat iframe steals focus under automation → inputs set programmatically on both origins).
+- **Row 15 → scaffolded-awaiting-owner.** Forms post to production-only AEM servlets behind reCAPTCHA; block built from recorded definitions, validators and copy from formbase.js; interim = local capture + explicit notice; endpoint decision named in `scripts/site-config.js` and § Decision batch 2. Talk to an Expert rendered inline (modal = row 6).
+- Mobile defects found and fixed on the way: PLP drawer could not be closed (covered its own toggle), sort select unusable below 768; `template: form` metadata collided with the `.form` block (renamed `contact`).
+
+**Artifacts touched:** `blocks/product-listing/*`, `blocks/calculator/*` (new), `blocks/form/*` (new), `blocks/columns/columns.css` (`contact-cards`), `icons/contact-*.svg`, `scripts/site-config.js`, `data/forms/*.json`, `content/spike-c/**`, DA `/spike-c/products/**` (7), `/spike-c/tools/*` (2), `/spike-c/company/contact-us`, `/spike-c/solutions/data-center-storage-platform`, `stardust/dynamic-features{,-plan}.md` (rows 14/15/23 only), `stardust/dynamics/parity.json` (+3 features), `stardust/dynamics/client-logic/**`, `stardust/qa/spike-c/dynamics-report.*`.
+
+**Open questions:** form intake endpoints (row 15); whether price/inventory (row 12) should feed listing tiles once commerce is decided.
+
+**Next:** owner names the form endpoints → re-run `dynamics-check` (form-flow turns green); merge `spike-c` content contract (`facets`, `filter-limit` rows) into the live PLP docs when the branch ships.
