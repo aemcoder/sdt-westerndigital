@@ -1,0 +1,138 @@
+# Journal — westerndigital.com replica (EDS migration)
+
+Chronological log of every prompt execution. Most recent at the bottom.
+See `skills/stardust/reference/journal-format.md` for entry format.
+
+---
+
+## 2026-09-18T07:15:00Z — Repo created; extract --prep --dynamics; preserve-mode direction; plan
+
+**Prompt:** Migrate westerndigital.com to EDS with stardust as a same-design replica; create a new
+private EDS repo with the personal `eds-new-site` skill; define the full-site migration plan; migrate
+only 3 pages (home + 2 archetypes) to final fidelity in this run; proceed without asking; keep a notes
+file of general stardust improvements.
+
+**Decisions:**
+- Flow: `replica` → `deploy` for the 3 archetypes; `migrate`/`rollout` for the rest (plan only). No `prepare-migration`.
+- Repo `aemcoder/sdt-westerndigital` (private, `sdt-` Stardust prefix), fstab → da.live, Code Sync installation 96863683, boilerplate starter content published.
+- Hands-off mode activated by the user's instruction; caps 100/20 → roster of 106 pages.
+- Archetypes: home (landing), press release 2026-09-15 (article, 73% of sitemap), corporate responsibility (program, ~110 pages). Product listing rejected: commerce-rendered, decided-out.
+- Content root for all gates: `.mainContainWrap` (adopted on the prototypes).
+- Fonts: the site's own Roboto woff2 (Apache 2.0), self-hosted.
+- Empty inconsistency register (pure replica).
+- Dynamics: 23 curated rows; commerce/account/catalog decided-out this phase; tags/CMP/chat not loaded until ids arrive.
+
+**Artifacts touched:**
+- `fstab.yaml`, `.gitignore` (stardust block), `.hlxignore` — updated
+- `stardust/state.json`, `status.jsonl`, `direction.md`, `journal.md` — created
+- `stardust/current/` (106 page JSON + HTML sidecars, screenshots, fonts, logos, favicon, `_crawl-log.json`, `_brand-extraction.json`, `PRODUCT.md`, `DESIGN.md`, `DESIGN.json`, `brand-review.html`, `_dynamics.json`) — created
+- `PRODUCT.md`, `DESIGN.md`, `DESIGN.json` (root) — promoted verbatim
+- `stardust/replica/{inconsistency-register.md,migration-plan.md,lift/,dump/}` — created
+- `stardust/dynamic-features.md`, `dynamic-features-plan.md`, `stardust/dynamics/` — created
+- `stardust/scripts/{crawl.mjs,replica/,diff/,deploy/,dynamics/}` + project instruments `css-lift.mjs`, `section-dump.mjs` — copied/created
+- `stardust/notes/stardust-improvements.md` — created
+
+**Findings worth flagging:**
+- `crawl.mjs` writes no brand surface / PRODUCT / DESIGN — the `--prep` synthesis is agent work; two project instruments (css-lift, section-dump) filled the gap and doubled as the Phase-3 CSS lift.
+- The sitemap body is raw gzip; `sitemap_index.xml` is a 404 page. Product URLs are absent from the sitemap entirely.
+- The consent banner survives the crawler's text-match "Accept" click and is baked into every crawl screenshot.
+- `eds-new-site`: push after template clone is rejected without a rebase; DA list returns 200 `[]` for absent folders.
+
+**Open questions:**
+- Commerce boundary, form intake endpoint, tags/CMP ids, locale scope — recorded as the dynamics decision batch (interim tiers ship).
+
+**Next:** Phase 3 — author the three prototypes (shared canon + per-archetype CSS) from the dumps/lifts, then the source-fidelity gate at 1440 and 360.
+
+---
+## 2026-09-18T10:40:00Z — Phase 3–4: three archetypes recreated and gated at 1440 and 360
+
+**Prompt:** (continuation of the same run) recreate the archetypes, run the source-fidelity gate, then deploy.
+
+**Decisions:**
+- Content root `.mainContainWrap` on both sides; prototypes built from `src/` + shared chrome partials by `stardust/.work/proto/build.mjs` (cumulative canon: `canon.css` + `canon.js` + per-archetype CSS).
+- Hero at rest on slide 2 with the live `.darken-left` scrim: the live capture's autoplay state; Splide clones mirrored (8 `li`) so content-diff pairs every CTA.
+- Chrome scroll state cloned from measurement: `body.minHeader` (scrollY>0 → header `top:-40px`) on pages without a sub-nav; program pages never pin the header and their sub-nav gains `sticky-stuck` (fixed, items flush-left at x=80).
+- Fluid container model encoded: `.contain` 100% / 992 / 1140 / 1464 steps; the 1920 box check matched live exactly (doc 6396).
+- AEM richtext bytes are load-bearing: 16 `&nbsp;` entities incl. a trailing one changed a wrap; mirrored verbatim. Footer margins mirror AEM's floated-grid BFCs (`display: flow-root` wrappers).
+- Motion: only measured behaviors implemented (minHeader, sticky-stuck, hero progress-item state machine + 5s autoplay, draggable rails); measured-dead hovers left out.
+- Corporate 1440 ran 5 iterations (documented over-cap): one no-op re-verify and two rounds fixing content-fidelity defects the gate exposed (400-char dump truncation).
+
+**Artifacts touched:**
+- `stardust/prototypes/{canon.css,canon.js,home.css,press-release.css,corporate-responsibility.css,partials/,src/,*-proposed.html}` — created
+- `stardust/replica/{progress.json,gates/*,motion/*.json,lift/,dump/,outline/}` — created
+- `stardust/scripts/replica/{css-lift,section-dump,dump-outline,chrome-scroll-probe}.mjs` — project instruments
+- `stardust/eds-schema/*.json` — created; `stardust/state.json` (3 pages approved, hands-off) — updated
+
+**Findings worth flagging:**
+- Live header is `position: sticky; top: auto` on program pages (inert stickiness) — a probe of computed `top`, not `position`, is what reveals chrome behavior.
+- The capture-time `inert` attribute on the header (consent focus trap) and the baked-in banner confirm the crawler's consent dismissal did not take effect.
+
+**Open questions:** none blocking; owner decisions listed in `stardust/dynamic-features.md § Decision batch`.
+
+**Next:** Phase 5 — deploy the three archetypes to EDS (blocks, nav/footer docs, DA upload, published-origin gate).
+
+---
+## 2026-09-18T11:50:00Z — Phase 5: EDS conversion done; DA delivery blocked on the expired token
+
+**Prompt:** (continuation) deploy the three gated archetypes to EDS.
+
+**Decisions:**
+- Block inventory locked (see `stardust/eds-conversion-log.md`): header, footer, hero-carousel, category-tabs, cards ×4 variants, columns ×2 variants, split-band, photo-hero, subnav, breadcrumb; corporate CTA band as default content with the `dark` section style.
+- Hidden commerce quick-view content and hero clone text deliberately not authored (decided-out / #100) — recorded as gate deviations, not accidents.
+- Images rehosted to DA `media/wd/<basename>` (49 + 2 logo SVGs) — upload script ready, blocked on the token.
+- Code pushed to `main`; Code Sync serves the blocks. Pre-delivery harness read: 0.35–1.81 % vs live at both breakpoints.
+
+**Artifacts touched:**
+- `styles/styles.css`, `styles/fonts.css`, `fonts/`, `favicon.ico`, `blocks/*` (10 blocks), `content/**` (5 docs) — created/updated
+- `stardust/runtime-contract.json`, `stardust/eds-conversion-log.md`, `stardust/eds-schema/*.json` — created
+- `stardust/.work/deploy/{gen-content.mjs,upload-media.sh,deliver.sh,build-harnesses.sh,media-map.json}` — run scripts
+- `stardust/replica/progress.json` (edsHarness + publishedOrigin.pending), `stardust/status.jsonl` (blocked line) — updated
+
+**Findings worth flagging:** N-15…N-18 in `stardust/notes/stardust-improvements.md` (harness section-metadata phantom, fragment wrappers, sticky host, lint vs `--no-save` Playwright).
+
+**Open questions:** none new — the DA token refresh is the one external dependency.
+
+**Next:** refresh `DA_TOKEN`, run `stardust/.work/deploy/deliver.sh`, then the published-origin gate per archetype and breakpoint; then user review before any rollout wave.
+
+---
+## 2026-09-18T10:10:44Z — Phase 5: delivered to da.live; published-origin gate passes on all three archetypes
+
+**Prompt:** "DA_TOKEN refreshed".
+
+**Decisions:**
+- `deliver.sh` ran clean (51 media 201, 5 docs, preview + live 200, `.plain.html` verified). Both origins serve the three pages.
+- First published round failed loud (10.5 %/11.5 % home, −808 px everywhere, corporate identity abort). Root causes were all publish-pipeline transforms the harness never applied — see `eds-conversion-log.md § Published-origin gate` (p-wrapped nav labels, intrinsic badge size on a lazy image, buttonized tile labels, stripped trailing nbsp) plus a build-side settle gap in `gate.sh`.
+- Trailing `&nbsp;` is carried through the pipeline with a U+200B after it (5 carriers on corporate, none in headings). This keeps live line wraps without changing visible bytes; recorded as a content-encoding decision, not a register entry.
+- Final published numbers (settle both sides): home 0.86 %/1.67 % Δ0/0 · press release 0.34 %/1.18 % Δ0/−1 · corporate 1.27 %/1.87 % Δ−5/−5; content-diff 0 red on press release and corporate, 14 on home all mapped to the two documented deviations (textless hero clones, decided-out commerce quick-view links).
+- The three archetypes are now `migrated` in `state.json`.
+
+**Artifacts touched:** `blocks/header/{header.js,header.css}`, `blocks/footer/footer.css`, `blocks/category-tabs/category-tabs.css`, `content/company/corporate-responsibility.html`, `stardust/replica/progress.json#publishedOrigin`, `stardust/state.json`, `stardust/status.jsonl`, `stardust/eds-conversion-log.md`, `stardust/notes/stardust-improvements.md` (N-19…N-24), gate evidence under `stardust/replica/gates/*/published.png`.
+
+**Findings worth flagging:** the harness understates exactly as the gate doc warns — N-21 proposes a pipeline round-trip before the harness read. A scratch probe page lingers on the preview origin (`/stardust-nbsp-test`, N-24) because the token cannot unpreview.
+
+**Open questions:** owner decisions in `stardust/dynamic-features.md § Decision batch` (commerce boundary, forms, tags/CMP, locales).
+
+**Next:** user review of the three delivered pages and the plan; then rollout waves W1–W5 per `stardust/replica/migration-plan.md`.
+
+---
+## 2026-09-18T14:16:33Z — Wave W1b: the Products menu (15 pages) delivered
+
+**Prompt:** "continue the migration, migrate all the menu items under the Product first level".
+
+**Decisions:**
+- The 26 menu links resolve to 15 pages + 11 filter states of `/products/hdd`; `/store/business/registration` stays on the storefront.
+- **Commerce boundary re-opened for listings (user decision):** Products-menu PLPs are in scope; migrated as static pages first (captured first page of tiles; facets/sort/pagination inert), the dynamic behaviour is row 14 of `dynamic-features.md` (pending). PDP/cart/compare stay absolute.
+- New **listing archetype** `/products/hdd/internal-hdd` went through the full replica flow (prototype 0.85 %/2.22 %, published 1.33 %/2.95 %); 7 listing siblings cloned with variant classes, published 0.40–1.39 % / 1.16–2.96 %; the HDD page templates its hero and re-filters from the 11 `filterBy…` states.
+- **Program family (7 pages) authored directly from measured outlines (sibling tier, no prototype — budget decision, recorded):** 1440 0.5–9.5 %, 360 7.5–16 % after 4 published rounds; 5 pages remain over the 10 % bar at 360 with residuals listed in `progress-program.json`. Tiered-pricing is a thin login-wall page (login-gated source). "Talk to an Expert" form and quick-view modals link to the live anchors (interim, decided-out rows).
+- Two workers ran in parallel with per-wave ledger shards (`progress-program.json`, `eds-conversion-log-program.md`, `media-map-program.json`, `stardust-improvements-program.md`) — N-33.
+- Nav/footer/home relocalised: all Products links now relative; republished.
+
+**Artifacts touched:** 18 new blocks (`category-banner`, `category-shortcuts`, `use-case-chips`, `product-listing`, `resource-cards`, `faq`, `buy-direct`, `product-rail`, `card-grid`, `cta-band`, `disclosures`, `media-text`, `faq-list`, `testimonial-carousel`, `tabs`, `table`, `split-hero`, `login-wall`) + variants on split-band/cards/photo-hero/subnav; `content/products/**`, `content/explore/whats-new.html`, `content/promo*.html`, `content/business/**`, `content/solutions/data-center-storage-platform.html`; `stardust/prototypes/listing*`; ledgers, state (15 pages → migrated), status, notes N-25…N-34 + N-P1…N-P7.
+
+**Findings worth flagging:** the prototyped family closed at ≤3 % on both breakpoints while the direct-authored family plateaued at 360 exactly as the replica docs predict (N-34); the live footer drifted during the run (717/2142 vs the gated 763/2176 on one capture); API drift vs capture (item counts, prices) is inherent to API-fed blocks.
+
+**Open questions:** whether to spend a mobile-only round on the 5 program pages over the bar; the commerce owner decisions (PDP/cart/account) remain.
+
+**Next:** user review of the Products-menu pages; then W1 (press-release siblings) / W3 per the plan, or the mobile follow-up round.
+
+---

@@ -1,0 +1,1629 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:54:53.479Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "products-product-portfolio",
+  "url": "https://www.westerndigital.com/products/product-portfolio",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:54:53.479Z",
+  "finalUrl": "https://www.westerndigital.com/products/product-portfolio",
+  "title": "Discover a Full Line of Hard Drive Memory Storage Products | WD",
+  "description": "Find the best HDD storage options, from internal HDD drives to high-capacity Data Center Storage and portable storage options. Keep your data safe and accessible with reliable internal and external storage solutions designed for every need.",
+  "og": {
+    "title": "Discover a Full Line of Hard Drive Memory Storage Products | WD",
+    "description": "Find the best HDD storage options, from internal HDD drives to high-capacity Data Center Storage and portable storage options. Keep your data safe and accessible with reliable internal and external storage solutions designed for every need.",
+    "image": "https://www.westerndigital.com/content/dam/store/en-us/portal-assets/logos/WesternDigital-Open-Graph-Logo-1600x627-Clear-Spaced.png",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Hard Drives & Data Center Storage from WD"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore WD Hard Drive Storage Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Storage Solutions by Workload"
+    },
+    {
+      "tag": "h3",
+      "text": "Enterprise & AI factories"
+    },
+    {
+      "tag": "h3",
+      "text": "NAS"
+    },
+    {
+      "tag": "h3",
+      "text": "Surveillance"
+    },
+    {
+      "tag": "h2",
+      "text": "Browse WD Storage Products"
+    },
+    {
+      "tag": "h3",
+      "text": "Internal Hard Drives"
+    },
+    {
+      "tag": "h3",
+      "text": "Data Center Drives"
+    },
+    {
+      "tag": "h2",
+      "text": "Popular Hard Drives Across Workloads"
+    },
+    {
+      "tag": "h2",
+      "text": "How To Choose The Hard Drive"
+    },
+    {
+      "tag": "h2",
+      "text": "Shop Hard Drives by Storage Capacity"
+    },
+    {
+      "tag": "h3",
+      "text": "Or Shop By Interface"
+    },
+    {
+      "tag": "h2",
+      "text": "Storage built for AI-scale infrastructure"
+    },
+    {
+      "tag": "h2",
+      "text": "Hard Drive Storage FAQ"
+    },
+    {
+      "tag": "h2",
+      "text": "Storage Tools & Calculators"
+    },
+    {
+      "tag": "h2",
+      "text": "Learn More About Data Storage"
+    }
+  ],
+  "body": [
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "Shop | WD for Business",
+    "Products By Category Product Portfolio Internal HDDs External HDDs Data Center Storage Accessories By Use Storage Platforms Gaming HDDs Surveillance (CCTV) HDDs RAID HDDs Backups Network Attached Storage (NAS) By Capacity Over 50TB 21 - 50TB 11 - 20TB 5 - 10TB 1 - 4TB Less than 1TB Featured What's New Most Popular Promotions Limited-Time Offers Certified Refurbished Final Production Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Solutions Use Case NAS Storage Solutions Gaming Storage RAID Storage Solutions Video Surveillance Storage Backup & Recovery Solutions Enterprise & Data Center Storage Content Creation & Media Storage Compare & Learn HDD vs. SSD AI Storage Infrastructure Data Security & Encryption Compare Hard Drives Thunderbolt vs. USB-C Industries Healthcare Education Hybrid Cloud Explore how our storage solutions support real-world use cases—from personal backups to enterprise infrastructure. View All Solutions & Use Cases",
+    "Support Help Topics Support Home Software Downloads Product Registration Warranty Services Data Recovery Services Order Status Order Status Returns & Replacements Product Security FAQs Contact Support Chat With Us Call Us Email Us Need help from an expert? Chat with our support team for help with orders, warranty questions, troubleshooting, or to connect with a representative. Live Chat with Support SanDisk Professional hard drives are now G-DRIVE. Support and Product Information are still available, just under a new name.",
+    "Company About Us Overview Innovation Our Locations Careers Investors Capital Corporate Responsibility Overview Sustainability People Supply Chain Ethics Philanthropy Data Privacy News & Events Newsroom Press Releases Events Blog Posts Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Explore WD hard drives and data center storage solutions for personal computing, professional workloads, and hyperscale cloud and AI infrastructure.",
+    "WD offers a complete portfolio of hard drive storage solutions designed for personal, professional, and enterprise environments. From desktop and portable drives to NAS systems and data center platforms, our HDD technologies deliver performance, scalability, and reliability.",
+    "ULTRASTAR / WD GOLD Enterprise & AI factories Optimized for NAS systems with 24/7 operation and RAID compatibility.",
+    "ULTRASTAR / WD GOLD",
+    "Optimized for NAS systems with 24/7 operation and RAID compatibility.",
+    "WD RED PLUS / WD RED PRO NAS Optimized for NAS systems with 24/7 operation and RAID compatibility.",
+    "WD RED PLUS / WD RED PRO",
+    "Optimized for NAS systems with 24/7 operation and RAID compatibility.",
+    "WD PURPLE / WD PURPLE PRO Surveillance Designed for 24/7 video recording and analytics.",
+    "WD PURPLE / WD PURPLE PRO",
+    "Designed for 24/7 video recording and analytics.",
+    "Internal Hard Drives Reliable internal hard drives for desktops, NAS systems, and surveillance environments. View Products Learn More .section-369538908453 { background-size: cover; background-position: center; background-repeat: no-repeat; } .webp .section-369538908453.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.wdthumb.840.840.webp); } .no-webp .section-369538908453.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.thumb.840.840.png); } @media (min-width: 768px) { .webp .section-369538908453.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.wdthumb.1280.1280.webp); } .no-webp .section-369538908453.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.thumb.1280.1280.png); } } @media (min-width: 992px) { .webp .section-369538908453.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.wdthumb.3000.3000.webp); } .no-webp .section-369538908453.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.thumb.3000.3000.png); } }",
+    "Reliable internal hard drives for desktops, NAS systems, and surveillance environments.",
+    "Data Center Drives High-capacity enterprise HDDs designed for cloud, hyperscale, and AI workloads. View Products Learn More .section-191746009386 { background-size: cover; background-position: center; background-repeat: no-repeat; } .webp .section-191746009386.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-drives.png.wdthumb.840.840.webp); } .no-webp .section-191746009386.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-drives.png.thumb.840.840.png); } @media (min-width: 768px) { .webp .section-191746009386.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-drives.png.wdthumb.1280.1280.webp); } .no-webp .section-191746009386.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-drives.png.thumb.1280.1280.png); } } @media (min-width: 992px) { .webp .section-191746009386.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-drives.png.wdthumb.3000.3000.webp); } .no-webp .section-191746009386.lazyloaded { background-image: url(/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-drives.png.thumb.3000.3000.png); } }",
+    "High-capacity enterprise HDDs designed for cloud, hyperscale, and AI workloads.",
+    "Explore some of the most popular WD hard drives across consumer, prosumer, and enterprise workloads. These selections highlight trusted solutions for performance, capacity, and reliability.",
+    "WD Red Pro NAS Hard Drive Enterprise-class storage ideal to power AI NAS at every scale. Capacity: 4TB-26TB Starting at $299.99 / Hard Drives (HDD) WD Red Pro NAS Hard Drive from Western Digital Available in capacities from 2TB to 26TB1, WD Red Pro drives are ideal for high-intensity, 24×7 workloads of multi-user enterprise and AI NAS environments. Delivers the performance, scalability, and dependability for businesses to store, share, and collaborate on large volumes of data in RAID-optimized systems. Starting at $299.99 / Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+    "Enterprise-class storage ideal to power AI NAS at every scale.",
+    "Starting at $299.99 /",
+    "WD Purple Pro Video Analytics Hard Drive See More Than Ever Before: the drive behind AI video analytics. Capacity: 8TB-26TB Starting at $464.99 / Hard Drives (HDD) WD Purple Pro Video Analytics Hard Drive from Western Digital Available up to 26TB1, WD Purple Pro drives deliver the ultimate reliability, capacity, and performance for the most demanding AI-enabled video recording and analytics environments — built to capture, retain, and process massive volumes of high-resolution surveillance video in always-on, multi-stream systems. Starting at $464.99 / Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+    "See More Than Ever Before: the drive behind AI video analytics.",
+    "Starting at $464.99 /",
+    "✕ Exclusively on the Western Digital Store Purchase a qualifying product and we will automatically upgrade the limited warranty period to include one (1) extra year of coverage1. If the product includes a 2-year limited warranty, we will extend to a 3-year limited warranty. If the product includes a 3-year limited warranty, we will extend to a 4-year limited warranty. Have Questions? Learn More 1. Limitations apply. Click ‘Learn More’ above for details. My Passport Ultra Built to endure every journey. Capacity: 1TB-6TB Starting at $199.99 / Hard Drives (HDD) My Passport Ultra from WD With its metal design and added durability, the My Passport Ultra portable hard drive is the ideal storage companion to take for your journeys. Enjoy easy access to your important files wherever you are with this high-capacity USB-C™ ready storage device. Help securely back up your data with the included Acronis® True Image™ for Western Digital software2, fortified with robust protection against ransomware threats. As you prepare to go, add an extra level of security with password protection for peace of mind for your journeys. Starting at $199.99 / Shop Now 30-Day Money-Back Guarantee | 3-Year Limited Warranty",
+    "Built to endure every journey.",
+    "Starting at $199.99 /",
+    "Ultrastar DC HC690 Data Center Hard Drive World’s first 11-disk SMR HDD platform for increased storage density. Capacity: 30TB-32TB Data Center Storage Ultrastar DC HC690 Data Center Hard Drive from Western Digital Ultrastar Data Center HC690 hard drives combine field-proven designs with the latest innovative technologies to meet data center needs for increased storage density in existing storage footprint. Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+    "World’s first 11-disk SMR HDD platform for increased storage density.",
+    "WD Gold Enterprise Class Hard Drive WD Gold HDD: Storage for Businesses, Design Professionals, and Deskside AI. Capacity: 4TB-26TB Starting at $299.99 / Hard Drives (HDD) WD Gold Enterprise Class Hard Drive from Western Digital Available up to 26TB1, WD Gold enterprise-class drives deliver the capacity, durability, and performance to power deskside AI workflows and professional creative work. Run AI models locally, store massive datasets and 4K/8K video on-prem, and keep sensitive data under your control, with or without the cloud.​ Starting at $299.99 / Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+    "WD Gold HDD: Storage for Businesses, Design Professionals, and Deskside AI.",
+    "Starting at $299.99 /",
+    "Find the right hard drive for your needs by selecting your workload, capacity, and performance requirements. WD offers purpose-built storage solutions for everything from personal backup to enterprise infrastructure.",
+    "Browse WD hard drives by capacity to find the right balance of storage, performance, and cost. From everyday backup to enterprise-scale data environments, choose the capacity that fits your workload.",
+    "1-4 TB",
+    "Desktop & Personal Backup",
+    "WD Blue",
+    "WD_BLACK",
+    "My Passport",
+    "WD Elements",
+    "5-10 TB",
+    "NAS & Surveillance",
+    "WD Red Plus / Red Pro",
+    "WD Purple / Purple Pro",
+    "G-DRIVE",
+    "11-20 TB",
+    "Enterprise & AI",
+    "WD Gold",
+    "G-RAID",
+    "Ultrastar DC HC560",
+    "21 TB+",
+    "Hyperscale & AI factories",
+    "Ultrastar DC HC5090",
+    "Ultrastar DC HC590",
+    "Ultrastar DC HC690",
+    "SATA 6 Gb/s",
+    "Internal hard drives designed for desktops, NAS systems, and surveillance environments, offering reliable performance and broad compatibility.",
+    "USB-C / USB-A",
+    "External and portable drives designed for plug-and-play storage, backup, and mobility across personal and professional workflows.",
+    "WD delivers high-capacity, power-efficient hard drives designed for hyperscale cloud and AI environments. These solutions help organizations store, manage, and scale massive data sets with reliability and efficiency.",
+    "32 TB1",
+    "Industry-leading capacity",
+    "High-capacity hard drives designed to maximize storage density and reduce physical footprint in large-scale data environments.",
+    "6.8W",
+    "Power efficiency",
+    "Optimized power consumption helps reduce operational costs while maintaining performance across enterprise and hyperscale deployments.",
+    "2.5M hrs2",
+    "MTBF reliability",
+    "Enterprise-grade reliability designed for continuous operation in demanding environments with predictable long-term performance.",
+    "WD Red Plus and WD Red Pro are Western Digital's NAS-optimized hard drives.",
+    "WD Red Plus is ideal for home offices, small businesses, and everyday NAS workloads such as file sharing, backups, and media storage.",
+    "WD Red Pro is designed for demanding multi-user and high-density NAS environments, featuring vibration protection, NAS-optimized firmware, enterprise-class reliability, and support for workloads up to 550TB/year3.",
+    "Choose WD Red Plus for everyday NAS storage needs and WD Red Pro for heavier workloads, larger NAS systems, and business-critical applications.",
+    "WD Purple and WD Purple Pro are Western Digital's surveillance-optimized hard drives.",
+    "WD Purple is ideal for everyday surveillance systems and continuous video recording.",
+    "WD Purple Pro is designed for advanced surveillance environments with AI-enabled analytics, supporting up to 64 HD camera streams and 32 concurrent AI streams.",
+    "Choose WD Purple for standard surveillance deployments and WD Purple Pro for larger systems that require advanced analytics, higher camera densities, and smart video capabilities.",
+    "To determine the right capacity for your surveillance system, use our Surveillance Capacity Calculator to estimate storage requirements based on your camera count, resolution, recording settings, and retention goals.",
+    "An HDD stores data on spinning magnetic platters, while an SSD uses flash memory with no moving parts. SSDs are much faster for booting and loading files, while HDDs deliver far more capacity per dollar. Many systems combine an SSD for speed with an HDD for high-capacity storage and backups.",
+    "Western Digital offers several hard drives designed for RAID environments.",
+    "WD Red Plus is optimized for personal and small business NAS systems and RAID-enabled storage environments.",
+    "WD Red Pro is purpose-built for demanding NAS and RAID environments, featuring NAS-optimized firmware, vibration protection, and workloads of up to 550TB/year3.",
+    "WD Gold is designed for enterprise servers, data centers, and business-critical RAID storage environments that require maximum reliability and 24/7 operation.",
+    "The best drive depends on your workload and environment, from home and small business NAS systems to enterprise-class RAID storage.",
+    "To determine the usable storage capacity for your RAID configuration, use our RAID Storage Calculator.",
+    "Ultrastar and WD Gold drives are designed for data center environments.",
+    "Ultrastar drives are engineered for cloud, hyperscale, AI, and enterprise data centers.",
+    "WD Gold drives are built for enterprise servers, data centers, and RAID storage running demanding 24/7 workloads.",
+    "These enterprise-class drives are designed to deliver the reliability, scalability, and performance required for data center storage applications.",
+    "CMR hard drives write data tracks side by side, helping deliver consistent write performance for active workloads, NAS systems, RAID arrays, and frequent data updates. SMR hard drives overlap data tracks to increase storage density and help lower cost per terabyte, but they can be slower under sustained write workloads. For NAS and RAID environments, CMR is typically the better fit, while SMR is better suited for archival or light, read-mostly storage.",
+    "UltraSMR is Western Digital's advanced shingled magnetic recording technology used in select Ultrastar data center hard drives. It is designed to increase storage density and deliver higher capacities, enabling up to 20%+ more capacity compared to CMR-based designs while helping data centers maximize storage efficiency.",
+    "Use these tools to estimate capacity requirements, plan storage configurations, and choose the right hard drive for your workload.",
+    "RAID Storage Calculator",
+    "Estimate usable storage capacity and redundancy across RAID configurations.",
+    "Surveillance Storage Calculator",
+    "Calculate the storage required for video retention based on camera count, resolution, and recording duration.",
+    "Explore guides and resources to better understand storage technologies, use cases, and how to choose the right solution.",
+    "Personal Storage",
+    "HDD vs SSD",
+    "Personal Storage",
+    "NAS Storage Guide",
+    "Personal Storage",
+    "Data Center Storage",
+    "Personal Storage",
+    "Surveillance Storage Guide",
+    "Personal Storage",
+    "Hybrid Cloud Solutions",
+    "Disclosures",
+    "1MB = 1 million bytes, 1GB = 1 billion bytes, 1TB = 1 trillion bytes. Actual user capacity may be less depending on operating environment.",
+    "MTBF specifications are based on a sample population and are estimated by statistical measurements and acceleration algorithms under typical operating conditions.",
+    "Workload Rate is defined as the amount of user data transferred to or from the hard drive. Workload Rate is annualized (TB transferred × (8760 / recorded power-on hours)). Workload Rate will vary depending on your hardware and software components and configurations.",
+    "Country/Region:",
+    "Shopping",
+    "My Account",
+    "Sign Up for Email",
+    "Discounts & Promotions",
+    "Product Portfolio",
+    "Warranty Policy",
+    "Return Policy",
+    "Distributors & Resellers",
+    "Shopping FAQ",
+    "Programs",
+    "Business Account Benefits",
+    "Data Recovery",
+    "Recycle Program",
+    "WD Credit",
+    "Pro Rewards",
+    "Partner Programs",
+    "Philanthropic Programs",
+    "Western Digital Capital",
+    "Company",
+    "About Us",
+    "News & Events",
+    "Leadership",
+    "Corporate Responsibility",
+    "Privacy Center",
+    "Blog",
+    "Careers",
+    "Investors",
+    "Office Locations",
+    "Contact Us",
+    "Support",
+    "Get Help",
+    "Resource Library",
+    "Product Security",
+    "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST",
+    "Privacy",
+    "Legal",
+    "Trademarks",
+    "Terms of Sale",
+    "Product Compliance"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Learn More",
+      "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+      "label": "Shop",
+      "href": "/products"
+    },
+    {
+      "label": "WD for Business",
+      "href": "/business"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "Solutions",
+      "href": null
+    },
+    {
+      "label": "Support",
+      "href": null
+    },
+    {
+      "label": "Company",
+      "href": null
+    },
+    {
+      "label": "Explore Hard Drives",
+      "href": "/products/hdd"
+    },
+    {
+      "label": "Explore Data Center Storage",
+      "href": "/products/data-center-storage"
+    },
+    {
+      "label": "Home",
+      "href": "/en-us"
+    },
+    {
+      "label": "All Products",
+      "href": "/products"
+    },
+    {
+      "label": "ULTRASTAR / WD GOLD Enterprise & AI factories Optimized for NAS systems with 24/7 operation and RAID compatibility.",
+      "href": "/solutions/data-center"
+    },
+    {
+      "label": "WD RED PLUS / WD RED PRO NAS Optimized for NAS systems with 24/7 operation and RAID compatibility.",
+      "href": "/solutions/network-attached-storage"
+    },
+    {
+      "label": "WD PURPLE / WD PURPLE PRO Surveillance Designed for 24/7 video recording and analytics.",
+      "href": "/solutions/surveillance"
+    },
+    {
+      "label": "View Products",
+      "href": "/products/hdd/internal-hdd"
+    },
+    {
+      "label": "Learn More",
+      "href": "/solutions/hard-drives/internal-hdd"
+    },
+    {
+      "label": "View Products",
+      "href": "/products/data-center-storage"
+    },
+    {
+      "label": "Learn More",
+      "href": "/solutions/data-center/high-capacity-hdd"
+    },
+    {
+      "label": "WD Red Pro NAS Hard Drive Enterprise-class storage ideal to power AI NAS at every scale. Capacity: 4TB-26TB Starting at $299.99 /",
+      "href": "/products/internal-drives/wd-red-pro-sata-hdd"
+    },
+    {
+      "label": "WD Purple Pro Video Analytics Hard Drive See More Than Ever Before: the drive behind AI video analytics. Capacity: 8TB-26TB Starting at $464.99 /",
+      "href": "/products/internal-drives/wd-purple-pro-sata-hdd"
+    },
+    {
+      "label": "My Passport Ultra Built to endure every journey. Capacity: 1TB-6TB Starting at $199.99 /",
+      "href": "/products/portable-drives/wd-my-passport-ultra-usb-c-hdd"
+    },
+    {
+      "label": "Ultrastar DC HC690 Data Center Hard Drive World’s first 11-disk SMR HDD platform for increased storage density. Capacity: 30TB-32TB",
+      "href": "/products/internal-drives/data-center-drives/ultrastar-dc-hc690-hdd"
+    },
+    {
+      "label": "WD Gold Enterprise Class Hard Drive WD Gold HDD: Storage for Businesses, Design Professionals, and Deskside AI. Capacity: 4TB-26TB Starting at $299.99 /",
+      "href": "/products/internal-drives/wd-gold-sata-hdd"
+    },
+    {
+      "label": "AI & Cloud",
+      "href": "/products/hdd/internal-hdd?filterByUseCaseName=Data+Center"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/products/data-center-storage"
+    },
+    {
+      "label": "NAS",
+      "href": "/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)"
+    },
+    {
+      "label": "Surveillance",
+      "href": "/products/hdd?filterByUseCaseName=Smart+Video+Surveillance"
+    },
+    {
+      "label": "Desktop PC",
+      "href": "/products/hdd/internal-hdd?filterByColor_List=Blue%7c0000FF"
+    },
+    {
+      "label": "Home backup",
+      "href": "/products/hdd?filterByUseCaseName=Backups"
+    },
+    {
+      "label": "Gaming",
+      "href": "/products/hdd?filterByUseCaseName=Gaming"
+    },
+    {
+      "label": "Creative Pros",
+      "href": "/products?filterByUseCaseName=Filming,Audio,Photography,Video+Editing"
+    },
+    {
+      "label": "Shop 1 - 4 TB Drives",
+      "href": "/products/hdd?filterByVvc-capacity=01+TB+-+04+TB"
+    },
+    {
+      "label": "Shop 5 - 10 TB Drives",
+      "href": "/products/hdd?filterByVvc-capacity=05+TB+-+10+TB"
+    },
+    {
+      "label": "Shop 11- 20 TB Drives",
+      "href": "/products/hdd?filterByVvc-capacity=11+TB+-+20+TB"
+    },
+    {
+      "label": "Shop 21 TB+ Drives",
+      "href": "/content/store/en-us/products/hdd.html?filterByVvc-capacity=21+TB+-+50+TB,51+TB+-+100+TB,>+100+TB"
+    },
+    {
+      "label": "Shop SATA Drives",
+      "href": "/products/hdd/internal-hdd?filterByConnector_List=SATA"
+    },
+    {
+      "label": "Shop External Drives",
+      "href": "/products/hdd/external-hdd?filterByConnector_List=USB-A,USB-C"
+    },
+    {
+      "label": "1",
+      "href": "#disclosure"
+    },
+    {
+      "label": "2",
+      "href": "#disclosure"
+    },
+    {
+      "label": "What drives are best for NAS systems?",
+      "href": null
+    },
+    {
+      "label": "WD Red Plus",
+      "href": "/products/internal-drives/wd-red-plus-sata-3-5-hdd"
+    },
+    {
+      "label": "WD Red Pro",
+      "href": "/products/internal-drives/wd-red-pro-sata-hdd"
+    },
+    {
+      "label": "3",
+      "href": "#disclosure"
+    },
+    {
+      "label": "What is the best hard drive for surveillance?",
+      "href": null
+    },
+    {
+      "label": "WD Purple",
+      "href": "/products/internal-drives/wd-purple-sata-hdd"
+    },
+    {
+      "label": "WD Purple Pro",
+      "href": "/products/internal-drives/wd-purple-pro-sata-hdd"
+    },
+    {
+      "label": "Surveillance Capacity Calculator",
+      "href": "/tools/surveillance-capacity-calculator"
+    },
+    {
+      "label": "Which WD drives support RAID configurations?",
+      "href": null
+    },
+    {
+      "label": "WD Red Plus",
+      "href": "/products/internal-drives/wd-red-plus-sata-3-5-hdd"
+    },
+    {
+      "label": "WD Red Pro",
+      "href": "/products/internal-drives/wd-red-pro-sata-hdd"
+    },
+    {
+      "label": "3",
+      "href": "#disclosure"
+    },
+    {
+      "label": "WD Gold",
+      "href": "/products/internal-drives/wd-gold-sata-hdd"
+    },
+    {
+      "label": "home and small business NAS systems",
+      "href": "/solutions/network-attached-storage"
+    },
+    {
+      "label": "enterprise-class RAID storage",
+      "href": "/solutions/raid"
+    },
+    {
+      "label": "RAID Storage Calculator",
+      "href": "/tools/raid-calculator"
+    },
+    {
+      "label": "What drives are used in data centers?",
+      "href": null
+    },
+    {
+      "label": "Ultrastar",
+      "href": "/products/data-center-storage/data-center-drives"
+    },
+    {
+      "label": "WD Gold",
+      "href": "/products/internal-drives/wd-gold-sata-hdd"
+    },
+    {
+      "label": "enterprise-class drives",
+      "href": "/solutions/data-center/high-capacity-hdd"
+    },
+    {
+      "label": "What is the difference between CMR and SMR hard drives?",
+      "href": null
+    },
+    {
+      "label": "What is UltraSMR technology?",
+      "href": null
+    },
+    {
+      "label": "UltraSMR",
+      "href": "/company/innovation/ultrasmr-next-generation-capacity"
+    },
+    {
+      "label": "Calculate RAID Capacity",
+      "href": "/tools/raid-capacity-calculator"
+    },
+    {
+      "label": "Calculate Surveillance Storage",
+      "href": "/tools/surveillance-capacity-calculator"
+    },
+    {
+      "label": "Personal Storage HDD vs SSD",
+      "href": "/solutions/hdd-vs-ssd"
+    },
+    {
+      "label": "Personal Storage NAS Storage Guide",
+      "href": "/solutions/network-attached-storage"
+    },
+    {
+      "label": "Personal Storage Data Center Storage",
+      "href": "/solutions/data-center"
+    },
+    {
+      "label": "Personal Storage Surveillance Storage Guide",
+      "href": "/solutions/surveillance"
+    },
+    {
+      "label": "Personal Storage Hybrid Cloud Solutions",
+      "href": "/explore/hybrid-cloud-storage-solutions"
+    },
+    {
+      "label": "United States",
+      "href": "/region-selector"
+    },
+    {
+      "label": "My Account",
+      "href": "/store/my-account"
+    },
+    {
+      "label": "Sign Up for Email",
+      "href": "/company/programs/communications-registration"
+    },
+    {
+      "label": "Discounts & Promotions",
+      "href": "/promo"
+    },
+    {
+      "label": "Product Portfolio",
+      "href": "/products/product-portfolio"
+    },
+    {
+      "label": "Warranty Policy",
+      "href": "/support/store/warranty-policy"
+    },
+    {
+      "label": "Return Policy",
+      "href": "/support/store/return-policy"
+    },
+    {
+      "label": "Distributors & Resellers",
+      "href": "/company/distributors"
+    },
+    {
+      "label": "Shopping FAQ",
+      "href": "/support/store/shopping-faq"
+    },
+    {
+      "label": "Business Account Benefits",
+      "href": "/business/account-benefits"
+    },
+    {
+      "label": "Data Recovery",
+      "href": "/company/programs/data-recovery"
+    },
+    {
+      "label": "Recycle Program",
+      "href": "/company/programs/easy-recycle"
+    },
+    {
+      "label": "WD Credit",
+      "href": "/business/line-of-credit"
+    },
+    {
+      "label": "Pro Rewards",
+      "href": "/business/pro-rewards"
+    },
+    {
+      "label": "Partner Programs",
+      "href": "/company/partners"
+    },
+    {
+      "label": "Philanthropic Programs",
+      "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+      "label": "Western Digital Capital",
+      "href": "/company/western-digital-capital"
+    },
+    {
+      "label": "About Us",
+      "href": "/company"
+    },
+    {
+      "label": "News & Events",
+      "href": "/company/newsroom"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/leadership"
+    },
+    {
+      "label": "Corporate Responsibility",
+      "href": "/company/corporate-responsibility"
+    },
+    {
+      "label": "Privacy Center",
+      "href": "/privacy-center"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blog.westerndigital.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investor.wdc.com/"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/office-locations"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/company/contact-us"
+    },
+    {
+      "label": "Get Help",
+      "href": "/support"
+    },
+    {
+      "label": "Resource Library",
+      "href": "/support/store/resource-library"
+    },
+    {
+      "label": "Product Security",
+      "href": "/support/product-security"
+    },
+    {
+      "label": "Privacy",
+      "href": "/legal/privacy-statement"
+    }
+  ],
+  "links": [
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+    "https://www.westerndigital.com/products",
+    "https://www.westerndigital.com/business",
+    "https://www.westerndigital.com/",
+    "https://www.westerndigital.com/products/product-portfolio",
+    "https://www.westerndigital.com/products/hdd/internal-hdd",
+    "https://www.westerndigital.com/products/hdd/external-hdd",
+    "https://www.westerndigital.com/products/data-center-storage",
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/solutions/data-center-storage-platform",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Gaming",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Smart+Video+Surveillance",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=RAID",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Backups",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=51+TB+-+100+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=21+TB+-+50+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=11+TB+-+20+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=05+TB+-+10+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=01+TB+-+04+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=0+GB+-+960+GB",
+    "https://www.westerndigital.com/explore/whats-new",
+    "https://www.westerndigital.com/promo/best-sellers",
+    "https://www.westerndigital.com/promo",
+    "https://www.westerndigital.com/products/weekly-sale",
+    "https://www.westerndigital.com/products/recertified",
+    "https://www.westerndigital.com/products/final-production",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://www.westerndigital.com/solutions/network-attached-storage",
+    "https://www.westerndigital.com/solutions/gaming",
+    "https://www.westerndigital.com/solutions/raid",
+    "https://www.westerndigital.com/solutions/surveillance",
+    "https://www.westerndigital.com/solutions/home-backup-solutions",
+    "https://www.westerndigital.com/solutions/data-center",
+    "https://www.westerndigital.com/solutions/creative-professionals",
+    "https://www.westerndigital.com/solutions/hdd-vs-ssd",
+    "https://www.westerndigital.com/solutions/ai-storage-infrastructure",
+    "https://www.westerndigital.com/solutions/data-security",
+    "https://www.westerndigital.com/solutions/hard-drives",
+    "https://www.westerndigital.com/solutions/thunderbolt-vs-usb-c",
+    "https://www.westerndigital.com/explore/medical-data-storage",
+    "https://www.westerndigital.com/explore/education-storage",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+    "https://www.westerndigital.com/solutions",
+    "https://www.westerndigital.com/support",
+    "https://support-en.wd.com/app/products/downloads/softwaredownloads",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/support/store/warranty-services",
+    "https://www.westerndigital.com/support/store/warranty-services/data-recovery",
+    "https://www.westerndigital.com/store/orderStatus",
+    "https://www.westerndigital.com/store/business/orderStatus",
+    "https://www.westerndigital.com/support/returns-replacements",
+    "https://www.westerndigital.com/support/product-security",
+    "https://www.westerndigital.com/support/store/shopping-faq",
+    "https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/support/international-phone-numbers",
+    "https://support-en.wd.com/app/askweb",
+    "https://www.westerndigital.com/products/product-portfolio#https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/company",
+    "https://www.westerndigital.com/company/innovation",
+    "https://www.westerndigital.com/company/office-locations",
+    "https://www.westerndigital.com/careers",
+    "https://investor.wdc.com/",
+    "https://www.westerndigital.com/company/western-digital-capital",
+    "https://www.westerndigital.com/company/corporate-responsibility",
+    "https://www.westerndigital.com/company/sustainability",
+    "https://www.westerndigital.com/company/corporate-responsibility/people",
+    "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
+    "https://www.westerndigital.com/company/corporate-responsibility/ethics",
+    "https://www.westerndigital.com/company/corporate-responsibility/philanthropy",
+    "https://www.westerndigital.com/privacy-center",
+    "https://www.westerndigital.com/company/newsroom",
+    "https://www.westerndigital.com/company/newsroom/press-releases",
+    "https://www.westerndigital.com/company/newsroom/events",
+    "https://blog.westerndigital.com/",
+    "https://www.westerndigital.com/store/registration",
+    "https://www.westerndigital.com/store/business/login",
+    "https://support-en.wd.com/app/utils/login_form",
+    "https://businessportal.westerndigital.com/",
+    "https://ibi.sandisk.com/",
+    "https://www.mycloud.com/",
+    "https://www.westerndigital.com/products/hdd",
+    "https://www.westerndigital.com/en-us",
+    "https://www.westerndigital.com/solutions/hard-drives/internal-hdd",
+    "https://www.westerndigital.com/solutions/data-center/high-capacity-hdd",
+    "https://www.westerndigital.com/solutions/hard-drives/external-hdd",
+    "https://www.westerndigital.com/solutions/hard-drives/portable-hdd",
+    "https://www.westerndigital.com/solutions/network-attached-storage/nas-hard-drives",
+    "https://www.westerndigital.com/products/internal-drives/wd-red-pro-sata-hdd",
+    "https://www.westerndigital.com/products/internal-drives/wd-purple-pro-sata-hdd",
+    "https://www.westerndigital.com/solutions/surveillance/enterprise-ai-video",
+    "https://www.westerndigital.com/company/programs/extended-warranty",
+    "https://www.westerndigital.com/products/portable-drives/wd-my-passport-ultra-usb-c-hdd",
+    "https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc690-hdd",
+    "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+    "https://www.westerndigital.com/products/hdd/internal-hdd?filterByUseCaseName=Data+Center",
+    "https://www.westerndigital.com/products/hdd/internal-hdd?filterByColor_List=Blue%7c0000FF",
+    "https://www.westerndigital.com/products?filterByUseCaseName=Filming,Audio,Photography,Video+Editing",
+    "https://www.westerndigital.com/content/store/en-us/products/hdd.html?filterByVvc-capacity=21+TB+-+50+TB,51+TB+-+100+TB,%3E+100+TB",
+    "https://www.westerndigital.com/products/hdd/internal-hdd?filterByConnector_List=SATA",
+    "https://www.westerndigital.com/products/hdd/external-hdd?filterByConnector_List=USB-A,USB-C",
+    "https://www.westerndigital.com/products/product-portfolio#disclosure",
+    "https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd",
+    "https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd",
+    "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
+    "https://www.westerndigital.com/tools/raid-calculator",
+    "https://www.westerndigital.com/products/data-center-storage/data-center-drives",
+    "https://www.westerndigital.com/company/innovation/ultrasmr-next-generation-capacity",
+    "https://www.westerndigital.com/tools/raid-capacity-calculator",
+    "https://www.westerndigital.com/region-selector",
+    "https://www.westerndigital.com/store/business/my-account",
+    "https://www.westerndigital.com/store/my-account",
+    "https://www.westerndigital.com/company/programs/communications-registration",
+    "https://www.westerndigital.com/support/store/warranty-policy",
+    "https://www.westerndigital.com/support/store/return-policy",
+    "https://www.westerndigital.com/company/distributors",
+    "https://www.westerndigital.com/company/contact-us?selectedValue=looking-to-purchase",
+    "https://www.westerndigital.com/company/programs/data-recovery",
+    "https://www.westerndigital.com/company/programs/easy-recycle",
+    "https://www.westerndigital.com/business/line-of-credit",
+    "https://www.westerndigital.com/business/pro-rewards",
+    "https://www.westerndigital.com/company/partners",
+    "https://www.westerndigital.com/company/leadership",
+    "https://www.westerndigital.com/company/contact-us",
+    "https://www.westerndigital.com/support/store/resource-library",
+    "https://www.instagram.com/wd_official/",
+    "https://www.linkedin.com/company/western-digital/",
+    "https://x.com/wd_corporation",
+    "https://www.facebook.com/WD",
+    "https://www.youtube.com/channel/UCQpijqbZeCM3zLew0ZwiX4A",
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+    "https://www.westerndigital.com/legal/privacy-statement",
+    "https://www.westerndigital.com/legal",
+    "https://www.westerndigital.com/legal/trademarks",
+    "https://www.westerndigital.com/legal/terms-and-conditions-of-sale-consumer",
+    "https://www.westerndigital.com/company/sustainability/product-compliance"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-red-pro-sata-hdd/gallery/wd-red-pro-main-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "WD Red Pro NAS Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-red-pro-sata-hdd/gallery/wd-red-pro-main-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "WD Red Pro NAS Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-pro-sata-hdd/gallery/wd-purple-pro-sata-hdd-main-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "WD Purple Pro Video Analytics Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-pro-sata-hdd/gallery/wd-purple-pro-sata-hdd-main-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "WD Purple Pro Video Analytics Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portable/wd-elements-portable/gallery/with-warranty-badge/warranty.png.wdthumb.1280.1280.webp",
+        "alt": "",
+        "w": 190,
+        "h": 190
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portable/my-passport-ultra/gallery/silver/1tb/my-passport-ultra-1tb-WDBC3C0010BSL-WESN-front-12mm-silver.png.wdthumb.1280.1280.webp",
+        "alt": "My Passport Ultra",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portable/my-passport-ultra/gallery/silver/1tb/my-passport-ultra-1tb-WDBC3C0010BSL-WESN-front-12mm-silver.png.wdthumb.1280.1280.webp",
+        "alt": "My Passport Ultra",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/ultrastar-dc-hc690-hdd/gallery/ultrastar-dc-hc690-hdd-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "Ultrastar DC HC690 Data Center Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/ultrastar-dc-hc690-hdd/gallery/ultrastar-dc-hc690-hdd-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "Ultrastar DC HC690 Data Center Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-gold-sata-hdd/gallery/WD-GOLD-main-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "WD Gold Enterprise Class Hard Drive",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-gold-sata-hdd/gallery/WD-GOLD-main-nocap.png.wdthumb.1280.1280.webp",
+        "alt": "WD Gold Enterprise Class Hard Drive",
+        "w": 1280,
+        "h": 1280
+      }
+    ],
+    "allImgCount": 30,
+    "cssBackgrounds": [
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portfolio/product-portfolio-product-portfolio-banner.jpeg.wdthumb.3000.3000.webp",
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portfolio/product-portfolio-internal-hdd.png.wdthumb.3000.3000.webp",
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portfolio/product-portfolio-data-center-platforms.png.wdthumb.3000.3000.webp",
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portfolio/product-portfolio-external-drives.png.wdthumb.3000.3000.webp",
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portfolio/product-portfolio-portable-drives.png.wdthumb.3000.3000.webp"
+    ],
+    "modals": [
+      "Details & Exclusions .xf-resizer-text-xs p { font-size: .875rem; } .xf-resizer-disclosures p { font-size:.875rem; }",
+      "Hard Drives (HDD) WD Red Pro NAS Hard Drive from Western Digital Available in capacities from 2TB to 26TB1, WD Red Pro drives are ideal for high-intensity, 24×7 workloads of multi-user enterprise and AI NAS environments. Delivers the performance, scalability, and dependability for businesses to store, share, and collaborate on large volumes of data in RAID-optimized systems. Starting at $299.99 / Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+      "Hard Drives (HDD) WD Purple Pro Video Analytics Hard Drive from Western Digital Available up to 26TB1, WD Purple Pro drives deliver the ultimate reliability, capacity, and performance for the most demanding AI-enabled video recording and analytics environments — built to capture, retain, and process massive volumes of high-resolution surveillance video in always-on, multi-stream systems. Starting at $464.99 / Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+      "Hard Drives (HDD) My Passport Ultra from WD With its metal design and added durability, the My Passport Ultra portable hard drive is the ideal storage companion to take for your journeys. Enjoy easy access to your important files wherever you are with this high-capacity USB-C™ ready storage device. Help securely back up your data with the included Acronis® True Image™ for Western Digital software2, fortified with robust protection against ransomware threats. As you prepare to go, add an extra level of security with password protection for peace of mind for your journeys. Starting at $199.99 / Shop Now 30-Day Money-Back Guarantee | 3-Year Limited Warranty",
+      "Data Center Storage Ultrastar DC HC690 Data Center Hard Drive from Western Digital Ultrastar Data Center HC690 hard drives combine field-proven designs with the latest innovative technologies to meet data center needs for increased storage density in existing storage footprint. Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty",
+      "Hard Drives (HDD) WD Gold Enterprise Class Hard Drive from Western Digital Available up to 26TB1, WD Gold enterprise-class drives deliver the capacity, durability, and performance to power deskside AI workflows and professional creative work. Run AI models locally, store massive datasets and 4K/8K video on-prem, and keep sensitive data under your control, with or without the cloud.​ Starting at $299.99 / Shop Now 30-Day Money-Back Guarantee | 5-Year Limited Warranty"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.westerndigital.com/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 17,
+    "mainTextLen": 75998,
+    "realImageCount": 13,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3014,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://westerndigital.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/favorites/getUser",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/favorites/getUser",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/chatbot/locales/en-us/translation.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 605,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65921,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/custompromotions.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1067,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/custompromotions.en-us.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/location",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 47,
+        "hits": 1,
+        "example": "https://consent.app.relyance.ai/api/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/behaviors",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/banner",
+        "query": [
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/locale",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/tracking-technologies-localised",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-localised",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/request-url-by-purpose",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/processing-activities",
+        "query": [
+          "localeName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_148cxi7e/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65,
+        "hits": 1,
+        "example": "https://pixel-config.reddit.com/pixels/t2_148cxi7e/config",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/getCart",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 60,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/cart/getCart",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ecomm_pagetype",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/701617496/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/guest/products/priceAndInventory",
+        "query": [
+          "fields",
+          "productsQuery"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 738,
+        "hits": 5,
+        "example": "https://www.westerndigital.com/store/cart/guest/products/priceAndInventory",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/sa.jpeg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/jpeg",
+        "status": 200,
+        "bytes": 651,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/sa.jpeg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 199,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/saq_pxl",
+        "query": [
+          "host",
+          "is_js",
+          "l_src",
+          "l_src_d",
+          "landing_url",
+          "sa-user-id",
+          "sa-user-id-v2",
+          "sa-user-id-v3",
+          "sa_conv_data_css_value",
+          "sa_conv_data_image_value",
+          "shop",
+          "t",
+          "tip",
+          "u_src",
+          "u_src_d",
+          "uid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 116,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/saq_pxl",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "paapi8935.d41.co",
+        "path": "/api",
+        "query": [
+          "form",
+          "req"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 67,
+        "hits": 1,
+        "example": "https://paapi8935.d41.co/api",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "apps.usw2.pure.cloud",
+        "path": "/messenger/i18n/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 213,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usw2.pure.cloud",
+        "path": "/api/v2/journey/deployments/{uuid}/customers/{uuid}/ping",
+        "query": [
+          "dl",
+          "dt",
+          "sessionId",
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/38a400ed-60fa-440d-b6fe-3594313d0197/ping",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.usw2.pure.cloud",
+        "count": 23
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 18
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "apps.bazaarvoice.com",
+        "count": 1
+      },
+      {
+        "host": "consent.app.relyance.ai",
+        "count": 1
+      },
+      {
+        "host": "analytics.xscreenattribution.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "tags.srv.stackadapt.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "paapi8935.d41.co",
+        "count": 1
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "count": 1
+      },
+      {
+        "host": "sc-static.net",
+        "count": 1
+      },
+      {
+        "host": "westerndigital.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.westerndigital.com/products/product-portfolio",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 5,
+    "triggers": [
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/hdd"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/data-center-storage"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/hdd/internal-hdd"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/data-center-storage"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/solutions/data-center-storage-platform"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/hdd/external-hdd"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/hdd/external-hdd"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)"
+      },
+      {
+        "marker": "wd-modal-btn",
+        "href": "/products/accessories"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 7,
+      "thirdPartyEndpoints": 25,
+      "thirdPartyScriptHosts": 20,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/products-product-portfolio.png",
+  "renderedHtml": "pages/products-product-portfolio.html"
+}

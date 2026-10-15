@@ -1,0 +1,360 @@
+/*
+ * Copyright 2020 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+/* stardust:deploy foundation — westerndigital.com replica. Tokens lifted from the gated
+   prototypes (stardust/prototypes/canon.css); structural layer (body gate, header reservation,
+   section scaffold) kept from the boilerplate. Fonts: Roboto (Apache-2.0) self-hosted in fonts.css. */
+
+:root {
+  /* colors */
+  --background-color: #fff;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-surface: #f2f3f3;
+  --color-surface-alt: #f1f1f1;
+  --color-promo: #2b2b2b;
+  --color-footer: #111;
+  --color-text-muted: #929a9d;
+  --color-text-secondary: #6b6b6b;
+  --color-text-grey3: #6a6a6a;
+  --color-nav-grey: #737779;
+  --color-link: #2266ff;
+  --color-link-alt: #0074f3;
+  --color-border-light: #e6e6e6;
+  --color-border-footer: #6a6a6a;
+  --color-border-subnav: #f6f6f6;
+  --light-color: var(--color-surface);
+  --dark-color: var(--color-black);
+  --text-color: var(--color-black);
+  --link-color: var(--color-link-alt);
+  --link-hover-color: var(--color-link-alt);
+
+  /* fonts */
+  --body-font-family: roboto, roboto-fallback, sans-serif;
+  --heading-font-family: roboto, roboto-fallback, sans-serif;
+
+  /* body sizes */
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 14px;
+
+  /* heading sizes (site ramp) */
+  --heading-font-size-xxl: 48px;
+  --heading-font-size-xl: 48px;
+  --heading-font-size-l: 36px;
+  --heading-font-size-m: 28px;
+  --heading-font-size-s: 24px;
+  --heading-font-size-xs: 20px;
+
+  /* layout — .contain steps: <992 100% · ≥992 992 · ≥1140 1140 · ≥1464 1464 */
+  --maxw: 100%;
+  --gutter: 16px;
+  --radius-button: 6px;
+  --radius-card: 16px;
+  --radius-pill: 999px;
+
+  /* nav height: 40px promo bar + 50px nav + 1px border (mobile); 40 + 56 + 1 at ≥768 */
+  --nav-height: 91px;
+}
+
+/* fallback font — Roboto metrics vs Arial (fontsource calibration) */
+@font-face {
+  font-family: roboto-fallback;
+  size-adjust: 99.529%;
+  ascent-override: 93.6%;
+  descent-override: 24.7%;
+  line-gap-override: 0%;
+  src: local('Arial');
+}
+
+@media (width >= 768px) {
+  :root {
+    --nav-height: 97px;
+    --heading-font-size-xxl: 48px;
+  }
+}
+
+@media (width >= 992px) { :root { --maxw: 992px; } }
+@media (width >= 1140px) { :root { --maxw: 1140px; } }
+@media (width >= 1464px) { :root { --maxw: 1464px; } }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: none;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  line-height: 24px;
+}
+
+body.appear {
+  display: block;
+}
+
+header {
+  position: sticky; /* the live chrome is sticky at the top; the block inside can't stick within a 97px parent */
+  top: 0;
+  z-index: 11;
+  height: var(--nav-height);
+  background: var(--color-white);
+}
+
+body.minHeader header { top: -40px; } /* scrolled state (measured): promo bar off-screen, nav row pinned */
+body.has-subnav header { position: relative; top: auto; } /* program pages: header scrolls away, the sub-nav pins */
+
+header .header,
+footer .footer {
+  visibility: hidden;
+}
+
+header .header[data-block-status="loaded"],
+footer .footer[data-block-status="loaded"] {
+  visibility: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  line-height: 1.1;
+  scroll-margin: 40px;
+}
+
+h1 { font-size: var(--heading-font-size-xxl); font-weight: 700; }
+h2 { font-size: var(--heading-font-size-xl); font-weight: 700; }
+h3 { font-size: var(--heading-font-size-m); }
+h4 { font-size: var(--heading-font-size-s); }
+h5 { font-size: var(--heading-font-size-xs); }
+h6 { font-size: var(--body-font-size-m); }
+
+p,
+dl,
+ol,
+ul,
+pre,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+code,
+pre {
+  font-size: var(--body-font-size-s);
+}
+
+pre {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--light-color);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+main > div {
+  margin: 0;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* links */
+a:any-link {
+  color: inherit;
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+/* buttons — site spec: 1px border, 6px radius, 12px 32px, 16px/16px 500 (mobile 8px 16px, 14px) */
+p.button-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin: 0;
+}
+
+a.button:any-link,
+button.button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  border: 1px solid currentcolor;
+  border-radius: var(--radius-button);
+  padding: 8px 16px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  a.button:any-link,
+  button.button {
+    padding: 12px 32px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+a.button.primary,
+button.button.primary {
+  border-color: var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+a.button.secondary,
+button.button.secondary {
+  border-color: var(--color-black);
+  background-color: transparent;
+  color: var(--color-black);
+}
+
+/* on dark / on photo grounds the button pair inverts */
+main .section.dark a.button.primary,
+main .on-media a.button.primary {
+  border-color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+main .section.dark a.button.secondary,
+main .on-media a.button.secondary {
+  border-color: var(--color-white);
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+/* high-impact call-to-action (unused by the source; kept for the runtime contract) */
+a.button.accent,
+button.button.accent {
+  border-color: var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+main img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* sections */
+main > .section {
+  margin: 0;
+}
+
+main > .section > div {
+  max-width: none;
+  margin: auto;
+  padding: 0;
+}
+
+main > .section:first-of-type {
+  margin-top: 0;
+}
+
+main .section:empty {
+  display: none;
+}
+
+/* container model shared by blocks and prose sections */
+main .section > .default-content-wrapper {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* section styles for default-content sections (closed set) */
+main .section.dark {
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 32px 0;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  main .section.dark { padding: 48px 0; }
+}
+
+main .section.dark .default-content-wrapper h3 { font-size: 24px; line-height: 26.4px; font-weight: 500; margin-bottom: 8px; }
+main .section.dark .default-content-wrapper p { font-size: 18px; line-height: 27px; margin-bottom: 4px; }
+main .section.dark .default-content-wrapper .button-wrapper { margin-top: 16px; }
+main .section.dark .default-content-wrapper :where(h3, p) { max-width: 900px; margin-left: auto; margin-right: auto; }
+
+@media (width >= 768px) {
+  main .section.dark .default-content-wrapper h3 { font-size: 28px; line-height: 30.8px; }
+  main .section.dark .default-content-wrapper .button-wrapper { margin-top: 32px; }
+}
+
+main .section.dark .default-content-wrapper p.button-wrapper { max-width: none; }
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid currentcolor;
+  border-radius: var(--radius-button);
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) { font-weight: inherit; font-style: inherit; }
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) { border-color: var(--color-black); background: var(--color-black); color: var(--color-white); }
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) { border-color: var(--color-black); background: transparent; color: var(--color-black); }
+a .prosemirror-editor a:any-link { color: inherit; text-decoration: none; }
+main :is(.section.dark, .on-media) .prosemirror-editor p > em > a:any-link { border-color: var(--color-white); color: var(--color-white); }
+main :is(.section.dark, .on-media) .prosemirror-editor p > strong > a:any-link { border-color: var(--color-white); background: var(--color-white); color: var(--color-black); }
+
+/* section style `light` — the commerce listing's #f9f9f9 bands ground (listing archetype) */
+main .section.light { background: #f9f9f9; }

@@ -1,0 +1,592 @@
+{
+ "source": "http://localhost:8791/press-release-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "promo-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "WD Named to 2026 S&P Dow Jones Best in Class Index North America."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "|"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Shop",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "WD for Business",
+     "href": "/business"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "nav-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Solutions"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Support"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Company"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "mainContainWrap",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Press Releases",
+     "href": "/company/newsroom/press-releases"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "As AI Data Surges, WD Outlines a New Path to Economically Scalable Storage Infrastructure"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "At AI Infrastructure Summit, WD will highlight how AI-driven data growth is reshaping infrastructure requirements at scale"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "SANTA CLARA, Calif. -"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "September 15, 2026"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "As AI moves from experimentation to deployment, organizations are confronting a new infrastructure reality: while compute cycles are temporary, the data AI creates continues to accumulate. As that data compounds, the ability to store, manage and access it economically is becoming a critical consideration for long-term AI success."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "At , September 15-17 in Santa Clara, Calif., Tim Rausch, SVP of HDD Development at WD, will discuss how AI is reshaping infrastructure requirements and why economically scalable capacity is emerging as a foundational element of the AI era."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "AI Infrastructure Summit",
+     "href": "https://www.ai-infra-summit.com/resources?utm_term=ai%20infra%20summit%202026&utm_campaign=58.9+-+Remarketing&utm_source=adwords&utm_medium=ppc&hsa_acc=4531698215&hsa_cam=23131624315&hsa_grp=185603197614&hsa_ad=778978087819&hsa_src=g&hsa_tgt=kwd-2443330418319&hsa_kw=ai%20infra%20summit%202026&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23131624315&gbraid=0AAAABBLftwGFdDtT5ND6yah22PMrC44rz&gclid=CjwKCAjwqonVBhA4EiwA9wYJ3c8MFPsQc9uRE4AlUJxrHwCbABS1bokXYpOHqJ4cFXmci5t6so0yWRoCfWcQAvD_BwE"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The session builds on findings from the recently released IDC white paper, sponsored by , which found that:"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "WD, Built for Scale: The Enduring Role of HDDs in the AI Era",
+     "href": "https://www.westerndigital.com/resources/white-paper/idc-hdds-ai-era"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "61% of surveyed organizations experienced data growth of 25% or more over the past year due to AI"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "74% expect data volumes to grow 25% or more over the next three years"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "85.4% reported growth in data lake volumes over the past 12 months"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "During the keynote, Rausch will share WD’s vision for helping customers manage AI’s growing data footprint while balancing capacity, performance, power efficiency and economics at scale. He will also discuss innovations designed to support the next generation of AI infrastructure as organizations seek to retain more data, derive more value from it and scale AI with confidence."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Reinventing Storage for AI at Scale"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "WHAT:"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Tim Rausch, SVP, HDD Development, WD"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "WHO:"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Sept. 16, 2026 | 3:50pm"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "WHEN:"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "AI Infrastructure Summit | Santa Clara, Calif. | Main Stage"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "WHERE:"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "In addition to the keynote, WD will showcase its enterprise storage portfolio in booth # 605. The demos will highlight how WD is helping hyperscalers, CSPs, neo clouds and data center customers achieve the capacity, efficiency, and economics required for AI infrastructure at scale."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Source:"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "IDC White Paper, Sponsored by Western Digital Corporation, Built for Scale: The Enduring Role of HDDs in the AI Era, Doc. #US54789026, September 2026."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "WD, also known as Western Digital, builds the storage infrastructure that powers certainty in the AI-driven data economy. At the forefront of innovation, WD partners with the world's leading hyperscalers, cloud service providers, and enterprises to deliver reliable storage solutions that are proven and trusted at scale. Driven by a culture of innovation and execution, WD helps customers store, protect, and use the world's data with confidence. Follow WD on LinkedIn and learn more at ."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "About WD"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "www.wd.com",
+     "href": "http://www.wd.com/"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "© Western Digital Corporation or its affiliates. All rights reserved. WD, the WD Design, and Western Digital are registered trademarks or trademarks of Western Digital Corporation or its affiliates in the U.S. and/or other countries. World’s Most Ethical Companies and “Ethisphere” names and marks are registered trademarks of Ethisphere LLC. All other marks are the property of their respective owners."
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Press Contacts"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Corporate Media Inquiries"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "WD.Mediainquiries@wdc.com",
+     "href": "mailto:WD.Mediainquiries@wdc.com"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 15,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "UL.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "footer-main",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Country/Region:"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "United States",
+     "href": "/region-selector"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "My Account",
+     "href": "/store/my-account"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Sign Up for Email",
+     "href": "/company/programs/communications-registration"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Discounts & Promotions",
+     "href": "/promo"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Product Portfolio",
+     "href": "/products/product-portfolio"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Warranty Policy",
+     "href": "/support/store/warranty-policy"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Return Policy",
+     "href": "/support/store/return-policy"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Distributors & Resellers",
+     "href": "/company/distributors"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Shopping FAQ",
+     "href": "/support/store/shopping-faq"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Programs"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Business Account Benefits",
+     "href": "/business/account-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Data Recovery",
+     "href": "/company/programs/data-recovery"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Recycle Program",
+     "href": "/company/programs/easy-recycle"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "WD Credit",
+     "href": "/business/line-of-credit"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Pro Rewards",
+     "href": "/business/pro-rewards"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Partner Programs",
+     "href": "/company/partners"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Philanthropic Programs",
+     "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Western Digital Capital",
+     "href": "/company/western-digital-capital"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "About Us",
+     "href": "/company"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "News & Events",
+     "href": "/company/newsroom"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Leadership",
+     "href": "/company/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Corporate Responsibility",
+     "href": "/company/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Privacy Center",
+     "href": "/privacy-center"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Blog",
+     "href": "https://blog.westerndigital.com/"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Careers",
+     "href": "/careers"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Investors",
+     "href": "https://investor.wdc.com/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Office Locations",
+     "href": "/company/office-locations"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Contact Us",
+     "href": "/company/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Support"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Get Help",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Resource Library",
+     "href": "/support/store/resource-library"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Product Security",
+     "href": "/support/product-security"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.footer-col",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 8,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer-legal",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Privacy",
+     "href": "/legal/privacy-statement"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Legal",
+     "href": "/legal"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Trademarks",
+     "href": "/legal/trademarks"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Terms of Sale",
+     "href": "/legal/terms-and-conditions-of-sale-consumer"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Product Compliance",
+     "href": "/company/sustainability/product-compliance"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Cookie Preferences",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "© 2026 Western Digital Corporation or its affiliates. All rights reserved."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

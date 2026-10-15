@@ -1,0 +1,41 @@
+/* hero-carousel — values lifted from stardust/prototypes/home.css */
+main .hero-carousel-container > div { max-width: none; padding: 0; }
+.hero-carousel { position: relative; overflow: hidden; height: 552px; color: var(--color-white); }
+.hero-carousel .hero-track { display: flex; height: 552px; margin: 0; padding: 0; list-style: none; transform: translateX(calc(-100% * var(--active, 0))); }
+.hero-carousel .hero-slide { flex: 0 0 100%; position: relative; display: flex; flex-direction: column; align-items: stretch; padding-bottom: 32px; height: 552px; background: var(--color-black); }
+.hero-carousel .hero-bg { position: relative; height: 225px; overflow: hidden; }
+.hero-carousel .hero-bg picture, .hero-carousel .hero-bg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.hero-carousel .hero-slide.darken-left .hero-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgb(0 0 0 / 60%) 30%, transparent); }
+.hero-carousel .hero-slide .contain { position: relative; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.hero-carousel .hero-row { display: flex; flex-wrap: wrap; padding: 24px 0; }
+.hero-carousel .hero-copy { width: 100%; }
+.hero-carousel .headline :where(p, h1, h2, h3) { font-size: 34px; line-height: 37.4px; font-weight: 700; margin-bottom: 8px; color: var(--color-white); }
+.hero-carousel .lede :where(p) { font-size: 18px; line-height: 19.8px; font-weight: 400; }
+.hero-carousel .actions { display: block; }
+.hero-carousel .actions p.button-wrapper { margin: 16px 8px 0 0; }
+.hero-carousel .hero-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 50px; display: flex; align-items: flex-end; background: linear-gradient(0deg, #000 0, rgb(102 102 102 / 0%) 95.45%); }
+.hero-carousel .wd-bars { display: flex; justify-content: center; align-items: flex-start; gap: 16px; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 24px 16px; overflow: hidden; }
+.hero-carousel .wd-progress-item { width: 64px; flex: 0 0 64px; cursor: pointer; }
+.hero-carousel .wd-progress-track { display: block; height: 2px; width: 100%; border-radius: var(--radius-pill); background: var(--color-white); overflow: hidden; }
+.hero-carousel .wd-progress-fill { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #0072ef 0, #00e5d1 100%); transition: width 0.2s linear; }
+.hero-carousel .wd-item-label { display: none; margin-top: 16px; }
+.hero-carousel .wd-item-title :where(p, h3, h4) { font-weight: 500; font-size: 20px; line-height: 27px; overflow: hidden; text-overflow: ellipsis; margin: 0; }
+.hero-carousel .wd-item-desc :where(p) { margin-top: 8px; font-size: 14px; line-height: 20px; font-weight: 400; overflow: hidden; text-overflow: ellipsis; }
+.hero-carousel .hero-clone { visibility: visible; }
+
+@media (width >= 768px) {
+  .hero-carousel, .hero-carousel .hero-track, .hero-carousel .hero-slide { height: 750px; }
+  .hero-carousel .hero-slide { flex-direction: row; align-items: center; padding-bottom: 48px; }
+  .hero-carousel .hero-bg { position: absolute; inset: 0; height: auto; }
+  .hero-carousel .hero-bg picture, .hero-carousel .hero-bg img { object-position: 0% 50%; }
+  .hero-carousel .hero-row { padding: 32px 0; }
+  .hero-carousel .hero-copy { width: 66.6667%; }
+  .hero-carousel .headline :where(p, h1, h2, h3) { font-size: 66px; line-height: 72.6px; max-width: 700px; padding-right: 24px; }
+  .hero-carousel .lede :where(p) { font-size: 20px; line-height: 22px; max-width: 700px; }
+  .hero-carousel .actions p.button-wrapper { margin: 32px 8px 0 0; }
+  .hero-carousel .hero-progress { height: 264px; padding: 0 28px 48px; }
+  .hero-carousel .wd-bars { display: grid; grid-template-columns: repeat(var(--wd-count, 3), 1fr); gap: 48px; padding: 0 16px; overflow: visible; }
+  .hero-carousel .wd-progress-item { width: auto; flex: none; }
+  .hero-carousel .wd-progress-track { height: 1px; }
+  .hero-carousel .wd-item-label { display: block; }
+}

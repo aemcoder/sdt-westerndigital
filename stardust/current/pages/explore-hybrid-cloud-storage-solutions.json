@@ -1,0 +1,1421 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:54:31.886Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "explore-hybrid-cloud-storage-solutions",
+  "url": "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:54:31.886Z",
+  "finalUrl": "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+  "title": "Hybrid Cloud Storage Solutions | Build a Resilient, Scalable Infrastructure | WD",
+  "description": "Exploring hybrid cloud options that balance on-prem control and security with cloud scalability. Build out secure, cost-effective data center and colocation infrastructures with WD enterprise drives. ",
+  "og": {
+    "title": "Hybrid Cloud Storage Solutions | Build a Resilient, Scalable Infrastructure | WD",
+    "description": "Discover robust hybrid cloud storage solutions from WD. Learn how to balance on-premises control with cloud scalability using our enterprise-grade HDDs. ",
+    "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/explore/hybrid-cloud/wd-hybrid-cloud-storage-hero.jpg",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Hybrid Cloud Storage: A Guide to Building Powerful, Cost-Effective Infrastructure"
+    },
+    {
+      "tag": "h2",
+      "text": "Enabling Hybrid Cloud with Reliable Storage"
+    },
+    {
+      "tag": "h2",
+      "text": "Deciding Data Placement: On-Premises vs Cloud"
+    },
+    {
+      "tag": "h3",
+      "text": "Some Main Benefits of Retaining a Hybrid Cloud Approach Rather Than a Full Data Repatriation"
+    },
+    {
+      "tag": "h3",
+      "text": "Cost Optimization"
+    },
+    {
+      "tag": "h3",
+      "text": "Scalability & Flexibility"
+    },
+    {
+      "tag": "h3",
+      "text": "Enhanced Security & Compliance"
+    },
+    {
+      "tag": "h3",
+      "text": "Enhancing Disaster Recovery"
+    },
+    {
+      "tag": "h3",
+      "text": "Common Challenges and How to Overcome Them"
+    },
+    {
+      "tag": "h3",
+      "text": "Management Complexity"
+    },
+    {
+      "tag": "h3",
+      "text": "Security Concerns"
+    },
+    {
+      "tag": "h3",
+      "text": "Network Latency"
+    },
+    {
+      "tag": "h2",
+      "text": "WD Drives: The Foundation of Your Hybrid Cloud"
+    },
+    {
+      "tag": "h3",
+      "text": "WD Ultrastar: For Enterprise Hybrid Cloud Storage"
+    },
+    {
+      "tag": "h3",
+      "text": "WD Purple: For Hybrid Cloud Surveillance Storage"
+    },
+    {
+      "tag": "h3",
+      "text": "WD Red Pro: For Hybrid NAS Storage Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Hybrid Cloud Storage Use Cases Across Industries"
+    },
+    {
+      "tag": "h3",
+      "text": "Hybrid cloud storage for construction and manufacturing"
+    },
+    {
+      "tag": "h3",
+      "text": "Retail and smart surveillance solutions"
+    },
+    {
+      "tag": "h3",
+      "text": "AI, Analytics, and Big Data Processing"
+    },
+    {
+      "tag": "h3",
+      "text": "Hybrid cloud and enterprise data centers"
+    },
+    {
+      "tag": "h2",
+      "text": "Power Your Hybrid Cloud with WD"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently Asked Questions About Hybrid Storage"
+    },
+    {
+      "tag": "h2",
+      "text": "Disclosures"
+    }
+  ],
+  "body": [
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "Shop | WD for Business",
+    "Products By Category Product Portfolio Internal HDDs External HDDs Data Center Storage Accessories By Use Storage Platforms Gaming HDDs Surveillance (CCTV) HDDs RAID HDDs Backups Network Attached Storage (NAS) By Capacity Over 50TB 21 - 50TB 11 - 20TB 5 - 10TB 1 - 4TB Less than 1TB Featured What's New Most Popular Promotions Limited-Time Offers Certified Refurbished Final Production Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Solutions Use Case NAS Storage Solutions Gaming Storage RAID Storage Solutions Video Surveillance Storage Backup & Recovery Solutions Enterprise & Data Center Storage Content Creation & Media Storage Compare & Learn HDD vs. SSD AI Storage Infrastructure Data Security & Encryption Compare Hard Drives Thunderbolt vs. USB-C Industries Healthcare Education Hybrid Cloud Explore how our storage solutions support real-world use cases—from personal backups to enterprise infrastructure. View All Solutions & Use Cases",
+    "Support Help Topics Support Home Software Downloads Product Registration Warranty Services Data Recovery Services Order Status Order Status Returns & Replacements Product Security FAQs Contact Support Chat With Us Call Us Email Us Need help from an expert? Chat with our support team for help with orders, warranty questions, troubleshooting, or to connect with a representative. Live Chat with Support SanDisk Professional hard drives are now G-DRIVE. Support and Product Information are still available, just under a new name.",
+    "Company About Us Overview Innovation Our Locations Careers Investors Capital Corporate Responsibility Overview Sustainability People Supply Chain Ethics Philanthropy Data Privacy News & Events Newsroom Press Releases Events Blog Posts Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Cloud computing has long been heralded as the default path for enterprise IT, with public cloud vendors promising limitless scalability and transformational efficiencies. However, recent data reveals a significant shift in this narrative: Organizations are becoming more strategic in their technology investments, moving away from a “cloud-first” mandate and instead toward a value-driven mix of public cloud, private infrastructure, and alternative providers such as colocation vendors. According to some reports, public cloud repatriation could be among the most important considerations that organizations continue to evaluate in 2026, as CIOs and IT leaders revisit where their workloads should ideally be stored.1",
+    "Several factors have been driving this change, notably the rising fees and total cost of ownership for many workloads in public clouds paired with the accessible prices of enterprise hardware that makes locally-managed private cloud and on-premises solutions an attractive option. Additionally, newer options such as special-purpose clouds, sovereign clouds, colocation facilities, and managed-service providers, are emerging as compelling alternatives for businesses.",
+    "This evolving landscape enables enterprises to better control their storage costs, storage tiering performance, and compliance practices. As global businesses seek to optimize their IT portfolios, the default to inevitable, “cloud-native” and all-public cloud adoption is being replaced by a more nuanced, pragmatic approach focused on flexibility, business requirements, and maximizing long-term value.",
+    "Given the ongoing surge in enterprise data driven by the growth in connected sensors, generative AI, and worker-generated content, budgets and resources for storage are getting a closer look.",
+    "To manage today’s rapid data growth, CIOs, CTOs, and IT professionals must do more than simply increase raw storage capacity; they must strategically weigh and balance their need for high performance and massive scalability with cost-efficiency. In addition to these core priorities, technology executives with budget authority and P&L oversight must deliver multipoint access and robust security, all while maintaining flexibility and keeping costs.",
+    "To achieve this, many enterprises are revisiting their dedication to being cloud-native and cloud-first, approaches that may have pushed their costs beyond what was initially expected. Indeed, many enterprises are embracing hybrid cloud as part of an exploratory data repatriation effort.",
+    "For the past several years, many organizations of various sizes have been rebalancing their storage footprints, moving critical data from the public cloud to their own data centers and to self-managed third-party colocation facilities. This has been done to safeguard proprietary information, to help meet data security and regulatory requirements such as GDPR, and to address unforeseen cost pressure that likely surfaced during the aforementioned cloud-first adoption efforts.2",
+    "Of course, on-premises data center storage and local storage at the edge should ideally leverage the highest-quality, most capable hard drives. WD’s enterprise-class hard drives are an ideal building block of hybrid storage architectures that are part of an enterprise data repatriation effort as they deliver reliable, high-performance hybrid cloud storage.",
+    "Click here to learn more about how WD enables enterprise customers to thrive when leveraging hybrid cloud architecture.",
+    "When businesses typically consider hybrid cloud architectures",
+    "Data sovereignty: When regulations or rules require that sensitive information remains within a specific geographic location or under direct organizational control, retaining or migrating data back to on-premises storage may provide an easier path to meeting those requirements.",
+    "Low-latency performance needs: For applications and workloads that demand instant access and minimal delay, storing data in the local data center on 3.5” HDDs may help minimize some degree of lag from accessing cloud storage due to network latency, geographical distance from data centers, and internet congestion.3",
+    "Strict compliance requirements: Sensitive company data that is subject to regulations, financial compliance standards, or industry-specific mandates may need to be stored locally to adhere to compliance and security mandates.",
+    "Long-Term archival: Data that is rarely accessed but must be retained for historical or regulatory reasons can be efficiently stored in low-cost archive tiers on-premises.",
+    "Budgetary shortfall: Organizations that relied on moving their legacy applications to the cloud through a direct \"lift-and-shift\" approach rather than a full software redesign for cloud may have encountered additional costs for data processing and workflows. This is because non-cloud-native applications are typically not able to take full advantage of the cost optimization features offered by cloud platforms. Businesses then face significantly higher cloud computing fees over time, from using applications that were not architected to efficiently utilize cloud resources. Such applications and their associated data flows are candidates for being brought back to the data center.",
+    "When to consider moving data from the cloud",
+    "Many companies that had previously gone all-in on a cloud-first approach are embracing hybrid cloud storage as part of an effort to re-evaluate their cloud footprint or as part of a partial data repatriation effort. Among the goals that might inspire considering a hybrid cloud architecture are the needs for:",
+    "Long-term archival storage: As previously discussed, this class of data can be saved as “immutable” archives that are saved in multiple locations, a practice that is designed to safeguard against ransomware, account compromises, and accidental or malicious deletion.",
+    "Disaster recovery strategies: Replicating data to the cloud helps provide a reliable backup, protecting against hardware failures, accidental deletions, or site-wide disruptions.",
+    "Scalable analytics: Cloud storage offers elastic resources for analyzing large datasets, supporting AI, big data, and business intelligence initiatives.",
+    "Collaboration across distributed teams: Effective file sharing and co-authoring can be achieved through cloud storage or secure remote access to on-premises and colocation data centers. Increasingly, the key decision is when to keep data in the cloud versus when to move selected datasets back (data repatriation) to improve cost predictability, performance, and governance, while approaching the transition with strong controls to maintain availability and security.",
+    "To avoid potential unnecessary cloud egress fees, organizations can keep frequently accessed data on local storage while retaining access to cloud storage options for scalable or “bursting” cost-effective archival storage4. Further cost savings and performance improvements can be achieved by serving static content through a content delivery network (CDN), made up of servers that cache content to increase web loading and streaming speeds and to minimize more cost user-requested downloads from traditional cloud storage.",
+    "Finally, designing cloud-native applications to process data where it resides, rather than constantly moving large volumes of data across environments, can help reduce cloud egress charges and enhance efficiency, especially for data-intensive workloads related to AI and machine learning.",
+    "Sensitive or regulated data can remain on-premises for more control, data sovereignty, and compliance, while less-sensitive data can leverage cloud storage for scalability and accessibility without the risk of data leakage which can sometimes occur in cloud storage paradigms.",
+    "Sensitive or regulated data can remain on-premises for more control, data sovereignty, and compliance, while less-sensitive data can leverage cloud storage for scalability and accessibility without the risk of data leakage which can sometimes occur in cloud storage paradigms.",
+    "Replicating data in the cloud (with rollback capabilities) as well as locally, on premises helps provide reliable backup and business continuity with fallback access serving nodes, protecting against hardware failures, ransomware attacks, accidental deletions, or site-wide disruptions.",
+    "Hybrid cloud environments often involve multiple platforms, tools, and interfaces, making management intricate and time-consuming.",
+    "Solution: Adopt a unified management platform that consolidates monitoring in some cases down to a single dashboard, automation, and governance across both on-premises and cloud resources. Integrated tools can streamline operations and reduce fragmentation, while allowing for automated data tiering solutions (e.g., Ansible, Terraform) can standardize workflows and minimize manual errors.",
+    "Blending on-premises and cloud environments can introduce a range of potential vulnerabilities, including inconsistent security policies and misconfigured APIs, resulting in an increased risk of data breaches. Security or access misconfigurations can unintentionally expose enterprise files stored in the public cloud to unauthorized access.",
+    "Solution: To mitigate these risks, organizations should implement end-to-end encryption for data both in transit and at rest and use centralized security platforms to enforce consistent policies across all environments. Additionally, leveraging cloud-native security tools, conducting regular security testing, and adopting zero-trust models can help maintain oversight and control. Lastly, hiring specialized companies that do configuration audits to identify outstanding or overlooked access vulnerabilities in cloud storage environments can reduce the risk of unauthorized access, data leakage, and compliance failures.",
+    "Connecting on-premises infrastructure with public cloud services can result in unpredictable network latency, impacting application performance and user experience.",
+    "Solution: Deploy dedicated connectivity solutions like AWS Direct Connect, Azure ExpressRoute, or Google’s Cloud Interconnect for low-latency, reliable connections. Use edge caching and dynamic scaling to optimize data transfer and performance, ensuring critical workloads remain responsive.",
+    "While a successful hybrid cloud architecture depends on several factors, the choice of HDD storage devices plays a critical role in helping ensure long‑term performance, data integrity, and attractive TCO. WD offers purpose‑built drives that address a wide spectrum of hybrid storage demands, including analytics, compliance, backup, and archival workflows. For the portion of the hybrid cloud stack that organizations fully control, the local data center, server rooms, edge environments, and potentially colocation facilities, enterprise customers can deploy purpose built drives that address a wide spectrum of hybrid storage demands, including analytics, compliance, backup, and archival workflows.",
+    "However, enterprises should understand an important architectural distinction: while they have complete freedom to deploy WD Ultrastar® enterprise-grade drives in their own on‑prem or colocation environments, they generally cannot specify which storage hardware is used in the cloud tiers of their hybrid environment. Hyperscalers such as Amazon AWS, Microsoft Azure, and Google Cloud do not currently allow customers to choose underlying HDD hardware. Likewise, private cloud services may not offer their customers visibility or control over the specific drive models that will populate their cloud‑managed storage arrays.",
+    "This means that the on-prem data center and colocation layers are where organizations can achieve higher performance, reduce latency, and normalize cost structures by selecting the right enterprise HDD technologies. Within these controllable tiers of the hybrid cloud, WD HDDs can form the backbone of a high‑performance, secure, and efficient storage architecture, giving enterprises the confidence to scale workloads, protect critical data, and optimize their storage strategies with an innovative and well-established technology vendor they can trust.",
+    "The Ultrastar® line is purpose‑built for the most demanding enterprise data centers and hyperscale deployments. It is also a terrific option for the on-prem data center portion of hybrid cloud storage environments. Engineered for exceptional reliability and long‑term durability, Ultrastar HDDs leverage advanced technologies including OptiNAND®, ePMR, and UltraSMR to deliver industry‑leading areal density, improved write efficiency, and lower power consumption.These capabilities make Ultrastar a cornerstone technology for organizations managing petabyte‑scale datasets, workloads requiring performance-intensive analytics, and mining insights from large volumes of unstructured, historically “dark” data in hybrid storage architectures.",
+    "A critical shift is reshaping enterprise storage strategies: the recognition of data repatriation as a reasonable option. This is because hybrid cloud options allow enterprises to place their workloads where they make the most sense for the organization or the particular workflow, based on factors such as cost, security, and whether an application is cloud-native or not.5 After years of optimistic cloud‑first and cloud‑only initiatives, many CIOs and CTOs are confronting costs which in some cases are at parity with investing in CapEx data center infrastructure, latency constraints, vendor lock-in, and the data‑egress charges that are often inherent with public cloud storage. As organizations decide to host certain critical or proprietary workloads locally, they still need reliable, scalable, and cost‑predictable storage, specifically within on‑premises data centers or colocation environments that they control. These are the portions of the hybrid cloud stack where enterprises can directly select their own on-premises hardware and storage solutions, making Ultrastar HDDs a critical foundation for repatriated data, long‑term retention, compliance archives, and analytics pipelines.",
+    "Unlike storage in the public cloud, where customers cannot often determine what drive technology underpins their storage tiers, on-prem and colocation environments offer far more control over instratructure hardware options. This is where Ultrastar enterprise HDDs deliver their great value: enabling organizations to build high-capacity, high resilience hybrid storage architecture that integrate seamlessly with cloud-based compute, analytics, and orchestration services, delivering strong data governance, optimized performance, and the ability to scale cost-effectively as data volumes grow.",
+    "As a percentage of enterprises continue their “return trip” from all-in, CapEx-light, cloud-only approaches to more balanced hybrid deployments, Ultrastar HDDs are there to form the backbone of the on-prem and colocation storage teirs, ensuring the performance, resilience, and predictable TCO ideal for modern hybrid cloud infrastructures.",
+    "Explore WD enterprise drives and see how they can power your hybrid cloud storage needs.",
+    "WD Purple drives are ideal for hybrid surveillance environments, enabling continuous, 24/7 video recording on on-premises network video recorders (NVRs) that can seamlessly archive footage to the cloud for long-term retention. With specialized features like AllFrame™ technology, WD Purple drives ensure smooth video streaming and reliable data integrity, making them ideal for smart surveillance solutions that require both local performance and cloud scalability.",
+    "WD Red Pro drives are purpose-built for small businesses and remote or branch office environments, serving as the on-premises edge of a hybrid cloud. NAS devices equipped with WD Red Pro provide fast, reliable local file access for teams, while seamlessly syncing data to a central cloud for backup and collaboration. This hybrid approach helps ensure business-critical files are always available locally, yet protected and accessible for distributed teams.",
+    "The real value of hybrid cloud storage is best demonstrated through its application to solve specific industry challenges. Below, each use case is presented as a mini case study, highlighting a common problem and how hybrid storage architecture delivers the solution.",
+    "Problem: Managing large blueprints and project files locally while ensuring secure long-term archival storage.",
+    "Solution: Use WD Gold for local storage of sensitive records, while leveraging the cloud for research data and scalable capacity.",
+    "Problem: Problem: Ensuring continuous, reliable video capture and secure backup for retail environments.",
+    "Solution: Deploy WD Purple for 24/7 local video recording , with seamless cloud integration for secure backup and remote access.",
+    "Problem: Managing high-speed local workloads while scaling analytics datasets for advanced business intelligence and AI-driven decision-making.",
+    "Solution: Deploy a tiered hybrid cloud architecture that combines WD Gold for rapid, on-premises data processing with WD Ultrastar drives for powered scalable cloud clusters. This design delivers both the performance and the elasticity ideal for AI model training, big data analytics, and continuous insight generation.",
+    "As highlighted in WD’s The Central Role of HDDs in AI Storage analysis, AI pipelines depend on a multi-tier storage strategy; fast SSD or flash layers handle immediate training and inference data, while high-capacity HDDs sustain massive datasets for long-term retention, retraining, and compliance. This hybrid approach helps ensure that data scientists can iterate quickly on local workloads while leveraging cloud-based scale-out resources for distributed analytics.",
+    "By integrating both tiers, enterprises can reduce latency for mission-critical workloads, minimize cloud egress costs, and maintain control over data sovereignty, which can be essential for regulated industries.",
+    "Problem: Managing hybrid cloud workloads that require both high-capacity storage and cloud-based elasticity.",
+    "Solution: Deploy WD Ultrastar drives to combine robust on-premises storage with the flexibility of cloud expansion.",
+    "Hybrid cloud offers the optimal balance of performance, capacity, cost, and agility for the modern enterprise, enabling organizations to thrive in today’s data-driven landscape. The reliability and performance of this strategy depend on the quality of the underlying storage foundation, making the choice of drives critical at every tier.",
+    "WD delivers purpose-built enterprise drives for every layer of hybrid cloud architecture, ensuring your infrastructure is robust, scalable, and secure. With our data-center-grade, high-capacity HDDs, WD empowers you to design a hybrid storage solution that meets your unique business needs.",
+    "The main benefit of hybrid cloud storage is its ability to offer the best of both worlds: the speed and control of on-premises infrastructure, combined with the limitless scalability and flexibility of the cloud. This enables organizations to optimize costs, enhance security, and scale dynamically as data needs grow.",
+    "A complete hybrid cloud strategy should ideally include not only on‑premises and cloud‑based storage, but also colocation storage options. Colocation plays a growing role, particularly as businesses engage in data repatriation, pulling data back from the cloud due to egress fees, latency concerns, or rising storage costs.6",
+    "In a hybrid cloud architecture, colocation functions as a critical middle layer, delivering:",
+    "Enterprise‑grade infrastructure (power, cooling, physical security)",
+    "Customer‑owned storage hardware, including WD enterprise‑class drives",
+    "Lower‑latency access compared to public cloud",
+    "Predictable OpEx without the overhead of managing a full data center",
+    "Reduced cloud egress fees for frequently accessed data",
+    "Compliance‑friendly, dedicated hardware for regulated workloads",
+    "Colocation allows SMBs and mid‑market companies to extend beyond the limits of their on‑prem environments while maintaining full ownership and control over data, something public cloud environments cannot offer. When paired with a hybrid cloud strategy, colocation enables businesses to build a scalable, resilient, multi‑tier storage environment that supports long‑term growth, cost management, data governance, and cloud‑adjacent compute workflows.",
+    "Hybrid cloud storage supports disaster recovery by enabling replication of on-premises data to the cloud and vice versa. This ensures that backup copies of important files are available in multiple locations, protecting against hardware failures, accidental deletions, ransomware, and site-wide disruptions, and enabling robust business continuity strategies.",
+    "No, WD drives are ideal for broad compatibility with and seamless integration into hybrid cloud environments. Our portfolio supports industry-standard interfaces and works with leading operating systems and storage management tools, making deployment straightforward for IT teams.",
+    "The right WD drive depends on your specific needs:",
+    "WD Ultrastar: For enterprise-grade, high-capacity storage and analytics.",
+    "WD Purple: For surveillance and continuous video recording.",
+    "WD Red Pro: For SMBs and remote offices using NAS devices.",
+    "WD Gold: For local storage, durability, and rapid processing.",
+    "Each drive is purpose-built to meet the demands of different hybrid storage roles, ensuring reliability, performance, and scalability.",
+    "Hybrid Cloud Storage Guide: A Guide Powerful, Cost-Effective Infrastructure Enabling Hybrid Cloud with Reliable Storage Deciding Data Placement: On-Premises vs Cloud WD Drives: The Foundation of Your Hybrid Cloud Hybrid Cloud Storage Use Cases Across Industries",
+    "Enabling Hybrid Cloud with Reliable Storage",
+    "Deciding Data Placement: On-Premises vs Cloud",
+    "WD Drives: The Foundation of Your Hybrid Cloud",
+    "Hybrid Cloud Storage Use Cases Across Industries",
+    "Balen, Jessica. “States Rightsize Cloud to Keep Data Close to Home — and AI-Ready,” StateTechMagazine.com, January 8, 2026, https://tinyurl.com/2j57dvy8",
+    "Ramirez, Sofia. SQ Magazine, “Cloud Adoption Statistics 2025: Growth, Migration Drivers & ROI Highlight,” July 30, 2025, https://tinyurl.com/5axussu8",
+    "Singh, Amrit. \"Navigating Cloud Storage: What is Latency and Why Does It Matter?\" Backblaze.com, February 27, 2024, https://tinyurl.com/dzjpktnf",
+    "https://www.backblaze.com/blog/cloud-101-data-egress-fees-explained/",
+    "Miller, Ron. “Cloud Repatriation Revisited,” FastForward.com, May 16, 2025, https://tinyurl.com/mx4jpdcb",
+    "“Security Misconfigurations: How They Happen, Common Examples, Prevention,” Wiz.io, January 2, 2025, https://tinyurl.com/49rh7pnf",
+    "Country/Region:",
+    "Shopping",
+    "My Account",
+    "Sign Up for Email",
+    "Discounts & Promotions",
+    "Product Portfolio",
+    "Warranty Policy",
+    "Return Policy",
+    "Distributors & Resellers",
+    "Shopping FAQ",
+    "Programs",
+    "Business Account Benefits",
+    "Data Recovery",
+    "Recycle Program",
+    "WD Credit",
+    "Pro Rewards",
+    "Partner Programs",
+    "Philanthropic Programs",
+    "Western Digital Capital",
+    "Company",
+    "About Us",
+    "News & Events",
+    "Leadership",
+    "Corporate Responsibility",
+    "Privacy Center",
+    "Blog",
+    "Careers",
+    "Investors",
+    "Office Locations",
+    "Contact Us",
+    "Support",
+    "Get Help",
+    "Resource Library",
+    "Product Security",
+    "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST",
+    "Privacy",
+    "Legal",
+    "Trademarks",
+    "Terms of Sale",
+    "Product Compliance"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Learn More",
+      "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+      "label": "Shop",
+      "href": "/products"
+    },
+    {
+      "label": "WD for Business",
+      "href": "/business"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "Solutions",
+      "href": null
+    },
+    {
+      "label": "Support",
+      "href": null
+    },
+    {
+      "label": "Company",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/en-us"
+    },
+    {
+      "label": "Explore",
+      "href": "/explore"
+    },
+    {
+      "label": "1",
+      "href": "#disclosure"
+    },
+    {
+      "label": "2",
+      "href": "#disclosure"
+    },
+    {
+      "label": "Click here",
+      "href": "/products/product-portfolio"
+    },
+    {
+      "label": "3",
+      "href": "#disclosure"
+    },
+    {
+      "label": "4",
+      "href": "#disclosure"
+    },
+    {
+      "label": "Read More",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": "#disclosure"
+    },
+    {
+      "label": "Explore WD enterprise drives",
+      "href": "/products/data-center-storage/data-center-drives"
+    },
+    {
+      "label": "Learn About Smart Surveillance Solutions",
+      "href": "/solutions/surveillance"
+    },
+    {
+      "label": "Build a Better NAS with WD Red Pro",
+      "href": "/products/internal-drives/wd-red-pro-sata-hdd"
+    },
+    {
+      "label": "Compare WD Solutions for Hybrid Storage",
+      "href": "/products/product-compare?ids=0F65672:ultrastar-dc-hc590-hdd,WD261KRYZ:wd-gold-sata-hdd,WD260PURP:wd-purple-pro-sata-hdd,WD260KFGX:wd-red-pro-sata-hdd"
+    },
+    {
+      "label": "Explore More of WD’s Portfolio",
+      "href": "/products/product-portfolio"
+    },
+    {
+      "label": "WD Gold",
+      "href": "/products/internal-drives/wd-gold-sata-hdd"
+    },
+    {
+      "label": "WD Purple for 24/7 local video recording",
+      "href": null
+    },
+    {
+      "label": "The Central Role of HDDs in AI Storage",
+      "href": "https://blog.westerndigital.com/the-central-role-of-hdds-in-ai-storage/"
+    },
+    {
+      "label": "WD Ultrastar",
+      "href": "/products/data-center-storage/data-center-drives"
+    },
+    {
+      "label": "Schedule a Consultation with WD Storage Experts",
+      "href": "#talk-to-an-expert"
+    },
+    {
+      "label": "What is the main benefit of a hybrid cloud storage solution?",
+      "href": null
+    },
+    {
+      "label": "What role does colocation play in a hybrid cloud storage architecture?",
+      "href": null
+    },
+    {
+      "label": "6",
+      "href": "#disclosure"
+    },
+    {
+      "label": "How does hybrid cloud storage support disaster recovery?",
+      "href": null
+    },
+    {
+      "label": "Is it difficult to integrate WD drives into a hybrid cloud environment?",
+      "href": null
+    },
+    {
+      "label": "Which WD drive is right for my on-premises hybrid storage?",
+      "href": null
+    },
+    {
+      "label": "Enabling Hybrid Cloud with Reliable Storage",
+      "href": "#enabling-hybrid-cloud"
+    },
+    {
+      "label": "Deciding Data Placement: On-Premises vs Cloud",
+      "href": "#deciding-data-placement"
+    },
+    {
+      "label": "WD Drives: The Foundation of Your Hybrid Cloud",
+      "href": "#wd-drives"
+    },
+    {
+      "label": "Hybrid Cloud Storage Use Cases Across Industries",
+      "href": "#choosing-the-right-wd-drive"
+    },
+    {
+      "label": "https://tinyurl.com/2j57dvy8",
+      "href": "https://tinyurl.com/2j57dvy8"
+    },
+    {
+      "label": "https://tinyurl.com/5axussu8",
+      "href": "https://tinyurl.com/5axussu8"
+    },
+    {
+      "label": "https://www.backblaze.com/blog/cloud-101-data-egress-fees-explained/",
+      "href": "https://www.backblaze.com/blog/cloud-101-data-egress-fees-explained/"
+    },
+    {
+      "label": "https://tinyurl.com/mx4jpdcb",
+      "href": "https://tinyurl.com/mx4jpdcb"
+    },
+    {
+      "label": "United States",
+      "href": "/region-selector"
+    },
+    {
+      "label": "My Account",
+      "href": "/store/my-account"
+    },
+    {
+      "label": "Sign Up for Email",
+      "href": "/company/programs/communications-registration"
+    },
+    {
+      "label": "Discounts & Promotions",
+      "href": "/promo"
+    },
+    {
+      "label": "Product Portfolio",
+      "href": "/products/product-portfolio"
+    },
+    {
+      "label": "Warranty Policy",
+      "href": "/support/store/warranty-policy"
+    },
+    {
+      "label": "Return Policy",
+      "href": "/support/store/return-policy"
+    },
+    {
+      "label": "Distributors & Resellers",
+      "href": "/company/distributors"
+    },
+    {
+      "label": "Shopping FAQ",
+      "href": "/support/store/shopping-faq"
+    },
+    {
+      "label": "Business Account Benefits",
+      "href": "/business/account-benefits"
+    },
+    {
+      "label": "Data Recovery",
+      "href": "/company/programs/data-recovery"
+    },
+    {
+      "label": "Recycle Program",
+      "href": "/company/programs/easy-recycle"
+    },
+    {
+      "label": "WD Credit",
+      "href": "/business/line-of-credit"
+    },
+    {
+      "label": "Pro Rewards",
+      "href": "/business/pro-rewards"
+    },
+    {
+      "label": "Partner Programs",
+      "href": "/company/partners"
+    },
+    {
+      "label": "Philanthropic Programs",
+      "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+      "label": "Western Digital Capital",
+      "href": "/company/western-digital-capital"
+    },
+    {
+      "label": "About Us",
+      "href": "/company"
+    },
+    {
+      "label": "News & Events",
+      "href": "/company/newsroom"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/leadership"
+    },
+    {
+      "label": "Corporate Responsibility",
+      "href": "/company/corporate-responsibility"
+    },
+    {
+      "label": "Privacy Center",
+      "href": "/privacy-center"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blog.westerndigital.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investor.wdc.com/"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/office-locations"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/company/contact-us"
+    },
+    {
+      "label": "Get Help",
+      "href": "/support"
+    },
+    {
+      "label": "Resource Library",
+      "href": "/support/store/resource-library"
+    },
+    {
+      "label": "Product Security",
+      "href": "/support/product-security"
+    },
+    {
+      "label": "Privacy",
+      "href": "/legal/privacy-statement"
+    },
+    {
+      "label": "Legal",
+      "href": "/legal"
+    },
+    {
+      "label": "Trademarks",
+      "href": "/legal/trademarks"
+    },
+    {
+      "label": "Terms of Sale",
+      "href": "/legal/terms-and-conditions-of-sale-consumer"
+    },
+    {
+      "label": "Product Compliance",
+      "href": "/company/sustainability/product-compliance"
+    }
+  ],
+  "links": [
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+    "https://www.westerndigital.com/products",
+    "https://www.westerndigital.com/business",
+    "https://www.westerndigital.com/",
+    "https://www.westerndigital.com/products/product-portfolio",
+    "https://www.westerndigital.com/products/hdd/internal-hdd",
+    "https://www.westerndigital.com/products/hdd/external-hdd",
+    "https://www.westerndigital.com/products/data-center-storage",
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/solutions/data-center-storage-platform",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Gaming",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Smart+Video+Surveillance",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=RAID",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Backups",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=51+TB+-+100+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=21+TB+-+50+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=11+TB+-+20+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=05+TB+-+10+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=01+TB+-+04+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=0+GB+-+960+GB",
+    "https://www.westerndigital.com/explore/whats-new",
+    "https://www.westerndigital.com/promo/best-sellers",
+    "https://www.westerndigital.com/promo",
+    "https://www.westerndigital.com/products/weekly-sale",
+    "https://www.westerndigital.com/products/recertified",
+    "https://www.westerndigital.com/products/final-production",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://www.westerndigital.com/solutions/network-attached-storage",
+    "https://www.westerndigital.com/solutions/gaming",
+    "https://www.westerndigital.com/solutions/raid",
+    "https://www.westerndigital.com/solutions/surveillance",
+    "https://www.westerndigital.com/solutions/home-backup-solutions",
+    "https://www.westerndigital.com/solutions/data-center",
+    "https://www.westerndigital.com/solutions/creative-professionals",
+    "https://www.westerndigital.com/solutions/hdd-vs-ssd",
+    "https://www.westerndigital.com/solutions/ai-storage-infrastructure",
+    "https://www.westerndigital.com/solutions/data-security",
+    "https://www.westerndigital.com/solutions/hard-drives",
+    "https://www.westerndigital.com/solutions/thunderbolt-vs-usb-c",
+    "https://www.westerndigital.com/explore/medical-data-storage",
+    "https://www.westerndigital.com/explore/education-storage",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+    "https://www.westerndigital.com/solutions",
+    "https://www.westerndigital.com/support",
+    "https://support-en.wd.com/app/products/downloads/softwaredownloads",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/support/store/warranty-services",
+    "https://www.westerndigital.com/support/store/warranty-services/data-recovery",
+    "https://www.westerndigital.com/store/orderStatus",
+    "https://www.westerndigital.com/store/business/orderStatus",
+    "https://www.westerndigital.com/support/returns-replacements",
+    "https://www.westerndigital.com/support/product-security",
+    "https://www.westerndigital.com/support/store/shopping-faq",
+    "https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/support/international-phone-numbers",
+    "https://support-en.wd.com/app/askweb",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/company",
+    "https://www.westerndigital.com/company/innovation",
+    "https://www.westerndigital.com/company/office-locations",
+    "https://www.westerndigital.com/careers",
+    "https://investor.wdc.com/",
+    "https://www.westerndigital.com/company/western-digital-capital",
+    "https://www.westerndigital.com/company/corporate-responsibility",
+    "https://www.westerndigital.com/company/sustainability",
+    "https://www.westerndigital.com/company/corporate-responsibility/people",
+    "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
+    "https://www.westerndigital.com/company/corporate-responsibility/ethics",
+    "https://www.westerndigital.com/company/corporate-responsibility/philanthropy",
+    "https://www.westerndigital.com/privacy-center",
+    "https://www.westerndigital.com/company/newsroom",
+    "https://www.westerndigital.com/company/newsroom/press-releases",
+    "https://www.westerndigital.com/company/newsroom/events",
+    "https://blog.westerndigital.com/",
+    "https://www.westerndigital.com/store/registration",
+    "https://www.westerndigital.com/store/business/login",
+    "https://support-en.wd.com/app/utils/login_form",
+    "https://businessportal.westerndigital.com/",
+    "https://ibi.sandisk.com/",
+    "https://www.mycloud.com/",
+    "https://www.westerndigital.com/en-us",
+    "https://www.westerndigital.com/explore",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#disclosure",
+    "https://www.westerndigital.com/products/data-center-storage/data-center-drives",
+    "https://www.westerndigital.com/products/internal-drives/wd-red-pro-sata-hdd",
+    "https://www.westerndigital.com/products/product-compare?ids=0F65672:ultrastar-dc-hc590-hdd,WD261KRYZ:wd-gold-sata-hdd,WD260PURP:wd-purple-pro-sata-hdd,WD260KFGX:wd-red-pro-sata-hdd",
+    "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+    "https://blog.westerndigital.com/the-central-role-of-hdds-in-ai-storage/",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#talk-to-an-expert",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#enabling-hybrid-cloud",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#deciding-data-placement",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#wd-drives",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions#choosing-the-right-wd-drive",
+    "https://tinyurl.com/2j57dvy8",
+    "https://tinyurl.com/5axussu8",
+    "https://www.backblaze.com/blog/cloud-101-data-egress-fees-explained/",
+    "https://tinyurl.com/mx4jpdcb",
+    "https://www.westerndigital.com/legal/privacy-statement",
+    "https://policies.google.com/privacy",
+    "https://policies.google.com/terms",
+    "https://www.westerndigital.com/region-selector",
+    "https://www.westerndigital.com/store/business/my-account",
+    "https://www.westerndigital.com/store/my-account",
+    "https://www.westerndigital.com/company/programs/communications-registration",
+    "https://www.westerndigital.com/support/store/warranty-policy",
+    "https://www.westerndigital.com/support/store/return-policy",
+    "https://www.westerndigital.com/company/distributors",
+    "https://www.westerndigital.com/company/contact-us?selectedValue=looking-to-purchase",
+    "https://www.westerndigital.com/company/programs/data-recovery",
+    "https://www.westerndigital.com/company/programs/easy-recycle",
+    "https://www.westerndigital.com/business/line-of-credit",
+    "https://www.westerndigital.com/business/pro-rewards",
+    "https://www.westerndigital.com/company/partners",
+    "https://www.westerndigital.com/company/leadership",
+    "https://www.westerndigital.com/company/contact-us",
+    "https://www.westerndigital.com/support/store/resource-library",
+    "https://www.instagram.com/wd_official/",
+    "https://www.linkedin.com/company/western-digital/",
+    "https://x.com/wd_corporation",
+    "https://www.facebook.com/WD",
+    "https://www.youtube.com/channel/UCQpijqbZeCM3zLew0ZwiX4A",
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+    "https://www.westerndigital.com/legal",
+    "https://www.westerndigital.com/legal/trademarks",
+    "https://www.westerndigital.com/legal/terms-and-conditions-of-sale-consumer",
+    "https://www.westerndigital.com/company/sustainability/product-compliance"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/explore/hybrid-cloud/wd-management-complex.jpg.wdthumb.1280.1280.webp",
+        "alt": "Illustration showing management complexity across multiple platforms and tools in hybrid cloud environments",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/explore/hybrid-cloud/wd-security-concerns.jpg.wdthumb.1280.1280.webp",
+        "alt": "Illustration depicting security vulnerabilities and data breach risks in hybrid cloud environments",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/explore/hybrid-cloud/wd-purple-surveillance-hdd-hybrid-cloud.jpg.wdthumb.1280.1280.webp",
+        "alt": "WD Purple surveillance hard drive for hybrid cloud video storage systems",
+        "w": 560,
+        "h": 560
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/explore/hybrid-cloud/wd-red-plus-pro-nas-hdd-hybrid-solution.jpg.wdthumb.1280.1280.webp",
+        "alt": "WD Red Plus and Red Pro NAS hard drives for hybrid cloud storage solutions",
+        "w": 560,
+        "h": 560
+      }
+    ],
+    "allImgCount": 22,
+    "cssBackgrounds": [
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/explore/hybrid-cloud/wd-hybrid-cloud-storage-hero.jpg.wdthumb.3000.3000.webp"
+    ],
+    "modals": [
+      "Details & Exclusions .xf-resizer-text-xs p { font-size: .875rem; } .xf-resizer-disclosures p { font-size:.875rem; }",
+      "Oops! Something went wrong. Please try again later. Let us help you find a solutions to fit your needs. * Required Fields *Product Category Hard Drives (HDDs)Data Center StorageNetwork Attached Storage (NAS)AccessoriesOther Field cannot be empty. Field cannot be empty. Field cannot be empty. Enter a valid number Enter a valid email address Field cannot be empty. Field cannot be empty. Industry Business ServicesDefense / MilitaryEducationEnergy & UtilitiesGovernmentHealthcare, Pharmaceuticals, BiotechLegal ServicesManufacturingMedia & EntertainmentReal Estate & ConstructionSoftware & InternetTelecommunicationsTransportationTravel, Recreation & LeisureWholesale & DistributorsCloudDatacenterDigital Security (Software)Physical SecurityRetail/Point-of-SaleVideo ProductionVideo SurveillanceWorkstations/HPCGamingOther Number Of Employees 1 - 56 - 2021 - 5051 - 250251 - 10001001 - 50005001 - 10,00010,000+ *Select Country/Region AlbaniaAlgeriaAntigua and BarbudaArgentinaAustraliaAustriaBahrainBelarusBelgiumBolivia, Plurinational State ofBosnia HerzegovinaBotswanaBrazilBulgariaCanadaChileChinaColombiaCosta RicaCroatiaCyprusCzech RepublicDenmarkDominican RepublicEcuadorEgyptEl SalvadorEstoniaFinlandFranceGermanyGhanaGreeceGuatemalaHondurasHong KongHungaryIcelandIndiaIndonesiaIrelandIsraelItalyJapanJordanKenyaKoreaKuwaitLatviaLebanonLithuaniaLuxembourgMacedonia, the former Yugoslav Republic ofMalaysiaMaltaMexicoMoroccoMozambiqueNamibiaNetherlandsNew ZealandNicaraguaNigeriaNorwayOmanPanamaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarRomaniaRussian FederationSaudi ArabiaSerbiaSingaporeSlovakiaSloveniaSouth AfricaSpainSwedenSwitzerlandTaiwanThailandTunisiaTurkeyUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayVenezuela, Bolivarian Republic ofViet NamYemenZambiaZimbabwe Field cannot be empty. Enter full name, e.g., “California” Field cannot be empty. By checking the box, you acknowledge WD's Privacy Statement and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time. By clicking on \"Submit\", I represent that I understand and agree that the information submitted in this form will be transmitted to and stored by WD in the USA and other countries outside of the European Economic Area and that WD will process and store the information, including any updates to my information, in accordance with the WD Privacy Statement. Submit This form is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Thank you! We are reviewing your request and will contact you shortly."
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.westerndigital.com/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 24,
+    "mainTextLen": 80291,
+    "realImageCount": 6,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3014,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://westerndigital.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/chatbot/locales/en-us/translation.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 605,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/favorites/getUser",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/favorites/getUser",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65921,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/location",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 47,
+        "hits": 1,
+        "example": "https://consent.app.relyance.ai/api/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/behaviors",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_148cxi7e/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65,
+        "hits": 1,
+        "example": "https://pixel-config.reddit.com/pixels/t2_148cxi7e/config",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/getCart",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 60,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/cart/getCart",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/banner",
+        "query": [
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ecomm_pagetype",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/701617496/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/locale",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/tracking-technologies-localised",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-localised",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/request-url-by-purpose",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/processing-activities",
+        "query": [
+          "localeName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/sa.jpeg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/jpeg",
+        "status": 200,
+        "bytes": 651,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/sa.jpeg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 199,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/saq_pxl",
+        "query": [
+          "host",
+          "is_js",
+          "l_src",
+          "l_src_d",
+          "landing_url",
+          "sa-user-id",
+          "sa-user-id-v2",
+          "sa-user-id-v3",
+          "sa_conv_data_css_value",
+          "sa_conv_data_image_value",
+          "shop",
+          "t",
+          "tip",
+          "u_src",
+          "u_src_d",
+          "uid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 116,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/saq_pxl",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "paapi8935.d41.co",
+        "path": "/api",
+        "query": [
+          "form",
+          "req"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 67,
+        "hits": 1,
+        "example": "https://paapi8935.d41.co/api",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/g-tech/en-us/portal-assets/data-excel/country.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 654,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/content/dam/g-tech/en-us/portal-assets/data-excel/country.xlsx.exceltojson.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "apps.usw2.pure.cloud",
+        "path": "/messenger/i18n/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 213,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usw2.pure.cloud",
+        "path": "/api/v2/journey/deployments/{uuid}/customers/{uuid}/ping",
+        "query": [
+          "dl",
+          "dt",
+          "sessionId",
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/52bf94f0-48e5-43dd-8e00-c7fefdff09ec/ping",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.usw2.pure.cloud",
+        "count": 23
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 18
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "consent.app.relyance.ai",
+        "count": 1
+      },
+      {
+        "host": "analytics.xscreenattribution.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "tags.srv.stackadapt.com",
+        "count": 1
+      },
+      {
+        "host": "paapi8935.d41.co",
+        "count": 1
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "count": 1
+      },
+      {
+        "host": "sc-static.net",
+        "count": 1
+      },
+      {
+        "host": "westerndigital.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "wd-modal-btn",
+        "href": "#talk-to-an-expert"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 6,
+      "thirdPartyEndpoints": 25,
+      "thirdPartyScriptHosts": 19,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/explore-hybrid-cloud-storage-solutions.png",
+  "renderedHtml": "pages/explore-hybrid-cloud-storage-solutions.html"
+}

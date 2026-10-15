@@ -1,0 +1,26 @@
+/* faq — values lifted from stardust/prototypes/listing.css (.clp-faq). The section IS the grey box: head + list wrappers
+   share the #f6f6f6 ground and split 5/12 · 7/12 at ≥768. */
+main .faq-container { display: flex; flex-wrap: wrap; max-width: var(--maxw); margin: 0 auto; padding: 64px var(--gutter); }
+main .faq-container > .default-content-wrapper, main .faq-container > .faq-wrapper { width: 100%; max-width: none; margin: 0; background: #f6f6f6; }
+main .faq-container > .default-content-wrapper { padding: 16px 16px 0; border-radius: var(--radius-card) var(--radius-card) 0 0; }
+main .faq-container > .faq-wrapper { padding: 0 16px 16px; border-radius: 0 0 var(--radius-card) var(--radius-card); }
+main .faq-container .default-content-wrapper h2 { margin: 0 0 16px; font-size: 32px; line-height: 35.2px; font-weight: 700; }
+.faq .faq-item { border-top: 1px solid #e1e1e1; }
+.faq .faq-item:first-child { border-top: 0; }
+.faq .faq-q { position: relative; display: flex; width: 100%; padding: 16px 0; text-align: left; font-size: 20px; line-height: 22px; font-weight: 500; cursor: pointer; }
+.faq .faq-q-text { display: inline-block; margin-right: 48px; }
+.faq .faq-q-text p { margin: 0; }
+.faq .faq-icon { position: absolute; right: 0; top: 16px; }
+.faq .faq-a { overflow: hidden; }
+.faq .faq-a-inner { margin-bottom: 24px; }
+.faq .faq-a p { margin: 0; font-size: 16px; line-height: 24px; color: var(--color-text-grey3); }
+.faq .faq-a p + p { margin-top: 16px; }
+
+@media (width >= 768px) {
+  main .faq-container { padding: 96px var(--gutter); }
+  main .faq-container > .default-content-wrapper { width: 41.6667%; padding: 40px 0 40px 40px; border-radius: var(--radius-card) 0 0 var(--radius-card); }
+  main .faq-container > .faq-wrapper { width: 58.3333%; padding: 40px 40px 40px 0; border-radius: 0 var(--radius-card) var(--radius-card) 0; }
+  main .faq-container .default-content-wrapper h2 { font-size: 36px; line-height: 39.6px; }
+  .faq .faq-q { display: inline-flex; padding: 24px 0; font-size: 24px; line-height: 26.4px; }
+  .faq .faq-icon { top: 24px; }
+}

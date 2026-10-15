@@ -1,0 +1,2584 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 107,
+    "concurrency": 4,
+    "reasoning": "sitemap.xml (508 URLs, gzip body) + home nav BFS for commerce/support/solutions families absent from the sitemap; hands-off volume caps 100 overall / 20 per template applied as a reasoned roster (stardust/.work/extract/roster.txt): every header/footer-linked page, section landing pages, 20 most recent press releases, representative spread per family; 3 guessed PDP URLs (1 404).",
+    "userChoice": "hands-off roster (106 of 508 sitemap URLs + nav-discovered pages)",
+    "filteredAsJunk": [
+      "/careers/cta-banner-image",
+      "/careers/ref/cta-banner-video-bg",
+      "/company/programs/data-recovery/solutions-block",
+      "/company/programs/data-recovery/solutions-block-with-modal",
+      "/explore/documents/bottom-section-in-ref",
+      "/explore/documents/case-for-hdd-storage/bottom-section-in-ref",
+      "/explore/documents/pdf",
+      "/document-landing-page",
+      "/account",
+      "/account/unsubscribe"
+    ]
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.westerndigital.com/content/dam/store/en-us/portal-assets/logos/wd-icon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": [
+      {
+        "url": "https://www.westerndigital.com/products/data-center-drives/ultrastar-dc-hc590-hdd",
+        "slug": "products-data-center-drives-ultrastar-dc-hc590-hdd",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-09-18T06:55:03.160Z"
+      }
+    ]
+  },
+  "dynamicSurface": {
+    "pages": 106,
+    "pagesWithSameSiteData": 105,
+    "pagesWithSearchForm": 105,
+    "pagesHydrated": 106,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/favorites/getUser",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/store/favorites/getUser",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/location",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/location",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/getCart",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/store/cart/getCart",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/behaviors",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/banner",
+        "query": [
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/locale",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/request-url-by-purpose",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/tracking-technologies-localised",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-localised",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/processing-activities",
+        "query": [
+          "localeName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/chatbot/locales/en-us/translation.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "apps.usw2.pure.cloud",
+        "path": "/messenger/i18n/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usw2.pure.cloud",
+        "path": "/api/v2/journey/deployments/{uuid}/customers/{uuid}/ping",
+        "query": [
+          "dl",
+          "dt",
+          "sessionId",
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/52bf94f0-48e5-43dd-8e00-c7fefdff09ec/ping",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://westerndigital.tt.omtrdc.net/rest/v1/delivery",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_148cxi7e/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixel-config.reddit.com/pixels/t2_148cxi7e/config",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ecomm_pagetype",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/701617496/",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/sa.jpeg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/jpeg",
+        "sameSite": false,
+        "example": "https://tags.srv.stackadapt.com/sa.jpeg",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/saq_pxl",
+        "query": [
+          "host",
+          "is_js",
+          "l_src",
+          "l_src_d",
+          "landing_url",
+          "sa-user-id",
+          "sa-user-id-v2",
+          "sa-user-id-v3",
+          "sa_conv_data_css_value",
+          "sa_conv_data_image_value",
+          "shop",
+          "t",
+          "tip",
+          "u_src",
+          "u_src_d",
+          "uid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://tags.srv.stackadapt.com/saq_pxl",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 64,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "paapi8935.d41.co",
+        "path": "/api",
+        "query": [
+          "form",
+          "req"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://paapi8935.d41.co/api",
+        "pages": 61,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/form-data/{n}",
+        "query": [
+          "auid",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "tag_exp",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/form-data/701617496",
+        "pages": 25,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-distributors-find-a-store",
+          "company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/custompromotions.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/custompromotions.en-us.json",
+        "pages": 20,
+        "examples": [
+          "index",
+          "company-programs-data-recovery",
+          "company-programs-extended-warranty"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/guest/products/priceAndInventory",
+        "query": [
+          "fields",
+          "productsQuery"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/store/cart/guest/products/priceAndInventory",
+        "pages": 19,
+        "examples": [
+          "index",
+          "company-programs-data-recovery",
+          "company-programs-extended-warranty"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/g-tech/en-us/portal-assets/data-excel/country.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/dam/g-tech/en-us/portal-assets/data-excel/country.xlsx.exceltojson.json",
+        "pages": 14,
+        "examples": [
+          "company-innovation-zoned-storage",
+          "company-contact-us",
+          "company-partners"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 8,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-partners-technology-alliance-veeam",
+          "company-newsroom-press-releases-2026-2026-06-01-wd-at-computex-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dpm.demdex.net/id",
+        "pages": 6,
+        "examples": [
+          "company-newsroom-brand-assets",
+          "company-corporate-responsibility-supply-chain",
+          "company-innovation-publications"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/graphql/execute.json/wd/clpcampaignendpoint;group1=all;group2=undefined;group3=undefined;group4=undefined;group5=undefined;group6=undefined;group7=undefined;group8=undefined;group9=undefined;group10=undefined;group11=undefined;brand1=all;channel=B2C;locale=/content/dam/store/cf/en-us",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/graphql/execute.json/wd/clpcampaignendpoint;group1=all;group2=undefined;group3=undefined;group4=undefined;group5=undefined;group6=undefined;group7=undefined;group8=undefined;group9=undefined;group10=undefined;group11=undefined;brand1=all;channel=B2C;locale=/content/dam/store/cf/en-us",
+        "pages": 6,
+        "examples": [
+          "products-hdd",
+          "products-hdd-external-hdd",
+          "products-hdd-internal-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.westerndigital.com",
+        "path": "/wdwebservices/v2/us/products/search",
+        "query": [
+          "currentPage",
+          "customQuery",
+          "fields",
+          "pageSize",
+          "query",
+          "sort"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api.westerndigital.com/wdwebservices/v2/us/products/search",
+        "pages": 6,
+        "examples": [
+          "products-hdd",
+          "products-hdd-external-hdd",
+          "products-hdd-internal-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "search.westerndigital.com",
+        "path": "/wdcapps/tools/api/globalsearchquery",
+        "query": [
+          "fl",
+          "fq",
+          "locale",
+          "q",
+          "rows",
+          "sort"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://search.westerndigital.com/wdcapps/tools/api/globalsearchquery",
+        "pages": 4,
+        "examples": [
+          "company-newsroom",
+          "company-newsroom-events",
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/user-consent/v1/consent",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.app.relyance.ai/api/user-consent/v1/consent",
+        "pages": 3,
+        "examples": [
+          "company-newsroom-brand-assets",
+          "company-innovation-publications",
+          "company-newsroom-press-releases-2026-2026-08-24-wd-to-participate-in-upcoming-investor-conference"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/pagead/conversion/701617496/",
+        "pages": 3,
+        "examples": [
+          "business-pro-rewards",
+          "business-line-of-credit",
+          "solutions-data-center-storage-platform"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "eoid",
+          "ept",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oidsrc",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/701617496/",
+        "pages": 3,
+        "examples": [
+          "business-pro-rewards",
+          "business-line-of-credit",
+          "solutions-data-center-storage-platform"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "eoid",
+          "ept",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "is_vtc",
+          "label",
+          "npa",
+          "oidsrc",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.google.com/pagead/1p-conversion/701617496/",
+        "pages": 3,
+        "examples": [
+          "business-pro-rewards",
+          "business-line-of-credit",
+          "solutions-data-center-storage-platform"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.ch",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "eoid",
+          "ept",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "ipr",
+          "is_vtc",
+          "label",
+          "npa",
+          "oidsrc",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.ch/pagead/1p-conversion/701617496/",
+        "pages": 3,
+        "examples": [
+          "business-pro-rewards",
+          "business-line-of-credit",
+          "solutions-data-center-storage-platform"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/assets/sys/pct/usecase-icons-mapping.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/pct/usecase-icons-mapping.xlsx.exceltojson.json",
+        "pages": 3,
+        "examples": [
+          "products-product-compare",
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "support-en.wd.com",
+        "path": "/cgi-bin/westerndigital.cfg/php/custom/chat_inlay_json.php",
+        "query": [
+          "lang",
+          "page",
+          "product"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://support-en.wd.com/cgi-bin/westerndigital.cfg/php/custom/chat_inlay_json.php",
+        "pages": 2,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "support-en.wd.com",
+        "path": "/cgi-bin/westerndigital.cfg/php/custom/chat_hours_availability.php",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://support-en.wd.com/cgi-bin/westerndigital.cfg/php/custom/chat_hours_availability.php",
+        "pages": 2,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wd-en.widget.custhelp.com",
+        "path": "/ci/oit/getConfigs",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://wd-en.widget.custhelp.com/ci/oit/getConfigs",
+        "pages": 2,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "method": "HEAD",
+        "host": "wd-en.widget.custhelp.com",
+        "path": "/s/oit/latest/inlays/oracle/chat-embedded/resources/audio/chatReceive.mp3",
+        "query": [
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "audio/mpeg",
+        "sameSite": false,
+        "example": "https://wd-en.widget.custhelp.com/s/oit/latest/inlays/oracle/chat-embedded/resources/audio/chatReceive.mp3",
+        "pages": 2,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wd-en.widget.custhelp.com",
+        "path": "/ci/api/v1/customFields",
+        "query": [
+          "filter[fields]",
+          "filter[type]",
+          "filter[visibility]"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.api+json",
+        "sameSite": false,
+        "example": "https://wd-en.widget.custhelp.com/ci/api/v1/customFields",
+        "pages": 2,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/stockpricefeed",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/stockpricefeed",
+        "pages": 1,
+        "examples": [
+          "company-newsroom"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/locales/en-us/translation.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/locales/en-us/translation.json",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/experience-fragments/store/nav/header/header-xf/master",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/experience-fragments/store/nav/header/header-xf/master",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/experience-fragments/store/nav/footer/footer-xf/master",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/experience-fragments/store/nav/footer/footer-xf/master",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/experience-fragments/store/common/search-overlay/master.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/experience-fragments/store/common/search-overlay/master.html",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/experience-fragments/store/common/search-overlay/master",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/experience-fragments/store/common/search-overlay/master",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/experience-fragments/store/nav/search/search-overlay/master.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/experience-fragments/store/nav/search/search-overlay/master.html",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/experience-fragments/store/nav/search/search-overlay/master",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/experience-fragments/store/nav/search/search-overlay/master",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/portal-assets/excels/us-states.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/portal-assets/excels/us-states.xlsx.exceltojson.json",
+        "pages": 1,
+        "examples": [
+          "company-programs-easy-recycle"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/graphql/execute.json/wd/wtbendpoint",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/graphql/execute.json/wd/wtbendpoint",
+        "pages": 1,
+        "examples": [
+          "company-distributors-find-a-store"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s41593585912945",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s41593585912945",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s48790261459638",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s48790261459638",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s46388461568143",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s46388461568143",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s48790788292401",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s48790788292401",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s43569298149059",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s43569298149059",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s46896394358159",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s46896394358159",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-28-wd-appoints-manuvir-das-to-board-of-directors"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s49588810454792",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s49588810454792",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s45266620954280",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s45266620954280",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s42298332404476",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s42298332404476",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s49565922584448",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s49565922584448",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s45011884179304",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s45011884179304",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s45170963195955",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s45170963195955",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/tools/wdsearchquery",
+        "query": [
+          "fq",
+          "indent",
+          "q",
+          "rows",
+          "sort",
+          "start",
+          "wt"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/tools/wdsearchquery",
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events-tech-ad-europe"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/sandisk/listtags.studio:document-type.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/bin/sandisk/listtags.studio:document-type.json",
+        "pages": 1,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/sandisk/listresources",
+        "query": [
+          "1_group.1_path",
+          "1_group.2_path",
+          "1_group.p.or",
+          "2_group.1_property",
+          "2_group.1_property.value",
+          "group.1_property",
+          "group.1_property.value",
+          "group.p.or",
+          "orderby",
+          "orderby.sort",
+          "p.hits",
+          "p.limit",
+          "p.properties",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.westerndigital.com/bin/sandisk/listresources",
+        "pages": 1,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.westerndigital.com",
+        "path": "/wdwebservices/v2/us/products/wd-red-plus-sata-3-5-hdd/relations",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api.westerndigital.com/wdwebservices/v2/us/products/wd-red-plus-sata-3-5-hdd/relations",
+        "pages": 1,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.sc.omtrdc.net",
+        "path": "/b/ss/westdg-onestore-production,westdg-global-production/{n}/JS-2.26.0-LGU4/s49196341785557",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://westerndigital.sc.omtrdc.net/b/ss/westdg-onestore-production,westdg-global-production/10/JS-2.26.0-LGU4/s49196341785557",
+        "pages": 1,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.westerndigital.com",
+        "path": "/wdwebservices/v2/us/products/wd-blue-desktop-sata-hdd/relations",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api.westerndigital.com/wdwebservices/v2/us/products/wd-blue-desktop-sata-hdd/relations",
+        "pages": 1,
+        "examples": [
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "host": "consent.app.relyance.ai",
+        "pages": 105,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 104,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "host": "apps.usw2.pure.cloud",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "pages": 102,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 68,
+        "examples": [
+          "company-newsroom-brand-assets",
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "tags.srv.stackadapt.com",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "sc-static.net",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "analytics.xscreenattribution.com",
+        "pages": 65,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "paapi8935.d41.co",
+        "pages": 61,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "pages": 61,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "westerndigital.sc.omtrdc.net",
+        "pages": 53,
+        "examples": [
+          "company-corporate-responsibility-supply-chain",
+          "company-leadership-charters",
+          "company-office-locations"
+        ]
+      },
+      {
+        "host": "apps.bazaarvoice.com",
+        "pages": 12,
+        "examples": [
+          "index",
+          "company-programs-data-recovery",
+          "company-programs-extended-warranty"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 2,
+        "examples": [
+          "company-newsroom-events-tech-ad-europe",
+          "explore-ai-factory"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 2,
+        "examples": [
+          "company-newsroom-events-tech-ad-europe",
+          "explore-ai-factory"
+        ]
+      },
+      {
+        "host": "wd-en.widget.custhelp.com",
+        "pages": 2,
+        "examples": [
+          "products-internal-drives-wd-red-plus-sata-3-5-hdd",
+          "products-internal-drives-wd-blue-desktop-sata-hdd"
+        ]
+      },
+      {
+        "host": "privacyportal-cdn.onetrust.com",
+        "pages": 1,
+        "examples": [
+          "legal-privacy-statement"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 106,
+        "examples": [
+          "company-newsroom",
+          "index",
+          "company-newsroom-events"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 83,
+        "examples": [
+          "company",
+          "company-newsroom-brand-assets",
+          "company-corporate-responsibility-environment"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.westerndigital.com/company/distributors",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 4,
+        "examples": [
+          "company-distributors",
+          "company-distributors",
+          "company-distributors-find-a-store"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/leadership",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "company-leadership-charters",
+          "company-leadership-corporate-governance-qa"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/events/tech-ad-europe",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "company-newsroom-events-tech-ad-europe",
+          "company-newsroom-events-tech-ad-europe"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/support/store/warranty-policy",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "legal-warranty",
+          "support-store-warranty-policy"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/explore/ai-factory",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "explore-ai-factory",
+          "explore-ai-factory"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/support",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "support",
+          "support"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "tools-surveillance-capacity-calculator",
+          "tools-surveillance-capacity-calculator"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "tools-raid-capacity-calculator",
+          "tools-raid-capacity-calculator"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/events",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-events"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/brand-assets",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-brand-assets"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/corporate-responsibility/people",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-corporate-responsibility-people"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/corporate-responsibility",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-corporate-responsibility"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/sustainability",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-corporate-responsibility-environment"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/innovation",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-innovation"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-corporate-responsibility-supply-chain"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/innovation/zoned-storage",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-innovation-zoned-storage"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/innovation/hdd-innovation",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-innovation-hdd-innovation"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/contact-us",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-contact-us"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/innovation/publications",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-innovation-publications"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/office-locations",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-office-locations"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/partners",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-partners"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/programs/data-recovery",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-programs-data-recovery"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/partners/dataon",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-partners-dataon"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/partners/technology-alliance/veeam",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-partners-technology-alliance-veeam"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/programs/easy-recycle",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-programs-easy-recycle"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/programs/extended-warranty",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-programs-extended-warranty"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/western-digital-capital",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-western-digital-capital"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-09-09-wd-new-research-reveals-the-reshaping-of-ai-infrastructure-economics-as-data-persists-and-compounds"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/campaign/we-make-it-possible",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-campaign-we-make-it-possible"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-08-19-wd-and-tohoku-university-launch-ai-data-infrastructure-lab"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-24-wd-to-participate-in-upcoming-investor-conference",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-08-24-wd-to-participate-in-upcoming-investor-conference"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-07-17-wd-malaysia-recognized-for-advancing-sustainable-ai-infrastructure"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-07-13-wd-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-20-wd-customer-survey-highlights-growing-focus-on-ai"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-06-01-wd-at-computex-2026",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-06-01-wd-at-computex-2026"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-28-wd-appoints-manuvir-das-to-board-of-directors",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-28-wd-appoints-manuvir-das-to-board-of-directors"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-18-wd-advances-next-generation-trusted-infrastructure-with-post-quantum-cryptography"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-06-wd-announces-equity-for-equity-exchange",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-05-06-wd-announces-equity-for-equity-exchange"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-04-30-wd-reports-fiscal-third-quarter-2026-financial-results"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-04-22-wd-raises-the-bar-on-sustainable-infrastructure"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-04-13-Q3FY26-earnings-date-announcement",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-04-13-q3fy26-earnings-date-announcement"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era"
+        ]
+      },
+      {
+        "action": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "company-newsroom-press-releases-2026-2026-02-19-wd-unifies-its-professional-content-creator-storage-portfolio-under-g-drive-brand"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "hero carousel, category tiles, card rails, footer all rendered; palette/hero match record. Capture defect: OneTrust-style consent banner (fixed bottom, \"Use of Tracking Technologies\") is baked into the screenshot despite the text-match Accept click."
+    },
+    {
+      "slug": "company-newsroom-press-releases-2026-2026-01-20-western-digital-to-host-innovation-day-2026-in-new-york-city",
+      "verdict": "ok",
+      "notes": "press-release template rendered: grey hero band with eyebrow + h1, 2-col body + Press Contacts aside, dark footer. Same consent-banner overlay in capture."
+    },
+    {
+      "slug": "company-corporate-responsibility",
+      "verdict": "ok",
+      "notes": "program template rendered: sub-nav tabs, photo hero, breadcrumb, alternating split image/text bands, dark CTA band. Same consent-banner overlay in capture."
+    }
+  ]
+}

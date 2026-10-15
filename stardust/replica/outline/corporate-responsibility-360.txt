@@ -1,0 +1,165 @@
+# https://www.westerndigital.com/company/corporate-responsibility @360 docH=9678 part=main
+section.mainContainWrap [0 91 360 7412]
+  section.bg-color.relative.section.py-0 «section» [0 91 360 575] {pos=relative}
+    div.relative [0 91 360 575] {pos=relative}
+      section.bg-color.relative.section.py-0 «section» [0 91 360 50] {pos=relative}
+        div.relative.container.contain.mx-auto [0 91 360 50] {pos=relative pad=0px 16px}
+          section.bg-color.relative.section.py-0 «reference>cq-dd-paragraph>section» [16 91 328 50] {pos=relative}
+            div.relative [16 91 328 50] {pos=relative}
+              div.relative.subnav2-0 «subnav>press-release-template» [16 91 328 50] {pos=relative}
+                div.sticky-head.flex.justify-start.md:justify-center#sticky-nav [16 91 328 50] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:flex-start ai:normal gap:normal border=0px/1px solid rgb(246, 246, 246) ovf=hidden}
+                  div.flex.inner-wrap.flex-col.md:flex-row [16 91 328 49] {pos=relative disp=flex flow=dir:column wrap:nowrap jc:normal ai:normal gap:normal maxw=1464px}
+                    div.px-4.md:mx-6.lg:mx-12.whitespace-no-wrap [16 91 328 51] {pad=0px 16px border=0px/1px solid rgb(246, 246, 246)}
+                      a.link-cta.block.py-4.subnav-active-item [32 91 296 50] {disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=16px 0px} href=/company/corporate-responsibility f[Roboto 16px/16px 400 rgb(0, 0, 0)] "Overview"
+                    div.px-4.md:mx-6.lg:mx-12.whitespace-no-wrap [16 142 328 49] {pad=0px 16px border=0px/1px solid rgb(246, 246, 246)}
+                      a.link-cta.block.py-4 [32 142 296 48] {pad=16px 0px} href=/company/corporate-responsibility/people f[Roboto 16px/16px 400 rgb(0, 0, 0)] "People"
+                    div.px-4.md:mx-6.lg:mx-12.whitespace-no-wrap [16 191 328 49] {pad=0px 16px border=0px/1px solid rgb(246, 246, 246)}
+                      a.link-cta.block.py-4 [32 191 296 48] {pad=16px 0px} href=/company/corporate-responsibility/supply-chain f[Roboto 16px/16px 400 rgb(0, 0, 0)] "Supply Chain"
+                    div.px-4.md:mx-6.lg:mx-12.whitespace-no-wrap [16 240 328 49] {pad=0px 16px border=0px/1px solid rgb(246, 246, 246)}
+                      a.link-cta.block.py-4 [32 240 296 48] {pad=16px 0px} href=/company/corporate-responsibility/ethics f[Roboto 16px/16px 400 rgb(0, 0, 0)] "Ethics"
+                    div.px-4.md:mx-6.lg:mx-12.whitespace-no-wrap [16 289 328 49] {pad=0px 16px border=0px/1px solid rgb(246, 246, 246)}
+                      a.link-cta.block.py-4 [32 289 296 48] {pad=16px 0px} href=/company/corporate-responsibility/philanthropy f[Roboto 16px/16px 400 rgb(0, 0, 0)] "Philanthropy"
+                    div.px-4.md:mx-6.lg:mx-12.whitespace-no-wrap [16 338 328 49] {pad=0px 16px border=0px/1px solid rgb(246, 246, 246)}
+                      a.link-cta.block.py-4 [32 338 296 48] {pad=16px 0px} href=/privacy-center f[Roboto 16px/16px 400 rgb(0, 0, 0)] "Privacy"
+      section.bg-color.relative.section.text-white «section» [0 141 360 456] {bg=rgb(0, 0, 0) pos=relative}
+        div.aem-section-bgimage.section-1660562964122.section-bg.absolute [0 141 360 225] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/corp-sus-banner.jpg.wdthumb.840.840.webp") / cover 100% 50% pos=relative}
+        div.relative.container.contain.mx-auto [0 366 360 231] {pos=relative pad=0px 16px}
+          div.py-8.md:py-12.row.grid-12 «responsive-columns-flexbox» [16 366 328 231] {pad=32px 0px}
+            div.text-white.pr-2.textcolumn «cols-12 md:cols-6>text» [16 398 328 167] {pad=0px 8px 0px 0px}
+              h1.heading1.word-break [16 398 320 70] {mar=0px 0px 16px} f[Roboto 32px/35.2px 500 rgb(255, 255, 255)] "Corporate Responsibility at WD"
+              p.text-base [16 484 320 81] f[Roboto 18px/27px 400 rgb(255, 255, 255)] "We wholeheartedly commit to positive corporate citizenship in all aspects of our business. We are WD and we care."
+      section.bg-color.relative.section.py-0 «section» [0 621 360 45] {pos=relative}
+        div.relative.container.contain.mx-auto [0 621 360 45] {pos=relative pad=0px 16px}
+          div.my-6.flex.flex-wrap.items-center «bread-crumbs>defaultBreadcrumbView» [16 621 328 45] {disp=flex flow=dir:row wrap:wrap jc:normal ai:center gap:normal mar=24px 0px}
+            div.flex.flex-wrap.items-center [16 621 64 21] {disp=flex flow=dir:row wrap:wrap jc:normal ai:center gap:normal}
+              a.text-sm.hover:text-bold.text-grey-3.hover:text-black [16 624 43 16] href=/en-us f[Roboto 16px/16px 400 rgb(106, 106, 106)] "Home" inner(span)
+              svg#Group_24215 [59 621 21 21] {ovf=hidden}
+                path#Path_2556 [59 621 21 21]
+                path#Path_2557 [67 628 5 9] {tf=matrix(1, 0, 0, 1, -0.028, 0.818)}
+            div.flex.flex-wrap.items-center [80 621 89 21] {disp=flex flow=dir:row wrap:wrap jc:normal ai:center gap:normal}
+              a.text-sm.hover:text-bold.text-grey-3.hover:text-black [80 624 68 16] href=/company f[Roboto 16px/16px 400 rgb(106, 106, 106)] "Company" inner(span)
+              svg#Group_24215 [148 621 21 21] {ovf=hidden}
+                path#Path_2556 [148 621 21 21]
+                path#Path_2557 [156 628 5 9] {tf=matrix(1, 0, 0, 1, -0.028, 0.818)}
+            div.flex.flex-wrap.items-center [16 642 177 24] {disp=flex flow=dir:row wrap:wrap jc:normal ai:center gap:normal}
+              span.text-sm.text-black.font-bold [16 642 177 24] f[Roboto 16px/24px 700 rgb(0, 0, 0)] "Corporate Responsibility"
+  section.bg-color.relative.section.pb-12 «section» [0 690 360 6500] {pos=relative pad=0px 0px 48px}
+    div.relative.container.contain.mx-auto [0 690 360 6452] {pos=relative pad=0px 16px}
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 690 328 1378] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 690 328 300] {pos=relative}
+          div.aem-section-bgimage.section-1635732995341.section-bg.absolute [16 690 328 300] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/news-feature-oil-gas-solutions-western-digital.png.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 990 328 1078] {pos=relative pad=24px}
+          div.relative [40 1014 280 1030] {pos=relative}
+            div.pb-2.textcolumn «text» [40 1014 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 1014 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "SUSTAINABILITY COMMITMENT"
+            div.textcolumn «text» [40 1046 280 94]
+              h3.heading3.heading-mb-2 [40 1046 280 86] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "Strengthening Our Goals for a More Sustainable Future"
+            div.textcolumn «text» [40 1140 280 856]
+              p [40 1140 280 456] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WD is a leader in sustainable, scalable data storage for the AI infrastructure. Our sustainability commitments have a major impact on operations, product development, and supply chain management, as well as on our global environmental footprint. Continuing our focus on emissions, we remain committed to running our operations on 100% carbon-free energy by FY2030 and achieving net zero emissions in "
+              p [40 1616 280 288] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We continue to drive sustainability in our indirect supply chain (Scope 3). We have set goals for a 20% direct materials emissions reduction by FY2030 (vs FY2024) and 50% emissions reduction during the use phase of HDDs (per petabyte) by FY2030. For our enterprise HDDs, we have committed to using 43% recycled content in products and 72% recycled content in packaging by 2030."
+              p [40 1924 280 72] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We thank you for your continued support as we work to build a better future."
+            div «button» [40 1996 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 2012 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/company/sustainability aria="Learn More: Commitment to Environmental Sustainability" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 2068 328 1171] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-2>section» [16 2068 328 300] {pos=relative}
+          div.aem-section-bgimage.section-414224110172.section-bg.absolute [16 2068 328 300] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/corp-sustainability-2022-img.jpg.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-1>section» [16 2368 328 871] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 2392 280 823] {pos=relative}
+            div.pb-2.textcolumn «text» [40 2392 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 2392 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "INNOVATION FOR THE FUTURE"
+            div.textcolumn «text» [40 2424 280 94]
+              h3.heading3.heading-mb-2 [40 2424 280 86] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "Fiscal Year 2025 Annual Sustainability Report"
+            div.textcolumn «text» [40 2518 280 640]
+              p [40 2518 280 264] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "WD is committed to protecting and supporting our people, our environment, and our communities. That commitment is reflected in our FY2025 report where we share our data-driven strategy and detail our significant achievements over the past fiscal year across environmental stewardship, stakeholder empowerment, and responsible business practices."
+              p [40 2802 280 24] {mar=0px 0px 20px} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Notable highlights include:"
+              ul [40 2846 280 312] {pad=0px 0px 0px 40px}
+                li [80 2846 240 72] {disp=list-item} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We spearheaded the Advanced Recovery and Rare Earth Material Capture program."
+                li [80 2918 240 120] {disp=list-item} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We engaged 100% of targeted suppliers on priority sustainability issues including decarbonization, human rights, and responsible minerals."
+                li [80 3038 240 120] {disp=list-item} f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We implemented an artificial intelligence policy to help our teams build skills to leverage AI tools and streamline workflows, boosting productivity."
+            div «button» [40 3158 280 57]
+              a.btn.items-center.inline-flex.cursor-pointer [40 3182 280 28] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal mar=24px 0px 0px rad=6px} href=https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/collateral/cert/western-digital-FY2025-sustainability-report.pdf aria="Download PDF: FY2025 Annual Sustainability Report" f[Roboto 14px/14px 400 underline rgb(0, 0, 0)]
+                svg.-mr-1 [40 3184 17 24] {mar=0px -4px 0px 0px ovf=hidden}
+                  path [43 3192 11 8]
+                span.ml-2 [61 3182 259 28] {mar=0px 0px 0px 8px} f[Roboto 14px/14px 400 rgb(0, 0, 0)] "Read the FY2025 Annual Sustainability Report to learn more"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 3239 328 680] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 3239 328 300] {pos=relative}
+          div.aem-section-bgimage.section-905416935954.section-bg.absolute [16 3239 328 300] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/corp-sus-environment.png.wdthumb.840.840.webp") / cover 100% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 3539 328 380] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 3563 280 332] {pos=relative}
+            div.pb-2.textcolumn «text» [40 3563 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 3563 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "ENVIRONMENT"
+            div.textcolumn «text» [40 3595 280 180]
+              h3.heading3.heading-mb-2 [40 3595 280 172] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "Environmental sustainability is critical to our long-term success, both as a company and as a species."
+            p «text>textcolumn» [40 3775 280 72] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We actively monitor and minimize our environmental impacts so we can protect the world in which we all live."
+            div «button» [40 3847 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 3863 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/company/sustainability aria="Learn More: Commitment to Environmental Sustainability" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 3919 328 589] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-2>section» [16 3919 328 300] {pos=relative}
+          div.aem-section-bgimage.section-129973039380.section-bg.absolute [16 3919 328 300] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/corp-sus-people.jpg.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-1>section» [16 4219 328 289] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 4243 280 241] {pos=relative}
+            div.pb-2.textcolumn «text» [40 4243 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 4243 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "PEOPLE"
+            div.textcolumn «text» [40 4275 280 65]
+              h3.heading3.heading-mb-2 [40 4275 280 57] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "People are the lifeblood of our company."
+            p «text>textcolumn» [40 4340 280 96] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "From human rights to health and safety to supply chain management, we listen to the people around us and strive to improve lives and livelihoods."
+            div «button» [40 4436 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 4452 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/company/corporate-responsibility/people aria="Learn More: People" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 4508 328 675] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 4508 328 300] {pos=relative}
+          div.aem-section-bgimage.section-785821139782.section-bg.absolute [16 4508 328 300] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/CorpResponsibility-SupplyChain-716x400-2x.png.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 4808 328 375] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 4832 280 327] {pos=relative}
+            div.pb-2.textcolumn «text» [40 4832 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 4832 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "SUPPLY CHAIN"
+            div.textcolumn «text» [40 4864 280 151]
+              h3.heading3.heading-mb-2 [40 4864 280 143] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "As a global leader in manufacturing, our supply chain is both significant and substantial."
+            p «text>textcolumn» [40 5015 280 96] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We work closely with our suppliers to help them follow the same high standards we have for our own operations."
+            div «button» [40 5111 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 5127 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/company/corporate-responsibility/supply-chain aria="Learn More: Supply Chain" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 5183 328 618] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-2>section» [16 5183 328 300] {pos=relative}
+          div.aem-section-bgimage.section-112823535534.section-bg.absolute [16 5183 328 300] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/corporate-sustainability/corp-sus-privacy-ethics.jpg.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-1>section» [16 5483 328 318] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 5507 280 270] {pos=relative}
+            div.pb-2.textcolumn «text» [40 5507 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 5507 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "ETHICS"
+            div.textcolumn «text» [40 5539 280 94]
+              h3.heading3.heading-mb-2 [40 5539 280 86] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "Doing business the right way is deeply ingrained in our culture."
+            p «text>textcolumn» [40 5632 280 96] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We foster an environment of ethical behavior through policies and practices that has led to public recognition for our strong commitment to integrity."
+            div «button» [40 5728 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 5744 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/company/corporate-responsibility/ethics aria="Learn More: Ethics" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 5800 328 667] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 5800 328 325] {pos=relative}
+          div.aem-section-bgimage.section-503963979254.section-bg.absolute [16 5800 328 325] {bgi=url("https://www.westerndigital.com/content/dam/western-digital/en-us/assets/company/Cop-Sustainability/corp-sus-philanthropy.jpg.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full>section» [16 6125 328 342] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 6149 280 294] {pos=relative}
+            div.pb-2.textcolumn «text» [40 6149 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 6149 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "PHILANTHROPY"
+            div.textcolumn «text» [40 6181 280 94]
+              h3.heading3.heading-mb-2 [40 6181 280 86] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "Our philanthropic programs aim to make a significant impact."
+            p «text>textcolumn» [40 6275 280 120] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "At WD, we care! Giving back and responding to the needs of our communities is a priority of the company and we believe that more can be achieved when we do it together!"
+            div «button» [40 6395 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 6411 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/company/corporate-responsibility/philanthropy aria="Learn More: Philanthropy" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 6467 328 675] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-2>section» [16 6467 328 300] {pos=relative}
+          div.aem-section-bgimage.section-1731651402355.section-bg.absolute [16 6467 328 300] {bgi=url("https://www.westerndigital.com/content/dam/western-digital/en-us/assets/company/Cop-Sustainability/corp-sus-privacy.jpg.wdthumb.840.840.webp") / cover 50% 50% pos=absolute}
+        section.bg-color.relative.section.h-full «cols-12 md:cols-6 expand-h-full md:order-1>section» [16 6767 328 375] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=24px}
+          div.relative [40 6791 280 327] {pos=relative}
+            div.pb-2.textcolumn «text» [40 6791 280 32] {pad=0px 0px 8px}
+              p.font-medium.mb-1 [40 6791 280 24] f[Roboto 16px/24px 500 rgb(0, 0, 0)] "PRIVACY"
+            div.textcolumn «text» [40 6823 280 151]
+              h3.heading3.heading-mb-2 [40 6823 280 143] {mar=0px 0px 8px} f[Roboto 26px/28.6px 500 rgb(0, 0, 0)] "Maintaining the integrity of our privacy and security practices is essential to our commitment to users."
+            p «text>textcolumn» [40 6974 280 96] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "We provide products and services that store and transfer data with the understanding that protecting data is critical to our users."
+            div «button» [40 7070 280 48]
+              a.btn.py-2.md:py-3.px-4 [40 7086 105 32] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0)} href=/privacy-center aria="Learn More: Privacy" f[Roboto 14px/14px 500 rgb(255, 255, 255)] "Learn More"
+  section.bg-color.relative.section.text-center «reference>cq-dd-paragraph>main-par parsys>section» [0 7190 360 312] {bg=rgb(0, 0, 0) pos=relative pad=32px 0px ta=center}
+    div.relative.container.contain.mx-auto [0 7222 360 248] {pos=relative pad=0px 16px ta=center}
+      div.text [16 7222 328 200] {ta=center}
+        div.max-w-900px.mx-auto.textcolumn [16 7222 328 200] {maxw=900px ta=center}
+          h3.heading4.heading-mb-2.text-medium [16 7222 328 26] {mar=0px 0px 8px ta=center} f[Roboto 24px/26.4px 500 rgb(255, 255, 255)] "Reports and Resources"
+          p.subtitle2.heading-mb-1.text-normal [16 7257 328 162] {mar=0px 0px 4px ta=center} f[Roboto 18px/27px 400 rgb(255, 255, 255)] "View our Corporate Responsibility documents, including our annual sustainability reports, to learn more about our environmental, social, and governance policies, initiatives, and certifications."
+      div.button [16 7423 328 48] {ta=center}
+        div [16 7423 328 48] {ta=center}
+          a.btn.py-2.md:py-3.px-4 [95 7439 169 32] {bg=rgb(255, 255, 255) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=8px 16px mar=16px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255) ta=center} href=/company/corporate-responsibility/resource-center aria="Visit Resource Center" f[Roboto 14px/14px 500 rgb(0, 0, 0)] "Visit Resource Center"
+# fixed/sticky: [{"t":"header","c":"header relative w-full","pos":"sticky","r":[0,0,360,91],"z":"11"},{"t":"iframe","c":"","pos":"fixed","r":[275,815,65,65],"z":"99999999"}]

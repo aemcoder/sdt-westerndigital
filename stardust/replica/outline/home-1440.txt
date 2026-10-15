@@ -1,0 +1,463 @@
+# https://www.westerndigital.com/ @1440 docH=6347 part=main
+section.mainContainWrap [0 97 1440 5487]
+  div.carousel.aem-GridColumn.aem-GridColumn--default--12.relative «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12» [0 97 1440 750] {pos=relative ovf=hidden auto}
+    section.ng-cloak.splide.heroBannerCarousel.wd-hero-progressBar#splide01 [0 97 1440 750] {pos=relative ovf=hidden}
+      div.splide__track.splide__track--loop.splide__track--ltr.splide__track--draggable#splide01-track «splide__slider» [0 97 1440 750] {pos=relative ovf=hidden}
+        ul.splide__list#splide01-list [-2880 97 1440 750] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal tf=matrix(1, 0, 0, 1, -2880, 0)}
+          li.splide__slide.firstSlide.is-active.is-visible#splide01-slide01 [0 97 1440 750] {pos=relative disp=list-item} f[Roboto 16px/24px 400 rgb(255, 255, 255)]
+            section.bg-color.relative.section.dark-theme [0 97 1440 750] {pos=relative}
+              div.relative [0 97 1440 750] {pos=relative}
+                section.bg-color.relative.section.text-white «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 97 1440 750] {bg=rgb(0, 0, 0) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=0px 0px 48px}
+                  div.aem-section-bgimage.section-1188142716449.section-bg.absolute [0 97 1440 750] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/the-next-AI-economics-challenge.png.wdthumb.3000.3000.webp") / cover 0% 50% pos=absolute}
+                  div.relative.container.contain.mx-auto [150 328 1140 241] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px}
+                    div.py-6.md:py-8.row.grid-12 «responsive-columns-flexbox» [166 328 1108 241] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal pad=32px 0px}
+                      div.cols-12.md:cols-8 [166 360 739 177]
+                        div.text [166 360 739 73]
+                          div.max-w-700.lg:pr-6.textcolumn [166 360 700 73] {pad=0px 24px 0px 0px maxw=700px}
+                            p.h1-hero.heading-mb-2.text-bold [166 360 676 73] {mar=0px 0px 8px} f[Roboto 66px/72.6px 700 rgb(255, 255, 255)] "Built for Scale"
+                        div.text [166 440 739 22]
+                          div.max-w-700.textcolumn [166 440 700 22] {maxw=700px}
+                            p.heading6.text-normal [166 440 700 22] f[Roboto 20px/22px 400 rgb(255, 255, 255)] "The enduring role of HDDs in the AI era."
+                        div «button» [166 462 739 74]
+                          a.btn.mr-2.py-2.md:py-3 [166 494 246 42] {bg=rgb(255, 255, 255) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 8px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=/resources/white-paper/idc-hdds-ai-era aria="Scaling Infrastructure for the AI-Driven Data Economy" f[Roboto 16px/16px 500 rgb(0, 0, 0)] "Explore the IDC Research"
+          li.splide__slide.is-next#splide01-slide02 [1440 97 1440 750] {pos=relative disp=list-item} f[Roboto 16px/24px 400 rgb(255, 255, 255)]
+            section.bg-color.relative.section.dark-theme [1440 97 1440 750] {pos=relative}
+              div.relative [1440 97 1440 750] {pos=relative}
+                section.bg-color.relative.section.text-white «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [1440 97 1440 750] {bg=rgb(0, 0, 0) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=0px 0px 48px}
+                  div.aem-section-bgimage.section-167190128230.section-bg.absolute [1440 97 1440 750] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/banners/dont-confuse-flashy-with-foundational-hero_1920x750-2x-optimized.jpg.wdthumb.3000.3000.webp") / cover 0% 50% pos=absolute}
+                  div.relative.container.contain.mx-auto [1590 280 1140 335] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px}
+                    div.py-6.md:py-8.row.grid-12 «responsive-columns-flexbox» [1606 280 1108 335] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal pad=32px 0px}
+                      div.cols-12.md:cols-8 [1606 312 739 271]
+                        div.text [1606 312 739 145]
+                          div.max-w-700.lg:pr-6.textcolumn [1606 312 700 145] {pad=0px 24px 0px 0px maxw=700px}
+                            p.h1-hero.heading-mb-2.text-bold [1606 312 676 145] {mar=0px 0px 8px} f[Roboto 66px/72.6px 700 rgb(255, 255, 255)] "Why Flash-Only AI Storage Fails at Scale"
+                        div.text [1606 466 739 44]
+                          div.max-w-700.textcolumn [1606 466 700 44] {maxw=700px}
+                            p.heading6.text-normal [1606 466 700 44] f[Roboto 20px/22px 400 rgb(255, 255, 255)] "When it comes to AI storage architecture, don’t confuse flash-y with foundational. A smart strategy starts with a tiered storage design."
+                        div «button» [1606 510 739 74]
+                          a.btn.mr-2.py-2.md:py-3 [1606 542 148 42] {bg=rgb(255, 255, 255) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 8px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=https://blog.westerndigital.com/ai-storage-architecture-tiered-design-flash-hdd/ aria="Go to blog post: Flash-y is not foundational" f[Roboto 16px/16px 500 rgb(0, 0, 0)] "Learn More"
+          li.splide__slide#splide01-slide03 [2880 97 1440 750] {pos=relative disp=list-item} f[Roboto 16px/24px 400 rgb(255, 255, 255)]
+            section.bg-color.relative.section.dark-theme [2880 97 1440 750] {pos=relative}
+              div.relative [2880 97 1440 750] {pos=relative}
+                section.bg-color.relative.section.text-white «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [2880 97 1440 750] {bg=rgb(0, 0, 0) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=0px 0px 48px}
+                  div.aem-section-bgimage.section-224871497784.section-bg.absolute [2880 97 1440 750] {pos=absolute}
+                  div.relative.container.contain.mx-auto [3030 280 1140 335] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px}
+                    div.py-6.md:py-8.row.grid-12 «responsive-columns-flexbox» [3046 280 1108 335] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal pad=32px 0px}
+                      div.cols-12.md:cols-8 [3046 312 739 271]
+                        div.text [3046 312 739 145]
+                          div.max-w-700.lg:pr-6.textcolumn [3046 312 700 145] {pad=0px 24px 0px 0px maxw=700px}
+                            p.h1-hero.heading-mb-2.text-bold [3046 312 676 145] {mar=0px 0px 8px} f[Roboto 66px/72.6px 700 rgb(255, 255, 255)] "Data Storage at Scale Is Tiered"
+                        div.text [3046 466 739 44]
+                          div.max-w-700.textcolumn [3046 466 700 44] {maxw=700px}
+                            p.heading6.text-normal [3046 466 700 44] f[Roboto 20px/22px 400 rgb(255, 255, 255)] "Tiered storage—spanning HDD, flash, and tape—is the operational standard for hyperscale data centers and scalable AI infrastructure."
+                        div «button» [3046 510 739 74]
+                          a.btn.mr-2.py-2.md:py-3 [3046 542 161 42] {bg=rgb(255, 255, 255) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 8px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=https://blog.westerndigital.com/tiered-storage-architecture-hyperscale-ai/ aria="Go to blog post" f[Roboto 16px/16px 500 rgb(0, 0, 0)] "Find Out Why"
+          li.splide__slide.lastSlide#splide01-slide04 [4320 97 1440 750] {pos=relative disp=list-item} f[Roboto 16px/24px 400 rgb(255, 255, 255)]
+            section.bg-color.relative.section.dark-theme [4320 97 1440 750] {pos=relative}
+              div.relative [4320 97 1440 750] {pos=relative}
+                section.bg-color.relative.section.text-white «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [4320 97 1440 750] {bg=rgb(0, 0, 0) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=0px 0px 48px}
+                  div.aem-section-bgimage.section-434142294002.section-bg.absolute [4320 97 1440 750] {pos=absolute}
+                  div.relative.container.contain.mx-auto [4470 328 1140 241] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px}
+                    div.py-6.md:py-8.row.grid-12 «responsive-columns-flexbox» [4486 328 1108 241] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal pad=32px 0px}
+                      div.cols-12.md:cols-8 [4486 360 739 177]
+                        p.h1-hero.heading-mb-2.text-bold «text>textcolumn» [4486 360 739 73] {mar=0px 0px 8px} f[Roboto 66px/72.6px 700 rgb(255, 255, 255)] "The Drive Behind AI"
+                        p.heading6.text-normal «text>textcolumn» [4486 440 739 22] f[Roboto 20px/22px 400 rgb(255, 255, 255)] "When data scales fast, weak architecture breaks faster."
+                        div «button» [4486 462 739 74]
+                          a.btn.mr-2.py-2.md:py-3 [4486 494 202 42] {bg=rgb(255, 255, 255) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 8px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=/solutions/ai-storage-infrastructure aria="AI Storage Infrastructure: Why Data Demand Is Growing" f[Roboto 16px/16px 500 rgb(0, 0, 0)] "Take a Closer Look"
+    div.splide-progressbar [0 583 1440 264] {bgi=linear-gradient(0deg, rgb(0, 0, 0) 0px, rgba(102, 102, 102, 0) 95.45%) pos=absolute disp=flex flow=dir:row wrap:nowrap jc:normal ai:end gap:normal pad=0px 28px 48px}
+      div.wd-bars.contain.relative.mx-auto [150 700 1140 99] {pos=relative disp=grid flow=cols:241px 241px 241px 241px gap:48px pad=0px 16px mar=0px 122px maxw=1140px}
+        div.wd-progress-item.is-active [166 700 241 72]
+          span.wd-progress-track [166 700 241 1] {bg=rgb(255, 255, 255) rad=999px ovf=hidden} f[Roboto 16px/24px 400 rgb(255, 255, 255)] inner(span.wd-progress-fill)
+          div.wd-item-label [166 717 241 55] {mar=16px 0px 0px}
+            span.wd-item-title [166 717 241 27] {ovf=hidden} f[Roboto 20px/27px 500 rgb(255, 255, 255)] "The economics of data"
+            span.wd-item-desc [166 752 241 20] {mar=8px 0px 0px ovf=hidden} f[Roboto 14px/20px 400 rgb(255, 255, 255)] "Scaling infrastructure for the AI era."
+        div.wd-progress-item [455 700 241 92] {pos=relative}
+          span.wd-progress-track [455 700 241 1] {bg=rgb(255, 255, 255) rad=999px ovf=hidden} f[Roboto 16px/24px 400 rgb(255, 255, 255)] inner(span.wd-progress-fill)
+          div.wd-item-label [455 717 241 75] {mar=16px 0px 0px}
+            span.wd-item-title [455 717 241 27] {ovf=hidden} f[Roboto 20px/27px 500 rgb(255, 255, 255)] "Flash-y is not foundational"
+            span.wd-item-desc [455 752 241 40] {mar=8px 0px 0px ovf=hidden} f[Roboto 14px/20px 400 rgb(255, 255, 255)] "Why AI needs tiered storage architecture."
+        div.wd-progress-item [744 700 241 99] {pos=relative}
+          span.wd-progress-track [744 700 241 1] {bg=rgb(255, 255, 255) rad=999px ovf=hidden} f[Roboto 16px/24px 400 rgb(255, 255, 255)] inner(span.wd-progress-fill)
+          div.wd-item-label [744 717 241 82] {mar=16px 0px 0px}
+            span.wd-item-title [744 717 241 54] {ovf=hidden} f[Roboto 20px/27px 500 rgb(255, 255, 255)] "The case for storage tiering"
+            span.wd-item-desc [744 779 241 20] {mar=8px 0px 0px ovf=hidden} f[Roboto 14px/20px 400 rgb(255, 255, 255)] "Different workloads, different storage."
+        div.wd-progress-item [1033 700 241 72] {pos=relative}
+          span.wd-progress-track [1033 700 241 1] {bg=rgb(255, 255, 255) rad=999px ovf=hidden} f[Roboto 16px/24px 400 rgb(255, 255, 255)] inner(span.wd-progress-fill)
+          div.wd-item-label [1033 717 241 55] {mar=16px 0px 0px}
+            span.wd-item-title [1033 717 241 27] {ovf=hidden} f[Roboto 20px/27px 500 rgb(255, 255, 255)] "AI is really a data system"
+            span.wd-item-desc [1033 752 241 20] {mar=8px 0px 0px ovf=hidden} f[Roboto 14px/20px 400 rgb(255, 255, 255)] "Compute isn’t AI’s biggest challenge."
+  section.bg-color.relative.section.text-center «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 847 1440 757] {pos=relative pad=64px 0px ta=center}
+    div.relative.container.contain.mx-auto [150 911 1140 629] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px ta=center}
+      div.text [166 911 1108 170] {ta=center}
+        div.pb-8.md:pb-12.textcolumn [166 911 1108 170] {pad=0px 0px 48px ta=center}
+          h1.h2-hero.text-bold [166 911 1108 106] {mar=0px 0px 16px ta=center} f[Roboto 48px/52.8px 700 rgb(0, 0, 0)] "WD Hard Drive Storage Solutions for Data Centers, NAS, Enterprise, Surveillance & AI"
+      div.editorial-listing [166 1081 1108 459] {ta=center}
+        div [166 1081 1108 459] {ta=center}
+          div.store-tabview [166 1081 1108 459] {ta=center}
+            div.grid-12.xs:grid-12.sm:grid-12.md:grid-12 [166 1081 1108 48] {pos=relative disp=flex flow=dir:row wrap:wrap jc:center ai:normal gap:normal ta=center}
+              div.tabview-contain.text-center.active [477 1081 204 48] {ta=center}
+                button.pointer-events-none.border-b-3.border-blue.text-blue#shop-by-category [509 1081 140 48] {pos=relative disp=inline-block pad=12px 0px mar=0px 32px border=0px/3px solid rgb(34, 102, 255) ta=center} f[Roboto 18px/20.7px 400 rgb(34, 102, 255)] "Shop by Category"
+              div.tabview-contain.text-center [681 1081 139 48] {ta=center}
+                button.text-grey-5.w-auto.btn.pointer#solutions [713 1081 75 45] {pos=relative disp=inline-block pad=12px 0px mar=0px 32px rad=6px ta=center} f[Roboto 18px/20.7px 400 rgb(115, 119, 121)] "Solutions"
+              div.tabview-contain.text-center [820 1081 143 48] {ta=center}
+                button.text-grey-5.w-auto.btn.pointer#industries [852 1081 79 45] {pos=relative disp=inline-block pad=12px 0px mar=0px 32px rad=6px ta=center} f[Roboto 18px/20.7px 400 rgb(115, 119, 121)] "Industries"
+            div.w-full.tabview-box.pin-l.pb-4#editorial-tab-1 [166 1128 1108 411] {pad=0px 0px 32px ta=center}
+              div.w-full.py-6.sm:py-12.text-left [166 1128 1108 379] {pad=48px 0px}
+                div.aem-Grid.aem-Grid--12.aem-Grid--default--12 [166 1176 1108 283]
+                  div.responsive-columns-flexbox.aem-GridColumn.aem-GridColumn--default--12 [166 1176 1108 209]
+                    div.row.grid-12.xs:grid-12.sm:grid-12 [158 1176 1124 225] {disp=flex flow=dir:row wrap:wrap jc:center ai:normal gap:normal mar=0px -8px -16px}
+                      div.cols-6.md:cols-2.px-2.mb-4 [252 1176 187 209] {pad=0px 8px mar=0px 0px 16px}
+                        section.bg-color.relative.section.text-center «section» [260 1176 171 209] {pos=relative ta=center}
+                          a.block [260 1176 171 209] {ta=center} href=/products/data-center-storage aria="Data Center Drives" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                            div.relative [260 1176 171 209] {pos=relative ta=center}
+                              div.image [260 1176 171 187] {ta=center}
+                                picture [260 1259 171 19] {ta=center}
+                                  img.cq-dd-image.mb-4.h-full.max-h-200px [260 1176 171 171] {mar=0px 0px 16px maxw=100% ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/shop-data-center.png.wdthumb.1280.1280.webp alt="" nat=400x400
+                              div.text [260 1364 171 22] {ta=center}
+                                div.textcolumn [260 1364 171 22] {ta=center}
+                                  p.subtitle.hover:underline.text-bold [260 1364 171 22] {ta=center} f[Roboto 20px/22px 700 rgb(0, 0, 0)] "Data Center" inner(b)
+                      div.cols-6.md:cols-2.px-2.mb-4 [439 1176 187 209] {pad=0px 8px mar=0px 0px 16px}
+                        section.bg-color.relative.section.text-center «section» [447 1176 171 209] {pos=relative ta=center}
+                          a.block [447 1176 171 209] {ta=center} href=/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS) aria="Network Attached Storage" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                            div.relative [447 1176 171 209] {pos=relative ta=center}
+                              div.image [447 1176 171 187] {ta=center}
+                                picture [447 1259 171 19] {ta=center}
+                                  img.cq-dd-image.mb-4.h-full.max-h-200px [447 1176 171 171] {mar=0px 0px 16px maxw=100% ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/shop-nas.png.wdthumb.1280.1280.webp alt="" nat=400x400
+                              div.text [447 1364 171 22] {ta=center}
+                                div.textcolumn [447 1364 171 22] {ta=center}
+                                  p.subtitle.hover:underline.text-bold [447 1364 171 22] {ta=center} f[Roboto 20px/22px 700 rgb(0, 0, 0)] "NAS" inner(b)
+                      div.cols-6.md:cols-2.px-2.mb-4 [626 1176 187 209] {pad=0px 8px mar=0px 0px 16px}
+                        section.bg-color.relative.section.text-center «section» [634 1176 171 209] {pos=relative ta=center}
+                          a.block [634 1176 171 209] {ta=center} href=/products/hdd?filterByUseCaseName=Smart+Video+Surveillance aria="Shop Now: Surveillance" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                            div.relative [634 1176 171 209] {pos=relative ta=center}
+                              div.image [634 1176 171 187] {ta=center}
+                                picture [634 1259 171 19] {ta=center}
+                                  img.cq-dd-image.mb-4.h-full.max-h-200px [634 1176 171 171] {mar=0px 0px 16px maxw=100% ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/shop-surveillance.png.wdthumb.1280.1280.webp alt="" nat=400x400
+                              div.text [634 1364 171 22] {ta=center}
+                                div.textcolumn [634 1364 171 22] {ta=center}
+                                  p.subtitle.hover:underline.text-bold [634 1364 171 22] {ta=center} f[Roboto 20px/22px 700 rgb(0, 0, 0)] "Surveillance" inner(b)
+                      div.cols-6.md:cols-2.px-2.mb-4 [814 1176 187 209] {pad=0px 8px mar=0px 0px 16px}
+                        section.bg-color.relative.section.text-center «section» [822 1176 171 209] {pos=relative ta=center}
+                          a.block [822 1176 171 209] {ta=center} href=/solutions/data-center-storage-platform aria="Data Center Storage Platforms" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                            div.relative [822 1176 171 209] {pos=relative ta=center}
+                              div.image [822 1176 171 187] {ta=center}
+                                picture [822 1259 171 19] {ta=center}
+                                  img.cq-dd-image.mb-4.h-full.max-h-200px [822 1176 171 171] {mar=0px 0px 16px maxw=100% ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/shop-platforms.png.wdthumb.1280.1280.webp alt="" nat=400x400
+                              div.text [822 1364 171 22] {ta=center}
+                                div.textcolumn [822 1364 171 22] {ta=center}
+                                  p.subtitle.hover:underline.text-bold [822 1364 171 22] {ta=center} f[Roboto 20px/22px 700 rgb(0, 0, 0)] "Platforms" inner(b)
+                      div.cols-6.md:cols-2.px-2.mb-4 [1001 1176 187 209] {pad=0px 8px mar=0px 0px 16px}
+                        section.bg-color.relative.section.text-center «section» [1009 1176 171 209] {pos=relative ta=center}
+                          a.block [1009 1176 171 209] {ta=center} href=/products/hdd/external-hdd aria="Shop Now: External Hard Drives" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                            div.relative [1009 1176 171 209] {pos=relative ta=center}
+                              div.image [1009 1176 171 187] {ta=center}
+                                picture [1009 1259 171 19] {ta=center}
+                                  img.cq-dd-image.mb-4.h-full.max-h-200px [1009 1176 171 171] {mar=0px 0px 16px maxw=100% ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/shop-external-drives.jpg.wdthumb.1280.1280.webp alt="" nat=400x400
+                              div.text [1009 1364 171 22] {ta=center}
+                                div.textcolumn [1009 1364 171 22] {ta=center}
+                                  p.subtitle.hover:underline.text-bold [1009 1364 171 22] {ta=center} f[Roboto 20px/22px 700 rgb(0, 0, 0)] "External Drives" inner(b)
+                  section.bg-color.relative.section.text-center «section aem-GridColumn aem-GridColumn--default--12» [166 1386 1108 74] {pos=relative ta=center}
+                    div.relative.container.contain.mx-auto [166 1386 1108 74] {pos=relative pad=0px 16px maxw=1140px ta=center}
+                      div.button [182 1386 1076 74] {ta=center}
+                        div [182 1386 1076 74] {ta=center}
+                          a.btn.btn-sm.hover:bg-black.hover:text-white [628 1418 184 42] {disp=inline-block pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0) ta=center} href=/products f[Roboto 16px/16px 500 rgb(0, 0, 0)] "See All Products"
+  section.bg-color.relative.section.py-16 «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 1604 1440 909] {bg=rgb(242, 243, 243) pos=relative pad=96px 0px}
+    div.relative [0 1700 1440 717] {pos=relative}
+      div.pb-8.md:pb-12.text-center.textcolumn «text» [0 1700 1440 117] {pad=0px 0px 48px ta=center}
+        h2.h2-hero.text-bold [0 1700 1440 53] {mar=0px 0px 16px ta=center} f[Roboto 48px/52.8px 700 rgb(0, 0, 0)] "A Legacy in Technology and Innovation"
+      div.carousel [0 1816 1440 600] {ovf=hidden auto}
+        section.ng-cloak.splide.heroBannerCarousel.wd-card-carousel#splide02 [150 1816 1290 600] {pos=relative mar=0px 0px 0px 150px maxw=calc(100% - 150px)}
+          div.splide__track.splide__track--scroll.splide__track--ltr.splide__track--draggable#splide02-track «splide__slider» [150 1816 1290 600] {pos=relative}
+            ul.splide__list#splide02-list [150 1816 1290 600] {disp=flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal tf=matrix(1, 0, 0, 1, 0, 0)}
+              li.splide__slide.firstSlide.is-active.is-visible#splide02-slide01 [150 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px «cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [150 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-1649349395088.section-bg.absolute [150 1816 400 600] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/reinventing-storage-content.png.wdthumb.3000.3000.webp") / cover 50% 50% pos=absolute}
+                  div.relative [182 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [182 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [182 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "Technology"
+                    h3.heading4 «text>textcolumn» [182 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "Flash for the moment—HDDs for a lifetime"
+                    div «button» [182 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [182 2342 141 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=https://blog.westerndigital.com/ai-storage-architecture-flash-hdd/ aria="Read Blog Post: Flash Handles the Moment. HDDs Handle the Lifetime." f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Learn Why"
+              li.splide__slide.is-visible.is-next#splide02-slide02 [566 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px «cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [566 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-771629323762.section-bg.absolute [566 1816 400 600] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/time-statista-sustainability-award-2026.png.wdthumb.3000.3000.webp") / cover 50% 50% pos=absolute}
+                  div.relative [598 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [598 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [598 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "Technology"
+                    h3.heading4 «text>textcolumn» [598 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "TIME names WD a Most Sustainable Company"
+                    div «button» [598 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [598 2342 148 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=https://blog.westerndigital.com/wd-worlds-most-sustainable-companies-2026/ aria="Read Blog Post: Recognized Among the World’s Most Sustainable Companies 2026" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Learn More"
+              li.splide__slide.is-visible#splide02-slide03 [982 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px «cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [982 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-717349880939.section-bg.absolute [982 1816 400 600] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/hp-card-ai-doesnt-end-at-compute.png.wdthumb.3000.3000.webp") / cover 50% 50% pos=absolute}
+                  div.relative [1014 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [1014 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [1014 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "Data"
+                    h3.heading4 «text>textcolumn» [1014 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "AI compute ends—but data keeps compounding"
+                    div «button» [1014 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [1014 2342 189 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=https://blog.westerndigital.com/ai-storage-demand-data-center-build-out/ aria="Read Blog Post: AI Doesn’t End at Compute—It Compounds as Data" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Get the Full Story"
+              li.splide__slide#splide02-slide04 [1398 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px «cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [1398 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-1775094672832.section-bg.absolute [1398 1816 400 600] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/solutions/ai/ai-solutions-blog-cards-2.jpg.wdthumb.3000.3000.webp") / cover 50% 50% pos=absolute}
+                  div.relative [1430 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [1430 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [1430 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "TECHNOLOGY"
+                    h3.heading4 «text>textcolumn» [1430 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "Storage is not the same as memory"
+                    div «button» [1430 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [1430 2342 211 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=https://blog.westerndigital.com/ai-storage-vs-memory-infrastructure/ aria="Read Blog Post: The Difference Between Storage and Memory in AI Workflows" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Learn the Difference"
+              li.splide__slide#splide02-slide05 [1814 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px [1814 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-855455470105.section-bg.absolute [1814 1816 400 600] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/wd-data-center-racks.jpg.wdthumb.3000.3000.webp") / cover 50% 50% pos=absolute}
+                  div.relative [1846 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [1846 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [1846 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "Products"
+                    h3.heading4 «text>textcolumn» [1846 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "Store and scale with future-ready platforms"
+                    div «button» [1846 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [1846 2342 191 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=/solutions/data-center-storage-platform aria="Explore Solutions" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Explore Solutions"
+              li.splide__slide#splide02-slide06 [2230 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px [2230 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-634144740839.section-bg.absolute [2230 1816 400 600] {pos=absolute}
+                  div.relative [2262 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [2262 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [2262 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "Technology"
+                    h3.heading4 «text>textcolumn» [2262 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "Reinvented for the AI-driven data economy"
+                    div «button» [2262 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [2262 2342 169 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=/company/innovation/hdd-innovation aria="Discover More" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Discover More"
+              li.splide__slide.lastSlide#splide02-slide07 [2646 1816 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-500px [2646 1816 400 600] {pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-1315119363151.section-bg.absolute [2646 1816 400 600] {pos=absolute}
+                  div.relative [2678 2201 336 184] {pos=relative}
+                    div.pb-2.textcolumn «text» [2678 2201 336 32] {pad=0px 0px 8px}
+                      p.uppercase [2678 2201 336 24] f[Roboto 16px/24px 400 uppercase rgb(255, 255, 255)] "People"
+                    h3.heading4 «text>textcolumn» [2678 2233 336 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(255, 255, 255)] "Meeting the moment of AI-driven transformation"
+                    div «button» [2678 2310 336 74]
+                      a.btn.py-2.md:py-3.px-4 [2678 2342 148 42] {disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 0px 0px rad=6px border=1px/1px solid rgb(255, 255, 255)} href=/company/campaign/we-make-it-possible aria="Learn More" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Learn More"
+  section.bg-color.relative.section.py-16 «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 2512 1440 909] {pos=relative pad=96px 0px}
+    div.relative [0 2608 1440 717] {pos=relative}
+      div.pb-8.md:pb-12.text-center.textcolumn «text» [0 2608 1440 117] {pad=0px 0px 48px ta=center}
+        h2.h2-hero.text-bold [0 2608 1440 53] {mar=0px 0px 16px ta=center} f[Roboto 48px/52.8px 700 rgb(0, 0, 0)] "Popular Products"
+      div.carousel [0 2725 1440 600] {ovf=hidden auto}
+        section.ng-cloak.splide.heroBannerCarousel.wd-card-carousel#splide03 [150 2725 1290 600] {pos=relative mar=0px 0px 0px 150px maxw=calc(100% - 150px)}
+          div.splide__track.splide__track--scroll.splide__track--ltr.splide__track--draggable#splide03-track «splide__slider» [150 2725 1290 600] {pos=relative}
+            ul.splide__list#splide03-list [150 2725 1290 600] {disp=flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal tf=matrix(1, 0, 0, 1, 0, 0)}
+              li.splide__slide.firstSlide.is-active.is-visible#splide03-slide01 [150 2725 383 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.h-full «cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [150 2725 383 600] {bg=rgb(245, 249, 249) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-end gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.aem-section-bgimage.section-437129167887.section-bg.absolute [150 2725 383 600] {bgi=url("https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/g-drive-rebrand-2026.jpg.wdthumb.3000.3000.webp") / cover 50% 50% pos=absolute}
+                  div.relative [182 3160 319 134] {pos=relative}
+                    div.textcolumn «text» [182 3160 319 102]
+                      p.heading4 [182 3160 319 62] {mar=0px 0px 16px} f[Roboto 28px/30.8px 500 rgb(0, 0, 0)] "G-DRIVE Where Ideas Live"
+                      p [182 3237 319 24] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Evolving with the creators shaping tomorrow."
+                    a.btn.underline.block.mt-4 «button>div» [182 3277 319 16] {mar=16px 0px 0px rad=6px} href=/brand/g-drive aria="G-DRIVE" f[Roboto 16px/16px 400 underline rgb(0, 0, 0)] "Learn More"
+              li.splide__slide.is-visible.is-next#splide03-slide02 [549 2725 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                div.min-h-500px.md:min-h-600px.max-w-400px.flex [549 2725 400 600] {bg=rgb(242, 243, 243) disp=flex flow=dir:row wrap:nowrap jc:center ai:center gap:normal pad=0px 32px rad=16px maxw=400px ovf=hidden}
+                  div.row.grid-12.xs:grid-12.sm:grid-12 «div>block pc-url-wrap>px-0» [581 2781 336 489] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+                    div.cols-12 [581 2781 336 352]
+                      div.flex.flex-col.items-center.mb-4 [581 2781 336 336] {disp=flex flow=dir:column wrap:nowrap jc:normal ai:center gap:normal mar=0px 0px 16px}
+                        img.img-fluid «picture» [581 2781 336 336] {maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-gold-sata-hdd/gallery/WD-GOLD-main-nocap.png.wdthumb.1280.1280.webp alt="WD Gold Enterprise Class Hard Drive" nat=1280x1280
+                    div.cols-12 [581 3133 336 137]
+                      div.leading-default.font-bold.heading4 [581 3133 336 62] {mar=0px 0px 16px}
+                      div.capacity-col.mb-4.text-sm.leading-tight [581 3210 336 19] {mar=0px 0px 16px}
+                        span.text-gray-4 [581 3210 70 19] f[Roboto 16px/19.2px 400 rgb(107, 107, 107)] "Capacity:"
+                        span.font-bold [650 3210 74 19] f[Roboto 16px/19.2px 700 rgb(0, 0, 0)] "4TB-26TB"
+                      p.text-sm.mb-4 [581 3246 336 24] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Starting at $299.99 /" inner(span.text-gray-4 span.font-bold)
+              li.splide__slide.is-visible#splide03-slide03 [965 2725 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                div.min-h-500px.md:min-h-600px.max-w-400px.flex [965 2725 400 600] {bg=rgb(242, 243, 243) disp=flex flow=dir:row wrap:nowrap jc:center ai:center gap:normal pad=0px 32px rad=16px maxw=400px ovf=hidden}
+                  div.row.grid-12.xs:grid-12.sm:grid-12 «div>block pc-url-wrap>px-0» [997 2781 336 489] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+                    div.cols-12 [997 2781 336 352]
+                      div.flex.flex-col.items-center.mb-4 [997 2781 336 336] {disp=flex flow=dir:column wrap:nowrap jc:normal ai:center gap:normal mar=0px 0px 16px}
+                        img.img-fluid «picture» [997 2781 336 336] {maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-red-pro-sata-hdd/gallery/wd-red-pro-main-nocap.png.wdthumb.1280.1280.webp alt="WD Red Pro NAS Hard Drive" nat=1280x1280
+                    div.cols-12 [997 3133 336 137]
+                      div.leading-default.font-bold.heading4 [997 3133 336 62] {mar=0px 0px 16px}
+                      div.capacity-col.mb-4.text-sm.leading-tight [997 3210 336 19] {mar=0px 0px 16px}
+                        span.text-gray-4 [997 3210 70 19] f[Roboto 16px/19.2px 400 rgb(107, 107, 107)] "Capacity:"
+                        span.font-bold [1066 3210 74 19] f[Roboto 16px/19.2px 700 rgb(0, 0, 0)] "4TB-26TB"
+                      p.text-sm.mb-4 [997 3246 336 24] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Starting at $299.99 /" inner(span.text-gray-4 span.font-bold)
+              li.splide__slide#splide03-slide04 [1381 2725 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                div.min-h-500px.md:min-h-600px.max-w-400px.flex [1381 2725 400 600] {bg=rgb(242, 243, 243) disp=flex flow=dir:row wrap:nowrap jc:center ai:center gap:normal pad=0px 32px rad=16px maxw=400px ovf=hidden}
+                  div.row.grid-12.xs:grid-12.sm:grid-12 «div>block pc-url-wrap>px-0» [1413 2781 336 489] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+                    div.cols-12 [1413 2781 336 352]
+                      div.flex.flex-col.items-center.mb-4 [1413 2781 336 336] {disp=flex flow=dir:column wrap:nowrap jc:normal ai:center gap:normal mar=0px 0px 16px}
+                        img.img-fluid «picture» [1413 2781 336 336] {maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-pro-sata-hdd/gallery/wd-purple-pro-sata-hdd-main-nocap.png.wdthumb.1280.1280.webp alt="WD Purple Pro Video Analytics Hard Drive" nat=1280x1280
+                    div.cols-12 [1413 3133 336 137]
+                      div.leading-default.font-bold.heading4 [1413 3133 336 62] {mar=0px 0px 16px}
+                      div.capacity-col.mb-4.text-sm.leading-tight [1413 3210 336 19] {mar=0px 0px 16px}
+                        span.text-gray-4 [1413 3210 70 19] f[Roboto 16px/19.2px 400 rgb(107, 107, 107)] "Capacity:"
+                        span.font-bold [1482 3210 74 19] f[Roboto 16px/19.2px 700 rgb(0, 0, 0)] "8TB-26TB"
+                      p.text-sm.mb-4 [1413 3246 336 24] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Starting at $464.99 /" inner(span.text-gray-4 span.font-bold)
+              li.splide__slide#splide03-slide05 [1797 2725 400 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                div.min-h-500px.md:min-h-600px.max-w-400px.flex [1797 2725 400 600] {bg=rgb(242, 243, 243) disp=flex flow=dir:row wrap:nowrap jc:center ai:center gap:normal pad=0px 32px rad=16px maxw=400px ovf=hidden}
+                  div.row.grid-12.xs:grid-12.sm:grid-12 «div>block pc-url-wrap>px-0» [1829 2781 336 489] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+                    div.cols-12 [1829 2781 336 352]
+                      div.flex.flex-col.items-center.mb-4 [1829 2781 336 336] {disp=flex flow=dir:column wrap:nowrap jc:normal ai:center gap:normal mar=0px 0px 16px}
+                        img.img-fluid «picture» [1829 2781 336 336] {maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-desktop-sata-hdd/gallery/wd-black-desktop-500gb.png.wdthumb.1280.1280.webp alt="WD_BLACK 3.5-Inch Gaming Hard Drive" nat=1280x1280
+                    div.cols-12 [1829 3133 336 137]
+                      div.leading-default.font-bold.heading4 [1829 3133 336 62] {mar=0px 0px 16px}
+                      div.capacity-col.mb-4.text-sm.leading-tight [1829 3210 336 19] {mar=0px 0px 16px}
+                        span.text-gray-4 [1829 3210 70 19] f[Roboto 16px/19.2px 400 rgb(107, 107, 107)] "Capacity:"
+                        span.font-bold [1898 3210 93 19] f[Roboto 16px/19.2px 700 rgb(0, 0, 0)] "500GB-10TB"
+                      p.text-sm.mb-4 [1829 3246 336 24] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Starting at $299.99 /" inner(span.text-gray-4 span.font-bold)
+              li.splide__slide.lastSlide#splide03-slide06 [2213 2725 64 600] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                div.min-h-500px.md:min-h-600px.max-w-400px.flex [2213 2725 64 600] {bg=rgb(242, 243, 243) disp=flex flow=dir:row wrap:nowrap jc:center ai:center gap:normal pad=0px 32px rad=16px maxw=400px ovf=hidden}
+  section.bg-color.relative.section.py-16 «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 3421 1440 584] {bg=rgb(242, 243, 243) pos=relative pad=96px 0px}
+    div.relative [0 3517 1440 392] {pos=relative}
+      div.pb-8.md:pb-12.text-center.textcolumn «text» [0 3517 1440 117] {pad=0px 0px 48px ta=center}
+        h2.h2-hero.text-bold [0 3517 1440 53] {mar=0px 0px 16px ta=center} f[Roboto 48px/52.8px 700 rgb(0, 0, 0)] "Case Studies & Resources"
+      div.carousel.aem-GridColumn.aem-GridColumn--default--12 «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12» [0 3634 1440 275] {ovf=hidden auto}
+        section.ng-cloak.splide.heroBannerCarousel.wd-card-carousel#splide04 [150 3634 1290 275] {pos=relative mar=0px 0px 0px 150px maxw=calc(100% - 150px)}
+          div.splide__track.splide__track--scroll.splide__track--ltr.splide__track--draggable#splide04-track «splide__slider» [150 3634 1290 275] {pos=relative}
+            ul.splide__list#splide04-list [150 3634 1290 275] {disp=flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal tf=matrix(1, 0, 0, 1, 0, 0)}
+              li.splide__slide.firstSlide.is-active.is-visible#splide04-slide01 [150 3634 382 275] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-275px [150 3634 382 275] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-start gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.relative [182 3666 318 162] {pos=relative}
+                    div.image [182 3666 318 64]
+                      picture [182 3708 38 19]
+                        img.cq-dd-image.mb-4.img-fluid [182 3666 38 48] {mar=0px 0px 16px maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/common/icons/icon-document-black-blue.svg alt="icon-document-black-blue" nat=30x38
+                    div.textcolumn «text» [182 3730 318 58]
+                      p.mb-2.uppercase [182 3730 318 24] {mar=0px 0px 8px} f[Roboto 16px/24px 400 uppercase rgb(0, 0, 0)] "Case Study"
+                      h3.heading5 [182 3762 318 26] {mar=0px 0px 16px} f[Roboto 24px/26.4px 500 rgb(0, 0, 0)] "Media Streaming Superpower"
+                    div «button» [182 3804 318 24]
+                      a.btn.underline.text-bold [182 3806 78 19] {rad=6px} href=/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-media-streaming-superpower-leveraged-hdds.pdf aria="Read Case Study: Beyond the SSD Hype: How a Media Streaming Superpower Leveraged HDDs to Increase Performance" f[Roboto 16px/16px 700 underline rgb(0, 0, 0)] "Read More"
+              li.splide__slide.is-visible.is-next#splide04-slide02 [548 3634 400 275] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-275px [548 3634 400 275] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-start gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.relative [580 3666 336 189] {pos=relative}
+                    div.image [580 3666 336 64]
+                      picture [580 3708 38 19]
+                        img.cq-dd-image.mb-4.img-fluid [580 3666 38 48] {mar=0px 0px 16px maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/common/icons/icon-document-black-blue.svg alt="icon-document-black-blue" nat=30x38
+                    div.textcolumn «text» [580 3730 336 85]
+                      p.mb-2.uppercase [580 3730 336 24] {mar=0px 0px 8px} f[Roboto 16px/24px 400 uppercase rgb(0, 0, 0)] "Case Study"
+                      h3.heading5 [580 3762 336 53] {mar=0px 0px 16px} f[Roboto 24px/26.4px 500 rgb(0, 0, 0)] "Wasabi Decreased Cost Per Terabyte by Over 25%"
+                    div «button» [580 3831 336 24]
+                      a.btn.underline.text-bold [580 3833 78 19] {rad=6px} href=/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-wasabi-hot-cloud-storage.pdf aria="Read Case Study: Wasabi Aims to be the World’s Fastest, Most Affordable and Reliable Cloud Storage by Leveraging Western Digital’s Patented Technology" f[Roboto 16px/16px 700 underline rgb(0, 0, 0)] "Read More"
+              li.splide__slide.is-visible#splide04-slide03 [964 3634 400 275] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-275px [964 3634 400 275] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-start gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.relative [996 3666 336 189] {pos=relative}
+                    div.image [996 3666 336 64]
+                      picture [996 3708 38 19]
+                        img.cq-dd-image.mb-4.img-fluid [996 3666 38 48] {mar=0px 0px 16px maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/common/icons/icon-document-black-blue.svg alt="icon-document-black-blue" nat=30x38
+                    div.textcolumn «text» [996 3730 336 85]
+                      p.mb-2.uppercase [996 3730 336 24] {mar=0px 0px 8px} f[Roboto 16px/24px 400 uppercase rgb(0, 0, 0)] "Case Study"
+                      h3.heading5 [996 3762 336 53] {mar=0px 0px 16px} f[Roboto 24px/26.4px 500 rgb(0, 0, 0)] "How CERN Enabled Consistent Peak Performance"
+                    div «button» [996 3831 336 24]
+                      a.btn.underline.text-bold [996 3833 78 19] {rad=6px} href=/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-cern.pdf aria="Read Case Study: Powering the Search for the Universe’s Origins Requires Unmatched Data Storage Performance, Capacity, and Reliability" f[Roboto 16px/16px 700 underline rgb(0, 0, 0)] "Read More"
+              li.splide__slide#splide04-slide04 [1380 3634 400 275] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-275px [1380 3634 400 275] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-start gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.relative [1412 3666 336 189] {pos=relative}
+                    div.image [1412 3666 336 64]
+                      picture [1412 3708 38 19]
+                        img.cq-dd-image.mb-4.img-fluid [1412 3666 38 48] {mar=0px 0px 16px maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/common/icons/icon-document-black-blue.svg alt="icon-document-black-blue" nat=30x38
+                    div.textcolumn «text» [1412 3730 336 85]
+                      p.mb-2.uppercase [1412 3730 336 24] {mar=0px 0px 8px} f[Roboto 16px/24px 400 uppercase rgb(0, 0, 0)] "Case Study"
+                      h3.heading5 [1412 3762 336 53] {mar=0px 0px 16px} f[Roboto 24px/26.4px 500 rgb(0, 0, 0)] "How Dropbox Achieved Exabyte Scale with WD"
+                    div «button» [1412 3831 336 24]
+                      a.btn.underline.text-bold [1412 3833 73 19] {rad=6px} href=/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-dropbox-magic-pocket-achieves-exabyte-scale-with-smr-hdds.pdf aria="Read Case Study: Dropbox Magic Pocket Achieves Exabyte Scale with Western Digital High-Density Hard Disk Drives" f[Roboto 16px/16px 700 underline rgb(0, 0, 0)] "Read Now"
+              li.splide__slide#splide04-slide05 [1796 3634 400 275] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-275px [1796 3634 400 275] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-start gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.relative [1828 3666 336 189] {pos=relative}
+                    div.image [1828 3666 336 64]
+                      picture [1828 3708 48 19]
+                        img.cq-dd-image.mb-4.img-fluid [1828 3666 48 48] {mar=0px 0px 16px maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/common/icons/icon-tool-black-blue.svg alt="icon-tool-black-blue" nat=48x48
+                    div.textcolumn «text» [1828 3730 336 85]
+                      p.mb-2.uppercase [1828 3730 336 24] {mar=0px 0px 8px} f[Roboto 16px/24px 400 uppercase rgb(0, 0, 0)] "Tool"
+                      h3.heading5 [1828 3762 336 53] {mar=0px 0px 16px} f[Roboto 24px/26.4px 500 rgb(0, 0, 0)] "Surveillance Hard Drive Calculator"
+                    div «button» [1828 3831 336 24]
+                      a.btn.underline.text-bold [1828 3833 82 19] {rad=6px} href=/tools/surveillance-capacity-calculator aria="Calculate your surveillance capacity needs" f[Roboto 16px/16px 700 underline rgb(0, 0, 0)] "Learn More"
+              li.splide__slide.lastSlide#splide04-slide06 [2212 3634 332 275] {pos=relative disp=list-item mar=0px 16px 0px 0px} f[Roboto 16px/24px 400 rgb(0, 0, 0)]
+                section.bg-color.relative.section.min-h-275px [2212 3634 332 275] {bg=rgb(255, 255, 255) pos=relative disp=flex flow=dir:row wrap:nowrap jc:normal ai:flex-start gap:normal pad=32px rad=16px maxw=400px ovf=hidden}
+                  div.relative [2244 3666 268 162] {pos=relative}
+                    div.image [2244 3666 268 64]
+                      picture [2244 3708 48 19]
+                        img.cq-dd-image.mb-4.img-fluid [2244 3666 48 48] {mar=0px 0px 16px maxw=100% ovf=clip} src=https://www.westerndigital.com/content/dam/store/en-us/assets/common/icons/icon-tool-black-blue.svg alt="icon-tool-black-blue" nat=48x48
+                    div.textcolumn «text» [2244 3730 268 58]
+                      p.mb-2.uppercase [2244 3730 268 24] {mar=0px 0px 8px} f[Roboto 16px/24px 400 uppercase rgb(0, 0, 0)] "Tool"
+                      h3.heading5 [2244 3762 268 26] {mar=0px 0px 16px} f[Roboto 24px/26.4px 500 rgb(0, 0, 0)] "RAID Capacity Calculator"
+                    div «button» [2244 3804 268 24]
+                      a.btn.underline.text-bold [2244 3806 82 19] {rad=6px} href=/tools/raid-capacity-calculator aria="Calculate your RAID capacity needs" f[Roboto 16px/16px 700 underline rgb(0, 0, 0)] "Learn More"
+  section.bg-color.relative.section.py-16 «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 4005 1440 1002] {pos=relative pad=96px 0px}
+    div.relative.container.contain.mx-auto [150 4101 1140 810] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px}
+      div.text [166 4101 1108 171]
+        div.pb-8.md:pb-12.text-center.max-w-992px [224 4101 992 171] {pad=0px 0px 48px mar=0px 58px maxw=992px ta=center}
+          h2.h2-hero.text-bold [224 4101 992 53] {mar=0px 0px 16px ta=center} f[Roboto 48px/52.8px 700 rgb(0, 0, 0)] "Designed to Support Businesses of Every Size"
+          p.text-base [224 4170 992 54] {ta=center} f[Roboto 18px/27px 400 rgb(0, 0, 0)] "WD for Business is built to make enterprise storage simple, flexible, and cost-effective—whether you’re buying for an SMB or scaling a global infrastructure. Here’s what your business can unlock:" inner(b)
+      div.responsive-columns-flexbox [166 4272 1108 566]
+        div.row.grid-12.xs:grid-12.sm:grid-12 [158 4272 1124 566] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal mar=0px -8px}
+          div.cols-12.md:cols-6.md:px-2.expand-h-full [158 4272 562 550] {pad=0px 8px mar=0px 0px 16px}
+            section.bg-color.relative.section.h-full «section» [166 4272 546 550] {pos=relative}
+              div.relative [166 4272 546 526] {pos=relative}
+                img.cq-dd-image.block.h-225px.md:h-350px «image>picture» [166 4272 546 350] {rad=20px maxw=100% ovf=hidden fit=cover} src=https://www.westerndigital.com/content/dam/store/en-us/assets/careers/careers-benefits.jpeg.wdthumb.1280.1280.webp alt="" nat=1280x800
+                section.bg-color.relative.section.p-6 «section» [166 4622 546 176] {pos=relative pad=24px}
+                  div.relative [190 4646 498 128] {pos=relative}
+                    div.textcolumn «text» [190 4646 498 128]
+                      h3.heading1.heading-mb-4.text-bold [190 4646 498 40] {mar=0px 0px 16px} f[Roboto 36px/39.6px 700 rgb(0, 0, 0)] "Small or Medium Business"
+                      p [190 4701 498 72] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Improve team productivity and reduce IT complexity with scalable data storage for small business. Enjoy bulk hard drive pricing, flexible credit, and a seamless procurement experience."
+          div.cols-12.md:cols-6.md:px-2.expand-h-full [720 4272 562 550] {pad=0px 8px mar=0px 0px 16px}
+            section.bg-color.relative.section.h-full «section» [728 4272 546 550] {pos=relative}
+              div.relative [728 4272 546 550] {pos=relative}
+                img.cq-dd-image.block.h-225px.md:h-350px «image>picture» [728 4272 546 350] {rad=20px maxw=100% ovf=hidden fit=cover} src=https://www.westerndigital.com/content/dam/store/en-us/assets/solutions/data-center/data-center-hpc-infrastructure-server-aisle.jpg.wdthumb.1280.1280.webp alt="" nat=920x600
+                section.bg-color.relative.section.p-6 «section» [728 4622 546 200] {pos=relative pad=24px}
+                  div.relative [752 4646 498 152] {pos=relative}
+                    div.textcolumn «text» [752 4646 498 152]
+                      h3.heading1.heading-mb-4.text-bold [752 4646 498 40] {mar=0px 0px 16px} f[Roboto 36px/39.6px 700 rgb(0, 0, 0)] "Enterprise & Resellers"
+                      p [752 4701 498 96] f[Roboto 16px/24px 400 rgb(0, 0, 0)] "Whether you're managing infrastructure or serving clients, our program provides tailored pricing, product availability tools, and scalable solutions for high-performance environments. Resellers may also benefit from loyalty rewards and sales enablement resources."
+      section.bg-color.relative.section.text-center «section» [166 4837 1108 74] {pos=relative ta=center}
+        div.relative.container.contain.mx-auto [166 4837 1108 74] {pos=relative pad=0px 16px maxw=1140px ta=center}
+          div.button [182 4837 1076 74] {ta=center}
+            div [182 4837 1076 74] {ta=center}
+              a.btn.mr-4.py-2.md:py-3 [570 4869 283 42] {bg=rgb(0, 0, 0) disp=inline-flex flow=dir:row wrap:nowrap jc:normal ai:normal gap:normal pad=12px 32px mar=32px 16px 0px 0px rad=6px border=1px/1px solid rgb(0, 0, 0) ta=center} href=/business aria="Learn More about our Benefits" f[Roboto 16px/16px 500 rgb(255, 255, 255)] "Learn More about our Benefits"
+  section.bg-color.relative.section.py-16 «reference>cq-dd-paragraph>root container responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>section aem-GridColumn aem-GridColumn--default--12» [0 5007 1440 576] {pos=relative pad=96px 0px}
+    div.relative.container.contain.mx-auto [150 5103 1140 384] {pos=relative pad=0px 16px mar=0px 150px maxw=1140px}
+      div.text [166 5103 1108 117]
+        div.pb-8.md:pb-12.text-center.max-w-992px [224 5103 992 117] {pad=0px 0px 48px mar=0px 58px maxw=992px ta=center}
+          h2.h2-hero.text-bold [224 5103 992 53] {mar=0px 0px 16px ta=center} f[Roboto 48px/52.8px 700 rgb(0, 0, 0)] "About WD"
+      div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [166 5220 1108 268] {disp=flex flow=dir:row wrap:wrap jc:center ai:normal gap:normal}
+        div.flex.justify-center.md:justify-between.w-full [166 5220 1108 268] {disp=flex flow=dir:row wrap:nowrap jc:space-between ai:normal gap:normal}
+          div.section [166 5220 222 268]
+            section.bg-color.relative.section.text-center [166 5220 222 244] {pos=relative pad=0px 8px mar=0px 0px 24px ta=center}
+              a.block [174 5220 206 244] {ta=center} href=/company/innovation aria="Learn more about Western Digital's Innovation" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                div.relative [174 5220 206 244] {pos=relative ta=center}
+                  div.image [174 5220 206 222] {ta=center}
+                    picture [174 5320 206 19] {ta=center}
+                      img.cq-dd-image.max-w-125px.xs:max-w-150px.sm:max-w-200px [174 5220 206 206] {mar=0px 0px 16px rad=16px maxw=250px ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/innovation-abstract-light-trails-data-flow.jpg.wdthumb.1280.1280.webp alt="Abstract orange light trails against dark blue background representing high-speed data flow" nat=500x500
+                  div.text [174 5442 206 22] {ta=center}
+                    div.text-center.textcolumn [174 5442 206 22] {ta=center}
+                      p.heading6 [174 5442 206 22] {ta=center} f[Roboto 20px/22px 500 rgb(0, 0, 0)] "Innovations"
+          div.section [388 5220 222 268]
+            section.bg-color.relative.section.text-center [388 5220 222 244] {pos=relative pad=0px 8px mar=0px 0px 24px ta=center}
+              a.block [396 5220 206 244] {ta=center} href=/careers aria="Learn more about careers at Western Digital" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                div.relative [396 5220 206 244] {pos=relative ta=center}
+                  div.image [396 5220 206 222] {ta=center}
+                    picture [396 5320 206 19] {ta=center}
+                      img.cq-dd-image.max-w-125px.xs:max-w-150px.sm:max-w-200px [396 5220 206 206] {mar=0px 0px 16px rad=16px maxw=250px ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/careers-professional-tablet-modern-office.jpg.wdthumb.1280.1280.webp alt="Professional using tablet in modern office environment with ambient lighting" nat=500x500
+                  div.text [396 5442 206 22] {ta=center}
+                    div.text-center.textcolumn [396 5442 206 22] {ta=center}
+                      p.heading6 [396 5442 206 22] {ta=center} f[Roboto 20px/22px 500 rgb(0, 0, 0)] "Careers"
+          div.section [609 5220 222 268]
+            section.bg-color.relative.section.text-center [609 5220 222 244] {pos=relative pad=0px 8px mar=0px 0px 24px ta=center}
+              a.block [617 5220 206 244] {ta=center} href=https://investor.wdc.com/ aria="https://investor.wdc.com/" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                div.relative [617 5220 206 244] {pos=relative ta=center}
+                  div.image [617 5220 206 222] {ta=center}
+                    picture [617 5320 206 19] {ta=center}
+                      img.cq-dd-image.max-w-125px.xs:max-w-150px.sm:max-w-200px [617 5220 206 206] {mar=0px 0px 16px rad=16px maxw=250px ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/investor-relations-financial-data-charts-visualization.jpg.wdthumb.1280.1280.webp alt="Financial data visualization with candlestick charts and trend lines in blue digital interface" nat=500x500
+                  div.text [617 5442 206 22] {ta=center}
+                    div.text-center.textcolumn [617 5442 206 22] {ta=center}
+                      p.heading6 [617 5442 206 22] {ta=center} f[Roboto 20px/22px 500 rgb(0, 0, 0)] "Investors"
+          div.section [831 5220 222 268]
+            section.bg-color.relative.section.text-center [831 5220 222 244] {pos=relative pad=0px 8px mar=0px 0px 24px ta=center}
+              a.block [839 5220 206 244] {ta=center} href=/company/newsroom aria="Learn more about the latest from Western Digital" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                div.relative [839 5220 206 244] {pos=relative ta=center}
+                  div.image [839 5220 206 222] {ta=center}
+                    picture [839 5320 206 19] {ta=center}
+                      img.cq-dd-image.max-w-125px.xs:max-w-150px.sm:max-w-200px [839 5220 206 206] {mar=0px 0px 16px rad=16px maxw=250px ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/global-network-data-connections-earth-visualization.jpg.wdthumb.1280.1280.webp alt="Digital visualization of global network connections with illuminated pathways over Earth" nat=500x500
+                  div.text [839 5442 206 22] {ta=center}
+                    div.text-center.textcolumn [839 5442 206 22] {ta=center}
+                      p.heading6 [839 5442 206 22] {ta=center} f[Roboto 20px/22px 500 rgb(0, 0, 0)] "Newsroom"
+          div.section [1052 5220 222 268]
+            section.bg-color.relative.section.text-center [1052 5220 222 244] {pos=relative pad=0px 8px mar=0px 0px 24px ta=center}
+              a.block [1060 5220 206 244] {ta=center} href=/company aria="Learn more about the company" f[Roboto 16px/16px 400 rgb(0, 0, 0)]
+                div.relative [1060 5220 206 244] {pos=relative ta=center}
+                  div.image [1060 5220 206 222] {ta=center}
+                    picture [1060 5320 206 19] {ta=center}
+                      img.cq-dd-image.max-w-125px.xs:max-w-150px.sm:max-w-200px [1060 5220 206 206] {mar=0px 0px 16px rad=16px maxw=250px ovf=clip ta=center} src=https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/cards/western-digital-corporate-building-sign-logo-a.jpg.wdthumb.1280.1280.webp alt="western-digital-corporate-building-sign-logo-a" nat=500x500
+                  div.text [1060 5442 206 22] {ta=center}
+                    div.text-center.textcolumn [1060 5442 206 22] {ta=center}
+                      p.heading6 [1060 5442 206 22] {ta=center} f[Roboto 20px/22px 500 rgb(0, 0, 0)] "About"
+# fixed/sticky: [{"t":"header","c":"header relative w-full","pos":"sticky","r":[0,0,1440,97],"z":"11"},{"t":"iframe","c":"","pos":"fixed","r":[1355,815,65,65],"z":"99999999"}]

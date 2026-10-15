@@ -1,0 +1,36 @@
+/* press-release archetype — values lifted from stardust/replica/dump/press-release-1440.json */
+.pr-hero { position: relative; display: flex; align-items: center; min-height: 300px; padding: 48px; background: var(--color-black); color: var(--color-white); }
+.pr-hero-bg { position: absolute; inset: 0; background: url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/press-release/press-release-hero-banner.jpg.wdthumb.3000.3000.webp") 0% 50% / contain no-repeat; }
+.pr-hero-copy { position: relative; width: 100%; }
+.pr-crumb { margin-bottom: 12px; line-height: 14px; height: 14px; }
+.pr-crumb a { font-size: 14px; line-height: 14px; font-weight: 300; }
+.pr-hero h1 { font-weight: 500; margin-bottom: 16px; }
+.pr-hero p { font-size: 16px; line-height: 24px; }
+
+.pr-body-section { padding: 32px 0; }
+.pr-row { display: flex; flex-wrap: wrap; }
+.pr-main { width: 75%; padding-right: 128px; }
+.press-release-header { margin-bottom: 16px; font-size: 24px; line-height: 26.4px; font-weight: 500; text-transform: capitalize; }
+.textcolumn p { margin-bottom: 20px; }
+.textcolumn p:last-child { margin-bottom: 0; }
+.textcolumn ul { list-style: disc; padding-left: 16px; margin: 20px 0; }
+.textcolumn ul li { margin-bottom: 12px; }
+.textcolumn ul li p, .textcolumn ul li p:last-child { margin-bottom: 20px; }
+.textcolumn a { color: var(--color-link-alt); text-decoration: underline; line-height: 16px; position: relative; }
+.pr-aside { width: 25%; position: sticky; top: 150px; align-self: flex-start; }
+.pr-aside h2 { margin-bottom: 16px; }
+.pr-aside .textcolumn { margin-bottom: 16px; }
+.pr-aside .textcolumn p { margin-bottom: 0; }
+.pr-aside .font-medium { font-weight: 500; }
+.pr-aside a.text-blue { color: var(--color-link); text-decoration: none; line-height: 24px; }
+
+@media (max-width: 767px) {
+  .pr-hero { min-height: 0; padding: 24px; }
+  .pr-hero-bg { background-image: url("https://www.westerndigital.com/content/dam/store/en-us/assets/company/press-release/press-release-hero-banner.jpg.wdthumb.840.840.webp"); }
+  .pr-hero h1 { font-size: 32px; line-height: 35.2px; }
+  .pr-body-section { padding: 24px 0; }
+  .pr-main { width: 100%; padding-right: 0; }
+  .press-release-header { font-size: 20px; line-height: 22px; }
+  .pr-aside { width: 100%; position: static; margin-top: 48px; }
+  .pr-aside h2 { font-size: 20px; line-height: 22px; }
+}

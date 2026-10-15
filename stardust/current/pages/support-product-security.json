@@ -1,0 +1,1437 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:55:14.342Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "support-product-security",
+  "url": "https://www.westerndigital.com/support/product-security",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:55:14.342Z",
+  "finalUrl": "https://www.westerndigital.com/support/product-security",
+  "title": "Product Security | WD",
+  "description": "Western Digital delivers innovative storage solutions—HDDs, systems & personal data storage—powering innovation, reliability & future-ready performance.",
+  "og": {
+    "title": "Product Security | WD",
+    "description": "Western Digital delivers innovative storage solutions—HDDs, systems &amp; personal data storage—powering innovation, reliability &amp; future-ready performance.",
+    "image": "https://www.westerndigital.com/content/dam/western-digital/en-us/assets/support/productsecurity.png",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Product Security"
+    },
+    {
+      "tag": "h4",
+      "text": "Bulletins"
+    },
+    {
+      "tag": "h5",
+      "text": "Report a Security Issue"
+    }
+  ],
+  "body": [
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "Shop | WD for Business",
+    "Products By Category Product Portfolio Internal HDDs External HDDs Data Center Storage Accessories By Use Storage Platforms Gaming HDDs Surveillance (CCTV) HDDs RAID HDDs Backups Network Attached Storage (NAS) By Capacity Over 50TB 21 - 50TB 11 - 20TB 5 - 10TB 1 - 4TB Less than 1TB Featured What's New Most Popular Promotions Limited-Time Offers Certified Refurbished Final Production Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Solutions Use Case NAS Storage Solutions Gaming Storage RAID Storage Solutions Video Surveillance Storage Backup & Recovery Solutions Enterprise & Data Center Storage Content Creation & Media Storage Compare & Learn HDD vs. SSD AI Storage Infrastructure Data Security & Encryption Compare Hard Drives Thunderbolt vs. USB-C Industries Healthcare Education Hybrid Cloud Explore how our storage solutions support real-world use cases—from personal backups to enterprise infrastructure. View All Solutions & Use Cases",
+    "Support Help Topics Support Home Software Downloads Product Registration Warranty Services Data Recovery Services Order Status Order Status Returns & Replacements Product Security FAQs Contact Support Chat With Us Call Us Email Us Need help from an expert? Chat with our support team for help with orders, warranty questions, troubleshooting, or to connect with a representative. Live Chat with Support SanDisk Professional hard drives are now G-DRIVE. Support and Product Information are still available, just under a new name.",
+    "Company About Us Overview Innovation Our Locations Careers Investors Capital Corporate Responsibility Overview Sustainability People Supply Chain Ethics Philanthropy Data Privacy News & Events Newsroom Press Releases Events Blog Posts Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "We provide products and services that store and transfer data with the understanding that protecting data is critical to our users. We strive to innovate and enhance our products to provide increased privacy and security. Transparency of our privacy and security practices is essential to our commitment to users, and to that end, we have created this web page to provide timely information.",
+    "To report a security issue you believe you have found in a Western Digital product or service, please email the details of your findings to PSIRT@wdc.com. Messages sent to any other email addresses may result in a delayed response. When possible, please include the following:",
+    "The specific product(s) or service(s) affected, including any relevant version numbers;",
+    "Details about the impact of the issue;",
+    "Any information that can help reproduce or diagnose the issue, including a Proof of Concept (PoC) if available; and",
+    "Whether you believe the vulnerability is already publicly disclosed or known to third parties.",
+    "Please use our PGP/GPG key to encrypt the information before sending it.",
+    "Vulnerability Disclosure Program",
+    "Western Digital follows a coordinated vulnerability disclosure process. For more information on the scope of our vulnerability disclosure program and what you can expect when working with Western Digital, see our Vulnerability Disclosure Policy.",
+    "Western Digital Vulnerability Disclosure Policy",
+    "Country/Region:",
+    "Shopping",
+    "My Account",
+    "Sign Up for Email",
+    "Discounts & Promotions",
+    "Product Portfolio",
+    "Warranty Policy",
+    "Return Policy",
+    "Distributors & Resellers",
+    "Shopping FAQ",
+    "Programs",
+    "Business Account Benefits",
+    "Data Recovery",
+    "Recycle Program",
+    "WD Credit",
+    "Pro Rewards",
+    "Partner Programs",
+    "Philanthropic Programs",
+    "Western Digital Capital",
+    "Company",
+    "About Us",
+    "News & Events",
+    "Leadership",
+    "Corporate Responsibility",
+    "Privacy Center",
+    "Blog",
+    "Careers",
+    "Investors",
+    "Office Locations",
+    "Contact Us",
+    "Support",
+    "Get Help",
+    "Resource Library",
+    "Product Security",
+    "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST",
+    "Privacy",
+    "Legal",
+    "Trademarks",
+    "Terms of Sale",
+    "Product Compliance"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Learn More",
+      "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+      "label": "Shop",
+      "href": "/products"
+    },
+    {
+      "label": "WD for Business",
+      "href": "/business"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "Solutions",
+      "href": null
+    },
+    {
+      "label": "Support",
+      "href": null
+    },
+    {
+      "label": "Company",
+      "href": null
+    },
+    {
+      "label": "Support",
+      "href": "/support"
+    },
+    {
+      "label": "2025",
+      "href": null
+    },
+    {
+      "label": "WDC-25009 Western Digital My Cloud OS 5 Firmware 5.32.102",
+      "href": "/support/product-security/wdc-25009-western-digital-my-cloud-os-5-firmware-5-32-102"
+    },
+    {
+      "label": "WDC-25008 WD Discovery Desktop App Version 5.3",
+      "href": "/support/product-security/wdc-25008-wd-discovery-desktop-app-version-5-3"
+    },
+    {
+      "label": "WDC-25007 Western Digital My Cloud Home & Duo Firmware 9.9.0-102",
+      "href": "/support/product-security/wdc-25007-western-digital-my-cloud-home-and-duo-firmware-9-9-0-102"
+    },
+    {
+      "label": "WDC-25006 Western Digital My Cloud OS 5 Firmware 5.31.108",
+      "href": "/support/product-security/wdc-25006-western-digital-my-cloud-os-5-firmware-5-31-108"
+    },
+    {
+      "label": "WDC-25005 Acronis True Image for Western Digital Build 42197 (macOS)",
+      "href": "/support/product-security/wdc-25005-acronis-true-image-for-western-digital-build-42197-macos"
+    },
+    {
+      "label": "WDC-25004 Western Digital Kitfox Software Version 1.1.1.1",
+      "href": "/support/product-security/wdc-25004-western-digital-kitfox-software-version-1-1-1-1"
+    },
+    {
+      "label": "WDC-25003 Western Digital My Cloud OS 5 Firmware 5.31.101",
+      "href": "/support/product-security/WDC-25003-western-digital-my-cloud-os-5-firmware-5-31-101"
+    },
+    {
+      "label": "WDC-25002 Western Digital My Cloud Home & Duo Firmware 9.8.0-102",
+      "href": "/support/product-security/wdc-25002-western-digital-my-cloud-home-and-duo-firmware-9-8-0-102"
+    },
+    {
+      "label": "WDC-25001 Western Digital My Cloud OS 5 Firmware 5.30.103",
+      "href": "/support/product-security/wdc-25001-western-digital-my-cloud-os-5-firmware-5-30-103"
+    },
+    {
+      "label": "2024",
+      "href": null
+    },
+    {
+      "label": "WDC-24007 Western Digital My Cloud Home & Duo Firmware 9.7.0-104",
+      "href": "/support/product-security/wdc-24007-western-digital-my-cloud-home-and-duo-firmware-9-7-0-104"
+    },
+    {
+      "label": "WDC-24006 Western Digital My Cloud, My Cloud Home - Cloud Release 4.43",
+      "href": "/support/product-security/wdc-24006-western-digital-my-cloud-my-cloud-home-cloud-release-4-43"
+    },
+    {
+      "label": "WDC-24005 Western Digital My Cloud OS 5 Firmware 5.29.102",
+      "href": "/support/product-security/wdc-24005-western-digital-my-cloud-os-5-firmware-5-29-102"
+    },
+    {
+      "label": "WDC-24004 WD Discovery Desktop App Version 5.0.589",
+      "href": "/support/product-security/wdc-24004-wd-discovery-desktop-app-version-5-0-589"
+    },
+    {
+      "label": "WDC-24003 Western Digital My Cloud OS 5, My Cloud Home, SanDisk ibi and WD Cloud Web App Update",
+      "href": "/support/product-security/wdc-24003-western-digital-my-cloud-os-5-my-cloud-home-sandisk-ibi-and-wd-cloud-web-app-update"
+    },
+    {
+      "label": "WDC-24002 SanDisk PrivateAccess Desktop App Version 6.4.11",
+      "href": "/support/product-security/wdc-24002-sandisk-privateaccess-desktop-app-v-6-4-11"
+    },
+    {
+      "label": "WDC-24001 Western Digital My Cloud OS5, My Cloud Home & Duo and SanDisk ibi Firmware Update",
+      "href": "/support/product-security/wdc-24001-western-digital-my-cloud-os-5-my-cloud-home-duo-and-sandisk-ibi-firmware-update"
+    },
+    {
+      "label": "2023",
+      "href": null
+    },
+    {
+      "label": "WDC-23013 SanDisk Security Installer for Windows 1.0.0.25",
+      "href": "/support/product-security/wdc-23013-sandisk-security-installer-for-windows-1-0-0-25"
+    },
+    {
+      "label": "WDC-23012 My Cloud OS 5 Firmware 5.27.157",
+      "href": "/support/product-security/wdc-23012-my-cloud-os5-firmware-5-27-157"
+    },
+    {
+      "label": "WDC-23011 Western Digital My Cloud Home, My Cloud Home Duo and SanDisk ibi Firmware Version 9.5.0-186",
+      "href": "/support/product-security/wdc-23011-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-9-5-0-186"
+    },
+    {
+      "label": "WDC-23010 Western Digital My Cloud Firmware Version 5.26.300",
+      "href": "/support/product-security/wdc-23010-my-cloud-firmware-version-5-26-300"
+    },
+    {
+      "label": "WDC-23009 Western Digital My Cloud OS 5, My Cloud Home and SanDisk ibi Firmware Update",
+      "href": "/support/product-security/wdc-23009-western-digital-my-cloud-os-5-my-cloud-home-and-sandisk-ibi-firmware-update"
+    },
+    {
+      "label": "WDC-23008 Western Digital My Cloud Home, My Cloud Home Duo and SanDisk ibi Firmware Version 9.4.1-101",
+      "href": "/support/product-security/wdc-23008-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-9-4-1-101"
+    },
+    {
+      "label": "WDC-23006 My Cloud Firmware Version 5.26.202",
+      "href": "/support/product-security/wdc-23006-my-cloud-firmware-version-5-26-202"
+    },
+    {
+      "label": "WDC-23005 SanDisk PrivateAccess Software Update",
+      "href": "/support/product-security/wdc-23005-sandisk-privateaccess-software-update"
+    },
+    {
+      "label": "WDC-23004 Western Digital My Cloud OS 5, My Cloud Home, SanDisk ibi and WD Cloud Mobile and Web App Update",
+      "href": "/support/product-security/wdc-23004-western-digital-my-cloud-os-5-my-cloud-home-sandisk-ibi-and-wd-cloud-mobile-and-web-app-update"
+    },
+    {
+      "label": "WDC-23003 Western Digital My Cloud Home, My Cloud Home Duo and SanDisk ibi Firmware Version 9.4.0-191",
+      "href": "/support/product-security/wdc-23003-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-9-4-0-191"
+    },
+    {
+      "label": "WDC-23002 My Cloud Firmware Version 5.26.119",
+      "href": "/support/product-security/wdc-23002-my-cloud-firmware-version-5-26-119"
+    },
+    {
+      "label": "WDC-23001 Host Boot ROM Code Vulnerability in Systems Implementing UFS Boot Feature",
+      "href": "/support/product-security/wdc-23001-host-boot-rom-code-vulnerability-in-systems-implementing-ufs-boot-feature"
+    },
+    {
+      "label": "2022",
+      "href": null
+    },
+    {
+      "label": "WDC-22020 Western Digital My Cloud OS 5, My Cloud Home and SanDisk ibi Firmware Update",
+      "href": "/support/product-security/wdc-22020-my-cloud-os-5-my-cloud-home-ibi-firmware-update"
+    },
+    {
+      "label": "WDC-22019 My Cloud Firmware Version 5.25.124",
+      "href": "/support/product-security/wdc-22019-my-cloud-firmware-version-5-25-124"
+    },
+    {
+      "label": "WDC-22018 Western Digital My Cloud Home, My Cloud Home Duo and SanDisk ibi Firmware Version 8.12.0-178",
+      "href": "/support/product-security/wdc-22018-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-8-12-0-178"
+    },
+    {
+      "label": "WDC-22017 EdgeRover - End of Support",
+      "href": "/support/product-security/wdc-22017-edgerover-end-of-support"
+    },
+    {
+      "label": "WDC-22016 Western Digital My Cloud Home and SanDisk ibi Firmware Version 8.11.0-113",
+      "href": "/support/product-security/wdc-22016-my-cloud-home-ibi-firmware-version-8-11-0-113"
+    },
+    {
+      "label": "WDC-22015 Western Digital My Cloud Home and SanDisk ibi Firmware Version 8.10.0-117",
+      "href": "/support/product-security/wdc-22015-western-digital-my-cloud-home-and-sandisk-ibi-firmware-version-8-10-0-117"
+    },
+    {
+      "label": "WDC-22014 WD Discovery Desktop App Version 4.4.396",
+      "href": "/support/product-security/wdc-22014-wd-discovery-desktop-app-version-4-4-396"
+    },
+    {
+      "label": "WDC-22013 Sweet B Incorrect Output Vulnerabilities",
+      "href": "/support/product-security/wdc-22013-sweet-b-incorrect-output-vulnerabilities"
+    },
+    {
+      "label": "WDC-22012 SanDisk ibi Firmware Version 8.9.0-108",
+      "href": "/support/product-security/wdc-22012-sandisk-ibi-firmware-version-8-9-0-108"
+    },
+    {
+      "label": "WDC-22011 My Cloud Firmware Version 5.23.114",
+      "href": "/support/product-security/wdc-22011-my-cloud-firmware-version-5-23-114"
+    },
+    {
+      "label": "WDC-22010 EdgeRover Desktop App Version 1.10.0-656",
+      "href": "/support/product-security/wdc-22010-edgerover-desktop-app-version-1-10-0-656"
+    },
+    {
+      "label": "WDC-22009 My Cloud Home Firmware Version 8.7.0-107",
+      "href": "/support/product-security/wdc-22009-my-cloud-home-firmware-version-8-7-0-107"
+    },
+    {
+      "label": "WDC-22008 My Cloud OS 5 Firmware 5.22.113",
+      "href": "/support/product-security/wdc-22008-my-cloud-os-5-firmware-5-22-113"
+    },
+    {
+      "label": "WDC-22007 SanDisk Professional G-RAID 4/8 Software Utility setup for Windows, Privilege Escalation",
+      "href": "/support/product-security/wdc-22007-sandisk-professional-g-raid-4-8-software-utility-setup-for-windows-privilege-escalation"
+    },
+    {
+      "label": "WDC-22006 My Cloud OS 5 Firmware 5.21.104",
+      "href": "/support/product-security/wdc-22006-my-cloud-os5-firmware-5-21-104"
+    },
+    {
+      "label": "WDC-22005 Netatalk Security Vulnerabilities",
+      "href": "/support/product-security/wdc-22005-netatalk-security-vulnerabilities"
+    },
+    {
+      "label": "WDC-22004 EdgeRover Desktop App Version 1.5.1-594",
+      "href": "/support/product-security/wdc-22004-edgerover-desktop-app-version-1-5-1-594"
+    },
+    {
+      "label": "WDC-22003 EdgeRover Desktop App Version 1.5.0-576",
+      "href": "/support/product-security/wdc-22003-edgerover-desktop-app-version-1-5-0-576"
+    },
+    {
+      "label": "WDC-22002 My Cloud OS 5 Firmware 5.19.117",
+      "href": "/support/product-security/wdc-22002-my-cloud-os5-firmware-5-19-117"
+    },
+    {
+      "label": "WDC-22001 My Cloud OS 3 Firmware 2.12.144",
+      "href": "/support/product-security/wdc-22001-my-cloud-os3-firmware-2-12-144"
+    },
+    {
+      "label": "2021",
+      "href": null
+    },
+    {
+      "label": "WDC-21016 Apache Log4j 2 Remote Code Execution Vulnerability Analysis",
+      "href": "/support/product-security/wdc-21016-apache-log4j-2-remote-code-execution-vulnerability-analysis"
+    },
+    {
+      "label": "WDC-21015 Important Security Updates for Your My Cloud Device",
+      "href": "/support/product-security/wdc-21015-important-security-updates-for-your-my-cloud-device"
+    },
+    {
+      "label": "WDC-21014 SanDisk SecureAccess Software Update",
+      "href": "/support/product-security/wdc-21014-sandisk-secureaccess-software-update"
+    },
+    {
+      "label": "WDC-21013 EdgeRover Desktop App Version 1.4.1-517",
+      "href": "/support/product-security/wdc-21013-edgerover-desktop-app-version-1-4-1-517"
+    },
+    {
+      "label": "WDC-21012 My Cloud OS 5 Firmware 5.18.117",
+      "href": "/support/product-security/wdc-21012-my-cloud-os5-firmware-version-5-18-117"
+    },
+    {
+      "label": "WDC-21011 My Cloud Firmware Version 5.17.107",
+      "href": "/support/product-security/wdc-21011-my-cloud-firmware-version-5-17-107"
+    },
+    {
+      "label": "WDC-21010 My Cloud - files.mycloud.com XSS Vulnerability",
+      "href": "/support/product-security/wdc-21010-my-cloud-filesdotmyclouddotcom-xss-vulnerability"
+    },
+    {
+      "label": "WDC-21009 My Cloud Firmware Version 5.15.106",
+      "href": "/support/product-security/wdc-21009-my-cloud-firmware-version-5-15-106"
+    },
+    {
+      "label": "WDC-21008 Recommended Security Measures for WD My Book Live and WD My Book Live Duo",
+      "href": "/support/product-security/wdc-21008-recommended-security-measures-wd-mybooklive-wd-mybookliveduo"
+    },
+    {
+      "label": "WDC-21007 EdgeRover Windows App Version 0.25",
+      "href": "/support/product-security/wdc-21007-edgerover-windows-app-ver-0-25"
+    },
+    {
+      "label": "WDC-21006 My Cloud - files.mycloud.com XSS Vulnerability",
+      "href": "/support/product-security/wdc-21006-my-cloud-files-mycloud-com-xss-vulnerability"
+    },
+    {
+      "label": "WDC-21004 Recommended Upgrade to My Cloud OS 5",
+      "href": "/support/product-security/wdc-21004-recommended-upgrade-to-mycloud-os-5"
+    },
+    {
+      "label": "WDC-21003 ArmorLock, Insecure Key Storage Vulnerability",
+      "href": "/support/product-security/wdc-21003-armorLock-insecure-key-storage-vulnerability"
+    },
+    {
+      "label": "WDC-21002 My Cloud Firmware Version 5.10.122",
+      "href": "/support/product-security/wdc-21002-my-cloud-firmware-version-5-10-122"
+    },
+    {
+      "label": "WDC-21001 My Cloud, My Cloud Home and SanDisk ibi Web Version 4.13.0",
+      "href": "/support/product-security/wdc-21001-my-cloud-my-cloud-home-sandisk-ibi-firmware-version-4-13-0"
+    },
+    {
+      "label": "2020",
+      "href": null
+    },
+    {
+      "label": "WDC-20011 Western Digital Dashboard, Privilege Escalation",
+      "href": "/support/product-security/wdc-20011-western-digital-dashboard-privilege-escalation"
+    },
+    {
+      "label": "WDC-20010 My Cloud OS 5 Firmware 5.07.118",
+      "href": "/support/product-security/wdc-20010-my-cloud-os5-firmware-5-07-118"
+    },
+    {
+      "label": "WDC-20009 OS 5 Firmware 5.06.115",
+      "href": "/support/product-security/wdc-20009-os5-firmware-5-06-115"
+    },
+    {
+      "label": "WDC-20008 - Replay Attack Vulnerabilities in RPMB Protocol Applications",
+      "href": "/support/product-security/wdc-20008-replay-attack-vulnerabilities-rpmb-protocol-applications"
+    },
+    {
+      "label": "WDC-20007 - My Cloud Firmware Version 5.04.114",
+      "href": "/support/product-security/wdc-20007-my-cloud-firmware-version-5-04-114"
+    },
+    {
+      "label": "WDC-20006 - My Cloud Firmware Version 2.40.155",
+      "href": "/support/product-security/wdc-20006-my-cloud-firmware-version-2-40-155"
+    },
+    {
+      "label": "WDC-20005 WD Discovery, Local Code Injection",
+      "href": "/support/product-security/wdc-20005-wd-discovery-remote-command-execution-vulnerability"
+    },
+    {
+      "label": "WDC-20004 WD Discovery, Cross Site Request Forgery (CSRF)",
+      "href": "/support/product-security/wdc-20004-wd-discovery-cross-site-request-forgery-csrf"
+    },
+    {
+      "label": "WDC-20003 mycloud.com Web Version 2.2.0-134",
+      "href": "/support/product-security/wdc-20003-mycloud-site-version-2-2-0-134"
+    },
+    {
+      "label": "WDC-20001 Western Digital SSD Dashboard Setup, Privilege Escalation",
+      "href": "/support/product-security/wdc-20001-ssd-dashboard-setup-privilege-escalation"
+    },
+    {
+      "label": "2019",
+      "href": null
+    },
+    {
+      "label": "WDC-19017 - My Cloud - files.mycloud.com XSS Vulnerability",
+      "href": "/support/product-security/wdc-19017-my-cloud-filesdotmyclouddotcom-xss-vulnerability"
+    },
+    {
+      "label": "WDC-19016 - My Cloud Firmware Version 2.31.204",
+      "href": "/support/product-security/wdc-19016-my-cloud-firmware-version-2-31-204"
+    },
+    {
+      "label": "WDC-19015 WD Discovery, SanDisk ibi, and SanDisk Flashback - Local Escalation of Privileges",
+      "href": "/support/product-security/wdc-19015-wd-discovery-sandisk-ibi-and-sandisk-flashback-local-escalation-of-privileges"
+    },
+    {
+      "label": "WDC-19014 WD Discovery, SanDisk ibi, and SanDisk Flashback - Remote Command Execution",
+      "href": "/support/product-security/wdc-19014-wd-discovery-sandisk-ibi-and-sandisk-flashback-remote-command-execution"
+    },
+    {
+      "label": "WDC-19013 My Cloud Home 3.6.0 and ibi 3.6.0",
+      "href": "/support/product-security/wdc-19013-my-cloud-home-3-6-0-ibi-3-6-0"
+    },
+    {
+      "label": "WDC-19012 My Cloud Home and ibi Websites Version 2.2.0",
+      "href": "/support/product-security/wdc-19012-my-cloud-home-and-ibi-websites-2-2-0"
+    },
+    {
+      "label": "WDC-19011 CORS Misconfiguration on Western Digital Store",
+      "href": "/support/product-security/wdc-19011-cors-misconfiguration-on-western-digital-store"
+    },
+    {
+      "label": "WDC-19010 Linux Kernel TCP Selective Acknowledgement Vulnerabilities",
+      "href": "/support/product-security/wdc-19010-linux-kernel-tcp-selective-acknowledgement-vulnerabilities"
+    },
+    {
+      "label": "WDC-19009 SanDisk and Western Digital SSD Dashboard Vulnerabilities",
+      "href": "/support/product-security/wdc-19009-sandisk-and-western-digital-ssd-dashboard-vulnerabilities"
+    },
+    {
+      "label": "WDC-19008 IntelliFlash Web-Based Management Interface Information Vulnerability Disclosure",
+      "href": "/support/product-security/wdc-19008-intelliflash-web-management-interface-vulnerability"
+    },
+    {
+      "label": "WDC-19007 SanDisk X300, X300s, X400 SATA SED SSD",
+      "href": "/support/product-security/wdc-19007-sandisk-x300-x400-sata-ssd"
+    },
+    {
+      "label": "WDC-19006 SanDisk X600 SATA SED SSD",
+      "href": "/support/product-security/wdc-19006-sandisk-x600-sata-ssd"
+    }
+  ],
+  "links": [
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+    "https://www.westerndigital.com/products",
+    "https://www.westerndigital.com/business",
+    "https://www.westerndigital.com/",
+    "https://www.westerndigital.com/products/product-portfolio",
+    "https://www.westerndigital.com/products/hdd/internal-hdd",
+    "https://www.westerndigital.com/products/hdd/external-hdd",
+    "https://www.westerndigital.com/products/data-center-storage",
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/solutions/data-center-storage-platform",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Gaming",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Smart+Video+Surveillance",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=RAID",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Backups",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=51+TB+-+100+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=21+TB+-+50+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=11+TB+-+20+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=05+TB+-+10+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=01+TB+-+04+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=0+GB+-+960+GB",
+    "https://www.westerndigital.com/explore/whats-new",
+    "https://www.westerndigital.com/promo/best-sellers",
+    "https://www.westerndigital.com/promo",
+    "https://www.westerndigital.com/products/weekly-sale",
+    "https://www.westerndigital.com/products/recertified",
+    "https://www.westerndigital.com/products/final-production",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://www.westerndigital.com/solutions/network-attached-storage",
+    "https://www.westerndigital.com/solutions/gaming",
+    "https://www.westerndigital.com/solutions/raid",
+    "https://www.westerndigital.com/solutions/surveillance",
+    "https://www.westerndigital.com/solutions/home-backup-solutions",
+    "https://www.westerndigital.com/solutions/data-center",
+    "https://www.westerndigital.com/solutions/creative-professionals",
+    "https://www.westerndigital.com/solutions/hdd-vs-ssd",
+    "https://www.westerndigital.com/solutions/ai-storage-infrastructure",
+    "https://www.westerndigital.com/solutions/data-security",
+    "https://www.westerndigital.com/solutions/hard-drives",
+    "https://www.westerndigital.com/solutions/thunderbolt-vs-usb-c",
+    "https://www.westerndigital.com/explore/medical-data-storage",
+    "https://www.westerndigital.com/explore/education-storage",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+    "https://www.westerndigital.com/solutions",
+    "https://www.westerndigital.com/support",
+    "https://support-en.wd.com/app/products/downloads/softwaredownloads",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/support/store/warranty-services",
+    "https://www.westerndigital.com/support/store/warranty-services/data-recovery",
+    "https://www.westerndigital.com/store/orderStatus",
+    "https://www.westerndigital.com/store/business/orderStatus",
+    "https://www.westerndigital.com/support/returns-replacements",
+    "https://www.westerndigital.com/support/product-security",
+    "https://www.westerndigital.com/support/store/shopping-faq",
+    "https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/support/international-phone-numbers",
+    "https://support-en.wd.com/app/askweb",
+    "https://www.westerndigital.com/support/product-security#https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/company",
+    "https://www.westerndigital.com/company/innovation",
+    "https://www.westerndigital.com/company/office-locations",
+    "https://www.westerndigital.com/careers",
+    "https://investor.wdc.com/",
+    "https://www.westerndigital.com/company/western-digital-capital",
+    "https://www.westerndigital.com/company/corporate-responsibility",
+    "https://www.westerndigital.com/company/sustainability",
+    "https://www.westerndigital.com/company/corporate-responsibility/people",
+    "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
+    "https://www.westerndigital.com/company/corporate-responsibility/ethics",
+    "https://www.westerndigital.com/company/corporate-responsibility/philanthropy",
+    "https://www.westerndigital.com/privacy-center",
+    "https://www.westerndigital.com/company/newsroom",
+    "https://www.westerndigital.com/company/newsroom/press-releases",
+    "https://www.westerndigital.com/company/newsroom/events",
+    "https://blog.westerndigital.com/",
+    "https://www.westerndigital.com/store/registration",
+    "https://www.westerndigital.com/store/business/login",
+    "https://support-en.wd.com/app/utils/login_form",
+    "https://businessportal.westerndigital.com/",
+    "https://ibi.sandisk.com/",
+    "https://www.mycloud.com/",
+    "https://www.westerndigital.com/support/product-security/wdc-25009-western-digital-my-cloud-os-5-firmware-5-32-102",
+    "https://www.westerndigital.com/support/product-security/wdc-25008-wd-discovery-desktop-app-version-5-3",
+    "https://www.westerndigital.com/support/product-security/wdc-25007-western-digital-my-cloud-home-and-duo-firmware-9-9-0-102",
+    "https://www.westerndigital.com/support/product-security/wdc-25006-western-digital-my-cloud-os-5-firmware-5-31-108",
+    "https://www.westerndigital.com/support/product-security/wdc-25005-acronis-true-image-for-western-digital-build-42197-macos",
+    "https://www.westerndigital.com/support/product-security/wdc-25004-western-digital-kitfox-software-version-1-1-1-1",
+    "https://www.westerndigital.com/support/product-security/WDC-25003-western-digital-my-cloud-os-5-firmware-5-31-101",
+    "https://www.westerndigital.com/support/product-security/wdc-25002-western-digital-my-cloud-home-and-duo-firmware-9-8-0-102",
+    "https://www.westerndigital.com/support/product-security/wdc-25001-western-digital-my-cloud-os-5-firmware-5-30-103",
+    "https://www.westerndigital.com/support/product-security/wdc-24007-western-digital-my-cloud-home-and-duo-firmware-9-7-0-104",
+    "https://www.westerndigital.com/support/product-security/wdc-24006-western-digital-my-cloud-my-cloud-home-cloud-release-4-43",
+    "https://www.westerndigital.com/support/product-security/wdc-24005-western-digital-my-cloud-os-5-firmware-5-29-102",
+    "https://www.westerndigital.com/support/product-security/wdc-24004-wd-discovery-desktop-app-version-5-0-589",
+    "https://www.westerndigital.com/support/product-security/wdc-24003-western-digital-my-cloud-os-5-my-cloud-home-sandisk-ibi-and-wd-cloud-web-app-update",
+    "https://www.westerndigital.com/support/product-security/wdc-24002-sandisk-privateaccess-desktop-app-v-6-4-11",
+    "https://www.westerndigital.com/support/product-security/wdc-24001-western-digital-my-cloud-os-5-my-cloud-home-duo-and-sandisk-ibi-firmware-update",
+    "https://www.westerndigital.com/support/product-security/wdc-23013-sandisk-security-installer-for-windows-1-0-0-25",
+    "https://www.westerndigital.com/support/product-security/wdc-23012-my-cloud-os5-firmware-5-27-157",
+    "https://www.westerndigital.com/support/product-security/wdc-23011-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-9-5-0-186",
+    "https://www.westerndigital.com/support/product-security/wdc-23010-my-cloud-firmware-version-5-26-300",
+    "https://www.westerndigital.com/support/product-security/wdc-23009-western-digital-my-cloud-os-5-my-cloud-home-and-sandisk-ibi-firmware-update",
+    "https://www.westerndigital.com/support/product-security/wdc-23008-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-9-4-1-101",
+    "https://www.westerndigital.com/support/product-security/wdc-23006-my-cloud-firmware-version-5-26-202",
+    "https://www.westerndigital.com/support/product-security/wdc-23005-sandisk-privateaccess-software-update",
+    "https://www.westerndigital.com/support/product-security/wdc-23004-western-digital-my-cloud-os-5-my-cloud-home-sandisk-ibi-and-wd-cloud-mobile-and-web-app-update",
+    "https://www.westerndigital.com/support/product-security/wdc-23003-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-9-4-0-191",
+    "https://www.westerndigital.com/support/product-security/wdc-23002-my-cloud-firmware-version-5-26-119",
+    "https://www.westerndigital.com/support/product-security/wdc-23001-host-boot-rom-code-vulnerability-in-systems-implementing-ufs-boot-feature",
+    "https://www.westerndigital.com/support/product-security/wdc-22020-my-cloud-os-5-my-cloud-home-ibi-firmware-update",
+    "https://www.westerndigital.com/support/product-security/wdc-22019-my-cloud-firmware-version-5-25-124",
+    "https://www.westerndigital.com/support/product-security/wdc-22018-western-digital-my-cloud-home-my-cloud-home-duo-and-sandisk-ibi-firmware-version-8-12-0-178",
+    "https://www.westerndigital.com/support/product-security/wdc-22017-edgerover-end-of-support",
+    "https://www.westerndigital.com/support/product-security/wdc-22016-my-cloud-home-ibi-firmware-version-8-11-0-113",
+    "https://www.westerndigital.com/support/product-security/wdc-22015-western-digital-my-cloud-home-and-sandisk-ibi-firmware-version-8-10-0-117",
+    "https://www.westerndigital.com/support/product-security/wdc-22014-wd-discovery-desktop-app-version-4-4-396",
+    "https://www.westerndigital.com/support/product-security/wdc-22013-sweet-b-incorrect-output-vulnerabilities",
+    "https://www.westerndigital.com/support/product-security/wdc-22012-sandisk-ibi-firmware-version-8-9-0-108",
+    "https://www.westerndigital.com/support/product-security/wdc-22011-my-cloud-firmware-version-5-23-114",
+    "https://www.westerndigital.com/support/product-security/wdc-22010-edgerover-desktop-app-version-1-10-0-656",
+    "https://www.westerndigital.com/support/product-security/wdc-22009-my-cloud-home-firmware-version-8-7-0-107",
+    "https://www.westerndigital.com/support/product-security/wdc-22008-my-cloud-os-5-firmware-5-22-113",
+    "https://www.westerndigital.com/support/product-security/wdc-22007-sandisk-professional-g-raid-4-8-software-utility-setup-for-windows-privilege-escalation",
+    "https://www.westerndigital.com/support/product-security/wdc-22006-my-cloud-os5-firmware-5-21-104",
+    "https://www.westerndigital.com/support/product-security/wdc-22005-netatalk-security-vulnerabilities",
+    "https://www.westerndigital.com/support/product-security/wdc-22004-edgerover-desktop-app-version-1-5-1-594",
+    "https://www.westerndigital.com/support/product-security/wdc-22003-edgerover-desktop-app-version-1-5-0-576",
+    "https://www.westerndigital.com/support/product-security/wdc-22002-my-cloud-os5-firmware-5-19-117",
+    "https://www.westerndigital.com/support/product-security/wdc-22001-my-cloud-os3-firmware-2-12-144",
+    "https://www.westerndigital.com/support/product-security/wdc-21016-apache-log4j-2-remote-code-execution-vulnerability-analysis",
+    "https://www.westerndigital.com/support/product-security/wdc-21015-important-security-updates-for-your-my-cloud-device",
+    "https://www.westerndigital.com/support/product-security/wdc-21014-sandisk-secureaccess-software-update",
+    "https://www.westerndigital.com/support/product-security/wdc-21013-edgerover-desktop-app-version-1-4-1-517",
+    "https://www.westerndigital.com/support/product-security/wdc-21012-my-cloud-os5-firmware-version-5-18-117",
+    "https://www.westerndigital.com/support/product-security/wdc-21011-my-cloud-firmware-version-5-17-107",
+    "https://www.westerndigital.com/support/product-security/wdc-21010-my-cloud-filesdotmyclouddotcom-xss-vulnerability",
+    "https://www.westerndigital.com/support/product-security/wdc-21009-my-cloud-firmware-version-5-15-106",
+    "https://www.westerndigital.com/support/product-security/wdc-21008-recommended-security-measures-wd-mybooklive-wd-mybookliveduo",
+    "https://www.westerndigital.com/support/product-security/wdc-21007-edgerover-windows-app-ver-0-25",
+    "https://www.westerndigital.com/support/product-security/wdc-21006-my-cloud-files-mycloud-com-xss-vulnerability",
+    "https://www.westerndigital.com/support/product-security/wdc-21004-recommended-upgrade-to-mycloud-os-5",
+    "https://www.westerndigital.com/support/product-security/wdc-21003-armorLock-insecure-key-storage-vulnerability",
+    "https://www.westerndigital.com/support/product-security/wdc-21002-my-cloud-firmware-version-5-10-122",
+    "https://www.westerndigital.com/support/product-security/wdc-21001-my-cloud-my-cloud-home-sandisk-ibi-firmware-version-4-13-0",
+    "https://www.westerndigital.com/support/product-security/wdc-20011-western-digital-dashboard-privilege-escalation",
+    "https://www.westerndigital.com/support/product-security/wdc-20010-my-cloud-os5-firmware-5-07-118",
+    "https://www.westerndigital.com/support/product-security/wdc-20009-os5-firmware-5-06-115",
+    "https://www.westerndigital.com/support/product-security/wdc-20008-replay-attack-vulnerabilities-rpmb-protocol-applications",
+    "https://www.westerndigital.com/support/product-security/wdc-20007-my-cloud-firmware-version-5-04-114",
+    "https://www.westerndigital.com/support/product-security/wdc-20006-my-cloud-firmware-version-2-40-155",
+    "https://www.westerndigital.com/support/product-security/wdc-20005-wd-discovery-remote-command-execution-vulnerability",
+    "https://www.westerndigital.com/support/product-security/wdc-20004-wd-discovery-cross-site-request-forgery-csrf",
+    "https://www.westerndigital.com/support/product-security/wdc-20003-mycloud-site-version-2-2-0-134",
+    "https://www.westerndigital.com/support/product-security/wdc-20001-ssd-dashboard-setup-privilege-escalation",
+    "https://www.westerndigital.com/support/product-security/wdc-19017-my-cloud-filesdotmyclouddotcom-xss-vulnerability",
+    "https://www.westerndigital.com/support/product-security/wdc-19016-my-cloud-firmware-version-2-31-204",
+    "https://www.westerndigital.com/support/product-security/wdc-19015-wd-discovery-sandisk-ibi-and-sandisk-flashback-local-escalation-of-privileges",
+    "https://www.westerndigital.com/support/product-security/wdc-19014-wd-discovery-sandisk-ibi-and-sandisk-flashback-remote-command-execution",
+    "https://www.westerndigital.com/support/product-security/wdc-19013-my-cloud-home-3-6-0-ibi-3-6-0",
+    "https://www.westerndigital.com/support/product-security/wdc-19012-my-cloud-home-and-ibi-websites-2-2-0",
+    "https://www.westerndigital.com/support/product-security/wdc-19011-cors-misconfiguration-on-western-digital-store",
+    "https://www.westerndigital.com/support/product-security/wdc-19010-linux-kernel-tcp-selective-acknowledgement-vulnerabilities",
+    "https://www.westerndigital.com/support/product-security/wdc-19009-sandisk-and-western-digital-ssd-dashboard-vulnerabilities",
+    "https://www.westerndigital.com/support/product-security/wdc-19008-intelliflash-web-management-interface-vulnerability",
+    "https://www.westerndigital.com/support/product-security/wdc-19007-sandisk-x300-x400-sata-ssd",
+    "https://www.westerndigital.com/support/product-security/wdc-19006-sandisk-x600-sata-ssd",
+    "https://www.westerndigital.com/support/product-security/wdc-19005-my-cloud-firmware-2-31-193",
+    "https://www.westerndigital.com/support/product-security/wdc-19004-my-cloud-firmware-2-31-174",
+    "https://www.westerndigital.com/support/product-security/wdc-19003-my-cloud-firmware-04-05-00-334",
+    "https://www.westerndigital.com/support/product-security/wdc-19002-my-cloud-firmware-2-12-127",
+    "https://www.westerndigital.com/support/product-security/wdc-19001-my-cloud-firmware-2-31-163",
+    "mailto:PSIRT@wdc.com",
+    "https://www.westerndigital.com/content/dam/western-digital/en-us/assets/support/security/psirt-public-key.asc",
+    "https://www.westerndigital.com/support/product-security/vulnerability-disclosure-policy",
+    "https://www.westerndigital.com/region-selector",
+    "https://www.westerndigital.com/store/business/my-account",
+    "https://www.westerndigital.com/store/my-account",
+    "https://www.westerndigital.com/company/programs/communications-registration",
+    "https://www.westerndigital.com/support/store/warranty-policy",
+    "https://www.westerndigital.com/support/store/return-policy",
+    "https://www.westerndigital.com/company/distributors",
+    "https://www.westerndigital.com/company/contact-us?selectedValue=looking-to-purchase",
+    "https://www.westerndigital.com/company/programs/data-recovery",
+    "https://www.westerndigital.com/company/programs/easy-recycle",
+    "https://www.westerndigital.com/business/line-of-credit",
+    "https://www.westerndigital.com/business/pro-rewards",
+    "https://www.westerndigital.com/company/partners",
+    "https://www.westerndigital.com/company/leadership",
+    "https://www.westerndigital.com/company/contact-us",
+    "https://www.westerndigital.com/support/store/resource-library",
+    "https://www.instagram.com/wd_official/",
+    "https://www.linkedin.com/company/western-digital/",
+    "https://x.com/wd_corporation",
+    "https://www.facebook.com/WD",
+    "https://www.youtube.com/channel/UCQpijqbZeCM3zLew0ZwiX4A",
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+    "https://www.westerndigital.com/legal/privacy-statement",
+    "https://www.westerndigital.com/legal",
+    "https://www.westerndigital.com/legal/trademarks",
+    "https://www.westerndigital.com/legal/terms-and-conditions-of-sale-consumer",
+    "https://www.westerndigital.com/company/sustainability/product-compliance"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/company/ethisphere-award.png.wdthumb.1280.1280.webp",
+        "alt": "ethisphere-award",
+        "w": 1280,
+        "h": 876
+      }
+    ],
+    "allImgCount": 14,
+    "cssBackgrounds": [
+      "https://www.westerndigital.com/content/dam/store/en-us/assets/support/support-product-security-western-digital-hero.jpg.wdthumb.3000.3000.webp"
+    ],
+    "modals": [
+      "Details & Exclusions .xf-resizer-text-xs p { font-size: .875rem; } .xf-resizer-disclosures p { font-size:.875rem; }"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.westerndigital.com/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 3,
+    "mainTextLen": 57870,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3014,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://westerndigital.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/favorites/getUser",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/favorites/getUser",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/chatbot/locales/en-us/translation.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 605,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65921,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/location",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 47,
+        "hits": 1,
+        "example": "https://consent.app.relyance.ai/api/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/behaviors",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/banner",
+        "query": [
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/locale",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/tracking-technologies-localised",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-localised",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/request-url-by-purpose",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/processing-activities",
+        "query": [
+          "localeName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_148cxi7e/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65,
+        "hits": 1,
+        "example": "https://pixel-config.reddit.com/pixels/t2_148cxi7e/config",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/getCart",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 60,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/cart/getCart",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ecomm_pagetype",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/701617496/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/form-data/{n}",
+        "query": [
+          "auid",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "tag_exp",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/form-data/701617496",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/sa.jpeg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/jpeg",
+        "status": 200,
+        "bytes": 651,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/sa.jpeg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 199,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/saq_pxl",
+        "query": [
+          "host",
+          "is_js",
+          "l_src",
+          "l_src_d",
+          "landing_url",
+          "sa-user-id",
+          "sa-user-id-v2",
+          "sa-user-id-v3",
+          "sa_conv_data_css_value",
+          "sa_conv_data_image_value",
+          "shop",
+          "t",
+          "tip",
+          "u_src",
+          "u_src_d",
+          "uid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 116,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/saq_pxl",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "paapi8935.d41.co",
+        "path": "/api",
+        "query": [
+          "form",
+          "req"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 67,
+        "hits": 1,
+        "example": "https://paapi8935.d41.co/api",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "apps.usw2.pure.cloud",
+        "path": "/messenger/i18n/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 213,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usw2.pure.cloud",
+        "path": "/api/v2/journey/deployments/{uuid}/customers/{uuid}/ping",
+        "query": [
+          "dl",
+          "dt",
+          "sessionId",
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/38a400ed-60fa-440d-b6fe-3594313d0197/ping",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.usw2.pure.cloud",
+        "count": 23
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 18
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "consent.app.relyance.ai",
+        "count": 1
+      },
+      {
+        "host": "analytics.xscreenattribution.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      },
+      {
+        "host": "tags.srv.stackadapt.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "paapi8935.d41.co",
+        "count": 1
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "count": 1
+      },
+      {
+        "host": "sc-static.net",
+        "count": 1
+      },
+      {
+        "host": "westerndigital.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.westerndigital.com/support/product-security",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 2,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 26,
+      "thirdPartyScriptHosts": 19,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/support-product-security.png",
+  "renderedHtml": "pages/support-product-security.html"
+}

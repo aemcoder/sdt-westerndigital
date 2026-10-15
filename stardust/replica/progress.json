@@ -1,0 +1,969 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica (Phase 4 ledger)",
+  "writtenAt": "2026-09-18T10:30:00Z",
+  "againstInput": "https://www.westerndigital.com/",
+  "regime": "prototype (standalone prototype vs live), published-origin numbers added at Phase 5"
+ },
+ "contentRoot": ".mainContainWrap",
+ "liveHitBudget": {
+  "note": "live captures cached per breakpoint (live.png, anchor-live.json, chrome-live.json); content/visual probes at iteration 1 and final only"
+ },
+ "pages": [
+  {
+   "pageType": "landing",
+   "archetype": "home",
+   "liveUrl": "https://www.westerndigital.com/",
+   "prototype": "stardust/prototypes/home-proposed.html",
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 2.56% Δ4",
+      "iter2 2.28% Δ4 (logo centring)",
+      "final 1.47% Δ0 (footer region/legal parity)"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 1.47,
+      "heightDelta": 0,
+      "chromeHeaderPct": 1.05,
+      "chromeFooterPct": 1.29,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "region": "chat launcher",
+       "pct": 0.3,
+       "cause": "capture-state (see 1440)",
+       "flaggedFor": "delivery"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 4,
+     "iterationLog": [
+      "iter1 10.66% Δ4 (hero autoplay slide + header scroll morph)",
+      "iter2 1.09% Δ4 (darken-left scrim, slide 2 at rest, body.minHeader top:-40 measured)",
+      "iter3 1.09% no-op font-stack re-verify (burned, byte-identical)",
+      "final 0.94% Δ0 (footer BFC containment) → final2 0.60% Δ0 after motion/fluid changes"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 0.6,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.27,
+      "chromeFooterPct": 0.42,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 MISSING BODY ×~70",
+       "why": "live inline <style> blocks, hidden compare-tray strings (Select options / Add to Compare / OK) and Splide clone copies classified as body text; the build carries no inline CSS text"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "bottom-right 65×65 at every 900px seam",
+       "pct": 0.37,
+       "cause": "capture-state: Genesys live-chat launcher (fixed iframe, dynamics row 20, embed not loaded)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "hero 97–847",
+       "pct": 0.11,
+       "cause": "nondeterministic: Splide autoplay — live capture rests on slide 2 (progress bar tick timing); prototype rests on the same slide; a different capture may show another slide",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "Ethisphere footer badge lazyloaded (loaded in gate captures, alt-text in the crawl screenshot)",
+       "where": "footer"
+      }
+     ]
+    },
+    "1920": {
+     "boxCheck": "doc height 6396 = live 6396; category 785, business 978, about 621, footer y 5633 all equal after encoding the .contain steps (992/1140/1464) and % columns"
+    }
+   },
+   "motion": {
+    "observed": [
+     "body.minHeader added at scrollY>0 → header sticky top:-40px (chrome-scroll-probe, motion-observe)",
+     "hero progress items: click → is-active/is-prev/is-next class mutations + track transform; autoplay progress fill width transition 0.2s linear",
+     "card rails: Splide --scroll draggable, no arrows"
+    ],
+    "implemented": [
+     "minHeader scroll state (canon.js)",
+     "hero carousel state machine: click/keyboard on progress items, 5s autoplay with fill transition, reduced-motion pause (canon.js)",
+     "rails as horizontally scrollable tracks (scrollbar hidden, snap)"
+    ],
+    "dead": [
+     "a.btn hover (no computed change measured)",
+     "section.darken-bottom card hover (no change)"
+    ]
+   }
+  },
+  {
+   "pageType": "article",
+   "archetype": "press-release",
+   "liveUrl": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure",
+   "prototype": "stardust/prototypes/press-release-proposed.html",
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 10.48% Δ-7 (crumb line-height 24 vs 14)",
+      "iter2 2.17% Δ3",
+      "final 1.15% Δ-1"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 1.15,
+      "heightDelta": -1,
+      "chromeHeaderPct": 1.05,
+      "chromeFooterPct": 1.64,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": []
+    },
+    "1440": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 8.25% Δ44 (li>p margin collapse)",
+      "iter2 1.32% Δ4",
+      "final 0.32% Δ0"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 0.32,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.27,
+      "chromeFooterPct": 0.41,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 MISSING BODY ×6",
+       "why": "inline <style> text, hidden ISO timestamp span, compare-tray strings"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "chat launcher",
+       "pct": 0.4,
+       "cause": "capture-state",
+       "flaggedFor": "delivery"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observed": [
+     "header top transition (minHeader)"
+    ],
+    "implemented": [
+     "minHeader scroll state"
+    ],
+    "dead": []
+   }
+  },
+  {
+   "pageType": "program",
+   "archetype": "corporate-responsibility",
+   "liveUrl": "https://www.westerndigital.com/company/corporate-responsibility",
+   "prototype": "stardust/prototypes/corporate-responsibility-proposed.html",
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 1.63% Δ3",
+      "iter2 1.61% Δ3",
+      "final 1.12% Δ-1"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 1.12,
+      "heightDelta": -1,
+      "chromeHeaderPct": 1.05,
+      "chromeFooterPct": 1.79,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": []
+    },
+    "1440": {
+     "iterations": 5,
+     "overCap": "iter3 was a byte-identical no-op (font-stack local() mirror) and iter4/iter5 fixed content-fidelity defects found by the gate (truncated dump text → verbatim richtext incl. 16 &nbsp; entities; malformed tag from the byte-mirroring script). Recorded honestly as over the 3-iteration cap: the inputs (a 400-char dump truncation) were wrong upstream, not the method.",
+     "iterationLog": [
+      "iter1 21.35% Δ-21 (paragraph text invented beyond the dump truncation; header scroll morph)",
+      "iter2 16.91% Δ27 (sub-nav sticky-stuck + header top:auto measured)",
+      "iter3 16.91% no-op",
+      "iter4 13.58% Δ7 (nbsp byte mirror, one malformed tag)",
+      "iter5 1.09% Δ24 (tag fix)",
+      "final 0.32% Δ-1 (footer)",
+      "final2 0.29% Δ-1"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 0.29,
+      "heightDelta": -1,
+      "chromeHeaderPct": 0.27,
+      "chromeFooterPct": 1.39,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 MISSING BODY ×21",
+       "why": "inline <style> text + compare-tray strings"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "chat launcher",
+       "pct": 0.3,
+       "cause": "capture-state",
+       "flaggedFor": "delivery"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observed": [
+     "#sticky-nav gains sticky-stuck at scrollY≥97 → position:fixed top:0 (header never pinned: top:auto)",
+     "a.link-cta border-color transitions (no hover change measured)"
+    ],
+    "implemented": [
+     "sticky-stuck sub-nav state machine (canon.js) with the measured fixed-state layout (items flush left at x=80)"
+    ],
+    "dead": [
+     "a.link-cta hover",
+     "a.btn hover"
+    ]
+   }
+  },
+  {
+   "pageType": "listing",
+   "archetype": "listing",
+   "liveUrl": "https://www.westerndigital.com/products/hdd/internal-hdd",
+   "prototype": "stardust/prototypes/listing-proposed.html",
+   "sources": {
+    "outline": "stardust/.work/listing/outline-{1440,360}.txt",
+    "lift": "stardust/.work/listing/lift-{1440,360}.json",
+    "content": "stardust/.work/listing/content/section-0..8.html (verbatim sidecar HTML) → tiles.json, faq.json, facets.json",
+    "generator": "stardust/.work/listing/gen-proto.mjs → src/listing.html"
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 0.87% Δ-1 (first build)",
+      "iter2 5.51% Δ-28 — INSTRUMENT: stitch-shot FONT LOAD FAILED on the build side (fallback type) — not a measurement, discarded",
+      "iter3 0.85% Δ-1 (hidden captured DOM added: facet option lists, Shop-by-Deals children, 3 hidden FAQ variants, mobile pagination dupes → content-diff 0 red)"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 0.85,
+      "heightDelta": -1,
+      "chromeHeaderPct": 0.27,
+      "chromeFooterPct": 0.41,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 MISSING BODY ×~30",
+       "why": "live inline <style> text, hidden Vue strings ('Items' dupes, '(0)', 'Sort by :' mobile copy, '+ More/- Less' beyond the 3 lists that carry them) — build carries no inline CSS text"
+      },
+      {
+       "probe": "chrome-parity",
+       "flag": "header '|'/'Shop' Δx +7px; footer 'United States' lineHeight/radius, 2 legal links Δx ≤6px",
+       "why": "canon chrome deltas already accepted on the three gated archetypes (crop gate 0.27%/0.41% here); not page-level"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "bottom-right 65×65 at every 900px seam",
+       "pct": 0.3,
+       "cause": "capture-state: Genesys chat launcher (fixed iframe), dynamics row 20",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "tile grid",
+       "pct": 0.5,
+       "cause": "SVG icon approximations (compare box, dropdown chevrons, mobile toolbar icons) redrawn at the measured 16/20/23px boxes",
+       "flaggedFor": "none"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "live shows '30 Items' today vs 32 in the crawl sidecar; 15 tiles per page, 2 pages — recreated from the sidecar tiles (first 15), count authored as 30 to match the gate capture",
+       "where": "listing toolbar"
+      },
+      {
+       "what": "tile 10 (WD Gold outlet) carries the red FINAL PRODUCTION badge as captured",
+       "where": "grid"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 2,
+     "iterationLog": [
+      "iter1 10.16% Δ-71 (hero bg painted, recommendation spacer shown, resource cards padded 16, buy items 20/22 titles)",
+      "iter2 2.22% Δ-1 (hero bg none <768 as captured, reco spacer hidden <768, res cards 0/16 padding + 43px cta, buy h3 18/19.8 + first item unpadded)"
+     ],
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "0",
+      "pixelPct": 2.22,
+      "heightDelta": -1,
+      "chromeHeaderPct": 1.05,
+      "chromeFooterPct": 1.32,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "region": "use-case chips row",
+       "pct": 0.2,
+       "cause": "live overflows the viewport (nowrap flex, body overflow-x hidden) — replicated via the same flex model; sub-pixel shrink differences",
+       "flaggedFor": "none"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "the live hero paints NO background image below 768px (lazyload class never lands on mobile) so its white copy sits on white — replicated as captured (listing.css @media max-width:767px background-image:none). A visible mobile hero would be an inconsistency-register entry, not a replica fix.",
+       "where": "hero"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observed": [
+     "body.minHeader on scroll (header top 0.3s transition)",
+     "lazyload class swaps on band images + footer badge"
+    ],
+    "implemented": [
+     "canon.js minHeader (shared)"
+    ],
+    "dead": [
+     "FAQ accordion toggle (no class mutation fired — first item open, rest closed as captured; static)",
+     "filter accordions / sort dropdown / mobile Shop-Filter-Sort buttons (no mutation fired; static)",
+     "compare button (commerce modal, decided-out)"
+    ]
+   },
+   "newModules": [
+    {
+     "name": "category-banner",
+     "desc": "photo hero band 260px (bg cover) with h1 + p + underlined link, 50% column",
+     "from": "section-0"
+    },
+    {
+     "name": "category-shortcuts",
+     "desc": "3 white 16px-radius cards on #f9f9f9: 84px icon tile (#f2f3f3, 12px radius) + title/subtitle",
+     "from": "section-0"
+    },
+    {
+     "name": "use-case-chips",
+     "desc": "label + outlined 6px-radius chip links, nowrap row with bottom hairline",
+     "from": "section-1"
+    },
+    {
+     "name": "product-listing",
+     "desc": "breadcrumb + 202px sticky (top 56) filter rail (category tree, deals, 9 collapsed facet accordions with hidden option lists) + toolbar (count, sort select 250px 2px border) + 4-up tile grid (198px grey media box, name h2, Capacity strong, Starting at price, Compare) + pagination (PREV 1 2 NEXT); mobile: rail hidden, Shop/Filter/Sort buttons, 2-up grid",
+     "from": "section-2"
+    },
+    {
+     "name": "use-case-bands",
+     "desc": "3 alternating image(448×300, r16)/text rows on #f9f9f9, max-width 992, outlined CTA + blue text link; row 2 flipped + 64px padding",
+     "from": "section-3"
+    },
+    {
+     "name": "resource-cards",
+     "desc": "centered h2-hero head + 3 #f2f3f3 cards (40px padding, r16) with h3/p/underlined Read More",
+     "from": "section-4/5"
+    },
+    {
+     "name": "faq-accordion",
+     "desc": "#f6f6f6 r16 box, 5/7 columns: h2 + 16 accordion items (24px padding, plus/minus icon), first open",
+     "from": "section-6"
+    },
+    {
+     "name": "buy-direct",
+     "desc": "#f2f3f3 strip: h2 34px + 4 icon items (76px svg, h3 20/22, p, underlined link) space-evenly + footnote",
+     "from": "section-7"
+    }
+   ],
+   "canonBackports": []
+  }
+ ],
+ "fonts": {
+  "policy": "same public source — Roboto 300/400/500/700 woff2 from static.westerndigital.com (Apache 2.0), self-hosted; @font-face mirrors the live local() preference"
+ },
+ "instruments": {
+  "projectOwned": [
+   "stardust/scripts/replica/css-lift.mjs",
+   "stardust/scripts/replica/section-dump.mjs",
+   "stardust/scripts/replica/dump-outline.mjs",
+   "stardust/scripts/replica/chrome-scroll-probe.mjs"
+  ],
+  "shipped": "unmodified copies of replica/, diff/, deploy/, dynamics/ scripts"
+ },
+ "edsHarness": {
+  "regime": "pre-delivery EDS harness (aem up --html-folder content, live chrome fragments, section styles applied) vs cached live captures — advisory",
+  "measuredAt": "2026-09-18T09:20:46.082Z",
+  "home": {
+   "360": {
+    "pixelPct": 1.64,
+    "heightDelta": 0
+   },
+   "1440": {
+    "pixelPct": 0.83,
+    "heightDelta": 0
+   }
+  },
+  "press-release": {
+   "360": {
+    "pixelPct": 1.18,
+    "heightDelta": -1
+   },
+   "1440": {
+    "pixelPct": 0.35,
+    "heightDelta": 0
+   }
+  },
+  "corporate-responsibility": {
+   "360": {
+    "pixelPct": 1.81,
+    "heightDelta": -5
+   },
+   "1440": {
+    "pixelPct": 1.22,
+    "heightDelta": -5
+   }
+  },
+  "listing": {
+   "1440": {
+    "pixelPct": 1.34,
+    "heightDelta": -1
+   },
+   "360": {
+    "pixelPct": 2.94,
+    "heightDelta": -1,
+    "hotBand": "5500–6000 16.5% — 3rd use-case band photo crop at 360 (same asset, different object-fit crop); visually identical otherwise"
+   },
+   "measuredAt": "2026-09-18T11:58:22Z",
+   "regime": "aem up + build-harnesses.sh, product-listing fed live by the search API (30 items today vs 32 captured), 0 console errors",
+   "fixesDuringRead": [
+    "split-band: a band opening with an <h3> (no eyebrow) left the heading outside .band-body — latent bug, fixed",
+    "use-case-chips: label must shrink to its longest word at 360 (live 56px/4 lines)",
+    "product-listing: FINAL PRODUCTION badge derived from outlet products (API badgesInfo is empty)"
+   ]
+  }
+ },
+ "publishedOrigin": {
+  "status": "pass",
+  "regime": "published-origin gate — live (cached stitch, 08:xx UTC) vs https://main--sdt-westerndigital--aemcoder.aem.page, stitch-shot --settle on BOTH sides (lazy badge + hero autoplay need the settle; gate.sh's default build capture has none — N-19)",
+  "measuredAt": "2026-09-18T10:09:55Z",
+  "delivered": {
+   "docs": [
+    "nav",
+    "footer",
+    "index",
+    "company/corporate-responsibility",
+    "company/newsroom/press-releases/2026/2026-09-15-wd-outlines-a-new-path-to-economically-scalable-storage-infrastructure"
+   ],
+   "media": "49 images + 2 SVG logos → media/wd/",
+   "preview": 200,
+   "live": 200
+  },
+  "firstRun": {
+   "note": "gate.sh defaults (no build settle, marker 'Western Digital'): home 10.51%/11.49% Δ-810/-821, press-release 4.94%/3.91% Δ-808, corporate exit 4 (marker absent from the raw HTML — the title says 'WD')",
+   "causes": [
+    "footer badge 100×876: pipeline stamps width=1280 height=876 on the lazy <img>, footer.css lacked height:auto (only `main img` has it)",
+    "nav labels sat 20px low: pipeline wraps the li's own text in <p> when the li carries a nested <ul>; header.js moved only text nodes",
+    "hero on slide 1 vs live slide 2: no settle on the build side"
+   ]
+  },
+  "fixes": [
+   "header.js: p-wrapped labels + <p><strong> column titles unwrapped (nodes moved, EW1)",
+   "footer.css: .footer-badge img height:auto",
+   "header.css: mobile Sign-in hide out-specifies the a:any-link flex rule (was showing at 360)",
+   "category-tabs.css: tile label display:block (pipeline buttonizes <p><a> → inline-flex in a 24px line box, +4px per tile row)",
+   "content: trailing &nbsp; before </p> </li> gets a U+200B carrier (the pipeline strips trailing nbsp and empty paragraphs; a zero-width space after it survives and keeps the live line wrap) — 5 carriers on corporate-responsibility, none in headings (content-inventory does not strip U+200B → false MISSING HEADING, N-22)"
+  ],
+  "home": {
+   "1440": {
+    "pixelPct": 0.86,
+    "heightDelta": 0,
+    "pass": true
+   },
+   "360": {
+    "pixelPct": 1.67,
+    "heightDelta": 0,
+    "pass": true
+   },
+   "contentDiff": {
+    "structuralRed": 14,
+    "justified": "3 = second copies of hero CTAs (live Splide clones carry text; the block's clones are textless — EW4/#100 deviation, eds-conversion-log § Decisions); 11 = inline links inside client-rendered commerce quick-view/product-card copy (decided-out commerce boundary, migration-plan § Decided out); no visible source link is missing"
+   }
+  },
+  "press-release": {
+   "1440": {
+    "pixelPct": 0.34,
+    "heightDelta": 0,
+    "pass": true
+   },
+   "360": {
+    "pixelPct": 1.18,
+    "heightDelta": -1,
+    "pass": true
+   },
+   "contentDiff": {
+    "structuralRed": 0
+   }
+  },
+  "corporate-responsibility": {
+   "1440": {
+    "pixelPct": 1.27,
+    "heightDelta": -5,
+    "pass": true
+   },
+   "360": {
+    "pixelPct": 1.87,
+    "heightDelta": -5,
+    "pass": true
+   },
+   "contentDiff": {
+    "structuralRed": 0,
+    "note": "1 red before the heading carrier was removed (U+200B in heading text)"
+   }
+  },
+  "evidence": "stardust/replica/gates/<slug>-<w>/{published.png,diff-published3.png|diff-published5.png,gate-published*.txt,content-diff-published*.txt}",
+  "residuals": [
+   "home 14 content-diff reds — all mapped to the two documented deviations above",
+   "corporate Δ-5px: sub-5px drift inside the split bands (under the 8px bar)",
+   "chat launcher + hero autoplay nondeterminism carried over from the prototype regime"
+  ],
+  "listing": {
+   "status": "pass",
+   "measuredAt": "2026-09-18T12:17:31Z",
+   "delivered": {
+    "media": "11 → 201",
+    "page": "products/hdd/internal-hdd PUT 201, preview 200, live 200",
+    "nav": "re-PUT 200 (Products → Internal HDDs relative), preview 200, live 200",
+    ".plain.html": "h1=1, about:error=0"
+   },
+   "1440": {
+    "pixelPct": 1.35,
+    "heightDelta": -1,
+    "pass": true
+   },
+   "360": {
+    "pixelPct": 2.95,
+    "heightDelta": -1,
+    "pass": true,
+    "hotBand": "5500–6000 16.5% — 3rd use-case band photo crop at 360 (same asset, different cover crop)"
+   },
+   "apiCheck": {
+    "base": "is-live, 15 tiles, '30 Items', 9 facets, 2 pages, 0 console errors",
+    "filterGaming": "is-live, 2 tiles, '2 Items', 7 facets, banner not templated (by design on this page), 0 console errors",
+    "final": "is-live, 15 tiles, '30 Items', 9 facets, 2 pages, 0 console errors; Color option renders 'Purple (4)' → ?filterByColor_List=Purple|800080"
+   },
+   "contentDiff": {
+    "structuralRed": 10,
+    "fixed": "4 Color facet options (label = name before `|`, literal `|` `$` `,` `(` `)` `/` in filter URLs like the storefront) — commits cfd8c2c + 06f51ef",
+    "justified": [
+     "6 = the live page's 3 hidden per-use-case FAQ blocks (h2 'FAQ GAMING' / 'FAQ SURVEILLANCE' / 'FAQ NAS' + 3 duplicate 'Frequently Asked Questions') — capture-state duplicates, deliberately not authored",
+     "2 = 'Shop by Category' / 'Shop by Deals' are href=\"#\" accordion triggers on live (classified cta) vs rail headings here (body) — widget trigger, not a link",
+     "2 = the live page's hidden mobile duplicate pagination links ('1' → ?page=1 second copy, '2' → ?page=1)"
+    ],
+    "evidence": "stardust/replica/gates/listing-1440/content-diff-published3.txt"
+   },
+   "residuals": [
+    "3rd band photo crop at 360 (0.5% of page)",
+    "API data drift vs capture: 30 items / current prices (live shows the same today)",
+    "chat launcher seams as on the other archetypes"
+   ]
+  }
+ },
+ "siblings": {
+  "listing": [
+   {
+    "slug": "products-hdd-external-hdd",
+    "liveUrl": "https://www.westerndigital.com/products/hdd/external-hdd",
+    "path": "products/hdd/external-hdd",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner mobile-bg + mobile picture",
+     "tile promo box (13/15)",
+     "filters 8 (no Form Factor)"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.92,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.57,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 18,
+     "justified": [
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "each live promo box carries a visible modal trigger AND a hidden anchor to /company/programs/extended-warranty; we render one link per box (content-diff pairs by text, so the hidden duplicates read as missing)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-data-center-storage",
+    "liveUrl": "https://www.westerndigital.com/products/data-center-storage",
+    "path": "products/data-center-storage",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner mobile-bg + mobile picture",
+     "6-child category tree",
+     "no-price tiles (3)",
+     "red badge (1)",
+     "filters 6"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 1.39,
+      "heightDelta": -46,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 2.96,
+      "heightDelta": -34,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 5,
+     "justified": [
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "active pagination number rendered as a plain number on this read; live has it as a link — reverted in code (push pending)"
+     ]
+    },
+    "residuals": [
+     "live footer on this capture 717/2142px vs the gated canon 763/2176 (live-side drift; page body matches)",
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-accessories",
+    "liveUrl": "https://www.westerndigital.com/products/accessories",
+    "path": "products/accessories",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner (h1+p, no link) mobile-bg + mobile picture",
+     "tree-collapsed",
+     "no-capacity tiles",
+     "red badges (3) + black badge (1)",
+     "filters 5"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.85,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.96,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 5,
+     "justified": [
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "active pagination number rendered as a plain number on this read; live has it as a link — reverted in code (push pending)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-recertified",
+    "liveUrl": "https://www.westerndigital.com/products/recertified",
+    "path": "products/recertified",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner static",
+     "buy-direct benefits (\"Choose Recertified\")",
+     "tree-collapsed",
+     "featured rail",
+     "strike prices (13/15)",
+     "condition recertified",
+     "filters 6 (\"Capacity\")",
+     "no Buy Direct"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.88,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.92,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 7,
+     "justified": [
+      "live carries a hidden h1 AND a visible p.heading1 with the same title; we render one h1 (36/39.6 700) — the p pairs against the featured rail link",
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "active pagination number rendered as a plain number on this read; live has it as a link — reverted in code (push pending)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-final-production",
+    "liveUrl": "https://www.westerndigital.com/products/final-production",
+    "path": "products/final-production",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner static wide + mobile picture",
+     "tree-collapsed",
+     "featured rail",
+     "condition outlet, page-size 70, no pagination",
+     "red badges (6)",
+     "section style spaced",
+     "no Buy Direct"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.88,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 2.29,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 10,
+     "justified": [
+      "live carries a hidden h1 AND a visible p.heading1 with the same title; we render one h1 (36/39.6 700) — the p pairs against the featured rail link",
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "live hidden default category banner (\"Internal HDD\" copy + link) inside the dynamic-reference container"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-weekly-sale",
+    "liveUrl": "https://www.westerndigital.com/products/weekly-sale",
+    "path": "products/weekly-sale",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner promo",
+     "split-band promo-tiles (3 cards + empty slot)",
+     "no listing"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.4,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.16,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 2,
+     "justified": [
+      "hidden #extended-warranty modal content (\"Exclusively on the WD.com Store\")",
+      "each live promo box carries a visible modal trigger AND a hidden anchor to /company/programs/extended-warranty; we render one link per box (content-diff pairs by text, so the hidden duplicates read as missing)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   },
+   {
+    "slug": "products-hdd",
+    "liveUrl": "https://www.westerndigital.com/products/hdd",
+    "path": "products/hdd",
+    "archetypeSource": "listing",
+    "fidelityTier": "sibling",
+    "variants": [
+     "category-banner templated inset + mobile picture",
+     "11 filter states via ?filterBy… (h1 templated)",
+     "5 pages",
+     "promo box (5/15)"
+    ],
+    "gatesPassed": [
+     "variance-probe",
+     "delivery-lint",
+     "content-count",
+     "published-pixel-1440",
+     "published-pixel-360"
+    ],
+    "harness": {
+     "1440": null,
+     "360": null
+    },
+    "published": {
+     "1440": {
+      "pixelPct": 0.95,
+      "heightDelta": 0,
+      "pass": true
+     },
+     "360": {
+      "pixelPct": 1.63,
+      "heightDelta": -1,
+      "pass": true
+     },
+     "measuredAt": "2026-09-18T13:04:17Z"
+    },
+    "contentDiff": {
+     "structuralRed": 17,
+     "justified": [
+      "live hidden per-filter banner variants (h1 + CTA per use case / capacity) — replicated by the `templated` runtime, not as hidden DOM",
+      "\"Shop by Category/Deals/Featured\" are href=\"#\" accordion triggers on live (cta) vs rail headings here (as on the archetype)",
+      "live hidden mobile duplicate pagination links (extra \"1\", \"2 → ?page=1\", PREV/NEXT on a single-page listing)",
+      "each live promo box carries a visible modal trigger AND a hidden anchor to /company/programs/extended-warranty; we render one link per box (content-diff pairs by text, so the hidden duplicates read as missing)"
+     ]
+    },
+    "residuals": [
+     "API drift vs capture (prices, item counts)"
+    ]
+   }
+  ],
+  "listingNotes": {
+   "regime": "published-origin gate — live (cached stitch) vs aem.page, --settle both sides; content-count via content-diff --main .mainContainWrap",
+   "archetypeReread": {
+    "1440": {
+     "pixelPct": 1.33,
+     "heightDelta": -1,
+     "pass": true
+    },
+    "360": {
+     "pixelPct": 2.95,
+     "heightDelta": -1,
+     "pass": true
+    }
+   },
+   "filterStates": "/products/hdd?filterByUseCaseName=Gaming → \"Hard Drives for Gaming\" 8 tiles; ?filterByVvc-capacity=21+TB+-+50+TB → \"21 TB - 50 TB  Hard Drives\" 15/23; multi-value → both chips, 24 items; 0 console errors",
+   "pendingPush": "product-listing.js: current pagination page back to a link (live a.numb.active) — removes the \"1\" ROLE SWAP on accessories / data-center / recertified"
+  }
+ }
+}

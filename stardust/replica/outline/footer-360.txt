@@ -1,0 +1,129 @@
+# https://www.westerndigital.com/ @360 docH=8182 part=footer
+div.cmp-container#sdi-7f729c34d8 «wd-footer>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>sdi container responsivegrid aem-GridColumn aem-GridColumn--default--12» [0 6006 360 2176]
+  section.bg-color.relative.section.py-0 «section» [0 6006 360 2176] {pos=relative}
+    div.relative [0 6006 360 2176] {pos=relative}
+      section.bg-color.relative.section.wd-footer «section» [0 6006 360 1979] {bg=rgb(17, 17, 17) pos=relative pad=32px 0px}
+        div.relative [0 6038 360 1915] {pos=relative}
+          div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [0 6038 360 1915] {pad=0px 16px}
+            div.cols-12 [16 6038 328 1915]
+              div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 6038 328 130] {border=0px/1px solid rgb(106, 106, 106)}
+                div.cols-12.md:cols-8.pb-4.border-b [16 6038 328 49] {pad=0px 0px 16px mar=0px 0px 28px border=0px/1px solid rgb(106, 106, 106)}
+                  section.bg-color.relative.section.py-0 «section» [16 6038 328 32] {pos=relative}
+                    div.relative [16 6038 328 32] {pos=relative}
+                      div.md:pr-8.flex.items-center.pb-3 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>svg aem-GridColumn aem-GridColumn--default--12» [16 6038 328 32] {disp=flex flow=dir:row wrap:nowrap jc:normal ai:center gap:normal pad=0px 0px 12px}
+                        svg [16 6038 77 20] {ovf=hidden}
+                          g [16 6038 77 20]
+                            path [42 6038 1 20]
+                            path [16 6039 7 19]
+                            path [24 6039 5 19]
+                            path [31 6039 4 20]
+                            path [37 6039 2 20]
+                            path [48 6039 25 19]
+                            path [75 6039 18 19]
+                div.cols-12.md:cols-4.mb-7.md:mb-0 [16 6115 328 24] {mar=0px 0px 28px}
+                  div.row.grid-12.xs:grid-12.sm:grid-12 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>responsive-columns-flexbox aem-GridColumn aem-GridColumn--default--12» [16 6115 328 24] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal}
+                    div.cols-12.flex.items-center.md:justify-end [16 6115 328 24] {disp=flex flow=dir:row wrap:nowrap jc:flex-start ai:center gap:normal}
+                      p.text-xs «text>text-xs textcolumn» [16 6117 101 21] f[Roboto 14px/21px 400 rgb(255, 255, 255)] "Country/Region:"
+                      div «button» [117 6115 101 24]
+                        a.btn.ml-1.mt-1.text-bold [121 6117 97 19] {mar=4px 0px 0px 4px rad=6px} href=/region-selector aria="United States" f[Roboto 16px/16px 700 rgb(255, 255, 255)] "United States"
+              div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [16 6168 328 1785] {pad=32px 0px 0px}
+                div.sm:cols-6.md:cols-3.cols-12.md:mb-0 [16 6200 328 364] {pad=0px 16px 0px 0px mar=0px 0px 32px}
+                  div.text-sm.leading-tight.pl-0.md:pl-5 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>text aem-GridColumn aem-GridColumn--default--12» [16 6200 312 364] {pad=0px 16px 0px 0px}
+                    p.mb-5.text-lg [16 6200 296 30] {mar=0px 0px 20px} f[Roboto 20px/30px 400 rgb(255, 255, 255)] "Shopping"
+                    ul.list-reset.text-grey [16 6250 296 294]
+                      li.mb-5.show-for-b2c [16 6250 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "My Account" inner(a)
+                      li.mb-5 [16 6290 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Sign Up for Email" inner(a)
+                      li.mb-5.show-for-b2c [16 6329 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Discounts & Promotions" inner(a)
+                      li.mb-5 [16 6368 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Product Portfolio" inner(a)
+                      li.mb-5 [16 6407 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Warranty Policy" inner(a)
+                      li.mb-5 [16 6446 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Return Policy" inner(a)
+                      li.mb-5.show-for-b2c [16 6486 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Distributors & Resellers" inner(a)
+                      li.mb-5 [16 6525 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Shopping FAQ" inner(a)
+                div.sm:cols-6.md:cols-3.cols-12.md:mb-0 [16 6596 328 364] {pad=0px 16px 0px 0px mar=0px 0px 32px}
+                  div.text-sm.leading-tight.pr-4.sm:pr-0 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>text aem-GridColumn aem-GridColumn--default--12» [16 6596 312 364] {pad=0px 16px 0px 0px}
+                    p.mb-5.text-lg [16 6596 296 30] {mar=0px 0px 20px} f[Roboto 20px/30px 400 rgb(255, 255, 255)] "Programs"
+                    ul.list-reset.text-grey [16 6646 296 294]
+                      li.mb-5.show-for-b2c [16 6646 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Business Account Benefits" inner(a)
+                      li.mb-5.show-for-b2c [16 6685 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Data Recovery" inner(a)
+                      li.mb-5.show-for-b2c [16 6724 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Recycle Program" inner(a)
+                      li.mb-5 [16 6764 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "WD Credit" inner(a)
+                      li.mb-5 [16 6803 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Pro Rewards" inner(a)
+                      li.mb-5 [16 6842 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Partner Programs" inner(a)
+                      li.mb-5 [16 6881 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Philanthropic Programs" inner(a)
+                      li.mb-5 [16 6920 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Western Digital Capital" inner(a)
+                div.sm:cols-6.md:cols-3.cols-12.sm:mb-0 [16 6991 328 442] {pad=0px 16px 0px 0px mar=0px 0px 32px}
+                  div.text-sm.leading-tight.pr-4.sm:pr-0 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>experiencefragment aem-GridColumn aem-GridColumn--default--12>xf-content-height» [16 6991 312 442] {pad=0px 16px 0px 0px}
+                    p.mb-5.text-lg [16 6991 296 30] {mar=0px 0px 20px} f[Roboto 20px/30px 400 rgb(255, 255, 255)] "Company"
+                    ul.list-reset.text-grey [16 7041 296 372]
+                      li.mb-5 [16 7041 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "About Us" inner(a)
+                      li.mb-5 [16 7081 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "News & Events" inner(a)
+                      li.mb-5 [16 7120 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Leadership" inner(a)
+                      li.mb-5 [16 7159 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Corporate Responsibility" inner(a)
+                      li.mb-5 [16 7198 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Privacy Center" inner(a)
+                      li.mb-5 [16 7237 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Blog" inner(a)
+                      li.mb-5 [16 7277 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Careers" inner(a)
+                      li.mb-5 [16 7316 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Investors" inner(a)
+                      li.mb-5 [16 7355 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Office Locations" inner(a)
+                      li.mb-5 [16 7394 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Contact Us" inner(a)
+                div.sm:cols-6.md:cols-3.cols-12.pr-4 [16 7465 328 488] {pad=0px 16px 0px 0px}
+                  div.text-sm.leading-tight.pr-4.sm:pr-0 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12>text aem-GridColumn aem-GridColumn--default--12» [16 7465 312 168] {pad=0px 16px 0px 0px}
+                    p.mb-5.text-lg [16 7465 296 30] {mar=0px 0px 20px} f[Roboto 20px/30px 400 rgb(255, 255, 255)] "Support"
+                    ul.list-reset.text-grey [16 7515 296 98]
+                      li.mb-5 [16 7515 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Get Help" inner(a)
+                      li.mb-5 [16 7555 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Resource Library" inner(a)
+                      li.mb-5 [16 7594 296 19] {disp=list-item mar=0px 0px 20px} f[Roboto 16px/19.2px 400 rgb(146, 154, 157)] "Product Security" inner(a)
+                  div.text.aem-GridColumn.aem-GridColumn--default--12 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12» [16 7633 312 152]
+                    div.text-sm.leading-tight.pr-4.sm:pr-0 [16 7681 312 72] {pad=0px 16px 0px 0px mar=48px 0px 32px}
+                      p [16 7681 296 72] f[Roboto 16px/24px 400 rgb(255, 255, 255)] "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST"
+                  div.responsive-columns-flexbox.aem-GridColumn.aem-GridColumn--default--12 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12» [16 7785 312 100]
+                    div.row.grid-12.xs:grid-12.sm:grid-12 [16 7817 312 28] {mar=32px 0px 40px}
+                      div.cols-12.flex.justify-start [16 7817 312 28] {disp=flex flow=dir:row wrap:nowrap jc:flex-start ai:normal gap:normal}
+                        div.svg [16 7817 52 28]
+                          div.mr-7 [16 7817 24 27] {mar=0px 28px 0px 0px}
+                            a [16 7817 24 27] href=https://www.instagram.com/wd_official/ aria="Instagram for WesternDigital" f[Roboto 16px/16px 400 rgb(255, 255, 255)]
+                              svg [16 7817 24 24] {ovf=hidden}
+                                g [16 7817 24 24] {tf=matrix(1, 0, 0, 1, -1031, -415)}
+                                  rect [16 7817 24 24] {tf=matrix(1, 0, 0, 1, 1031, 415)}
+                                  g [17 7818 22 22] {tf=matrix(1, 0, 0, 1, 1032, 416)}
+                                    path [17 7818 22 22] {tf=matrix(1, 0, 0, 1, 0, 0)}
+                                    path [32 7822 3 3] {tf=matrix(1, 0, 0, 1, -234.319, -57.359)}
+                                    path [22 7823 11 11] {tf=matrix(1, 0, 0, 1, -80.735, -80.641)}
+                        div.svg [68 7817 52 28]
+                          div.mr-7 [68 7817 24 27] {mar=0px 28px 0px 0px}
+                            a [68 7817 24 27] href=https://www.linkedin.com/company/western-digital/ aria="Linked In for WesternDigital" f[Roboto 16px/16px 400 rgb(255, 255, 255)]
+                              svg [68 7817 24 24] {ovf=hidden}
+                                path [68 7817 21 20]
+                        div.svg [120 7817 57 28]
+                          div.mr-7.-mt-1 [120 7813 29 32] {mar=-4px 28px 0px 0px}
+                            a [120 7813 29 32] href=https://x.com/wd_corporation aria="WD on X" f[Roboto 16px/16px 400 rgb(255, 255, 255)]
+                              svg [120 7813 29 29] {ovf=hidden}
+                                g#Mask_Group_1 [124 7817 22 19] {tf=matrix(1, 0, 0, 1, -566, -200)}
+                                  g#new-twitter-x-icon_1_ [124 7817 22 19] {tf=matrix(1, 0, 0, 1, 568.746, 202.357)}
+                                    path#Path_1 [124 7817 22 19]
+                        div.svg [177 7817 52 28]
+                          div.mr-7 [177 7817 24 27] {mar=0px 28px 0px 0px}
+                            a [177 7817 24 27] href=https://www.facebook.com/WD aria="Facebook for WesternDigital" f[Roboto 16px/16px 400 rgb(255, 255, 255)]
+                              svg [177 7817 24 24] {ovf=hidden}
+                                path [177 7817 21 21]
+                        a «svg>div» [229 7817 24 27] href=https://www.youtube.com/channel/UCQpijqbZeCM3zLew0ZwiX4A aria="Youtube for WesternDigital" f[Roboto 16px/16px 400 rgb(255, 255, 255)]
+                          svg [229 7817 24 24] {ovf=hidden}
+                            path [229 7820 24 17]
+                  div.image.aem-GridColumn.aem-GridColumn--default--12 «experiencefragment>xf-content-height>root responsivegrid>aem-Grid aem-Grid--12 aem-Grid--default--12» [16 7885 312 68]
+                    a [16 7908 100 19] href=/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies f[Roboto 16px/16px 400 rgb(255, 255, 255)] inner(picture)
+      section.bg-color.relative.section.store-retail-section1 «section» [0 7985 360 197] {bg=rgb(0, 0, 0) pos=relative}
+        div.relative [0 7985 360 197] {pos=relative}
+          div.row.grid-12.xs:grid-12.sm:grid-12 «responsive-columns-flexbox» [0 7985 360 197] {disp=flex flow=dir:row wrap:wrap jc:normal ai:normal gap:normal pad=0px 16px}
+            div.aem-Grid.aem-Grid--12.aem-Grid--default--12 «cols-12 text-white>experiencefragment>xf-content-height>root responsivegrid» [16 7985 328 197]
+              div.text-xs.border-b.border-grey-3.sm:border-0 «text aem-GridColumn aem-GridColumn--default--12» [16 7985 328 111] {pad=0px 0px 20px border=0px/1px solid rgb(106, 106, 106)}
+                ul.list-reset [16 7985 328 90]
+                  li.inline-block.mt-6.pr-4 [16 8009 61 21] {disp=inline-block pad=0px 16px 0px 0px mar=24px 0px 0px} f[Roboto 14px/21px 400 rgb(255, 255, 255)] "Privacy" inner(a)
+                  li.inline-block.mt-6.pr-4 [81 8009 50 21] {disp=inline-block pad=0px 16px 0px 0px mar=24px 0px 0px} f[Roboto 14px/21px 400 rgb(255, 255, 255)] "Legal" inner(a)
+                  li.inline-block.mt-6.pr-4 [134 8009 90 21] {disp=inline-block pad=0px 16px 0px 0px mar=24px 0px 0px} f[Roboto 14px/21px 400 rgb(255, 255, 255)] "Trademarks" inner(a)
+                  li.inline-block.mt-6.pr-4 [228 8009 102 21] {disp=inline-block pad=0px 16px 0px 0px mar=24px 0px 0px} f[Roboto 14px/21px 400 rgb(255, 255, 255)] "Terms of Sale" inner(a)
+                  li.inline-block.mt-6.pr-4 [16 8054 143 21] {disp=inline-block pad=0px 16px 0px 0px mar=24px 0px 0px} f[Roboto 14px/21px 400 rgb(255, 255, 255)] "Product Compliance" inner(a)
+                  li.inline-block.mt-6 [162 8054 117 21] {disp=inline-block mar=24px 0px 0px} f[Roboto 14px/21px 400 rgb(255, 255, 255)]
+                    div.-ml-1#teconsent [158 8056 121 16] {mar=0px 0px 0px -4px}
+                      a [158 8056 121 16] href=# f[Roboto 14px/14px 400 rgb(255, 255, 255)] "Cookie Preferences"
+              div.text.aem-GridColumn.aem-GridColumn--default--12 [16 8096 328 86]
+                div.text-xs.mb-6.mt-5.textcolumn [16 8116 328 42] {mar=20px 0px 24px}
+                  div.text-xs [16 8116 328 42]

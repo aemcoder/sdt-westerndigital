@@ -1,0 +1,11 @@
+{
+  "_provenance": { "writtenBy": "stardust:deploy (runtime-detection probe)", "writtenAt": "2026-09-18T10:50:00Z", "probed": ["scripts/scripts.js", "scripts/aem.js"] },
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "wrapTextNodes": true,
+  "notes": "scripts.js:110 decorateButtons emits p.button-wrapper; aem.js:379 wrapTextNodes folds media-led cells into one <p>; buildAutoBlocks is project-owned (scripts.js:80)."
+}

@@ -1,0 +1,1395 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:53:08.995Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "company-distributors-find-a-store",
+  "url": "https://www.westerndigital.com/company/distributors/find-a-store",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:53:08.995Z",
+  "finalUrl": "https://www.westerndigital.com/company/distributors",
+  "title": "Distributors | WD",
+  "description": "Find Western Digital authorized Distributors & Resellers",
+  "og": {
+    "title": "Distributors | WD",
+    "description": "Find Western Digital authorized Distributors &amp; Resellers",
+    "image": "https://www.westerndigital.com/content/dam/store/en-us/portal-assets/logos/WesternDigital-Open-Graph-Logo-1600x627-Clear-Spaced.png",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Find Distributors & Resellers"
+    },
+    {
+      "tag": "h2",
+      "text": "Online Stores"
+    }
+  ],
+  "body": [
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "WD Named to 2026 S&P Dow Jones Best in Class Index North America. Learn More",
+    "Shop | WD for Business",
+    "Products By Category Product Portfolio Internal HDDs External HDDs Data Center Storage Accessories By Use Storage Platforms Gaming HDDs Surveillance (CCTV) HDDs RAID HDDs Backups Network Attached Storage (NAS) By Capacity Over 50TB 21 - 50TB 11 - 20TB 5 - 10TB 1 - 4TB Less than 1TB Featured What's New Most Popular Promotions Limited-Time Offers Certified Refurbished Final Production Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Solutions Use Case NAS Storage Solutions Gaming Storage RAID Storage Solutions Video Surveillance Storage Backup & Recovery Solutions Enterprise & Data Center Storage Content Creation & Media Storage Compare & Learn HDD vs. SSD AI Storage Infrastructure Data Security & Encryption Compare Hard Drives Thunderbolt vs. USB-C Industries Healthcare Education Hybrid Cloud Explore how our storage solutions support real-world use cases—from personal backups to enterprise infrastructure. View All Solutions & Use Cases",
+    "Support Help Topics Support Home Software Downloads Product Registration Warranty Services Data Recovery Services Order Status Order Status Returns & Replacements Product Security FAQs Contact Support Chat With Us Call Us Email Us Need help from an expert? Chat with our support team for help with orders, warranty questions, troubleshooting, or to connect with a representative. Live Chat with Support SanDisk Professional hard drives are now G-DRIVE. Support and Product Information are still available, just under a new name.",
+    "Company About Us Overview Innovation Our Locations Careers Investors Capital Corporate Responsibility Overview Sustainability People Supply Chain Ethics Philanthropy Data Privacy News & Events Newsroom Press Releases Events Blog Posts Shopping for business? Join our business program today to get tiered pricing, rewards for your purchases, and more exclusive benefits. See All Benefits Sign Up Now Tiered Pricing for Business Members Get special rates on select products. New products added monthly. p.nav-promo-tiered-pricing { background-image: url(\"https://www.westerndigital.com/content/dam/store/en-us/assets/business/icons/icon-tiered-pricing-53.png\"); background-repeat: no-repeat; padding-left: 67px; padding-top: 5px; min-height: 60px; } See All Products with Tiered Pricing",
+    "Purchase from your preferred Western Digital authorized partner",
+    "Country/Region:",
+    "Shopping",
+    "My Account",
+    "Sign Up for Email",
+    "Discounts & Promotions",
+    "Product Portfolio",
+    "Warranty Policy",
+    "Return Policy",
+    "Distributors & Resellers",
+    "Shopping FAQ",
+    "Programs",
+    "Business Account Benefits",
+    "Data Recovery",
+    "Recycle Program",
+    "WD Credit",
+    "Pro Rewards",
+    "Partner Programs",
+    "Philanthropic Programs",
+    "Western Digital Capital",
+    "Company",
+    "About Us",
+    "News & Events",
+    "Leadership",
+    "Corporate Responsibility",
+    "Privacy Center",
+    "Blog",
+    "Careers",
+    "Investors",
+    "Office Locations",
+    "Contact Us",
+    "Support",
+    "Get Help",
+    "Resource Library",
+    "Product Security",
+    "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST",
+    "Privacy",
+    "Legal",
+    "Trademarks",
+    "Terms of Sale",
+    "Product Compliance"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Learn More",
+      "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+      "label": "Shop",
+      "href": "/products"
+    },
+    {
+      "label": "WD for Business",
+      "href": "/business"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "Solutions",
+      "href": null
+    },
+    {
+      "label": "Support",
+      "href": null
+    },
+    {
+      "label": "Company",
+      "href": null
+    },
+    {
+      "label": "Adorama",
+      "href": "http://www.adorama.com/brands/WD"
+    },
+    {
+      "label": "Altex Electronics",
+      "href": "https://www.altex.com/Brands/western-digital"
+    },
+    {
+      "label": "Amazon",
+      "href": "https://www.amazon.com/stores/WesternDigital/page/5E1766B0-A5C2-4C1F-AE6C-6EFA0E55ADEC?"
+    },
+    {
+      "label": "B&H",
+      "href": "http://www.bhphotovideo.com/c/browse/Western-Digital/ci/12794/N/4232862021"
+    },
+    {
+      "label": "Best Buy",
+      "href": "https://www.bestbuy.com/site/computer-accessories/hard-drives/abcat0504001.c?id=abcat0504001"
+    },
+    {
+      "label": "Best Buy for Business",
+      "href": "http://www.bestbuybusiness.com/bbfb/en/US/adirect/bestbuy;jsessionid=9D234044B21E96735ADB22F86AD3233F.bstby2?cmd=BBFBStaticContent&id=content/brand-store/western-digital/index.html&NL=1"
+    },
+    {
+      "label": "BuyDigcom",
+      "href": "http://www.buydig.com/shop/list/keyword/western+digital?fm=Western+Digital&srt=popularity"
+    },
+    {
+      "label": "CDW",
+      "href": "https://www.cdw.com/content/cdw/en/brand/western-digital.html"
+    },
+    {
+      "label": "Central Computers",
+      "href": "https://www.centralcomputer.com/"
+    },
+    {
+      "label": "Connection",
+      "href": "https://www.connection.com/IPA/Shop/Product/Search?SearchType=2&searchManufacturerName=HGST%2C%20A%20Western%20Digital%20Company"
+    },
+    {
+      "label": "Insight",
+      "href": "https://www.insight.com/en_US/search.html?qtype=all&q=Western Digital&pq={\"pageSize\":10,\"currentPage\":1,\"priceRangeLower\":0,\"priceRangeUpper\":0,\"searchTerms\":{\"WESTERN%20DIGITAL\":{\"field\":\"field\",\"value\":\"A-MARA-MFRNR~0007000686\"}}}"
+    },
+    {
+      "label": "Micro Center",
+      "href": "https://www.microcenter.com/search/search_results.aspx?N=&cat=&Ntt=western+digital&searchButton=search"
+    },
+    {
+      "label": "Newegg",
+      "href": "http://www.newegg.com/store/Brand.aspx?Brand=1306&name=The-WESTERN-DIGITAL-Store-at-Newegg"
+    },
+    {
+      "label": "Office Depot / OfficeMax",
+      "href": "http://www.officedepot.com/a/static/webcollage/westerndigital/"
+    },
+    {
+      "label": "P.C. Richard & Son",
+      "href": "http://www.pcrichard.com/Computers-Tablets/Computer-Software-Hardware/Hard-Drives/705040.pcrc?pageNum=0&catId=705040&trail=1135%3AWestern+Digital"
+    },
+    {
+      "label": "PC Mall",
+      "href": "https://www.insight.com/en_US/search.html?qtype=all&q=Western%20Digital&pq=%7B%22pageSize%22%3A10%2C%22currentPage%22%3A1%2C%22shownFlag%22%3Atrue%2C%22priceRangeLower%22%3A%22%22%2C%22priceRangeUpper%22%3A%22%22%2C%22cmtStandards%22%3Atrue%2C%22categoryId%22%3Anull%2C%22setType%22%3Anull%2C%22setId%22%3Anull%2C%22shared%22%3Anull%2C%22groupId%22%3Anull%2C%22cmtCustomerNumber%22%3Anull%2C%22groupName%22%3Anull%2C%22fromLicense%22%3Atrue%2C%22licenseContractIds%22%3Anull%2C%22assortmentIds%22%3Anull%2C%22controller%22%3Anull%2C%22fromcs%22%3Afalse%2C%22searchTerms%22%3A%7B%22WESTERN%20DIGITAL%22%3A%7B%22field%22%3A%22field%22%2C%22value%22%3A%22A-HYBRIS-ManufacturerId~0007000686%22%7D%7D%2C%22sortBy%22%3A%22BestMatch%22%7D"
+    },
+    {
+      "label": "sales@plpc.com",
+      "href": "mailto:sales@plpc.com"
+    },
+    {
+      "label": "PLPC",
+      "href": "http://www.plpc.com"
+    },
+    {
+      "label": "Saitech",
+      "href": "https://www.shopsaitech.com/western-digital-wd-products"
+    },
+    {
+      "label": "Sam's Club",
+      "href": "https://www.samsclub.com/s/sandisk"
+    },
+    {
+      "label": "Staples",
+      "href": "https://www.staples.com/western+digital/directory_western%2520digital?"
+    },
+    {
+      "label": "Target",
+      "href": "https://www.target.com/s?searchTerm=WD"
+    },
+    {
+      "label": "TigerDirect.Com",
+      "href": "https://www.tigerdirect.com/applications/SearchTools/search.asp?keywords=western+digital"
+    },
+    {
+      "label": "Walmart",
+      "href": "https://www.walmart.com/search/?query=wd&cat_id=0"
+    },
+    {
+      "label": "Zones",
+      "href": "http://www.zones.com/site/promotions/index.html?page_id=3272"
+    },
+    {
+      "label": "United States",
+      "href": "/region-selector"
+    },
+    {
+      "label": "My Account",
+      "href": "/store/my-account"
+    },
+    {
+      "label": "Sign Up for Email",
+      "href": "/company/programs/communications-registration"
+    },
+    {
+      "label": "Discounts & Promotions",
+      "href": "/promo"
+    },
+    {
+      "label": "Product Portfolio",
+      "href": "/products/product-portfolio"
+    },
+    {
+      "label": "Warranty Policy",
+      "href": "/support/store/warranty-policy"
+    },
+    {
+      "label": "Return Policy",
+      "href": "/support/store/return-policy"
+    },
+    {
+      "label": "Distributors & Resellers",
+      "href": "/company/distributors"
+    },
+    {
+      "label": "Shopping FAQ",
+      "href": "/support/store/shopping-faq"
+    },
+    {
+      "label": "Business Account Benefits",
+      "href": "/business/account-benefits"
+    },
+    {
+      "label": "Data Recovery",
+      "href": "/company/programs/data-recovery"
+    },
+    {
+      "label": "Recycle Program",
+      "href": "/company/programs/easy-recycle"
+    },
+    {
+      "label": "WD Credit",
+      "href": "/business/line-of-credit"
+    },
+    {
+      "label": "Pro Rewards",
+      "href": "/business/pro-rewards"
+    },
+    {
+      "label": "Partner Programs",
+      "href": "/company/partners"
+    },
+    {
+      "label": "Philanthropic Programs",
+      "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+      "label": "Western Digital Capital",
+      "href": "/company/western-digital-capital"
+    },
+    {
+      "label": "About Us",
+      "href": "/company"
+    },
+    {
+      "label": "News & Events",
+      "href": "/company/newsroom"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/leadership"
+    },
+    {
+      "label": "Corporate Responsibility",
+      "href": "/company/corporate-responsibility"
+    },
+    {
+      "label": "Privacy Center",
+      "href": "/privacy-center"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blog.westerndigital.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investor.wdc.com/"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/office-locations"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/company/contact-us"
+    },
+    {
+      "label": "Get Help",
+      "href": "/support"
+    },
+    {
+      "label": "Resource Library",
+      "href": "/support/store/resource-library"
+    },
+    {
+      "label": "Product Security",
+      "href": "/support/product-security"
+    },
+    {
+      "label": "Privacy",
+      "href": "/legal/privacy-statement"
+    },
+    {
+      "label": "Legal",
+      "href": "/legal"
+    },
+    {
+      "label": "Trademarks",
+      "href": "/legal/trademarks"
+    },
+    {
+      "label": "Terms of Sale",
+      "href": "/legal/terms-and-conditions-of-sale-consumer"
+    },
+    {
+      "label": "Product Compliance",
+      "href": "/company/sustainability/product-compliance"
+    }
+  ],
+  "links": [
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america",
+    "https://www.westerndigital.com/products",
+    "https://www.westerndigital.com/business",
+    "https://www.westerndigital.com/",
+    "https://www.westerndigital.com/products/product-portfolio",
+    "https://www.westerndigital.com/products/hdd/internal-hdd",
+    "https://www.westerndigital.com/products/hdd/external-hdd",
+    "https://www.westerndigital.com/products/data-center-storage",
+    "https://www.westerndigital.com/products/accessories",
+    "https://www.westerndigital.com/solutions/data-center-storage-platform",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Gaming",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Smart+Video+Surveillance",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=RAID",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Backups",
+    "https://www.westerndigital.com/products/hdd?filterByUseCaseName=Network+Attached+Storage+(NAS)",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=51+TB+-+100+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=21+TB+-+50+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=11+TB+-+20+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=05+TB+-+10+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=01+TB+-+04+TB",
+    "https://www.westerndigital.com/products/hdd?filterByVvc-capacity=0+GB+-+960+GB",
+    "https://www.westerndigital.com/explore/whats-new",
+    "https://www.westerndigital.com/promo/best-sellers",
+    "https://www.westerndigital.com/promo",
+    "https://www.westerndigital.com/products/weekly-sale",
+    "https://www.westerndigital.com/products/recertified",
+    "https://www.westerndigital.com/products/final-production",
+    "https://www.westerndigital.com/business/account-benefits",
+    "https://www.westerndigital.com/store/business/registration?lp=register",
+    "https://www.westerndigital.com/business/account-benefits/tiered-pricing",
+    "https://www.westerndigital.com/solutions/network-attached-storage",
+    "https://www.westerndigital.com/solutions/gaming",
+    "https://www.westerndigital.com/solutions/raid",
+    "https://www.westerndigital.com/solutions/surveillance",
+    "https://www.westerndigital.com/solutions/home-backup-solutions",
+    "https://www.westerndigital.com/solutions/data-center",
+    "https://www.westerndigital.com/solutions/creative-professionals",
+    "https://www.westerndigital.com/solutions/hdd-vs-ssd",
+    "https://www.westerndigital.com/solutions/ai-storage-infrastructure",
+    "https://www.westerndigital.com/solutions/data-security",
+    "https://www.westerndigital.com/solutions/hard-drives",
+    "https://www.westerndigital.com/solutions/thunderbolt-vs-usb-c",
+    "https://www.westerndigital.com/explore/medical-data-storage",
+    "https://www.westerndigital.com/explore/education-storage",
+    "https://www.westerndigital.com/explore/hybrid-cloud-storage-solutions",
+    "https://www.westerndigital.com/solutions",
+    "https://www.westerndigital.com/support",
+    "https://support-en.wd.com/app/products/downloads/softwaredownloads",
+    "https://support-en.wd.com/app/account/assets/product-registrationweb",
+    "https://www.westerndigital.com/support/store/warranty-services",
+    "https://www.westerndigital.com/support/store/warranty-services/data-recovery",
+    "https://www.westerndigital.com/store/orderStatus",
+    "https://www.westerndigital.com/store/business/orderStatus",
+    "https://www.westerndigital.com/support/returns-replacements",
+    "https://www.westerndigital.com/support/product-security",
+    "https://www.westerndigital.com/support/store/shopping-faq",
+    "https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/support/international-phone-numbers",
+    "https://support-en.wd.com/app/askweb",
+    "https://www.westerndigital.com/company/distributors#https://support-en.wd.com/app/chat/chat_launch",
+    "https://www.westerndigital.com/company",
+    "https://www.westerndigital.com/company/innovation",
+    "https://www.westerndigital.com/company/office-locations",
+    "https://www.westerndigital.com/careers",
+    "https://investor.wdc.com/",
+    "https://www.westerndigital.com/company/western-digital-capital",
+    "https://www.westerndigital.com/company/corporate-responsibility",
+    "https://www.westerndigital.com/company/sustainability",
+    "https://www.westerndigital.com/company/corporate-responsibility/people",
+    "https://www.westerndigital.com/company/corporate-responsibility/supply-chain",
+    "https://www.westerndigital.com/company/corporate-responsibility/ethics",
+    "https://www.westerndigital.com/company/corporate-responsibility/philanthropy",
+    "https://www.westerndigital.com/privacy-center",
+    "https://www.westerndigital.com/company/newsroom",
+    "https://www.westerndigital.com/company/newsroom/press-releases",
+    "https://www.westerndigital.com/company/newsroom/events",
+    "https://blog.westerndigital.com/",
+    "https://www.westerndigital.com/store/registration",
+    "https://www.westerndigital.com/store/business/login",
+    "https://support-en.wd.com/app/utils/login_form",
+    "https://businessportal.westerndigital.com/",
+    "https://ibi.sandisk.com/",
+    "https://www.mycloud.com/",
+    "http://www.adorama.com/brands/WD",
+    "https://www.altex.com/Brands/western-digital",
+    "https://www.amazon.com/stores/WesternDigital/page/5E1766B0-A5C2-4C1F-AE6C-6EFA0E55ADEC?",
+    "http://www.bhphotovideo.com/c/browse/Western-Digital/ci/12794/N/4232862021",
+    "https://www.bestbuy.com/site/computer-accessories/hard-drives/abcat0504001.c?id=abcat0504001",
+    "http://www.bestbuybusiness.com/bbfb/en/US/adirect/bestbuy;jsessionid=9D234044B21E96735ADB22F86AD3233F.bstby2?cmd=BBFBStaticContent&id=content/brand-store/western-digital/index.html&NL=1",
+    "http://www.buydig.com/shop/list/keyword/western+digital?fm=Western+Digital&srt=popularity",
+    "https://www.cdw.com/content/cdw/en/brand/western-digital.html",
+    "https://www.centralcomputer.com/",
+    "https://www.connection.com/IPA/Shop/Product/Search?SearchType=2&searchManufacturerName=HGST%2C%20A%20Western%20Digital%20Company",
+    "https://www.insight.com/en_US/search.html?qtype=all&q=Western%20Digital&pq={%22pageSize%22:10,%22currentPage%22:1,%22priceRangeLower%22:0,%22priceRangeUpper%22:0,%22searchTerms%22:{%22WESTERN%20DIGITAL%22:{%22field%22:%22field%22,%22value%22:%22A-MARA-MFRNR~0007000686%22}}}",
+    "https://www.microcenter.com/search/search_results.aspx?N=&cat=&Ntt=western+digital&searchButton=search",
+    "http://www.newegg.com/store/Brand.aspx?Brand=1306&name=The-WESTERN-DIGITAL-Store-at-Newegg",
+    "http://www.officedepot.com/a/static/webcollage/westerndigital/",
+    "http://www.pcrichard.com/Computers-Tablets/Computer-Software-Hardware/Hard-Drives/705040.pcrc?pageNum=0&catId=705040&trail=1135%3AWestern+Digital",
+    "https://www.insight.com/en_US/search.html?qtype=all&q=Western%20Digital&pq=%7B%22pageSize%22%3A10%2C%22currentPage%22%3A1%2C%22shownFlag%22%3Atrue%2C%22priceRangeLower%22%3A%22%22%2C%22priceRangeUpper%22%3A%22%22%2C%22cmtStandards%22%3Atrue%2C%22categoryId%22%3Anull%2C%22setType%22%3Anull%2C%22setId%22%3Anull%2C%22shared%22%3Anull%2C%22groupId%22%3Anull%2C%22cmtCustomerNumber%22%3Anull%2C%22groupName%22%3Anull%2C%22fromLicense%22%3Atrue%2C%22licenseContractIds%22%3Anull%2C%22assortmentIds%22%3Anull%2C%22controller%22%3Anull%2C%22fromcs%22%3Afalse%2C%22searchTerms%22%3A%7B%22WESTERN%20DIGITAL%22%3A%7B%22field%22%3A%22field%22%2C%22value%22%3A%22A-HYBRIS-ManufacturerId~0007000686%22%7D%7D%2C%22sortBy%22%3A%22BestMatch%22%7D",
+    "mailto:sales@plpc.com",
+    "http://www.plpc.com/",
+    "https://www.shopsaitech.com/western-digital-wd-products",
+    "https://www.samsclub.com/s/sandisk",
+    "https://www.staples.com/western+digital/directory_western%2520digital?",
+    "https://www.target.com/s?searchTerm=WD",
+    "https://www.tigerdirect.com/applications/SearchTools/search.asp?keywords=western+digital",
+    "https://www.walmart.com/search/?query=wd&cat_id=0",
+    "http://www.zones.com/site/promotions/index.html?page_id=3272",
+    "https://www.westerndigital.com/region-selector",
+    "https://www.westerndigital.com/store/business/my-account",
+    "https://www.westerndigital.com/store/my-account",
+    "https://www.westerndigital.com/company/programs/communications-registration",
+    "https://www.westerndigital.com/support/store/warranty-policy",
+    "https://www.westerndigital.com/support/store/return-policy",
+    "https://www.westerndigital.com/company/distributors",
+    "https://www.westerndigital.com/company/contact-us?selectedValue=looking-to-purchase",
+    "https://www.westerndigital.com/company/programs/data-recovery",
+    "https://www.westerndigital.com/company/programs/easy-recycle",
+    "https://www.westerndigital.com/business/line-of-credit",
+    "https://www.westerndigital.com/business/pro-rewards",
+    "https://www.westerndigital.com/company/partners",
+    "https://www.westerndigital.com/company/leadership",
+    "https://www.westerndigital.com/company/contact-us",
+    "https://www.westerndigital.com/support/store/resource-library",
+    "https://www.instagram.com/wd_official/",
+    "https://www.linkedin.com/company/western-digital/",
+    "https://x.com/wd_corporation",
+    "https://www.facebook.com/WD",
+    "https://www.youtube.com/channel/UCQpijqbZeCM3zLew0ZwiX4A",
+    "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-03-17-ethisphere-names-western-digital-as-one-of-the-2026-worlds-most-ethical-companies",
+    "https://www.westerndigital.com/legal/privacy-statement",
+    "https://www.westerndigital.com/legal",
+    "https://www.westerndigital.com/legal/trademarks",
+    "https://www.westerndigital.com/legal/terms-and-conditions-of-sale-consumer",
+    "https://www.westerndigital.com/company/sustainability/product-compliance"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/brand/wd/wd-header-main-logo.svg",
+        "alt": "",
+        "w": 83,
+        "h": 48
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/adorama-retailer-logo_76063401551116660.png",
+        "alt": "Adorama",
+        "w": 445,
+        "h": 85
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/Altex-Logo.png",
+        "alt": "Altex Electronics",
+        "w": 1916,
+        "h": 716
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/amazon_73773412722287862.jpg",
+        "alt": "Amazon",
+        "w": 247,
+        "h": 82
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/bh-retailer-logo.png",
+        "alt": "B&H",
+        "w": 113,
+        "h": 79
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/best-buy-retailer-logo_76064035862675709.jpg",
+        "alt": "Best Buy",
+        "w": 165,
+        "h": 113
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/best-buy-for-business-logo.jpg",
+        "alt": "Best Buy for Business",
+        "w": 170,
+        "h": 170
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/buy-dig-retailer-logo.gif",
+        "alt": "BuyDigcom",
+        "w": 170,
+        "h": 170
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/resl-US-CDW.jpg",
+        "alt": "CDW",
+        "w": 100,
+        "h": 74
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/central-computers-logo.png",
+        "alt": "Central Computers",
+        "w": 3000,
+        "h": 1050
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/connection.jpg",
+        "alt": "Connection",
+        "w": 170,
+        "h": 170
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/insight-logo_73759761526663143.jpg",
+        "alt": "Insight",
+        "w": 2117,
+        "h": 1088
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/microcenter_76060089406965883.png",
+        "alt": "Micro Center",
+        "w": 10417,
+        "h": 2371
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/newegg_76060156950888028.jpg",
+        "alt": "Newegg",
+        "w": 500,
+        "h": 209
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/OfficeDepotMax_73782614120212865.png",
+        "alt": "Office Depot / OfficeMax",
+        "w": 345,
+        "h": 98
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/pcrichard_76060300329761431.jpg",
+        "alt": "P.C. Richard & Son",
+        "w": 100,
+        "h": 11
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/PC%20Mall_76060238313147296.jpg",
+        "alt": "PC Mall",
+        "w": 100,
+        "h": 40
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/plpc_73783051394067868.png",
+        "alt": "PLPC",
+        "w": 400,
+        "h": 97
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/sai-tech-logo.png",
+        "alt": "Saitech",
+        "w": 4165,
+        "h": 902
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/SamsClub.gif",
+        "alt": "Sam's Club",
+        "w": 170,
+        "h": 170
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/Staples_76060399915593122.jpg",
+        "alt": "Staples",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/Target_76060499343319702.jpg",
+        "alt": "Target",
+        "w": 170,
+        "h": 170
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/tigerlogo.jpg",
+        "alt": "TigerDirect.Com",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/walmart.jpeg",
+        "alt": "Walmart",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/sandisk-main/en_us/assets/about/wtb/reseller/Zones.jpg",
+        "alt": "Zones",
+        "w": 170,
+        "h": 170
+      },
+      {
+        "src": "https://www.westerndigital.com/content/dam/store/en-us/assets/company/ethisphere-award.png.wdthumb.1280.1280.webp",
+        "alt": "ethisphere-award",
+        "w": 1280,
+        "h": 876
+      }
+    ],
+    "allImgCount": 38,
+    "cssBackgrounds": [],
+    "modals": [
+      "Details & Exclusions .xf-resizer-text-xs p { font-size: .875rem; } .xf-resizer-disclosures p { font-size:.875rem; }"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.westerndigital.com/chatbot/index.html?locale=en-US&countryCode=US&deploymentId=234ef048-ac0d-4aa4-977c-3c114c0fb0e9",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 51200,
+    "realImageCount": 27,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3014,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/content/dam/store/en-us/assets/sys/region-details/regiondetail.xlsx.exceltojson.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "westerndigital.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://westerndigital.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/domains.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/chatbot/locales/en-us/translation.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 605,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/chatbot/locales/en-us/translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/favorites/getUser",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/favorites/getUser",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/location",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 47,
+        "hits": 1,
+        "example": "https://consent.app.relyance.ai/api/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/bin/wd/cache/commerce/productreference.en-us.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65921,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/bin/wd/cache/commerce/productreference.en-us.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/behaviors",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/behaviors",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/banner",
+        "query": [
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/banner",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/locale",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/locale",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/tracking-technologies-localised",
+        "query": [
+          "localeName",
+          "regionName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/tracking-technologies-localised",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/request-url-by-purpose",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/request-url-by-purpose",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.app.relyance.ai",
+        "path": "/api/config/v1/app-{uuid}/processing-activities",
+        "query": [
+          "localeName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://consent.app.relyance.ai/api/config/v1/app-4941bdf7-aac7-545f-8e65-dd508c90585f/processing-activities",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_148cxi7e/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 65,
+        "hits": 1,
+        "example": "https://pixel-config.reddit.com/pixels/t2_148cxi7e/config",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ecomm_pagetype",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/701617496/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/store/cart/getCart",
+        "query": [
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 60,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/store/cart/getCart",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.westerndigital.com",
+        "path": "/graphql/execute.json/wd/wtbendpoint",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.westerndigital.com/graphql/execute.json/wd/wtbendpoint",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/sa.jpeg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/jpeg",
+        "status": 200,
+        "bytes": 651,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/sa.jpeg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 199,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tags.srv.stackadapt.com",
+        "path": "/saq_pxl",
+        "query": [
+          "host",
+          "is_js",
+          "l_src",
+          "l_src_d",
+          "landing_url",
+          "sa-user-id",
+          "sa-user-id-v2",
+          "sa-user-id-v3",
+          "sa_conv_data_css_value",
+          "sa_conv_data_image_value",
+          "shop",
+          "t",
+          "tip",
+          "u_src",
+          "u_src_d",
+          "uid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 116,
+        "hits": 1,
+        "example": "https://tags.srv.stackadapt.com/saq_pxl",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-09ace4b72d173c8eb24",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-09ace4b72d173c8eb24",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "paapi8935.d41.co",
+        "path": "/api",
+        "query": [
+          "form",
+          "req"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 67,
+        "hits": 1,
+        "example": "https://paapi8935.d41.co/api",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "apps.usw2.pure.cloud",
+        "path": "/messenger/i18n/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.usw2.pure.cloud",
+        "path": "/webdeployments/v1/deployments/{uuid}/en-us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 213,
+        "hits": 1,
+        "example": "https://api-cdn.usw2.pure.cloud/webdeployments/v1/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/en-us.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/form-data/{n}",
+        "query": [
+          "ae",
+          "auid",
+          "dma",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "fmt",
+          "frm",
+          "gap.fsrc",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "tag_exp",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/form-data/701617496",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usw2.pure.cloud",
+        "path": "/api/v2/journey/deployments/{uuid}/customers/{uuid}/ping",
+        "query": [
+          "dl",
+          "dt",
+          "sessionId",
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.usw2.pure.cloud/api/v2/journey/deployments/234ef048-ac0d-4aa4-977c-3c114c0fb0e9/customers/6771e774-f90a-4b0a-8371-b1be5cf666fd/ping",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.usw2.pure.cloud",
+        "count": 23
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 18
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "consent.app.relyance.ai",
+        "count": 1
+      },
+      {
+        "host": "analytics.xscreenattribution.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      },
+      {
+        "host": "tags.srv.stackadapt.com",
+        "count": 1
+      },
+      {
+        "host": "paapi8935.d41.co",
+        "count": 1
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "count": 1
+      },
+      {
+        "host": "sc-static.net",
+        "count": 1
+      },
+      {
+        "host": "westerndigital.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.westerndigital.com/company/distributors",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      },
+      {
+        "action": "https://www.westerndigital.com/company/distributors",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 17,
+        "fieldNames": [
+          "wtb-region-dropdown",
+          "wtb-country-dropdown",
+          "wtb-brand-dropdown",
+          "resellerType"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 2,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 6,
+      "thirdPartyEndpoints": 26,
+      "thirdPartyScriptHosts": 19,
+      "inlineDataBlobs": 0,
+      "forms": 2,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/company-distributors-find-a-store.png",
+  "renderedHtml": "pages/company-distributors-find-a-store.html"
+}

@@ -1,0 +1,1242 @@
+{
+ "source": "http://localhost:8791/home-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "promo-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "WD Named to 2026 S&P Dow Jones Best in Class Index North America."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Learn More",
+     "href": "/company/newsroom/press-releases/2026/2026-05-14-wd-named-to-2026-sp-dow-jones-best-in-class-index-north-america"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "|"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Shop",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "WD for Business",
+     "href": "/business"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "nav-bar",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Solutions"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Support"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Company"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "mainContainWrap",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Data Storage at Scale Is Tiered"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tiered storage—spanning HDD, flash, and tape—is the operational standard for hyperscale data centers and scalable AI infrastructure."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Find Out Why",
+     "href": "https://blog.westerndigital.com/tiered-storage-architecture-hyperscale-ai/"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The Drive Behind AI"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "When data scales fast, weak architecture breaks faster."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Take a Closer Look",
+     "href": "/solutions/ai-storage-infrastructure"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Built for Scale"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The enduring role of HDDs in the AI era."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Explore the IDC Research",
+     "href": "/resources/white-paper/idc-hdds-ai-era"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Why Flash-Only AI Storage Fails at Scale"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "When it comes to AI storage architecture, don’t confuse flash-y with foundational. A smart strategy starts with a tiered storage design."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Learn More",
+     "href": "https://blog.westerndigital.com/ai-storage-architecture-tiered-design-flash-hdd/"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Data Storage at Scale Is Tiered"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Tiered storage—spanning HDD, flash, and tape—is the operational standard for hyperscale data centers and scalable AI infrastructure."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Find Out Why",
+     "href": "https://blog.westerndigital.com/tiered-storage-architecture-hyperscale-ai/"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "The Drive Behind AI"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "When data scales fast, weak architecture breaks faster."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Take a Closer Look",
+     "href": "/solutions/ai-storage-infrastructure"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Built for Scale"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "The enduring role of HDDs in the AI era."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Explore the IDC Research",
+     "href": "/resources/white-paper/idc-hdds-ai-era"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Why Flash-Only AI Storage Fails at Scale"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "When it comes to AI storage architecture, don’t confuse flash-y with foundational. A smart strategy starts with a tiered storage design."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Learn More",
+     "href": "https://blog.westerndigital.com/ai-storage-architecture-tiered-design-flash-hdd/"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "The economics of data"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Scaling infrastructure for the AI era."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Flash-y is not foundational"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Why AI needs tiered storage architecture."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "The case for storage tiering"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Different workloads, different storage."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "AI is really a data system"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Compute isn’t AI’s biggest challenge."
+    },
+    {
+     "role": "heading",
+     "order": 32,
+     "text": "WD Hard Drive Storage Solutions for Data Centers, NAS, Enterprise, Surveillance & AI"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Shop by Category"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Solutions"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Industries"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "See All Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "See All Solutions",
+     "href": "/solutions"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Hard Drives (HDD)"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "WD Gold Enterprise Class Hard Drive"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "from Western Digital"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Available up to 26TB , WD Gold enterprise-class drives deliver the capacity, durability, and performance to power deskside AI workflows and . Run AI models locally, store massive datasets and 4K/8K video on-prem, and keep sensitive data under your control, with or without the cloud.​"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "1"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "professional creative work",
+     "href": "/solutions/creative-professionals"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Starting at $299.99 /"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Shop Now",
+     "href": "/products/internal-drives/wd-gold-sata-hdd"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "30-Day Money-Back Guarantee"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "5-Year Limited Warranty"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Hard Drives (HDD)"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "WD Red Pro NAS Hard Drive"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "from Western Digital"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Available in capacities from 2TB to 26TB , WD Red Pro drives are ideal for high-intensity, 24×7 workloads of multi-user enterprise and AI . Delivers the performance, scalability, and dependability for businesses to store, share, and collaborate on large volumes of data in"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "1"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "NAS environments",
+     "href": "/solutions/network-attached-storage"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "RAID-optimized systems.",
+     "href": "/solutions/raid"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Starting at $299.99 /"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Shop Now",
+     "href": "/products/internal-drives/wd-red-pro-sata-hdd"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "30-Day Money-Back Guarantee"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "5-Year Limited Warranty"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Hard Drives (HDD)"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "WD Purple Pro Video Analytics Hard Drive"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "from Western Digital"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Available up to 26TB , WD Purple Pro drives deliver the ultimate reliability, capacity, and performance for the most demanding and — built to capture, retain, and process massive volumes of high-resolution surveillance video in always-on, multi-stream systems."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "1"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "AI-enabled video recording",
+     "href": "/solutions/surveillance"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "analytics environments",
+     "href": "/solutions/surveillance/enterprise-ai-video"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Starting at $464.99 /"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Shop Now",
+     "href": "/products/internal-drives/wd-purple-pro-sata-hdd"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "30-Day Money-Back Guarantee"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "5-Year Limited Warranty"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Hard Drives (HDD)"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "WD_BLACK 3.5-Inch Gaming Hard Drive"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "from WD_BLACK"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Elevate your gaming experience with WD_BLACK boasting capacities of up to 10TB . Say goodbye to storage constraints and hello to seamless gaming sessions. With WD_BLACK, you can effortlessly download the latest AAA titles and maintain your extensive library of classics and favorites without compromise. Expand your gaming horizons, store more, and immerse yourself in endless adventures with WD_BLACK Gaming Hard Drives."
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Gaming Hard Drives",
+     "href": "/content/store/en-us/solutions/gaming/desktop-laptop-gaming-storage-drives"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Starting at $299.99 /"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Shop Now",
+     "href": "/products/internal-drives/wd-black-desktop-sata-hdd"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "30-Day Money-Back Guarantee"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "5-Year Limited Warranty"
+    },
+    {
+     "role": "heading",
+     "order": 80,
+     "text": "A Legacy in Technology and Innovation"
+    },
+    {
+     "role": "eyebrow",
+     "order": 81,
+     "text": "Technology"
+    },
+    {
+     "role": "heading",
+     "order": 82,
+     "text": "Flash for the moment—HDDs for a lifetime"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Learn Why",
+     "href": "https://blog.westerndigital.com/ai-storage-architecture-flash-hdd/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 84,
+     "text": "Technology"
+    },
+    {
+     "role": "heading",
+     "order": 85,
+     "text": "TIME names WD a Most Sustainable Company"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Learn More",
+     "href": "https://blog.westerndigital.com/wd-worlds-most-sustainable-companies-2026/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 87,
+     "text": "Data"
+    },
+    {
+     "role": "heading",
+     "order": 88,
+     "text": "AI compute ends—but data keeps compounding"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "Get the Full Story",
+     "href": "https://blog.westerndigital.com/ai-storage-demand-data-center-build-out/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 90,
+     "text": "TECHNOLOGY"
+    },
+    {
+     "role": "heading",
+     "order": 91,
+     "text": "Storage is not the same as memory"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "Learn the Difference",
+     "href": "https://blog.westerndigital.com/ai-storage-vs-memory-infrastructure/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 93,
+     "text": "Products"
+    },
+    {
+     "role": "heading",
+     "order": 94,
+     "text": "Store and scale with future-ready platforms"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Explore Solutions",
+     "href": "/solutions/data-center-storage-platform"
+    },
+    {
+     "role": "eyebrow",
+     "order": 96,
+     "text": "Technology"
+    },
+    {
+     "role": "heading",
+     "order": 97,
+     "text": "Reinvented for the AI-driven data economy"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "Discover More",
+     "href": "/company/innovation/hdd-innovation"
+    },
+    {
+     "role": "eyebrow",
+     "order": 99,
+     "text": "People"
+    },
+    {
+     "role": "heading",
+     "order": 100,
+     "text": "Meeting the moment of AI-driven transformation"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "Learn More",
+     "href": "/company/campaign/we-make-it-possible"
+    },
+    {
+     "role": "heading",
+     "order": 102,
+     "text": "Popular Products"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "G-DRIVE Where Ideas Live"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Evolving with the creators shaping tomorrow."
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Learn More",
+     "href": "/brand/g-drive"
+    },
+    {
+     "role": "heading",
+     "order": 106,
+     "text": "Case Studies & Resources"
+    },
+    {
+     "role": "eyebrow",
+     "order": 107,
+     "text": "Case Study"
+    },
+    {
+     "role": "heading",
+     "order": 108,
+     "text": "Media Streaming Superpower"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Read More",
+     "href": "/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-media-streaming-superpower-leveraged-hdds.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 110,
+     "text": "Case Study"
+    },
+    {
+     "role": "heading",
+     "order": 111,
+     "text": "Wasabi Decreased Cost Per Terabyte by Over 25%"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "Read More",
+     "href": "/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-wasabi-hot-cloud-storage.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 113,
+     "text": "Case Study"
+    },
+    {
+     "role": "heading",
+     "order": 114,
+     "text": "How CERN Enabled Consistent Peak Performance"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "Read More",
+     "href": "/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-cern.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 116,
+     "text": "Case Study"
+    },
+    {
+     "role": "heading",
+     "order": 117,
+     "text": "How Dropbox Achieved Exabyte Scale with WD"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Read Now",
+     "href": "/content/store/en-us/explore/documents/pdf?item=|content|dam|doc-library|en_us|assets|public|western-digital|collateral|case-study|case-study-dropbox-magic-pocket-achieves-exabyte-scale-with-smr-hdds.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 119,
+     "text": "Tool"
+    },
+    {
+     "role": "heading",
+     "order": 120,
+     "text": "Surveillance Hard Drive Calculator"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Learn More",
+     "href": "/tools/surveillance-capacity-calculator"
+    },
+    {
+     "role": "eyebrow",
+     "order": 122,
+     "text": "Tool"
+    },
+    {
+     "role": "heading",
+     "order": 123,
+     "text": "RAID Capacity Calculator"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Learn More",
+     "href": "/tools/raid-capacity-calculator"
+    },
+    {
+     "role": "heading",
+     "order": 125,
+     "text": "Designed to Support Businesses of Every Size"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "WD for Business is built to make enterprise storage simple, flexible, and cost-effective—whether you’re buying for an SMB or scaling a global infrastructure."
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "Here’s what your business can unlock:"
+    },
+    {
+     "role": "heading",
+     "order": 128,
+     "text": "Small or Medium Business"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Improve team productivity and reduce IT complexity with scalable data storage for small business. Enjoy bulk hard drive pricing, flexible credit, and a seamless procurement experience."
+    },
+    {
+     "role": "heading",
+     "order": 130,
+     "text": "Enterprise & Resellers"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Whether you're managing infrastructure or serving clients, our program provides tailored pricing, product availability tools, and scalable solutions for high-performance environments. Resellers may also benefit from loyalty rewards and sales enablement resources."
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Learn More about our Benefits",
+     "href": "/business"
+    },
+    {
+     "role": "heading",
+     "order": 133,
+     "text": "About WD"
+    }
+   ],
+   "imgCount": 26,
+   "editableTexts": 53,
+   "repeats": [
+    {
+     "unitSelector": "LI.hero-slide",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.wd-progress-item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.tab-panel",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 5,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.quickview",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.tab",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.about-tile",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "footer-main",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Country/Region:"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "United States",
+     "href": "/region-selector"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "My Account",
+     "href": "/store/my-account"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Sign Up for Email",
+     "href": "/company/programs/communications-registration"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Discounts & Promotions",
+     "href": "/promo"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Product Portfolio",
+     "href": "/products/product-portfolio"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Warranty Policy",
+     "href": "/support/store/warranty-policy"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Return Policy",
+     "href": "/support/store/return-policy"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Distributors & Resellers",
+     "href": "/company/distributors"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Shopping FAQ",
+     "href": "/support/store/shopping-faq"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Programs"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Business Account Benefits",
+     "href": "/business/account-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Data Recovery",
+     "href": "/company/programs/data-recovery"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Recycle Program",
+     "href": "/company/programs/easy-recycle"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "WD Credit",
+     "href": "/business/line-of-credit"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Pro Rewards",
+     "href": "/business/pro-rewards"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Partner Programs",
+     "href": "/company/partners"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Philanthropic Programs",
+     "href": "/company/corporate-responsibility/philanthropy"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Western Digital Capital",
+     "href": "/company/western-digital-capital"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "About Us",
+     "href": "/company"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "News & Events",
+     "href": "/company/newsroom"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Leadership",
+     "href": "/company/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Corporate Responsibility",
+     "href": "/company/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Privacy Center",
+     "href": "/privacy-center"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Blog",
+     "href": "https://blog.westerndigital.com/"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Careers",
+     "href": "/careers"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Investors",
+     "href": "https://investor.wdc.com/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Office Locations",
+     "href": "/company/office-locations"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Contact Us",
+     "href": "/company/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Support"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Get Help",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Resource Library",
+     "href": "/support/store/resource-library"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Product Security",
+     "href": "/support/product-security"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Online Store Support: US +1 (855)-799-5529 Monday — Friday, 8am — 5pm PST"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.footer-col",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 8,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer-legal",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Privacy",
+     "href": "/legal/privacy-statement"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Legal",
+     "href": "/legal"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Trademarks",
+     "href": "/legal/trademarks"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Terms of Sale",
+     "href": "/legal/terms-and-conditions-of-sale-consumer"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Product Compliance",
+     "href": "/company/sustainability/product-compliance"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Cookie Preferences",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "© 2026 Western Digital Corporation or its affiliates. All rights reserved."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}
