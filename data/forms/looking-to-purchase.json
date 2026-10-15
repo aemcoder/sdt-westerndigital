@@ -1,0 +1,307 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 15, curated from snapshot-forms + server HTML)",
+  "writtenAt": "2026-10-15T16:34:31Z",
+  "source": "https://www.westerndigital.com/company/contact-us",
+  "form": "webform-looking-to-purchase-form"
+ },
+ "name": "looking-to-purchase",
+ "topic": "Looking to Purchase (For Business)",
+ "title": "Let us help you find a solutions to fit your needs.",
+ "intro": [],
+ "requiredNote": "* Required Fields",
+ "consent": "By clicking on \"Submit\", I represent that I understand and agree that the information submitted in this form will be transmitted to and stored by WD in the USA and other countries outside of the European Economic Area and that WD will process and store the information, including any updates to my information, in accordance with the WD Privacy Statement.",
+ "submitLabel": "Submit",
+ "sourceEndpoint": "/bin/wd/sf/lead/sub",
+ "sourceFormName": "ContactUsLookingToPurchaseMktoB2B",
+ "sourceRedirectOnSuccess": "/content/store/en-us/company/contact-us/looking-to-purchase/thank-you",
+ "errorMessage": "Oops! Something went wrong. Please try again later.",
+ "fields": [
+  {
+   "name": "fs_1_productCategoryContactUs",
+   "type": "select",
+   "label": "*Product Category",
+   "options": [
+    "Hard Drives (HDDs)",
+    "Data Center Storage",
+    "Network Attached Storage (NAS)",
+    "Accessories",
+    "Other"
+   ],
+   "placeholderValue": "-1",
+   "validate": [
+    "requiredSelection"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "productCategoryOther",
+   "type": "text",
+   "label": "*Enter Product Category",
+   "maxlength": 100,
+   "required": true,
+   "error": "Field cannot be empty.",
+   "showWhen": {
+    "field": "fs_1_productCategoryContactUs",
+    "value": "Other"
+   }
+  },
+  {
+   "name": "firstName",
+   "type": "text",
+   "label": "*First Name",
+   "maxlength": 30,
+   "validate": [
+    "empty"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "lastName",
+   "type": "text",
+   "label": "*Last Name",
+   "maxlength": 30,
+   "validate": [
+    "empty"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "phone",
+   "type": "tel",
+   "label": "*Contact Number (numbers only)",
+   "maxlength": 32,
+   "validate": [
+    "onlyNumbers"
+   ],
+   "required": true,
+   "error": "Enter a valid number"
+  },
+  {
+   "name": "email",
+   "type": "email",
+   "label": "*Email Address",
+   "maxlength": 128,
+   "validate": [
+    "email"
+   ],
+   "required": true,
+   "error": "Enter a valid email address"
+  },
+  {
+   "name": "cusJobTitle",
+   "type": "text",
+   "label": "*Title",
+   "maxlength": 80,
+   "validate": [
+    "empty"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "ext_regBusinessName",
+   "type": "text",
+   "label": "*Company Name",
+   "maxlength": 150,
+   "validate": [
+    "empty"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "ext_prefIndustry",
+   "type": "select",
+   "label": "Industry",
+   "options": [
+    "Business Services",
+    "Defense / Military",
+    "Education",
+    "Energy & Utilities",
+    "Government",
+    "Healthcare, Pharmaceuticals, Biotech",
+    "Legal Services",
+    "Manufacturing",
+    "Media & Entertainment",
+    "Real Estate & Construction",
+    "Software & Internet",
+    "Telecommunications",
+    "Transportation",
+    "Travel, Recreation & Leisure",
+    "Wholesale & Distributors",
+    "Cloud",
+    "Datacenter",
+    "Digital Security (Software)",
+    "Physical Security",
+    "Retail/Point-of-Sale",
+    "Video Production",
+    "Video Surveillance",
+    "Workstations/HPC",
+    "Gaming",
+    "Other"
+   ],
+   "placeholderValue": "Industry"
+  },
+  {
+   "name": "ext_regNumOfEmp",
+   "type": "select",
+   "label": "Number Of Employees",
+   "options": [
+    "1 - 5",
+    "6 - 20",
+    "21 - 50",
+    "51 - 250",
+    "251 - 1000",
+    "1001 - 5000",
+    "5001 - 10,000",
+    "10,000+"
+   ],
+   "placeholderValue": "na"
+  },
+  {
+   "name": "country",
+   "type": "select",
+   "label": "*Select Country/Region",
+   "options": [
+    "Albania",
+    "Algeria",
+    "Antigua and Barbuda",
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Bahrain",
+    "Belarus",
+    "Belgium",
+    "Bolivia, Plurinational State of",
+    "Bosnia Herzegovina",
+    "Botswana",
+    "Brazil",
+    "Bulgaria",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Costa Rica",
+    "Croatia",
+    "Cyprus",
+    "Czech Republic",
+    "Denmark",
+    "Dominican Republic",
+    "Ecuador",
+    "Egypt",
+    "El Salvador",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Ghana",
+    "Greece",
+    "Guatemala",
+    "Honduras",
+    "Hong Kong",
+    "Hungary",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Jordan",
+    "Kenya",
+    "Korea",
+    "Kuwait",
+    "Latvia",
+    "Lebanon",
+    "Lithuania",
+    "Luxembourg",
+    "Macedonia, the former Yugoslav Republic of",
+    "Malaysia",
+    "Malta",
+    "Mexico",
+    "Morocco",
+    "Mozambique",
+    "Namibia",
+    "Netherlands",
+    "New Zealand",
+    "Nicaragua",
+    "Nigeria",
+    "Norway",
+    "Oman",
+    "Panama",
+    "Paraguay",
+    "Peru",
+    "Philippines",
+    "Poland",
+    "Portugal",
+    "Puerto Rico",
+    "Qatar",
+    "Romania",
+    "Russian Federation",
+    "Saudi Arabia",
+    "Serbia",
+    "Singapore",
+    "Slovakia",
+    "Slovenia",
+    "South Africa",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "Thailand",
+    "Tunisia",
+    "Turkey",
+    "Uganda",
+    "Ukraine",
+    "United Arab Emirates",
+    "United Kingdom",
+    "United States",
+    "Uruguay",
+    "Venezuela, Bolivarian Republic of",
+    "Viet Nam",
+    "Yemen",
+    "Zambia",
+    "Zimbabwe"
+   ],
+   "placeholderValue": "-1",
+   "validate": [
+    "requiredSelection"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "state",
+   "type": "text",
+   "label": "State (enter full name, e.g., \u201cCalifornia\u201d)",
+   "maxlength": 100,
+   "validate": [
+    "minFieldLength"
+   ],
+   "required": true,
+   "error": "Enter full name, e.g., \u201cCalifornia\u201d",
+   "minLength": 3
+  },
+  {
+   "name": "fs_7_personNotes",
+   "type": "textarea",
+   "label": "*Enter your request details here. If applicable, please include product SKU(s), quantity needed, target price, and use case.",
+   "maxlength": 480,
+   "validate": [
+    "empty"
+   ],
+   "required": true,
+   "error": "Field cannot be empty."
+  },
+  {
+   "name": "marketingOptin",
+   "type": "checkbox",
+   "label": "By checking the box, you acknowledge WD's Privacy Statement and agree to receive communication from WD that includes newsletters, updates, and promotions related to WD's products. You can withdraw your consent at any time.",
+   "privacyHref": "https://www.westerndigital.com/legal/privacy-statement"
+  }
+ ]
+}
