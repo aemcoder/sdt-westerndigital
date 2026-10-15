@@ -1,0 +1,195 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 23)",
+  "writtenAt": "2026-10-15T16:33:28Z",
+  "source": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+  "method": "live controls after settle + inline calculator script read; 15 RAID / 10 surveillance vectors driven on the live UI (stardust/dynamics/rows-14-15-23/calculator-vectors.json)"
+ },
+ "id": "raid",
+ "logic": "raid",
+ "setupTitle": "Your Array setup",
+ "submit": "Calculate storage",
+ "reset": "Reset",
+ "fields": [
+  {
+   "name": "raid-type",
+   "type": "select",
+   "label": "RAID type",
+   "default": "raid5",
+   "options": [
+    [
+     "raid0",
+     "RAID 0"
+    ],
+    [
+     "raid1",
+     "RAID 1"
+    ],
+    [
+     "raid5",
+     "RAID 5"
+    ],
+    [
+     "raid6",
+     "RAID 6"
+    ],
+    [
+     "raid10",
+     "RAID 10*"
+    ],
+    [
+     "raid50",
+     "RAID 50*"
+    ],
+    [
+     "raid60",
+     "RAID 60*"
+    ],
+    [
+     "jbod",
+     "JBOD/JBOF*"
+    ],
+    [
+     "spanning",
+     "Spanning*"
+    ]
+   ],
+   "notes": {
+    "raid10": "nested",
+    "raid50": "nested",
+    "raid60": "nested",
+    "jbod": "jbod",
+    "spanning": "jbod"
+   }
+  },
+  {
+   "name": "quantity",
+   "type": "number",
+   "label": "Drive quantity",
+   "default": 8,
+   "min": 3,
+   "max": 24,
+   "step": 1,
+   "group": "drives",
+   "noWrap": true
+  },
+  {
+   "name": "capacity",
+   "type": "select",
+   "label": "Drive Size",
+   "default": "8",
+   "group": "drives",
+   "noWrap": true,
+   "options": [
+    [
+     "1",
+     "1 TB"
+    ],
+    [
+     "2",
+     "2 TB"
+    ],
+    [
+     "4",
+     "4 TB"
+    ],
+    [
+     "6",
+     "6 TB"
+    ],
+    [
+     "8",
+     "8 TB"
+    ],
+    [
+     "10",
+     "10 TB"
+    ],
+    [
+     "12",
+     "12 TB"
+    ],
+    [
+     "14",
+     "14 TB"
+    ],
+    [
+     "16",
+     "16 TB"
+    ],
+    [
+     "18",
+     "18 TB"
+    ],
+    [
+     "20",
+     "20 TB"
+    ],
+    [
+     "22",
+     "22 TB"
+    ],
+    [
+     "24",
+     "24 TB"
+    ],
+    [
+     "26",
+     "26 TB"
+    ]
+   ]
+  }
+ ],
+ "rules": {
+  "minDrives": {
+   "raid0": 2,
+   "raid1": 2,
+   "raid5": 3,
+   "raid6": 4,
+   "raid10": 4,
+   "raid50": 6,
+   "raid60": 8,
+   "jbod": 2,
+   "spanning": 2
+  },
+  "even": [
+   "raid10",
+   "raid50",
+   "raid60"
+  ]
+ },
+ "messages": {
+  "even": "Drive count must be an even number for this RAID type.",
+  "min": "Value must be greater than or equal to {min}.",
+  "max": "Value must be less than or equal to {max}."
+ },
+ "results": {
+  "eyebrow": "Estimated capacity",
+  "items": [
+   {
+    "key": "total",
+    "label": "Total storage needed",
+    "size": "l",
+    "rule": true
+   },
+   {
+    "key": "available",
+    "label": "Available for storage"
+   },
+   {
+    "key": "detail",
+    "detail": true
+   },
+   {
+    "key": "redundancy",
+    "label": "Used for redundancy"
+   }
+  ]
+ },
+ "initial": {
+  "total": "64 TB",
+  "available": "56 TB",
+  "detail": "8 x 8TB in RAID 5 = 56TB Usable (56,000GB)",
+  "redundancy": "8 TB"
+ }
+}

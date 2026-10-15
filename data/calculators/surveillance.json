@@ -1,0 +1,263 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 23)",
+  "writtenAt": "2026-10-15T16:33:28Z",
+  "source": "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
+  "method": "live controls after settle + inline calculator script read; 15 RAID / 10 surveillance vectors driven on the live UI (stardust/dynamics/rows-14-15-23/calculator-vectors.json)"
+ },
+ "id": "surveillance",
+ "logic": "surveillance",
+ "setupTitle": "System Setup",
+ "submit": "Calculate storage",
+ "reset": "Reset",
+ "fields": [
+  {
+   "name": "number_of_cameras",
+   "type": "number",
+   "label": "Number of cameras",
+   "default": 8,
+   "min": 1,
+   "max": 64,
+   "step": 1,
+   "group": "setup",
+   "message": "Input number between 1 and 64"
+  },
+  {
+   "name": "days_to_store",
+   "type": "number",
+   "label": "Days to store",
+   "default": 30,
+   "min": 1,
+   "max": 365,
+   "step": 1,
+   "group": "setup",
+   "message": "Input number between 1 and 365"
+  },
+  {
+   "name": "hours_per_day",
+   "type": "number",
+   "label": "Hours per day",
+   "default": 24,
+   "min": 1,
+   "max": 24,
+   "step": 1,
+   "group": "setup",
+   "message": "Input number between 1 and 24"
+  },
+  {
+   "section": "Video format and quality",
+   "name": "codec",
+   "type": "radio",
+   "label": "Video format",
+   "default": null,
+   "tip": "codec",
+   "options": [
+    [
+     "mpeg",
+     "MJPEG"
+    ],
+    [
+     "h264",
+     "H.264"
+    ],
+    [
+     "h265",
+     "H.265"
+    ],
+    [
+     "h265plus",
+     "H.265+"
+    ]
+   ]
+  },
+  {
+   "name": "resolution",
+   "type": "select",
+   "label": "Resolution",
+   "default": "33177600",
+   "tip": "resolution",
+   "group": "stream",
+   "options": [
+    [
+     "33177600",
+     "33.2MP (8K)"
+    ],
+    [
+     "12288000",
+     "12MP (4000x3072)"
+    ],
+    [
+     "8294400",
+     "8MP (4K)"
+    ],
+    [
+     "6291456",
+     "6MP (3072x2048)"
+    ],
+    [
+     "5038848",
+     "5MP (2592x1944)"
+    ],
+    [
+     "4085760",
+     "4MP (2688x1520)"
+    ],
+    [
+     "3145728",
+     "3MP (2048x1536)"
+    ],
+    [
+     "2073600",
+     "2MP (1920x1080)"
+    ],
+    [
+     "1310720",
+     "1.3MP (1280x1024)"
+    ],
+    [
+     "921600",
+     "1MP (1280x720)"
+    ],
+    [
+     "84480",
+     "CIF (352x240)"
+    ],
+    [
+     "337920",
+     "D1 (704x480)"
+    ],
+    [
+     "168960",
+     "HD1 (704x240)"
+    ]
+   ]
+  },
+  {
+   "name": "fps",
+   "type": "number",
+   "label": "Frames per second (FPS)",
+   "default": 30,
+   "min": 1,
+   "max": 240,
+   "step": 1,
+   "group": "stream",
+   "message": "Input number between 1 and 240",
+   "tip": "fps"
+  },
+  {
+   "name": "quality",
+   "type": "radio",
+   "label": "Video quality",
+   "default": "high",
+   "tip": "quality",
+   "group": "look",
+   "options": [
+    [
+     "high",
+     "High"
+    ],
+    [
+     "medium",
+     "Medium"
+    ],
+    [
+     "low",
+     "Low"
+    ]
+   ]
+  },
+  {
+   "name": "activity",
+   "type": "radio",
+   "label": "Screen activity",
+   "default": "high",
+   "tip": "activity",
+   "group": "look",
+   "options": [
+    [
+     "high",
+     "High"
+    ],
+    [
+     "medium",
+     "Medium"
+    ],
+    [
+     "low",
+     "Low"
+    ]
+   ]
+  }
+ ],
+ "ratios": {
+  "mpeg": {
+   "high": 16,
+   "medium": 25,
+   "low": 31
+  },
+  "h264": {
+   "high": {
+    "high": 98,
+    "medium": 102,
+    "low": 105
+   },
+   "medium": {
+    "high": 160,
+    "medium": 173,
+    "low": 181
+   },
+   "low": {
+    "high": 220,
+    "medium": 242,
+    "low": 260
+   }
+  },
+  "h265": {
+   "high": {
+    "high": 260,
+    "medium": 272,
+    "low": 282
+   },
+   "medium": {
+    "high": 480,
+    "medium": 510,
+    "low": 536
+   },
+   "low": {
+    "high": 620,
+    "medium": 670,
+    "low": 710
+   }
+  },
+  "h265plus": {
+   "high": {
+    "high": 335,
+    "medium": 351,
+    "low": 364
+   },
+   "medium": {
+    "high": 590,
+    "medium": 621,
+    "low": 643
+   },
+   "low": {
+    "high": 776,
+    "medium": 834,
+    "low": 833
+   }
+  }
+ },
+ "results": {
+  "eyebrow": "Estimated total storage capacity",
+  "items": [
+   {
+    "key": "tb",
+    "unit": "(TB)*",
+    "size": "l"
+   }
+  ]
+ },
+ "initial": {
+  "tb": "74.420"
+ }
+}
