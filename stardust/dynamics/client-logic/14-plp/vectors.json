@@ -1,0 +1,23 @@
+{ "note": "row 14 PLP flow vectors: URL state (filterBy…/page) and sort, recorded on the source and on the spike-c copies",
+  "rows": [
+  { "path": "/products/hdd/internal-hdd" },
+  { "path": "/products/hdd/internal-hdd", "qs": "?page=2" },
+  { "path": "/products/hdd/internal-hdd", "qs": "?filterByBrandName=WD_BLACK" },
+  { "path": "/products/hdd/internal-hdd", "qs": "?filterByUseCaseName=Data+Center" },
+  { "path": "/products/hdd/internal-hdd", "qs": "?filterByBrandName=Western+Digital&page=2" },
+  { "path": "/products/hdd/internal-hdd", "sort": "name-asc" },
+  { "path": "/products/hdd/internal-hdd", "sort": "launchDate" },
+  { "path": "/products/hdd" },
+  { "path": "/products/hdd", "qs": "?page=3" },
+  { "path": "/products/hdd", "qs": "?filterByVvc-capacity=01+TB+-+04+TB" },
+  { "path": "/products/hdd/external-hdd" },
+  { "path": "/products/hdd/external-hdd", "qs": "?page=2" },
+  { "path": "/products/accessories" },
+  { "path": "/products/accessories", "qs": "?page=2" },
+  { "path": "/products/data-center-storage" },
+  { "path": "/products/data-center-storage", "qs": "?page=2" },
+  { "path": "/products/recertified" },
+  { "path": "/products/recertified", "qs": "?page=2" },
+  { "path": "/products/final-production" },
+  { "path": "/products/final-production", "sort": "name-desc" }
+  ] }

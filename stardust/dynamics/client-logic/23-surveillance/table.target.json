@@ -1,0 +1,289 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics client-logic vectors (value-reading variant)",
+  "writtenAt": "2026-10-15T16:43:16.946Z",
+  "url": "https://spike-c--sdt-westerndigital--aemcoder.aem.page/spike-c/tools/surveillance-capacity-calculator",
+  "label": "target"
+ },
+ "rows": [
+  {
+   "i": 0,
+   "input": {},
+   "output": {
+    "tb": "77396.705",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 1,
+   "input": {
+    "codec": "h264"
+   },
+   "output": {
+    "tb": "789.762",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 2,
+   "input": {
+    "codec": "mpeg",
+    "quality": "high",
+    "activity": "low"
+   },
+   "output": {
+    "tb": "4837.294",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 3,
+   "input": {
+    "codec": "mpeg",
+    "quality": "medium",
+    "activity": "medium"
+   },
+   "output": {
+    "tb": "3095.868",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 4,
+   "input": {
+    "codec": "mpeg",
+    "quality": "low",
+    "activity": "high"
+   },
+   "output": {
+    "tb": "2496.668",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 5,
+   "input": {
+    "codec": "h264",
+    "quality": "high",
+    "activity": "low"
+   },
+   "output": {
+    "tb": "737.111",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 6,
+   "input": {
+    "codec": "h264",
+    "quality": "medium",
+    "activity": "medium"
+   },
+   "output": {
+    "tb": "447.380",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 7,
+   "input": {
+    "codec": "h264",
+    "quality": "low",
+    "activity": "high"
+   },
+   "output": {
+    "tb": "351.803",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 8,
+   "input": {
+    "codec": "h265",
+    "quality": "high",
+    "activity": "low"
+   },
+   "output": {
+    "tb": "274.456",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 9,
+   "input": {
+    "codec": "h265",
+    "quality": "medium",
+    "activity": "medium"
+   },
+   "output": {
+    "tb": "151.758",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 10,
+   "input": {
+    "codec": "h265",
+    "quality": "low",
+    "activity": "high"
+   },
+   "output": {
+    "tb": "124.833",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 11,
+   "input": {
+    "codec": "h265plus",
+    "quality": "high",
+    "activity": "low"
+   },
+   "output": {
+    "tb": "212.628",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 12,
+   "input": {
+    "codec": "h265plus",
+    "quality": "medium",
+    "activity": "medium"
+   },
+   "output": {
+    "tb": "124.632",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 13,
+   "input": {
+    "codec": "h265plus",
+    "quality": "low",
+    "activity": "high"
+   },
+   "output": {
+    "tb": "99.738",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 14,
+   "input": {
+    "codec": "h265",
+    "resolution": "8294400",
+    "fps": 15
+   },
+   "output": {
+    "tb": "37.210",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 15,
+   "input": {
+    "codec": "h265",
+    "resolution": "6291456",
+    "fps": 10,
+    "number_of_cameras": 64,
+    "days_to_store": 365,
+    "hours_per_day": 24
+   },
+   "output": {
+    "tb": "976.775",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 16,
+   "input": {
+    "codec": "h264",
+    "resolution": "2073600",
+    "fps": 30,
+    "number_of_cameras": 1,
+    "days_to_store": 1,
+    "hours_per_day": 1
+   },
+   "output": {
+    "tb": "0.005",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 17,
+   "input": {
+    "codec": "h265plus",
+    "resolution": "84480",
+    "fps": 240
+   },
+   "output": {
+    "tb": "2.510",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 18,
+   "input": {
+    "codec": "mpeg",
+    "resolution": "921600",
+    "quality": "low",
+    "activity": "low",
+    "number_of_cameras": 16,
+    "days_to_store": 14,
+    "hours_per_day": 12
+   },
+   "output": {
+    "tb": "17.261",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 19,
+   "input": {
+    "codec": "h264",
+    "resolution": "12288000",
+    "quality": "medium",
+    "activity": "high",
+    "fps": 20
+   },
+   "output": {
+    "tb": "119.439",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 20,
+   "input": {
+    "codec": "h265",
+    "number_of_cameras": 65
+   },
+   "output": {
+    "tb": "---",
+    "invalid": "number_of_cameras: Input number between 1 and 64"
+   }
+  },
+  {
+   "i": 21,
+   "input": {
+    "codec": "h265",
+    "hours_per_day": 25
+   },
+   "output": {
+    "tb": "---",
+    "invalid": "hours_per_day: Input number between 1 and 24"
+   }
+  },
+  {
+   "i": 22,
+   "input": {
+    "codec": "h265",
+    "fps": 0
+   },
+   "output": {
+    "tb": "---",
+    "invalid": "fps: Input number between 1 and 240"
+   }
+  }
+ ]
+}

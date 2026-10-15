@@ -1,0 +1,381 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics client-logic vectors (value-reading variant)",
+  "writtenAt": "2026-10-15T16:44:44.457Z",
+  "url": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+  "label": "source"
+ },
+ "rows": [
+  {
+   "i": 0,
+   "input": {},
+   "output": {
+    "total": "64 TB",
+    "available": "56 TB",
+    "redundancy": "8 TB",
+    "detail": "8 x 8TB in RAID 5 = 56TB Usable (56,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 1,
+   "input": {
+    "raid-type": "raid0",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "64 TB",
+    "redundancy": "0 TB",
+    "detail": "8 x 8TB in RAID 0 = 64TB Usable (64,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 2,
+   "input": {
+    "raid-type": "raid1",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "8 TB",
+    "redundancy": "56 TB",
+    "detail": "8 x 8TB in RAID 1 = 8TB Usable (8,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 3,
+   "input": {
+    "raid-type": "raid5",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "56 TB",
+    "redundancy": "8 TB",
+    "detail": "8 x 8TB in RAID 5 = 56TB Usable (56,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 4,
+   "input": {
+    "raid-type": "raid6",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "48 TB",
+    "redundancy": "16 TB",
+    "detail": "8 x 8TB in RAID 6 = 48TB Usable (48,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 5,
+   "input": {
+    "raid-type": "raid10",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "32 TB",
+    "redundancy": "32 TB",
+    "detail": "8 x 8TB in RAID 10* = 32TB Usable (32,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 6,
+   "input": {
+    "raid-type": "raid50",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "48 TB",
+    "redundancy": "16 TB",
+    "detail": "8 x 8TB in RAID 50* = 48TB Usable (48,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 7,
+   "input": {
+    "raid-type": "raid60",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "32 TB",
+    "redundancy": "32 TB",
+    "detail": "8 x 8TB in RAID 60* = 32TB Usable (32,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 8,
+   "input": {
+    "raid-type": "jbod",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "64 TB",
+    "redundancy": "0 TB",
+    "detail": "8 x 8TB in JBOD/JBOF* = 64TB Usable (64,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 9,
+   "input": {
+    "raid-type": "spanning",
+    "quantity": 8,
+    "capacity": 8
+   },
+   "output": {
+    "total": "64 TB",
+    "available": "64 TB",
+    "redundancy": "0 TB",
+    "detail": "8 x 8TB in Spanning* = 64TB Usable (64,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 10,
+   "input": {
+    "raid-type": "raid0",
+    "quantity": 2,
+    "capacity": 1
+   },
+   "output": {
+    "total": "2 TB",
+    "available": "2 TB",
+    "redundancy": "0 TB",
+    "detail": "2 x 1TB in RAID 0 = 2TB Usable (2,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 11,
+   "input": {
+    "raid-type": "raid1",
+    "quantity": 24,
+    "capacity": 26
+   },
+   "output": {
+    "total": "624 TB",
+    "available": "26 TB",
+    "redundancy": "598 TB",
+    "detail": "24 x 26TB in RAID 1 = 26TB Usable (26,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 12,
+   "input": {
+    "raid-type": "raid5",
+    "quantity": 3,
+    "capacity": 26
+   },
+   "output": {
+    "total": "78 TB",
+    "available": "52 TB",
+    "redundancy": "26 TB",
+    "detail": "3 x 26TB in RAID 5 = 52TB Usable (52,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 13,
+   "input": {
+    "raid-type": "raid6",
+    "quantity": 4,
+    "capacity": 20
+   },
+   "output": {
+    "total": "80 TB",
+    "available": "40 TB",
+    "redundancy": "40 TB",
+    "detail": "4 x 20TB in RAID 6 = 40TB Usable (40,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 14,
+   "input": {
+    "raid-type": "raid10",
+    "quantity": 12,
+    "capacity": 14
+   },
+   "output": {
+    "total": "168 TB",
+    "available": "84 TB",
+    "redundancy": "84 TB",
+    "detail": "12 x 14TB in RAID 10* = 84TB Usable (84,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 15,
+   "input": {
+    "raid-type": "raid50",
+    "quantity": 6,
+    "capacity": 22
+   },
+   "output": {
+    "total": "132 TB",
+    "available": "88 TB",
+    "redundancy": "44 TB",
+    "detail": "6 x 22TB in RAID 50* = 88TB Usable (88,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 16,
+   "input": {
+    "raid-type": "raid60",
+    "quantity": 24,
+    "capacity": 24
+   },
+   "output": {
+    "total": "576 TB",
+    "available": "480 TB",
+    "redundancy": "96 TB",
+    "detail": "24 x 24TB in RAID 60* = 480TB Usable (480,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 17,
+   "input": {
+    "raid-type": "jbod",
+    "quantity": 5,
+    "capacity": 6
+   },
+   "output": {
+    "total": "30 TB",
+    "available": "30 TB",
+    "redundancy": "0 TB",
+    "detail": "5 x 6TB in JBOD/JBOF* = 30TB Usable (30,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 18,
+   "input": {
+    "raid-type": "spanning",
+    "quantity": 17,
+    "capacity": 12
+   },
+   "output": {
+    "total": "204 TB",
+    "available": "204 TB",
+    "redundancy": "0 TB",
+    "detail": "17 x 12TB in Spanning* = 204TB Usable (204,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 19,
+   "input": {
+    "raid-type": "raid5",
+    "quantity": 11,
+    "capacity": 18
+   },
+   "output": {
+    "total": "198 TB",
+    "available": "180 TB",
+    "redundancy": "18 TB",
+    "detail": "11 x 18TB in RAID 5 = 180TB Usable (180,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 20,
+   "input": {
+    "raid-type": "raid6",
+    "quantity": 13,
+    "capacity": 2
+   },
+   "output": {
+    "total": "26 TB",
+    "available": "22 TB",
+    "redundancy": "4 TB",
+    "detail": "13 x 2TB in RAID 6 = 22TB Usable (22,000GB)",
+    "invalid": ""
+   }
+  },
+  {
+   "i": 21,
+   "input": {
+    "raid-type": "raid10",
+    "quantity": 7,
+    "capacity": 8
+   },
+   "output": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": "quantity: Please enter a valid value. The two nearest valid values are 6 and 8."
+   }
+  },
+  {
+   "i": 22,
+   "input": {
+    "raid-type": "raid5",
+    "quantity": 2,
+    "capacity": 8
+   },
+   "output": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": "quantity: Value must be greater than or equal to 3."
+   }
+  },
+  {
+   "i": 23,
+   "input": {
+    "raid-type": "raid0",
+    "quantity": 25,
+    "capacity": 8
+   },
+   "output": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": "quantity: Value must be less than or equal to 24."
+   }
+  },
+  {
+   "i": 24,
+   "input": {
+    "raid-type": "raid60",
+    "quantity": 6,
+    "capacity": 8
+   },
+   "output": {
+    "total": "---",
+    "available": "---",
+    "redundancy": "---",
+    "detail": "",
+    "invalid": "quantity: Value must be greater than or equal to 8."
+   }
+  }
+ ]
+}
