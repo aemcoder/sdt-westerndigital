@@ -136,3 +136,21 @@ file of general stardust improvements.
 **Next:** user review of the Products-menu pages; then W1 (press-release siblings) / W3 per the plan, or the mobile follow-up round.
 
 ---
+
+---
+## 2026-10-15T17:30:00Z — dynamics Phases 1–5 on register rows 14, 15, 23 (branch spike-b)
+
+**Prompt:** run the stardust `dynamics` skill, Phases 1–5, on rows #14 product-catalog (PLP facets/sort/paging), #15 forms, #23 calculators; hands-off; code on `spike-b`; new content only under `/spike-b/…`.
+
+**Decisions:**
+- **Row 14 → data-fed · needs-business-decision · interim.** The PLP grid, facets, sort and paging come from one SAP Commerce OCC endpoint (`api.westerndigital.com/wdwebservices/v2/us/products/search`) whose CORS answer reflects the requesting origin, so the block calls it directly; the existing DA docs already carried `categories`/`condition` rows, so no content copy was needed. Authored tiles stay document-first with their captured prices (row 12 untouched). Owner decision named: datasource on the new host.
+- **Row 15 → rebuild-native · needs-backend · scaffolded-awaiting-owner, now built.** Four intake families mapped to four source servlets behind domain-bound reCAPTCHA v3 — not replayable off-origin, and DA has no intake. Definition-driven `form` block with live validation copy, honeypot, local capture + explicit notice. `ext_regBusinessName` "regulated-pii" flag judged a false positive (company name). find-a-store recorded as a separate finder, not row 15.
+- **Row 23 → client-only · self · done.** Both tools are inline client compute; arithmetic ported verbatim; source quirks kept and flagged, the source's page error and stale Reset minimum not ported.
+
+**Artifacts touched:** `blocks/product-listing/*`, `blocks/form/*`, `blocks/calculator/*`, `scripts/site-config.js`, `data/forms/*.json`, `data/calculators/*.json`, `stardust/current/dynamics-b/`, `stardust/dynamics/rows-14-15-23/`, `stardust/dynamics/parity.json` (+ register-14/15/23), `stardust/qa/rows-14-15-23/`, `stardust/dynamic-features.md` (rows 14, 15, 23 + amendment), `stardust/dynamic-features-plan.md` (Phase D); DA: 5 new docs + 5 media under `/spike-b/`.
+
+**Findings worth flagging:** `dynamics-plan --target-origin` marks the catalog search "dead on target (404)" because it probes the path on the EDS host — the feature calls a separate, CORS-open API host, so it is not host-bound; the form-flow check cannot pass any interim tier without a network intake (by design); the closed check set has no input→output type, so the calculator exposes a URL-prefill hook and `data-value` for `dom-count`.
+
+**Open questions:** the decision batch items for rows 14 and 15 (see the amendment in `stardust/dynamic-features.md`).
+
+**Next:** owner answers on the commerce datasource and the form intake endpoints; row 6 (modal) to wire the "Talk to an Expert" / "Recycle Now" triggers to the form block.

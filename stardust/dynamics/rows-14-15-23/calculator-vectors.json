@@ -1,0 +1,735 @@
+{
+ "raidBanner": "relyance-banner-container,wd-chat-frame",
+ "raid": [
+  {
+   "name": "default RAID5 8x8",
+   "raid": null,
+   "q": null,
+   "cap": null,
+   "afterTypeChange": {
+    "min": "3",
+    "step": "1",
+    "total": "64 TB",
+    "discl": []
+   },
+   "total": "64 TB",
+   "avail": "56 TB",
+   "redund": "8 TB",
+   "detail": "8 x 8TB in RAID 5 = 56TB Usable (56,000GB)",
+   "qty": "8",
+   "min": "3",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "RAID0 4x4",
+   "raid": "raid0",
+   "q": "4",
+   "cap": "4",
+   "afterTypeChange": {
+    "min": "2",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "16 TB",
+   "avail": "16 TB",
+   "redund": "0 TB",
+   "detail": "4 x 4TB in RAID 0 = 16TB Usable (16,000GB)",
+   "qty": "4",
+   "min": "2",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "RAID1 2x26",
+   "raid": "raid1",
+   "q": "2",
+   "cap": "26",
+   "afterTypeChange": {
+    "min": "2",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "52 TB",
+   "avail": "26 TB",
+   "redund": "26 TB",
+   "detail": "2 x 26TB in RAID 1 = 26TB Usable (26,000GB)",
+   "qty": "2",
+   "min": "2",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "RAID1 4x8 (quirk)",
+   "raid": "raid1",
+   "q": "4",
+   "cap": "8",
+   "afterTypeChange": {
+    "min": "2",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "32 TB",
+   "avail": "8 TB",
+   "redund": "24 TB",
+   "detail": "4 x 8TB in RAID 1 = 8TB Usable (8,000GB)",
+   "qty": "4",
+   "min": "2",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "RAID6 6x12",
+   "raid": "raid6",
+   "q": "6",
+   "cap": "12",
+   "afterTypeChange": {
+    "min": "4",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "72 TB",
+   "avail": "48 TB",
+   "redund": "24 TB",
+   "detail": "6 x 12TB in RAID 6 = 48TB Usable (48,000GB)",
+   "qty": "6",
+   "min": "4",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "RAID10 8x4",
+   "raid": "raid10",
+   "q": "8",
+   "cap": "4",
+   "afterTypeChange": {
+    "min": "4",
+    "step": "2",
+    "total": "---",
+    "discl": [
+     "nested-raid-disclosure"
+    ]
+   },
+   "total": "32 TB",
+   "avail": "16 TB",
+   "redund": "16 TB",
+   "detail": "8 x 4TB in RAID 10* = 16TB Usable (16,000GB)",
+   "qty": "8",
+   "min": "4",
+   "step": "2",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": [
+    "nested-raid-disclosure"
+   ]
+  },
+  {
+   "name": "RAID50 6x10",
+   "raid": "raid50",
+   "q": "6",
+   "cap": "10",
+   "afterTypeChange": {
+    "min": "6",
+    "step": "2",
+    "total": "---",
+    "discl": [
+     "nested-raid-disclosure"
+    ]
+   },
+   "total": "60 TB",
+   "avail": "40 TB",
+   "redund": "20 TB",
+   "detail": "6 x 10TB in RAID 50* = 40TB Usable (40,000GB)",
+   "qty": "6",
+   "min": "6",
+   "step": "2",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": [
+    "nested-raid-disclosure"
+   ]
+  },
+  {
+   "name": "RAID60 8x2",
+   "raid": "raid60",
+   "q": "8",
+   "cap": "2",
+   "afterTypeChange": {
+    "min": "8",
+    "step": "2",
+    "total": "---",
+    "discl": [
+     "nested-raid-disclosure"
+    ]
+   },
+   "total": "16 TB",
+   "avail": "8 TB",
+   "redund": "8 TB",
+   "detail": "8 x 2TB in RAID 60* = 8TB Usable (8,000GB)",
+   "qty": "8",
+   "min": "8",
+   "step": "2",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": [
+    "nested-raid-disclosure"
+   ]
+  },
+  {
+   "name": "JBOD 2x1",
+   "raid": "jbod",
+   "q": "2",
+   "cap": "1",
+   "afterTypeChange": {
+    "min": "2",
+    "step": "1",
+    "total": "---",
+    "discl": [
+     "jbod-spanning-disclosure"
+    ]
+   },
+   "total": "2 TB",
+   "avail": "2 TB",
+   "redund": "0 TB",
+   "detail": "2 x 1TB in JBOD/JBOF* = 2TB Usable (2,000GB)",
+   "qty": "2",
+   "min": "2",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": [
+    "jbod-spanning-disclosure"
+   ]
+  },
+  {
+   "name": "Spanning 24x26",
+   "raid": "spanning",
+   "q": "24",
+   "cap": "26",
+   "afterTypeChange": {
+    "min": "2",
+    "step": "1",
+    "total": "---",
+    "discl": [
+     "jbod-spanning-disclosure"
+    ]
+   },
+   "total": "624 TB",
+   "avail": "624 TB",
+   "redund": "0 TB",
+   "detail": "24 x 26TB in Spanning* = 624TB Usable (624,000GB)",
+   "qty": "24",
+   "min": "2",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": [
+    "jbod-spanning-disclosure"
+   ]
+  },
+  {
+   "name": "EDGE RAID5 2 drives",
+   "raid": "raid5",
+   "q": "2",
+   "cap": "8",
+   "afterTypeChange": {
+    "min": "3",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "---",
+   "avail": "---",
+   "redund": "---",
+   "detail": "",
+   "qty": "2",
+   "min": "3",
+   "step": "1",
+   "valid": false,
+   "validationMessage": "Value must be greater than or equal to 3.",
+   "validity": {
+    "rangeUnderflow": true,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "EDGE RAID10 5 drives",
+   "raid": "raid10",
+   "q": "5",
+   "cap": "8",
+   "afterTypeChange": {
+    "min": "4",
+    "step": "2",
+    "total": "---",
+    "discl": [
+     "nested-raid-disclosure"
+    ]
+   },
+   "total": "---",
+   "avail": "---",
+   "redund": "---",
+   "detail": "",
+   "qty": "5",
+   "min": "4",
+   "step": "2",
+   "valid": false,
+   "validationMessage": "Drive count must be an even number for this RAID type.",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": true,
+    "customError": true,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": [
+    "nested-raid-disclosure"
+   ]
+  },
+  {
+   "name": "EDGE RAID6 25 drives",
+   "raid": "raid6",
+   "q": "25",
+   "cap": "8",
+   "afterTypeChange": {
+    "min": "4",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "---",
+   "avail": "---",
+   "redund": "---",
+   "detail": "",
+   "qty": "25",
+   "min": "4",
+   "step": "1",
+   "valid": false,
+   "validationMessage": "Value must be less than or equal to 24.",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": true,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  },
+  {
+   "name": "EDGE RAID0 empty qty",
+   "raid": "raid0",
+   "q": "",
+   "cap": "8",
+   "afterTypeChange": {
+    "min": "2",
+    "step": "1",
+    "total": "---",
+    "discl": []
+   },
+   "total": "0 TB",
+   "avail": "0 TB",
+   "redund": "0 TB",
+   "detail": "0 x 8TB in RAID 0 = 0TB Usable (0,000GB)",
+   "qty": "",
+   "min": "2",
+   "step": "1",
+   "valid": true,
+   "validationMessage": "",
+   "validity": {
+    "rangeUnderflow": false,
+    "rangeOverflow": false,
+    "stepMismatch": false,
+    "customError": false,
+    "valueMissing": false,
+    "badInput": false
+   },
+   "discl": []
+  }
+ ],
+ "raidReset": {
+  "before": {
+   "total": "48 TB",
+   "discl": [
+    "nested-raid-disclosure"
+   ]
+  },
+  "after": {
+   "type": "raid5",
+   "qty": "8",
+   "cap": "8",
+   "min": "4",
+   "step": "2",
+   "total": "---",
+   "avail": "---",
+   "redund": "---",
+   "detail": "",
+   "discl": []
+  }
+ },
+ "raidLiveOnChange": "---",
+ "raidErrors": [],
+ "survBanner": "relyance-banner-container,wd-chat-frame",
+ "surv": [
+  {
+   "name": "defaults (no codec chosen)",
+   "preSubmit": "74.420",
+   "result": "77396.705",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "resolution": "33177600",
+    "fps": "30",
+    "quality": "high",
+    "activity": "high"
+   },
+   "invalid": []
+  },
+  {
+   "name": "H.264 2MP 30fps med/med 8cam 30d 24h",
+   "codec": "radio_h264",
+   "res": "2073600",
+   "quality": "compression_medium",
+   "activity": "activity_medium",
+   "preSubmit": "---",
+   "result": "14.913",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "codec": "h264",
+    "resolution": "2073600",
+    "fps": "30",
+    "quality": "medium",
+    "activity": "medium"
+   },
+   "invalid": []
+  },
+  {
+   "name": "H.265 4K 15fps high/high 16cam 30d 24h",
+   "cams": "16",
+   "fps": "15",
+   "codec": "radio_h265",
+   "res": "8294400",
+   "quality": "compression_high",
+   "activity": "activity_high",
+   "preSubmit": "---",
+   "result": "74.420",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "16",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "codec": "h265",
+    "resolution": "8294400",
+    "fps": "15",
+    "quality": "high",
+    "activity": "high"
+   },
+   "invalid": []
+  },
+  {
+   "name": "MJPEG 1MP 15fps low/low 4cam 7d 12h",
+   "cams": "4",
+   "days": "7",
+   "hours": "12",
+   "fps": "15",
+   "codec": "radio_mjpeg",
+   "res": "921600",
+   "quality": "compression_low",
+   "activity": "activity_low",
+   "preSubmit": "---",
+   "result": "1.079",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "4",
+    "days_to_store": "7",
+    "hours_per_day": "12",
+    "codec": "mpeg",
+    "resolution": "921600",
+    "fps": "15",
+    "quality": "low",
+    "activity": "low"
+   },
+   "invalid": []
+  },
+  {
+   "name": "H.265+ CIF 10fps low/low 1cam 1d 1h",
+   "cams": "1",
+   "days": "1",
+   "hours": "1",
+   "fps": "10",
+   "codec": "radio_h265plus",
+   "res": "84480",
+   "quality": "compression_low",
+   "activity": "activity_low",
+   "preSubmit": "---",
+   "result": "0.000",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "1",
+    "days_to_store": "1",
+    "hours_per_day": "1",
+    "codec": "h265plus",
+    "resolution": "84480",
+    "fps": "10",
+    "quality": "low",
+    "activity": "low"
+   },
+   "invalid": []
+  },
+  {
+   "name": "H.265+ 8K 30fps med/high 64cam 365d 24h",
+   "cams": "64",
+   "days": "365",
+   "hours": "24",
+   "fps": "30",
+   "codec": "radio_h265plus",
+   "res": "33177600",
+   "quality": "compression_medium",
+   "activity": "activity_high",
+   "preSubmit": "---",
+   "result": "12768.270",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "64",
+    "days_to_store": "365",
+    "hours_per_day": "24",
+    "codec": "h265plus",
+    "resolution": "33177600",
+    "fps": "30",
+    "quality": "medium",
+    "activity": "high"
+   },
+   "invalid": []
+  },
+  {
+   "name": "H.264 12MP 240fps high/low 2cam 90d 8h",
+   "cams": "2",
+   "days": "90",
+   "hours": "8",
+   "fps": "240",
+   "codec": "radio_h264",
+   "res": "12288000",
+   "quality": "compression_high",
+   "activity": "activity_low",
+   "preSubmit": "---",
+   "result": "546.009",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "2",
+    "days_to_store": "90",
+    "hours_per_day": "8",
+    "codec": "h264",
+    "resolution": "12288000",
+    "fps": "240",
+    "quality": "high",
+    "activity": "low"
+   },
+   "invalid": []
+  },
+  {
+   "name": "EDGE cameras=0",
+   "cams": "0",
+   "codec": "radio_h264",
+   "preSubmit": "---",
+   "result": "---",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "0",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "codec": "h264",
+    "resolution": "33177600",
+    "fps": "30",
+    "quality": "high",
+    "activity": "high"
+   },
+   "invalid": [
+    {
+     "id": "number_of_cameras",
+     "msg": "Input number between 1 and 64"
+    }
+   ]
+  },
+  {
+   "name": "EDGE cameras=65",
+   "cams": "65",
+   "codec": "radio_h264",
+   "preSubmit": "---",
+   "result": "---",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "65",
+    "days_to_store": "30",
+    "hours_per_day": "24",
+    "codec": "h264",
+    "resolution": "33177600",
+    "fps": "30",
+    "quality": "high",
+    "activity": "high"
+   },
+   "invalid": [
+    {
+     "id": "number_of_cameras",
+     "msg": "Input number between 1 and 64"
+    }
+   ]
+  },
+  {
+   "name": "EDGE hours=25",
+   "hours": "25",
+   "codec": "radio_h264",
+   "preSubmit": "---",
+   "result": "---",
+   "unit": "(TB)*",
+   "form": {
+    "number_of_cameras": "8",
+    "days_to_store": "30",
+    "hours_per_day": "25",
+    "codec": "h264",
+    "resolution": "33177600",
+    "fps": "30",
+    "quality": "high",
+    "activity": "high"
+   },
+   "invalid": [
+    {
+     "id": "hours_per_day",
+     "msg": "Input number between 1 and 24"
+    }
+   ]
+  }
+ ],
+ "tooltipOpen": {
+  "hidden": false,
+  "box": [
+   215,
+   1149.5625,
+   500,
+   155
+  ],
+  "bg": "rgb(242, 243, 243)",
+  "border": "1px solid rgb(219, 219, 219)",
+  "padding": "24px",
+  "font": "16px"
+ },
+ "survReset": {
+  "beforeReset": "---",
+  "after": {
+   "result": "---",
+   "codec": null
+  }
+ },
+ "survErrors": [
+  "getRequiredDiskSpace is not defined",
+  "getRequiredDiskSpace is not defined",
+  "getRequiredDiskSpace is not defined",
+  "getRequiredDiskSpace is not defined",
+  "getRequiredDiskSpace is not defined",
+  "getRequiredDiskSpace is not defined",
+  "getRequiredDiskSpace is not defined"
+ ]
+}

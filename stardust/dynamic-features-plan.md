@@ -33,3 +33,15 @@ origin at 1440 and 360, a `parity.json` row, a journal entry and a commit.
 
 `stardust/dynamics/parity.json` written at rollout with one replayable check per row of status ≠ decided-out;
 `dynamics-check.mjs --origin https://main--sdt-westerndigital--aemcoder.aem.live` → `stardust/qa/dynamics-report.md`.
+
+## Phase D — spike-b: rows 14, 15, 23 (2026-10-15, hands-off)
+
+| deliverable | rows | authoring contract | verification (spike-b preview, 1440 + 360) | owner decision |
+|---|---|---|---|---|
+| `product-listing` live layer: grid, facets, chips, sort, pagination, URL state; `scripts/site-config.js` productSearch | 14 | existing PLP docs: `categories` + `condition` rows, authored tiles (document-first), `filters` = facet groups in order | register-14: totals equal the source on 7 PLPs (32/32/21/22/21/7, WD_BLACK 2, Data Center 19); page 2, sort, chips; 0 page errors | commerce datasource on the new host |
+| `form` block + `/data/forms/{sales-lead,contact-email,contact-investor,contact-loyalty,newsletter,recycle}.json` | 15 | `Source`/`Intro`/`Consent`/`Submit`/`Success` rows; variant `topics` (topic rows: label · content · [definition]); variant `media` | register-15: empty submission refused with the live words; local capture + notice; form-flow "filled posted" fails until an endpoint exists | intake endpoint per family |
+| `calculator` block + `/data/calculators/{raid,surveillance}.json` | 23 | `Source`/`Hero`/`Intro`/`Benefits`/`Note <key>`/`Tip <field>`/`How it works`/`Results note`/`Recommendation`; variant `gradient` | register-23: 17 live vectors + 6 refusals replayed; URL prefill hook for replay | none |
+
+Content (DA, new documents only): `/spike-b/company/contact-us`, `/spike-b/company/programs/communications-registration`,
+`/spike-b/company/programs/easy-recycle`, `/spike-b/tools/raid-capacity-calculator`, `/spike-b/tools/surveillance-capacity-calculator`,
+media under `/spike-b/media/`. No existing DA document modified or published.

@@ -1,0 +1,243 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-09-21T12:45:48Z",
+    "againstInput": "replica pilot chain ending at deploy — Phases 4–5 standalone",
+    "readArtifacts": [
+      "stardust/dynamic-features.md",
+      "stardust/.work/deploy/delivered-check.json",
+      "stardust/replica/motion/*.json"
+    ],
+    "amendedAt": "2026-10-15 (spike-b: register rows 14, 15, 23 — Phases 1–5)"
+  },
+  "method": "self rows rebuilt natively in block/header JS from motion-observe evidence; static snapshot for commerce/data rows; tags host-gated (not loaded on preview); replays run against the preview origin at 1440 (360 for the drawer).",
+  "features": [
+    {
+      "id": "register-14",
+      "feature": "product-catalog — PLP grid, facets, sort, pagination (7 product-listing pages)",
+      "class": "CR/X",
+      "pages": 7,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "source counts read 2026-10-15 on www.westerndigital.com = target counts on spike-b: internal-hdd 32 · external-hdd 32 · accessories 21 · data-center-storage 22 · recertified 21 · final-production 7 (1 page, no pagination) · internal-hdd?filterByBrandName=WD_BLACK 2 · ?filterByUseCaseName=Data+Center 19; facet click → URL ?filterBy…, chip + Clear All; sort price-asc → API sort=price-asc; page 2 → currentPage=1; back button restores; 0 page errors at 1440 and 360",
+      "owner": "commerce datasource on the new host: the block calls api.westerndigital.com (SAP Commerce OCC search) cross-origin; its CORS answer currently reflects any Origin — confirm consumption from the EDS host or route it same-origin before go-live",
+      "snapshot": "none — live API; authored tiles are the 2026-09-18 capture (fallback + captured prices, row 12)",
+      "environmentLimit": "tile prices beyond the authored first page are the search API's catalog price; the source grid additionally hydrates some prices via priceAndInventory (row 12, decided-out), so a few prices differ from www (e.g. WD Blue PC Desktop $72.99 catalog vs $164.99 hydrated); the 'Limited Time Offer' campaign tile (clpcampaignendpoint, AEM content fragment) is not reproduced",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd",
+          "selector": ".product-listing[data-source=\"live\"][data-total=\"32\"] .clp-grid .tile-cell",
+          "min": 15
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd?filterByBrandName=WD_BLACK",
+          "selector": ".product-listing[data-source=\"live\"][data-total=\"2\"] .clp-selected-chip",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd?filterByUseCaseName=Data+Center",
+          "selector": ".product-listing[data-source=\"live\"][data-total=\"19\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd?page=2",
+          "selector": ".clp-pagination a.pg-num.is-current[href$=\"page=2\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd?sort=price-asc",
+          "selector": ".product-listing[data-source=\"live\"] .clp-sort-select option[value=\"price-asc\"]:checked",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/hdd/internal-hdd",
+          "selector": ".clp-facets .clp-filter .clp-option",
+          "min": 20
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/recertified",
+          "selector": ".product-listing[data-source=\"live\"][data-total=\"21\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/final-production",
+          "selector": ".product-listing[data-source=\"live\"][data-total=\"7\"]",
+          "min": 1
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/products/hdd",
+            "/products/hdd/internal-hdd",
+            "/products/hdd/external-hdd",
+            "/products/accessories",
+            "/products/data-center-storage",
+            "/products/recertified",
+            "/products/final-production"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-15",
+      "feature": "forms — sales lead (contact-us / Talk to an Expert), contact topics (careers, IR, website, Pro Rewards, general), newsletter, Easy Recycle",
+      "class": "F",
+      "pages": 3,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "spike-b copies: contact-us 10 topics (7 forms + 3 content panels) + ?topic=/?selectedValue= deep links; sales lead empty submit → 10 live error strings, focus on first; 'Other' reveals free text; bad email → 'Enter a valid email address'; filled submit → captured in sessionStorage (14 fields) with the no-backend message, 0 POST; newsletter empty → 1 error; recycle empty → 9 live error strings; 0 page errors at 1440 and 360",
+      "owner": "intake endpoint per family (scripts/site-config.js forms.endpoints: sales-lead, contact-email, newsletter, recycle) — source servlets /bin/wd/sf/lead/sub, /bin/wd/formemail, /bin/wd/acs/formsubmit, /bin/wd/recycle sit behind domain-bound reCAPTCHA v3 and cannot be replayed from the EDS host; Document Authoring has no intake",
+      "environmentLimit": "form-flow FAILS on 'filled posted' by design until an endpoint is configured (no network intake exists); the empty-refusal half of each check is the part that passes today",
+      "checks": [
+        {
+          "type": "form-flow",
+          "path": "/spike-b/company/contact-us?topic=looking-to-purchase",
+          "form": ".form-topic-panel:not([hidden]) form",
+          "submit": "button[type=submit]",
+          "fill": {
+            "fs_1_productCategoryContactUs": "Data Center Storage",
+            "firstName": "Parity",
+            "lastName": "Probe",
+            "phone": "4085551234",
+            "email": "probe@example.com",
+            "cusJobTitle": "QA",
+            "ext_regBusinessName": "Stardust QA",
+            "country": "United States",
+            "state": "California",
+            "fs_7_personNotes": "dynamics parity probe"
+          },
+          "statusSelector": ".form-topic-panel:not([hidden]) .form-error:not([hidden])",
+          "successIncludes": "captured"
+        },
+        {
+          "type": "form-flow",
+          "path": "/spike-b/company/programs/communications-registration",
+          "form": ".form form",
+          "submit": "button[type=submit]",
+          "fill": {
+            "email": "probe@example.com"
+          },
+          "statusSelector": ".form .form-error:not([hidden])",
+          "successIncludes": "captured"
+        },
+        {
+          "type": "form-flow",
+          "path": "/spike-b/company/programs/easy-recycle",
+          "form": ".form form",
+          "submit": "button[type=submit]",
+          "fill": {
+            "firstName": "Parity",
+            "lastName": "Probe",
+            "address1": "1 Main St",
+            "city": "San Jose",
+            "state": "CA",
+            "zipCode": "95119",
+            "email": "probe@example.com",
+            "phone": "4085551234",
+            "ext_recycleProgramDeviceTotal": "1"
+          },
+          "statusSelector": ".form .form-error:not([hidden])",
+          "successIncludes": "captured"
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/company/contact-us",
+          "selector": ".form.topics .form-topic-select option",
+          "min": 11
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/spike-b/company/contact-us",
+            "/spike-b/company/programs/communications-registration",
+            "/spike-b/company/programs/easy-recycle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-23",
+      "feature": "calculators — RAID capacity + CCTV/NVR surveillance storage (/tools/*)",
+      "class": "CR",
+      "pages": 2,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "17 live vectors driven on www.westerndigital.com 2026-10-15 replayed on spike-b: RAID 11/11 results (incl. RAID 1 = one drive, empty count = 0) + 3/3 refusals with the live words ('Value must be greater than or equal to 3.', 'Drive count must be an even number for this RAID type.', 'Value must be less than or equal to 24.'); surveillance 7/7 results (incl. no-codec 77396.705) + 3/3 refusals ('Input number between 1 and 64' / '…1 and 24'); change → '---'; nested / JBOD notes follow the level; tooltip opens, Escape closes; Reset restores defaults; 0 page errors, 0 network calls beyond the definition JSON, at 1440 and 360",
+      "environmentLimit": "source quirks reproduced on purpose (replica): surveillance page-load value 74.420 does not match its default inputs; no video format preselected (ratio 1). Not ported: the source's getRequiredDiskSpace ReferenceError on every submit, and Reset keeping the previous level's drive-count minimum. Additive: URL field parameters prefill and calculate once (the replay hook below)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/raid-capacity-calculator?raid-type=raid10&quantity=8&capacity=4",
+          "selector": ".calc-result-value[data-key=\"available\"][data-value=\"16 TB\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/raid-capacity-calculator?raid-type=raid1&quantity=4&capacity=8",
+          "selector": ".calc-result-value[data-key=\"available\"][data-value=\"8 TB\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/raid-capacity-calculator?raid-type=spanning&quantity=24&capacity=26",
+          "selector": ".calc-result-value[data-key=\"total\"][data-value=\"624 TB\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/raid-capacity-calculator?raid-type=raid60&quantity=8&capacity=2",
+          "selector": ".calc-result-value[data-key=\"detail\"][data-value=\"8 x 2TB in RAID 60* = 8TB Usable (8,000GB)\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/raid-capacity-calculator?raid-type=raid5&quantity=2&capacity=8",
+          "selector": ".calc-tool:not([data-calculated]) .calc-result-value[data-key=\"total\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/surveillance-capacity-calculator?number_of_cameras=8&days_to_store=30&hours_per_day=24&resolution=2073600&fps=30&codec=h264&quality=medium&activity=medium",
+          "selector": ".calc-result-value[data-key=\"tb\"][data-value=\"14.913\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/surveillance-capacity-calculator?number_of_cameras=64&days_to_store=365&hours_per_day=24&resolution=33177600&fps=30&codec=h265plus&quality=medium&activity=high",
+          "selector": ".calc-result-value[data-key=\"tb\"][data-value=\"12768.270\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/surveillance-capacity-calculator?number_of_cameras=2&days_to_store=90&hours_per_day=8&resolution=12288000&fps=240&codec=h264&quality=high&activity=low",
+          "selector": ".calc-result-value[data-key=\"tb\"][data-value=\"546.009\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/spike-b/tools/surveillance-capacity-calculator?number_of_cameras=8&days_to_store=30&hours_per_day=24&resolution=33177600&fps=30&quality=high&activity=high",
+          "selector": ".calc-result-value[data-key=\"tb\"][data-value=\"77396.705\"]",
+          "min": 1
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/spike-b/tools/raid-capacity-calculator",
+            "/spike-b/tools/surveillance-capacity-calculator"
+          ]
+        }
+      ]
+    }
+  ]
+}
