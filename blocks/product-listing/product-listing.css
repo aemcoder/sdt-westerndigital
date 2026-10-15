@@ -145,3 +145,18 @@ main .product-listing-container > div { max-width: var(--maxw); margin: 0 auto; 
 main .product-listing-container.spaced { padding-top: 24px; margin-bottom: 64px; }
 /* mobile promo box: the live copy block (146px) overflows the 108px inner width of the 156px box — replicate the overflow, not a re-wrap */
 @media (width < 768px) { .product-listing .tile-promo p { min-width: 146px; } }
+
+/* ---- data-fed state (dynamics row 14): live facet values, chips, dots, empty state ---- */
+.product-listing .clp-filter-options { padding: 0 0 16px; }
+.product-listing .clp-filter-value { padding: 8px 0; }
+.product-listing .clp-filter-value[hidden] { display: none; }
+.product-listing .clp-filter-value label { display: flex; align-items: center; gap: 12px; font-size: 14px; line-height: 20px; cursor: pointer; }
+.product-listing .clp-filter-value input { flex: 0 0 auto; width: 16px; height: 16px; margin: 0; border: 1px solid var(--color-black); border-radius: 2px; appearance: none; background: var(--color-white); cursor: pointer; }
+.product-listing .clp-filter-value input:checked { background: var(--color-black) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 8.2l3 3 6-6.4' fill='none' stroke='%23fff' stroke-width='1.6'/%3E%3C/svg%3E") center / 14px no-repeat; }
+.product-listing .clp-filter-value input:focus-visible { outline: 3px solid #b58409; outline-offset: 1px; }
+.product-listing .clp-filter-more button { padding: 8px 0; border: 0; background: none; font: inherit; font-size: 12px; line-height: 16px; color: var(--color-link-alt); cursor: pointer; }
+.product-listing .clp-filter-more button:hover { text-decoration: underline; }
+.product-listing .clp-filter-head:disabled { cursor: default; }
+.product-listing .pg-dots { align-items: center; padding: 0 8px; }
+.product-listing .clp-empty { margin: 16px 8px 0; font-size: 16px; }
+@media (width >= 768px) { .product-listing .clp-selected { display: none; } } /* live: the selected-filter chip bar is mobile-only (sm:hidden) */

@@ -1,12 +1,19 @@
 /**
- * product-listing — the commerce category listing as captured: left rail (category tree, deals, facet
- * group names), toolbar ("N Items", sort), 4-up product tile grid. STATIC SNAPSHOT: the tiles are the
- * captured first page (authored rows); facets, sort and pagination are inert (dynamics row 14, pending).
- * Tiles link to the storefront PDP (absolute); "Compare" is the captured label only.
+ * product-listing — the commerce category listing: left rail (category tree, deals, facets), toolbar
+ * ("N Items", sort), 4-up product tile grid, pagination. Document-first: the authored tile rows are the
+ * captured first page and render at once. With a `query` row the block is DATA-FED (dynamics row 14):
+ * it calls the storefront's public product-search API (CORS-open) with the source page's own query, and
+ * facets / sort / pagination run exactly as on the source (toggle queries come from the API response,
+ * URL state `?filterBy<Code>=v1,v2&page=N`). Without `query` (or when the API fails) it stays the static
+ * snapshot. Tiles link to the storefront PDP (absolute); "Compare" is the captured label only.
  * Schema: stardust/eds-schema/listing.json § product-listing.
  *
  * Authoring (rows):
  *   config rows — 2 cells, key | value:
+ *     query          :relevance:category:cat_internal&customQuery=*:*+AND+-optionalCondition_en_string_mv:*recertified*
+ *                    (the source CLP component's customQuery, verbatim; optional — absent = static snapshot)
+ *     facets         brandName, vvc-capacity, device_List, …  (facet codes in rail order; optional — else matched on `filters` names)
+ *     filter-limit   10                                       (values shown before "+ More")
  *     page-size      15
  *     sort           Most Popular                            (sort label shown in the toolbar)
  *     filters        Brand, Capacity Range, Form Factor, …   (facet group NAMES shown in the rail, in order)
@@ -23,7 +30,13 @@ const ICON_SHOP = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width
 const ICON_FILTER = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="3" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="8.5" width="16" height="3" rx="1" fill="#000"/><rect x="2" y="14" width="16" height="3" rx="1" fill="#000"/></svg>';
 const ICON_SORT = '<svg class="mob-ico" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M14 4v11l3-3 .7.7L13.5 17l-4.2-4.3.7-.7 3 3V4z" fill="#000"/><rect x="2" y="4" width="8" height="1.2" fill="#000"/><rect x="2" y="7.5" width="6.5" height="1.2" fill="#000"/><rect x="2" y="11" width="5" height="1.2" fill="#000"/></svg>';
 
-const KEYS = ['page-size', 'sort', 'filters', 'category-tree', 'tree-collapsed', 'deals', 'featured', 'promo'];
+const KEYS = ['page-size', 'sort', 'filters', 'category-tree', 'tree-collapsed', 'deals', 'featured', 'promo', 'query', 'facets', 'filter-limit'];
+
+/* storefront contract (source: clp-vue StoreCategoryBanner + the CLP dialog config on every en-us listing) */
+const API = 'https://api.westerndigital.com/wdwebservices/v2/us/products/search';
+const STOREFRONT = 'https://www.westerndigital.com';
+const SORTS = [['relevance', 'Most Popular'], ['launchDate', 'Latest Products'], ['name-asc', 'Title A-Z'], ['name-desc', 'Title Z-A'], ['price-asc', 'Price Low-High'], ['price-desc', 'Price High-Low']];
+const URL_ORDER = ['brandName', 'useCases', 'device_List', 'vvc-capacity', 'capacityValues', 'color_List', 'type', 'priceRange'];
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html !== undefined) e.innerHTML = html; return e; };
 const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
 
@@ -168,11 +181,178 @@ export default function decorate(block) {
   shopBtn.addEventListener('click', () => toggleRail(shopBtn));
   filterBtn.addEventListener('click', () => toggleRail(filterBtn));
 
-  /* static: facet group names as captured, no values (row 14 pending) */
+  /* static: facet group names as captured, no values — replaced by the live facets once the API answers */
   facetNames.forEach((name, i) => {
     const wrap = el('div', `clp-filter${i === facetNames.length - 1 ? ' clp-filter--last' : ''}`);
     const head = el('button', 'clp-filter-head', `<h3><span>${name}</span></h3>`); head.type = 'button'; head.setAttribute('aria-expanded', 'false'); head.disabled = true;
     wrap.append(head); facetHost.append(wrap);
   });
   block.classList.add('is-snapshot');
+
+  const query = cfg.query?.textContent.trim();
+  if (query) {
+    wire(block, {
+      query,
+      pageSize: parseInt(cfg['page-size']?.textContent, 10) || 15,
+      limit: parseInt(cfg['filter-limit']?.textContent, 10) || 10,
+      facetCodes: list(cfg.facets?.textContent),
+      facetNames,
+      ui: { select, count, grid, pagination, facetHost, selected, results },
+    });
+  }
+}
+
+/* ---- data-fed listing (row 14): the source CLP's state machine over the public search API ---- */
+const tail = (q) => (q.includes('&') ? q.slice(q.indexOf('&')) : '');
+const head = (q) => (q.includes('&') ? q.slice(0, q.indexOf('&')) : q);
+const cap1 = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const valueLabel = (code, v) => `${code === 'color_List' ? v.name.split('|')[0] : v.name} (${v.count})`;
+
+function tileFromProduct(p) {
+  const caps = (p.categories || []).filter((c) => /^vvc-capacity-/.test(c.code)).sort((a, b) => a.sequence - b.sequence);
+  const cap = caps.length ? `${caps[0].name}${caps.length > 1 ? `-${caps[caps.length - 1].name}` : ''}`.replace(/\s+/g, '') : '';
+  const price = p.priceData?.formattedValue; const deal = p.discountPriceData;
+  const strike = price && deal && deal.value < p.priceData.value ? price : '';
+  const img = p.mediaLinks?.multiMedia?.productImages?.[0];
+  const sku = p.listOfSkuId?.[0];
+  const path = (p.pagePath || '').replace(/^\/content\/store\/en-us/, '');
+  return {
+    href: `${STOREFRONT}${path}${sku ? `?sku=${encodeURIComponent(sku)}` : ''}`,
+    img: img ? `${STOREFRONT}${img}.wdthumb.319.319.webp` : '',
+    strike,
+    badgeBlack: /bg-black/.test(p.badgesInfo?.styleClass || ''),
+    text: { name: p.name || '', cap, price: price ? `Starting at ${strike ? deal.formattedValue : price}` : '', badge: p.badgesInfo?.tagTitle || '' },
+  };
+}
+
+/* the source's pagination window (updatePagination + showPaginationDots), page index 0-based */
+function pageWindow(cur, total) {
+  let dotsStart = cur + 1 > 4 && total !== 6; let dotsEnd = cur + 4 < total;
+  if (total === 5) { dotsStart = false; dotsEnd = false; }
+  let range = [2, 4];
+  if (total === 5 || total === 4) range = [2, 4];
+  else if (cur + 1 < 4 && cur + 4 !== total) range = [2, total > 4 ? 4 : total];
+  else if (cur + 1 === 4 && cur + 4 !== total) range = [2, cur + 1 === total ? total : 5];
+  else if (cur + 1 > 4 && cur + 4 < total) range = [cur, cur + 2];
+  else if (cur + 1 > 4 && cur + 4 === total) range = [cur, total - 1];
+  else if (cur + 4 > total) range = [total - 4, total - 1];
+  else if (cur + 4 === total) range = [2, total - 1];
+  return { dotsStart, dotsEnd, range };
+}
+
+function wire(block, opts) {
+  const { ui, pageSize, limit } = opts;
+  const state = { query: opts.query, sort: 'relevance', page: 0, open: new Set(), more: new Set(), facets: [], selected: [] };
+
+  /* URL → state (getFiltersFromURL): filterBy<Code>=v1,v2 appended to the page query; page=N */
+  const raw = window.location.search.slice(1).split('&').filter(Boolean);
+  let extra = '';
+  raw.filter((kv) => kv.startsWith('filterBy')).forEach((kv) => {
+    const [k, v = ''] = kv.split('=');
+    const name = k.replace('filterBy', ''); const code = name.charAt(0).toLowerCase() + name.slice(1);
+    v.split(',').filter(Boolean).forEach((x) => { extra += `:${code}:${x.replace('|', '%7C')}`; });
+  });
+  if (extra) state.query = head(opts.query) ? `${head(opts.query)}${extra}${tail(opts.query)}` : `:${state.sort}${extra}${tail(opts.query)}`;
+  const pg = parseInt(new URLSearchParams(window.location.search).get('page'), 10);
+  if (pg > 0) state.page = pg - 1;
+
+  /* sort: the six storefront options, live (price sorts shown — the en-us catalog is purchasable) */
+  ui.select.replaceChildren(...SORTS.map(([v, label]) => { const o = el('option', '', label); o.value = v; return o; }));
+  ui.select.value = state.sort; ui.select.disabled = false;
+  ui.select.addEventListener('change', () => { state.sort = ui.select.value; state.page = 0; run(); });
+
+  function pushUrl() {
+    const params = {};
+    state.facets.forEach((f) => { const on = f.values.filter((v) => v.selected).map((v) => v.code); if (on.length) params[f.code] = on.join(','); });
+    const keys = [...URL_ORDER.filter((k) => k in params), ...Object.keys(params).filter((k) => !URL_ORDER.includes(k))];
+    const qs = new URLSearchParams(); keys.forEach((k) => qs.set(`filterBy${cap1(k)}`, params[k]));
+    const s = qs.toString() ? `?${decodeURIComponent(qs.toString())}` : '';
+    const page = state.page > 0 ? `${s ? '&' : '?'}page=${state.page + 1}` : '';
+    window.history.replaceState(window.history.state, '', `${window.location.pathname}${s}${page}`);
+  }
+
+  function filterTo(q) { state.query = `${q}${tail(opts.query)}`; state.page = 0; run(); }
+
+  function renderFacets() {
+    ui.facetHost.replaceChildren();
+    state.facets.forEach((f, i) => {
+      const wrap = el('div', `clp-filter${i === state.facets.length - 1 ? ' clp-filter--last' : ''}`);
+      const isOpen = state.open.has(f.code);
+      const btn = el('button', 'clp-filter-head', `<h3><span></span></h3>`); btn.type = 'button'; btn.querySelector('span').textContent = f.name;
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      const ul = el('ul', 'clp-filter-options'); ul.hidden = !isOpen;
+      const showAll = state.more.has(f.code);
+      f.values.forEach((v, j) => {
+        const li = el('li', 'clp-filter-value'); if (j >= limit && !showAll) li.hidden = true;
+        const label = el('label'); const cb = el('input'); cb.type = 'checkbox'; cb.name = f.code; cb.value = v.name; cb.checked = !!v.selected;
+        cb.addEventListener('change', () => { state.open.add(f.code); filterTo(v.query.query.value); });
+        label.append(cb, el('span', '', '')); label.lastChild.textContent = valueLabel(f.code, v); li.append(label); ul.append(li);
+      });
+      if (f.values.length > limit) {
+        const more = el('li', 'clp-filter-more'); const b = el('button', '', showAll ? '- Less' : '+ More'); b.type = 'button';
+        b.addEventListener('click', () => { if (state.more.has(f.code)) state.more.delete(f.code); else state.more.add(f.code); renderFacets(); });
+        more.append(b); ul.append(more);
+      }
+      btn.addEventListener('click', () => { if (state.open.has(f.code)) state.open.delete(f.code); else state.open.add(f.code); btn.setAttribute('aria-expanded', state.open.has(f.code) ? 'true' : 'false'); ul.hidden = !state.open.has(f.code); });
+      wrap.append(btn, ul); ui.facetHost.append(wrap);
+    });
+    /* selected chips (the source's mobile "selected filters" bar) + Clear All */
+    ui.selected.replaceChildren();
+    state.selected.forEach((v) => {
+      const chip = el('button', 'clp-selected-chip'); chip.type = 'button'; chip.setAttribute('aria-label', `Remove filter ${v.name.split('|')[0]}`);
+      chip.textContent = `${v.name.split('|')[0]} ×`; chip.addEventListener('click', () => filterTo(v.query.query.value)); ui.selected.append(chip);
+    });
+    if (state.selected.length) { const clear = el('button', 'clp-clear', 'Clear All'); clear.type = 'button'; clear.addEventListener('click', () => { state.query = opts.query; state.page = 0; run(); }); ui.selected.append(clear); }
+    ui.selected.hidden = !state.selected.length;
+  }
+
+  function renderPager(total) {
+    ui.pagination.replaceChildren();
+    if (total <= 1) return;
+    const cur = state.page; const { dotsStart, dotsEnd, range } = pageWindow(cur, total);
+    const ul = el('ul');
+    const link = (n, label, cls) => {
+      const a = el('a', cls); a.href = `${window.location.pathname}?page=${n + 1}`; a.innerHTML = label;
+      a.addEventListener('click', (e) => { e.preventDefault(); if (n < 0 || n >= total || n === state.page) return; state.page = n; run(true); });
+      return a;
+    };
+    const num = (n) => { const li = el('li'); const a = link(n, `${n + 1}`, `pg-num${n === cur ? ' is-current' : ''}`); if (n === cur) a.setAttribute('aria-current', 'page'); li.append(a); return li; };
+    const prev = el('li', 'pg-prev'); const pa = link(cur - 1, `<span class="pg-chev pg-chev--prev">${ICON_CHEV}</span><span class="pg-lbl">PREV</span>`, cur === 0 ? 'is-disabled' : ''); pa.setAttribute('aria-label', 'Previous page'); prev.append(pa); ul.append(prev);
+    ul.append(num(0));
+    if (dotsStart) ul.append(el('li', 'pg-dots', '<span>...</span>'));
+    for (let i = Math.max(2, range[0]); i <= range[1]; i += 1) if (i - 1 < total && i - 1 > 0 && !(total > 4 && i === total)) ul.append(num(i - 1));
+    if (dotsEnd) ul.append(el('li', 'pg-dots', '<span>...</span>'));
+    if (total > 4) ul.append(num(total - 1));
+    const next = el('li', 'pg-next'); const na = link(cur + 1, `<span class="pg-lbl">NEXT</span><span class="pg-chev">${ICON_CHEV}</span>`, cur === total - 1 ? 'is-disabled' : ''); na.setAttribute('aria-label', 'Next page'); next.append(na); ul.append(next);
+    ui.pagination.append(ul);
+  }
+
+  let seq = 0;
+  async function run(scroll) {
+    seq += 1; const mine = seq;
+    block.classList.add('is-loading');
+    const url = `${API}?fields=FULL&pageSize=${pageSize}&query=${state.query}&sort=${state.sort}&currentPage=${state.page}`;
+    try {
+      const res = await fetch(url, { headers: { accept: 'application/json' } });
+      if (!res.ok) throw new Error(`search ${res.status}`);
+      const data = await res.json();
+      if (mine !== seq) return;
+      if (data.pagination?.totalResults && state.page >= data.pagination.totalPages) { state.page = 0; run(); return; }
+      const byCode = new Map((data.facets || []).map((f) => [f.code, f]));
+      const byName = new Map((data.facets || []).map((f) => [f.name, f]));
+      state.facets = (opts.facetCodes.length ? opts.facetCodes.map((c) => byCode.get(c)) : opts.facetNames.map((n) => byName.get(n))).filter(Boolean);
+      state.selected = state.facets.flatMap((f) => f.values.filter((v) => v.selected));
+      const products = data.products || [];
+      ui.grid.replaceChildren(...(products.length ? products.map((p) => renderTile(tileFromProduct(p))) : [el('div', 'clp-empty', 'No Records Found.')]));
+      ui.count.innerHTML = `${data.pagination?.totalResults || 0} <span class="qty-label">Items</span>`;
+      renderFacets(); renderPager(data.pagination?.totalPages || 0); pushUrl();
+      block.classList.remove('is-snapshot'); block.classList.add('is-live');
+      block.dataset.source = 'api.westerndigital.com product search';
+      if (scroll) ui.results.scrollIntoView({ block: 'start' });
+    } catch (e) {
+      // degrade to the authored snapshot (static first): tiles, count and inert facets stay as authored
+      block.dataset.sourceError = String(e.message || e);
+    } finally { if (mine === seq) block.classList.remove('is-loading'); }
+  }
+  run();
 }

@@ -1,0 +1,215 @@
+{
+ "writtenBy": "stardust:dynamics client-logic capture",
+ "writtenAt": "2026-10-15T15:48:57.886Z",
+ "url": "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
+ "mount": "form[name=\"capacity-form\"], #capacity-form, form.capacity-form",
+ "locus": "client",
+ "thirdPartyRequestsDuringInteraction": 12,
+ "thirdPartyScriptHosts": [
+  "assets.adobedtm.com",
+  "connect.facebook.net",
+  "consent.app.relyance.ai",
+  "s.go-mpulse.net",
+  "www.youtube.com"
+ ],
+ "controls": 15,
+ "outputsChanged": 0,
+ "interactionRequests": [],
+ "sourceMaps": [],
+ "candidates": [
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "previewNode",
+   "calls": 4,
+   "bytes": 1294,
+   "mathOps": 3,
+   "matchedLabels": [
+    "Low"
+   ],
+   "score": 0.7,
+   "generated": {
+    "line": 7986,
+    "column": 2
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "oneLine",
+   "calls": 4,
+   "bytes": 85,
+   "mathOps": 4,
+   "matchedLabels": [],
+   "score": -2.4,
+   "generated": {
+    "line": 8428,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "(anonymous)",
+   "calls": 117,
+   "bytes": 29,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -4.9,
+   "generated": {
+    "line": 8002,
+    "column": 15
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "(anonymous)",
+   "calls": 16,
+   "bytes": 37,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -5.2,
+   "generated": {
+    "line": 384,
+    "column": 42
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "trimStringWithEllipsis",
+   "calls": 4,
+   "bytes": 90,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.5,
+   "generated": {
+    "line": 498,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/surveillance-capacity-calculator",
+   "file": "scripts/004-surveillance-capacity-calculator.js",
+   "function": "clearResult",
+   "calls": 1,
+   "bytes": 106,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.7,
+   "generated": {
+    "line": 61,
+    "column": 4
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "safeJson",
+   "calls": 8,
+   "bytes": 127,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -7,
+   "generated": {
+    "line": 387,
+    "column": 21
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "isURL",
+   "calls": 4,
+   "bytes": 162,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -7.3,
+   "generated": {
+    "line": 50,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "isRegExp",
+   "calls": 4,
+   "bytes": 171,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -7.4,
+   "generated": {
+    "line": 36,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "isDate",
+   "calls": 4,
+   "bytes": 165,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -7.4,
+   "generated": {
+    "line": 43,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "jsonValue",
+   "calls": 8,
+   "bytes": 166,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -7.4,
+   "generated": {
+    "line": 381,
+    "column": 2
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "isArrayBuffer",
+   "calls": 4,
+   "bytes": 186,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -7.5,
+   "generated": {
+    "line": 72,
+    "column": 0
+   },
+   "original": null
+  }
+ ]
+}

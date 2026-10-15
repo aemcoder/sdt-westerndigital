@@ -1,0 +1,219 @@
+{
+ "writtenBy": "stardust:dynamics client-logic capture",
+ "writtenAt": "2026-10-15T15:42:44.376Z",
+ "url": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+ "mount": "form[name=\"capacity-form\"], #capacity-form, form.capacity-form",
+ "locus": "client",
+ "thirdPartyRequestsDuringInteraction": 1,
+ "thirdPartyScriptHosts": [
+  "assets.adobedtm.com",
+  "connect.facebook.net",
+  "consent.app.relyance.ai",
+  "s.go-mpulse.net",
+  "www.youtube.com"
+ ],
+ "controls": 3,
+ "outputsChanged": 0,
+ "interactionRequests": [],
+ "sourceMaps": [],
+ "candidates": [
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "validateQuantity",
+   "calls": 3,
+   "bytes": 787,
+   "mathOps": 0,
+   "matchedLabels": [
+    "RAID type",
+    "raid-type",
+    "quantity"
+   ],
+   "score": 14.4,
+   "generated": {
+    "line": 55,
+    "column": 4
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "clearResult",
+   "calls": 2,
+   "bytes": 363,
+   "mathOps": 0,
+   "matchedLabels": [
+    "raid-type"
+   ],
+   "score": -0.5,
+   "generated": {
+    "line": 78,
+    "column": 4
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "oneLine",
+   "calls": 1,
+   "bytes": 85,
+   "mathOps": 4,
+   "matchedLabels": [],
+   "score": -2.4,
+   "generated": {
+    "line": 8428,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "(anonymous)",
+   "calls": 19,
+   "bytes": 29,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -4.9,
+   "generated": {
+    "line": 8002,
+    "column": 15
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "(anonymous)",
+   "calls": 4,
+   "bytes": 32,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -5,
+   "generated": {
+    "line": 36,
+    "column": 25
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/033-inline.js",
+   "function": "(anonymous)",
+   "calls": 4,
+   "bytes": 37,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -5.2,
+   "generated": {
+    "line": 384,
+    "column": 42
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "(anonymous)",
+   "calls": 1,
+   "bytes": 46,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -5.6,
+   "generated": {
+    "line": 107,
+    "column": 68
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "(anonymous)",
+   "calls": 6,
+   "bytes": 78,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.3,
+   "generated": {
+    "line": 79,
+    "column": 74
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "getMinDrives",
+   "calls": 3,
+   "bytes": 81,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.4,
+   "generated": {
+    "line": 31,
+    "column": 4
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "(inline)",
+   "file": "scripts/035-inline.js",
+   "function": "trimStringWithEllipsis",
+   "calls": 1,
+   "bytes": 90,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.5,
+   "generated": {
+    "line": 498,
+    "column": 0
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "requiresEvenQuantity",
+   "calls": 3,
+   "bytes": 95,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.6,
+   "generated": {
+    "line": 51,
+    "column": 4
+   },
+   "original": null
+  },
+  {
+   "framework": false,
+   "script": "https://www.westerndigital.com/tools/raid-capacity-calculator",
+   "file": "scripts/004-raid-capacity-calculator.js",
+   "function": "hideElements",
+   "calls": 2,
+   "bytes": 102,
+   "mathOps": 0,
+   "matchedLabels": [],
+   "score": -6.7,
+   "generated": {
+    "line": 35,
+    "column": 4
+   },
+   "original": null
+  }
+ ]
+}
