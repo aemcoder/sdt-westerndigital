@@ -1,0 +1,32 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (row 14, off-origin Tier 2 snapshot)",
+  "source": "https://www.westerndigital.com/graphql/execute.json/wd/clpcampaignendpoint;group1=all;group2=undefined;group3=undefined;group4=undefined;group5=undefined;group6=undefined;group7=undefined;group8=undefined;group9=undefined;group10=undefined;group11=undefined;brand1=all;channel=B2C;locale=/content/dam/store/cf/en-us",
+  "snapshotAt": "2026-10-15T16:16:31Z",
+  "why": "host-bound: the endpoint sends no Access-Control-Allow-Origin, so the browser cannot read it off-origin",
+  "unfreeze": "re-run the GET above (server-side) and overwrite this file, or route /graphql/execute.json/wd/clpcampaignendpoint same-origin on the production host"
+ },
+ "items": [
+  {
+   "_path": "/content/dam/store/cf/en-us/clp-campaigns/g-drive-project-18tb",
+   "attCampaignPriority": 9.0,
+   "description": null,
+   "subTitle": "G-DRIVE PROJECT 18TB<br>Now $699.99",
+   "textStyle": "pin-t-20",
+   "title": "Limited Time Offer",
+   "viewType": "linkTo",
+   "image": {
+    "_path": "/content/dam/store/en-us/assets/promotions/category-tile/G-DRIVE-PROJECT-18TB-Category-Tile.png"
+   },
+   "campaignUrl": {
+    "_path": "/content/store/en-us/products/external-drives/g-drive-project-hdd"
+   },
+   "urlApplicablePages": [
+    {
+     "_path": "/content/store/en-us/products"
+    }
+   ],
+   "applicableToAllPages": true
+  }
+ ]
+}

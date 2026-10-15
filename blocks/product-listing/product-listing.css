@@ -174,3 +174,14 @@ main .product-listing-container.spaced { padding-top: 24px; margin-bottom: 64px;
 .product-listing .clp-rail-close { display: none; }
 .product-listing .clp-rail.is-open .clp-rail-close { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; margin: -8px -8px 0 auto; padding: 0; border: 0; background: none; font-size: 32px; line-height: 1; color: var(--color-black); cursor: pointer; }
 .product-listing .clp-check.is-active:any-link { color: var(--color-black); text-decoration: none; }
+/* campaign tile (slot 3): picture fills the tile, copy centred 20px from the top — live 198×298 at 1440, 156×234 at 360 */
+.product-listing .tile-cell--campaign { margin-bottom: 64px; padding: 0 8px; }
+.product-listing .campaign-tile:any-link { position: relative; display: block; color: var(--color-black); }
+.product-listing .campaign-tile img { display: block; width: 100%; height: auto; max-height: 400px; }
+.product-listing .campaign-copy { position: absolute; top: 20px; left: 0; width: 100%; padding: 8px; text-align: center; }
+.product-listing .campaign-copy h2 { margin-bottom: 8px; font-size: 16px; line-height: 16px; font-weight: 700; }
+.product-listing .campaign-copy p { font-size: 14px; line-height: 16.8px; font-weight: 500; }
+@media (width >= 768px) {
+  .product-listing .campaign-copy h2 { font-size: 20px; line-height: 20px; }
+  .product-listing .campaign-copy p { font-size: 18px; line-height: 21.6px; }
+}

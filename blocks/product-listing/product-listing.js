@@ -123,6 +123,34 @@ function tileFromProduct(prod) {
   };
 }
 
+/* ---- campaign tile (slot 3 of every grid page): host-bound feed, served as a code-bus snapshot ---- */
+/* eslint-disable no-underscore-dangle -- `_path` / `_provenance` are the feed's own field names */
+const CAMPAIGNS = '/data/products/clp-campaigns.json';
+let campaignReq;
+async function campaignTile() {
+  campaignReq = campaignReq || fetch(`${window.hlx?.codeBasePath || ''}${CAMPAIGNS}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const json = await campaignReq;
+  const here = `/content/store/en-us${window.location.pathname}`;
+  const c = (json?.items || [])
+    .filter((x) => x.applicableToAllPages || (x.urlApplicablePages || []).some((u) => here.startsWith(u._path)))
+    .sort((a, b) => (b.attCampaignPriority || 0) - (a.attCampaignPriority || 0))[0];
+  if (!c) return null;
+  const cell = el('div', 'tile-cell tile-cell--campaign'); cell.dataset.snapshot = json._provenance?.snapshotAt || '';
+  const a = el('a', 'campaign-tile'); a.href = `${STORE}${(c.campaignUrl?._path || '').replace(/^\/content\/store\/en-us/, '')}`; a.setAttribute('aria-label', c.title || '');
+  if (c.image?._path) { const img = el('img'); img.src = `${STORE}${c.image._path}.wdthumb.500.500.webp`; img.alt = c.title || ''; img.loading = 'lazy'; a.append(img); }
+  const copy = el('div', 'campaign-copy'); const h = el('h2'); h.textContent = c.title || ''; copy.append(h);
+  if (c.subTitle) { const sub = el('p'); sub.append(...c.subTitle.split(/<br\s*\/?>/i).flatMap((line, i) => (i ? [el('br'), line] : [line]))); copy.append(sub); }
+  a.append(copy); cell.append(a);
+  return cell;
+}
+const placeCampaign = async (grid) => {
+  const tile = await campaignTile();
+  grid.querySelector('.tile-cell--campaign')?.remove();
+  if (tile && grid.children.length) grid.insertBefore(tile, grid.children[2] || null);
+};
+
+/* eslint-enable no-underscore-dangle */
+
 /* ---- data-fed state: URL ⇄ API ⇄ rail/grid/pagination ---- */
 const paramFor = (id) => `filterBy${id.charAt(0).toUpperCase()}${id.slice(1)}`;
 const idFor = (param) => `${param.charAt(8).toLowerCase()}${param.slice(9)}`;
@@ -256,6 +284,7 @@ function initDataFed(block, ctx) {
       });
       grid.replaceChildren(...items.map(renderTile));
       if (!items.length) grid.append(el('p', 'clp-empty', 'No products match the selected filters.'));
+      else placeCampaign(grid);
       count.innerHTML = `${pg.totalResults ?? items.length} <span class="qty-label">Items</span>`;
       const facets = json.facets || [];
       const toggle = (id, code) => {
@@ -363,7 +392,7 @@ export default function decorate(block) {
   /* fallback: the authored captured tiles, rendered at once (content-bearing without the API) */
   const fallback = tiles.map(tileFromCells);
   fallback.forEach((t) => grid.append(renderTile(t)));
-  if (fallback.length) count.innerHTML = `${fallback.length} <span class="qty-label">Items</span>`;
+  if (fallback.length) { count.innerHTML = `${fallback.length} <span class="qty-label">Items</span>`; placeCampaign(grid); }
   block.replaceChildren(body);
 
   const toggleRail = (btn) => {
