@@ -108,3 +108,6 @@ main .calculator-container > .default-content-wrapper a:any-link { color: var(--
   .calculator .calc-main { flex: 0 0 707px; box-sizing: border-box; }
   .calculator .calc-side { flex: 0 0 369px; box-sizing: border-box; }
 }
+/* live: the side CTAs span the column (319px of 369) */
+.calculator .calc-aside p.button-wrapper { display: flex; width: 100%; }
+.calculator .calc-aside p.button-wrapper a.button:any-link { flex: 1 1 auto; max-width: none; }
