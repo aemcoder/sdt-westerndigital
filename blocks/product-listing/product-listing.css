@@ -160,3 +160,7 @@ main .product-listing-container.spaced { padding-top: 24px; margin-bottom: 64px;
 .product-listing .pg-dots { align-items: center; padding: 0 8px; }
 .product-listing .clp-empty { margin: 16px 8px 0; font-size: 16px; }
 @media (width >= 768px) { .product-listing .clp-selected { display: none; } } /* live: the selected-filter chip bar is mobile-only (sm:hidden) */
+.product-listing .clp-drawer-head { display: none; }
+.product-listing .clp-rail.is-open .clp-drawer-head { position: sticky; top: -16px; z-index: 1; display: flex; align-items: center; margin: -16px -16px 0; padding: 16px 24px; border-bottom: 1px solid var(--color-border-light); background: var(--color-white); font-size: 16px; font-weight: 700; }
+.product-listing .clp-drawer-close { margin-left: auto; padding: 0 4px; border: 0; background: none; font: inherit; font-size: 28px; line-height: 24px; font-weight: 300; cursor: pointer; }
+@media (width >= 768px) { .product-listing .clp-rail.is-open .clp-drawer-head { display: none; } }

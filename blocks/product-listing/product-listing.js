@@ -183,6 +183,11 @@ export default function decorate(block) {
   const toggleRail = (btn) => { const open = rail.classList.toggle('is-open'); [shopBtn, filterBtn].forEach((b) => b.setAttribute('aria-expanded', open ? 'true' : 'false')); if (btn) btn.focus(); };
   shopBtn.addEventListener('click', () => toggleRail(shopBtn));
   filterBtn.addEventListener('click', () => toggleRail(filterBtn));
+  // the open drawer covers the toolbar: live carries a "Filter ×" head (mob-filter-close) inside it
+  const drawerHead = el('div', 'clp-drawer-head', '<span>Filter</span>');
+  const closeBtn = el('button', 'clp-drawer-close', '×'); closeBtn.type = 'button'; closeBtn.setAttribute('aria-label', 'Close filters');
+  closeBtn.addEventListener('click', () => toggleRail(filterBtn)); drawerHead.append(closeBtn); rail.prepend(drawerHead);
+  rail.addEventListener('keydown', (e) => { if (e.key === 'Escape' && rail.classList.contains('is-open')) toggleRail(filterBtn); });
 
   /* static: facet group names as captured, no values — replaced by the live facets once the API answers */
   facetNames.forEach((name, i) => {
